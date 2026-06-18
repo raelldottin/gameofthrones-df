@@ -1,0 +1,39 @@
+# Game Mechanics Update — Screenhots 2438–2461
+
+## Sources
+- `IMG_2438.PNG` – Dragon Care: Tier 7/8/9 upgrade grid (dragon class upgrades)
+- `IMG_2439.PNG` – Dragon Care: Dragon's Army IV, Tier 8 damage upgrades, Tier 9 locked defense upgrades
+- `IMG_2440.PNG` – Info Guide: Basic Resources (reign expiry confirmed)
+- `IMG_2441.PNG` – Info Guide: Special Resources — Hatchery Keys / Dragon Relics / Rarity Cores / Breedmarks
+- `IMG_2442.PNG` – Info Guide: Special Resources — Dragon Relics details
+- `IMG_2443.PNG` – Info Guide: Heirloom Resources — Runic Fragments / Valyrian Tablets
+- `IMG_2444.PNG` – Info Guide: Heirloom Resources — Dragonlord Scrolls / Amplifier Seals
+- `IMG_2445.PNG` – Info Guide: Store
+- `IMG_2446.PNG` – Info Guide: Market and Campaign Market
+- `IMG_2452.PNG` – Economy breakdown: Territories, Stronghold Upgrades, Boosts, Alliance Territories, Heirlooms
+- `IMG_2453.PNG` – Territory panel: 115/126, Territory Influence 9131, L5 resource tiles
+- `IMG_2454.PNG` – Territory panel: stone/iron tiles, coordinates, map view
+- `IMG_2455.PNG` – Territory panel: same data, map context
+- `IMG_2456.PNG` – Army Expansion Upgrade confirm
+- `IMG_2456 2.PNG` – ADJACENT GotDf upgrade details; verified GotDf upgrade/summary view
+- `IMG_2457.PNG` – Swift Stride upgrade L10 → L11
+- `IMG_2457 2.PNG` – Swift Stride upgrade L10 → L11 (duplicate/alt view)
+- `IMG_2458.PNG` – Relentless Assault upgrade L7 → L8
+- `IMG_2458 2.PNG` – Relentless Assault upgrade L7 → L8 (duplicate/alt view)
+- `IMG_2459.PNG` – Stalwart Defense upgrade L7 → L8
+- `IMG_2459 2.PNG` – Stalwart Defense upgrade L7 → L8 (duplicate/alt view)
+- `IMG_2460.PNG` – Cavalry Damage I upgrade L3 → L4
+- `IMG_2461.PNG` – Archers Damage I upgrade L1 → L2
+- `IMG_2462 2.PNG` – Spearmen Damage I L5 Max Level (duplicate/alt view)
+- `IMG_2463 2.PNG` – Shieldbearers Damage I L1 → L2 (duplicate/alt view)
+- `IMG_2464 2.PNG` – duplicate/alt view
+- `IMG_2465 2.PNG` – duplicate/alt view
+- `IMG_2466 2.PNG` – duplicate/alt view
+- `IMG_2467 2.PNG` – duplicate/alt view
+- `IMG_2468 2.PNG` – duplicate/alt view
+- `IMG_2469 2.PNG` – duplicate/alt view
+- `IMG_2470 2.PNG` – duplicate/alt view
+- `IMG_2471 2.PNG` – duplicate/alt view
+- `IMG_2472 2.PNG` – duplicate/alt view
+- `IMG_2473 2.PNG` – duplicate/alt view
+- `IMG_2474 2.PNG` – duplicate/alt view
