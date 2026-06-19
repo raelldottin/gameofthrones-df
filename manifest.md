@@ -13,6 +13,7 @@ Non-GotDf excluded: 6 (IMG_1886, IMG_1887, IMG_1889, IMG_2113, IMG_2114, IMG_680
 - IMG_2480–2485 — Dragon Feeding, Barracks, House profile, Dragon Growth intro
 - IMG_2486–2494 — Dragon Troop Capacity upgrade curves L8-L61
 - IMG_2495–2500 — Dragon Troop Capacity upgrade curves L62-L100
+- IMG_2908–2914 — Shadowsong (Hunter Whelp) skills: Breath of Fire, Ensnare; Dragon Pit roster updates
 
 ## Pending
 - IMG_2501–2579 — unprocessed
@@ -24,3 +25,4 @@ Non-GotDf excluded: 6 (IMG_1886, IMG_1887, IMG_1889, IMG_2113, IMG_2114, IMG_680
 - mechanics/screenshots-2474-2479-summary.md
 - mechanics/screenshots-2480-2485-summary.md
 - mechanics/dragon-troop-capacity-upgrades.md
+- mechanics/screenshots-2908-2914-summary.md
