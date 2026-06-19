@@ -1,6 +1,6 @@
 # Dragon Skills Reference — From Dragon Pit Screens
 
-*Extracted from IMG_2663-2748, IMG_2897-2914 (Dragon Pit management screens, 2026-06-16 to 2026-06-19)*
+*Extracted from IMG_2663-2748, IMG_2897-2922 (Dragon Pit management screens, 2026-06-16 to 2026-06-19)*
 
 ---
 
@@ -94,6 +94,74 @@
 
 ---
 
+### Daemoros (Warrior Hatchling, Lv 29, 2★) — Shadowflame (Command)
+
+**Shadowflame (Active)**
+- **Trigger:** Odd-numbered rounds (1, 3, 5, 7, 9...)
+- **Effect:** Deal **Physical Damage** to 1 adjacent enemy (Damage Rate: **+125%**)
+  - Scales with attacker's **Strength**, mitigated by target's **Instinct**
+- **Secondary:** 20% chance to apply **Burn** (Fire DoT) for 2 rounds (+20% Damage Rate over 2 rounds)
+- **Daemoros Stats (Lv 29, 2★, Warrior Hatchling):**
+  - **Strength:** 4,166.0
+  - **Health:** 12,950
+  - **HP:** 12,020 / 108,261
+  - **Ability Level:** 12 / 40
+  - **Level:** 29, 2★
+
+---
+
+### Vaeldra (Warrior Whelp, Lv 29, 3★) — Lure (Command) + Dragon's Valor (Habit)
+
+**Lure (Active)**
+- **Taunt Effect:** Each Round: 25% chance to **Taunt** 3 Enemies in any lane for 2 rounds
+- **Damage Effect:** Odd-numbered rounds: Deal **Physical Damage** to 2 adjacent enemies (Damage Rate: **+45%**)
+  - Scales with attacker's **Strength**, mitigated by target's **Instinct**
+- **Vaeldra Stats (Lv 29, 3★, Warrior Whelp):**
+  - **Level:** 29, 3★
+  - **HP:** 32,614 / 97,901
+  - **Level Progress:** 61 / 100
+  - **Stars:** 3★
+  - **Class:** Warrior Whelp
+
+**Dragon's Valor (Habit — Passive)**
+- **Trigger:** Start of Combat
+- **Effect:** Reduce Damage Received by **-5%**, increase **Strength** by **+8.5%**
+- **Upgrade Table:**
+  | Level | Damage Received | Strength | Power |
+  |-------|-----------------|----------|-------|
+  | 1 (current) | -5% | 8.5% | 340 |
+  | 2 | -6% | 10.2% | 740 |
+  | 3 | -7% | 11.9% | 1,200 |
+  | 4 | -8.5% | 14.45% | 1,800 |
+  | 5 | -10% | 17% | 2,500 |
+- **Upgrade Cost (L1→L2):** 100 Purple Cores + 100 Green Cores + 176 Gold
+
+**Vaeldra Stats (Lv 29, 3★, Warrior Whelp):**
+- **HP:** 32,614 / 97,901
+- **Level Progress:** 61 / 100
+- **Stars:** 3★
+- **Class:** Warrior Whelp
+- **Stats (from stats panel):**
+  - **Head/Attack:** 115.2
+  - **Rings/Defense:** 108.8
+  - **Eye/Speed:** 87.0
+  - **Wing/Flight:** 94.7
+  - **Flag/Tier:** Average
+  - **Lightning/Stamina:** 100 / 100
+  - **Level Progress:** 61 / 100
+
+---
+
+### Vaeldra (Warrior Whelp, Lv 27, 1★) — Dragon's Valor (Habit) — OLD VERSION
+*Note: Earlier screenshots show Vaeldra at Lv 27, 1★ with same Dragon's Valor habit*
+
+---
+
+### Vaeldra (Warrior Whelp, Lv 27, 1★) — Lure (Active) — OLD VERSION
+*Note: Earlier screenshots show Vaeldra with Lure ability at lower level*
+
+---
+
 ## Dragon Roster (from Dragon Pit screens)
 
 ### High-Level Dragons (Lv 25-29, 3-4★)
@@ -114,22 +182,23 @@
 | Nyrena | 25-27 | 2★ | Champion | Army 5 Van |
 | Dawnseeker | 29 | 1★ | Sentinel | Army 5 Right |
 | Seasmoke | 25 | 2★ | — | Army 5 Left |
+| **Daemoros** | **29** | **2★** | **Warrior** | **Army 3 Left** |
+| **Vaeldra** | **29** | **3★** | **Warrior** | **Army 3 Right** |
+| **Shadowsong** | **28** | **2★** | **Hunter** | **Army 5 Van** |
 
 ### Other Dragons Seen
 | Dragon | Level | Stars | Class | Notes |
 |--------|-------|-------|-------|-------|
-| Shadowsong | 25 | 3★ | Hunter | Dragon Pit roster, Lv25 3★ |
+| Shadowsong | 28 | 2★ | Hunter | Dragon Pit roster, Lv28 2★ |
 | Shadowrend | 29 | 4★ | Warrior | Dragon Pit roster |
 | Thunderstrike | 29 | 4★ | — | Dragon Pit roster |
-| Daemoros | 28 | 3★ | Warrior | Dragon Pit roster (upgraded from 1★) |
-| Vaeldra | 27 | 1★ | — | Dragon Pit roster (updated from Lv21/no stars) |
+| Daemoros | 29 | 2★ | Warrior | Dragon Pit roster, Lv29 2★ |
+| Vaeldra | 29 | 3★ | Warrior | Dragon Pit roster, Lv29 3★ |
 | Arulix | 27 | 2★ | Champion | Dragon Pit roster |
 | Caraxes | 25 | 3★ | — | Dragon Pit roster |
 | Kalspire | 25 | 3★ | — | Dragon Pit roster |
 | Crimson | 25 | 3★ | — | Dragon Pit roster |
 | Venator | — | — | — | Dragon Pit roster (egg visible, new) |
-| Daemoros | 28 | 1★ | Warrior | Dragon Pit roster |
-| Vaeldra | 27 | 1★ | — | Dragon Pit roster |
 | Kalspire | 25 | — | — | Dragon Pit roster (egg) |
 | Caraxes | 25 | — | — | Dragon Pit roster (egg) |
 | Crimson | 25 | 3★ | — | Dragon Pit roster |
@@ -176,3 +245,5 @@
 - Shadowsong (Hunter) adds Ensare (Round 1 Inst/Init debuff) + Breath of Fire (Rounds 2,5,8 Fire spread, Panic 1.5x)
 - Shadowsong stats: Lv25, 3★, Hunter Whelp, Attack 98.6, Defense 87.0, Speed 115.2, Flight 88.3, Class Average, Energy 250/100
 - Shadowsong resources: 3,864.0 Food, 13,540 Gold, Player Lv 25, Ensare L1→L2 cost: 100 Purple + 100 Green + 50 Gold
+- Daemoros (Lv29 2★ Warrior) adds Shadowflame (odd rounds Phys + Burn)
+- Vaeldra (Lv29 3★ Warrior) adds Lure (Taunt + odd-round Phys AoE) + Dragon's Valor (Start -5% dmg/+8.5% Str)
