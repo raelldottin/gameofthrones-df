@@ -18,9 +18,9 @@
 |------|----------|------------|-------------|
 | 1 | **Vhagar** | **Jagadrix** | **Bevlorin** |
 | 2 | **Vesper** | **Tashix** | **Antares** |
-| 3 | **Arrax** | **Feskar** | **Shimmer** |
+| 3 | **Arrax** | **Nyrena** | **Shimmer** |
 | 4 | **Solstryker** | **Rhysarion** | **Velar** |
-| 5 | **Nyrena** | **Seasmoke** | **Dawnseeker** |
+| 5 | **Dawnseeker** | **Seasmoke** | **Feskar** |
 
 ---
 
@@ -31,10 +31,9 @@
 | **Jagadrix** | Army 2 Vanguard | Army 1 Left | Highest power dragon; pairs with Vhagar's Taunt pressure |
 | **Dawnseeker** | Army 1 Right | Army 5 Right | Keeps Army 5 from being totally unsupported |
 | **Vesper** | Army 3 Vanguard | Army 2 Vanguard | Strong Sentinel, better anchor for Tashix/Antares |
-| **Shimmer** | Army 2 Right | Army 3 Right | Gives Arrax/Feskar a Sentinel support piece |
-| **Arrax** | Army 4 Vanguard | Army 3 Vanguard | Better tank/DPS anchor with Feskar |
-| **Solstryker** | Army 5 Vanguard | Army 4 Vanguard | Keeps Rhysarion/Velar army stronger |
-| **Nyrena** | Army 5 Right | Army 5 Vanguard | Best remaining body for the fifth army |
+| **Nyrena** | Army 5 Right | Army 3 Left | Hunter tactical debuff pairs with Arrax/Shimmer Sentinel coverage |
+| **Feskar** | Army 3 Left | Army 5 Right | Moves to cleanup army; 1★ but functional |
+| **Dawnseeker** | Army 1 Right | Army 5 Vanguard | Best remaining body for fifth army Vanguard |
 
 ---
 
@@ -44,9 +43,9 @@
 |------|-------------|--------|--------|-------------|--------|
 | **1** | Vhagar / Jagadrix / Bevlorin | Level 8 Wood (Cavalry) | ✅ **VALIDATED** | 14 images (IMG_2812–2827) | **VICTORY R9** — 85% Spearmen HP, 0 dragon deaths |
 | **2** | Vesper / Tashix / Antares | Level 8 Food (Archers) | ✅ **VALIDATED** | 14+ images (IMG_2769–2794, 2806–2808) | **VICTORY R9** — 77% Shieldbearer HP, 0 dragon deaths |
-| **3** | Arrax / Feskar / Shimmer | TBD | ⏳ Pending | — | — |
+| **3** | Arrax / Nyrena / Shimmer | TBD | ⏳ Pending | — | — |
 | **4** | Solstryker / Rhysarion / Velar | TBD | ⏳ Pending | — | — |
-| **5** | Nyrena / Seasmoke / Dawnseeker | TBD | ⏳ Pending | — | — |
+| **5** | Dawnseeker / Seasmoke / Feskar | TBD | ⏳ Pending | — | — |
 
 ---
 
@@ -55,7 +54,7 @@
 1. **Concentrate highest raw power in Armies 1–3** — Vhagar, Jagadrix, Vesper, Antares, Arrax in top 3 armies
 2. **Spread Sentinel coverage 4/5 armies** — Vhagar, Vesper, Shimmer, (Arrax?) as Vanguard anchors
 3. **Zero duplicate dragon names** — Each of 15 dragons used exactly once
-4. **Synergy pairing** — Vhagar+Jagadrix (Taunt pressure), Vesper+Tashix (Sentinel's Wit chain), Arrax+Feskar+Shimmer (Sentinel support)
+4. **Synergy pairing** — Vhagar+Jagadrix (Taunt pressure), Vesper+Tashix (Sentinel's Wit chain), Arrax+Nyrena+Shimmer (Hunter tactical debuff + Sentinel support)
 5. **Army 5 as cleanup/sacrificial** — Nyrena/Seasmoke/Dawnseeker weakest but functional
 
 ---
@@ -89,14 +88,14 @@
 | Tashix | 2 | Left | Fire Nuke/Enervate | Shimmering Mirage (Fire burst) |
 | Antares | 2 | Right | Fire/Phys/Tact Spread | Relentless Pursuit, Silent Shade |
 | Arrax | 3 | Vanguard | Tank/DPS Anchor | TBD |
-| Feskar | 3 | Left | DPS/Support | TBD |
+| Nyrena | 3 | Left | Hunter/Tactical Debuff | Undermine (Tact dmg + Phys dmg taken debuff) |
 | Shimmer | 3 | Right | Sentinel Support | TBD |
 | Solstryker | 4 | Vanguard | Anchor | TBD |
 | Rhysarion | 4 | Left | DPS | TBD |
 | Velar | 4 | Right | DPS (1★ L23→needs 2★ for L30) | TBD |
-| Nyrena | 5 | Vanguard | Best remaining body | TBD |
+| Dawnseeker | 5 | Vanguard | Support | TBD |
 | Seasmoke | 5 | Left | DPS | TBD |
-| Dawnseeker | 5 | Right | Support | TBD |
+| Feskar | 5 | Right | DPS/Support | TBD |
 
 ---
 
@@ -104,9 +103,9 @@
 
 1. **Collect battle logs for Armies 3, 4, 5** — Need screenshots for each army's engagements
 2. **Track Velar progression** — 1★ L23, needs 2★ for L30 (Realm Exp L0 blocker noted)
-3. **Validate Army 3 synergy** — Arrax + Feskar + Shimmer (Sentinel coverage)
+3. **Validate Army 3 synergy** — Arrax + Nyrena + Shimmer (Hunter tactical debuff + Sentinel coverage)
 4. **Validate Army 4 strength** — Solstryker + Rhysarion + Velar
-5. **Assess Army 5 viability** — Nyrena + Seasmoke + Dawnseeker (no Sentinel?)
+5. **Assess Army 5 viability** — Dawnseeker + Seasmoke + Feskar (1★ Vanguard, no Sentinel)
 
 ---
 
