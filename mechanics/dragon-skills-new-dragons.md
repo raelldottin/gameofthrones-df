@@ -1,164 +1,50 @@
-# New Dragon Skills — From IMG_2922-2944 (Dragon Pit, 2026-06-19 to 2026-06-20)
+# Additional Dragon Skills — From IMG_2943-2952 (Dragon Pit, 2026-06-19 to 2026-06-20)
 
 ---
 
-## Solstryker (Champion, Lv 30, 3★) — Steady Erosion (Habit) + Tactical Onslaught (Command)
+## Arrax (Warrior Whelp, Lv 31, 3★) — Sudden Strike (Command) + Headlong Into Danger (Habit)
 
-### Steady Erosion (Habit — Passive)
-- **Trigger:** Start of each round
-- **Effect:** Add 1 Stack of **Steady Erosion** (Max 10 Stacks) to all Enemies
-  - Each Stack: Reduces target's **Strength** by **-2%** (enhanced by **Strength**) until end of combat
+### Sudden Strike (Active)
+- **Trigger:** Rounds 2, 4, 5, 6, 8
+- **Debuff:** 25% chance **Weakened** to 1 adjacent enemy (-10% dmg dealt). **50% chance** if target has **Bleed**
+- **Damage:** Rounds 2, 4, 5, 6, 8: Phys DMG to 2 adjacent enemies (DR: **+40%**)
+  - Scales with **Strength**, mitigated by **Instinct**
+
+### Headlong Into Danger (Habit — Passive)
+- **Trigger:** Start of Round 4
+- **Buffs (4 rounds):** +25% Strength, +10% Initiative, +25% Physical DMG Dealt
+- **Debuffs (4 rounds):** +10% Physical DMG Received, -40% Instinct
 - **Upgrade Table:**
-  | Level | Strength per Stack | Power |
-  |-------|-------------------|-------|
-  | 1 (current) | -2% | 250 |
-  | 2 | -2.4% | 550 |
-  | 3 | -2.8% | 900 |
-  | 4 | -3.4% | 1,300 |
-  | 5 | -4% | 1,800 |
-- **Upgrade Cost (L1→L2):** 100 Blue + 100 Green + 160 Gold
+  | Level | DMG Received | Instinct | Power |
+  |-------|--------------|----------|-------|
+  | 1 | 10% | -40% | 250 |
+  | 2 | 8% | -32% | 550 |
+  | 3 | 6% | -24% | 900 |
+  | 4 | 3% | -12% | 1,300 |
+  | 5 | 0% | 0% | 1,800 |
+- **Upgrade Cost (L1→L2):** 100 Blue + 100 Green + 176 Gold
 
-### Tactical Onslaught (Command — Active)
-- **Trigger:** After every Basic Attack
-- **Odd Rounds:** Phys DMG to Basic Attack target (DR: **+30%**) + 20% chance reduce target's Phys DMG Dealt by **-12%** (2r)
-- **Even Rounds:** Tact DMG to 3 enemies any lane (DR: **+12.5%**), **2x** vs **Vulnerable**
-- **Damage Values:** 4,367 Phys / 11,250 Tact
-
-### Solstryker Stats (Lv 30, 3★, Champion Whelp)
-- **Level:** 30, 3★
-- **Class:** Champion Whelp
-- **Class Progress:** 13 / 100
-- **XP:** 117,120 / 132,385
-- **Stars:** 3★
-- **Stats:** Power 83.6, Armor 89.8, Acc 61.5, Speed 72.6, Rating Average, Energy 95/100
-- **Stats (alternate):** Head 83.6, Body 89.8, Eye 61.5, Wing 72.6, Flag Average, Lightning 95/100
-- **Abilities:** 1 unlocked (L1), 4 locked
-- **Command:** Tactical Onslaught + Steady Erosion
-- **XP:** 117,120 / 132,385
-- **Resources:** 4,367 Food / 11,250 Gold
+### Arrax Stats (Lv 31, 3★, Warrior Whelp)
+- **Attack/Head:** 84.9 / 83.6 / 88.6 / 86.1 / 115.2 (varies by screenshot)
+- **Defense/Rings:** 86.1 / 88.6 / 82.5 / 108.8
+- **Speed/Eye:** 66.4 / 64.0 / 87.0 / 59.0
+- **Flight/Wing:** 76.3 / 64.0 / 94.7 / 67.7
+- **Class:** Slow / Average
+- **Energy:** 96/100 / 100/100
+- **Level:** 31, 3★
+- **Class:** Warrior Whelp
+- **HP:** 129,999 / 146,394 (XP)
+- **Command:** Sudden Strike
+- **Class Progress:** 18 / 100
+- **Resources:** 4,467 Food / 11,450 Gold (varies)
 
 ---
 
-## Arulix (Champion Whelp, Lv 29, 3★) — Gleaming Spiral + Hypnotic Helix
-
-### Gleaming Spiral (Active)
-- **Every round:** 25% chance to reduce Fire Damage dealt by *all enemies that deal Fire damage* by 15% for 1 round
-- **Rounds 1, 2, 3, 5, 8:** Tactical DMG to enemies that deal Physical DMG (excluding Basic Attacks), DR **+45%**
-- **At 6+ Stars:** Rounds 1, 2, 3, 5, 8: Phys DMG to 2 enemies any lane (DR **+20%**), boosted 1.5x (+30%) R5, 2x (+40%) R8
-- **Fire DMG Dealt Modifier (base):** Reduce target's Fire DMG Dealt by **-15%**
-- **Phys DMG (At 6★):** DR **+20%**, scales with Str vs Inst
-- **Tact DMG (At 6★):** DR **+20%**, scales with Inst vs Int
-
-### Hypnotic Helix (Habit — Passive)
-- **Overwhelm Effect:** Prevents target from using Active Commands and Habits on their turn
-- **Trigger:** Rounds 2, 4, 7, 9: **13%** chance to **Stagger** 1 enemy any lane (2r), prioritizes Phys DMG dealers
-- **Stagger Effect:** Prevents Active Commands and Basic Attacks
-- **Upgrade Table:**
-  | Level | Stagger Chance | Power |
-  |-------|---------------|-------|
-  | 1 (current) | 12.5% | 250 |
-  | 2 | 15% | 550 |
-  | 3 | 17.5% | 900 |
-  | 4 | 21.3% | 1,300 |
-  | 5 | 25% | 1,800 |
-- **Upgrade Cost (L1→L2):** 100 Blue + 100 Green + 160 Gold
-
-### Arulix Stats (Lv 29, 3★, Champion Whelp)
-- **Head/Attack:** 115.2
-- **Rings/Defense:** 108.8
-- **Eye/Speed:** 87.0
-- **Wing/Flight:** 94.7
-- **Flag/Tier:** Average
-- **Lightning/Stamina:** 100 / 100
-- **Level Progress:** 81 / 100
-- **Level:** 29, 3★
-- **Class:** Champion Whelp
-- **HP:** 49,725 / 119,717
-- **Resources:** 4,266.0 Food / 10,850 Gold
-
----
-
-## Solstryker (Champion, Lv 30, 3★) — Steady Erosion + Tactical Onslaught
-
-### Steady Erosion (Habit — Passive)
-- **Trigger:** Start of each round
-- **Effect:** Add 1 Stack of **Steady Erosion** (Max 10) to all Enemies
-  - Each Stack: Reduces target's **Strength** by **-2%** (enhanced by **Strength**) until end of combat
-- **Upgrade Table:**
-  | Level | Strength per Stack | Power |
-  |-------|-------------------|-------|
-  | 1 | -2% | 250 |
-  | 2 | -2.4% | 550 |
-  | 3 | -2.8% | 900 |
-  | 4 | -3.4% | 1,300 |
-  | 5 | -4% | 1,800 |
-- **Upgrade Cost (L1→L2):** 100 Blue + 100 Green + 160 Gold
-
-### Tactical Onslaught (Command — Active)
-- **Trigger:** After every Basic Attack
-- **Odd Rounds:** Phys DMG to Basic Attack target (DR **+30%**) + 20% chance reduce target's Phys DMG Dealt by **-12%** (2r)
-- **Even Rounds:** Tact DMG to 3 enemies any lane (DR **+12.5%**), **2x** vs **Vulnerable**
-- **Damage Values:** 4,367 Phys / 11,250 Tact
-
-### Solstryker Stats (Lv 30, 3★, Champion Whelp)
-- **Level:** 30, 3★
-- **Class:** Champion Whelp
-- **Class Progress:** 13 / 100
-- **XP:** 117,120 / 132,385
-- **Stars:** 3★
-- **Stats:** Power 83.6, Armor 89.8, Acc 61.5, Speed 72.6, Rating Average, Energy 95/100
-- **Stats (alt):** Head 83.6, Body 89.8, Eye 61.5, Wing 72.6, Flag Average, Lightning 95/100
-- **Abilities:** 1 unlocked (L1), 4 locked
-- **Command:** Tactical Onslaught + Steady Erosion
-- **XP:** 117,120 / 132,385
-- **Resources:** 4,367 Food / 11,250 Gold
-
----
-
-## Arulix (Champion Whelp, Lv 29, 3★) — Gleaming Spiral + Hypnotic Helix
-
-### Gleaming Spiral (Active)
-- **Every round:** 25% chance to reduce Fire DMG dealt by *all enemies that deal Fire DMG* by 15% for 1 round
-- **Rounds 1, 2, 3, 5, 8:** Tactical DMG to enemies that deal Phys DMG (excl Basic Attacks), DR **+45%**
-- **At 6+ Stars:** Rounds 1,2,3,5,8: Phys DMG to 2 enemies any lane (DR **+20%**), boosted 1.5x (+30%) R5, 2x (+40%) R8
-- **Fire DMG Dealt Modifier (base):** Reduce target's Fire DMG Dealt by **-15%**
-- **Phys DMG (At 6★):** DR **+20%**, scales Str vs Inst
-- **Tact DMG (At 6★):** DR **+20%**, scales Inst vs Int
-
-### Hypnotic Helix (Habit — Passive)
-- **Overwhelm Effect:** Prevents target from using Active Commands and Habits on their turn
-- **Trigger:** Rounds 2, 4, 7, 9: **12.5%** chance to **Stagger** 1 enemy any lane (2r), prioritizes Phys DMG dealers
-- **Stagger Effect:** Prevents Active Commands and Basic Attacks
-- **Upgrade Table:**
-  | Level | Stagger Chance | Power |
-  |-------|---------------|-------|
-  | 1 (current) | 12.5% | 250 |
-  | 2 | 15% | 550 |
-  | 3 | 17.5% | 900 |
-  | 4 | 21.3% | 1,300 |
-  | 5 | 25% | 1,800 |
-- **Upgrade Cost (L1→L2):** 100 Blue + 100 Green + 160 Gold
-
-### Arulix Stats (Lv 29, 3★, Champion Whelp)
-- **Head/Attack:** 115.2
-- **Rings/Defense:** 108.8
-- **Eye/Speed:** 87.0
-- **Wing/Flight:** 94.7
-- **Flag/Tier:** Average
-- **Lightning/Stamina:** 100 / 100
-- **Level Progress:** 81 / 100
-- **Level:** 29, 3★
-- **Class:** Champion Whelp
-- **HP:** 49,725 / 119,717
-- **Resources:** 4,266.0 Food / 10,850 Gold
-
----
-
-## Daemoros (Warrior Hatchling, Lv 29, 2★) — Shadowflame
+## Daemoros (Warrior Hatchling, Lv 28, 1★ → Lv 29, 2★) — Shadowflame
 
 ### Shadowflame (Active)
 - **Trigger:** Odd-numbered rounds (1, 3, 5, 7, 9...)
-- **Effect:** Phys DMG to 1 adjacent enemy (DR **+125%**) + 20% chance **Burn** 2r (+20%)
+- **Effect:** Phys DMG to 1 adjacent enemy (DR: **+125%**) + 20% chance **Burn** 2r (+20%)
   - Scales with **Strength**, mitigated by **Instinct**
 - **Daemoros Stats (Lv 29, 2★, Warrior Hatchling):**
   - **Strength:** 4,166.0
@@ -169,7 +55,7 @@
 
 ---
 
-## Vaeldra (Warrior Whelp, Lv 29, 3★) — Lure + Dragon's Valor
+## Vaeldra (Warrior Whelp, Lv 27, 1★ → Lv 29, 3★) — Lure + Dragon's Valor
 
 ### Lure (Active)
 - **Taunt:** Each Round: 25% chance to **Taunt** 3 enemies any lane (2r)
@@ -199,9 +85,28 @@
 
 ---
 
+## Vhagar (Warrior Hatchling, Lv 30, 4★) — Fiery Bonds (Command)
+
+### Fiery Bonds (Active)
+- **Taunt:** Each Round: 25% chance to **Taunt 3** enemies any lane (2r). **50%** if target has **Burn**
+- **Damage:** Even rounds: Phys DMG to 1 adjacent (DR **+120%**)
+  - Scales with **Strength**, mitigated by **Instinct**
+
+### Vhagar Stats (Lv 30, 4★, Warrior Hatchling)
+- **HP:** 32,614 / 97,901 (Lv 30)
+- **Level Progress:** 0 / 40
+- **Command:** Fiery Bonds
+- **Attack/Head:** 136.7
+- **Defense/Rings:** 143.5
+- **Speed/Eye:** 99.4
+- **Flight/Wing:** 114.1
+- **Class:** Slow
+
+---
+
 ## Battle Rush (Habit — Passive)
 - **Trigger:** Start of Round 1
-- **Effect:** +25% Initiative (enhanced by Str), -15% Inst to 2 adjacent enemies (enhanced by Str), both 3 rounds
+- **Effect:** +25% Initiative (enhanced by Str), -15% Inst to 2 adjacent enemies (enhanced by Str). Both 3 rounds.
 - **Upgrade Table:**
   | Level | Initiative | Instinct | Power |
   |-------|------------|----------|-------|
@@ -229,17 +134,20 @@
 
 ---
 
-## Updated Dragon Roster (from IMG_2929, IMG_2943)
+## Updated Dragon Roster (from IMG_2929, IMG_2943-2952)
 
 | Dragon | Level | Stars | Class | Army Assignment |
 |--------|-------|-------|-------|-----------------|
+| **Arrax** | 31 | 3★ | Warrior | Army 3 Van |
+| **Vhagar** | 30 | 4★ | Warrior | Army 3 Right |
 | **Solstryker** | 30 | 3★ | Champion | Army 4 Van |
 | **Arulix** | 29 | 3★ | Champion | — |
-| **Shadowrend** | 29 | 2★ | Warrior | Army 3 Van |
-| **Thunderstrike** | 29 | 3★ | Warrior | Army 3 Left |
-| **Daemoros** | 28 | 1★ | Warrior | Army 3 Left (alt) |
-| **Vaeldra** | 27 | 1★ | Warrior | Army 3 Right |
-| **Shadowsong** | 25 | 3★ | Hunter | Army 5 Van |
+| **Shadowrend** | 29 | 2★ | Warrior | Warrior | Army 3 Van |
+| **Thunderstrike** | 29 | 3 | Warrior | Army 3 Left |
+| **Daemoros** | 28 | 1 | Warrior | Army 3 Left (alt) |
+| **Vaeldra** | 27 | 1 | Warrior | Army 3 Right |
+| **Solstryker** | 30 | 3★ | Champion | Army 4 Van |
+| **Arulix** | 29 | 3★ | Champion | — |
 | **Shadowrend** | 29 | 4★ | Warrior | Dragon Pit roster |
 | **Thunderstrike** | 29 | 4★ | Warrior | Dragon Pit roster |
 | **Daemoros** | 28 | 1★ | Warrior | Dragon Pit roster, Lv28 1★ |
@@ -256,51 +164,89 @@
 
 ---
 
-## Army 3: Solstryker / Arulix / ? (Champion Core)
-
-| Position | Dragon | Level/Stars | Class | Key Ability |
-|----------|--------|-------------|-------|-------------|
-| Van | Solstryker | 30, 3★ | Champion | Tactical Onslaught + Steady Erosion |
-| Left | Arulix | 29, 3★ | Champion | Gleaming Spiral + Hypnotic Helix |
-| Right | ? | ? | ? | ? |
-
-**Champion Core Synergy:**
-- **Arulix** → Gleaming Spiral (Fire reduction, Tactical vs Phys, 6★ Phys), Hypnotic Helix (Stagger + Overwhelm)
-- **Solstryker** → Tactical Onslaught (odd/even Phys/Tact, Vulnerable 2x), Steady Erosion (Str debuff stacks)
-- **Champion Core:** High Tactical/Physical synergy, stacking debuffs, turn manipulation
-
----
-
 ## Updated Army Compositions
 
-### Army 1: Vhagar / Jagadrix / Bevlorin (Validated VICTORY)
-### Army 2: Vesper / Tashix / Antares (Validated VICTORY)
 ### Army 3: Arrax / Daemoros / Vaeldra (Warrior Core)
-### Army 4: Solstryker / Rhysarion / Velar (Champion Core)
+| Position | Dragon | Level/Stars | Class | Key Ability |
+|----------|--------|-------------|-------|-------------|
+| Van | Arrax | 31, 3 | Warrior | Sudden Strike (Phys AoE), Headlong Into Danger |
+| Left | Daemoros | 29, 2 | Warrior | Shadowflame (Odd rounds Phys + Burn) |
+| Right | Vaeldra | 29, 3 | Warrior | Lure (Taunt + odd Phys) + Dragon's Valor |
+
+### Army 3 (Alt): Shadowrend / Thunderstrike / Vaeldra
+| Position | Dragon | Level/Stars | Class | Key Ability |
+|----------|--------|-------------|-------|-------------|
+| Van | Shadowrend | 29, 2 | Warrior | Eclipse Fervor (Panic + Phys) |
+| Left | Thunderstrike | 29, 3 | Warrior | Tail Whip (Odd/even Phys, Bleed at 6) |
+| Right | Vaeldra | 29, 3 | Warrior | Lure (Taunt + odd Phys) + Dragon's Valor |
+
+### Army 4: Solstryker / Arulix / ? (Champion Core)
+| Position | Dragon | Level/Stars | Class | Key Ability |
+|----------|--------|-------------|-------|-------------|
+| Van | Solstryker | 30, 3 | Champion | Tactical Onslaught + Steady Erosion |
+| Left | Arulix | 29, 3 | Champion | Gleaming Spiral + Hypnotic Helix |
+| Right | ? | ? | ? | ? |
+
 ### Army 5: Shadowsong / Seasmoke / Feskar
+| Position | Dragon | Level/Stars | Class |
+|----------|--------|-------------|-------|
+| Van | Shadowsong | 28, 2 | Hunter |
+| Left | Seasmoke | 25, 2 | — |
+| Right | Feskar | 28, 1 | Warrior |
 
 ---
 
-## Resource Requirements Summary
+## Skill Synergies
 
-| Upgrade | Blue | Green | Gold |
-|---------|------|-------|------|
-| Habit L1→L2 (Steady Erosion, Battle Rush) | 100 | 100 | 160 |
-| Habit L1→L2 (Dragon's Valor) | 100 Purple | 100 Green | 176 |
-| Habit L1→L2 (Battle Rush, Hypnotic Helix) | 100 Blue | 100 Green | 160 |
-| Habit L1→L2 (Ensare, Shadowflame) | 100 Purple | 100 Green | 50/176 Gold |
-| Ensare L1→L2 | 100 Purple + 100 Green + 50 Gold |
-| Shadowflame L1→L2 | (unknown) |
+### Army 3 (Warrior Core): Arrax / Daemoros / Vaeldra
+| Position | Dragon | Key Synergy |
+|----------|--------|-------------|
+| Van | Arrax | Sudden Strike (R2/4/5/6/8 Phys AoE + Weakened), Headlong Into Danger (R4: +25% Str/+25% Phys/+10% Init/-40% Inst/-10% Phys taken) |
+| Left | Daemoros | Shadowflame (Odd rounds: Phys +125% + 20% Burn 2r) |
+| Right | Vaeldra | Lure (25% Taunt 3 enemies, odd rounds Phys +45%), Dragon's Valor (-5% dmg/+8.5% Str) |
+
+### Army 3 (Alt): Shadowrend / Thunderstrike / Vaeldra
+| Position | Dragon | Key Synergy |
+|----------|--------|-------------|
+| Van | Shadowrend | Eclipse Fervor (25% Panic/round, R4/7/9/10 Phys 80%, 10★ Phys+Tact to 3) |
+| Left | Thunderstrike | Tail Whip (Odd: Phys 100% 1 target; 6★: Even Phys 50% + 25% Bleed 2r) |
+| Right | Vaeldra | Lure + Dragon's Valor (same as above) |
+
+### Army 4 (Champion Core): Solstryker + Arulix
+| Position | Dragon | Key Synergy |
+|----------|--------|-------------|
+| Van | Solstryker | Steady Erosion (-2% Str/stack, max 10 stacks), Tactical Onslaught (Odd: Phys 30% + 12% Phys reduction; Even: Tact 12.5% to 3, 2x vs Vuln) |
+| Left | Arulix | Gleaming Spiral (Fire -15%, Tact vs Phys 45%, 6★ Phys to 2 any lane), Hypnotic Helix (12.5% Stagger + Overwhelm) |
+| Right | ? | ? |
+
+### Synergy Notes
+- **Warrior Core (Army 3):** All Physical damage, odd/even round staggering, Taunt control (Vaeldra), Panic synergy (Shadowrend)
+- **Champion Core (Army 4):** High Tactical/Physical, turn manipulation (Stagger/Overwhelm), stacking Str debuffs (Steady Erosion), Vulnerable synergy (Tactical Onslaught 2x vs Vuln)
+- **Habits:** Battle Rush (Start R1: +Init/-Inst), Dragon's Valor (-5% dmg/+8.5% Str), Steady Erosion (Str stacks), Battle Rush (+Init/-Inst), Dragon's Valor (-5% dmg/+8.5% Str)
+
+---
+
+## Updated Resource Costs
+
+| Upgrade | Blue | Green | Purple | Gold |
+|---------|------|-------|--------|------|
+| Habit L1→L2 (Steady Erosion, Battle Rush, Hypnotic Helix) | 100 | 100 | — | 160 |
+| Habit L1→L2 (Dragon's Valor) | — | 100 | 100 | 176 |
+| Habit L1→L2 (Headlong Into Danger) | 100 | 100 | — | 176 |
+| Habit L1→L2 (Dragon's Valor) | 100 Purple | 100 Green | — | 176 |
+| Habit L1→L2 (Battle Rush, Hypnotic Helix, Steady Erosion) | 100 Blue | 100 Green | — | 160 |
+| Ensare L1→L2 | 100 Purple | 100 Green | — | 50 |
+| Headlong Into Danger L1→L2 | 100 Blue | 100 Green | — | 176 |
+| Shadowflame L1→L2 | (unknown) | — | — | — |
 
 ---
 
 ## Notes
-- **Solstryker** (Lv30 3★ Champion) — Army 4 Van — Tactical Onslaught (odd/even Phys/Tact, Vulnerable 2x) + Steady Erosion (Str stacks)
-- **Arulix** (Lv29 3★ Champion) — Gleaming Spiral (Fire reduction, Tactical vs Phys, 6★ Phys), Hypnotic Helix (Stagger + Overwhelm)
-- **Solstryker** (Lv30 3★) — Army 4 Van — Tactical Onslaught + Steady Erosion
-- **Arulix** (Lv29 3★ Champion) — Gleaming Spiral + Hypnotic Helix
+- **Arrax** (Lv31 3 Warrior) — Sudden Strike (R2/4/5/6/8 Phys AoE + Weakened), Headlong Into Danger (R4: +25% Str/+25% Phys/+10% Init/-40% Inst/-10% Phys taken)
+- **Solstryker** (Lv30 3★ Champion) — Army 4 Van — Tactical Onslaught (odd/even Phys/Tact, Vuln 2x) + Steady Erosion (Str stacks)
+- **Arulix** (Lv29 3★ Champion) — Gleaming Spiral (Fire reduction, Tact vs Phys, 6★ Phys AoE), Hypnotic Helix (Stagger/Overwhelm)
 - **Solstryker** Steady Erosion: Max 10 stacks of -2% Str/enemy/round
 - **Solstryker** Tactical Onslaught: Odd rounds Phys + Phys dmg reduction; Even rounds Tact 3-target, 2x vs Vulnerable
-- **Arulix** Gleaming Spiral: Fire reduction, Tactical vs Phys, 6★ Phys to 2 any lane
-- **Arulix** Hypnotic Helix: Stagger (disable commands/attacks) + Overwhelm (disable active/habit), 12.5%→25% chance
-- **Champion Core** (Army 4): Solstryker + Arulix — high Tactical/Physical, turn manipulation, stacking debuffs
+- **Arulix** Gleaming Spiral: Fire reduction, Tact vs Phys, 6★ Phys AoE
+- **Arulix** Hypnotic Helix: Stagger (disable commands/attacks) + Overwhelm (disable active/habit)
+- **Champion Core** (Army 4): Solstryker + Arulix — high Tactical/Physical, turn manipulation, stacking Str debuffs, Panic synergy with Shadowrend
