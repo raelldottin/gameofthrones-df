@@ -15,8 +15,8 @@
   },
   {
     "name": "Bevlorin",
-    "level": 27,
-    "stars": 2,
+    "level": 33,
+    "stars": 1,
     "class": "Warrior",
     "ability": "Nature's Reckoning"
   },
@@ -43,13 +43,6 @@
     "habit": "Blazing Onslaught"
   },
   {
-    "name": "Bevlorin",
-    "level": 33,
-    "stars": 1,
-    "class": "Warrior",
-    "ability": "Nature's Reckoning"
-  },
-  {
     "name": "Seasmoke",
     "level": 32,
     "stars": 1,
@@ -74,11 +67,11 @@
   {
     "name": "Velar",
     "level": 31,
-    "stars": 1,
+    "stars": 3,
     "class": "Sentinel",
     "ability": "Whirlwind",
-    "habit": "Dragon's Valor",
-    "loyal_bond": "Lure"
+    "loyal_bond": "Lure",
+    "habit": "Dragon's Valor"
   },
   {
     "name": "Shimmer",
@@ -101,7 +94,8 @@
     "stars": 3,
     "class": "Champion",
     "ability": "Steady Erosion",
-    "command": "Tactical Onslaught"
+    "command": "Tactical Onslaught",
+    "habit": "Steady Erosion"
   },
   {
     "name": "Arrax",
@@ -110,13 +104,6 @@
     "class": "Warrior",
     "ability": "Sudden Strike",
     "habit": "Headlong Into Danger"
-  },
-  {
-    "name": "Vhagar",
-    "level": 30,
-    "stars": 4,
-    "class": "Warrior",
-    "ability": "Fiery Bonds"
   },
   {
     "name": "Daemoros",
@@ -141,32 +128,6 @@
     "habit": "Ensare"
   },
   {
-    "name": "Velar",
-    "level": 31,
-    "stars": 3,
-    "class": "Sentinel",
-    "ability": "Whirlwind",
-    "loyal_bond": "Lure",
-    "habit": "Dragon's Valor"
-  },
-  {
-    "name": "Solstryker",
-    "level": 30,
-    "stars": 3,
-    "class": "Champion",
-    "ability": "Steady Erosion",
-    "command": "Tactical Onslaught",
-    "habit": "Steady Erosion"
-  },
-  {
-    "name": "Arulix",
-    "level": 29,
-    "stars": 3,
-    "class": "Champion",
-    "ability": "Gleaming Spiral",
-    "habit": "Hypnotic Helix"
-  },
-  {
     "name": "Shadowrend",
     "level": 29,
     "stars": 2,
@@ -181,26 +142,11 @@
     "ability": "Tail Whip"
   },
   {
-    "name": "Daemoros",
-    "level": 28,
-    "stars": 1,
-    "class": "Warrior",
-    "ability": "Shadowflame"
-  },
-  {
     "name": "Vaeldra",
     "level": 27,
     "stars": 1,
     "class": "Warrior",
     "ability": "Lure",
     "loyal_bond": "Dragon's Valor"
-  },
-  {
-    "name": "Shadowsong",
-    "level": 25,
-    "stars": 3,
-    "class": "Hunter",
-    "ability": "Breath of Fire",
-    "habit": "Ensare"
   }
 ]
