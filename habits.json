@@ -1,0 +1,363 @@
+[
+  {
+    "name": "Battle Rush",
+    "type": "Habit",
+    "trigger": "Start of Round 1",
+    "effect": "+25% Initiative, -15% enemy Instinct (2 adj, 3 rounds)",
+    "levels": {
+      "1": {
+        "damage_dealt": -27.5,
+        "recovery_rate": 25,
+        "power": 340
+      },
+      "2": {
+        "damage_dealt": -33,
+        "recovery_rate": 30,
+        "power": 740
+      },
+      "3": {
+        "damage_dealt": -38.5,
+        "recovery_rate": 35,
+        "power": 1200
+      },
+      "4": {
+        "damage_dealt": -46.75,
+        "recovery_rate": 42.5,
+        "power": 1800
+      },
+      "5": {
+        "damage_dealt": -55,
+        "recovery_rate": 50,
+        "power": 2500
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  },
+  {
+    "name": "Dragon's Valor",
+    "type": "Habit",
+    "trigger": "Start of Combat",
+    "effect": "-5% dmg taken, +8.5% Str",
+    "levels": {
+      "1": {
+        "dmg_reduction": 5,
+        "str_bonus": 8.5
+      },
+      "5": {
+        "dmg_reduction": 10,
+        "str_bonus": 17
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Headlong Into Danger",
+    "owner": "Arrax",
+    "type": "Habit",
+    "trigger": "Round 4",
+    "effect": "+25% Str, +25% Phys, +10% Init, -40% Inst, -10% Phys taken (4 rounds)",
+    "levels": {
+      "1": {
+        "str": 25,
+        "phys": 25,
+        "init": 10,
+        "inst": -40,
+        "phys_taken": -10
+      },
+      "5": {
+        "phys_taken": 0,
+        "inst": 0
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Steady Erosion",
+    "owner": "Solstryker",
+    "type": "Habit",
+    "trigger": "Each Round",
+    "effect": "+1 Str stack (Max 10) to all enemies (-2% Str/stack)",
+    "levels": {
+      "1": {
+        "str_reduction_per_stack": 2
+      },
+      "5": {
+        "str_reduction_per_stack": 4
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  },
+  {
+    "name": "Battle Dread",
+    "owner": "Nyrena",
+    "type": "Habit",
+    "trigger": "Start of Combat",
+    "effect": "-4% Str/Init to 3 enemies (enhanced by Int)",
+    "levels": {
+      "1": {
+        "reduction": 4
+      },
+      "2": {
+        "reduction": 4.8
+      },
+      "3": {
+        "reduction": 5.6
+      },
+      "4": {
+        "reduction": 6.8
+      },
+      "5": {
+        "reduction": 8
+      }
+    },
+    "power": {
+      "1": 250,
+      "2": 550,
+      "3": 900,
+      "4": 1300,
+      "5": 1800
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 50
+    }
+  },
+  {
+    "name": "Blazing Onslaught",
+    "owner": "Antares",
+    "type": "Habit",
+    "trigger": "Passive",
+    "effect": "+11% Fire/Phys dmg received debuff on target",
+    "levels": {
+      "1": {
+        "dmg": 11
+      },
+      "2": {
+        "dmg": 14
+      },
+      "3": {
+        "dmg": 15.4
+      },
+      "4": {
+        "dmg": 18.7
+      },
+      "5": {
+        "dmg": 22
+      }
+    },
+    "power": {
+      "1": 250,
+      "2": 550,
+      "3": 900,
+      "4": 1300,
+      "5": 1800
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Enervate",
+    "owner": "Tashix",
+    "type": "Habit",
+    "trigger": "Round 1",
+    "effect": "-10.5% Tact dmg on enemy Sentinel",
+    "levels": {},
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  },
+  {
+    "name": "Steady Erosion",
+    "owner": "Solstryker",
+    "type": "Habit",
+    "trigger": "Each Round",
+    "effect": "+1 Str stack (Max 10) to all enemies (-2% Str/stack)",
+    "levels": {
+      "1": {
+        "str_reduction_per_stack": 2
+      },
+      "5": {
+        "str_reduction_per_stack": 4
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  },
+  {
+    "name": "Dragon's Valor",
+    "owner": "Vaeldra",
+    "type": "Habit",
+    "trigger": "Start of Combat",
+    "effect": "-5% dmg taken, +8.5% Str",
+    "levels": {
+      "1": {
+        "dmg_reduction": 5,
+        "str_bonus": 8.5
+      },
+      "5": {
+        "dmg_reduction": 10,
+        "str_bonus": 17
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Headlong Into Danger",
+    "owner": "Arrax",
+    "type": "Habit",
+    "trigger": "Round 4",
+    "effect": "+25% Str, +25% Phys, +10% Init, -40% Inst, -10% Phys taken (4 rounds)",
+    "levels": {
+      "1": {
+        "str": 25,
+        "phys": 25,
+        "init": 10,
+        "inst": -40,
+        "phys_taken": -10
+      },
+      "5": {
+        "phys_taken": 0,
+        "inst": 0
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Steady Erosion",
+    "owner": "Solstryker",
+    "type": "Habit",
+    "trigger": "Each Round",
+    "effect": "+1 Str stack (Max 10) to all enemies (-2% Str/stack)",
+    "levels": {
+      "1": {
+        "str_reduction_per_stack": 2
+      },
+      "5": {
+        "str_reduction_per_stack": 4
+      }
+    },
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  },
+  {
+    "name": "Battle Dread",
+    "owner": "Nyrena",
+    "type": "Habit",
+    "trigger": "Start of Combat",
+    "effect": "-4% Str/Init to 3 enemies (enhanced by Int)",
+    "levels": {
+      "1": {
+        "reduction": 4
+      },
+      "2": {
+        "reduction": 4.8
+      },
+      "3": {
+        "reduction": 5.6
+      },
+      "4": {
+        "reduction": 6.8
+      },
+      "5": {
+        "reduction": 8
+      }
+    },
+    "power": {
+      "1": 250,
+      "2": 550,
+      "3": 900,
+      "4": 1300,
+      "5": 1800
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 50
+    }
+  },
+  {
+    "name": "Blazing Onslaught",
+    "owner": "Antares",
+    "type": "Habit",
+    "trigger": "Passive",
+    "effect": "+11% Fire/Phys dmg received debuff on target",
+    "levels": {
+      "1": {
+        "dmg": 11
+      },
+      "2": {
+        "dmg": 14
+      },
+      "3": {
+        "dmg": 15.4
+      },
+      "4": {
+        "dmg": 18.7
+      },
+      "5": {
+        "dmg": 22
+      }
+    },
+    "power": {
+      "1": 250,
+      "2": 550,
+      "3": 900,
+      "4": 1300,
+      "5": 1800
+    },
+    "upgrade_cost_l1_l2": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 176
+    }
+  },
+  {
+    "name": "Enervate",
+    "owner": "Tashix",
+    "type": "Habit",
+    "trigger": "Round 1",
+    "effect": "-10.5% Tact dmg on enemy Sentinel",
+    "levels": {},
+    "upgrade_cost_l1_l2": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "currency_types": {
+    "blue_hexagon": "Universal (skills, habits)",
+    "green_flame": "Universal (skills, habits)",
+    "purple_core": "Habits (Champion)",
+    "gold": "Universal",
+    "hunter_breedmark": "Hunter class",
+    "sentinel_breedmark": "Sentinel class",
+    "warrior_breedmark": "Warrior class",
+    "champion_breedmark": "Champion class",
+    "rare_core": "Rare dragon habits"
+  },
+  "habit_upgrade_costs": {
+    "blue_hex_green_flame_gold": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 160
+    },
+    "purple_core_green_flame_gold": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 176
+    },
+    "purple_core_green_flame_gold_50": {
+      "purple_core": 100,
+      "green_flame": 100,
+      "gold": 50
+    },
+    "blue_hex_green_flame_gold_176": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 176
+    },
+    "blue_hex_green_flame_gold_50": {
+      "blue_hex": 100,
+      "green_flame": 100,
+      "gold": 50
+    }
+  },
+  "star_upgrade": {
+    "method": "Hatchery Chest (Keys or Gold)",
+    "max_stars": 5,
+    "requirement": "Dragon Stars (1-5\u2605) upgraded via Hatchery Chest Keys + Gold"
+  },
+  "skill_upgrade": {
+    "method": "Cores + Breedmarks + Gold (up to Level 5 per skill)",
+    "max_level": 5,
+    "example": "Antares Blazing Onslaught L1->L2: 100 Blue Hex + 100 Green Flame + 176 Gold"
+  },
+  "farming_strategy": {
+    "rock_paper_scissors": {
+      "hunter_beats": "Sentinel",
+      "sentinel_beats": "Warrior",
+      "warrior_beats": "Champion",
+      "champion_beats": "Hunter"
+    },
+    "breedmark_farming": {
+      "hunter_breedmarks": "Hunt Wild Sentinel with Hunter dragons",
+      "sentinel_breedmarks": "Hunt Wild Warrior with Sentinel dragons",
+      "warrior_breedmarks": "Hunt Wild Champion with Warrior dragons",
+      "champion_breedmarks": "Hunt Wild Hunter with Champion dragons"
+    },
+    "core_farming": {
+      "hunter_cores": "Hunt Wild Hunter",
+      "sentinel_cores": "Hunt Wild Sentinel",
+      "warrior_cores": "Hunt Wild Warrior",
+      "champion_cores": "Hunt Wild Champion",
+      "rare_cores": "Wild Dragons, Gold/Shards Market"
+    }
+  }
+}

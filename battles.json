@@ -1,0 +1,84 @@
+[
+  {
+    "id": "army1_wood",
+    "army": "Army 1",
+    "target": "Level 8 Wood",
+    "location": "Acorn Hall (1217, 1442)",
+    "date": "2026-06-21 08:31:48 UTC",
+    "troop_type": "Spearmen",
+    "enemy_type": "Cavalry",
+    "result": "VICTORY R9",
+    "troop_hp_retained": "85%",
+    "dragon_deaths": 0,
+    "validated": true,
+    "rounds": 9,
+    "dragons": [
+      "Vhagar",
+      "Jagadrix",
+      "Bevlorin"
+    ],
+    "synergy": "Vhagar Warrior's Resilience -> Jagadrix (+16% Tact), Bevlorin Fire Ward -> Vhagar (-5% Fire dmg)"
+  },
+  {
+    "id": "army2_food",
+    "army": "Army 2",
+    "target": "Level 8 Food",
+    "location": "Acorn Hall (1217, 1442)",
+    "date": "2026-06-21 08:31:48 UTC",
+    "troop_type": "Shieldbearers",
+    "enemy_type": "Archers",
+    "result": "VICTORY R9",
+    "troop_hp_retained": "77%",
+    "dragon_deaths": 0,
+    "validated": true,
+    "rounds": 9,
+    "dragons": [
+      "Vesper",
+      "Tashix",
+      "Antares"
+    ],
+    "synergy": "Vesper Sentinel's Wit (+20 Init/Inst to Tashix), Tashix Shimmering Mirage (Fire 605/590/771), Antares Relentless Pursuit + Vulnerable"
+  },
+  {
+    "id": "army3_wood_warrior",
+    "army": "Army 3 (Warrior)",
+    "target": "Level 30 Outlaws (Archers)",
+    "location": "Harrenhal (1364, 1442)",
+    "date": "2026-06-19 10:40:02 UTC",
+    "troop_type": "Spearmen",
+    "enemy_type": "Archers",
+    "result": "STALEMATE",
+    "troop_hp_retained": "33%",
+    "dragon_deaths": 0,
+    "validated": false,
+    "rounds": 10,
+    "dragons": [
+      "Arrax",
+      "Daemoros",
+      "Vaeldra"
+    ],
+    "synergy": "Arrax Sudden Strike + Headlong Into Danger, Daemoros Shadowflame, Vaeldra Lure + Dragon's Valor",
+    "note": "Troop mismatch - Spearmen vs Archers = -7% Adv"
+  },
+  {
+    "id": "army3_alt_outlaws",
+    "army": "Army 3 (Alt - Arrax/Nyrena/Shimmer)",
+    "target": "Level 30 Outlaws (Archers)",
+    "location": "Harrenhal (1386, 1440)",
+    "date": "2026-06-19 11:28:38 UTC",
+    "troop_type": "Spearmen",
+    "enemy_type": "Archers",
+    "result": "STALEMATE",
+    "troop_hp_retained": "33%",
+    "dragon_deaths": 0,
+    "validated": false,
+    "rounds": 10,
+    "dragons": [
+      "Arrax",
+      "Nyrena",
+      "Shimmer"
+    ],
+    "synergy": "Arrax Sudden Strike, Nyrena Undermine (-10% Phys dmg), Shimmer Unbreakable Loyalty (+50% Tact, -18% Str)",
+    "note": "Troop mismatch - Spearmen vs Archers = -7% Adv"
+  }
+]

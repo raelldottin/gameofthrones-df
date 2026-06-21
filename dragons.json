@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Vhagar",
+    "level": 30,
+    "stars": 4,
+    "class": "Warrior",
+    "ability": "Fiery Bonds"
+  },
+  {
+    "name": "Jagadrix",
+    "level": 28,
+    "stars": 3,
+    "class": "Warrior",
+    "ability": "Cunning Whispers"
+  },
+  {
+    "name": "Bevlorin",
+    "level": 27,
+    "stars": 2,
+    "class": "Warrior",
+    "ability": "Nature's Reckoning"
+  },
+  {
+    "name": "Vesper",
+    "level": 34,
+    "stars": 2,
+    "class": "Sentinel",
+    "ability": "Eventide Strike"
+  },
+  {
+    "name": "Tashix",
+    "level": 29,
+    "stars": 2,
+    "class": "Hunter",
+    "ability": "Shimmering Mirage"
+  },
+  {
+    "name": "Antares",
+    "level": 35,
+    "stars": 3,
+    "class": "Hunter",
+    "ability": "Relentless Pursuit",
+    "habit": "Blazing Onslaught"
+  },
+  {
+    "name": "Bevlorin",
+    "level": 33,
+    "stars": 1,
+    "class": "Warrior",
+    "ability": "Nature's Reckoning"
+  },
+  {
+    "name": "Seasmoke",
+    "level": 32,
+    "stars": 1,
+    "class": "Sentinel",
+    "ability": "Loyal Bond"
+  },
+  {
+    "name": "Rhysarion",
+    "level": 32,
+    "stars": 1,
+    "class": "Champion",
+    "ability": "Dawnsong"
+  },
+  {
+    "name": "Nyrena",
+    "level": 32,
+    "stars": 1,
+    "class": "Hunter",
+    "ability": "Undermine",
+    "habit": "Battle Dread"
+  },
+  {
+    "name": "Velar",
+    "level": 31,
+    "stars": 1,
+    "class": "Sentinel",
+    "ability": "Whirlwind",
+    "habit": "Dragon's Valor",
+    "loyal_bond": "Lure"
+  },
+  {
+    "name": "Shimmer",
+    "level": 31,
+    "stars": 3,
+    "class": "Sentinel",
+    "ability": "Unbreakable Loyalty"
+  },
+  {
+    "name": "Arulix",
+    "level": 29,
+    "stars": 3,
+    "class": "Champion",
+    "ability": "Gleaming Spiral",
+    "habit": "Hypnotic Helix"
+  },
+  {
+    "name": "Solstryker",
+    "level": 30,
+    "stars": 3,
+    "class": "Champion",
+    "ability": "Steady Erosion",
+    "command": "Tactical Onslaught"
+  },
+  {
+    "name": "Arrax",
+    "level": 27,
+    "stars": 2,
+    "class": "Warrior",
+    "ability": "Sudden Strike",
+    "habit": "Headlong Into Danger"
+  },
+  {
+    "name": "Vhagar",
+    "level": 30,
+    "stars": 4,
+    "class": "Warrior",
+    "ability": "Fiery Bonds"
+  },
+  {
+    "name": "Daemoros",
+    "level": 29,
+    "stars": 2,
+    "class": "Warrior",
+    "ability": "Shadowflame"
+  },
+  {
+    "name": "Dawnseeker",
+    "level": 32,
+    "stars": 3,
+    "class": "Sentinel",
+    "ability": "Dawnsong"
+  },
+  {
+    "name": "Shadowsong",
+    "level": 28,
+    "stars": 2,
+    "class": "Hunter",
+    "ability": "Breath of Fire",
+    "habit": "Ensare"
+  },
+  {
+    "name": "Velar",
+    "level": 31,
+    "stars": 3,
+    "class": "Sentinel",
+    "ability": "Whirlwind",
+    "loyal_bond": "Lure",
+    "habit": "Dragon's Valor"
+  },
+  {
+    "name": "Solstryker",
+    "level": 30,
+    "stars": 3,
+    "class": "Champion",
+    "ability": "Steady Erosion",
+    "command": "Tactical Onslaught",
+    "habit": "Steady Erosion"
+  },
+  {
+    "name": "Arulix",
+    "level": 29,
+    "stars": 3,
+    "class": "Champion",
+    "ability": "Gleaming Spiral",
+    "habit": "Hypnotic Helix"
+  },
+  {
+    "name": "Shadowrend",
+    "level": 29,
+    "stars": 2,
+    "class": "Warrior",
+    "ability": "Eclipse Fervor"
+  },
+  {
+    "name": "Thunderstrike",
+    "level": 29,
+    "stars": 3,
+    "class": "Warrior",
+    "ability": "Tail Whip"
+  },
+  {
+    "name": "Daemoros",
+    "level": 28,
+    "stars": 1,
+    "class": "Warrior",
+    "ability": "Shadowflame"
+  },
+  {
+    "name": "Vaeldra",
+    "level": 27,
+    "stars": 1,
+    "class": "Warrior",
+    "ability": "Lure",
+    "loyal_bond": "Dragon's Valor"
+  },
+  {
+    "name": "Shadowsong",
+    "level": 25,
+    "stars": 3,
+    "class": "Hunter",
+    "ability": "Breath of Fire",
+    "habit": "Ensare"
+  }
+]
