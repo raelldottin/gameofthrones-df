@@ -1,68 +1,62 @@
 [
   {
-    "name": "Army 1 (Wood)",
+    "name": "Army 1 (PvP - Fire/Phys burst)",
     "vanguard": "Vhagar",
     "left": "Jagadrix",
     "right": "Bevlorin",
-    "troop_type": "Spearmen",
-    "target": "Level 8 Wood (Cavalry)",
-    "validated": true,
-    "result": "VICTORY R9, 85% HP, 0 deaths",
-    "synergy": "Vhagar -> Jagadrix (Warrior's Resilience), Bevlorin -> Vhagar (Fire Ward)"
-  },
-  {
-    "name": "Army 2 (Food)",
-    "vanguard": "Vesper",
-    "left": "Tashix",
-    "right": "Antares",
-    "troop_type": "Shieldbearers",
-    "target": "Level 8 Food (Archers)",
-    "validated": true,
-    "result": "VICTORY R9, 77% HP, 0 deaths",
-    "synergy": "Vesper -> Tashix (Sentinel's Wit chain), Tashix Shimmering Mirage (Fire nuke 771), Antares Relentless Pursuit + Vulnerable"
-  },
-  {
-    "name": "Army 3 (Warrior Core)",
-    "vanguard": "Arrax",
-    "left": "Daemoros",
-    "right": "Vaeldra",
-    "troop_type": "Spearmen",
-    "target": "Level 8 Wood (Cavalry)",
-    "validated": false,
-    "status": "STALEMATE (wrong troop type)",
-    "synergy": "Arrax Sudden Strike + Headlong Into Danger, Daemoros Shadowflame, Vaeldra Lure + Dragon's Valor"
-  },
-  {
-    "name": "Army 3 Alt (Outlaws)",
-    "vanguard": "Arrax",
-    "left": "Nyrena",
-    "right": "Shimmer",
-    "troop_type": "Spearmen",
-    "target": "Level 30 Outlaws (Archers)",
-    "validated": false,
-    "status": "STALEMATE (troop mismatch)",
-    "synergy": "Arrax Sudden Strike, Nyrena Undermine, Shimmer Unbreakable Loyalty + Crushing Force"
-  },
-  {
-    "name": "Army 4 (Champion Core)",
-    "vanguard": "Solstryker",
-    "left": "Arulix",
-    "right": "Shimmer",
+    "class_composition": "Sentinel / Warrior / Champion",
     "troop_type": "TBD",
-    "target": "TBD",
+    "target": "PvP",
     "validated": false,
-    "status": "PENDING",
-    "synergy": "Solstryker Steady Erosion + Tactical Onslaught, Arulix Gleaming Spiral + Hypnotic Helix, Shimmer Unbreakable Loyalty"
+    "status": "NEW - PENDING",
+    "synergy": "Vesper Eventide Strike (Tact) + Sentinel's Wit, Jagadrix Cunning Whispers (Fire burst + debuff), Feskar Calculated Assault (-12% Phys)"
   },
   {
-    "name": "Army 5 (Cleanup)",
+    "name": "Army 2 (PvP - Sustain/Fire)",
+    "vanguard": "Vesper",
+    "left": "Syrax",
+    "right": "Tashix",
+    "class_composition": "Sentinel / TBD / Hunter",
+    "troop_type": "TBD",
+    "target": "PvP",
+    "validated": false,
+    "status": "NEW - PENDING",
+    "synergy": "Dawnseeker Dawnsong (Fire + Recovery), Velar Whirlwind (Recovery + Tact), Antares Relentless Pursuit + Blazing Onslaught L2 + Vulnerable"
+  },
+  {
+    "name": "Army 3 (PvP - Taunt tank)",
     "vanguard": "Dawnseeker",
     "left": "Seasmoke",
     "right": "Feskar",
+    "class_composition": "Hunter / Champion / Warrior",
     "troop_type": "TBD",
-    "target": "TBD",
+    "target": "PvP",
     "validated": false,
-    "status": "PENDING (Seasmoke unknown)",
-    "synergy": "Dawnseeker Dawnsong (Fire + Recovery), Seasmoke Loyal Bond (Adv/Res), Feskar Calculated Assault"
+    "status": "NEW - PENDING",
+    "synergy": "Nyrena Undermine + Battle Dread, Shimmer Unbreakable Loyalty + Crushing Force, Vhagar Fiery Bonds (Taunt + Phys)"
+  },
+  {
+    "name": "Army 4 (PvP - Warrior rush)",
+    "vanguard": "Arrax",
+    "left": "Nyrena",
+    "right": "Shimmer",
+    "class_composition": "Warrior / Warrior / Warrior",
+    "troop_type": "TBD",
+    "target": "PvP",
+    "validated": false,
+    "status": "NEW - PENDING",
+    "synergy": "Arrax Sudden Strike + Headlong Into Danger, Daemoros Shadowflame, Vaeldra Lure + Dragon's Valor"
+  },
+  {
+    "name": "Army 5 (PvP - Support/Anti-Sentinel)",
+    "vanguard": "Solstryker",
+    "left": "Arulix",
+    "right": "Velar",
+    "class_composition": "Champion / TBD / Champion",
+    "troop_type": "TBD",
+    "target": "PvP",
+    "validated": false,
+    "status": "NEW - PENDING",
+    "synergy": "Arulix Gleaming Spiral + Hypnotic Helix, Seasmoke Loyal Bond (Adv +20% / Res -20%), Solstryker Steady Erosion + Tactical Onslaught"
   }
 ]
