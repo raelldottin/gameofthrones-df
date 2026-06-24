@@ -24,6 +24,7 @@ This document summarizes the troop affinities for various dragons in Game of Thr
 | **Zivern** | (unknown) | Archer **and** Siege | — | Archer **or** Siege |
 | **Shadowrend** | Warrior | Shieldbearer **and** Siege | — | Shieldbearer **or** Siege |
 | **Thunderstrike** | (unknown) | Cavalry | — | Cavalry |
+| **Crimson** | Hunter | Spearmen **and** Archer **and** Cavalry | Not yet observed | Spearmen **or** Archer **or** Cavalry |
 | **Feskar** | Champion | Spearmen **and** Archer **and** Siege | — | Spearmen **or** Archer **or** Siege |
 | **Jagadrix** | Warrior | **Spearmen** | — | **Spearmen** |
 | **Vesper** | Sentinel | Shieldbearer | Siege | Shieldbearer |
@@ -46,10 +47,12 @@ This document summarizes the troop affinities for various dragons in Game of Thr
 
 3. **Multiple Affinities**: Dragons can have multiple positive affinities (e.g., Feskar has affinity with Spearmen, Archer, AND Siege).
 
-4. **Usage Recommendation**: 
+4. **Usage Recommendation**:
    - For army optimization, match troop types to dragon affinities to maximize the +20% stat boost
    - Consider which dragons in your army you want to strengthen most when selecting troop types
    - Rotate troop types to cover multiple dragons in multi-dragon armies
+
+5. **Crimson**: The Dragon Pit affinity icons show positive affinity with Spearmen, Archers, and Cavalry. No negative affinity was visible in the supplied screenshots.
 
 ## Sources
 
@@ -57,6 +60,7 @@ Data compiled from:
 - Dragon Pit screenshots (IMG_3257.PNG, IMG_3258.PNG, IMG_3259.PNG, etc.)
 - Battle report analysis (IMG_3256.PNG and others)
 - User-provided affinity information throughout the discovery process
+- Crimson Dragon Pit screenshots supplied on June 23, 2026
 - Repository references: `dragons.json`, `armies.json`, and various mechanics documents
 
 ## Last Updated
