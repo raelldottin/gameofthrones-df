@@ -1,0 +1,61 @@
+{
+  "observed_date": "2026-06-24",
+  "campaign_market": {
+    "observed_balance_campaign_favors": 75,
+    "offers": {
+      "epic_core": {
+        "quantity": 20,
+        "cost_campaign_favors": 100,
+        "available_per_refresh": 10,
+        "cost_per_core": 5
+      },
+      "legendary_core": {
+        "quantity": 5,
+        "cost_campaign_favors": 100,
+        "available_per_refresh": 10,
+        "cost_per_core": 20
+      }
+    },
+    "legendary_core_capacity_per_refresh": 50
+  },
+  "relic_shards_market": {
+    "observed_balances": {
+      "rare_cores": 99,
+      "epic_cores": 10,
+      "legendary_cores": 0,
+      "gold": 334
+    },
+    "conversion_offers": {
+      "epic_core": {
+        "quantity": 1,
+        "cost_rare_cores": 30,
+        "available": 99
+      },
+      "legendary_core": {
+        "quantity": 1,
+        "cost_epic_cores": 25,
+        "available": 99
+      }
+    },
+    "derived_conversion_costs": {
+      "rare_cores_per_legendary_core": 750,
+      "epic_cores_per_100_legendary_cores": 2500,
+      "rare_cores_per_100_legendary_cores": 75000
+    }
+  },
+  "malachite_forests_instinct_level_2": {
+    "legendary_cores_required": 100,
+    "green_cores_required": 100,
+    "campaign_market_plan": {
+      "packs_required": 20,
+      "campaign_favors_required": 2000,
+      "minimum_market_refreshes": 2
+    }
+  },
+  "notes": [
+    "Legendary Cores can be purchased directly in the Campaign market; they are not limited to the Relic Shards conversion market.",
+    "The direct Campaign-market price is 5 Legendary Cores for 100 Campaign Favors.",
+    "The Relic Shards conversion chain is much more expensive and is best reserved for closing a small final shortage.",
+    "The observed Campaign-market Gold offer showed 8 packs remaining after two prior purchases, consistent with spending 200 Campaign Favors on Gold."
+  ]
+}
