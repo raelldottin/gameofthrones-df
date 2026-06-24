@@ -198,9 +198,13 @@
   },
   {
     "name": "Syrax",
-    "level": 34,
+    "level": 36,
+    "stars": 1,
     "class": "Sentinel",
+    "subclass": "Sentinel Hatchling",
     "ability": "Blazing Fury",
+    "skill_progress": "0/40",
+    "xp": "5394/242069",
     "affinities": [
       "Spearmen",
       "Archers"
@@ -208,6 +212,32 @@
     "negative_affinities": [
       "Siege"
     ],
-    "notes": "Stars were not updated because the optimized-army screenshot did not provide a confidently readable rarity count."
+    "habits": [
+      {
+        "name": "Mindful Synergy",
+        "unlock_at_stars": 2,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Flight Mastery",
+        "unlock_at_stars": 4,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Strategic Revival",
+        "unlock_at_stars": 6,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Tactical Inferno",
+        "unlock_at_stars": 8,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Mother's Mercy",
+        "unlock_at_stars": 10,
+        "currently_unlocked": false
+      }
+    ]
   }
 ]
