@@ -51,10 +51,17 @@
   },
   {
     "name": "Rhysarion",
-    "level": 32,
+    "level": 34,
     "stars": 1,
     "class": "Champion",
-    "ability": "Dawnsong"
+    "ability": "Dawnsong",
+    "habit": "Ebbing Fury",
+    "habit_level": 1,
+    "affinities": [
+      "Spearmen",
+      "Shieldbearers",
+      "Siege"
+    ]
   },
   {
     "name": "Nyrena",
@@ -170,6 +177,23 @@
       "Spearmen",
       "Archers",
       "Cavalry"
+    ]
+  },
+  {
+    "name": "Malachite",
+    "level": 32,
+    "stars": 1,
+    "class": "Sentinel",
+    "ability": "Warden's Rally",
+    "habit": "Forest's Instinct",
+    "habit_level": 1,
+    "affinities": [
+      "Cavalry",
+      "Shieldbearers"
+    ],
+    "negative_affinities": [
+      "Spearmen",
+      "Siege"
     ]
   }
 ]
