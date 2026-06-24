@@ -1,62 +1,148 @@
 [
   {
-    "name": "Army 1 (PvP - Fire/Phys burst)",
+    "name": "Army 1 — Shieldbearer Defensive Anchor",
+    "left": "Malachite",
     "vanguard": "Vhagar",
-    "left": "Jagadrix",
-    "right": "Bevlorin",
-    "class_composition": "Sentinel / Warrior / Champion",
-    "troop_type": "TBD",
-    "target": "PvP",
-    "validated": false,
-    "status": "NEW - PENDING",
-    "synergy": "Vesper Eventide Strike (Tact) + Sentinel's Wit, Jagadrix Cunning Whispers (Fire burst + debuff), Feskar Calculated Assault (-12% Phys)"
+    "right": "Rhysarion",
+    "dragon_levels": {
+      "Malachite": 32,
+      "Vhagar": 38,
+      "Rhysarion": 34
+    },
+    "troop_type": "Shieldbearers",
+    "troops_assigned": 17773,
+    "troop_capacity": 17773,
+    "affinity_coverage": "3/3",
+    "march_speed": "Very Slow",
+    "displayed_summary_stats": {
+      "stat_1": 65160,
+      "stat_2": 35546
+    },
+    "target": "PvP defense, sustain, anti-burst",
+    "validated": true,
+    "status": "LOCKED — OPTIMAL CORE",
+    "synergy": "Ebbing Fury suppresses all damage for rounds 1-3 and heals all allies at round 4; Forest's Instinct buffs Vhagar and Rhysarion with Physical command damage and Tactical resistance; Vhagar holds vanguard with Fiery Bonds control.",
+    "positioning_rationale": "Malachite supports both other allies from the left, Vhagar is the durable control vanguard, and Rhysarion is protected on the right until Ebbing Fury Recovery activates.",
+    "troop_matchup": {
+      "advantage_against": ["Archers", "Siege"],
+      "disadvantage_against": ["Cavalry"]
+    }
   },
   {
-    "name": "Army 2 (PvP - Sustain/Fire)",
-    "vanguard": "Vesper",
-    "left": "Syrax",
-    "right": "Tashix",
-    "class_composition": "Sentinel / TBD / Hunter",
-    "troop_type": "TBD",
-    "target": "PvP",
+    "name": "Army 2 — Shieldbearer Sustain and Control",
+    "left": "Arrax",
+    "vanguard": "Velar",
+    "right": "Nyrena",
+    "dragon_levels": {
+      "Arrax": 38,
+      "Velar": 36,
+      "Nyrena": 36
+    },
+    "troop_type": "Shieldbearers",
+    "troops_assigned": 17869,
+    "troop_capacity": 17869,
+    "affinity_coverage": "3/3",
+    "march_speed": "Slow",
+    "displayed_summary_stats": {
+      "stat_1": 46150,
+      "stat_2": 35738
+    },
+    "target": "PvP sustain, attrition, physical control",
     "validated": false,
-    "status": "NEW - PENDING",
-    "synergy": "Dawnseeker Dawnsong (Fire + Recovery), Velar Whirlwind (Recovery + Tact), Antares Relentless Pursuit + Blazing Onslaught L2 + Vulnerable"
+    "status": "OPTIMIZED — PENDING BATTLE VALIDATION",
+    "synergy": "Velar supplies repeated team Recovery, Taunt access, Dragon's Valor mitigation, and ally damage support; Arrax contributes multi-target Physical damage and Weakened; Nyrena adds Tactical damage and debuffs.",
+    "positioning_rationale": "Velar belongs in vanguard because it is the Sentinel sustain engine. Arrax stays on a flank because Headlong Into Danger trades defense for offense, while Nyrena remains protected on the opposite flank.",
+    "troop_matchup": {
+      "advantage_against": ["Archers", "Siege"],
+      "disadvantage_against": ["Cavalry"]
+    }
   },
   {
-    "name": "Army 3 (PvP - Taunt tank)",
-    "vanguard": "Dawnseeker",
-    "left": "Seasmoke",
-    "right": "Feskar",
-    "class_composition": "Hunter / Champion / Warrior",
-    "troop_type": "TBD",
-    "target": "PvP",
-    "validated": false,
-    "status": "NEW - PENDING",
-    "synergy": "Nyrena Undermine + Battle Dread, Shimmer Unbreakable Loyalty + Crushing Force, Vhagar Fiery Bonds (Taunt + Phys)"
-  },
-  {
-    "name": "Army 4 (PvP - Warrior rush)",
-    "vanguard": "Arrax",
-    "left": "Nyrena",
-    "right": "Shimmer",
-    "class_composition": "Warrior / Warrior / Warrior",
-    "troop_type": "TBD",
-    "target": "PvP",
-    "validated": false,
-    "status": "NEW - PENDING",
-    "synergy": "Arrax Sudden Strike + Headlong Into Danger, Daemoros Shadowflame, Vaeldra Lure + Dragon's Valor"
-  },
-  {
-    "name": "Army 5 (PvP - Support/Anti-Sentinel)",
-    "vanguard": "Solstryker",
+    "name": "Army 3 — Cavalry Anti-Fire Control",
     "left": "Arulix",
-    "right": "Velar",
-    "class_composition": "Champion / TBD / Champion",
-    "troop_type": "TBD",
-    "target": "PvP",
+    "vanguard": "Seasmoke",
+    "right": "Shimmer",
+    "dragon_levels": {
+      "Arulix": 37,
+      "Seasmoke": 40,
+      "Shimmer": 38
+    },
+    "troop_type": "Cavalry",
+    "troops_assigned": 18375,
+    "troop_capacity": 18375,
+    "affinity_coverage": "3/3",
+    "march_speed": "Slow",
+    "displayed_summary_stats": {
+      "stat_1": 54300,
+      "stat_2": 36750
+    },
+    "target": "PvP anti-fire, anti-physical-command, tactical control",
     "validated": false,
-    "status": "NEW - PENDING",
-    "synergy": "Arulix Gleaming Spiral + Hypnotic Helix, Seasmoke Loyal Bond (Adv +20% / Res -20%), Solstryker Steady Erosion + Tactical Onslaught"
+    "status": "OPTIMIZED — PENDING BATTLE VALIDATION",
+    "synergy": "Seasmoke provides the strongest front-line body; Arulix reduces enemy Fire damage, attacks Physical command users, and can Stagger; Shimmer reduces enemy Strength and Initiative.",
+    "positioning_rationale": "Seasmoke is the highest-level Legendary and holds vanguard. Arulix's broad targeting works safely from the left, while Shimmer can be flipped to the flank opposite the enemy damage dealer that most needs its Strength and Initiative reduced.",
+    "troop_matchup": {
+      "advantage_against": ["Shieldbearers", "Siege"],
+      "disadvantage_against": ["Spearmen"]
+    }
+  },
+  {
+    "name": "Army 4 — Archer Fast Burst",
+    "left": "Tashix",
+    "vanguard": "Syrax",
+    "right": "Antares",
+    "dragon_levels": {
+      "Tashix": 40,
+      "Syrax": 34,
+      "Antares": 40
+    },
+    "troop_type": "Archers",
+    "troops_assigned": 12258,
+    "troop_capacity": 18275,
+    "troops_missing": 6017,
+    "affinity_coverage": "3/3",
+    "march_speed": "Fast",
+    "displayed_summary_stats": {
+      "stat_1": 58690,
+      "stat_2": 24516
+    },
+    "target": "PvP offensive opener and Fire burst",
+    "validated": false,
+    "status": "OPTIMIZED POSITIONS — TROOPS UNDERFILLED",
+    "synergy": "Syrax protects two damage-oriented flank dragons; Tashix supplies repeated Fire attacks; Antares deals Fire damage and applies Vulnerable to increase damage received.",
+    "positioning_rationale": "Syrax is the Sentinel and remains vanguard. Tashix and Antares stay protected on the flanks. The formation should not be performance-tested until all 18,275 Archer slots are filled.",
+    "troop_matchup": {
+      "advantage_against": ["Spearmen", "Siege"],
+      "disadvantage_against": ["Shieldbearers"]
+    }
+  },
+  {
+    "name": "Army 5 — Spearmen Crimson Control",
+    "left": "Jagadrix",
+    "vanguard": "Dawnseeker",
+    "right": "Crimson",
+    "dragon_levels": {
+      "Jagadrix": 40,
+      "Dawnseeker": 39,
+      "Crimson": 30
+    },
+    "troop_type": "Spearmen",
+    "troops_assigned": 18570,
+    "troop_capacity": 18570,
+    "affinity_coverage": "3/3",
+    "march_speed": "Slow",
+    "displayed_summary_stats": {
+      "stat_1": 55000,
+      "stat_2": 37140
+    },
+    "target": "PvP anti-Cavalry, Fire control, developing burst",
+    "validated": false,
+    "status": "OPTIMIZED — PENDING BATTLE VALIDATION",
+    "synergy": "Dawnseeker protects the formation; Jagadrix lowers enemy Instinct and Initiative; lower enemy Initiative improves Crimson's Intelligence-scaled Fire damage, while Crimson adds any-lane Stun and Fire burst.",
+    "positioning_rationale": "Dawnseeker is the Sentinel vanguard. Jagadrix occupies the stronger flank, and the lower-level 1-star Crimson remains protected on the right because Bloodscale Terror can target any lane.",
+    "troop_matchup": {
+      "advantage_against": ["Cavalry", "Siege"],
+      "disadvantage_against": ["Archers"]
+    }
   }
 ]
