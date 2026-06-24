@@ -1,0 +1,83 @@
+{
+  "name": "Syrax Event Dragon Chest",
+  "observed_date": "2026-06-24",
+  "displayed_time_remaining": "1d",
+  "cost_gold": {
+    "single": 120,
+    "ten_pull": 1200,
+    "bulk_discount": false
+  },
+  "keys_observed": {
+    "dragonbone": 0,
+    "dragonglass": 0,
+    "dragonfire": 0
+  },
+  "gold_observed": 424,
+  "rewards_per_opening": 3,
+  "featured_dragons": {
+    "legendary": "Syrax",
+    "epic": "Vaeldra"
+  },
+  "pity": {
+    "syrax_legendary_elite": {
+      "counter": 62,
+      "guaranteed_at": 250,
+      "pulls_remaining": 188,
+      "reward_quantity": 100
+    },
+    "vaeldra_epic_elite": {
+      "counter": 62,
+      "guaranteed_at": 130,
+      "pulls_remaining": 68,
+      "reward_quantity": 100
+    }
+  },
+  "reward_2_legendary": {
+    "rarity_probability": 0.1,
+    "quantity_probabilities": {
+      "5": 0.96,
+      "100": 0.038,
+      "1000": 0.002
+    },
+    "dragon_selection": {
+      "Syrax": 0.5,
+      "Kalspire": 0.0714,
+      "Seasmoke": 0.0714,
+      "Caraxes": 0.0714,
+      "Crimson": 0.0714,
+      "Malachite": 0.0714,
+      "Venator": 0.0714,
+      "Vhagar": 0.0714
+    }
+  },
+  "derived_syrax_probabilities_per_opening": {
+    "5_relics": 0.048,
+    "100_relics": 0.0019,
+    "1000_relics": 0.0001,
+    "any_syrax_drop": 0.05,
+    "elite_or_super_syrax_drop": 0.002,
+    "expected_syrax_relics": 0.53
+  },
+  "three_opening_gold_scenario": {
+    "openings": 3,
+    "gold_spent": 360,
+    "gold_remaining": 64,
+    "syrax_at_least_once": 0.142625,
+    "no_syrax_drop": 0.857375,
+    "elite_or_super_syrax_at_least_once": 0.005988008,
+    "expected_syrax_relics": 1.59,
+    "syrax_pity_after": 65,
+    "vaeldra_pity_after": 65
+  },
+  "current_syrax_progress": {
+    "stars": 1,
+    "relics": 0,
+    "relics_required_for_next_star": 40,
+    "standard_5_relic_drop_progress_fraction": 0.125
+  },
+  "recommendation": {
+    "spend_gold": false,
+    "use_free_dragonglass_keys": true,
+    "reason": "Three paid pulls have an 85.7375% chance of producing no Syrax relics, leave only 64 Gold, and move both pity counters only from 62 to 65. Save Gold for guaranteed Syrax relics or a purchase that completes the 2-star unlock."
+  }
+}
