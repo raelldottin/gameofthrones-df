@@ -148,5 +148,28 @@
     "class": "Warrior",
     "ability": "Lure",
     "loyal_bond": "Dragon's Valor"
+  },
+  {
+    "name": "Crimson",
+    "level": 30,
+    "stars": 1,
+    "class": "Hunter",
+    "subclass": "Hunter Hatchling",
+    "ability": "Bloodscale Terror",
+    "stats": {
+      "strength": 127.6,
+      "instinct": 118.3,
+      "intelligence": 147.3,
+      "initiative": 116.0,
+      "speed": "Slow",
+      "energy": "250/100"
+    },
+    "skill_progress": "0/40",
+    "xp": "7/132385",
+    "affinities": [
+      "Spearmen",
+      "Archers",
+      "Cavalry"
+    ]
   }
 ]
