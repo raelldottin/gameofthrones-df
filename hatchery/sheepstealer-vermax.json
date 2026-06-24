@@ -1,0 +1,143 @@
+{
+  "name": "Sheepstealer & Vermax Featured Dragon Chest",
+  "observed_date": "2026-06-24",
+  "cost_gold": {
+    "single": 120,
+    "ten_pull": 1200,
+    "bulk_discount": false
+  },
+  "rewards_per_opening": 3,
+  "displayed_time_remaining": "12d 8h",
+  "pity": {
+    "vermax_epic_elite": {
+      "guaranteed_every_pulls": 130,
+      "observed_counter": 0
+    },
+    "sheepstealer_legendary_elite": {
+      "guaranteed_every_pulls": 250,
+      "observed_counter": 0
+    }
+  },
+  "pools": {
+    "rare": [
+      "Solstryker",
+      "Bevlorin",
+      "Antares",
+      "Jagadrix",
+      "Shimmer",
+      "Vesper",
+      "Thunderstrike",
+      "Shadowrend",
+      "Dawnseeker",
+      "Arulix",
+      "Nyrena",
+      "Arrax"
+    ],
+    "epic": [
+      "Feskar",
+      "Rhysarion",
+      "Shadowsong",
+      "Tashix",
+      "Velar",
+      "Zivern",
+      "Vaeldra",
+      "Daemoros",
+      "Vermax"
+    ],
+    "legendary": [
+      "Kalspire",
+      "Seasmoke",
+      "Caraxes",
+      "Crimson",
+      "Syrax",
+      "Malachite",
+      "Venator",
+      "Vhagar",
+      "Sheepstealer"
+    ]
+  },
+  "reward_1": {
+    "rarity_probabilities": {
+      "rare": 0.9,
+      "epic": 0.1
+    },
+    "quantity_probabilities": {
+      "1": 0.95,
+      "5": 0.05
+    },
+    "dragon_selection": {
+      "rare_each": 0.0833333333,
+      "epic_each": 0.1111111111
+    }
+  },
+  "reward_2": {
+    "rarity_probabilities": {
+      "rare": 0.65,
+      "epic": 0.25,
+      "legendary": 0.1
+    },
+    "quantity_probabilities": {
+      "rare": {
+        "5": 0.98,
+        "100": 0.019,
+        "1000": 0.001
+      },
+      "epic": {
+        "5": 0.96,
+        "100": 0.038,
+        "1000": 0.002
+      },
+      "legendary": {
+        "5": 0.96,
+        "100": 0.038,
+        "1000": 0.002
+      }
+    },
+    "dragon_selection": {
+      "rare_each": 0.0833333333,
+      "epic": {
+        "Vermax": 0.5,
+        "other_each": 0.0625
+      },
+      "legendary": {
+        "Sheepstealer": 0.5,
+        "other_each": 0.0625
+      }
+    }
+  },
+  "reward_3": {
+    "same_as": "reward_1"
+  },
+  "derived_probabilities_per_opening": {
+    "crimson": {
+      "5_relics": 0.006,
+      "100_relics": 0.0002375,
+      "1000_relics": 0.0000125,
+      "any_drop": 0.00625,
+      "expected_relics": 0.06625
+    },
+    "vermax_reward_2": {
+      "5_relics": 0.12,
+      "100_relics": 0.00475,
+      "1000_relics": 0.00025,
+      "any_drop": 0.125
+    },
+    "sheepstealer": {
+      "5_relics": 0.048,
+      "100_relics": 0.0019,
+      "1000_relics": 0.0001,
+      "any_drop": 0.05
+    },
+    "specific_rare_dragon_any_of_three_rewards": 0.1907213542
+  },
+  "seven_opening_example": {
+    "starting_gold": 894,
+    "openings": 7,
+    "gold_spent": 840,
+    "gold_remaining": 54,
+    "crimson_at_least_once": 0.0429381792,
+    "crimson_not_obtained": 0.9570618208,
+    "expected_crimson_relics": 0.46375,
+    "specific_rare_dragon_at_least_once": 0.772654393
+  }
+}
