@@ -48,6 +48,29 @@ Shimmer's Initiative reduction improves Crimson's Fire Damage indirectly because
 
 Use Crimson in the full-affinity Syrax/Crimson/Antares Archer team. Keep Vesper/Tashix/Antares available as a synergy-focused alternative for testing.
 
+## Sheepstealer & Vermax Chest Acquisition
+
+Crimson is present in Reward 2's Legendary pool of the Sheepstealer & Vermax Featured Dragon Chest, but is not a featured dragon.
+
+Per chest opening:
+
+| Crimson result | Chance |
+|---|---:|
+| 5 relics | 0.60000% |
+| 100 relics | 0.02375% |
+| 1,000 relics | 0.00125% |
+| **Any Crimson drop** | **0.62500%** |
+
+At 120 Gold per pull, an observed balance of 894 Gold permits seven openings. Across seven openings:
+
+- Chance of at least one Crimson drop: **4.2938%**
+- Chance of no Crimson drop: **95.7062%**
+- Expected Crimson relics: **0.46375**
+
+This chest should be treated as broad roster development rather than an efficient way to target Crimson. It is more useful for building multiple current five-army dragons and for pursuing the featured Vermax or Sheepstealer pity tracks.
+
+See `mechanics/hatchery-sheepstealer-vermax.md` and `hatchery/sheepstealer-vermax.json` for the full pool and probability model.
+
 ## Validation Plan
 
 Test Crimson and Tashix against opponents with similar troop count and dragon levels. Compare:
