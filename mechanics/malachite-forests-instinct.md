@@ -1,6 +1,6 @@
 # Malachite — Forest's Instinct
 
-Source: Dragon Pit screenshot supplied June 24, 2026.
+Source: Dragon Pit and Market screenshots supplied June 24, 2026.
 
 ## Current State
 
@@ -34,13 +34,45 @@ Because the effect specifies the 2 other allies, Malachite does not buff itself.
 
 No Gold cost was visible in the supplied screenshot.
 
-Observed inventory in the screenshot:
+Observed inventory in the Dragon Pit screenshot:
 
 - 0 Legendary rarity cores
 - 137 green cores
 - 334 Gold
 
 The upgrade was blocked by the Legendary-core requirement.
+
+## Legendary Core Acquisition
+
+### Campaign market — preferred route
+
+The Campaign market directly sells:
+
+- **5 Legendary Cores for 100 Campaign Favors**
+- Ten packs per refresh
+- Maximum 50 Legendary Cores per refresh
+
+Acquiring all 100 Legendary Cores for Forest's Instinct level 2 through this route requires:
+
+- 20 packs
+- 2,000 Campaign Favors
+- At least two market refreshes
+
+The observed Campaign Favor balance was 75, so the immediate recommendation was to save until at least 100 rather than spend on a lower-priority item.
+
+### Relic Shards conversion — fallback route
+
+The Relic Shards market also allows:
+
+- 1 Epic Core for 30 Rare Cores
+- 1 Legendary Core for 25 Epic Cores
+
+If sourced entirely through conversion:
+
+- 1 Legendary Core requires 750 Rare Cores
+- 100 Legendary Cores require 2,500 Epic Cores or 75,000 Rare Cores
+
+This route is substantially less efficient and should generally be reserved for closing a small final shortage.
 
 ## Permanent Progression
 
