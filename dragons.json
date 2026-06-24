@@ -1,14 +1,14 @@
 [
   {
     "name": "Vhagar",
-    "level": 30,
+    "level": 38,
     "stars": 4,
     "class": "Warrior",
     "ability": "Fiery Bonds"
   },
   {
     "name": "Jagadrix",
-    "level": 28,
+    "level": 40,
     "stars": 3,
     "class": "Warrior",
     "ability": "Cunning Whispers"
@@ -29,14 +29,14 @@
   },
   {
     "name": "Tashix",
-    "level": 29,
+    "level": 40,
     "stars": 2,
     "class": "Hunter",
     "ability": "Shimmering Mirage"
   },
   {
     "name": "Antares",
-    "level": 35,
+    "level": 40,
     "stars": 3,
     "class": "Hunter",
     "ability": "Relentless Pursuit",
@@ -44,7 +44,7 @@
   },
   {
     "name": "Seasmoke",
-    "level": 32,
+    "level": 40,
     "stars": 1,
     "class": "Sentinel",
     "ability": "Loyal Bond"
@@ -65,7 +65,7 @@
   },
   {
     "name": "Nyrena",
-    "level": 32,
+    "level": 36,
     "stars": 1,
     "class": "Hunter",
     "ability": "Undermine",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Velar",
-    "level": 31,
+    "level": 36,
     "stars": 3,
     "class": "Sentinel",
     "ability": "Whirlwind",
@@ -82,14 +82,14 @@
   },
   {
     "name": "Shimmer",
-    "level": 31,
+    "level": 38,
     "stars": 3,
     "class": "Sentinel",
     "ability": "Unbreakable Loyalty"
   },
   {
     "name": "Arulix",
-    "level": 29,
+    "level": 37,
     "stars": 3,
     "class": "Champion",
     "ability": "Gleaming Spiral",
@@ -106,7 +106,7 @@
   },
   {
     "name": "Arrax",
-    "level": 27,
+    "level": 38,
     "stars": 2,
     "class": "Warrior",
     "ability": "Sudden Strike",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Dawnseeker",
-    "level": 32,
+    "level": 39,
     "stars": 3,
     "class": "Sentinel",
     "ability": "Dawnsong"
@@ -195,5 +195,19 @@
       "Spearmen",
       "Siege"
     ]
+  },
+  {
+    "name": "Syrax",
+    "level": 34,
+    "class": "Sentinel",
+    "ability": "Blazing Fury",
+    "affinities": [
+      "Spearmen",
+      "Archers"
+    ],
+    "negative_affinities": [
+      "Siege"
+    ],
+    "notes": "Stars were not updated because the optimized-army screenshot did not provide a confidently readable rarity count."
   }
 ]
