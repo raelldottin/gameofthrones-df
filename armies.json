@@ -93,7 +93,7 @@
     "right": "Antares",
     "dragon_levels": {
       "Tashix": 40,
-      "Syrax": 34,
+      "Syrax": 36,
       "Antares": 40
     },
     "troop_type": "Archers",
@@ -108,9 +108,15 @@
     },
     "target": "PvP offensive opener and Fire burst",
     "validated": false,
-    "status": "OPTIMIZED POSITIONS — TROOPS UNDERFILLED",
-    "synergy": "Syrax protects two damage-oriented flank dragons; Tashix supplies repeated Fire attacks; Antares deals Fire damage and applies Vulnerable to increase damage received.",
-    "positioning_rationale": "Syrax is the Sentinel and remains vanguard. Tashix and Antares stay protected on the flanks. The formation should not be performance-tested until all 18,275 Archer slots are filled.",
+    "status": "OPTIMIZED POSITIONS — TROOPS UNDERFILLED — SYRAX 2★ PRIORITY",
+    "synergy": "Syrax protects two damage-oriented flank dragons; Tashix supplies repeated Fire attacks; Antares deals Fire damage and applies Vulnerable. At 2★, Mindful Synergy will give all three allies +6.5% Intelligence and Instinct for the entire battle. At 8★, Tactical Inferno prioritizes the left flank for Tactical damage and the right flank for Fire damage.",
+    "positioning_rationale": "Syrax is the Sentinel and remains vanguard. Antares is correctly positioned on the right for Tactical Inferno's future Fire-damage priority. Tashix remains on the left provisionally and should be reviewed against other Tactical-damage candidates before the 8★ unlock. The formation should not be performance-tested until all 18,275 Archer slots are filled.",
+    "development_priority": {
+      "current_syrax_stars": 1,
+      "current_syrax_relics": 0,
+      "relics_required_for_next_star": 40,
+      "next_breakpoint": "2★ Mindful Synergy"
+    },
     "troop_matchup": {
       "advantage_against": ["Spearmen", "Siege"],
       "disadvantage_against": ["Shieldbearers"]
