@@ -1,6 +1,6 @@
 # Optimized Five-Armies — June 24, 2026
 
-Source: Army Builder screenshots and previously documented Dragon Pit skills supplied June 23–24, 2026.
+Source: Army Builder, Dragon Pit, and Hatchery screenshots supplied June 23–24, 2026.
 
 ## Final formation table
 
@@ -9,7 +9,7 @@ Source: Army Builder screenshots and previously documented Dragon Pit skills sup
 | 1 | Malachite Lv32 | Vhagar Lv38 | Rhysarion Lv34 | Shieldbearers | 3/3 | Very Slow | 17,773 / 17,773 |
 | 2 | Arrax Lv38 | Velar Lv36 | Nyrena Lv36 | Shieldbearers | 3/3 | Slow | 17,869 / 17,869 |
 | 3 | Arulix Lv37 | Seasmoke Lv40 | Shimmer Lv38 | Cavalry | 3/3 | Slow | 18,375 / 18,375 |
-| 4 | Tashix Lv40 | Syrax Lv34 | Antares Lv40 | Archers | 3/3 | Fast | 12,258 / 18,275 |
+| 4 | Tashix Lv40 | Syrax Lv36 | Antares Lv40 | Archers | 3/3 | Fast | 12,258 / 18,275 |
 | 5 | Jagadrix Lv40 | Dawnseeker Lv39 | Crimson Lv30 | Spearmen | 3/3 | Slow | 18,570 / 18,570 |
 
 No dragon is duplicated across the five formations.
@@ -52,7 +52,7 @@ Seasmoke is the highest-level Legendary in this formation and is the safest vang
 
 Arulix and Shimmer may switch flanks for a specific opponent. Place Shimmer opposite the enemy damage dealer whose Strength and Initiative most need to be reduced.
 
-## Army 4 — Fast Archer burst
+## Army 4 — Fast Archer burst and Syrax development core
 
 **Tashix left / Syrax vanguard / Antares right**
 
@@ -63,7 +63,30 @@ Syrax remains vanguard because Tashix and Antares are the two protected damage d
 - The formation is the only current army displayed as **Fast**.
 - All three receive Archer affinity.
 
+### Syrax habit roadmap
+
+Syrax is level 36, 1★, and at 0/40 relics toward the next star.
+
+- **2★ Mindful Synergy:** all 3 allies gain +6.5% Intelligence and Instinct for the full battle at habit level 1.
+- **4★ Flight Mastery:** allied Initiative rises by 6% and enemy Initiative falls by 6%.
+- **6★ Strategic Revival:** Blazing Fury heals the lowest-troop ally on rounds 2, 5, and 8 and can grant Resistance; Recovery increases from 50% to 75% if an enemy has Slow.
+- **8★ Tactical Inferno:** the left flank is prioritized for Tactical-damage amplification and the right flank for Fire-damage amplification.
+- **10★ Mother's Mercy:** chance each round to cleanse Negative and Control effects.
+
+Antares is definitively correct on the right because Tactical Inferno prioritizes that flank for Fire damage. Tashix remains on the left provisionally; before Syrax reaches 8★, compare Tashix's Tactical damage with alternative left-flank candidates.
+
 The current formation is underfilled by **6,017 Archers**. Fill the army to 18,275 before using battle results to compare it with the other formations.
+
+### Current Syrax investment decision
+
+The featured Syrax Event Chest gives a 5% chance per opening of any Syrax drop. At 424 Gold, only three paid openings are possible:
+
+- 14.2625% chance of at least one Syrax drop;
+- 85.7375% chance of no Syrax drop;
+- expected return of 1.59 Syrax relics;
+- pity counters move only from 62 to 65.
+
+Do not spend Gold on these three pulls. Use free Dragonglass Keys if obtained, and save Gold for guaranteed Syrax relic offers or a purchase that completes the 2★ unlock.
 
 ## Army 5 — Crimson Spearmen control
 
@@ -78,11 +101,12 @@ Dawnseeker is the Sentinel and belongs in the center. Crimson remains protected 
 
 ## Deployment priorities
 
-1. Check troop matchup before every attack; do not rely on affinity alone.
-2. Fill Army 4 before serious testing.
-3. Keep Velar, Seasmoke, Syrax, and Dawnseeker in their vanguard positions.
-4. Preserve Malachite, Vhagar, and Rhysarion as a locked core.
-5. Flip flank dragons only when targeting a specific opposing lane.
+1. Fill Army 4 before serious testing.
+2. Prioritize a guaranteed Syrax relic offer because the 2★ habit improves all three members for the full battle.
+3. Check troop matchup before every attack; do not rely on affinity alone.
+4. Keep Velar, Seasmoke, Syrax, and Dawnseeker in their vanguard positions.
+5. Preserve Malachite, Vhagar, and Rhysarion as a locked core.
+6. Flip flank dragons only when targeting a specific opposing lane.
 
 ## Suggested offensive use order
 
@@ -93,3 +117,9 @@ Dawnseeker is the Sentinel and belongs in the center. Crimson remains protected 
 5. **Army 5 — Spearmen Crimson control:** anti-Cavalry and developing Fire burst.
 
 Use this order as a functional guideline, not as a reason to accept troop disadvantage. A favorable troop counter should take priority over the nominal army order.
+
+## Supporting Files
+
+- `mechanics/syrax-habits.md`
+- `mechanics/hatchery-syrax-event.md`
+- `hatchery/syrax-event-chest-2026-06-24.json`
