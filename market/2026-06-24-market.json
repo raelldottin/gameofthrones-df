@@ -1,0 +1,209 @@
+{
+  "observed_date": "2026-06-24",
+  "refresh_countdown_observed": "18h 37m",
+  "balances": {
+    "gold": 894,
+    "campaign_currency": 275
+  },
+  "gold_market": {
+    "relics": [
+      {
+        "dragon": "Solstryker",
+        "quantity": 10,
+        "cost_gold": 100,
+        "available": 1,
+        "cost_per_relic": 10
+      },
+      {
+        "dragon": "Shimmer",
+        "quantity": 30,
+        "cost_gold": 300,
+        "available": 1,
+        "cost_per_relic": 10
+      },
+      {
+        "dragon": "Jagadrix",
+        "quantity": 50,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_relic": 10
+      },
+      {
+        "dragon": "Rhysarion",
+        "quantity": 50,
+        "cost_gold": 1000,
+        "available": 1,
+        "cost_per_relic": 20
+      }
+    ],
+    "meat": [
+      {
+        "quantity": 200,
+        "cost_gold": 125,
+        "available": 1,
+        "cost_per_meat": 0.625
+      },
+      {
+        "quantity": 500,
+        "cost_gold": 250,
+        "available": 1,
+        "cost_per_meat": 0.5
+      },
+      {
+        "quantity": 1250,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_meat": 0.4
+      },
+      {
+        "quantity": 3750,
+        "cost_gold": 1250,
+        "available": 1,
+        "cost_per_meat": 0.3333333333
+      }
+    ]
+  },
+  "campaign_market": {
+    "resources": [
+      {
+        "item": "Gold",
+        "quantity": 100,
+        "cost_campaign_currency": 100,
+        "available": 10
+      },
+      {
+        "item": "Dragonbone Key",
+        "quantity": 1,
+        "cost_campaign_currency": 100,
+        "available": 20
+      },
+      {
+        "item": "Dragonglass Key",
+        "quantity": 1,
+        "cost_campaign_currency": 120,
+        "available": 20
+      },
+      {
+        "item": "Dragonfire Key",
+        "quantity": 1,
+        "cost_campaign_currency": 800,
+        "available": 10
+      },
+      {
+        "item": "Epic Core",
+        "quantity": 20,
+        "cost_campaign_currency": 100,
+        "available": 10,
+        "cost_per_unit": 5
+      },
+      {
+        "item": "Legendary Core",
+        "quantity": 5,
+        "cost_campaign_currency": 100,
+        "available": 10,
+        "cost_per_unit": 20
+      },
+      {
+        "item": "Amplifier Seals",
+        "quantity": 1000,
+        "cost_campaign_currency": 90,
+        "available": 10,
+        "cost_per_unit": 0.09
+      },
+      {
+        "item": "Dragonlord Scrolls",
+        "quantity": 200,
+        "cost_campaign_currency": 90,
+        "available": 10,
+        "cost_per_unit": 0.45
+      }
+    ],
+    "relics": [
+      {
+        "dragon": "Solstryker",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_currency": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Bevlorin",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_currency": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Jagadrix",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_currency": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Rhysarion",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_currency": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Shadowsong",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_currency": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Vaeldra",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_currency": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Venator",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_currency": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      },
+      {
+        "dragon": "Malachite",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_currency": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      }
+    ]
+  },
+  "derived_purchase_path": {
+    "objective": "Acquire the 50-relic Rhysarion Gold-market offer",
+    "steps": [
+      {
+        "action": "Buy Gold x100 from Campaign market",
+        "times": 2,
+        "campaign_currency_spent": 200,
+        "gold_gained": 200
+      },
+      {
+        "action": "Buy Rhysarion Relic x50 from Gold market",
+        "times": 1,
+        "gold_spent": 1000,
+        "relics_gained": 50
+      }
+    ],
+    "ending_balances": {
+      "gold": 94,
+      "campaign_currency": 75
+    }
+  }
+}
