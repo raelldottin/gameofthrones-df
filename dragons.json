@@ -74,15 +74,104 @@
     "level": 42,
     "stars": 2,
     "class": "Hunter",
-    "ability": "Shimmering Mirage"
+    "subclass": "Hunter Whelp",
+    "ability": "Shimmering Mirage",
+    "relic_progress": "26/100",
+    "stats": {
+      "strength": 117.9,
+      "instinct": 87.8,
+      "intelligence": 142.8,
+      "initiative": 142.8,
+      "speed": "Fast",
+      "energy": "32/100"
+    },
+    "xp": "264155/663943",
+    "affinities": [
+      "Archers"
+    ],
+    "negative_affinities": [
+      "Siege"
+    ],
+    "habits": [
+      {
+        "name": "Enervate",
+        "current_level": 1,
+        "currently_unlocked": true
+      },
+      {
+        "name": "Dragon's Cunning",
+        "unlock_at_stars": 4,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Cunning Ruse",
+        "unlock_at_stars": 6,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Battle Guile",
+        "unlock_at_stars": 8,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Veiled Ambush",
+        "unlock_at_stars": 10,
+        "currently_unlocked": false
+      }
+    ],
+    "details_file": "dragons/tashix.json"
   },
   {
     "name": "Antares",
     "level": 42,
-    "stars": 3,
+    "stars": 2,
     "class": "Hunter",
+    "subclass": "Hunter Whelp",
     "ability": "Relentless Pursuit",
-    "habit": "Blazing Onslaught"
+    "relic_progress": "16/100",
+    "stats": {
+      "strength": 85.7,
+      "instinct": 61.7,
+      "intelligence": 100.8,
+      "initiative": 97.0,
+      "speed": "Fast",
+      "energy": "32/100"
+    },
+    "xp": "376599/663943",
+    "affinities": [
+      "Archers"
+    ],
+    "negative_affinities": [
+      "Siege"
+    ],
+    "habits": [
+      {
+        "name": "Blazing Onslaught",
+        "current_level": 2,
+        "currently_unlocked": true
+      },
+      {
+        "name": "Dragon's Flair",
+        "unlock_at_stars": 4,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Fiery Precision",
+        "unlock_at_stars": 6,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Dragon's Intellect",
+        "unlock_at_stars": 8,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Redemption",
+        "unlock_at_stars": 10,
+        "currently_unlocked": false
+      }
+    ],
+    "details_file": "dragons/antares.json"
   },
   {
     "name": "Seasmoke",
