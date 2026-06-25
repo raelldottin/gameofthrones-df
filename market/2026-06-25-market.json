@@ -1,0 +1,286 @@
+{
+  "observed_date": "2026-06-25",
+  "refresh_countdown_observed": "18h 40m-18h 41m",
+  "balances": {
+    "gold": 515,
+    "campaign_favors": 220,
+    "relic_shards": 0,
+    "rare_cores": 99,
+    "epic_cores": 10,
+    "legendary_cores": 0
+  },
+  "relic_shards_market": {
+    "relic_and_key_offers": [
+      {
+        "item": "Thunderstrike Relic",
+        "dragon": "Thunderstrike",
+        "rarity": "Rare",
+        "quantity": 2,
+        "cost_relic_shards": 500,
+        "available": 1,
+        "cost_per_relic": 250
+      },
+      {
+        "item": "Feskar Relic",
+        "dragon": "Feskar",
+        "rarity": "Epic",
+        "quantity": 2,
+        "cost_relic_shards": 1450,
+        "available": 1,
+        "cost_per_relic": 725
+      },
+      {
+        "item": "Vhagar Relic",
+        "dragon": "Vhagar",
+        "rarity": "Legendary",
+        "quantity": 2,
+        "cost_relic_shards": 4500,
+        "available": 1,
+        "cost_per_relic": 2250
+      },
+      {
+        "item": "Dragonbone Key",
+        "quantity": 6,
+        "cost_relic_shards": 4150,
+        "available": 1,
+        "cost_per_item": 691.6666666667
+      },
+      {
+        "item": "Rhysarion Relic",
+        "dragon": "Rhysarion",
+        "rarity": "Epic",
+        "quantity": 12,
+        "cost_relic_shards": 8300,
+        "available": 1,
+        "cost_per_relic": 691.6666666667
+      },
+      {
+        "item": "Seasmoke Relic",
+        "dragon": "Seasmoke",
+        "rarity": "Legendary",
+        "quantity": 10,
+        "cost_relic_shards": 16650,
+        "available": 1,
+        "cost_per_relic": 1665
+      },
+      {
+        "item": "Rhysarion Relic",
+        "dragon": "Rhysarion",
+        "rarity": "Epic",
+        "quantity": 75,
+        "cost_relic_shards": 37500,
+        "available": 1,
+        "cost_per_relic": 500
+      },
+      {
+        "item": "Vaeldra Relic",
+        "dragon": "Vaeldra",
+        "rarity": "Epic",
+        "quantity": 6,
+        "cost_relic_shards": 5400,
+        "available": 1,
+        "cost_per_relic": 900
+      }
+    ],
+    "core_conversion_offers": [
+      {
+        "item": "Epic Core",
+        "quantity": 1,
+        "cost_rare_cores": 30,
+        "available": 99
+      },
+      {
+        "item": "Legendary Core",
+        "quantity": 1,
+        "cost_epic_cores": 25,
+        "available": 99
+      }
+    ]
+  },
+  "gold_market": {
+    "keys": [
+      {
+        "item": "Dragonglass Key",
+        "quantity": 1,
+        "cost_gold": 100,
+        "available": 1,
+        "cost_per_item": 100
+      },
+      {
+        "item": "Dragonglass Key",
+        "quantity": 3,
+        "cost_gold": 300,
+        "available": 1,
+        "cost_per_item": 100
+      },
+      {
+        "item": "Dragonfire Key",
+        "quantity": 1,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_item": 500
+      },
+      {
+        "item": "Dragonfire Key",
+        "quantity": 2,
+        "cost_gold": 1000,
+        "available": 1,
+        "cost_per_item": 500
+      }
+    ],
+    "meat": [
+      {
+        "quantity": 200,
+        "cost_gold": 125,
+        "available": 1,
+        "cost_per_meat": 0.625
+      },
+      {
+        "quantity": 500,
+        "cost_gold": 250,
+        "available": 1,
+        "cost_per_meat": 0.5
+      },
+      {
+        "quantity": 1250,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_meat": 0.4
+      },
+      {
+        "quantity": 3750,
+        "cost_gold": 1250,
+        "available": 1,
+        "cost_per_meat": 0.3333333333
+      }
+    ]
+  },
+  "campaign_market": {
+    "resources": [
+      {
+        "item": "Gold",
+        "quantity": 100,
+        "cost_campaign_favors": 100,
+        "available": 10
+      },
+      {
+        "item": "Dragonbone Key",
+        "quantity": 1,
+        "cost_campaign_favors": 100,
+        "available": 20
+      },
+      {
+        "item": "Dragonglass Key",
+        "quantity": 1,
+        "cost_campaign_favors": 120,
+        "available": 20
+      },
+      {
+        "item": "Dragonfire Key",
+        "quantity": 1,
+        "cost_campaign_favors": 800,
+        "available": 10
+      },
+      {
+        "item": "Epic Core",
+        "quantity": 20,
+        "cost_campaign_favors": 100,
+        "available": 10,
+        "cost_per_core": 5
+      },
+      {
+        "item": "Legendary Core",
+        "quantity": 5,
+        "cost_campaign_favors": 100,
+        "available": 10,
+        "cost_per_core": 20
+      },
+      {
+        "item": "Amplifier Seals",
+        "quantity": 1000,
+        "cost_campaign_favors": 90,
+        "available": 10,
+        "cost_per_unit": 0.09
+      },
+      {
+        "item": "Dragonlord Scrolls",
+        "quantity": 200,
+        "cost_campaign_favors": 90,
+        "available": 10,
+        "cost_per_unit": 0.45
+      }
+    ],
+    "relics": [
+      {
+        "dragon": "Solstryker",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Bevlorin",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Jagadrix",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Rhysarion",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Shadowsong",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Vaeldra",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Venator",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_favors": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      },
+      {
+        "dragon": "Malachite",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_favors": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      }
+    ]
+  },
+  "notes": [
+    "No Syrax relic offer was present in this refresh.",
+    "The Gold tab contained keys and meat only; no dragon relic offer was present.",
+    "The account cannot buy any Relic Shards offer because the observed Relic Shards balance was zero.",
+    "Campaign Favors increased to 220 and Gold increased to 515 since the prior market snapshot."
+  ]
+}
