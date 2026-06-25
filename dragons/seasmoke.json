@@ -16,6 +16,10 @@
       "Each round, perform up to three separate 20% checks to Cleanse one positive effect from an enemy in any lane.",
       "On rounds 3, 6, and 9, deal Fire Damage to one enemy in the same lane at a +190% Damage Rate."
     ],
+    "definitions": {
+      "cleanse_positive": "Removes one Positive effect from the target. A Positive effect increases the target's combat effectiveness.",
+      "fire_damage_scaling": "Fire Damage is increased by the attacker's Intelligence and mitigated by the target's Initiative."
+    },
     "displayed_values": {
       "cleanse_checks_per_round": 3,
       "cleanse_chance_per_check_percent": 20.0,
@@ -23,8 +27,19 @@
       "fire_damage_rate_percent": 190.0
     },
     "at_6_plus_stars": {
-      "infectious_wrath": "Whenever Seasmoke Cleanses an enemy, apply one Infectious Wrath stack for 3 rounds, up to 3 stacks.",
-      "physical_damage": "On rounds 3, 6, and 9, deal Physical Damage to two adjacent enemies at a +30% Damage Rate, doubled to +60% against targets afflicted with Panic."
+      "infectious_wrath": {
+        "trigger": "Whenever Seasmoke Cleanses an enemy, apply one Infectious Wrath stack for 3 rounds.",
+        "recovery_received_modifier_per_stack_percent": -15.0,
+        "maximum_stacks": 3,
+        "nominal_maximum_recovery_received_modifier_percent": -45.0
+      },
+      "physical_damage": {
+        "rounds": [3, 6, 9],
+        "targets": "Two enemies within adjacency",
+        "damage_rate_percent": 30.0,
+        "panic_damage_rate_percent": 60.0,
+        "scaling": "Physical Damage is increased by the attacker's Strength and mitigated by the target's Instinct."
+      }
     }
   },
   "stats": {
@@ -95,7 +110,9 @@
         "maximum_stacks": 3,
         "duration_rounds": 3,
         "physical_damage_rounds": [3, 6, 9],
-        "panic_damage_multiplier": 2.0
+        "panic_damage_multiplier": 2.0,
+        "physical_damage_scaling_attribute": "Strength",
+        "physical_damage_mitigation_attribute": "Instinct"
       },
       "levels": [
         {"level": 1, "recovery_received_per_stack_percent": -15.0, "physical_damage_rate_percent": 30.0, "panic_physical_damage_rate_percent": 60.0, "power": 420},
