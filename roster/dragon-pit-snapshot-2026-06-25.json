@@ -1,0 +1,35 @@
+{
+  "observed_date": "2026-06-25",
+  "source": "Dragon Pit screenshots supplied June 25, 2026",
+  "visible_roster_updates": [
+    {"name": "Tashix", "level": 42},
+    {"name": "Antares", "level": 42},
+    {"name": "Seasmoke", "level": 41},
+    {"name": "Vhagar", "level": 41},
+    {"name": "Jagadrix", "level": 41, "stars": 5, "class": "Hunter", "subclass": "Hunter Adult"},
+    {"name": "Dawnseeker", "level": 41},
+    {"name": "Feskar", "level": 40},
+    {"name": "Arulix", "level": 40},
+    {"name": "Nyrena", "level": 39},
+    {"name": "Rhysarion", "level": 38},
+    {"name": "Malachite", "level": 37},
+    {"name": "Solstryker", "level": 37},
+    {"name": "Crimson", "level": 34},
+    {"name": "Vaeldra", "level": 33, "stars": 2, "class": "Warrior", "subclass": "Warrior Whelp"}
+  ],
+  "detailed_files": {
+    "Jagadrix": [
+      "dragons/jagadrix.json",
+      "mechanics/jagadrix.md"
+    ],
+    "Vaeldra": [
+      "dragons/vaeldra.json",
+      "mechanics/vaeldra.md"
+    ]
+  },
+  "notes": [
+    "Only dragon names and levels that were fully visible were recorded.",
+    "Partially cropped dragons without readable names or levels were omitted.",
+    "This dated snapshot preserves current observations without rewriting historical army-analysis files from June 24."
+  ]
+}
