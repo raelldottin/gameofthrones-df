@@ -20,7 +20,7 @@
   "detailed_files": {
     "Tashix": ["dragons/tashix.json", "mechanics/tashix.md"],
     "Antares": ["dragons/antares.json", "mechanics/antares.md"],
-    "Seasmoke": ["dragons/seasmoke.json", "mechanics/seasmoke.md"],
+    "Seasmoke": ["dragons/seasmoke.json", "mechanics/seasmoke.md", "mechanics/seasmoke-cleansing-wrath-details.md"],
     "Jagadrix": ["dragons/jagadrix.json", "mechanics/jagadrix.md"],
     "Vaeldra": ["dragons/vaeldra.json", "mechanics/vaeldra.md"]
   },
