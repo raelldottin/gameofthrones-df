@@ -1,0 +1,222 @@
+{
+  "observed_date": "2026-06-25",
+  "house_level": 66,
+  "dragon_growth_power": 22240,
+  "observed_inventory": {
+    "brown_material": 2685,
+    "black_gold_material": 18800,
+    "dragonlord_scrolls": 3810,
+    "amplifier_seals": 24700,
+    "gold": 515
+  },
+  "cluster_1": {
+    "unlock_house_level": 6,
+    "mastery_level": 8,
+    "mastery_progress": {
+      "current": 50,
+      "required": 90
+    },
+    "displayed_bonus": {
+      "dragon_troop_capacity_percent": 1.09
+    },
+    "amplifier": {
+      "name": "Dragon Growth Amplifier I",
+      "current_level": 7,
+      "target_level": 8,
+      "amplifier_effect_percent": {
+        "current": 7.03,
+        "target": 9.1
+      },
+      "connected_effects": {
+        "warrior_damage_vs_rss_defenders_percent": {
+          "current": 2.57,
+          "target": 2.62
+        },
+        "warrior_incoming_damage_vs_rss_defenders_percent": {
+          "current": -2.57,
+          "target": -2.62
+        },
+        "champion_damage_vs_rss_defenders_percent": {
+          "current": 2.57,
+          "target": 2.62
+        },
+        "champion_incoming_damage_vs_rss_defenders_percent": {
+          "current": -2.57,
+          "target": -2.62
+        },
+        "hunter_damage_vs_rss_defenders_percent": {
+          "current": 2.57,
+          "target": 2.62
+        },
+        "hunter_incoming_damage_vs_rss_defenders_percent": {
+          "current": -2.57,
+          "target": -2.62
+        },
+        "sentinel_damage_vs_rss_defenders_percent": {
+          "current": 2.57,
+          "target": 2.62
+        },
+        "sentinel_incoming_damage_vs_rss_defenders_percent": {
+          "current": -2.57,
+          "target": -2.62
+        }
+      },
+      "cost": {
+        "brown_material": 6250,
+        "black_gold_material": 1050,
+        "dragonlord_scrolls": 450,
+        "amplifier_seals": 4550,
+        "gold": 356
+      },
+      "affordable_now": false
+    },
+    "outer_nodes": {
+      "current_level": 5,
+      "target_level": 6,
+      "mastery_progress": {
+        "current": 50,
+        "target": 60
+      },
+      "cost_each": {
+        "brown_material": 1800,
+        "black_gold_material": 250,
+        "dragonlord_scrolls": 100,
+        "gold": 0
+      },
+      "nodes": [
+        {
+          "name": "Warrior: Damage vs RSS Defenders",
+          "current_percent": 2.57,
+          "target_percent": 3.35
+        },
+        {
+          "name": "Warrior: Incoming Damage vs RSS Defenders",
+          "current_percent": -2.57,
+          "target_percent": -3.35
+        },
+        {
+          "name": "Champion: Damage vs RSS Defenders",
+          "current_percent": 2.57,
+          "target_percent": 3.35
+        },
+        {
+          "name": "Champion: Incoming Damage vs RSS Defenders",
+          "current_percent": -2.57,
+          "target_percent": -3.35
+        },
+        {
+          "name": "Hunter: Damage vs RSS Defenders",
+          "current_percent": 2.57,
+          "target_percent": 3.35
+        },
+        {
+          "name": "Hunter: Incoming Damage vs RSS Defenders",
+          "current_percent": -2.57,
+          "target_percent": -3.35
+        },
+        {
+          "name": "Sentinel: Damage vs RSS Defenders",
+          "current_percent": 2.57,
+          "target_percent": 3.35
+        },
+        {
+          "name": "Sentinel: Incoming Damage vs RSS Defenders",
+          "current_percent": -2.57,
+          "target_percent": -3.35
+        }
+      ]
+    }
+  },
+  "cluster_2": {
+    "unlock_house_level": 17,
+    "mastery_progress": {
+      "current": 50,
+      "target": 60
+    },
+    "amplifier": {
+      "name": "Dragon Growth Amplifier II",
+      "current_level": 5,
+      "target_level": 6,
+      "amplifier_effect_percent": {
+        "current": 4.01,
+        "target": 5.36
+      },
+      "connected_effects": {
+        "warrior_xp_vs_rss_defenders_percent": {
+          "current": 2.92,
+          "target": 2.96
+        },
+        "champion_xp_vs_rss_defenders_percent": {
+          "current": 2.92,
+          "target": 2.96
+        },
+        "hunter_xp_vs_rss_defenders_percent": {
+          "current": 2.92,
+          "target": 2.96
+        },
+        "sentinel_xp_vs_rss_defenders_percent": {
+          "current": 2.92,
+          "target": 2.96
+        }
+      },
+      "cost": {
+        "brown_material": 3150,
+        "black_gold_material": 450,
+        "dragonlord_scrolls": 200,
+        "amplifier_seals": 1350,
+        "gold": 46
+      },
+      "affordable_now": false
+    },
+    "outer_nodes": {
+      "current_level": 5,
+      "target_level": 6,
+      "cost_each": {
+        "brown_material": 2550,
+        "black_gold_material": 350,
+        "dragonlord_scrolls": 150,
+        "gold": 0
+      },
+      "nodes": [
+        {
+          "name": "Warrior: XP vs RSS Defenders",
+          "current_percent": 2.92,
+          "target_percent": 3.79
+        },
+        {
+          "name": "Champion: XP vs RSS Defenders",
+          "current_percent": 2.92,
+          "target_percent": 3.79
+        },
+        {
+          "name": "Hunter: XP vs RSS Defenders",
+          "current_percent": 2.92,
+          "target_percent": 3.79
+        },
+        {
+          "name": "Sentinel: XP vs RSS Defenders",
+          "current_percent": 2.92,
+          "target_percent": 3.79
+        }
+      ]
+    }
+  },
+  "scope": "All displayed effects apply only against RSS/resource defenders.",
+  "current_recommendation": {
+    "upgrade_now": "Sentinel: XP vs RSS Defenders",
+    "reason": "Syrax is the current development priority and the direct outer-node upgrade raises Sentinel XP from 2.92% to 3.79% without spending Gold. The central Amplifier II upgrade only raises each connected class XP effect from 2.92% to 2.96% and costs 46 Gold.",
+    "next_order": [
+      "Hunter: XP vs RSS Defenders",
+      "Champion: XP vs RSS Defenders",
+      "Warrior: XP vs RSS Defenders"
+    ],
+    "preserve_gold": true
+  },
+  "post_upgrade_estimate": {
+    "brown_material": 135,
+    "black_gold_material": 18450,
+    "dragonlord_scrolls": 3660,
+    "amplifier_seals": 24700,
+    "gold": 515
+  }
+}
