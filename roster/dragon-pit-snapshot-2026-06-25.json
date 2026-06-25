@@ -3,7 +3,7 @@
   "source": "Dragon Pit screenshots supplied June 25, 2026",
   "visible_roster_updates": [
     {"name": "Tashix", "level": 42, "stars": 2, "class": "Hunter", "subclass": "Hunter Whelp"},
-    {"name": "Antares", "level": 42},
+    {"name": "Antares", "level": 42, "stars": 2},
     {"name": "Seasmoke", "level": 41},
     {"name": "Vhagar", "level": 41},
     {"name": "Jagadrix", "level": 41, "stars": 5, "class": "Hunter", "subclass": "Hunter Adult"},
@@ -18,18 +18,10 @@
     {"name": "Vaeldra", "level": 33, "stars": 2, "class": "Warrior", "subclass": "Warrior Whelp"}
   ],
   "detailed_files": {
-    "Tashix": [
-      "dragons/tashix.json",
-      "mechanics/tashix.md"
-    ],
-    "Jagadrix": [
-      "dragons/jagadrix.json",
-      "mechanics/jagadrix.md"
-    ],
-    "Vaeldra": [
-      "dragons/vaeldra.json",
-      "mechanics/vaeldra.md"
-    ]
+    "Tashix": ["dragons/tashix.json", "mechanics/tashix.md"],
+    "Antares": ["dragons/antares.json", "mechanics/antares.md"],
+    "Jagadrix": ["dragons/jagadrix.json", "mechanics/jagadrix.md"],
+    "Vaeldra": ["dragons/vaeldra.json", "mechanics/vaeldra.md"]
   },
   "notes": [
     "Only dragon names and levels that were fully visible were recorded.",
