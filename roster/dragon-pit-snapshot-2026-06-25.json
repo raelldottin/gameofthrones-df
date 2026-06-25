@@ -7,7 +7,7 @@
     {"name": "Seasmoke", "level": 41, "stars": 1, "class": "Champion", "subclass": "Champion Hatchling"},
     {"name": "Vhagar", "level": 41, "stars": 1, "class": "Warrior", "subclass": "Warrior Hatchling"},
     {"name": "Jagadrix", "level": 41, "stars": 5, "class": "Hunter", "subclass": "Hunter Adult"},
-    {"name": "Dawnseeker", "level": 41},
+    {"name": "Dawnseeker", "level": 41, "stars": 2, "class": "Sentinel", "subclass": "Sentinel Whelp"},
     {"name": "Feskar", "level": 40},
     {"name": "Arulix", "level": 40},
     {"name": "Nyrena", "level": 39},
@@ -23,6 +23,7 @@
     "Seasmoke": ["dragons/seasmoke.json", "mechanics/seasmoke.md", "mechanics/seasmoke-cleansing-wrath-details.md"],
     "Vhagar": ["dragons/vhagar.json", "mechanics/vhagar.md"],
     "Jagadrix": ["dragons/jagadrix.json", "mechanics/jagadrix.md"],
+    "Dawnseeker": ["dragons/dawnseeker.json", "mechanics/dawnseeker.md"],
     "Vaeldra": ["dragons/vaeldra.json", "mechanics/vaeldra.md"]
   },
   "notes": [
