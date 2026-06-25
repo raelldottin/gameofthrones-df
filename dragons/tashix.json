@@ -1,0 +1,143 @@
+{
+  "name": "Tashix",
+  "observed_date": "2026-06-25",
+  "rarity": "Epic",
+  "class": "Hunter",
+  "subclass": "Hunter Whelp",
+  "level": 42,
+  "stars": 2,
+  "relic_progress": {
+    "current": 26,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Shimmering Mirage",
+    "base_description_captured": false
+  },
+  "stats": {
+    "strength": 117.9,
+    "instinct": 87.8,
+    "intelligence": 142.8,
+    "initiative": 142.8,
+    "speed": "Fast",
+    "energy": {
+      "current": 32,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 264155,
+    "required": 663943
+  },
+  "displayed_troop_capacity": 6495.0,
+  "displayed_power": 22540,
+  "confirmed_positive_affinities": [
+    "Archers"
+  ],
+  "confirmed_negative_affinities": [
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "purple_epic_cores": 10,
+    "green_leaf_habit_cores": 15,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Enervate",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of combat, reduce Tactical Damage Dealt by one enemy that deals Tactical Damage until the end of combat.",
+      "displayed_current_effect_percent": -10.0,
+      "table_note": "The descriptive text shows -10%, while the level-1 table displays -10.5%.",
+      "levels": [
+        {"level": 1, "tactical_damage_dealt_percent": -10.5, "power": 340},
+        {"level": 2, "tactical_damage_dealt_percent": -12.6, "power": 740},
+        {"level": 3, "tactical_damage_dealt_percent": -14.7, "power": 1200},
+        {"level": 4, "tactical_damage_dealt_percent": -17.85, "power": 1800},
+        {"level": 5, "tactical_damage_dealt_percent": -21.0, "power": 2500}
+      ],
+      "next_upgrade_cost": {
+        "purple_epic_cores": 100,
+        "green_leaf_habit_cores": 100,
+        "gold_shortcut_shown": 170
+      }
+    },
+    {
+      "name": "Dragon's Cunning",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Tashix's Intelligence and reduce the Instinct of two adjacent enemies until the end of combat. The enemy Instinct reduction is enhanced by Tashix's Initiative.",
+      "levels": [
+        {"level": 1, "intelligence_percent": 12.0, "enemy_instinct_percent": -10.0, "power": 340},
+        {"level": 2, "intelligence_percent": 14.4, "enemy_instinct_percent": -12.0, "power": 740},
+        {"level": 3, "intelligence_percent": 16.8, "enemy_instinct_percent": -14.0, "power": 1200},
+        {"level": 4, "intelligence_percent": 20.4, "enemy_instinct_percent": -17.0, "power": 1800},
+        {"level": 5, "intelligence_percent": 24.0, "enemy_instinct_percent": -20.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Cunning Ruse",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Each round, Tashix has a 25% chance to gain one Mirage stack, up to 10. Each Mirage stack increases Fire Damage Dealt by 2.5% until the end of combat. While at four or more Mirage stacks, each round separately checks every enemy for a chance to apply Weakened (-15% Damage Dealt) for two rounds; the chance is doubled against Tactical-damage enemies.",
+      "fixed_values": {
+        "mirage_gain_chance_percent": 25.0,
+        "maximum_mirage_stacks": 10,
+        "fire_damage_per_stack_percent": 2.5,
+        "maximum_fire_damage_from_stacks_percent": 25.0,
+        "minimum_stacks_for_weakened_check": 4,
+        "weakened_damage_dealt_percent": -15.0,
+        "weakened_duration_rounds": 2,
+        "tactical_enemy_chance_multiplier": 2.0
+      },
+      "levels": [
+        {"level": 1, "base_weakened_chance_percent": 10.0, "tactical_enemy_weakened_chance_percent": 20.0, "power": 340},
+        {"level": 2, "base_weakened_chance_percent": 12.0, "tactical_enemy_weakened_chance_percent": 24.0, "power": 740},
+        {"level": 3, "base_weakened_chance_percent": 14.0, "tactical_enemy_weakened_chance_percent": 28.0, "power": 1200},
+        {"level": 4, "base_weakened_chance_percent": 17.0, "tactical_enemy_weakened_chance_percent": 34.0, "power": 1800},
+        {"level": 5, "base_weakened_chance_percent": 20.0, "tactical_enemy_weakened_chance_percent": 40.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Battle Guile",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, reduce the Instinct and Initiative of all three enemies until the end of combat. The reduction is enhanced by Tashix's Initiative.",
+      "levels": [
+        {"level": 1, "enemy_instinct_and_initiative_percent": -5.0, "power": 340},
+        {"level": 2, "enemy_instinct_and_initiative_percent": -6.0, "power": 740},
+        {"level": 3, "enemy_instinct_and_initiative_percent": -7.0, "power": 1200},
+        {"level": 4, "enemy_instinct_and_initiative_percent": -8.85, "power": 1800},
+        {"level": 5, "enemy_instinct_and_initiative_percent": -10.5, "power": 2500}
+      ]
+    },
+    {
+      "name": "Veiled Ambush",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Each round, Tashix has a 25% chance to gain one Mirage stack, up to 10. Each stack increases Fire Damage Dealt by 2.5%. At seven or more stacks, deal Fire Damage once per combat to the enemy with the most troops.",
+      "fixed_values": {
+        "mirage_gain_chance_percent": 25.0,
+        "maximum_mirage_stacks": 10,
+        "fire_damage_per_stack_percent": 2.5,
+        "maximum_fire_damage_from_stacks_percent": 25.0,
+        "minimum_stacks_for_ambush": 7,
+        "maximum_triggers_per_combat": 1
+      },
+      "levels": [
+        {"level": 1, "fire_damage_rate_percent": 150.0, "power": 340},
+        {"level": 2, "fire_damage_rate_percent": 220.0, "power": 790},
+        {"level": 3, "fire_damage_rate_percent": 290.0, "power": 1400},
+        {"level": 4, "fire_damage_rate_percent": 380.0, "power": 2100},
+        {"level": 5, "fire_damage_rate_percent": 500.0, "power": 3100}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
