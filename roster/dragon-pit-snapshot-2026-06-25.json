@@ -4,7 +4,7 @@
   "visible_roster_updates": [
     {"name": "Tashix", "level": 42, "stars": 2, "class": "Hunter", "subclass": "Hunter Whelp"},
     {"name": "Antares", "level": 42, "stars": 2},
-    {"name": "Seasmoke", "level": 41},
+    {"name": "Seasmoke", "level": 41, "stars": 1, "class": "Champion", "subclass": "Champion Hatchling"},
     {"name": "Vhagar", "level": 41},
     {"name": "Jagadrix", "level": 41, "stars": 5, "class": "Hunter", "subclass": "Hunter Adult"},
     {"name": "Dawnseeker", "level": 41},
@@ -20,6 +20,7 @@
   "detailed_files": {
     "Tashix": ["dragons/tashix.json", "mechanics/tashix.md"],
     "Antares": ["dragons/antares.json", "mechanics/antares.md"],
+    "Seasmoke": ["dragons/seasmoke.json", "mechanics/seasmoke.md"],
     "Jagadrix": ["dragons/jagadrix.json", "mechanics/jagadrix.md"],
     "Vaeldra": ["dragons/vaeldra.json", "mechanics/vaeldra.md"]
   },
