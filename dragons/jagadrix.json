@@ -1,0 +1,129 @@
+{
+  "name": "Jagadrix",
+  "observed_date": "2026-06-25",
+  "rarity": "Rare",
+  "class": "Hunter",
+  "subclass": "Hunter Adult",
+  "level": 41,
+  "stars": 5,
+  "relic_progress": {
+    "current": 83,
+    "required_for_next_star": 800
+  },
+  "command": {
+    "name": "Cunning Whispers",
+    "base_description_captured": false
+  },
+  "stats": {
+    "strength": 86.3,
+    "instinct": 104.6,
+    "intelligence": 137.8,
+    "initiative": 122.8,
+    "speed": "Average",
+    "energy": {
+      "current": 79,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 416817,
+    "required": 600409
+  },
+  "displayed_troop_capacity": 7214.0,
+  "displayed_power": 22150,
+  "confirmed_positive_affinities": [
+    "Archers"
+  ],
+  "inventory_snapshot": {
+    "blue_rare_cores": 119,
+    "green_leaf_habit_cores": 110,
+    "gold": 725
+  },
+  "habit_unlock_pattern_note": "Jagadrix is shown at 5 stars. Quick-Witted requires 2 more stars and Echoes of Deceit requires 4 more, establishing 7-star and 9-star unlocks. The 1/3/5-star thresholds for the three unlocked habits follow the displayed Rare-dragon progression pattern.",
+  "habits": [
+    {
+      "name": "Enervate",
+      "unlock_at_stars": 1,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of combat, reduce Tactical Damage Dealt by one enemy that deals Tactical Damage until the end of combat.",
+      "levels": [
+        {"level": 1, "tactical_damage_dealt_percent": -8.0, "power": 250},
+        {"level": 2, "tactical_damage_dealt_percent": -9.6, "power": 550},
+        {"level": 3, "tactical_damage_dealt_percent": -11.2, "power": 900},
+        {"level": 4, "tactical_damage_dealt_percent": -13.6, "power": 1300},
+        {"level": 5, "tactical_damage_dealt_percent": -16.0, "power": 1800}
+      ],
+      "next_upgrade_cost": {
+        "blue_rare_cores": 100,
+        "green_leaf_habit_cores": 100
+      }
+    },
+    {
+      "name": "Second Wind",
+      "unlock_at_stars": 3,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "On round 6, increase Jagadrix's Damage Dealt until the end of combat, apply Recovery to Jagadrix, then afflict Jagadrix with Nullify Recovery until the end of combat.",
+      "levels": [
+        {"level": 1, "damage_dealt_percent": 10.0, "recovery_rate_percent": 150.0, "power": 250},
+        {"level": 2, "damage_dealt_percent": 12.0, "recovery_rate_percent": 180.0, "power": 550},
+        {"level": 3, "damage_dealt_percent": 14.0, "recovery_rate_percent": 210.0, "power": 900},
+        {"level": 4, "damage_dealt_percent": 17.0, "recovery_rate_percent": 255.0, "power": 1300},
+        {"level": 5, "damage_dealt_percent": 20.0, "recovery_rate_percent": 300.0, "power": 1800}
+      ],
+      "next_upgrade_cost": {
+        "blue_rare_cores": 100,
+        "green_leaf_habit_cores": 100
+      }
+    },
+    {
+      "name": "Whispering Sabotage",
+      "unlock_at_stars": 5,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "Each round, Jagadrix has a chance to afflict one enemy in the same lane with Weakened (-10% Damage Dealt) for 2 rounds.",
+      "levels": [
+        {"level": 1, "weakened_chance_percent": 25.0, "weakened_damage_dealt_percent": -10.0, "duration_rounds": 2, "power": 250},
+        {"level": 2, "weakened_chance_percent": 30.0, "weakened_damage_dealt_percent": -10.0, "duration_rounds": 2, "power": 550},
+        {"level": 3, "weakened_chance_percent": 35.0, "weakened_damage_dealt_percent": -10.0, "duration_rounds": 2, "power": 900},
+        {"level": 4, "weakened_chance_percent": 42.5, "weakened_damage_dealt_percent": -10.0, "duration_rounds": 2, "power": 1300},
+        {"level": 5, "weakened_chance_percent": 50.0, "weakened_damage_dealt_percent": -10.0, "duration_rounds": 2, "power": 1800}
+      ],
+      "next_upgrade_cost": {
+        "blue_rare_cores": 100,
+        "green_leaf_habit_cores": 100
+      }
+    },
+    {
+      "name": "Quick-Witted",
+      "unlock_at_stars": 7,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Jagadrix's Intelligence and Initiative until the end of combat.",
+      "levels": [
+        {"level": 1, "intelligence_and_initiative_percent": 12.5, "power": 250},
+        {"level": 2, "intelligence_and_initiative_percent": 15.0, "power": 550},
+        {"level": 3, "intelligence_and_initiative_percent": 17.5, "power": 900},
+        {"level": 4, "intelligence_and_initiative_percent": 21.25, "power": 1300},
+        {"level": 5, "intelligence_and_initiative_percent": 25.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Echoes of Deceit",
+      "unlock_at_stars": 9,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Cunning Whispers gains a round-1 Instinct and Initiative reduction against the enemy with the highest Instinct until the end of combat. On rounds 3, 6, and 9, deal Fire Damage to every enemy that deals Tactical Damage; damage is doubled against targets afflicted with Panic.",
+      "scaling_note": "The Instinct and Initiative reduction is enhanced by Jagadrix's Initiative.",
+      "levels": [
+        {"level": 1, "instinct_and_initiative_percent": -6.0, "fire_damage_rate_percent": 30.0, "power": 250},
+        {"level": 2, "instinct_and_initiative_percent": -7.8, "fire_damage_rate_percent": 39.0, "power": 580},
+        {"level": 3, "instinct_and_initiative_percent": -9.6, "fire_damage_rate_percent": 48.0, "power": 1000},
+        {"level": 4, "instinct_and_initiative_percent": -12.0, "fire_damage_rate_percent": 60.0, "power": 1600},
+        {"level": 5, "instinct_and_initiative_percent": -15.0, "fire_damage_rate_percent": 75.0, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
