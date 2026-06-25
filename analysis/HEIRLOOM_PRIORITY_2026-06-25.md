@@ -2,57 +2,77 @@
 
 Source: Dragon Growth screenshots supplied June 25, 2026.
 
-## Decision
+## Revised Decision
 
-Upgrade **Sentinel: XP vs RSS Defenders** from level 5 to level 6, then stop spending Heirloom materials until the brown resource is rebuilt.
+The newly documented House Level 28 and 39 clusters change the immediate recommendation.
 
-## Why Sentinel XP Comes First
+Buy these two global mitigation unlocks:
 
-The current five-army plan identifies Syrax as the highest-priority star and level-development target. Syrax is a Sentinel and anchors the Archer formation:
+1. **Sentinel: Incoming Damage** from level 0 to 1.
+2. **Hunter: Incoming Damage** from level 0 to 1.
 
-- **Left:** Tashix
-- **Vanguard:** Syrax
-- **Right:** Antares
-- **Troops:** Archers
+Each costs 1,250 brown material, for a total of 2,500. The current balance of 2,685 is enough for both and leaves approximately 185.
 
-The direct Sentinel XP node increases experience gained from RSS defenders from **+2.92% to +3.79%**, a gain of 0.87 percentage points. It requires no Gold.
+## Why This Supersedes Sentinel XP
 
-The account currently has enough brown material for one Cluster II outer-node upgrade:
+The earlier recommendation prioritized **Sentinel XP vs RSS Defenders** because Syrax is the current development target. That node remains useful, but it applies only while fighting RSS/resource defenders and costs 2,550 brown material for one class.
 
-- Available: 2,685
-- Required: 2,550
-- Remaining: 135
+The newly revealed incoming-damage nodes:
 
-## Why Amplifier II Is Lower Priority
+- have no RSS restriction shown;
+- apply to ordinary combat by class;
+- cost only 1,250 brown material each;
+- allow two classes to be improved immediately without spending Gold.
 
-Dragon Growth Amplifier II level 5 → 6 would:
+The current five armies contain:
 
-- Increase the amplifier from +4.01% to +5.36%.
-- Increase each connected class XP effect from only +2.92% to +2.96%.
+- 6 Sentinels
+- 4 Hunters
+- 3 Warriors
+- 2 Champions
 
-It costs 3,150 brown material and 46 Gold, so it is currently unaffordable and competes with the plan to preserve Gold for guaranteed Syrax relics.
+Unlocking Sentinel and Hunter mitigation therefore covers 10 of the 15 deployed dragons.
 
-The direct Sentinel XP upgrade is more than twenty times larger on the displayed class modifier:
+## Exact Immediate Effects
 
-- Direct node gain: **+0.87 percentage points**
-- Amplifier-connected gain: **+0.04 percentage points**
+| Upgrade | Effect | Cost |
+|---|---:|---:|
+| Sentinel Incoming Damage 0 → 1 | 0.00% → -0.18% | 1,250 brown material |
+| Hunter Incoming Damage 0 → 1 | 0.00% → -0.18% | 1,250 brown material |
 
-## Why Cluster I Combat Nodes Wait
+These bonuses are small individually, but they are permanent, global, and affect most of the active roster.
 
-A Cluster I combat node costs less brown material and improves its selected RSS combat modifier from ±2.57% to ±3.35%. Sentinel Incoming Damage was initially considered because Sentinels often occupy the vanguard.
+## Why Not Amplifier IV First
 
-The newly documented Cluster II changes that priority. XP acceleration for Syrax is more aligned with the current progression goal than a small RSS-only durability increase. Cluster I remains useful later, but it should follow the immediate Sentinel XP purchase.
+Dragon Growth Amplifier IV level 0 → 1 costs:
 
-## Follow-up Order
+- 1,550 brown material
+- 200 Amplifier Seals
 
-After rebuilding at least 2,550 brown material per purchase:
+The game explicitly states that the amplifier has no effect until a connected upgrade is purchased. Its connected class values also remain displayed as 0.00% → 0.00% at the shown precision. Directly unlocking the outer mitigation nodes is therefore the correct first step.
 
-1. **Hunter XP** — supports Crimson, Nyrena, Tashix, and Antares.
-2. **Champion XP** — supports Rhysarion and Arulix.
-3. **Warrior XP** — supports Vhagar, Arrax, and Jagadrix, which are already comparatively developed.
+## Why Not Cluster III Damage First
 
-Do not use Gold on either central amplifier while guaranteed Syrax relic progression remains the primary market objective.
+Each global damage node at level 1 → 2 costs 1,450 brown material and improves one class from +0.18% to +0.39%.
 
-## Scope Warning
+That is a valid later purchase, but the current balance can fund only one such damage upgrade. Two incoming-damage unlocks cover more of the roster immediately and advance Cluster IV mastery from 0 to 20.
 
-These Heirloom effects are limited to **RSS/resource defenders**. They do not directly improve ordinary PvP or castle combat unless the game explicitly classifies that target as an RSS defender.
+## Why Not the Central Amplifiers
+
+- **Amplifier III 1 → 2:** costs 1,800 brown material and 300 Amplifier Seals, while connected class damage remains displayed as +0.18% → +0.18%.
+- **Amplifier IV 0 → 1:** costs 1,550 brown material and 200 Amplifier Seals, while connected mitigation remains displayed as 0.00% → 0.00% and requires an outer node first.
+- **Amplifier II 5 → 6:** costs 3,150 brown material and 46 Gold, and only changes each RSS XP value from +2.92% to +2.96%.
+- **Amplifier I 7 → 8:** costs 6,250 brown material and 356 Gold.
+
+None offers better immediate value than the two direct Cluster IV unlocks.
+
+## Follow-up Priorities
+
+After rebuilding brown material:
+
+1. **Sentinel Damage 1 → 2** — broad global benefit across six active dragons.
+2. **Hunter Damage 1 → 2** — supports Tashix, Antares, Nyrena, and Crimson.
+3. **Sentinel XP vs RSS Defenders 5 → 6** — supports Syrax's leveling during resource-defender farming.
+4. **Warrior or Champion global mitigation** based on which army is failing in battle reports.
+
+Preserve all Gold for guaranteed Syrax relic progression rather than central Heirloom amplifiers.
