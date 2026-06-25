@@ -1,0 +1,132 @@
+{
+  "name": "Antares",
+  "observed_date": "2026-06-25",
+  "rarity": "Rare",
+  "class": "Hunter",
+  "subclass": "Hunter Whelp",
+  "level": 42,
+  "stars": 2,
+  "relic_progress": {
+    "current": 16,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Relentless Pursuit",
+    "effects": [
+      "Each round, has a chance to afflict one adjacent enemy with Vulnerable.",
+      "On rounds 3, 6, and 9, deals Fire Damage to two adjacent enemies."
+    ],
+    "displayed_values": {
+      "fire_damage_rate_percent": 65.0,
+      "vulnerable_percent": 10.0,
+      "additional_fire_damage_at_6_plus_stars_percent": 20.0
+    },
+    "chance_to_apply_vulnerable_captured": false
+  },
+  "stats": {
+    "strength": 85.7,
+    "instinct": 61.7,
+    "intelligence": 100.8,
+    "initiative": 97.0,
+    "speed": "Fast",
+    "energy": {
+      "current": 32,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 376599,
+    "required": 663943
+  },
+  "displayed_troop_capacity": 6495.0,
+  "displayed_power": 16750,
+  "confirmed_positive_affinities": [
+    "Archers"
+  ],
+  "confirmed_negative_affinities": [
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "blue_rare_cores": 24,
+    "green_leaf_habit_cores": 15,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Blazing Onslaught",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 2,
+      "effect": "At the start of round 1 for 3 rounds, increase Fire Damage Received by one enemy, prioritizing the left flank, and Physical Damage Received excluding Basic Attacks by one enemy, prioritizing the right flank.",
+      "levels": [
+        {"level": 1, "fire_and_physical_damage_received_percent": 11.0, "power": 250},
+        {"level": 2, "fire_and_physical_damage_received_percent": 13.2, "power": 550},
+        {"level": 3, "fire_and_physical_damage_received_percent": 15.4, "power": 900},
+        {"level": 4, "fire_and_physical_damage_received_percent": 18.7, "power": 1300},
+        {"level": 5, "fire_and_physical_damage_received_percent": 22.0, "power": 1800}
+      ],
+      "next_upgrade_cost": {
+        "blue_rare_cores": 200,
+        "green_leaf_habit_cores": 200,
+        "gold_shortcut_shown": 370
+      }
+    },
+    {
+      "name": "Dragon's Flair",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Antares's Fire Damage Dealt until the end of combat.",
+      "levels": [
+        {"level": 1, "fire_damage_dealt_percent": 8.0, "power": 250},
+        {"level": 2, "fire_damage_dealt_percent": 9.6, "power": 550},
+        {"level": 3, "fire_damage_dealt_percent": 11.2, "power": 900},
+        {"level": 4, "fire_damage_dealt_percent": 13.6, "power": 1300},
+        {"level": 5, "fire_damage_dealt_percent": 16.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Fiery Precision",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Relentless Pursuit gains an each-round Fire attack against up to three enemies in any lane that are afflicted with Slow.",
+      "levels": [
+        {"level": 1, "fire_damage_rate_percent": 20.0, "power": 250},
+        {"level": 2, "fire_damage_rate_percent": 24.0, "power": 550},
+        {"level": 3, "fire_damage_rate_percent": 28.0, "power": 900},
+        {"level": 4, "fire_damage_rate_percent": 34.0, "power": 1300},
+        {"level": 5, "fire_damage_rate_percent": 40.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Dragon's Intellect",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, reduce Antares's Damage Received and increase Intelligence until the end of combat.",
+      "levels": [
+        {"level": 1, "damage_received_percent": -4.0, "intelligence_percent": 5.0, "power": 250},
+        {"level": 2, "damage_received_percent": -4.8, "intelligence_percent": 6.0, "power": 550},
+        {"level": 3, "damage_received_percent": -5.6, "intelligence_percent": 7.0, "power": 900},
+        {"level": 4, "damage_received_percent": -6.8, "intelligence_percent": 8.5, "power": 1300},
+        {"level": 5, "damage_received_percent": -8.0, "intelligence_percent": 10.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Redemption",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "At the start of combat, increase Antares's Intelligence and Initiative until the end of combat. At the start of each round, Antares has a chance to gain Immunity to Vulnerable and Weakened for 2 rounds.",
+      "levels": [
+        {"level": 1, "intelligence_and_initiative_percent": 6.0, "immunity_chance_percent": 10.0, "power": 250},
+        {"level": 2, "intelligence_and_initiative_percent": 7.8, "immunity_chance_percent": 13.0, "power": 580},
+        {"level": 3, "intelligence_and_initiative_percent": 9.6, "immunity_chance_percent": 16.0, "power": 1000},
+        {"level": 4, "intelligence_and_initiative_percent": 12.0, "immunity_chance_percent": 20.0, "power": 1600},
+        {"level": 5, "intelligence_and_initiative_percent": 15.0, "immunity_chance_percent": 25.0, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
