@@ -1,0 +1,225 @@
+{
+  "name": "Vaeldra",
+  "observed_date": "2026-06-25",
+  "rarity": "Epic",
+  "class": "Warrior",
+  "subclass": "Warrior Whelp",
+  "level": 33,
+  "stars": 2,
+  "relic_progress": {
+    "current": 96,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Lure",
+    "description_captured": false
+  },
+  "stats": {
+    "strength": 127.1,
+    "instinct": 120.5,
+    "intelligence": 95.6,
+    "initiative": 104.8,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 101114,
+    "required": 179015
+  },
+  "displayed_troop_capacity": 5585.0,
+  "displayed_power": 17540,
+  "confirmed_positive_affinities": [
+    "Spearmen"
+  ],
+  "current_inventory_snapshot": {
+    "purple_rarity_cores": 10,
+    "green_habit_cores": 182,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Dragon's Valor",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of combat, reduce Vaeldra's Damage Received and increase her Strength until the end of combat.",
+      "levels": [
+        {
+          "level": 1,
+          "damage_received_percent": -5.0,
+          "strength_percent": 8.5,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "damage_received_percent": -6.0,
+          "strength_percent": 10.2,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "damage_received_percent": -7.0,
+          "strength_percent": 11.9,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "damage_received_percent": -8.5,
+          "strength_percent": 14.45,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "damage_received_percent": -10.0,
+          "strength_percent": 17.0,
+          "power": 2500
+        }
+      ],
+      "next_upgrade_cost": {
+        "purple_rarity_cores": 100,
+        "green_habit_cores": 100
+      }
+    },
+    {
+      "name": "Ensnare",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "effect": "On round 1, reduce Instinct and Initiative of 2 adjacent enemies for 3 rounds. The effect is enhanced by Vaeldra's Intelligence.",
+      "levels": [
+        {
+          "level": 1,
+          "instinct_and_initiative_percent": -18.0,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "instinct_and_initiative_percent": -21.6,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "instinct_and_initiative_percent": -25.2,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "instinct_and_initiative_percent": -30.6,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "instinct_and_initiative_percent": -36.0,
+          "power": 2500
+        }
+      ]
+    },
+    {
+      "name": "Tempting Distraction",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "effect": "When Vaeldra afflicts an enemy with Taunt, increase that enemy's Physical Damage Received, excluding Basic Attacks, and Fire Damage Received for 2 rounds.",
+      "levels": [
+        {
+          "level": 1,
+          "physical_and_fire_damage_received_percent": 6.0,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "physical_and_fire_damage_received_percent": 7.2,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "physical_and_fire_damage_received_percent": 8.4,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "physical_and_fire_damage_received_percent": 10.2,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "physical_and_fire_damage_received_percent": 12.0,
+          "power": 2500
+        }
+      ]
+    },
+    {
+      "name": "Infernal Force",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "effect": "At the start of round 1 for 3 rounds, increase Fire Damage Dealt by 1 ally, prioritizing the left flank, and Physical Damage Dealt excluding Basic Attacks by 1 ally, prioritizing the right flank.",
+      "levels": [
+        {
+          "level": 1,
+          "fire_and_physical_damage_dealt_percent": 12.0,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "fire_and_physical_damage_dealt_percent": 14.4,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "fire_and_physical_damage_dealt_percent": 16.8,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "fire_and_physical_damage_dealt_percent": 20.4,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "fire_and_physical_damage_dealt_percent": 24.0,
+          "power": 2500
+        }
+      ]
+    },
+    {
+      "name": "Siren's Call",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "effect": "At the start of round 1, reduce Vaeldra's Physical Damage Received for 3 rounds. At the start of rounds 1 through 3, Vaeldra has a chance to Taunt all enemies until the end of the round. Enemies already Taunted are afflicted with Stagger instead.",
+      "levels": [
+        {
+          "level": 1,
+          "physical_damage_received_percent": -10.0,
+          "taunt_or_stagger_chance_percent": 40.0,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "physical_damage_received_percent": -13.0,
+          "taunt_or_stagger_chance_percent": 52.0,
+          "power": 790
+        },
+        {
+          "level": 3,
+          "physical_damage_received_percent": -16.0,
+          "taunt_or_stagger_chance_percent": 64.0,
+          "power": 1400
+        },
+        {
+          "level": 4,
+          "physical_damage_received_percent": -20.0,
+          "taunt_or_stagger_chance_percent": 80.0,
+          "power": 2100
+        },
+        {
+          "level": 5,
+          "physical_damage_received_percent": -25.0,
+          "taunt_or_stagger_chance_percent": 100.0,
+          "power": 3100
+        }
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
