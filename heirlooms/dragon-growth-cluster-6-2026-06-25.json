@@ -1,0 +1,105 @@
+{
+  "observed_date": "2026-06-25",
+  "house_level": 66,
+  "dragon_growth_power": 22240,
+  "observed_inventory": {
+    "brown_material": 2685,
+    "black_gold_material": 18800,
+    "dragonlord_scrolls": 3810,
+    "amplifier_seals": 24700,
+    "gold": 515
+  },
+  "cluster_6": {
+    "name": "Global class damage at House Level 61",
+    "scope": "All combat; no RSS/resource-defender restriction is shown",
+    "unlock_house_level": 61,
+    "mastery_progress": {
+      "current": 0,
+      "target": 10
+    },
+    "outer_nodes": {
+      "current_level": 0,
+      "target_level": 1,
+      "cost_each": {
+        "brown_material": 2100,
+        "gold": 0
+      },
+      "nodes": [
+        {
+          "name": "Warrior: Damage",
+          "current_percent": 0.0,
+          "target_percent": 0.37
+        },
+        {
+          "name": "Champion: Damage",
+          "current_percent": 0.0,
+          "target_percent": 0.37
+        },
+        {
+          "name": "Hunter: Damage",
+          "current_percent": 0.0,
+          "target_percent": 0.37
+        },
+        {
+          "name": "Sentinel: Damage",
+          "current_percent": 0.0,
+          "target_percent": 0.37
+        }
+      ],
+      "one_upgrade_affordable_now": true,
+      "two_upgrades_affordable_now": false,
+      "brown_material_after_one_upgrade": 585
+    },
+    "amplifier": {
+      "name": "Dragon Growth Amplifier VI",
+      "current_level": 0,
+      "target_level": 1,
+      "amplifier_effect_percent": {
+        "current": 0.0,
+        "target": 0.55
+      },
+      "connected_effects_displayed_percent": {
+        "warrior_damage": {
+          "current": 0.0,
+          "target": 0.0
+        },
+        "champion_damage": {
+          "current": 0.0,
+          "target": 0.0
+        },
+        "hunter_damage": {
+          "current": 0.0,
+          "target": 0.0
+        },
+        "sentinel_damage": {
+          "current": 0.0,
+          "target": 0.0
+        }
+      },
+      "display_note": "The game states that the amplifier has no effect until a connected outer upgrade is purchased. All connected class values remain displayed as 0.00% at the shown precision.",
+      "cost": {
+        "brown_material": 2650,
+        "amplifier_seals": 350,
+        "gold": 0
+      },
+      "affordable_now": true,
+      "brown_material_after_upgrade": 35,
+      "buy_before_outer_node": false
+    }
+  },
+  "decision_context": {
+    "best_direct_damage_target_by_roster_coverage": "Sentinel: Damage 0 -> 1",
+    "reason": "The active five-army roster contains six Sentinels, more than any other dragon class. The direct node grants a visible +0.37% global damage increase, while Amplifier VI shows no connected-value change before an outer node is active.",
+    "existing_default_plan": [
+      "Sentinel: Incoming Damage 0 -> 1",
+      "Hunter: Incoming Damage 0 -> 1"
+    ],
+    "existing_default_plan_status": "Still the broader-coverage default because it affects ten active dragons across two classes; Cluster VI Sentinel Damage is the stronger damage-first alternative.",
+    "preserve_gold": true
+  },
+  "notes": [
+    "Cluster V has not yet been documented from supplied screenshots; the numbering gap is intentional.",
+    "No additional cost besides brown material was shown for the four outer class-damage nodes.",
+    "Do not purchase Dragon Growth Amplifier VI before at least one connected class-damage node."
+  ]
+}
