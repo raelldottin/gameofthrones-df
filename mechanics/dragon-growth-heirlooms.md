@@ -4,7 +4,10 @@ Source: Dragon Growth screenshots supplied June 25, 2026.
 
 ## Scope
 
-Every effect documented here applies only against **RSS/resource defenders**. These bonuses do not automatically apply to castle attacks or ordinary PvP battles.
+The Dragon Growth tree contains both target-specific and global bonuses:
+
+- **Clusters I and II** apply only against **RSS/resource defenders**.
+- **Clusters III and IV** show no RSS qualifier and therefore apply as general class bonuses across combat.
 
 Observed account state:
 
@@ -60,7 +63,7 @@ Cost:
 - 4,550 Amplifier Seals
 - 356 Gold
 
-The upgrade is currently blocked by the brown-material requirement and is not an efficient use of Gold while guaranteed Syrax relics remain the higher-priority purchase target.
+This upgrade is currently blocked by the brown-material requirement and is not an efficient use of Gold while guaranteed Syrax relics remain a higher-priority purchase target.
 
 ## Cluster II — XP Against RSS Defenders
 
@@ -98,31 +101,84 @@ Cost:
 - 1,350 Amplifier Seals
 - 46 Gold
 
-This amplifier is currently blocked by the brown-material requirement. Even once affordable, it gives only a +0.04 percentage-point increase to each displayed class XP modifier, while one direct outer-node upgrade gives +0.87 percentage points to the selected class.
+The amplifier is currently blocked by the brown-material requirement. Even once affordable, it gives only a +0.04 percentage-point increase to each displayed class XP modifier, while one direct outer-node upgrade gives +0.87 percentage points to the selected class.
+
+## Cluster III — Global Dragon Damage
+
+- **Activation requirement:** House level 28
+- **Outer nodes:** level 1/15
+- **Central amplifier:** level 1/15
+- **Displayed mastery progress:** 10 → 20
+- **Scope:** general class damage; no RSS restriction is shown
+
+### Outer-node upgrade: level 1 → 2
+
+Each class-specific damage node costs **1,450 brown material** and no other cost is shown.
+
+| Node | Current | Level 2 |
+|---|---:|---:|
+| Warrior Damage | +0.18% | +0.39% |
+| Champion Damage | +0.18% | +0.39% |
+| Hunter Damage | +0.18% | +0.39% |
+| Sentinel Damage | +0.18% | +0.39% |
+
+### Dragon Growth Amplifier III: level 1 → 2
+
+- Amplifier effect: **+0.55% → +1.21%**
+- Connected Warrior, Champion, Hunter, and Sentinel damage values remain displayed as **+0.18% → +0.18%** at the game's shown precision.
+
+Cost:
+
+- 1,800 brown material
+- 300 Amplifier Seals
+- No Gold shown
+
+The displayed class values do not visibly change at two decimal places, so direct outer-node upgrades give clearer immediate value.
+
+## Cluster IV — Global Dragon Incoming Damage
+
+- **Activation requirement:** House level 39
+- **Outer nodes:** level 0/15
+- **Central amplifier:** level 0/15
+- **Displayed mastery progress:** 0 → 10
+- **Scope:** general class mitigation; no RSS restriction is shown
+
+### Outer-node upgrade: level 0 → 1
+
+Each incoming-damage node costs **1,250 brown material** and no other cost is shown.
+
+| Node | Current | Level 1 |
+|---|---:|---:|
+| Warrior Incoming Damage | 0.00% | -0.18% |
+| Champion Incoming Damage | 0.00% | -0.18% |
+| Hunter Incoming Damage | 0.00% | -0.18% |
+| Sentinel Incoming Damage | 0.00% | -0.18% |
+
+### Dragon Growth Amplifier IV: level 0 → 1
+
+- Amplifier effect: **0.00% → +0.55%**
+- Connected incoming-damage values remain displayed as **0.00% → 0.00%**.
+- The game explicitly states that the amplifier has no effect until a connected outer upgrade is purchased.
+
+Cost:
+
+- 1,550 brown material
+- 200 Amplifier Seals
+- No Gold shown
+
+Do not buy the amplifier before unlocking at least one connected incoming-damage node.
 
 ## Current Upgrade Recommendation
 
-Upgrade **Sentinel: XP vs RSS Defenders** from level 5 to 6.
+The newly documented global clusters supersede the earlier Sentinel-XP-first recommendation.
 
-Reasons:
+With 2,685 brown material, buy:
 
-1. Syrax is the current dragon-development priority.
-2. Syrax is a Sentinel and gains directly from this XP bonus when fighting resource defenders.
-3. The direct node improves Sentinel XP from +2.92% to +3.79% without consuming Gold.
-4. The account has enough materials for exactly one Cluster II outer-node upgrade.
+1. **Sentinel Incoming Damage 0 → 1** for 1,250 brown material.
+2. **Hunter Incoming Damage 0 → 1** for 1,250 brown material.
 
-Estimated resources after the upgrade:
+Total cost: **2,500 brown material**, leaving approximately **185**.
 
-- 135 brown material
-- Approximately 18,450 black-and-gold material
-- 3,660 Dragonlord Scrolls
-- Approximately 24,700 Amplifier Seals
-- 515 Gold
+This pair applies in general combat and covers 10 of the 15 dragons in the current five-army roster: six Sentinels and four Hunters. It provides broader immediate value than spending 2,550 brown material on one RSS-only XP node.
 
-Recommended Cluster II order after Sentinel XP:
-
-1. Hunter XP
-2. Champion XP
-3. Warrior XP
-
-This order supports the least-developed active dragons first: Syrax through Sentinel XP, then Crimson and Nyrena through Hunter XP, followed by Rhysarion and Arulix through Champion XP. Warrior XP comes later because the main active Warriors are already comparatively developed.
+Preserve all 515 Gold and defer all central amplifiers for now.
