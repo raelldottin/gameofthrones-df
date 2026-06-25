@@ -177,8 +177,54 @@
     "name": "Seasmoke",
     "level": 41,
     "stars": 1,
-    "class": "Sentinel",
-    "ability": "Loyal Bond"
+    "class": "Champion",
+    "subclass": "Champion Hatchling",
+    "ability": "Cleansing Wrath",
+    "relic_progress": "5/40",
+    "stats": {
+      "strength": 145.0,
+      "instinct": 136.9,
+      "intelligence": 158.9,
+      "initiative": 167.0,
+      "speed": "Fast",
+      "energy": "25/100"
+    },
+    "xp": "426633/600409",
+    "affinities": [
+      "Cavalry",
+      "Archers"
+    ],
+    "negative_affinities": [
+      "Siege"
+    ],
+    "habits": [
+      {
+        "name": "Clever Maneuver",
+        "unlock_at_stars": 2,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Wind's Favor",
+        "unlock_at_stars": 4,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Infectious Wrath",
+        "unlock_at_stars": 6,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Cunning Ferocity",
+        "unlock_at_stars": 8,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Loyal Bond",
+        "unlock_at_stars": 10,
+        "currently_unlocked": false
+      }
+    ],
+    "details_file": "dragons/seasmoke.json"
   },
   {
     "name": "Rhysarion",
