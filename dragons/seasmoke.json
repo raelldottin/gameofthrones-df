@@ -1,0 +1,138 @@
+{
+  "name": "Seasmoke",
+  "observed_date": "2026-06-25",
+  "rarity": "Legendary",
+  "class": "Champion",
+  "subclass": "Champion Hatchling",
+  "level": 41,
+  "stars": 1,
+  "relic_progress": {
+    "current": 5,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Cleansing Wrath",
+    "effects": [
+      "Each round, perform up to three separate 20% checks to Cleanse one positive effect from an enemy in any lane.",
+      "On rounds 3, 6, and 9, deal Fire Damage to one enemy in the same lane at a +190% Damage Rate."
+    ],
+    "displayed_values": {
+      "cleanse_checks_per_round": 3,
+      "cleanse_chance_per_check_percent": 20.0,
+      "fire_damage_rounds": [3, 6, 9],
+      "fire_damage_rate_percent": 190.0
+    },
+    "at_6_plus_stars": {
+      "infectious_wrath": "Whenever Seasmoke Cleanses an enemy, apply one Infectious Wrath stack for 3 rounds, up to 3 stacks.",
+      "physical_damage": "On rounds 3, 6, and 9, deal Physical Damage to two adjacent enemies at a +30% Damage Rate, doubled to +60% against targets afflicted with Panic."
+    }
+  },
+  "stats": {
+    "strength": 145.0,
+    "instinct": 136.9,
+    "intelligence": 158.9,
+    "initiative": 167.0,
+    "speed": "Fast",
+    "energy": {
+      "current": 25,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 426633,
+    "required": 600409
+  },
+  "displayed_troop_capacity": 6394.0,
+  "displayed_power": 26400,
+  "confirmed_positive_affinities": [
+    "Cavalry",
+    "Archers"
+  ],
+  "confirmed_negative_affinities": [
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "legendary_rarity_cores": 10,
+    "green_shield_emblem_habit_cores": 80,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Clever Maneuver",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, increase the Intelligence and Initiative of the ally with the highest Intelligence until the end of combat.",
+      "levels": [
+        {"level": 1, "intelligence_percent": 22.0, "initiative_percent": 12.5, "power": 420},
+        {"level": 2, "intelligence_percent": 26.4, "initiative_percent": 15.0, "power": 920},
+        {"level": 3, "intelligence_percent": 30.8, "initiative_percent": 17.5, "power": 1500},
+        {"level": 4, "intelligence_percent": 37.4, "initiative_percent": 21.25, "power": 2200},
+        {"level": 5, "intelligence_percent": 44.0, "initiative_percent": 25.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Wind's Favor",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase the Initiative of all three allies until the end of combat. The effect is enhanced by Seasmoke's Initiative.",
+      "levels": [
+        {"level": 1, "initiative_percent": 12.5, "power": 420},
+        {"level": 2, "initiative_percent": 15.0, "power": 920},
+        {"level": 3, "initiative_percent": 17.5, "power": 1500},
+        {"level": 4, "initiative_percent": 21.25, "power": 2200},
+        {"level": 5, "initiative_percent": 25.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Infectious Wrath",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "Cleansing Wrath applies Infectious Wrath whenever Seasmoke Cleanses an enemy. Each stack reduces Recovery Received for 3 rounds, up to 3 stacks. On rounds 3, 6, and 9, Seasmoke also deals Physical Damage to two adjacent enemies, doubled against Panic targets.",
+      "fixed_values": {
+        "maximum_stacks": 3,
+        "duration_rounds": 3,
+        "physical_damage_rounds": [3, 6, 9],
+        "panic_damage_multiplier": 2.0
+      },
+      "levels": [
+        {"level": 1, "recovery_received_per_stack_percent": -15.0, "physical_damage_rate_percent": 30.0, "panic_physical_damage_rate_percent": 60.0, "power": 420},
+        {"level": 2, "recovery_received_per_stack_percent": -18.0, "physical_damage_rate_percent": 36.0, "panic_physical_damage_rate_percent": 72.0, "power": 920},
+        {"level": 3, "recovery_received_per_stack_percent": -21.0, "physical_damage_rate_percent": 42.0, "panic_physical_damage_rate_percent": 84.0, "power": 1500},
+        {"level": 4, "recovery_received_per_stack_percent": -25.5, "physical_damage_rate_percent": 51.0, "panic_physical_damage_rate_percent": 102.0, "power": 2200},
+        {"level": 5, "recovery_received_per_stack_percent": -30.0, "physical_damage_rate_percent": 60.0, "panic_physical_damage_rate_percent": 120.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Cunning Ferocity",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of combat, increase the Intelligence and Fire Damage Dealt of two adjacent allies until the end of combat. The Intelligence increase is enhanced by Seasmoke's Instinct.",
+      "levels": [
+        {"level": 1, "intelligence_percent": 7.5, "fire_damage_dealt_percent": 5.0, "power": 420},
+        {"level": 2, "intelligence_percent": 9.0, "fire_damage_dealt_percent": 6.0, "power": 920},
+        {"level": 3, "intelligence_percent": 10.5, "fire_damage_dealt_percent": 7.0, "power": 1500},
+        {"level": 4, "intelligence_percent": 12.75, "fire_damage_dealt_percent": 8.5, "power": 2200},
+        {"level": 5, "intelligence_percent": 15.0, "fire_damage_dealt_percent": 10.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Loyal Bond",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Each round, Seasmoke can grant Advantage (+20% Damage Dealt) for 2 rounds to two other allies above 50% troop capacity, or Resistance (-20% Damage Received) for 2 rounds to two other allies below 50% troop capacity.",
+      "levels": [
+        {"level": 1, "advantage_chance_percent": 10.0, "resistance_chance_percent": 10.0, "power": 430},
+        {"level": 2, "advantage_chance_percent": 13.0, "resistance_chance_percent": 13.0, "power": 1000},
+        {"level": 3, "advantage_chance_percent": 16.0, "resistance_chance_percent": 16.0, "power": 1700},
+        {"level": 4, "advantage_chance_percent": 20.0, "resistance_chance_percent": 20.0, "power": 2700},
+        {"level": 5, "advantage_chance_percent": 25.0, "resistance_chance_percent": 25.0, "power": 4000}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
