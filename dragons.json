@@ -1,17 +1,59 @@
 [
   {
     "name": "Vhagar",
-    "level": 38,
+    "level": 41,
     "stars": 4,
     "class": "Warrior",
     "ability": "Fiery Bonds"
   },
   {
     "name": "Jagadrix",
-    "level": 40,
-    "stars": 3,
-    "class": "Warrior",
-    "ability": "Cunning Whispers"
+    "level": 41,
+    "stars": 5,
+    "class": "Hunter",
+    "subclass": "Hunter Adult",
+    "ability": "Cunning Whispers",
+    "relic_progress": "83/800",
+    "stats": {
+      "strength": 86.3,
+      "instinct": 104.6,
+      "intelligence": 137.8,
+      "initiative": 122.8,
+      "speed": "Average",
+      "energy": "79/100"
+    },
+    "xp": "416817/600409",
+    "affinities": [
+      "Archers"
+    ],
+    "habits": [
+      {
+        "name": "Enervate",
+        "current_level": 1,
+        "currently_unlocked": true
+      },
+      {
+        "name": "Second Wind",
+        "current_level": 1,
+        "currently_unlocked": true
+      },
+      {
+        "name": "Whispering Sabotage",
+        "current_level": 1,
+        "currently_unlocked": true
+      },
+      {
+        "name": "Quick-Witted",
+        "unlock_at_stars": 7,
+        "currently_unlocked": false
+      },
+      {
+        "name": "Echoes of Deceit",
+        "unlock_at_stars": 9,
+        "currently_unlocked": false
+      }
+    ],
+    "details_file": "dragons/jagadrix.json"
   },
   {
     "name": "Bevlorin",
@@ -29,14 +71,14 @@
   },
   {
     "name": "Tashix",
-    "level": 40,
+    "level": 42,
     "stars": 2,
     "class": "Hunter",
     "ability": "Shimmering Mirage"
   },
   {
     "name": "Antares",
-    "level": 40,
+    "level": 42,
     "stars": 3,
     "class": "Hunter",
     "ability": "Relentless Pursuit",
@@ -44,14 +86,14 @@
   },
   {
     "name": "Seasmoke",
-    "level": 40,
+    "level": 41,
     "stars": 1,
     "class": "Sentinel",
     "ability": "Loyal Bond"
   },
   {
     "name": "Rhysarion",
-    "level": 34,
+    "level": 38,
     "stars": 1,
     "class": "Champion",
     "ability": "Dawnsong",
@@ -65,7 +107,7 @@
   },
   {
     "name": "Nyrena",
-    "level": 36,
+    "level": 39,
     "stars": 1,
     "class": "Hunter",
     "ability": "Undermine",
@@ -89,7 +131,7 @@
   },
   {
     "name": "Arulix",
-    "level": 37,
+    "level": 40,
     "stars": 3,
     "class": "Champion",
     "ability": "Gleaming Spiral",
@@ -97,7 +139,7 @@
   },
   {
     "name": "Solstryker",
-    "level": 30,
+    "level": 37,
     "stars": 3,
     "class": "Champion",
     "ability": "Steady Erosion",
@@ -121,7 +163,7 @@
   },
   {
     "name": "Dawnseeker",
-    "level": 39,
+    "level": 41,
     "stars": 3,
     "class": "Sentinel",
     "ability": "Dawnsong"
@@ -150,15 +192,31 @@
   },
   {
     "name": "Vaeldra",
-    "level": 27,
-    "stars": 1,
+    "level": 33,
+    "stars": 2,
     "class": "Warrior",
+    "subclass": "Warrior Whelp",
     "ability": "Lure",
-    "loyal_bond": "Dragon's Valor"
+    "habit": "Dragon's Valor",
+    "habit_level": 1,
+    "relic_progress": "96/100",
+    "stats": {
+      "strength": 127.1,
+      "instinct": 120.5,
+      "intelligence": 95.6,
+      "initiative": 104.8,
+      "speed": "Average",
+      "energy": "100/100"
+    },
+    "xp": "101114/179015",
+    "affinities": [
+      "Spearmen"
+    ],
+    "details_file": "dragons/vaeldra.json"
   },
   {
     "name": "Crimson",
-    "level": 30,
+    "level": 34,
     "stars": 1,
     "class": "Hunter",
     "subclass": "Hunter Hatchling",
@@ -181,7 +239,7 @@
   },
   {
     "name": "Malachite",
-    "level": 32,
+    "level": 37,
     "stars": 1,
     "class": "Sentinel",
     "ability": "Warden's Rally",
