@@ -1,0 +1,147 @@
+{
+  "name": "Vhagar",
+  "observed_date": "2026-06-25",
+  "rarity": "Legendary",
+  "class": "Warrior",
+  "subclass": "Warrior Hatchling",
+  "level": 41,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Fiery Bonds",
+    "effects": [
+      "Each round, has a 25% chance to Taunt all three enemies in any lane for 2 rounds.",
+      "The Taunt chance is doubled to 50% against enemies afflicted with Burn.",
+      "On even-numbered rounds, deals Physical Damage to one adjacent enemy at a +120% Damage Rate."
+    ],
+    "displayed_values": {
+      "taunt_chance_percent": 25.0,
+      "taunt_chance_against_burn_percent": 50.0,
+      "taunt_duration_rounds": 2,
+      "taunt_targets": 3,
+      "physical_damage_rounds": "Even-numbered rounds",
+      "physical_damage_targets": 1,
+      "physical_damage_rate_percent": 120.0
+    },
+    "definitions": {
+      "taunt": "Forces the target to launch its Basic Attack against Vhagar.",
+      "physical_damage_scaling": "Physical Damage is increased by Vhagar's Strength and mitigated by the target's Instinct."
+    }
+  },
+  "stats": {
+    "strength": 167.0,
+    "instinct": 175.2,
+    "intelligence": 121.8,
+    "initiative": 139.2,
+    "speed": "Slow",
+    "energy": {
+      "current": 11,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 132007,
+    "required": 600409
+  },
+  "displayed_troop_capacity": 6394.0,
+  "displayed_power": 26400,
+  "confirmed_positive_affinities": [
+    "Shieldbearers",
+    "Archers",
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "legendary_rarity_cores": 10,
+    "green_habit_cores": 182,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Ancestral Shield",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of round 1, reduce Vhagar's Physical and Tactical Damage Received for 3 rounds. At the start of round 4, increase Recovery Received until the end of combat.",
+      "levels": [
+        {"level": 1, "physical_and_tactical_damage_received_percent": -12.0, "recovery_received_percent": 15.0, "power": 420},
+        {"level": 2, "physical_and_tactical_damage_received_percent": -14.4, "recovery_received_percent": 18.0, "power": 920},
+        {"level": 3, "physical_and_tactical_damage_received_percent": -16.8, "recovery_received_percent": 21.0, "power": 1500},
+        {"level": 4, "physical_and_tactical_damage_received_percent": -20.4, "recovery_received_percent": 25.5, "power": 2200},
+        {"level": 5, "physical_and_tactical_damage_received_percent": -24.0, "recovery_received_percent": 30.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Battle Leader",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase Physical Damage Dealt, excluding Basic Attacks, by one ally in any lane, prioritizing the right flank, until the end of combat.",
+      "levels": [
+        {"level": 1, "physical_damage_dealt_percent": 12.5, "power": 420},
+        {"level": 2, "physical_damage_dealt_percent": 15.0, "power": 920},
+        {"level": 3, "physical_damage_dealt_percent": 17.5, "power": 1500},
+        {"level": 4, "physical_damage_dealt_percent": 21.25, "power": 2200},
+        {"level": 5, "physical_damage_dealt_percent": 25.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Eclipse Cover",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "During rounds 3 through 7, has a chance to grant Advantage (+20% Damage Dealt) to the ally with the most troops and apply Weakened (-20% Damage Dealt) to the enemy with the most troops. Both effects last 2 rounds.",
+      "display_note": "The descriptive text rounds the level-1 chance to 18%, while the level table displays 17.5%.",
+      "levels": [
+        {"level": 1, "advantage_and_weakened_chance_percent": 17.5, "power": 420},
+        {"level": 2, "advantage_and_weakened_chance_percent": 21.0, "power": 920},
+        {"level": 3, "advantage_and_weakened_chance_percent": 24.5, "power": 1500},
+        {"level": 4, "advantage_and_weakened_chance_percent": 29.8, "power": 2200},
+        {"level": 5, "advantage_and_weakened_chance_percent": 35.0, "power": 3100}
+      ],
+      "fixed_values": {
+        "active_rounds": [3, 4, 5, 6, 7],
+        "advantage_damage_dealt_percent": 20.0,
+        "weakened_damage_dealt_percent": -20.0,
+        "duration_rounds": 2
+      }
+    },
+    {
+      "name": "Blazing Onslaught",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of round 1 for 3 rounds, increase Fire Damage Received by one enemy, prioritizing the left flank, and Physical Damage Received excluding Basic Attacks by one enemy, prioritizing the right flank.",
+      "levels": [
+        {"level": 1, "fire_and_physical_damage_received_percent": 18.0, "power": 420},
+        {"level": 2, "fire_and_physical_damage_received_percent": 21.6, "power": 920},
+        {"level": 3, "fire_and_physical_damage_received_percent": 25.2, "power": 1500},
+        {"level": 4, "fire_and_physical_damage_received_percent": 30.6, "power": 2200},
+        {"level": 5, "fire_and_physical_damage_received_percent": 36.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Skyward Titan",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Each round, has a 30% chance to gain one Bulwark stack, up to 5 stacks, until the end of combat. Each stack increases Strength and reduces Physical and Tactical Damage Received. Upon gaining the third stack, deal Physical Damage to one enemy in the same lane.",
+      "display_note": "The descriptive text shows -2% Physical and Tactical Damage Received per level-1 stack, while the level table displays -2.5%.",
+      "fixed_values": {
+        "bulwark_chance_percent": 30.0,
+        "maximum_stacks": 5,
+        "physical_attack_trigger_stack": 3
+      },
+      "levels": [
+        {"level": 1, "strength_per_stack_percent": 5.0, "physical_and_tactical_damage_received_per_stack_percent": -2.5, "physical_damage_rate_percent": 100.0, "power": 430},
+        {"level": 2, "strength_per_stack_percent": 6.5, "physical_and_tactical_damage_received_per_stack_percent": -3.25, "physical_damage_rate_percent": 130.0, "power": 1000},
+        {"level": 3, "strength_per_stack_percent": 8.0, "physical_and_tactical_damage_received_per_stack_percent": -4.0, "physical_damage_rate_percent": 160.0, "power": 1700},
+        {"level": 4, "strength_per_stack_percent": 10.0, "physical_and_tactical_damage_received_per_stack_percent": -5.0, "physical_damage_rate_percent": 200.0, "power": 2700},
+        {"level": 5, "strength_per_stack_percent": 12.5, "physical_and_tactical_damage_received_per_stack_percent": -6.25, "physical_damage_rate_percent": 250.0, "power": 4000}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
