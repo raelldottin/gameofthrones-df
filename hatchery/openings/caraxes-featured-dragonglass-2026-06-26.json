@@ -1,0 +1,62 @@
+{
+  "name": "Caraxes Featured Dragonglass Chest Opening Results",
+  "observed_date": "2026-06-26",
+  "featured_dragon": "Caraxes",
+  "currency": {
+    "key_type": "Dragonglass Key",
+    "keys_used": 3,
+    "ending_key_balance": 0,
+    "ending_gold": 715
+  },
+  "openings": [
+    {
+      "opening": 1,
+      "post_opening_key_balance": 2,
+      "rewards": [
+        {"dragon": "Solstryker", "relics": 1, "post_opening_progress": "6/180"},
+        {"dragon": "Dawnseeker", "relics": 5, "post_opening_progress": "24/100"},
+        {"dragon": "Arulix", "relics": 1, "post_opening_progress": "9/180"}
+      ]
+    },
+    {
+      "opening": 2,
+      "post_opening_key_balance": 1,
+      "rewards": [
+        {"dragon": "Antares", "relics": 1, "post_reward_progress": "17/100"},
+        {"dragon": "Arrax", "relics": 5, "post_opening_progress": "85/100"},
+        {"dragon": "Antares", "relics": 1, "post_opening_progress": "18/100"}
+      ]
+    },
+    {
+      "opening": 3,
+      "post_opening_key_balance": 0,
+      "rewards": [
+        {"dragon": "Jagadrix", "relics": 1, "post_opening_progress": "85/800"},
+        {"dragon": "Arrax", "relics": 5, "post_opening_progress": "90/100"},
+        {"dragon": "Vesper", "relics": 1, "post_opening_progress": "25/100"}
+      ]
+    }
+  ],
+  "totals": {
+    "Solstryker": 1,
+    "Dawnseeker": 5,
+    "Arulix": 1,
+    "Antares": 2,
+    "Arrax": 10,
+    "Jagadrix": 1,
+    "Vesper": 1,
+    "Caraxes": 0
+  },
+  "summary": {
+    "reward_slots": 9,
+    "total_relics_received": 21,
+    "featured_dragon_obtained": false,
+    "featured_dragon_relics": 0,
+    "best_progress_result": "Arrax reached 90/100 relics and is 10 relics from the next star."
+  },
+  "source_screenshots": [
+    "83FC8C72-D510-4FCB-990D-A3C73E331937.jpeg",
+    "B41E427B-8014-4724-A7E0-DCEE7099540E.jpeg",
+    "2E1CEC10-E4D8-47AE-8B25-B1111B70DB8B.jpeg"
+  ]
+}
