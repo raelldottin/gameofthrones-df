@@ -1,6 +1,6 @@
 {
   "observed_date": "2026-06-26",
-  "purpose": "Track dragons that are visible in the Dragon Pit but are not currently owned or hatched. This file is intentionally separate from dragons.json, which remains the owned-dragon master roster.",
+  "purpose": "Track dragons that are visible in the Dragon Pit but are not currently discovered, owned, or hatched. This file is intentionally separate from dragons.json, which remains the owned-dragon master roster.",
   "dragons": [
     {
       "name": "Kalspire",
@@ -41,11 +41,21 @@
       },
       "details_file": "dragons/venator.json",
       "evidence": "The Dragon Pit profile explicitly displays Not Hatched."
+    },
+    {
+      "name": "Sheepstealer",
+      "ownership_status": "not_discovered",
+      "rarity": "Legendary",
+      "class": "Hunter",
+      "subclass": "Hunter",
+      "discovery_progress": 0,
+      "details_file": "dragons/sheepstealer.json",
+      "evidence": "The Dragon Pit profile explicitly displays Not Discovered."
     }
   ],
   "rules": [
     "Do not place entries from this file in dragons.json until ownership or hatching is confirmed.",
-    "Do not use not-owned dragons in current army compositions.",
-    "Add a dragon only when the screenshots explicitly confirm that it is not owned or not hatched."
+    "Do not use not-discovered or not-owned dragons in current army compositions.",
+    "Add a dragon only when the screenshots explicitly confirm that it is not discovered, not owned, or not hatched."
   ]
 }
