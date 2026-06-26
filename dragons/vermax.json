@@ -1,0 +1,182 @@
+{
+  "name": "Vermax",
+  "observed_date": "2026-06-26",
+  "ownership_status": "not_discovered",
+  "rarity": "Epic",
+  "class": "Warrior",
+  "subclass": "Warrior",
+  "discovered": false,
+  "hatched": false,
+  "stars": 0,
+  "preview_level": null,
+  "stats": {
+    "strength": 69.6,
+    "instinct": 52.2,
+    "intelligence": 49.9,
+    "initiative": 67.3,
+    "speed": "Average",
+    "energy": 0
+  },
+  "xp": {
+    "current": 0,
+    "required": 110,
+    "level_display": "-"
+  },
+  "displayed_troop_capacity": 2351.0,
+  "displayed_power": 0,
+  "affinity_capture": {
+    "positive_affinity_count": 2,
+    "normalized_affinities": [],
+    "unresolved_positive_affinity_count": 2,
+    "note": "Two positive affinity icons are visible, but their troop labels were not inferred from icon artwork alone."
+  },
+  "active_command": {
+    "name": "Spreading Blaze",
+    "type": "Active",
+    "activation": "After each Basic Attack",
+    "effects": [
+      {
+        "effect": "Deal Physical Damage to 1 enemy in the same lane.",
+        "target_count": 1,
+        "targeting": "Enemy in the same lane",
+        "damage_type": "Physical",
+        "damage_rate_percent": 50.0,
+        "scales_with": "Strength",
+        "mitigated_by": "Target Instinct"
+      },
+      {
+        "effect": "Grant 1 Spreading Blaze stack to 1 ally that deals Tactical Damage until the end of combat.",
+        "chance_percent": 20.0,
+        "target_count": 1,
+        "targeting": "Ally that deals Tactical Damage",
+        "repeat_condition": "Repeat the chance if any enemy deals Fire Damage",
+        "maximum_stacks": 10,
+        "tactical_damage_dealt_percent_per_stack": 2.5,
+        "maximum_tactical_damage_dealt_percent": 25.0,
+        "duration": "Until end of combat"
+      }
+    ]
+  },
+  "habits": [
+    {
+      "name": "Trial by Flame",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, reduce Fire Damage Received by all allies below 75% troop capacity until the end of the round. The reduction doubles below 50% troop capacity and triples below 25% troop capacity.",
+      "fixed_values": {
+        "activation": "Start of each round",
+        "targets": "All allies below the applicable troop-capacity threshold",
+        "damage_type": "Fire",
+        "duration": "Until end of the round"
+      },
+      "levels": [
+        {"level": 1, "fire_damage_received_percent_below_75": -5.0, "fire_damage_received_percent_below_50": -10.0, "fire_damage_received_percent_below_25": -15.0, "power": 340},
+        {"level": 2, "fire_damage_received_percent_below_75": -6.0, "fire_damage_received_percent_below_50": -12.0, "fire_damage_received_percent_below_25": -18.0, "power": 740},
+        {"level": 3, "fire_damage_received_percent_below_75": -7.0, "fire_damage_received_percent_below_50": -14.0, "fire_damage_received_percent_below_25": -21.0, "power": 1200},
+        {"level": 4, "fire_damage_received_percent_below_75": -8.5, "fire_damage_received_percent_below_50": -17.0, "fire_damage_received_percent_below_25": -25.5, "power": 1800},
+        {"level": 5, "fire_damage_received_percent_below_75": -10.0, "fire_damage_received_percent_below_50": -20.0, "fire_damage_received_percent_below_25": -30.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Reactive Instincts",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase the Instinct and Initiative of the ally with the highest Instinct until the end of combat. Both effects are enhanced by Vermax's Strength.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target": "Ally with the highest Instinct",
+        "enhanced_by": "Strength",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "instinct_percent": 18.0, "initiative_percent": 9.0, "power": 340},
+        {"level": 2, "instinct_percent": 21.6, "initiative_percent": 10.8, "power": 740},
+        {"level": 3, "instinct_percent": 25.2, "initiative_percent": 12.6, "power": 1200},
+        {"level": 4, "instinct_percent": 30.6, "initiative_percent": 15.3, "power": 1800},
+        {"level": 5, "instinct_percent": 36.0, "initiative_percent": 18.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Rallying Flame",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, Vermax can gain Rallying Flame stacks and can grant Spreading Blaze stacks to an ally that deals Tactical Damage. Each chance is repeated for every enemy that deals Fire Damage.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "repeat_condition": "Repeat each chance for every enemy that deals Fire Damage",
+        "rallying_flame_target": "Self",
+        "rallying_flame_maximum_stacks": 4,
+        "physical_damage_dealt_percent_per_rallying_flame_stack": 5.0,
+        "spreading_blaze_target": "1 ally that deals Tactical Damage",
+        "spreading_blaze_maximum_stacks": 10,
+        "tactical_damage_dealt_percent_per_spreading_blaze_stack": 2.5,
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "rallying_flame_chance_percent": 50.0, "spreading_blaze_chance_percent": 50.0, "power": 340},
+        {"level": 2, "rallying_flame_chance_percent": 60.0, "spreading_blaze_chance_percent": 60.0, "power": 740},
+        {"level": 3, "rallying_flame_chance_percent": 70.0, "spreading_blaze_chance_percent": 70.0, "power": 1200},
+        {"level": 4, "rallying_flame_chance_percent": 85.0, "spreading_blaze_chance_percent": 85.0, "power": 1800},
+        {"level": 5, "rallying_flame_chance_percent": 100.0, "spreading_blaze_chance_percent": 100.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Dragon's Valor",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, reduce Vermax's Damage Received and increase Vermax's Strength until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -5.0, "strength_percent": 8.5, "power": 340},
+        {"level": 2, "damage_received_percent": -6.0, "strength_percent": 10.2, "power": 740},
+        {"level": 3, "damage_received_percent": -7.0, "strength_percent": 11.9, "power": 1200},
+        {"level": 4, "damage_received_percent": -8.5, "strength_percent": 14.45, "power": 1800},
+        {"level": 5, "damage_received_percent": -10.0, "strength_percent": 17.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Unyielding Resolve",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, Vermax can gain Advantage (+15%) for 2 rounds. The chance is multiplied by 1.5 while Vermax is Weakened, and a successful trigger removes Weakened.",
+      "fixed_values": {
+        "activation": "Start of each round",
+        "target": "Self",
+        "advantage_damage_dealt_percent": 15.0,
+        "duration_rounds": 2,
+        "chance_multiplier_while_weakened": 1.5,
+        "successful_trigger_while_weakened": "Remove Weakened"
+      },
+      "levels": [
+        {"level": 1, "advantage_chance_percent": 20.0, "advantage_chance_percent_while_weakened": 30.0, "power": 340},
+        {"level": 2, "advantage_chance_percent": 26.0, "advantage_chance_percent_while_weakened": 39.0, "power": 790},
+        {"level": 3, "advantage_chance_percent": 32.0, "advantage_chance_percent_while_weakened": 48.0, "power": 1400},
+        {"level": 4, "advantage_chance_percent": 40.0, "advantage_chance_percent_while_weakened": 60.0, "power": 2100},
+        {"level": 5, "advantage_chance_percent": 50.0, "advantage_chance_percent_while_weakened": 75.0, "power": 3100}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied not-discovered preview screenshot",
+    "active_command": "Complete for Spreading Blaze",
+    "habits": "5 of 5 captured",
+    "ownership": "Not discovered; excluded from the owned-dragon master roster and current army compositions"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "FB382906-AC44-46BF-B746-838B8362578D.jpeg",
+    "54A2F084-003A-4B5F-91A7-E49E13C7362A.jpeg",
+    "BD4B8EE7-2EF5-4FC5-B1D8-88FF3F83BBCA.jpeg",
+    "64D250A0-0166-4B35-96F6-CD709D74979A.jpeg",
+    "FC12CFE8-5BE6-4B27-B356-EECE4BDD19F9.jpeg",
+    "0204DCD4-8DCA-4142-B4EF-F03258877F0B.jpeg",
+    "2EC9893F-6796-44F5-8DD5-71791C15823F.jpeg",
+    "26CE37E2-E230-4B48-B597-304D9A3EDB38.jpeg",
+    "C65FEF0F-315E-46CF-8262-BC29DE64BDA8.jpeg",
+    "F8C07FDE-02E0-4817-B892-44581227364D.jpeg"
+  ]
+}
