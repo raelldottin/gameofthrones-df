@@ -31,7 +31,8 @@
         "damage_type": "Fire",
         "damage_rate_percent": 60.0,
         "burn_chance_percent": 40.0,
-        "burn_duration_rounds": 2
+        "burn_duration_rounds": 2,
+        "burn_damage_rate_percent_per_round": 20.0
       },
       "second_target": {
         "target_count": 1,
@@ -39,12 +40,14 @@
         "damage_type": "Fire",
         "damage_rate_percent": 30.0,
         "burn_chance_percent": 20.0,
-        "burn_duration_rounds": 2
+        "burn_duration_rounds": 2,
+        "burn_damage_rate_percent_per_round": 20.0
       }
     },
     "definitions": {
       "fire_damage_scaling": "Fire Damage is increased by Shadowsong's Intelligence and mitigated by the target's Initiative.",
-      "burn": "Deals Fire Damage to the target each round for 2 rounds."
+      "burn_at_ten_stars": "Deals Fire Damage to the target each round for 2 rounds at a +20% Damage Rate per round.",
+      "burn_damage_rate_percent_per_round": 20.0
     }
   },
   "stats": {
@@ -167,14 +170,15 @@
       "unlock_at_stars": 10,
       "currently_unlocked": false,
       "stars_needed_from_observed_state": 8,
-      "effect": "Breath of Fire gains an additional two-target sequence on rounds 2, 5, and 8: first deal Fire Damage to 1 enemy in any lane with a chance to Burn, then deal Fire Damage to a different enemy in any lane with a separate chance to Burn. Burn lasts 2 rounds.",
+      "effect": "Breath of Fire gains an additional two-target sequence on rounds 2, 5, and 8: first deal Fire Damage to 1 enemy in any lane with a chance to Burn, then deal Fire Damage to a different enemy in any lane with a separate chance to Burn. Each Burn lasts 2 rounds and deals Fire Damage at a +20% Damage Rate per round.",
       "fixed_values": {
         "activation_rounds": [2, 5, 8],
         "first_target_count": 1,
         "first_targeting": "Enemy in any lane",
         "second_target_count": 1,
         "second_targeting": "A different enemy in any lane",
-        "burn_duration_rounds": 2
+        "burn_duration_rounds": 2,
+        "burn_damage_rate_percent_per_round": 20.0
       },
       "levels": [
         {"level": 1, "first_target_burn_chance_percent": 40.0, "second_target_burn_chance_percent": 20.0, "first_target_damage_rate_percent": 60.0, "second_target_damage_rate_percent": 30.0, "power": 340},
@@ -187,7 +191,7 @@
   ],
   "capture_status": {
     "profile": "Complete for the supplied screenshot",
-    "command": "Complete, including 10-star addition",
+    "command": "Complete, including 10-star addition and Burn damage rate",
     "habits": "5 of 5 captured"
   },
   "source": "Dragon Pit screenshots supplied June 26, 2026",
@@ -201,6 +205,7 @@
     "B5683CB1-3BFA-4DFC-B455-C950D02DF27A.jpeg",
     "489758A3-4F37-434C-B9C7-B02A8246C31B.jpeg",
     "3D7E890A-83D5-482F-BB36-53BDAF55ED38.jpeg",
-    "0A7C5417-9B93-44BD-AD48-E5F75FB65BCA.jpeg"
+    "0A7C5417-9B93-44BD-AD48-E5F75FB65BCA.jpeg",
+    "95EF8ABA-3623-4B13-9632-DF7EA43059F1.jpeg"
   ]
 }
