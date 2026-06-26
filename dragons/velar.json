@@ -1,0 +1,182 @@
+{
+  "name": "Velar",
+  "observed_date": "2026-06-26",
+  "rarity": "Epic",
+  "class": "Sentinel",
+  "subclass": "Sentinel Hatchling",
+  "level": 39,
+  "stars": 1,
+  "relic_progress": {
+    "current": 24,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Whirlwind",
+    "effects": [
+      "On rounds 2, 4, 6, and 8, has a 20% chance to grant Advantage to 2 other allies in any lane for 2 rounds, increasing their Damage Dealt by 15%.",
+      "On rounds 3, 5, 7, and 9, deals Tactical Damage to 3 enemies in any lane at a +45% Damage Rate.",
+      "At 10 stars, each round has a 12% chance to Cleanse 1 instance of Bleed, Panic, or Burn from each ally. The chance is checked separately for every ally.",
+      "At 10 stars, on rounds 2, 4, 6, and 8, applies Recovery to 3 allies in any lane at a +18% Recovery Rate, enhanced by Initiative."
+    ],
+    "displayed_values": {
+      "advantage_rounds": [2, 4, 6, 8],
+      "advantage_chance_percent": 20.0,
+      "advantage_target_count": 2,
+      "advantage_damage_dealt_percent": 15.0,
+      "advantage_duration_rounds": 2,
+      "tactical_damage_rounds": [3, 5, 7, 9],
+      "tactical_damage_target_count": 3,
+      "tactical_damage_targeting": "Enemies in any lane",
+      "tactical_damage_rate_percent": 45.0,
+      "ten_star_cleanse_chance_percent": 12.0,
+      "ten_star_cleanse_effects": ["Bleed", "Panic", "Burn"],
+      "ten_star_cleanse_instances": 1,
+      "ten_star_cleanse_targeting": "Each ally, checked separately",
+      "ten_star_recovery_rounds": [2, 4, 6, 8],
+      "ten_star_recovery_target_count": 3,
+      "ten_star_recovery_rate_percent": 18.0,
+      "ten_star_recovery_enhanced_by": "Initiative"
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Velar's Instinct and mitigated by the target's Intelligence.",
+      "advantage": "Increases the target's Damage Dealt by 15%.",
+      "recovery_at_10_stars": "Restores troops to the target at a +18% Recovery Rate, enhanced by Initiative. The amount scales with Velar's level.",
+      "cleanse_at_10_stars": "Removes 1 instance of either Bleed, Panic, or Burn from the target."
+    }
+  },
+  "stats": {
+    "strength": 88.2,
+    "instinct": 123.0,
+    "intelligence": 99.8,
+    "initiative": 112.5,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 205419,
+    "required": 327333
+  },
+  "displayed_troop_capacity": 6192.0,
+  "displayed_power": 18950,
+  "confirmed_positive_affinities": [
+    "Shieldbearers"
+  ],
+  "inventory_snapshot": {
+    "epic_rarity_cores": 25,
+    "green_sentinel_habit_cores": 142,
+    "gold": 735
+  },
+  "habits": [
+    {
+      "name": "Strategic Leader",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, increase Tactical Damage Dealt for 1 ally in any lane, prioritizing the Vanguard, until the end of combat.",
+      "fixed_values": {
+        "target_count": 1,
+        "priority": "Vanguard",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "tactical_damage_dealt_percent": 10.0, "power": 340},
+        {"level": 2, "tactical_damage_dealt_percent": 12.0, "power": 740},
+        {"level": 3, "tactical_damage_dealt_percent": 14.0, "power": 1200},
+        {"level": 4, "tactical_damage_dealt_percent": 17.0, "power": 1800},
+        {"level": 5, "tactical_damage_dealt_percent": 20.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Quick Reflexes",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase Velar's Instinct and Initiative until the end of combat.",
+      "levels": [
+        {"level": 1, "instinct_and_initiative_percent": 16.0, "power": 340},
+        {"level": 2, "instinct_and_initiative_percent": 19.2, "power": 740},
+        {"level": 3, "instinct_and_initiative_percent": 22.4, "power": 1200},
+        {"level": 4, "instinct_and_initiative_percent": 27.2, "power": 1800},
+        {"level": 5, "instinct_and_initiative_percent": 32.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Gales of Power",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "On rounds 2, 4, 6, and 8, has separate per-target chances to grant First-Strike to 3 allies in any lane and afflict Slow on 3 enemies in any lane. Each effect lasts 2 rounds.",
+      "fixed_values": {
+        "rounds": [2, 4, 6, 8],
+        "ally_target_count": 3,
+        "enemy_target_count": 3,
+        "duration_rounds": 2,
+        "first_strike_definition": "The target attacks before all other combatants each round.",
+        "slow_definition": "The target attacks after all other combatants each round."
+      },
+      "levels": [
+        {"level": 1, "first_strike_chance_percent": 12.0, "slow_chance_percent": 12.0, "power": 340},
+        {"level": 2, "first_strike_chance_percent": 14.4, "slow_chance_percent": 14.4, "power": 740},
+        {"level": 3, "first_strike_chance_percent": 16.8, "slow_chance_percent": 16.8, "power": 1200},
+        {"level": 4, "first_strike_chance_percent": 20.4, "slow_chance_percent": 20.4, "power": 1800},
+        {"level": 5, "first_strike_chance_percent": 24.0, "slow_chance_percent": 24.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Fierce Unity",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of combat, increase Strength and Instinct, enhanced by Velar's Initiative, for 3 allies in any lane until the end of combat.",
+      "fixed_values": {
+        "target_count": 3,
+        "enhanced_by": "Initiative",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "strength_and_instinct_percent": 5.0, "power": 340},
+        {"level": 2, "strength_and_instinct_percent": 6.0, "power": 740},
+        {"level": 3, "strength_and_instinct_percent": 7.0, "power": 1200},
+        {"level": 4, "strength_and_instinct_percent": 8.5, "power": 1800},
+        {"level": 5, "strength_and_instinct_percent": 10.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Breath of Renewal",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Whirlwind gains a separately checked per-ally chance each round to Cleanse 1 instance of Bleed, Panic, or Burn. It also gains Recovery for 3 allies on rounds 2, 4, 6, and 8, enhanced by Initiative.",
+      "fixed_values": {
+        "cleanse_instances": 1,
+        "cleanse_effects": ["Bleed", "Panic", "Burn"],
+        "recovery_rounds": [2, 4, 6, 8],
+        "recovery_target_count": 3,
+        "recovery_enhanced_by": "Initiative"
+      },
+      "levels": [
+        {"level": 1, "cleanse_chance_percent": 12.0, "recovery_rate_percent": 18.0, "power": 340},
+        {"level": 2, "cleanse_chance_percent": 16.0, "recovery_rate_percent": 23.4, "power": 790},
+        {"level": 3, "cleanse_chance_percent": 19.0, "recovery_rate_percent": 28.8, "power": 1400},
+        {"level": 4, "cleanse_chance_percent": 24.0, "recovery_rate_percent": 36.0, "power": 2100},
+        {"level": 5, "cleanse_chance_percent": 30.0, "recovery_rate_percent": 45.0, "power": 3100}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "848550C0-4925-48BC-A91E-033D39D32190.jpeg",
+    "EE983F96-06FE-42F3-AE88-CC01876AAE41.jpeg",
+    "52B2C0E3-5DDF-4AB2-B7FA-0E0D49FF646A.jpeg",
+    "00B75834-308E-4328-92A1-F9B9D2B42DB0.jpeg",
+    "69EE5DC7-26A5-41A2-8C77-8DF91E2CACC3.jpeg",
+    "FFE3962A-1DC9-4A76-8E14-FB825333AAB1.jpeg",
+    "3E6166EE-0BEE-43B1-81CF-B6CD1906083E.jpeg",
+    "F0649A3B-C594-479C-96AE-D69B3269714F.jpeg",
+    "B851DA90-4FC3-4B1D-95DB-D61E7B091D02.jpeg",
+    "2539604A-9030-4FD3-823C-323E08D58F52.jpeg"
+  ]
+}
