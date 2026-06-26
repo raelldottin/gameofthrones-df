@@ -1,0 +1,194 @@
+{
+  "name": "Thunderstrike",
+  "observed_date": "2026-06-26",
+  "rarity": "Rare",
+  "class": "Warrior",
+  "subclass": "Warrior Whelp",
+  "level": 30,
+  "stars": 2,
+  "relic_progress": {
+    "current": 46,
+    "required_for_next_star": 100
+  },
+  "stats": {
+    "strength": 94.5,
+    "instinct": 69.3,
+    "intelligence": 63.0,
+    "initiative": 84.4,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 60,
+    "required": 132385
+  },
+  "displayed_troop_capacity": 5282.0,
+  "displayed_power": 11250,
+  "affinity_capture": {
+    "positive_affinity_count": 1,
+    "normalized_troop_type": null,
+    "note": "One positive troop-affinity icon is visible, but its troop type was not normalized from this screenshot set."
+  },
+  "current_inventory_snapshot": {
+    "blue_rarity_cores": 52,
+    "green_warrior_habit_cores": 182,
+    "gold": 815
+  },
+  "command": {
+    "name": "Tail Whip",
+    "base_effect": {
+      "activation": "Odd-numbered rounds",
+      "target_count": 1,
+      "targeting": "Enemy in the same lane",
+      "damage_type": "Physical",
+      "damage_rate_percent": 100.0
+    },
+    "six_star_upgrade": {
+      "activation": "Even-numbered rounds",
+      "target_count": 1,
+      "targeting": "Enemy in the same lane",
+      "damage_type": "Physical",
+      "damage_rate_percent": 50.0,
+      "bleed_chance_percent": 25.0,
+      "bleed_duration_rounds": 2,
+      "bleed_damage_rate_percent_per_round": 20.0
+    },
+    "definitions": {
+      "physical_damage_scaling": "Physical Damage is increased by Thunderstrike's Strength and mitigated by the target's Instinct.",
+      "bleed": "Deals Physical Damage to the target each round for 2 rounds."
+    }
+  },
+  "habits": [
+    {
+      "name": "Battle Rush",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of round 1, increase Thunderstrike's Initiative and reduce the Instinct, enhanced by Thunderstrike's Strength, of 2 enemies within adjacency. Each effect lasts 3 rounds.",
+      "fixed_values": {
+        "activation_round": 1,
+        "target_count": 2,
+        "targeting": "Enemies within adjacency",
+        "enemy_instinct_reduction_enhanced_by": "Strength",
+        "duration_rounds": 3
+      },
+      "levels": [
+        {"level": 1, "initiative_percent": 25.0, "enemy_instinct_percent": -15.0, "power": 250},
+        {"level": 2, "initiative_percent": 30.0, "enemy_instinct_percent": -18.0, "power": 550},
+        {"level": 3, "initiative_percent": 35.0, "enemy_instinct_percent": -21.0, "power": 900},
+        {"level": 4, "initiative_percent": 42.5, "enemy_instinct_percent": -25.5, "power": 1300},
+        {"level": 5, "initiative_percent": 50.0, "enemy_instinct_percent": -30.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Dragon's Might",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Thunderstrike's Physical Damage Dealt by Commands and Habits until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "targeting": "Self",
+        "affected_damage_type": "Physical",
+        "affected_sources": ["Commands", "Habits"],
+        "excludes_basic_attacks": true,
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_dealt_percent": 8.0, "power": 250},
+        {"level": 2, "physical_damage_dealt_percent": 9.6, "power": 550},
+        {"level": 3, "physical_damage_dealt_percent": 11.2, "power": 900},
+        {"level": 4, "physical_damage_dealt_percent": 13.6, "power": 1300},
+        {"level": 5, "physical_damage_dealt_percent": 16.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Barbed Lash",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Tail Whip gains an even-round Physical attack against 1 enemy in the same lane and a chance to inflict Bleed for 2 rounds.",
+      "fixed_values": {
+        "activation": "Even-numbered rounds",
+        "target_count": 1,
+        "targeting": "Enemy in the same lane",
+        "damage_type": "Physical",
+        "bleed_duration_rounds": 2,
+        "bleed_damage_rate_percent_per_round": 20.0
+      },
+      "levels": [
+        {"level": 1, "bleed_chance_percent": 25.0, "physical_damage_rate_percent": 50.0, "power": 250},
+        {"level": 2, "bleed_chance_percent": 30.0, "physical_damage_rate_percent": 60.0, "power": 550},
+        {"level": 3, "bleed_chance_percent": 35.0, "physical_damage_rate_percent": 70.0, "power": 900},
+        {"level": 4, "bleed_chance_percent": 42.5, "physical_damage_rate_percent": 85.0, "power": 1300},
+        {"level": 5, "bleed_chance_percent": 50.0, "physical_damage_rate_percent": 100.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Armor Break",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, increase the Physical Damage Received by 1 opposing enemy until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 1,
+        "targeting": "Opposing enemy",
+        "affected_damage_type": "Physical",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_received_percent": 4.8, "power": 250},
+        {"level": 2, "physical_damage_received_percent": 5.67, "power": 550, "note": "Recorded exactly as displayed in the screenshot."},
+        {"level": 3, "physical_damage_received_percent": 6.72, "power": 900},
+        {"level": 4, "physical_damage_received_percent": 8.16, "power": 1300},
+        {"level": 5, "physical_damage_received_percent": 9.6, "power": 1800}
+      ]
+    },
+    {
+      "name": "Staggering Assault",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Each round, has a chance to afflict Stagger on 1 enemy in the same lane for 1 round. The duration is doubled to 2 rounds while Thunderstrike has Advantage.",
+      "fixed_values": {
+        "activation": "Each round",
+        "target_count": 1,
+        "targeting": "Enemy in the same lane",
+        "base_duration_rounds": 1,
+        "advantage_duration_rounds": 2
+      },
+      "definitions": {
+        "stagger": "Prevents the target from using Attack Modifier Commands or launching Basic Attacks on its turn."
+      },
+      "levels": [
+        {"level": 1, "stagger_chance_percent": 10.0, "power": 250},
+        {"level": 2, "stagger_chance_percent": 13.0, "power": 580},
+        {"level": 3, "stagger_chance_percent": 16.0, "power": 1000},
+        {"level": 4, "stagger_chance_percent": 20.0, "power": 1600},
+        {"level": 5, "stagger_chance_percent": 25.0, "power": 2300}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Complete",
+    "habits": "5 of 5 captured",
+    "affinity": "Icon captured but troop type not normalized"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "ABE956A5-2762-49E3-83B4-2FFF0B80F844.jpeg",
+    "598487E0-09D8-41FD-8B14-2910B172E244.jpeg",
+    "CC3F0894-212F-4C87-B925-EEF4F592DB98.jpeg",
+    "23FE9A33-F20C-46B9-8FEB-4658E6C581F3.jpeg",
+    "6695B198-1F7D-47F3-9DC7-FCA69B5DFAE8.jpeg",
+    "214ED70B-B5E6-47C7-998D-DD234471DA45.jpeg",
+    "4F2E302C-2859-488B-8738-A8F971F3F48A.jpeg",
+    "208BCDB4-E055-4CE0-A20C-848FF2049A07.jpeg",
+    "86B433E4-CF91-41BA-90AD-DEF944169867.jpeg"
+  ]
+}
