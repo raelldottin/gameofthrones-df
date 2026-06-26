@@ -1,0 +1,27 @@
+{
+  "observed_date": "2026-06-26",
+  "event": "After three Caraxes-featured Dragonglass chest openings",
+  "source_file": "hatchery/openings/caraxes-featured-dragonglass-2026-06-26.json",
+  "relic_progress": [
+    {"name": "Solstryker", "current": 6, "required_for_next_star": 180},
+    {"name": "Dawnseeker", "current": 24, "required_for_next_star": 100},
+    {"name": "Arulix", "current": 9, "required_for_next_star": 180},
+    {"name": "Antares", "current": 18, "required_for_next_star": 100},
+    {"name": "Arrax", "current": 90, "required_for_next_star": 100},
+    {"name": "Jagadrix", "current": 85, "required_for_next_star": 800},
+    {"name": "Vesper", "current": 25, "required_for_next_star": 100}
+  ],
+  "priority_change": {
+    "dragon": "Arrax",
+    "relics_remaining_for_next_star": 10,
+    "note": "Arrax is now the closest affected dragon to a star upgrade."
+  },
+  "featured_result": {
+    "dragon": "Caraxes",
+    "relics_obtained": 0
+  },
+  "notes": [
+    "Values are taken from the post-reward progress bars shown in the three result screenshots.",
+    "This dated snapshot supersedes older relic-progress values for these seven dragons without changing historical observations."
+  ]
+}
