@@ -1,0 +1,187 @@
+{
+  "name": "Bevlorin",
+  "observed_date": "2026-06-26",
+  "rarity": "Rare",
+  "class": "Champion",
+  "subclass": "Champion Whelp",
+  "level": 39,
+  "stars": 2,
+  "relic_progress": {
+    "current": 65,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Nature's Reckoning",
+    "effects": [
+      "Each round, has a 20% chance to reduce Fire Damage Dealt by 10% for 2 rounds for 3 enemies in any lane that deal Fire Damage.",
+      "On rounds 1, 5, and 9, deals Physical Damage to 3 enemies in any lane at a +30% Damage Rate.",
+      "On rounds 3 and 7, deals Fire Damage to 1 enemy in the same lane at a +90% Damage Rate.",
+      "At 6 or more stars, on odd-numbered rounds, applies Recovery to 3 allies in any lane at a +17.5% Recovery Rate, enhanced by Bevlorin's Strength."
+    ],
+    "displayed_values": {
+      "fire_damage_reduction_chance_percent": 20.0,
+      "fire_damage_dealt_modifier_percent": -10.0,
+      "fire_damage_reduction_target_count": 3,
+      "fire_damage_reduction_duration_rounds": 2,
+      "fire_damage_reduction_targeting": "Enemies in any lane that deal Fire Damage",
+      "physical_damage_rounds": [1, 5, 9],
+      "physical_damage_target_count": 3,
+      "physical_damage_targeting": "Enemies in any lane",
+      "physical_damage_rate_percent": 30.0,
+      "fire_damage_rounds": [3, 7],
+      "fire_damage_target_count": 1,
+      "fire_damage_targeting": "Enemy in the same lane",
+      "fire_damage_rate_percent": 90.0,
+      "six_star_recovery_rounds": "Odd-numbered rounds",
+      "six_star_recovery_target_count": 3,
+      "six_star_recovery_targeting": "Allies in any lane",
+      "six_star_recovery_rate_percent": 17.5,
+      "six_star_recovery_enhanced_by": "Strength"
+    },
+    "definitions": {
+      "physical_damage_scaling": "Physical Damage is increased by Bevlorin's Strength and mitigated by the target's Instinct.",
+      "fire_damage_scaling": "Fire Damage is increased by Bevlorin's Intelligence and mitigated by the target's Initiative.",
+      "recovery_scaling": "Recovery is enhanced by Bevlorin's Strength and scales with Bevlorin's level."
+    }
+  },
+  "stats": {
+    "strength": 95.8,
+    "instinct": 65.5,
+    "intelligence": 100.8,
+    "initiative": 79.4,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 164827,
+    "required": 327333
+  },
+  "displayed_troop_capacity": 6192.0,
+  "displayed_power": 15450,
+  "confirmed_positive_affinities": [
+    "Spearmen"
+  ],
+  "inventory_snapshot": {
+    "blue_rare_cores": 24,
+    "green_champion_habit_cores": 80,
+    "gold": 735
+  },
+  "habits": [
+    {
+      "name": "Fire Ward",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of combat, grant Bevlorin and 1 other adjacent ally 1 stack of Fire Ward. At the start of each round, if the target ally retreated during the previous round, grant Bevlorin 1 additional stack. Each stack reduces Fire Damage Received until the end of combat.",
+      "fixed_values": {
+        "initial_stack_count": 1,
+        "other_ally_target_count": 1,
+        "targeting": "Other ally within adjacency",
+        "self_stack_trigger": "The target ally retreated in the previous round",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "fire_damage_received_percent_per_stack": -5.0, "power": 250},
+        {"level": 2, "fire_damage_received_percent_per_stack": -6.0, "power": 550},
+        {"level": 3, "fire_damage_received_percent_per_stack": -7.0, "power": 900},
+        {"level": 4, "fire_damage_received_percent_per_stack": -8.5, "power": 1300},
+        {"level": 5, "fire_damage_received_percent_per_stack": -10.0, "power": 1800}
+      ],
+      "next_upgrade_observed_cost": {
+        "blue_rare_cores": 100,
+        "green_champion_habit_cores": 100,
+        "gold": 40
+      }
+    },
+    {
+      "name": "Dragon's Fury",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Bevlorin's non-Basic-Attack Physical Damage Dealt and Fire Damage Dealt until the end of combat.",
+      "levels": [
+        {"level": 1, "physical_and_fire_damage_dealt_percent": 4.0, "power": 250},
+        {"level": 2, "physical_and_fire_damage_dealt_percent": 4.8, "power": 550},
+        {"level": 3, "physical_and_fire_damage_dealt_percent": 5.6, "power": 900},
+        {"level": 4, "physical_and_fire_damage_dealt_percent": 6.8, "power": 1300},
+        {"level": 5, "physical_and_fire_damage_dealt_percent": 8.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Renewal",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Nature's Reckoning gains Recovery on odd-numbered rounds for 3 allies in any lane, enhanced by Bevlorin's Strength.",
+      "fixed_values": {
+        "rounds": "Odd-numbered rounds",
+        "target_count": 3,
+        "targeting": "Allies in any lane",
+        "enhanced_by": "Strength"
+      },
+      "levels": [
+        {"level": 1, "recovery_rate_percent": 17.5, "power": 250},
+        {"level": 2, "recovery_rate_percent": 21.0, "power": 550},
+        {"level": 3, "recovery_rate_percent": 24.5, "power": 900},
+        {"level": 4, "recovery_rate_percent": 29.75, "power": 1300},
+        {"level": 5, "recovery_rate_percent": 35.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Vital Essence",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, increase Bevlorin's Strength and Recovery Dealt until the end of combat.",
+      "levels": [
+        {"level": 1, "strength_percent": 10.0, "recovery_dealt_percent": 15.0, "power": 250},
+        {"level": 2, "strength_percent": 12.0, "recovery_dealt_percent": 18.0, "power": 550},
+        {"level": 3, "strength_percent": 14.0, "recovery_dealt_percent": 21.0, "power": 900},
+        {"level": 4, "strength_percent": 17.0, "recovery_dealt_percent": 25.5, "power": 1300},
+        {"level": 5, "strength_percent": 20.0, "recovery_dealt_percent": 30.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Bountiful Gifts",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Each round, has a separately checked 20% chance to increase the Strength of the ally with the highest Strength, Intelligence of the ally with the highest Intelligence, Instinct of the ally with the highest Instinct, and Initiative of the ally with the highest Initiative for 2 rounds. Each modifier is enhanced by Bevlorin's Intelligence.",
+      "fixed_values": {
+        "activation_chance_percent": 20.0,
+        "duration_rounds": 2,
+        "chance_checked_separately_per_target": true,
+        "enhanced_by": "Intelligence",
+        "targeting": {
+          "strength": "Ally with the highest Strength",
+          "intelligence": "Ally with the highest Intelligence",
+          "instinct": "Ally with the highest Instinct",
+          "initiative": "Ally with the highest Initiative"
+        }
+      },
+      "levels": [
+        {"level": 1, "attribute_modifier_percent": 16.0, "power": 250},
+        {"level": 2, "attribute_modifier_percent": 20.8, "power": 580},
+        {"level": 3, "attribute_modifier_percent": 25.6, "power": 1000},
+        {"level": 4, "attribute_modifier_percent": 32.0, "power": 1600},
+        {"level": 5, "attribute_modifier_percent": 40.0, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "7F69E6FD-E45F-47B0-98F4-16DEA138DA65.jpeg",
+    "E32DBE58-3657-4FCA-8105-CB8BCAE16C0F.jpeg",
+    "60CC3FDE-C523-4E11-BA2E-BFFE0707CAAB.jpeg",
+    "84041BD3-3AEA-45CD-AA0E-62C34F873754.jpeg",
+    "A93CB880-E6B4-4D14-B4B5-31FA7C34F007.jpeg",
+    "E35E6843-BB70-40FC-9C77-D7251E420A5D.jpeg",
+    "B4F8F22E-6422-4634-9DDB-FFF23FD15D3C.jpeg",
+    "93CD82FB-1566-458B-AC2A-55E91FD6E5F6.jpeg",
+    "73098349-C178-4B37-BBB9-ECB3B22E8AB6.jpeg",
+    "2F076134-0614-4890-AC5B-7C4D7E54432A.jpeg"
+  ]
+}
