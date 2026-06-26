@@ -1,0 +1,160 @@
+{
+  "name": "Arrax",
+  "observed_date": "2026-06-26",
+  "rarity": "Rare",
+  "class": "Warrior",
+  "subclass": "Warrior Whelp",
+  "level": 40,
+  "stars": 2,
+  "relic_progress": {
+    "current": 50,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Sudden Strike",
+    "effects": [
+      "On rounds 2, 4, 6, and 8, has a 25% chance to afflict one adjacent enemy with Weakened for 2 rounds. The chance is doubled to 50% against a target afflicted with Bleed.",
+      "On rounds 2, 4, 5, 6, and 8, deals Physical Damage to two adjacent enemies at a +40% Damage Rate."
+    ],
+    "displayed_values": {
+      "weakened_rounds": [2, 4, 6, 8],
+      "weakened_chance_percent": 25.0,
+      "bleeding_target_weakened_chance_percent": 50.0,
+      "weakened_damage_dealt_percent": -10.0,
+      "weakened_duration_rounds": 2,
+      "physical_damage_rounds": [2, 4, 5, 6, 8],
+      "physical_damage_target_count": 2,
+      "physical_damage_rate_percent": 40.0,
+      "targeting": "Enemies within adjacency"
+    },
+    "definitions": {
+      "physical_damage_scaling": "Physical Damage is increased by Arrax's Strength and mitigated by the target's Instinct.",
+      "weakened": "Reduces the target's Damage Dealt by 10%."
+    }
+  },
+  "stats": {
+    "strength": 93.2,
+    "instinct": 94.5,
+    "intelligence": 73.1,
+    "initiative": 83.2,
+    "speed": "Average",
+    "energy": {
+      "current": 64,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 360373,
+    "required": 542955
+  },
+  "displayed_troop_capacity": 6293.0,
+  "displayed_power": 15450,
+  "confirmed_positive_affinities": [
+    "Shieldbearers",
+    "Archers"
+  ],
+  "inventory_snapshot": {
+    "blue_rare_cores": 24,
+    "green_warrior_habit_cores": 182,
+    "gold": 675
+  },
+  "habits": [
+    {
+      "name": "Headlong Into Danger",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of round 4 for 4 rounds, increase Arrax's Strength by 25%, Initiative by 10%, and Physical Damage Dealt by 25%. During the same period, increase Arrax's Physical Damage Received and reduce Arrax's Instinct.",
+      "fixed_values": {
+        "start_round": 4,
+        "duration_rounds": 4,
+        "strength_percent": 25.0,
+        "initiative_percent": 10.0,
+        "physical_damage_dealt_percent": 25.0
+      },
+      "levels": [
+        {"level": 1, "self_physical_damage_received_percent": 10.0, "self_instinct_percent": -40.0, "power": 250},
+        {"level": 2, "self_physical_damage_received_percent": 8.0, "self_instinct_percent": -32.0, "power": 550},
+        {"level": 3, "self_physical_damage_received_percent": 6.0, "self_instinct_percent": -24.0, "power": 900},
+        {"level": 4, "self_physical_damage_received_percent": 3.0, "self_instinct_percent": -12.0, "power": 1300},
+        {"level": 5, "self_physical_damage_received_percent": 0.0, "self_instinct_percent": 0.0, "power": 1800}
+      ],
+      "next_upgrade_cost": {
+        "blue_rare_cores": 100,
+        "green_warrior_habit_cores": 100
+      }
+    },
+    {
+      "name": "Stone Bulwark",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, reduce Tactical and Fire Damage Received by two other allies in any lane until the end of combat.",
+      "description_displayed_damage_received_percent": -2.0,
+      "levels": [
+        {"level": 1, "tactical_and_fire_damage_received_percent": -2.5, "power": 250},
+        {"level": 2, "tactical_and_fire_damage_received_percent": -3.0, "power": 550},
+        {"level": 3, "tactical_and_fire_damage_received_percent": -3.5, "power": 900},
+        {"level": 4, "tactical_and_fire_damage_received_percent": -4.25, "power": 1300},
+        {"level": 5, "tactical_and_fire_damage_received_percent": -5.0, "power": 1800}
+      ],
+      "display_note": "The effect description displays -2%, while the level-1 table displays -2.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Adaptive Guard",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "At the start of round 4 for 4 rounds, reduce Tactical Damage Received by all three allies when leading Archers, or reduce Fire Damage Received by all three allies when leading Shieldbearers.",
+      "fixed_values": {
+        "start_round": 4,
+        "duration_rounds": 4,
+        "target_count": 3,
+        "archers_effect": "Tactical Damage Received reduction",
+        "shieldbearers_effect": "Fire Damage Received reduction"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -9.0, "power": 250},
+        {"level": 2, "damage_received_percent": -10.8, "power": 550},
+        {"level": 3, "damage_received_percent": -12.6, "power": 900},
+        {"level": 4, "damage_received_percent": -15.3, "power": 1300},
+        {"level": 5, "damage_received_percent": -18.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Fire Ward",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, grant Arrax and one adjacent ally one Fire Ward stack. At the start of each round, if that ally retreated in the previous round, grant Arrax one additional Fire Ward stack. Each stack reduces Fire Damage Received until the end of combat.",
+      "levels": [
+        {"level": 1, "fire_damage_received_percent_per_stack": -5.0, "power": 250},
+        {"level": 2, "fire_damage_received_percent_per_stack": -6.0, "power": 550},
+        {"level": 3, "fire_damage_received_percent_per_stack": -7.0, "power": 900},
+        {"level": 4, "fire_damage_received_percent_per_stack": -8.5, "power": 1300},
+        {"level": 5, "fire_damage_received_percent_per_stack": -10.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Turn the Line",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "At the start of round 4, increase Physical Damage Received by two adjacent enemies for 4 rounds.",
+      "fixed_values": {
+        "start_round": 4,
+        "duration_rounds": 4,
+        "target_count": 2,
+        "targeting": "Enemies within adjacency"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_received_percent": 9.0, "power": 250},
+        {"level": 2, "physical_damage_received_percent": 11.7, "power": 580},
+        {"level": 3, "physical_damage_received_percent": 14.4, "power": 1000},
+        {"level": 4, "physical_damage_received_percent": 18.0, "power": 1600},
+        {"level": 5, "physical_damage_received_percent": 22.5, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026"
+}
