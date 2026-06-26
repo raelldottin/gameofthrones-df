@@ -12,7 +12,36 @@
   },
   "command": {
     "name": "Bloodscale Terror",
-    "capture_status": "Name captured; command effects not yet supplied."
+    "effects": [
+      "On odd-numbered rounds, has a 20% chance to afflict Stun on 1 enemy in any lane for 2 rounds.",
+      "On rounds 2, 5, and 8, deals Fire Damage to 1 enemy in any lane at a +140% Damage Rate.",
+      "At 10 Stars, the round-1 Stun chance increases to 40%.",
+      "At 10 Stars, on even-numbered rounds, has a 50% chance to reduce the Instinct and Initiative, enhanced by Intelligence, of 1 enemy in any lane by 12% for 2 rounds."
+    ],
+    "displayed_values": {
+      "base_stun_rounds": "Odd-numbered rounds",
+      "base_stun_chance_percent": 20.0,
+      "base_stun_target_count": 1,
+      "base_stun_targeting": "Enemy in any lane",
+      "base_stun_duration_rounds": 2,
+      "fire_damage_rounds": [2, 5, 8],
+      "fire_damage_target_count": 1,
+      "fire_damage_targeting": "Enemy in any lane",
+      "fire_damage_rate_percent": 140.0,
+      "ten_star_round_1_stun_chance_percent": 40.0,
+      "ten_star_stat_reduction_rounds": "Even-numbered rounds",
+      "ten_star_stat_reduction_chance_percent": 50.0,
+      "ten_star_stat_reduction_target_count": 1,
+      "ten_star_stat_reduction_targeting": "Enemy in any lane",
+      "ten_star_instinct_percent": -12.0,
+      "ten_star_initiative_percent": -12.0,
+      "ten_star_stat_reduction_enhanced_by": "Intelligence",
+      "ten_star_stat_reduction_duration_rounds": 2
+    },
+    "definitions": {
+      "stun": "Prevents the target from activating Commands and Habits or launching Basic Attacks on its turn.",
+      "fire_damage_scaling": "Fire Damage is increased by Crimson's Intelligence and mitigated by the target's Initiative."
+    }
   },
   "stats": {
     "strength": 139.2,
@@ -80,17 +109,95 @@
         {"level": 4, "damage_received_percent": -10.2, "intelligence_percent": 20.4, "power": 2200},
         {"level": 5, "damage_received_percent": -12.0, "intelligence_percent": 24.0, "power": 3100}
       ]
+    },
+    {
+      "name": "Bloodscale Fury",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "Each round, has a chance to afflict Weakened on 1 enemy in any lane for 2 rounds, prioritizing targets not afflicted with Stun. The chance is doubled against targets afflicted with Taunt.",
+      "fixed_values": {
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "target_priority": "Targets not afflicted with Stun",
+        "duration_rounds": 2,
+        "weakened_damage_dealt_percent": -20.0,
+        "double_chance_condition": "Target is afflicted with Taunt"
+      },
+      "description_displayed_base_chance_percent": 18.0,
+      "description_displayed_doubled_chance_percent": 35.0,
+      "levels": [
+        {"level": 1, "weakened_chance_percent": 17.5, "power": 420},
+        {"level": 2, "weakened_chance_percent": 21.0, "power": 920},
+        {"level": 3, "weakened_chance_percent": 24.5, "power": 1500},
+        {"level": 4, "weakened_chance_percent": 29.75, "power": 2200},
+        {"level": 5, "weakened_chance_percent": 35.0, "power": 3100}
+      ],
+      "display_note": "The effect description rounds the level-1 chance to 18%; the table displays 17.5%. The displayed doubled value is 35%."
+    },
+    {
+      "name": "Unlikely Hero",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of each round, increase Physical Damage Received, excluding Basic Attacks, and Fire Damage Received for all enemies above 75% maximum troop capacity until the end of the round. Also reduce Recovery Received for all enemies below 25% maximum troop capacity until the end of the round.",
+      "fixed_values": {
+        "high_troop_threshold_percent": 75.0,
+        "low_troop_threshold_percent": 25.0,
+        "physical_damage_excludes_basic_attacks": true,
+        "targeting": "All qualifying enemies",
+        "duration": "Until end of round"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_received_percent": 10.0, "fire_damage_received_percent": 10.0, "recovery_received_percent": -20.0, "power": 420},
+        {"level": 2, "physical_damage_received_percent": 12.0, "fire_damage_received_percent": 12.0, "recovery_received_percent": -24.0, "power": 920},
+        {"level": 3, "physical_damage_received_percent": 14.0, "fire_damage_received_percent": 14.0, "recovery_received_percent": -28.0, "power": 1500},
+        {"level": 4, "physical_damage_received_percent": 17.0, "fire_damage_received_percent": 17.0, "recovery_received_percent": -34.0, "power": 2200},
+        {"level": 5, "physical_damage_received_percent": 20.0, "fire_damage_received_percent": 20.0, "recovery_received_percent": -40.0, "power": 3100}
+      ],
+      "display_note": "The description specifies increased damage received. The table row is labeled 'Damage Dealt' in the supplied screenshot; values are stored according to the effect text."
+    },
+    {
+      "name": "Vermin's Bane",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Bloodscale Terror gains a higher round-1 Stun chance and, on even-numbered rounds, a chance to reduce the Instinct and Initiative, enhanced by Intelligence, of the enemy with the highest Instinct for 2 rounds.",
+      "fixed_values": {
+        "command_modified": "Bloodscale Terror",
+        "round_1_stun_only": true,
+        "stat_reduction_rounds": "Even-numbered rounds",
+        "stat_reduction_chance_percent": 50.0,
+        "stat_reduction_target_count": 1,
+        "stat_reduction_targeting": "Enemy with the highest Instinct",
+        "stat_reduction_duration_rounds": 2,
+        "stat_reduction_enhanced_by": "Intelligence"
+      },
+      "levels": [
+        {"level": 1, "round_1_stun_chance_percent": 40.0, "instinct_percent": -12.0, "initiative_percent": -12.0, "power": 430},
+        {"level": 2, "round_1_stun_chance_percent": 52.0, "instinct_percent": -15.6, "initiative_percent": -15.6, "power": 1000},
+        {"level": 3, "round_1_stun_chance_percent": 64.0, "instinct_percent": -19.2, "initiative_percent": -19.2, "power": 1700},
+        {"level": 4, "round_1_stun_chance_percent": 80.0, "instinct_percent": -24.0, "initiative_percent": -24.0, "power": 2700},
+        {"level": 5, "round_1_stun_chance_percent": 100.0, "instinct_percent": -30.0, "initiative_percent": -30.0, "power": 4000}
+      ]
     }
   ],
   "capture_status": {
     "profile": "Complete for the supplied screenshot",
-    "command": "Name only",
-    "habits": "2 of 5 captured"
+    "command": "Complete",
+    "habits": "5 of 5 captured"
   },
   "source": "Dragon Pit screenshots supplied June 26, 2026",
   "source_screenshots": [
     "A7DC1DBD-0E56-41DF-9A86-1EC9915EA6C2.jpeg",
     "E8F1BBF3-EEAF-4E61-BF84-E987D040B55B.jpeg",
-    "F7805EA3-BBE1-4A50-B932-B3E5852EED20.jpeg"
+    "F7805EA3-BBE1-4A50-B932-B3E5852EED20.jpeg",
+    "6FE46F2C-EDEC-4260-BA46-8508C1E2F812.jpeg",
+    "95F28732-BF90-4B0F-86BF-EEB26B21AD7B.jpeg",
+    "669E5D6E-D7CC-497F-8D1D-123FF4C8C8EA.jpeg",
+    "6061EB0D-92BC-4897-B0FF-3C3891D55DD4.jpeg",
+    "BA6AB565-A332-426A-9A36-BB8758C378FD.jpeg",
+    "EAD3D578-A43A-476F-96CF-BC6F0D32D635.jpeg",
+    "026B5ADA-FE0A-4A2B-907C-7C4CE0359B65.jpeg"
   ]
 }
