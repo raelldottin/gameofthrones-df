@@ -1,0 +1,200 @@
+{
+  "name": "Venator",
+  "observed_date": "2026-06-26",
+  "ownership_status": "not_hatched",
+  "rarity": "Legendary",
+  "class": "Warrior",
+  "subclass": "Warrior Egg",
+  "hatched": false,
+  "stars": 0,
+  "hatch_progress": {
+    "current": 5,
+    "required": 15
+  },
+  "preview_level": 1,
+  "stats": {
+    "strength": 74.2,
+    "instinct": 55.7,
+    "intelligence": 52.2,
+    "initiative": 61.5,
+    "speed": "Average",
+    "energy": {
+      "current": 250,
+      "maximum": 100,
+      "note": "Recorded exactly as displayed in the Dragon Pit egg preview."
+    }
+  },
+  "xp": {
+    "current": 0,
+    "required": 110
+  },
+  "displayed_troop_capacity": 2351.0,
+  "displayed_power": 0,
+  "affinity_capture": {
+    "positive_affinity_count": 2,
+    "normalized_affinities": [],
+    "unresolved_positive_affinity_count": 2,
+    "note": "Two positive affinity icons are visible, but their troop labels were not inferred from icon artwork alone."
+  },
+  "active_command": {
+    "name": "Feral Strike",
+    "type": "Attack Modifier",
+    "base_effects": [
+      {
+        "trigger": "After each Basic Attack",
+        "effect": "Deal 2 separate instances of Physical Damage. Each instance selects its target separately.",
+        "instances": 2,
+        "target_count_per_instance": 1,
+        "targeting": "Enemy in any lane",
+        "damage_type": "Physical",
+        "damage_rate_percent_per_instance": 20.0,
+        "scales_with": "Strength",
+        "mitigated_by": "Target Instinct"
+      },
+      {
+        "rounds": [4, 6, 8],
+        "effect": "Chance to gain Double-Strike for 2 rounds.",
+        "double_strike_chance_percent": 30.0,
+        "duration_rounds": 2,
+        "double_strike_definition": "Launch 2 Basic Attacks each round."
+      }
+    ],
+    "at_6_plus_stars": {
+      "source_habit": "Feral Precision",
+      "additional_after_basic_attack": {
+        "effect": "Deal Physical Damage to the enemy with the least troops.",
+        "targeting": "Enemy with the least troops",
+        "damage_type": "Physical",
+        "damage_rate_percent": 20.0,
+        "scales_with": "Strength",
+        "mitigated_by": "Target Instinct"
+      },
+      "rounds": [4, 6, 8],
+      "double_strike_chance_percent": 40.0,
+      "duration_rounds": 2
+    }
+  },
+  "habits": [
+    {
+      "name": "Hunter's Bane",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, reduce the Intelligence of 1 enemy in any lane, prioritizing Hunters. The reduction is enhanced by Venator's Strength.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Hunters",
+        "enhanced_by": "Strength"
+      },
+      "levels": [
+        {"level": 1, "enemy_intelligence_percent": -30.0, "power": 420},
+        {"level": 2, "enemy_intelligence_percent": -36.0, "power": 920},
+        {"level": 3, "enemy_intelligence_percent": -42.0, "power": 1500},
+        {"level": 4, "enemy_intelligence_percent": -51.0, "power": 2200},
+        {"level": 5, "enemy_intelligence_percent": -60.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Dragon's Might",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase Venator's non-Basic-Attack Physical Damage Dealt until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "damage_type": "Physical",
+        "excludes_basic_attacks": true,
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_dealt_percent": 12.5, "power": 420},
+        {"level": 2, "physical_damage_dealt_percent": 15.0, "power": 920},
+        {"level": 3, "physical_damage_dealt_percent": 17.5, "power": 1500},
+        {"level": 4, "physical_damage_dealt_percent": 21.25, "power": 2200},
+        {"level": 5, "physical_damage_dealt_percent": 25.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Feral Precision",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "effect": "Feral Strike gains an additional Physical Damage hit against the enemy with the least troops after each Basic Attack. On rounds 4, 6, and 8, its Double-Strike chance is increased.",
+      "fixed_values": {
+        "command_modified": "Feral Strike",
+        "trigger": "After each Basic Attack",
+        "targeting": "Enemy with the least troops",
+        "damage_type": "Physical",
+        "double_strike_rounds": [4, 6, 8],
+        "double_strike_definition": "Launch 2 Basic Attacks each round."
+      },
+      "levels": [
+        {"level": 1, "additional_damage_rate_percent": 20.0, "double_strike_chance_percent": 40.0, "power": 420},
+        {"level": 2, "additional_damage_rate_percent": 24.0, "double_strike_chance_percent": 42.0, "power": 920},
+        {"level": 3, "additional_damage_rate_percent": 28.0, "double_strike_chance_percent": 44.0, "power": 1500},
+        {"level": 4, "additional_damage_rate_percent": 34.0, "double_strike_chance_percent": 47.0, "power": 2200},
+        {"level": 5, "additional_damage_rate_percent": 40.0, "double_strike_chance_percent": 50.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Armor Break",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase the Physical Damage Received by 1 opposing enemy until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 1,
+        "targeting": "Opposing enemy",
+        "damage_type": "Physical",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "physical_damage_received_percent": 8.0, "power": 420},
+        {"level": 2, "physical_damage_received_percent": 9.6, "power": 920},
+        {"level": 3, "physical_damage_received_percent": 11.2, "power": 1500},
+        {"level": 4, "physical_damage_received_percent": 13.6, "power": 2200},
+        {"level": 5, "physical_damage_received_percent": 16.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Desperate Ambush",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "effect": "Each round while Venator is below 50% troop capacity, deal Physical Damage to 1 enemy in any lane, prioritizing Hunters, with a chance to inflict Overwhelm for 2 rounds.",
+      "fixed_values": {
+        "activation": "Each round while below 50% troop capacity",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Hunters",
+        "damage_type": "Physical",
+        "overwhelm_duration_rounds": 2,
+        "overwhelm_definition": "The target cannot use Active Commands or Habits on its turn."
+      },
+      "levels": [
+        {"level": 1, "damage_rate_percent": 60.0, "overwhelm_chance_percent": 12.0, "power": 430},
+        {"level": 2, "damage_rate_percent": 78.0, "overwhelm_chance_percent": 15.6, "power": 1000},
+        {"level": 3, "damage_rate_percent": 96.0, "overwhelm_chance_percent": 19.2, "power": 1700},
+        {"level": 4, "damage_rate_percent": 120.0, "overwhelm_chance_percent": 24.0, "power": 2700},
+        {"level": 5, "damage_rate_percent": 150.0, "overwhelm_chance_percent": 30.0, "power": 4000}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied egg-preview screenshot",
+    "active_command": "Complete for the supplied command screenshots",
+    "habits": "5 of 5 captured",
+    "ownership": "Not hatched; excluded from the owned-dragon master roster"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "C1CD1981-A7B5-44DD-AF71-96E28F77356B.jpeg",
+    "D21D8A7F-57F5-43A4-BB76-784613A8A42A.jpeg",
+    "FE620F66-B10B-4DF9-8A46-958603A92826.jpeg",
+    "BA11690D-B79A-4DC8-B311-BC81E8C3C850.jpeg",
+    "34DD662F-F6C6-46F7-9A3F-008A3F056536.jpeg",
+    "ABE1421C-B80D-4945-B93B-632DA1D0C090.jpeg",
+    "F223A6F3-87F4-4F0A-9E52-C4C5A1C87C8A.jpeg",
+    "CB176EDD-8C39-4607-A4D7-370C32FECC8C.jpeg",
+    "EC0EDBC7-937F-478E-AF10-A405719E7FCB.jpeg",
+    "06428ECC-724A-42DC-92D4-ABC3DD7FC56F.jpeg"
+  ]
+}
