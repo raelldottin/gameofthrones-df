@@ -34,9 +34,20 @@
     },
     "definitions": {
       "tactical_damage_scaling": "Tactical Damage is increased by Syrax's Instinct and mitigated by the target's Intelligence.",
-      "first_strike": "Causes the target to attack before all other combatants each round.",
-      "resistance": "Reduces the target's Damage Received."
-    }
+      "first_strike": {
+        "description": "Cause the target to attack before all other combatants each round."
+      },
+      "recovery_at_6_stars": {
+        "description": "Restore Troops to the target. The amount of Recovery scales with Syrax's level.",
+        "recovery_rate_percent": 50.0,
+        "enhanced_by": "Initiative"
+      },
+      "resistance_at_6_stars": {
+        "description": "Reduce the target's Damage Received.",
+        "damage_received_percent": -20.0
+      }
+    },
+    "definition_confirmation_date": "2026-06-26"
   },
   "stats": {
     "strength": 110.2,
@@ -151,5 +162,9 @@
       ]
     }
   ],
-  "source": "Dragon Pit screenshots supplied June 26, 2026"
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "19E4D05B-E063-4234-86FD-8E602B1AF60C.jpeg",
+    "1D28CD27-E622-4667-BD1C-AADC51817AF4.jpeg"
+  ]
 }
