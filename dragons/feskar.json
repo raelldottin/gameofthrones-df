@@ -1,0 +1,152 @@
+{
+  "name": "Feskar",
+  "observed_date": "2026-06-25",
+  "rarity": "Epic",
+  "class": "Champion",
+  "subclass": "Champion Hatchling",
+  "level": 40,
+  "stars": 1,
+  "relic_progress": {
+    "current": 29,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Calculated Assault",
+    "effects": [
+      "Each round, has a 20% chance to reduce Physical Damage Dealt, excluding Basic Attacks, by 12% for 2 rounds on the enemy with the highest Strength.",
+      "On rounds 2, 4, 7, and 9, deals Tactical Damage to the enemy with the fewest troops at a +100% Damage Rate.",
+      "At 6 or more stars, on rounds 3, 5, 8, and 10, deals Fire Damage to every enemy that deals Physical Damage, excluding Basic Attacks, at a +40% Damage Rate. The rate becomes +60% against targets afflicted with Burn."
+    ],
+    "displayed_values": {
+      "physical_damage_reduction_chance_percent": 20.0,
+      "physical_damage_dealt_modifier_percent": -12.0,
+      "physical_damage_reduction_duration_rounds": 2,
+      "physical_damage_reduction_targeting": "Enemy with the highest Strength",
+      "tactical_damage_rounds": [2, 4, 7, 9],
+      "tactical_damage_targeting": "Enemy with the fewest troops",
+      "tactical_damage_rate_percent": 100.0,
+      "six_star_fire_damage_rounds": [3, 5, 8, 10],
+      "six_star_fire_damage_targeting": "All enemies that deal Physical Damage excluding Basic Attacks",
+      "six_star_fire_damage_rate_percent": 40.0,
+      "six_star_burn_target_damage_rate_percent": 60.0
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Feskar's Instinct and mitigated by the target's Intelligence.",
+      "fire_damage_scaling": "Fire Damage is increased by Feskar's Intelligence and mitigated by the target's Initiative."
+    }
+  },
+  "stats": {
+    "strength": 69.6,
+    "instinct": 119.5,
+    "intelligence": 119.5,
+    "initiative": 119.5,
+    "speed": "Fast",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 274081,
+    "required": 542955
+  },
+  "displayed_troop_capacity": 6293.0,
+  "displayed_power": 19950,
+  "confirmed_positive_affinities": [
+    "Cavalry"
+  ],
+  "confirmed_negative_affinities": [
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "purple_epic_cores": 10,
+    "green_champion_habit_cores": 80,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Resilient Bond",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, grant Feskar and one adjacent ally one stack of Resilient Bond. At the start of each round, if that ally retreated during the previous round, grant Feskar one additional stack.",
+      "stack_effect": "Each stack reduces Physical Damage Received, excluding Basic Attacks, until the end of combat.",
+      "description_displayed_reduction_percent": -6.0,
+      "levels": [
+        {"level": 1, "physical_damage_received_percent_per_stack": -6.5, "power": 340},
+        {"level": 2, "physical_damage_received_percent_per_stack": -7.8, "power": 740},
+        {"level": 3, "physical_damage_received_percent_per_stack": -9.1, "power": 1200},
+        {"level": 4, "physical_damage_received_percent_per_stack": -11.05, "power": 1800},
+        {"level": 5, "physical_damage_received_percent_per_stack": -13.0, "power": 2500}
+      ],
+      "display_note": "The description shows -6%, while the level-1 table shows -6.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Insightful Allies",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase the Instinct of all three allies until the end of combat. The effect is enhanced by Feskar's Instinct.",
+      "levels": [
+        {"level": 1, "instinct_percent": 10.0, "power": 340},
+        {"level": 2, "instinct_percent": 12.0, "power": 740},
+        {"level": 3, "instinct_percent": 14.0, "power": 1200},
+        {"level": 4, "instinct_percent": 17.0, "power": 1800},
+        {"level": 5, "instinct_percent": 20.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Emerald Inferno",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "Calculated Assault gains Fire Damage on rounds 3, 5, 8, and 10 against all enemies that deal Physical Damage excluding Basic Attacks. Damage is increased by 1.5x against targets afflicted with Burn.",
+      "fixed_values": {
+        "rounds": [3, 5, 8, 10],
+        "burn_multiplier": 1.5
+      },
+      "levels": [
+        {"level": 1, "fire_damage_rate_percent": 40.0, "burn_target_damage_rate_percent": 60.0, "power": 340},
+        {"level": 2, "fire_damage_rate_percent": 48.0, "burn_target_damage_rate_percent": 72.0, "power": 740},
+        {"level": 3, "fire_damage_rate_percent": 56.0, "burn_target_damage_rate_percent": 84.0, "power": 1200},
+        {"level": 4, "fire_damage_rate_percent": 68.0, "burn_target_damage_rate_percent": 102.0, "power": 1800},
+        {"level": 5, "fire_damage_rate_percent": 80.0, "burn_target_damage_rate_percent": 120.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Quick-Witted",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of combat, increase Feskar's Intelligence and Initiative until the end of combat.",
+      "levels": [
+        {"level": 1, "intelligence_and_initiative_percent": 16.0, "power": 340},
+        {"level": 2, "intelligence_and_initiative_percent": 19.2, "power": 740},
+        {"level": 3, "intelligence_and_initiative_percent": 22.4, "power": 1200},
+        {"level": 4, "intelligence_and_initiative_percent": 27.2, "power": 1800},
+        {"level": 5, "intelligence_and_initiative_percent": 32.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Unyielding Grasp",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Each round, has a chance to Stagger one enemy in any lane for 3 rounds, prioritizing Warriors.",
+      "definition": "Stagger prevents the target from using Attack Modifier commands or launching Basic Attacks on its turn.",
+      "fixed_values": {
+        "duration_rounds": 3,
+        "target_count": 1,
+        "priority_class": "Warrior"
+      },
+      "levels": [
+        {"level": 1, "stagger_chance_percent": 10.0, "power": 340},
+        {"level": 2, "stagger_chance_percent": 13.0, "power": 790},
+        {"level": 3, "stagger_chance_percent": 16.0, "power": 1400},
+        {"level": 4, "stagger_chance_percent": 20.0, "power": 2100},
+        {"level": 5, "stagger_chance_percent": 25.0, "power": 3100}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
