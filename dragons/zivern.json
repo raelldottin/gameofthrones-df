@@ -1,0 +1,192 @@
+{
+  "name": "Zivern",
+  "observed_date": "2026-06-26",
+  "rarity": "Epic",
+  "class": "Sentinel",
+  "subclass": "Sentinel Hatchling",
+  "level": 30,
+  "stars": 1,
+  "relic_progress": {
+    "current": 8,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Silent Shade",
+    "activation_rounds": [1, 4, 6, 9],
+    "debuff": {
+      "activation_chance_percent": 40.0,
+      "target_count": 1,
+      "targeting": "Enemy in the same lane",
+      "tactical_damage_received_percent": 15.0,
+      "duration_rounds": 2
+    },
+    "damage": {
+      "target_count": 2,
+      "targeting": "Enemies within adjacency",
+      "damage_type": "Tactical",
+      "damage_rate_percent": 75.0
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Zivern's Instinct and mitigated by the target's Intelligence."
+    }
+  },
+  "stats": {
+    "strength": 83.5,
+    "instinct": 114.8,
+    "intelligence": 97.4,
+    "initiative": 82.4,
+    "speed": "Slow",
+    "energy": {
+      "current": 250,
+      "maximum": 100,
+      "observed_over_cap": true
+    }
+  },
+  "xp": {
+    "current": 7,
+    "required": 132385
+  },
+  "displayed_troop_capacity": 5282.0,
+  "displayed_power": 13950,
+  "confirmed_positive_affinities": [
+    "Archers",
+    "Spearmen"
+  ],
+  "current_inventory_snapshot": {
+    "purple_rarity_cores": 25,
+    "green_sentinel_habit_cores": 142,
+    "gold": 815
+  },
+  "habits": [
+    {
+      "name": "Battle Mastery",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, reduce the Strength and Instinct, enhanced by Zivern's Intelligence, of 3 enemies until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 3,
+        "targeting": "Enemies",
+        "enhanced_by": "Intelligence",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "strength_percent": -5.0, "instinct_percent": -5.0, "power": 340},
+        {"level": 2, "strength_percent": -6.0, "instinct_percent": -6.0, "power": 740},
+        {"level": 3, "strength_percent": -7.0, "instinct_percent": -7.0, "power": 1200},
+        {"level": 4, "strength_percent": -8.85, "instinct_percent": -8.85, "power": 1800},
+        {"level": 5, "strength_percent": -10.5, "instinct_percent": -10.5, "power": 2500}
+      ]
+    },
+    {
+      "name": "Keen Instinct",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase Zivern's Intelligence and Instinct until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "intelligence_percent": 16.0, "instinct_percent": 16.0, "power": 340},
+        {"level": 2, "intelligence_percent": 19.2, "instinct_percent": 19.2, "power": 740},
+        {"level": 3, "intelligence_percent": 22.4, "instinct_percent": 22.4, "power": 1200},
+        {"level": 4, "intelligence_percent": 27.2, "instinct_percent": 27.2, "power": 1800},
+        {"level": 5, "intelligence_percent": 32.0, "instinct_percent": 32.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Fearsome Reach",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "On odd-numbered rounds, has a chance to reduce the Instinct, enhanced by Zivern's Intelligence, and afflict Panic on 3 enemies in any lane for 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": "Odd-numbered rounds",
+        "target_count": 3,
+        "targeting": "Enemies in any lane",
+        "instinct_percent": -15.0,
+        "enhanced_by": "Intelligence",
+        "panic_damage_rate_percent": 20.0,
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "panic": "Deals Tactical Damage to the target each round."
+      },
+      "levels": [
+        {"level": 1, "activation_chance_percent": 30.0, "power": 340},
+        {"level": 2, "activation_chance_percent": 36.0, "power": 740},
+        {"level": 3, "activation_chance_percent": 42.0, "power": 1200},
+        {"level": 4, "activation_chance_percent": 51.0, "power": 1800},
+        {"level": 5, "activation_chance_percent": 60.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Steel Shroud",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of combat, reduce the Physical Damage Received excluding Basic Attacks and Tactical Damage Received of 2 other allies in any lane until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 2,
+        "targeting": "Other allies in any lane",
+        "physical_excludes_basic_attacks": true,
+        "duration": "Until end of combat",
+        "displayed_description_level_1_percent": -3.0,
+        "displayed_table_level_1_percent": -3.5,
+        "source_discrepancy": "The effect description shows -3%, while the level table shows -3.5% at level 1."
+      },
+      "levels": [
+        {"level": 1, "physical_damage_received_percent": -3.5, "tactical_damage_received_percent": -3.5, "power": 340},
+        {"level": 2, "physical_damage_received_percent": -4.2, "tactical_damage_received_percent": -4.2, "power": 740},
+        {"level": 3, "physical_damage_received_percent": -4.9, "tactical_damage_received_percent": -4.9, "power": 1200},
+        {"level": 4, "physical_damage_received_percent": -5.95, "tactical_damage_received_percent": -5.95, "power": 1800},
+        {"level": 5, "physical_damage_received_percent": -7.0, "tactical_damage_received_percent": -7.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Cloak of Terror",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "On odd-numbered rounds, has a chance to afflict Overwhelm on 2 enemies within adjacency for 2 rounds. The chance is doubled against targets afflicted with Vulnerable.",
+      "fixed_values": {
+        "activation_rounds": "Odd-numbered rounds",
+        "target_count": 2,
+        "targeting": "Enemies within adjacency",
+        "vulnerable_chance_multiplier": 2.0,
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "overwhelm": "Prevents the target from using Active Commands and Habits on its turn."
+      },
+      "levels": [
+        {"level": 1, "overwhelm_chance_percent": 10.0, "vulnerable_target_chance_percent": 20.0, "power": 340},
+        {"level": 2, "overwhelm_chance_percent": 13.0, "vulnerable_target_chance_percent": 26.0, "power": 790},
+        {"level": 3, "overwhelm_chance_percent": 16.0, "vulnerable_target_chance_percent": 32.0, "power": 1400},
+        {"level": 4, "overwhelm_chance_percent": 20.0, "vulnerable_target_chance_percent": 40.0, "power": 2100},
+        {"level": 5, "overwhelm_chance_percent": 25.0, "vulnerable_target_chance_percent": 50.0, "power": 3100}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Complete",
+    "habits": "5 of 5 captured"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "A388AA0C-E1D6-4220-A52C-9C3BCE4595E2.jpeg",
+    "961B6D42-E1A9-4612-BE60-F2EF35744030.jpeg",
+    "BE0CB165-0C03-44A5-A26E-53AF0629BE18.jpeg",
+    "F9458BD0-D172-4CC8-97E4-AA3157CE981A.jpeg",
+    "E916DD02-06AB-4C92-849C-306C54966A8B.jpeg",
+    "5CF807E3-9422-47CE-A261-03FC73AA9717.jpeg",
+    "41E6B7B7-AC98-4B0F-90B6-2DEF35C7C595.jpeg",
+    "571DE979-01BE-405A-9CAE-BEBED1ED4B71.jpeg"
+  ]
+}
