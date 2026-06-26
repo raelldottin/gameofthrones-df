@@ -1,0 +1,96 @@
+{
+  "name": "Crimson",
+  "observed_date": "2026-06-26",
+  "rarity": "Legendary",
+  "class": "Hunter",
+  "subclass": "Hunter Hatchling",
+  "level": 35,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Bloodscale Terror",
+    "capture_status": "Name captured; command effects not yet supplied."
+  },
+  "stats": {
+    "strength": 139.2,
+    "instinct": 128.8,
+    "intelligence": 160.1,
+    "initiative": 126.4,
+    "speed": "Slow",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 36815,
+    "required": 218905
+  },
+  "displayed_troop_capacity": 5788.0,
+  "displayed_power": 22400,
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Archers",
+    "Cavalry"
+  ],
+  "inventory_snapshot": {
+    "legendary_cores": 10,
+    "green_hunter_habit_cores": 15,
+    "gold": 735
+  },
+  "habits": [
+    {
+      "name": "Enervate",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, reduce Tactical Damage Dealt by 1 enemy that deals Tactical Damage until the end of combat.",
+      "fixed_values": {
+        "target_count": 1,
+        "targeting": "Enemy that deals Tactical Damage",
+        "duration": "Until end of combat"
+      },
+      "description_displayed_tactical_damage_dealt_percent": -13.0,
+      "levels": [
+        {"level": 1, "tactical_damage_dealt_percent": -13.5, "power": 420},
+        {"level": 2, "tactical_damage_dealt_percent": -16.2, "power": 920},
+        {"level": 3, "tactical_damage_dealt_percent": -18.9, "power": 1500},
+        {"level": 4, "tactical_damage_dealt_percent": -22.95, "power": 2200},
+        {"level": 5, "tactical_damage_dealt_percent": -27.0, "power": 3100}
+      ],
+      "display_note": "The effect description rounds the current value to -13%, while the level-1 table displays -13.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Dragon's Intellect",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, reduce Crimson's Damage Received and increase Crimson's Intelligence until the end of combat.",
+      "fixed_values": {
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -6.0, "intelligence_percent": 12.0, "power": 420},
+        {"level": 2, "damage_received_percent": -7.2, "intelligence_percent": 14.4, "power": 920},
+        {"level": 3, "damage_received_percent": -8.4, "intelligence_percent": 16.8, "power": 1500},
+        {"level": 4, "damage_received_percent": -10.2, "intelligence_percent": 20.4, "power": 2200},
+        {"level": 5, "damage_received_percent": -12.0, "intelligence_percent": 24.0, "power": 3100}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Name only",
+    "habits": "2 of 5 captured"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "A7DC1DBD-0E56-41DF-9A86-1EC9915EA6C2.jpeg",
+    "E8F1BBF3-EEAF-4E61-BF84-E987D040B55B.jpeg",
+    "F7805EA3-BBE1-4A50-B932-B3E5852EED20.jpeg"
+  ]
+}
