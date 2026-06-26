@@ -15,6 +15,19 @@
       "details_file": "dragons/kalspire.json",
       "ability_details_file": "dragons/kalspire-tactical-strike.json",
       "evidence": "The Dragon Pit profile explicitly displays Not Hatched."
+    },
+    {
+      "name": "Caraxes",
+      "ownership_status": "not_hatched",
+      "rarity": "Legendary",
+      "class": "Hunter",
+      "subclass": "Hunter Egg",
+      "hatch_progress": {
+        "current": 10,
+        "required": 15
+      },
+      "details_file": "dragons/caraxes.json",
+      "evidence": "The Dragon Pit profile explicitly displays Not Hatched."
     }
   ],
   "rules": [
