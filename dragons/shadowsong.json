@@ -1,0 +1,206 @@
+{
+  "name": "Shadowsong",
+  "observed_date": "2026-06-26",
+  "rarity": "Epic",
+  "class": "Hunter",
+  "subclass": "Hunter Whelp",
+  "level": 30,
+  "stars": 2,
+  "relic_progress": {
+    "current": 71,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Breath of Fire",
+    "base_effect": {
+      "activation_rounds": [2, 5, 8],
+      "target_count": 2,
+      "targeting": "Enemies within adjacency",
+      "damage_type": "Fire",
+      "damage_rate_percent": 100.0,
+      "panic_bonus_multiplier": 1.5,
+      "panic_damage_rate_percent": 150.0,
+      "description": "On rounds 2, 5, and 8, deal Fire Damage to 2 enemies within adjacency at a +100% Damage Rate. Against targets afflicted with Panic, the damage is increased by 1.5x to +150%."
+    },
+    "ten_star_addition": {
+      "source_habit": "Blazing Conductor",
+      "activation_rounds": [2, 5, 8],
+      "first_target": {
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "damage_type": "Fire",
+        "damage_rate_percent": 60.0,
+        "burn_chance_percent": 40.0,
+        "burn_duration_rounds": 2
+      },
+      "second_target": {
+        "target_count": 1,
+        "targeting": "A different enemy in any lane",
+        "damage_type": "Fire",
+        "damage_rate_percent": 30.0,
+        "burn_chance_percent": 20.0,
+        "burn_duration_rounds": 2
+      }
+    },
+    "definitions": {
+      "fire_damage_scaling": "Fire Damage is increased by Shadowsong's Intelligence and mitigated by the target's Initiative.",
+      "burn": "Deals Fire Damage to the target each round for 2 rounds."
+    }
+  },
+  "stats": {
+    "strength": 107.4,
+    "instinct": 94.3,
+    "intelligence": 125.8,
+    "initiative": 96.9,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 104677,
+    "required": 132385
+  },
+  "displayed_troop_capacity": 5282.0,
+  "displayed_power": 15540,
+  "confirmed_positive_affinities": [
+    "Cavalry"
+  ],
+  "current_inventory_snapshot": {
+    "purple_rarity_cores": 25,
+    "green_hunter_habit_cores": 15,
+    "gold": 815
+  },
+  "habits": [
+    {
+      "name": "Ensnare",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "On round 1, reduce the Instinct and Initiative, enhanced by Shadowsong's Intelligence, of 2 enemies within adjacency for 3 rounds.",
+      "fixed_values": {
+        "activation_round": 1,
+        "target_count": 2,
+        "targeting": "Enemies within adjacency",
+        "enhanced_by": "Intelligence",
+        "duration_rounds": 3
+      },
+      "levels": [
+        {"level": 1, "instinct_percent": -18.0, "initiative_percent": -18.0, "power": 340},
+        {"level": 2, "instinct_percent": -21.6, "initiative_percent": -21.6, "power": 740},
+        {"level": 3, "instinct_percent": -25.2, "initiative_percent": -25.2, "power": 1200},
+        {"level": 4, "instinct_percent": -30.6, "initiative_percent": -30.6, "power": 1800},
+        {"level": 5, "instinct_percent": -36.0, "initiative_percent": -36.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Blazing Onslaught",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of round 1, increase the Fire Damage Received of 1 enemy in any lane, prioritizing the left flank, and increase the Physical Damage Received excluding Basic Attacks of 1 enemy in any lane, prioritizing the right flank, for 3 rounds.",
+      "fixed_values": {
+        "activation_round": 1,
+        "fire_target_count": 1,
+        "fire_targeting": "Enemy in any lane",
+        "fire_priority": "Left flank",
+        "physical_target_count": 1,
+        "physical_targeting": "Enemy in any lane",
+        "physical_priority": "Right flank",
+        "physical_excludes_basic_attacks": true,
+        "duration_rounds": 3
+      },
+      "levels": [
+        {"level": 1, "fire_damage_received_percent": 15.0, "physical_damage_received_percent": 15.0, "power": 340},
+        {"level": 2, "fire_damage_received_percent": 18.0, "physical_damage_received_percent": 18.0, "power": 740},
+        {"level": 3, "fire_damage_received_percent": 21.0, "physical_damage_received_percent": 21.0, "power": 1200},
+        {"level": 4, "fire_damage_received_percent": 25.5, "physical_damage_received_percent": 25.5, "power": 1800},
+        {"level": 5, "fire_damage_received_percent": 30.0, "physical_damage_received_percent": 30.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Scorched Earth",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Each round, has a chance to afflict Vulnerable on 2 enemies within adjacency for 2 rounds. The activation chance is doubled against targets afflicted with Panic.",
+      "fixed_values": {
+        "activation_rounds": "Each round",
+        "target_count": 2,
+        "targeting": "Enemies within adjacency",
+        "vulnerable_damage_received_percent": 15.0,
+        "panic_chance_multiplier": 2.0,
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "vulnerable": "Increases the target's Damage Received."
+      },
+      "levels": [
+        {"level": 1, "vulnerable_chance_percent": 10.0, "panic_target_chance_percent": 20.0, "power": 340},
+        {"level": 2, "vulnerable_chance_percent": 12.0, "panic_target_chance_percent": 24.0, "power": 740},
+        {"level": 3, "vulnerable_chance_percent": 14.0, "panic_target_chance_percent": 28.0, "power": 1200},
+        {"level": 4, "vulnerable_chance_percent": 17.0, "panic_target_chance_percent": 34.0, "power": 1800},
+        {"level": 5, "vulnerable_chance_percent": 20.0, "panic_target_chance_percent": 40.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Dragon's Intellect",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, reduce Shadowsong's Damage Received and increase Intelligence until the end of combat.",
+      "fixed_values": {
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -5.0, "intelligence_percent": 8.5, "power": 340},
+        {"level": 2, "damage_received_percent": -6.0, "intelligence_percent": 10.2, "power": 740},
+        {"level": 3, "damage_received_percent": -7.0, "intelligence_percent": 11.9, "power": 1200},
+        {"level": 4, "damage_received_percent": -8.5, "intelligence_percent": 14.45, "power": 1800},
+        {"level": 5, "damage_received_percent": -10.0, "intelligence_percent": 17.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Blazing Conductor",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Breath of Fire gains an additional two-target sequence on rounds 2, 5, and 8: first deal Fire Damage to 1 enemy in any lane with a chance to Burn, then deal Fire Damage to a different enemy in any lane with a separate chance to Burn. Burn lasts 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": [2, 5, 8],
+        "first_target_count": 1,
+        "first_targeting": "Enemy in any lane",
+        "second_target_count": 1,
+        "second_targeting": "A different enemy in any lane",
+        "burn_duration_rounds": 2
+      },
+      "levels": [
+        {"level": 1, "first_target_burn_chance_percent": 40.0, "second_target_burn_chance_percent": 20.0, "first_target_damage_rate_percent": 60.0, "second_target_damage_rate_percent": 30.0, "power": 340},
+        {"level": 2, "first_target_burn_chance_percent": 52.0, "second_target_burn_chance_percent": 26.0, "first_target_damage_rate_percent": 78.0, "second_target_damage_rate_percent": 39.0, "power": 790},
+        {"level": 3, "first_target_burn_chance_percent": 64.0, "second_target_burn_chance_percent": 32.0, "first_target_damage_rate_percent": 96.0, "second_target_damage_rate_percent": 48.0, "power": 1400},
+        {"level": 4, "first_target_burn_chance_percent": 80.0, "second_target_burn_chance_percent": 40.0, "first_target_damage_rate_percent": 120.0, "second_target_damage_rate_percent": 60.0, "power": 2100},
+        {"level": 5, "first_target_burn_chance_percent": 100.0, "second_target_burn_chance_percent": 50.0, "first_target_damage_rate_percent": 150.0, "second_target_damage_rate_percent": 75.0, "power": 3100}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Complete, including 10-star addition",
+    "habits": "5 of 5 captured"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "5720B961-47C5-4CBE-AE70-2B0DA8295013.jpeg",
+    "911B25E9-BE1E-4555-8A87-1036F4BAB24A.jpeg",
+    "FAE955A7-A35A-4E50-882B-A1AC6A0F6BEC.jpeg",
+    "8728FAA8-FFD5-4663-97F8-0AD1622F4CE8.jpeg",
+    "4539EA44-CC79-48C9-8EBE-A60E024FAC0A.jpeg",
+    "09F00785-210F-465A-8475-5D37FBA770CF.jpeg",
+    "B5683CB1-3BFA-4DFC-B455-C950D02DF27A.jpeg",
+    "489758A3-4F37-434C-B9C7-B02A8246C31B.jpeg",
+    "3D7E890A-83D5-482F-BB36-53BDAF55ED38.jpeg",
+    "0A7C5417-9B93-44BD-AD48-E5F75FB65BCA.jpeg"
+  ]
+}
