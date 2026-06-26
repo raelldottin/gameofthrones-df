@@ -1,0 +1,169 @@
+{
+  "name": "Arulix",
+  "observed_date": "2026-06-25",
+  "rarity": "Rare",
+  "class": "Champion",
+  "subclass": "Champion Whelp",
+  "level": 40,
+  "stars": 3,
+  "relic_progress": {
+    "current": 2,
+    "required_for_next_star": 180
+  },
+  "command": {
+    "name": "Gleaming Spiral",
+    "effects": [
+      "Each round, has a 25% chance to reduce Fire Damage Dealt by 15% for 1 round for all enemies that deal Fire Damage.",
+      "On rounds 1, 2, 3, 5, and 8, deals Tactical Damage to all enemies that deal Physical Damage excluding Basic Attacks at a +45% Damage Rate.",
+      "At 6 or more stars, on rounds 1, 2, 3, 5, and 8, deals Physical Damage to 2 enemies in any lane at a +20% Damage Rate. This rises to +30% on round 5 and +40% on round 8."
+    ],
+    "displayed_values": {
+      "fire_damage_reduction_chance_percent": 25.0,
+      "fire_damage_dealt_modifier_percent": -15.0,
+      "fire_damage_reduction_duration_rounds": 1,
+      "tactical_damage_rounds": [1, 2, 3, 5, 8],
+      "tactical_damage_targeting": "All enemies that deal Physical Damage excluding Basic Attacks",
+      "tactical_damage_rate_percent": 45.0,
+      "six_star_physical_damage_rounds": [1, 2, 3, 5, 8],
+      "six_star_physical_damage_target_count": 2,
+      "six_star_physical_damage_rate_percent": 20.0,
+      "six_star_round_5_damage_rate_percent": 30.0,
+      "six_star_round_8_damage_rate_percent": 40.0
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Arulix's Instinct and mitigated by the target's Intelligence.",
+      "physical_damage_scaling": "Physical Damage is increased by Arulix's Strength and mitigated by the target's Instinct."
+    }
+  },
+  "stats": {
+    "strength": 103.4,
+    "instinct": 108.8,
+    "intelligence": 70.7,
+    "initiative": 81.6,
+    "speed": "Average",
+    "energy": {
+      "current": 24,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 91239,
+    "required": 542955
+  },
+  "displayed_troop_capacity": 6693.0,
+  "displayed_power": 16250,
+  "confirmed_positive_affinities": [
+    "Cavalry"
+  ],
+  "inventory_snapshot": {
+    "blue_rare_cores": 24,
+    "green_champion_habit_cores": 80,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Hypnotic Helix",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "On rounds 1, 3, 6, and 8, has a chance to Overwhelm one enemy in any lane for 2 rounds, prioritizing Fire Damage dealers. On rounds 2, 4, 7, and 9, has a chance to Stagger one enemy in any lane for 2 rounds, prioritizing Physical Damage dealers.",
+      "definitions": {
+        "overwhelm": "Prevents the target from using Active Commands and Habits on its turn.",
+        "stagger": "Prevents the target from using Attack Modifier Commands or launching Basic Attacks on its turn."
+      },
+      "fixed_values": {
+        "overwhelm_rounds": [1, 3, 6, 8],
+        "overwhelm_priority": "Fire Damage dealers",
+        "stagger_rounds": [2, 4, 7, 9],
+        "stagger_priority": "Physical Damage dealers",
+        "duration_rounds": 2,
+        "target_count": 1
+      },
+      "description_displayed_chance_percent": 13.0,
+      "levels": [
+        {"level": 1, "stagger_and_overwhelm_chance_percent": 12.5, "power": 250},
+        {"level": 2, "stagger_and_overwhelm_chance_percent": 15.0, "power": 550},
+        {"level": 3, "stagger_and_overwhelm_chance_percent": 17.5, "power": 900},
+        {"level": 4, "stagger_and_overwhelm_chance_percent": 21.3, "power": 1300},
+        {"level": 5, "stagger_and_overwhelm_chance_percent": 25.0, "power": 1800}
+      ],
+      "next_upgrade_observed_cost": {
+        "blue_rare_cores": 100,
+        "green_champion_habit_cores": 100,
+        "gold_bypass_displayed": 40
+      },
+      "display_note": "The effect description rounds the current chance to 13%, while the level-1 table displays 12.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Battle Cunning",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, reduce Strength and Intelligence, enhanced by Arulix's Instinct, for all 3 enemies until the end of combat.",
+      "levels": [
+        {"level": 1, "strength_and_intelligence_percent": -4.0, "power": 250},
+        {"level": 2, "strength_and_intelligence_percent": -4.8, "power": 550},
+        {"level": 3, "strength_and_intelligence_percent": -5.6, "power": 900},
+        {"level": 4, "strength_and_intelligence_percent": -6.8, "power": 1300},
+        {"level": 5, "strength_and_intelligence_percent": -8.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Spiral Surge",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "On rounds 1, 2, 3, 5, and 8, deal Physical Damage to 2 enemies in any lane. Damage is multiplied by 1.5 on round 5 and by 2 on round 8.",
+      "fixed_values": {
+        "rounds": [1, 2, 3, 5, 8],
+        "target_count": 2,
+        "round_5_multiplier": 1.5,
+        "round_8_multiplier": 2.0
+      },
+      "levels": [
+        {"level": 1, "base_damage_rate_percent": 20.0, "round_5_damage_rate_percent": 30.0, "round_8_damage_rate_percent": 40.0, "power": 250},
+        {"level": 2, "base_damage_rate_percent": 24.0, "round_5_damage_rate_percent": 36.0, "round_8_damage_rate_percent": 48.0, "power": 550},
+        {"level": 3, "base_damage_rate_percent": 28.0, "round_5_damage_rate_percent": 42.0, "round_8_damage_rate_percent": 56.0, "power": 900},
+        {"level": 4, "base_damage_rate_percent": 34.0, "round_5_damage_rate_percent": 51.0, "round_8_damage_rate_percent": 68.0, "power": 1300},
+        {"level": 5, "base_damage_rate_percent": 40.0, "round_5_damage_rate_percent": 60.0, "round_8_damage_rate_percent": 80.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Iron Shell",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "At the start of combat, reduce non-Basic-Attack Physical Damage Received and Fire Damage Received for 2 other allies in any lane until the end of combat.",
+      "description_displayed_damage_received_percent": -2.0,
+      "levels": [
+        {"level": 1, "physical_and_fire_damage_received_percent": -2.5, "power": 250},
+        {"level": 2, "physical_and_fire_damage_received_percent": -3.0, "power": 550},
+        {"level": 3, "physical_and_fire_damage_received_percent": -3.5, "power": 900},
+        {"level": 4, "physical_and_fire_damage_received_percent": -4.25, "power": 1300},
+        {"level": 5, "physical_and_fire_damage_received_percent": -5.0, "power": 1800}
+      ],
+      "display_note": "The effect description displays -2%, while the level-1 table displays -2.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Mimicry",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of each round, if any ally is afflicted with Weakened or Vulnerable, has a chance to apply the same effect to 1 enemy in any lane for 2 rounds. If any enemy has Advantage or Resistance, has a chance to apply the same effect to 1 ally in any lane for 2 rounds.",
+      "fixed_values": {
+        "duration_rounds": 2,
+        "target_count": 1,
+        "copied_negative_effects": ["Weakened", "Vulnerable"],
+        "copied_positive_effects": ["Advantage", "Resistance"]
+      },
+      "levels": [
+        {"level": 1, "mimicry_chance_percent": 25.0, "power": 250},
+        {"level": 2, "mimicry_chance_percent": 32.5, "power": 580},
+        {"level": 3, "mimicry_chance_percent": 40.0, "power": 1000},
+        {"level": 4, "mimicry_chance_percent": 50.0, "power": 1600},
+        {"level": 5, "mimicry_chance_percent": 62.5, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
