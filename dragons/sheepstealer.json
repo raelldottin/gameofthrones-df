@@ -1,0 +1,197 @@
+{
+  "name": "Sheepstealer",
+  "observed_date": "2026-06-26",
+  "ownership_status": "not_discovered",
+  "rarity": "Legendary",
+  "class": "Hunter",
+  "subclass": "Hunter",
+  "discovered": false,
+  "hatched": false,
+  "stars": 0,
+  "preview_level": null,
+  "stats": {
+    "strength": 65.0,
+    "instinct": 52.2,
+    "intelligence": 71.9,
+    "initiative": 60.3,
+    "speed": "Average",
+    "energy": 0
+  },
+  "xp": {
+    "current": 0,
+    "required": 110,
+    "level_display": "-"
+  },
+  "displayed_troop_capacity": 2351.0,
+  "displayed_power": 0,
+  "affinity_capture": {
+    "positive_affinity_count": 2,
+    "normalized_affinities": [],
+    "unresolved_positive_affinity_count": 2,
+    "note": "Two positive affinity icons are visible, but their troop labels were not inferred from icon artwork alone."
+  },
+  "active_command": {
+    "name": "Wild Hunt",
+    "type": "Active",
+    "base_effects": [
+      {
+        "activation": "Each round, only if no enemy is currently marked as Prey",
+        "chance_percent": 40.0,
+        "effect": "Mark 1 enemy in any lane as Prey for 3 rounds.",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Enemies that received Recovery within the previous round",
+        "duration_rounds": 3,
+        "prey_recovery_received_percent": -30.0
+      },
+      {
+        "rounds": [1, 4, 7, 10],
+        "effect": "Deal Fire Damage to 1 enemy in any lane, prioritizing the current Prey.",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Prey",
+        "damage_type": "Fire",
+        "damage_rate_percent": 100.0,
+        "damage_rate_percent_against_prey": 200.0,
+        "scales_with": "Intelligence",
+        "mitigated_by": "Target Initiative"
+      }
+    ],
+    "at_10_stars": {
+      "source_habit": "Savage Claim",
+      "effect": "Each round while a Prey exists, deal Fire Damage to it and apply Recovery to Sheepstealer. Both values are tripled if the Prey received Recovery during the previous round."
+    }
+  },
+  "habits": [
+    {
+      "name": "Stolen Flock",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase Fire Damage Dealt against non-player armies at Food Tiles and against Beast encounters until the end of combat. Each round has a 50% chance to gain 1 Stolen Flock stack, and Sheepstealer gains another stack whenever its Prey receives Recovery. Each stack increases Fire Damage Dealt until the end of combat.",
+      "fixed_values": {
+        "non_player_conditions": [
+          "Non-player armies at Food Tiles",
+          "Encounters against Beasts"
+        ],
+        "stack_gain_chance_percent_each_round": 50.0,
+        "additional_stack_trigger": "When Prey receives Recovery",
+        "maximum_stacks": 10,
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "non_player_fire_damage_dealt_percent": 10.0, "fire_damage_dealt_percent_per_stack": 3.0, "power": 420},
+        {"level": 2, "non_player_fire_damage_dealt_percent": 12.0, "fire_damage_dealt_percent_per_stack": 3.6, "power": 920},
+        {"level": 3, "non_player_fire_damage_dealt_percent": 14.0, "fire_damage_dealt_percent_per_stack": 4.2, "power": 1500},
+        {"level": 4, "non_player_fire_damage_dealt_percent": 17.0, "fire_damage_dealt_percent_per_stack": 5.1, "power": 2200},
+        {"level": 5, "non_player_fire_damage_dealt_percent": 20.0, "fire_damage_dealt_percent_per_stack": 6.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Dragon's Cunning",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase Sheepstealer's Intelligence and reduce the Instinct of 2 adjacent enemies. The enemy Instinct reduction is enhanced by Sheepstealer's Initiative. Both effects last until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "enemy_target_count": 2,
+        "enemy_targeting": "Enemies within adjacency",
+        "enemy_reduction_enhanced_by": "Initiative",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "self_intelligence_percent": 16.0, "enemy_instinct_percent": -12.0, "power": 420},
+        {"level": 2, "self_intelligence_percent": 19.2, "enemy_instinct_percent": -14.4, "power": 920},
+        {"level": 3, "self_intelligence_percent": 22.4, "enemy_instinct_percent": -16.8, "power": 1500},
+        {"level": 4, "self_intelligence_percent": 27.2, "enemy_instinct_percent": -20.4, "power": 2200},
+        {"level": 5, "self_intelligence_percent": 32.0, "enemy_instinct_percent": -24.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Baited Kill",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "effect": "Each round, Sheepstealer can inflict Vulnerable (+20%) on its Prey. The chance doubles if the Prey received Recovery during the previous round. While the Prey is above 50% troop capacity, Sheepstealer can also cleanse itself of 1 enemy-applied negative effect that reduces Damage Dealt.",
+      "fixed_values": {
+        "activation": "Each round",
+        "vulnerable_amount_percent": 20.0,
+        "vulnerable_target": "Prey",
+        "vulnerable_chance_multiplier_after_prey_recovery": 2.0,
+        "recovery_lookback_rounds": 1,
+        "cleanse_condition": "Prey is above 50% troop capacity",
+        "cleanse_count": 1,
+        "cleanse_filter": "Enemy-applied negative effect that reduces Sheepstealer's Damage Dealt"
+      },
+      "levels": [
+        {"level": 1, "vulnerable_chance_percent": 25.0, "cleanse_chance_percent": 50.0, "power": 420},
+        {"level": 2, "vulnerable_chance_percent": 30.0, "cleanse_chance_percent": 60.0, "power": 920},
+        {"level": 3, "vulnerable_chance_percent": 35.0, "cleanse_chance_percent": 70.0, "power": 1500},
+        {"level": 4, "vulnerable_chance_percent": 42.5, "cleanse_chance_percent": 85.0, "power": 2200},
+        {"level": 5, "vulnerable_chance_percent": 50.0, "cleanse_chance_percent": 100.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Wary Beast",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, if Sheepstealer's Prey is above 50% troop capacity, gain Evade until the end of the round. At the start of combat, reduce Recovery Received by 3 enemies in any lane until the end of combat.",
+      "fixed_values": {
+        "evade_activation": "Start of each round while Prey is above 50% troop capacity",
+        "evade_duration": "Until end of the round",
+        "evade_definition": "Each instance of damage has a chance to be ignored",
+        "recovery_reduction_activation": "Start of combat",
+        "enemy_target_count": 3,
+        "enemy_targeting": "Enemies in any lane",
+        "recovery_reduction_duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "evade_rate_percent": 10.0, "enemy_recovery_received_percent": -10.0, "power": 420},
+        {"level": 2, "evade_rate_percent": 12.0, "enemy_recovery_received_percent": -12.0, "power": 920},
+        {"level": 3, "evade_rate_percent": 14.0, "enemy_recovery_received_percent": -14.0, "power": 1500},
+        {"level": 4, "evade_rate_percent": 17.0, "enemy_recovery_received_percent": -17.0, "power": 2200},
+        {"level": 5, "evade_rate_percent": 20.0, "enemy_recovery_received_percent": -20.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Savage Claim",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "effect": "Wild Hunt gains an each-round effect while a Prey exists: deal Fire Damage to the Prey and apply Recovery to Sheepstealer. If the Prey received Recovery during the previous round, both the damage and Recovery are tripled.",
+      "fixed_values": {
+        "command_modified": "Wild Hunt",
+        "activation": "Each round while a Prey exists",
+        "targeting": "Prey",
+        "damage_type": "Fire",
+        "recovery_target": "Self",
+        "recovery_enhanced_by": "Intelligence",
+        "recovery_lookback_rounds": 1,
+        "multiplier_after_prey_recovery": 3.0
+      },
+      "levels": [
+        {"level": 1, "damage_rate_percent": 24.0, "recovery_rate_percent": 10.0, "boosted_damage_rate_percent": 72.0, "boosted_recovery_rate_percent": 30.0, "power": 430},
+        {"level": 2, "damage_rate_percent": 31.2, "recovery_rate_percent": 13.0, "boosted_damage_rate_percent": 93.6, "boosted_recovery_rate_percent": 39.0, "power": 1000},
+        {"level": 3, "damage_rate_percent": 38.4, "recovery_rate_percent": 16.0, "boosted_damage_rate_percent": 115.2, "boosted_recovery_rate_percent": 48.0, "power": 1700},
+        {"level": 4, "damage_rate_percent": 48.0, "recovery_rate_percent": 20.0, "boosted_damage_rate_percent": 144.0, "boosted_recovery_rate_percent": 60.0, "power": 2700},
+        {"level": 5, "damage_rate_percent": 60.0, "recovery_rate_percent": 25.0, "boosted_damage_rate_percent": 180.0, "boosted_recovery_rate_percent": 75.0, "power": 4000}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied not-discovered preview screenshot",
+    "active_command": "Base Wild Hunt effects captured; the 10-star addition is fully represented through Savage Claim",
+    "habits": "5 of 5 captured",
+    "ownership": "Not discovered; excluded from the owned-dragon master roster and current army compositions"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "5D365EC6-C1D6-45F5-99E8-19B8296FF66A.jpeg",
+    "90DD8D53-8C73-4E67-B7AA-98597FDF9373.jpeg",
+    "BAFE25D7-2456-47AE-BC57-57DEAF604082.jpeg",
+    "361EB19F-E5FC-489F-BB5F-DDC2A27A26B5.jpeg",
+    "BDCE085E-64FF-4648-9C6A-5B61A2D68E00.jpeg",
+    "18FD08B1-6295-4A8B-A7EF-5BE26935CFB4.jpeg",
+    "4C009706-4759-4377-9B13-79CC9E896AF5.jpeg",
+    "7BF0B8B7-1F33-4427-B178-FA8813059ABD.jpeg",
+    "5E62C4CC-62EE-48F0-A0D4-E3AD4491D761.jpeg",
+    "EC3D3CF4-2661-4891-AFB4-C2B7DA3D9EE5.jpeg"
+  ]
+}
