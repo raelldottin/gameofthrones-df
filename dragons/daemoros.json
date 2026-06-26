@@ -1,0 +1,194 @@
+{
+  "name": "Daemoros",
+  "observed_date": "2026-06-26",
+  "rarity": "Epic",
+  "class": "Warrior",
+  "subclass": "Warrior Hatchling",
+  "level": 33,
+  "stars": 1,
+  "relic_progress": {
+    "current": 18,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Shadowflame",
+    "effects": [
+      "On odd-numbered rounds, deals Physical Damage to 1 enemy within adjacency at a +125% Damage Rate.",
+      "The attack also has a 20% chance to afflict Burn at a +20% Damage Rate for 2 rounds."
+    ],
+    "displayed_values": {
+      "activation_rounds": "Odd-numbered rounds",
+      "physical_damage_target_count": 1,
+      "physical_damage_targeting": "Enemy within adjacency",
+      "physical_damage_rate_percent": 125.0,
+      "burn_chance_percent": 20.0,
+      "burn_damage_rate_percent": 20.0,
+      "burn_duration_rounds": 2
+    },
+    "definitions": {
+      "physical_damage_scaling": "Physical Damage is increased by Daemoros's Strength and mitigated by the target's Instinct.",
+      "burn": "Deals Fire Damage to the target each round for 2 rounds."
+    }
+  },
+  "stats": {
+    "strength": 118.3,
+    "instinct": 90.5,
+    "intelligence": 77.7,
+    "initiative": 104.4,
+    "speed": "Average",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 164283,
+    "required": 179015
+  },
+  "displayed_troop_capacity": 5585.0,
+  "displayed_power": 15950,
+  "confirmed_positive_affinities": [
+    "Archers"
+  ],
+  "current_inventory_snapshot": {
+    "purple_rarity_cores": 25,
+    "green_habit_cores": 182,
+    "gold": 815
+  },
+  "habits": [
+    {
+      "name": "Instill Fear",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "Each round, has a chance to reduce the Intelligence and Instinct, enhanced by Daemoros's Strength, of 1 enemy in any lane and afflict Panic on that target. The effect prioritizes the right flank, and both effects last for 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": "Each round",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Right flank",
+        "intelligence_percent": -25.0,
+        "instinct_percent": -25.0,
+        "enhanced_by": "Strength",
+        "panic_damage_rate_percent": 20.0,
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "panic": "Deals Tactical Damage to the target each round."
+      },
+      "levels": [
+        {"level": 1, "instill_fear_chance_percent": 25.0, "power": 340},
+        {"level": 2, "instill_fear_chance_percent": 30.0, "power": 740},
+        {"level": 3, "instill_fear_chance_percent": 35.0, "power": 1200},
+        {"level": 4, "instill_fear_chance_percent": 42.5, "power": 1800},
+        {"level": 5, "instill_fear_chance_percent": 50.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Powerful Reflexes",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase Daemoros's Strength and Initiative until the end of combat.",
+      "fixed_values": {
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "strength_percent": 16.0, "initiative_percent": 16.0, "power": 340},
+        {"level": 2, "strength_percent": 19.2, "initiative_percent": 19.2, "power": 740},
+        {"level": 3, "strength_percent": 22.4, "initiative_percent": 22.4, "power": 1200},
+        {"level": 4, "strength_percent": 27.2, "initiative_percent": 27.2, "power": 1800},
+        {"level": 5, "strength_percent": 32.0, "initiative_percent": 32.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Shroud of Shadows",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "On odd-numbered rounds, has a chance to afflict Confusion on 1 enemy within adjacency for 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": "Odd-numbered rounds",
+        "target_count": 1,
+        "targeting": "Enemy within adjacency",
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "confusion": "Each time the target activates a Command or Habit, or launches a Basic Attack on its turn, it has a 50% chance to mistake allies for enemies and enemies for allies."
+      },
+      "levels": [
+        {"level": 1, "confusion_chance_percent": 15.0, "power": 340},
+        {"level": 2, "confusion_chance_percent": 18.0, "power": 740},
+        {"level": 3, "confusion_chance_percent": 21.0, "power": 1200},
+        {"level": 4, "confusion_chance_percent": 25.5, "power": 1800},
+        {"level": 5, "confusion_chance_percent": 30.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Darkening Fear",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "Each round, has a chance to reduce the Intelligence and Instinct, enhanced by Daemoros's Strength, of 1 enemy in any lane and afflict Panic on that target. The effect prioritizes the left flank, and both effects last for 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": "Each round",
+        "target_count": 1,
+        "targeting": "Enemy in any lane",
+        "priority": "Left flank",
+        "intelligence_percent": -25.0,
+        "instinct_percent": -25.0,
+        "enhanced_by": "Strength",
+        "panic_damage_rate_percent": 20.0,
+        "duration_rounds": 2
+      },
+      "definitions": {
+        "panic": "Deals Tactical Damage to the target each round."
+      },
+      "levels": [
+        {"level": 1, "darkening_fear_chance_percent": 25.0, "power": 340},
+        {"level": 2, "darkening_fear_chance_percent": 30.0, "power": 740},
+        {"level": 3, "darkening_fear_chance_percent": 35.0, "power": 1200},
+        {"level": 4, "darkening_fear_chance_percent": 42.5, "power": 1800},
+        {"level": 5, "darkening_fear_chance_percent": 50.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Phantom's Veil",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "At the start of each round, reduce one of Daemoros's Physical, Tactical, or Fire Damage Received values until the end of the round.",
+      "fixed_values": {
+        "activation_rounds": "Start of each round",
+        "possible_damage_types": ["Physical", "Tactical", "Fire"],
+        "selection": "One damage type per activation",
+        "targeting": "Self",
+        "duration": "Until end of round"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -15.0, "power": 340},
+        {"level": 2, "damage_received_percent": -19.5, "power": 790},
+        {"level": 3, "damage_received_percent": -24.0, "power": 1400},
+        {"level": 4, "damage_received_percent": -30.0, "power": 2100},
+        {"level": 5, "damage_received_percent": -37.5, "power": 3100}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Complete",
+    "habits": "5 of 5 captured"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "B8CC3F77-AEE8-4EC4-BD4F-E8F0CFEB2F12.jpeg",
+    "858D1315-3ED8-4DF1-AC60-0A22616ADAD0.jpeg",
+    "C1B1D2A0-7465-42C9-9989-F10331650F3D.jpeg",
+    "028D1A54-B8D1-4842-8D02-086B7BB8BE1A.jpeg",
+    "297FDCD9-3CF0-4A13-A8D3-ABC54A9DDD3E.jpeg",
+    "93EFEDE7-15DE-41F3-B0AD-AD7974D17271.jpeg",
+    "E932D0D1-B7EE-405E-8D89-C0EB597F361F.jpeg",
+    "ADFFFA0D-BA6B-4415-84D2-9D9E6689A393.jpeg"
+  ]
+}
