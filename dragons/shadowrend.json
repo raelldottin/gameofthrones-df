@@ -1,0 +1,197 @@
+{
+  "name": "Shadowrend",
+  "observed_date": "2026-06-26",
+  "rarity": "Rare",
+  "class": "Warrior",
+  "subclass": "Warrior Whelp",
+  "level": 30,
+  "stars": 2,
+  "relic_progress": {
+    "current": 31,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Eclipse Fervor",
+    "panic": {
+      "activation": "Each round",
+      "activation_chance_percent": 25.0,
+      "target_count": 1,
+      "targeting": "Enemy within adjacency",
+      "damage_type": "Tactical",
+      "damage_rate_percent": 20.0,
+      "duration_rounds": 2
+    },
+    "physical_damage": {
+      "activation_rounds": [4, 7, 9, 10],
+      "target_count": 2,
+      "targeting": "Enemies within adjacency",
+      "damage_type": "Physical",
+      "damage_rate_percent": 80.0
+    },
+    "ten_star_upgrade": {
+      "activation_round": 9,
+      "target_count": 3,
+      "targeting": "Enemies in any lane",
+      "damage_types": ["Physical", "Tactical"],
+      "damage_rate_percent_per_type": 100.0
+    },
+    "definitions": {
+      "physical_damage_scaling": "Physical Damage is increased by Shadowrend's Strength and mitigated by the target's Instinct.",
+      "tactical_damage_scaling": "Tactical Damage is increased by Shadowrend's Instinct and mitigated by the target's Intelligence.",
+      "panic": "Deals Tactical Damage to the target each round for 2 rounds."
+    }
+  },
+  "stats": {
+    "strength": 92.0,
+    "instinct": 92.0,
+    "intelligence": 66.8,
+    "initiative": 66.8,
+    "speed": "Slow",
+    "energy": {
+      "current": 100,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 98,
+    "required": 132385
+  },
+  "displayed_troop_capacity": 5282.0,
+  "displayed_power": 11250,
+  "confirmed_positive_affinities": [
+    "Shieldbearers",
+    "Spearmen"
+  ],
+  "current_inventory_snapshot": {
+    "blue_rarity_cores": 52,
+    "green_warrior_habit_cores": 182,
+    "gold": 815
+  },
+  "habits": [
+    {
+      "name": "Midnight Aura",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of rounds 7 through 10, increase the Strength and Instinct, enhanced by Shadowrend's Initiative, of 3 allies in any lane until the end of the round.",
+      "fixed_values": {
+        "activation_rounds": [7, 8, 9, 10],
+        "target_count": 3,
+        "targeting": "Allies in any lane",
+        "enhanced_by": "Initiative",
+        "duration": "Until end of the round"
+      },
+      "levels": [
+        {"level": 1, "strength_percent": 40.0, "instinct_percent": 40.0, "power": 250},
+        {"level": 2, "strength_percent": 48.0, "instinct_percent": 48.0, "power": 550},
+        {"level": 3, "strength_percent": 56.0, "instinct_percent": 56.0, "power": 900},
+        {"level": 4, "strength_percent": 68.0, "instinct_percent": 68.0, "power": 1300},
+        {"level": 5, "strength_percent": 80.0, "instinct_percent": 80.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Nimble Resilience",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, reduce Shadowrend's Damage Received and increase its Initiative until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -4.0, "initiative_percent": 5.0, "power": 250},
+        {"level": 2, "damage_received_percent": -4.8, "initiative_percent": 6.0, "power": 550},
+        {"level": 3, "damage_received_percent": -5.6, "initiative_percent": 7.0, "power": 900},
+        {"level": 4, "damage_received_percent": -6.8, "initiative_percent": 8.5, "power": 1300},
+        {"level": 5, "damage_received_percent": -8.0, "initiative_percent": 10.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Fueled by Darkness",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Each round, has a chance to grant Advantage to 2 allies in any lane for 2 rounds. The chance is doubled while Midnight Aura is active during rounds 7 through 10.",
+      "fixed_values": {
+        "activation": "Each round",
+        "target_count": 2,
+        "targeting": "Allies in any lane",
+        "advantage_percent": 10.0,
+        "duration_rounds": 2,
+        "midnight_aura_active_rounds": [7, 8, 9, 10],
+        "midnight_aura_chance_multiplier": 2.0
+      },
+      "definitions": {
+        "advantage": "Increases the target's Damage Dealt."
+      },
+      "levels": [
+        {"level": 1, "activation_chance_percent": 10.0, "midnight_aura_chance_percent": 20.0, "power": 250},
+        {"level": 2, "activation_chance_percent": 12.0, "midnight_aura_chance_percent": 24.0, "power": 550},
+        {"level": 3, "activation_chance_percent": 14.0, "midnight_aura_chance_percent": 28.0, "power": 900},
+        {"level": 4, "activation_chance_percent": 17.0, "midnight_aura_chance_percent": 34.0, "power": 1300},
+        {"level": 5, "activation_chance_percent": 20.0, "midnight_aura_chance_percent": 40.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Midnight Mastery",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of rounds 7 through 10, increase the Physical and Tactical Damage Dealt of 3 allies in any lane until the end of the round.",
+      "fixed_values": {
+        "activation_rounds": [7, 8, 9, 10],
+        "target_count": 3,
+        "targeting": "Allies in any lane",
+        "damage_types": ["Physical", "Tactical"],
+        "duration": "Until end of the round"
+      },
+      "levels": [
+        {"level": 1, "damage_dealt_percent": 7.0, "power": 250},
+        {"level": 2, "damage_dealt_percent": 8.4, "power": 550},
+        {"level": 3, "damage_dealt_percent": 9.8, "power": 900},
+        {"level": 4, "damage_dealt_percent": 11.9, "power": 1300},
+        {"level": 5, "damage_dealt_percent": 14.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Event Horizon",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Eclipse Fervor gains an additional round-9 attack that deals both Physical and Tactical Damage to 3 enemies in any lane.",
+      "fixed_values": {
+        "activation_round": 9,
+        "target_count": 3,
+        "targeting": "Enemies in any lane",
+        "damage_types": ["Physical", "Tactical"],
+        "damage_rate_applies_per_type": true
+      },
+      "levels": [
+        {"level": 1, "damage_rate_percent_per_type": 100.0, "power": 250},
+        {"level": 2, "damage_rate_percent_per_type": 130.0, "power": 580},
+        {"level": 3, "damage_rate_percent_per_type": 160.0, "power": 1000},
+        {"level": 4, "damage_rate_percent_per_type": 200.0, "power": 1600},
+        {"level": 5, "damage_rate_percent_per_type": 250.0, "power": 2300}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied screenshot",
+    "command": "Complete",
+    "habits": "5 of 5 captured"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "F1D541F1-AFB6-460E-907D-DB92CC34ACD5.jpeg",
+    "0DF45935-482E-4DCC-826C-A02C2AEFB100.jpeg",
+    "817E355E-6E3E-417A-B074-CA918FE48C0A.jpeg",
+    "1DF3D57C-CE08-4A56-8A61-63B3724471ED.jpeg",
+    "65E10145-BA94-4580-931C-DF5513791BC5.jpeg",
+    "AFB12E9A-E1EB-433F-8E85-A357F106D250.jpeg",
+    "7EA28BC2-1F63-4DA5-A2F3-AEA33D1234FB.jpeg",
+    "55AC8256-B752-4A96-B6F3-1C49F1C7932F.jpeg",
+    "3A4F8780-E201-4095-A1CD-07B41F7A1092.jpeg"
+  ]
+}
