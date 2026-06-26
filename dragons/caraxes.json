@@ -1,35 +1,52 @@
 {
   "name": "Caraxes",
   "observed_date": "2026-06-26",
-  "ownership_status": "not_hatched",
+  "ownership_status": "owned",
   "rarity": "Legendary",
   "class": "Hunter",
-  "subclass": "Hunter Egg",
-  "hatched": false,
-  "stars": 0,
-  "hatch_progress": {
-    "current": 10,
-    "required": 15
+  "subclass": "Hunter Hatchling",
+  "hatched": true,
+  "level": 35,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
   },
-  "preview_level": 1,
+  "ownership_history": [
+    {
+      "observed_date": "2026-06-26",
+      "status": "not_hatched",
+      "subclass": "Hunter Egg",
+      "hatch_progress": {
+        "current": 10,
+        "required": 15
+      }
+    },
+    {
+      "observed_date": "2026-06-26",
+      "status": "owned",
+      "subclass": "Hunter Hatchling",
+      "evidence": "Dragon Pit profile shows level 35, 1 star, 0/40 relic progress, and no Not Hatched label."
+    }
+  ],
   "stats": {
-    "strength": 59.2,
-    "instinct": 42.9,
-    "intelligence": 77.7,
-    "initiative": 66.1,
+    "strength": 128.8,
+    "instinct": 95.1,
+    "intelligence": 169.4,
+    "initiative": 145.0,
     "speed": "Average",
     "energy": {
       "current": 250,
       "maximum": 100,
-      "note": "Recorded exactly as displayed in the Dragon Pit egg preview."
+      "note": "Recorded exactly as displayed in the Dragon Pit screenshot."
     }
   },
   "xp": {
-    "current": 0,
-    "required": 110
+    "current": 70,
+    "required": 218905
   },
-  "displayed_troop_capacity": 2351.0,
-  "displayed_power": 0,
+  "displayed_troop_capacity": 5788.0,
+  "displayed_power": 22400,
   "affinity_capture": {
     "positive_affinity_count": 2,
     "normalized_affinities": [],
@@ -54,6 +71,7 @@
       "name": "Battle Dread",
       "unlock_at_stars": 2,
       "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
       "effect": "At the start of combat, reduce the Strength and Initiative, enhanced by Caraxes's Intelligence, of 3 enemies in any lane until the end of combat.",
       "fixed_values": {
         "activation": "Start of combat",
@@ -75,6 +93,7 @@
       "name": "Dragon's Flair",
       "unlock_at_stars": 4,
       "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
       "effect": "At the start of combat, increase Caraxes's Fire Damage Dealt until the end of combat.",
       "levels": [
         {"level": 1, "fire_damage_dealt_percent": 12.5, "power": 420},
@@ -88,6 +107,7 @@
       "name": "Crippling Inferno",
       "unlock_at_stars": 6,
       "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
       "effect": "Each round, Caraxes has a chance to inflict Slow and Burn on 3 enemies in any lane. Slow and Burn are checked separately for each target and last 2 rounds.",
       "fixed_values": {
         "activation": "Each round",
@@ -111,6 +131,7 @@
       "name": "Mass Enfeeble",
       "unlock_at_stars": 8,
       "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
       "effect": "At the start of combat, reduce non-Basic-Attack Physical Damage Dealt by 3 enemies in any lane until the end of combat.",
       "fixed_values": {
         "activation": "Start of combat",
@@ -132,6 +153,7 @@
       "name": "Blood Wyrm",
       "unlock_at_stars": 10,
       "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
       "effect": "At the start of each round, increase Caraxes's Fire Damage Dealt for each enemy below 50% maximum troop capacity. Also apply Recovery to Caraxes for each enemy that retreated in the previous round.",
       "fixed_values": {
         "activation": "Start of each round",
@@ -150,10 +172,10 @@
     }
   ],
   "capture_status": {
-    "profile": "Complete for the supplied egg-preview screenshot",
-    "active_command": "Complete for the visible command summary",
+    "profile": "Updated from owned hatchling screenshot",
+    "active_command": "Complete from the earlier command summary",
     "habits": "5 of 5 captured",
-    "ownership": "Not hatched; excluded from the owned-dragon master roster"
+    "ownership": "Owned and hatched; eligible for the owned-dragon master roster and future army analysis"
   },
   "source": "Dragon Pit screenshots supplied June 26, 2026",
   "source_screenshots": [
@@ -163,6 +185,7 @@
     "B81122C2-7AD6-4595-91FD-674165A3F9B8.jpeg",
     "B47C928B-8D0E-462F-9AA3-95C1BBB5B374.jpeg",
     "AA3EBA5B-75D2-4625-A806-5FE99F38FE99.jpeg",
-    "B11B7E3E-3630-46A5-B5B5-3C2CD5040E7B.jpeg"
+    "B11B7E3E-3630-46A5-B5B5-3C2CD5040E7B.jpeg",
+    "EF17F4EC-E49A-4EEF-B0A0-F893BB84B2FD.jpeg"
   ]
 }
