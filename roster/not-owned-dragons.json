@@ -1,0 +1,25 @@
+{
+  "observed_date": "2026-06-26",
+  "purpose": "Track dragons that are visible in the Dragon Pit but are not currently owned or hatched. This file is intentionally separate from dragons.json, which remains the owned-dragon master roster.",
+  "dragons": [
+    {
+      "name": "Kalspire",
+      "ownership_status": "not_hatched",
+      "rarity": "Legendary",
+      "class": "Champion",
+      "subclass": "Champion Egg",
+      "hatch_progress": {
+        "current": 10,
+        "required": 15
+      },
+      "details_file": "dragons/kalspire.json",
+      "ability_details_file": "dragons/kalspire-tactical-strike.json",
+      "evidence": "The Dragon Pit profile explicitly displays Not Hatched."
+    }
+  ],
+  "rules": [
+    "Do not place entries from this file in dragons.json until ownership or hatching is confirmed.",
+    "Do not use not-owned dragons in current army compositions.",
+    "Add a dragon only when the screenshots explicitly confirm that it is not owned or not hatched."
+  ]
+}
