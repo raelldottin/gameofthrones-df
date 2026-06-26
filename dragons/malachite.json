@@ -1,0 +1,180 @@
+{
+  "name": "Malachite",
+  "observed_date": "2026-06-26",
+  "rarity": "Legendary",
+  "class": "Sentinel",
+  "subclass": "Sentinel Whelp",
+  "level": 37,
+  "stars": 2,
+  "relic_progress": {
+    "current": 45,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Warden's Rally",
+    "effects": [
+      "On rounds 2, 4, 7, and 9, deals Tactical Damage to 1 enemy in the same lane at a +100% Damage Rate.",
+      "On rounds 3, 6, and 9, applies Recovery to 3 allies in any lane at a +70% Recovery Rate, enhanced by Instinct."
+    ],
+    "displayed_values": {
+      "tactical_damage_rounds": [2, 4, 7, 9],
+      "tactical_damage_target_count": 1,
+      "tactical_damage_targeting": "Enemy in the same lane",
+      "tactical_damage_rate_percent": 100.0,
+      "recovery_rounds": [3, 6, 9],
+      "recovery_target_count": 3,
+      "recovery_targeting": "Allies in any lane",
+      "recovery_rate_percent": 70.0,
+      "recovery_enhanced_by": "Instinct"
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Malachite's Instinct and mitigated by the target's Intelligence.",
+      "recovery_scaling": "Recovery is enhanced by Malachite's Instinct and scales with Malachite's level."
+    }
+  },
+  "stats": {
+    "strength": 159.1,
+    "instinct": 187.7,
+    "intelligence": 146.9,
+    "initiative": 168.6,
+    "speed": "Fast",
+    "energy": {
+      "current": 58,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 185366,
+    "required": 267684
+  },
+  "displayed_troop_capacity": 5990.0,
+  "displayed_power": 25620,
+  "confirmed_positive_affinities": [
+    "Cavalry",
+    "Shieldbearers"
+  ],
+  "confirmed_negative_affinities": [
+    "Archers"
+  ],
+  "inventory_snapshot": {
+    "legendary_cores": 10,
+    "green_sentinel_habit_cores": 142,
+    "gold": 735
+  },
+  "habits": [
+    {
+      "name": "Forest's Instinct",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "Each round, has a 35% chance to increase Physical Damage Dealt, excluding Basic Attacks, and reduce Tactical Damage Received for 2 other allies in any lane for 2 rounds.",
+      "fixed_values": {
+        "trigger_chance_percent": 35.0,
+        "target_count": 2,
+        "targeting": "Other allies in any lane",
+        "duration_rounds": 2,
+        "physical_damage_excludes_basic_attacks": true
+      },
+      "levels": [
+        {"level": 1, "physical_damage_dealt_percent": 8.0, "tactical_damage_received_percent": -8.0, "power": 420},
+        {"level": 2, "physical_damage_dealt_percent": 9.6, "tactical_damage_received_percent": -9.6, "power": 920},
+        {"level": 3, "physical_damage_dealt_percent": 11.2, "tactical_damage_received_percent": -11.2, "power": 1500},
+        {"level": 4, "physical_damage_dealt_percent": 13.6, "tactical_damage_received_percent": -13.6, "power": 2200},
+        {"level": 5, "physical_damage_dealt_percent": 16.0, "tactical_damage_received_percent": -16.0, "power": 3100}
+      ],
+      "next_upgrade_observed_cost": {
+        "legendary_cores": 100,
+        "green_sentinel_habit_cores": 100
+      }
+    },
+    {
+      "name": "Wise Vigor",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Malachite's Instinct and Recovery Dealt until the end of combat.",
+      "levels": [
+        {"level": 1, "instinct_percent": 20.0, "recovery_dealt_percent": 20.0, "power": 420},
+        {"level": 2, "instinct_percent": 24.0, "recovery_dealt_percent": 24.0, "power": 920},
+        {"level": 3, "instinct_percent": 28.0, "recovery_dealt_percent": 28.0, "power": 1500},
+        {"level": 4, "instinct_percent": 34.0, "recovery_dealt_percent": 34.0, "power": 2200},
+        {"level": 5, "instinct_percent": 40.0, "recovery_dealt_percent": 40.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Thunderous Roar",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Each round, has a chance to grant Advantage to 2 other allies in any lane for 2 rounds.",
+      "fixed_values": {
+        "advantage_damage_dealt_percent": 20.0,
+        "target_count": 2,
+        "targeting": "Other allies in any lane",
+        "duration_rounds": 2
+      },
+      "levels": [
+        {"level": 1, "advantage_chance_percent": 10.0, "power": 420},
+        {"level": 2, "advantage_chance_percent": 12.0, "power": 920},
+        {"level": 3, "advantage_chance_percent": 14.0, "power": 1500},
+        {"level": 4, "advantage_chance_percent": 17.0, "power": 2200},
+        {"level": 5, "advantage_chance_percent": 20.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Collective Might",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, increase the Strength, enhanced by Malachite's Strength, of 3 allies in any lane until the end of combat.",
+      "fixed_values": {
+        "target_count": 3,
+        "targeting": "Allies in any lane",
+        "enhanced_by": "Strength",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "strength_percent": 12.5, "power": 420},
+        {"level": 2, "strength_percent": 15.0, "power": 920},
+        {"level": 3, "strength_percent": 17.5, "power": 1500},
+        {"level": 4, "strength_percent": 21.25, "power": 2200},
+        {"level": 5, "strength_percent": 25.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Lightning Strike",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "At the start of round 1, has a chance to grant First-Strike and Double-Strike and increase Strength, enhanced by Malachite's Instinct, for 1 other adjacent ally for 3 rounds.",
+      "fixed_values": {
+        "start_round": 1,
+        "strength_percent": 25.0,
+        "strength_enhanced_by": "Instinct",
+        "target_count": 1,
+        "targeting": "Other ally within adjacency",
+        "duration_rounds": 3,
+        "first_strike_effect": "Target acts before all other combatants each round.",
+        "double_strike_effect": "Target gains a second Basic Attack each round."
+      },
+      "levels": [
+        {"level": 1, "lightning_strike_chance_percent": 40.0, "power": 430},
+        {"level": 2, "lightning_strike_chance_percent": 52.0, "power": 1000},
+        {"level": 3, "lightning_strike_chance_percent": 64.0, "power": 1700},
+        {"level": 4, "lightning_strike_chance_percent": 80.0, "power": 2700},
+        {"level": 5, "lightning_strike_chance_percent": 100.0, "power": 4000}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "CB259090-B55F-4CE6-900B-D367DE7789E0.jpeg",
+    "99A80441-C3A5-4169-86AA-5B7848A1EC0B.jpeg",
+    "C66220A9-8C59-4DCB-8A95-0FEA29956249.jpeg",
+    "307BD70A-8CCD-4156-9476-4BD365CAC8AA.jpeg",
+    "719C8986-AAF1-4E6E-8C6C-B93689DAEEFE.jpeg",
+    "0CA381EB-AAE7-45AE-B33B-DEF5FB214CFC.jpeg",
+    "5DB72A80-7C59-4227-8913-5F3C54D9F2E1.jpeg",
+    "FBE9361A-85B1-42CB-9753-7BDB6C2E2B57.jpeg"
+  ]
+}
