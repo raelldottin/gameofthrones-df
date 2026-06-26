@@ -1,0 +1,155 @@
+{
+  "name": "Syrax",
+  "observed_date": "2026-06-26",
+  "rarity": "Legendary",
+  "class": "Sentinel",
+  "subclass": "Sentinel Hatchling",
+  "level": 39,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
+  },
+  "command": {
+    "name": "Blazing Fury",
+    "effects": [
+      "Each round, has a 20% chance to increase Fire Damage Dealt by 10% and grant First-Strike to one ally in any lane for 2 rounds, prioritizing allies that deal Fire Damage.",
+      "On rounds 1, 4, 6, and 9, deals Tactical Damage to one adjacent enemy at a +110% Damage Rate.",
+      "At 6+ stars, on rounds 2, 5, and 8, applies Recovery to the ally with the least troops at a +50% Recovery Rate, enhanced by Initiative. If any enemy is afflicted with Slow, the recovery rises to +75%. There is also a 40% chance to grant Resistance, reducing Damage Received by 20%, for 2 rounds."
+    ],
+    "displayed_values": {
+      "fire_support_chance_percent": 20.0,
+      "fire_damage_dealt_percent": 10.0,
+      "first_strike_duration_rounds": 2,
+      "tactical_damage_rounds": [1, 4, 6, 9],
+      "tactical_damage_target_count": 1,
+      "tactical_damage_rate_percent": 110.0,
+      "tactical_damage_targeting": "Enemy within adjacency",
+      "six_star_recovery_rounds": [2, 5, 8],
+      "six_star_recovery_rate_percent": 50.0,
+      "six_star_slow_bonus_recovery_rate_percent": 75.0,
+      "six_star_resistance_chance_percent": 40.0,
+      "six_star_resistance_damage_received_percent": -20.0,
+      "six_star_resistance_duration_rounds": 2
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Syrax's Instinct and mitigated by the target's Intelligence.",
+      "first_strike": "Causes the target to attack before all other combatants each round.",
+      "resistance": "Reduces the target's Damage Received."
+    }
+  },
+  "stats": {
+    "strength": 110.2,
+    "instinct": 160.1,
+    "intelligence": 134.6,
+    "initiative": 172.8,
+    "speed": "Very Fast",
+    "energy": {
+      "current": 23,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 95688,
+    "required": 327333
+  },
+  "displayed_troop_capacity": 6192.0,
+  "displayed_power": 25400,
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Archers"
+  ],
+  "negative_affinities": [
+    "Siege"
+  ],
+  "inventory_snapshot": {
+    "legendary_rarity_cores": 10,
+    "green_sentinel_habit_cores": 142,
+    "gold": 675
+  },
+  "habits": [
+    {
+      "name": "Mindful Synergy",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, increase Intelligence and Instinct, enhanced by Initiative, for all three allies in any lane until the end of combat.",
+      "levels": [
+        {"level": 1, "intelligence_and_instinct_percent": 6.5, "power": 420},
+        {"level": 2, "intelligence_and_instinct_percent": 7.8, "power": 920},
+        {"level": 3, "intelligence_and_instinct_percent": 9.1, "power": 1500},
+        {"level": 4, "intelligence_and_instinct_percent": 11.05, "power": 2200},
+        {"level": 5, "intelligence_and_instinct_percent": 13.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Flight Mastery",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "At the start of combat, increase Initiative, enhanced by Instinct, for all three allies and reduce Initiative, enhanced by Instinct, for all three enemies until the end of combat.",
+      "levels": [
+        {"level": 1, "ally_initiative_percent": 6.0, "enemy_initiative_percent": -6.0, "power": 420},
+        {"level": 2, "ally_initiative_percent": 7.2, "enemy_initiative_percent": -7.2, "power": 920},
+        {"level": 3, "ally_initiative_percent": 8.4, "enemy_initiative_percent": -8.4, "power": 1500},
+        {"level": 4, "ally_initiative_percent": 10.2, "enemy_initiative_percent": -10.2, "power": 2200},
+        {"level": 5, "ally_initiative_percent": 12.0, "enemy_initiative_percent": -12.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Strategic Revival",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "Blazing Fury gains Recovery on rounds 2, 5, and 8 for the ally with the least troops. Recovery is enhanced by Initiative, increased by 1.5x if any enemy is Slowed, and can grant Resistance for 2 rounds.",
+      "fixed_values": {
+        "rounds": [2, 5, 8],
+        "slow_recovery_multiplier": 1.5,
+        "resistance_damage_received_percent": -20.0,
+        "resistance_duration_rounds": 2
+      },
+      "levels": [
+        {"level": 1, "resistance_chance_percent": 40.0, "recovery_rate_percent": 50.0, "power": 420},
+        {"level": 2, "resistance_chance_percent": 52.0, "recovery_rate_percent": 60.0, "power": 920},
+        {"level": 3, "resistance_chance_percent": 64.0, "recovery_rate_percent": 70.0, "power": 1500},
+        {"level": 4, "resistance_chance_percent": 80.0, "recovery_rate_percent": 85.0, "power": 2200},
+        {"level": 5, "resistance_chance_percent": 100.0, "recovery_rate_percent": 100.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Tactical Inferno",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "At the start of round 1 for 3 rounds, increase Tactical Damage Dealt for one ally, prioritizing the left flank, and Fire Damage Dealt for one ally, prioritizing the right flank.",
+      "fixed_values": {
+        "start_round": 1,
+        "duration_rounds": 3,
+        "tactical_priority": "Left Flank",
+        "fire_priority": "Right Flank"
+      },
+      "levels": [
+        {"level": 1, "tactical_and_fire_damage_dealt_percent": 18.0, "power": 420},
+        {"level": 2, "tactical_and_fire_damage_dealt_percent": 21.6, "power": 920},
+        {"level": 3, "tactical_and_fire_damage_dealt_percent": 25.2, "power": 1500},
+        {"level": 4, "tactical_and_fire_damage_dealt_percent": 30.6, "power": 2200},
+        {"level": 5, "tactical_and_fire_damage_dealt_percent": 36.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Mother's Mercy",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 9,
+      "effect": "Each round, has a chance to Cleanse two Negative effects and one Control effect from one ally in any lane, prioritizing allies afflicted by a Control effect. Control effects include Stun, Stagger, Overwhelm, and Confusion.",
+      "levels": [
+        {"level": 1, "cleanse_chance_percent": 14.0, "power": 430},
+        {"level": 2, "cleanse_chance_percent": 18.2, "power": 1000},
+        {"level": 3, "cleanse_chance_percent": 22.4, "power": 1700},
+        {"level": 4, "cleanse_chance_percent": 28.0, "power": 2700},
+        {"level": 5, "cleanse_chance_percent": 35.0, "power": 4000}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026"
+}
