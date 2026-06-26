@@ -1,0 +1,56 @@
+{
+  "dragon": "Kalspire",
+  "observed_date": "2026-06-26",
+  "ownership_status": "not_hatched",
+  "attack_modifier": {
+    "name": "Tactical Strike",
+    "type": "Attack Modifier",
+    "base_effect": {
+      "trigger": "After each Basic Attack",
+      "tactical_damage": {
+        "target": "Basic Attack target",
+        "damage_rate_percent": 50.0,
+        "scales_with": "Instinct",
+        "mitigated_by": "Target Intelligence"
+      },
+      "bleed": {
+        "chance_percent": 30.0,
+        "targets": [
+          "Basic Attack target",
+          "1 other enemy within adjacency"
+        ],
+        "chance_checked_separately_for_each_target": true,
+        "duration_rounds": 2,
+        "damage_type": "Physical",
+        "damage_rate_percent_per_round": 20.0
+      }
+    },
+    "six_star_effect": {
+      "trigger": "After each Basic Attack",
+      "physical_damage": {
+        "target": "1 enemy within adjacency that was not the Basic Attack target",
+        "damage_rate_percent": 25.0,
+        "scales_with": "Strength",
+        "mitigated_by": "Target Instinct"
+      },
+      "panic": {
+        "chance_percent": 15.0,
+        "targets": [
+          "The secondary Physical-damage target",
+          "1 other enemy within adjacency"
+        ],
+        "chance_checked_separately_for_each_target": true,
+        "duration_rounds": 2,
+        "damage_type": "Tactical",
+        "damage_rate_percent_per_round": 20.0
+      }
+    }
+  },
+  "source_screenshots": [
+    "60A86823-ABB2-414B-9BD8-75CCF3C8559D.jpeg",
+    "AA49434B-30FA-4046-A84C-3CEE3A86BD92.jpeg",
+    "CC3C1638-B62A-4D91-A778-851C71E52BA9.jpeg",
+    "CB4716E2-359A-469B-AA0D-044C83F8ECA6.jpeg"
+  ],
+  "related_profile": "dragons/kalspire.json"
+}
