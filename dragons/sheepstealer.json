@@ -59,7 +59,30 @@
     ],
     "at_10_stars": {
       "source_habit": "Savage Claim",
-      "effect": "Each round while a Prey exists, deal Fire Damage to it and apply Recovery to Sheepstealer. Both values are tripled if the Prey received Recovery during the previous round."
+      "activation": "Each round while a Prey exists",
+      "prey_effect": {
+        "recovery_received_percent": -30.0,
+        "duration": "While marked as Prey"
+      },
+      "fire_damage": {
+        "target": "Prey",
+        "damage_type": "Fire",
+        "damage_rate_percent": 24.0,
+        "scales_with": "Intelligence",
+        "mitigated_by": "Target Initiative"
+      },
+      "recovery": {
+        "target": "Self",
+        "recovery_rate_percent": 10.0,
+        "enhanced_by": "Intelligence",
+        "scales_with_level": true
+      },
+      "boosted_if_prey_received_recovery_within_previous_round": {
+        "multiplier": 3.0,
+        "fire_damage_rate_percent": 72.0,
+        "recovery_rate_percent": 30.0
+      },
+      "effect": "Each round while a Prey exists, deal Fire Damage to it and apply Recovery to Sheepstealer. If the Prey received Recovery within the previous round, both values are tripled."
     }
   },
   "habits": [
@@ -163,6 +186,7 @@
         "damage_type": "Fire",
         "recovery_target": "Self",
         "recovery_enhanced_by": "Intelligence",
+        "recovery_scales_with_level": true,
         "recovery_lookback_rounds": 1,
         "multiplier_after_prey_recovery": 3.0
       },
@@ -177,7 +201,7 @@
   ],
   "capture_status": {
     "profile": "Complete for the supplied not-discovered preview screenshot",
-    "active_command": "Base Wild Hunt effects captured; the 10-star addition is fully represented through Savage Claim",
+    "active_command": "Complete, including base Wild Hunt, Prey modifier, and explicit 10-star Fire Damage and Recovery details",
     "habits": "5 of 5 captured",
     "ownership": "Not discovered; excluded from the owned-dragon master roster and current army compositions"
   },
@@ -192,6 +216,9 @@
     "4C009706-4759-4377-9B13-79CC9E896AF5.jpeg",
     "7BF0B8B7-1F33-4427-B178-FA8813059ABD.jpeg",
     "5E62C4CC-62EE-48F0-A0D4-E3AD4491D761.jpeg",
-    "EC3D3CF4-2661-4891-AFB4-C2B7DA3D9EE5.jpeg"
+    "EC3D3CF4-2661-4891-AFB4-C2B7DA3D9EE5.jpeg",
+    "0BABB656-7920-4104-BB46-EF06509C6AC8.jpeg",
+    "DB53B3A7-0FE3-4BC7-953B-B1F56F076A6B.jpeg",
+    "7E91A2B7-DF56-4FCD-A2AC-864A5FC59CCF.jpeg"
   ]
 }
