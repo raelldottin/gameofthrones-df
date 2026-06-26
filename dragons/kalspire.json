@@ -1,0 +1,218 @@
+{
+  "name": "Kalspire",
+  "observed_date": "2026-06-26",
+  "rarity": "Legendary",
+  "class": "Champion",
+  "subclass": "Champion Egg",
+  "hatched": false,
+  "stars": 0,
+  "hatch_progress": {
+    "current": 10,
+    "required": 15
+  },
+  "preview_level": 1,
+  "stats": {
+    "strength": 70.8,
+    "instinct": 73.1,
+    "intelligence": 47.6,
+    "initiative": 54.5,
+    "speed": "Slow",
+    "energy": {
+      "current": 250,
+      "maximum": 100,
+      "note": "Recorded exactly as displayed in the Dragon Pit preview."
+    }
+  },
+  "xp": {
+    "current": 0,
+    "required": 110
+  },
+  "displayed_troop_capacity": 2351.0,
+  "displayed_power": 0,
+  "affinity_capture": {
+    "positive_affinity_count": 3,
+    "normalized_affinities": [
+      "Cavalry",
+      "Shieldbearers"
+    ],
+    "unresolved_positive_affinity_count": 1,
+    "note": "Three positive affinity icons are visible. Cavalry and Shieldbearers are identifiable; the third icon was left unresolved rather than guessed."
+  },
+  "current_inventory_snapshot": {
+    "legendary_rarity_cores": 10,
+    "green_champion_habit_cores": 108,
+    "gold": 815
+  },
+  "attack_modifier": {
+    "name": "Tactical Strike",
+    "type": "Attack Modifier",
+    "base_effect": {
+      "trigger": "After each Basic Attack",
+      "primary_target": "The Basic Attack target",
+      "tactical_damage_rate_percent": 50.0,
+      "bleed": {
+        "chance_percent": 30.0,
+        "duration_rounds": 2,
+        "targets": [
+          "The Basic Attack target",
+          "1 other enemy within adjacency"
+        ],
+        "chance_checked_separately_for_each_target": true
+      }
+    },
+    "six_star_upgrade": {
+      "trigger": "After each Basic Attack",
+      "physical_damage": {
+        "damage_rate_percent": 25.0,
+        "target": "1 enemy within adjacency that was not the Basic Attack target"
+      },
+      "panic": {
+        "chance_percent": 15.0,
+        "duration_rounds": 2,
+        "targets": [
+          "The secondary Physical-damage target",
+          "1 other enemy within adjacency"
+        ],
+        "chance_checked_separately_for_each_target": true
+      }
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Kalspire's Instinct and mitigated by the target's Intelligence.",
+      "panic": "Panic deals Tactical Damage to the target each round.",
+      "bleed": "Bleed duration is shown as 2 rounds; its damage rate was not visible in the supplied screenshots."
+    }
+  },
+  "habits": [
+    {
+      "name": "Robust Insight",
+      "unlock_at_stars": 2,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, increase Kalspire's Strength and Instinct until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "strength_percent": 20.0, "instinct_percent": 20.0, "power": 420},
+        {"level": 2, "strength_percent": 24.0, "instinct_percent": 24.0, "power": 920},
+        {"level": 3, "strength_percent": 28.0, "instinct_percent": 28.0, "power": 1500},
+        {"level": 4, "strength_percent": 34.0, "instinct_percent": 34.0, "power": 2200},
+        {"level": 5, "strength_percent": 40.0, "instinct_percent": 40.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Battle Cunning",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "At the start of combat, reduce the Strength and Intelligence, enhanced by Kalspire's Instinct, of 3 enemies in any lane until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 3,
+        "targeting": "Enemies in any lane",
+        "enhanced_by": "Instinct",
+        "duration": "Until end of combat"
+      },
+      "display_text_note": "The descriptive sentence shows -6%, while the level-1 table shows -6.5%. The table values are preserved exactly below.",
+      "levels": [
+        {"level": 1, "enemy_strength_percent": -6.5, "enemy_intelligence_percent": -6.5, "power": 420},
+        {"level": 2, "enemy_strength_percent": -7.8, "enemy_intelligence_percent": -7.8, "power": 920},
+        {"level": 3, "enemy_strength_percent": -9.1, "enemy_intelligence_percent": -9.1, "power": 1500},
+        {"level": 4, "enemy_strength_percent": -11.05, "enemy_intelligence_percent": -11.05, "power": 2200},
+        {"level": 5, "enemy_strength_percent": -13.0, "enemy_intelligence_percent": -13.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Tactical Assault",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "Tactical Strike gains a secondary Physical attack after each Basic Attack and separate chances to inflict Panic on the secondary target and 1 other adjacent enemy.",
+      "fixed_values": {
+        "trigger": "After each Basic Attack",
+        "physical_target": "1 enemy within adjacency that was not the Basic Attack target",
+        "panic_target_count": 2,
+        "panic_duration_rounds": 2,
+        "panic_chance_checked_separately_for_each_target": true
+      },
+      "levels": [
+        {"level": 1, "panic_chance_percent": 15.0, "physical_damage_rate_percent": 25.0, "power": 420},
+        {"level": 2, "panic_chance_percent": 18.0, "physical_damage_rate_percent": 30.0, "power": 920},
+        {"level": 3, "panic_chance_percent": 21.0, "physical_damage_rate_percent": 35.0, "power": 1500},
+        {"level": 4, "panic_chance_percent": 25.5, "physical_damage_rate_percent": 42.5, "power": 2200},
+        {"level": 5, "panic_chance_percent": 30.0, "physical_damage_rate_percent": 50.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Dragon's Insight",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "At the start of combat, reduce Kalspire's Damage Received and increase Kalspire's Instinct until the end of combat.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "targeting": "Self",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "damage_received_percent": -6.0, "instinct_percent": 12.0, "power": 420},
+        {"level": 2, "damage_received_percent": -7.2, "instinct_percent": 14.4, "power": 920},
+        {"level": 3, "damage_received_percent": -8.4, "instinct_percent": 16.8, "power": 1500},
+        {"level": 4, "damage_received_percent": -10.2, "instinct_percent": 20.4, "power": 2200},
+        {"level": 5, "damage_received_percent": -12.0, "instinct_percent": 24.0, "power": 3100}
+      ]
+    },
+    {
+      "name": "Radiant Conqueror",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 10,
+      "effect": "At the start of round 1, reduce Kalspire's Damage Received by 50% for 1 round but also Stun Kalspire for 1 round. At the start of round 2, reduce non-Basic-Attack Physical Damage Dealt by the enemy with the highest Strength and Fire Damage Dealt by the enemy with the highest Intelligence for 5 rounds.",
+      "fixed_values": {
+        "round_1": {
+          "self_damage_received_percent": -50.0,
+          "duration_rounds": 1,
+          "self_stun_duration_rounds": 1
+        },
+        "round_2": {
+          "physical_damage_target": "Enemy with the highest Strength",
+          "physical_damage_excludes_basic_attacks": true,
+          "fire_damage_target": "Enemy with the highest Intelligence",
+          "duration_rounds": 5
+        }
+      },
+      "definitions": {
+        "stun": "Prevents the target from using Commands and Habits or launching Basic Attacks on its turn."
+      },
+      "levels": [
+        {"level": 1, "enemy_physical_damage_dealt_percent": -10.0, "enemy_fire_damage_dealt_percent": -10.0, "power": 430},
+        {"level": 2, "enemy_physical_damage_dealt_percent": -13.0, "enemy_fire_damage_dealt_percent": -13.0, "power": 1000},
+        {"level": 3, "enemy_physical_damage_dealt_percent": -16.0, "enemy_fire_damage_dealt_percent": -16.0, "power": 1700},
+        {"level": 4, "enemy_physical_damage_dealt_percent": -20.0, "enemy_fire_damage_dealt_percent": -20.0, "power": 2700},
+        {"level": 5, "enemy_physical_damage_dealt_percent": -25.0, "enemy_fire_damage_dealt_percent": -25.0, "power": 4000}
+      ]
+    }
+  ],
+  "capture_status": {
+    "profile": "Complete for the supplied egg-preview screenshot",
+    "attack_modifier": "Complete for visible base and 6-star effects",
+    "habits": "5 of 5 captured",
+    "affinity": "Two icons normalized; one positive icon unresolved",
+    "ownership": "Not hatched; omitted from the owned-dragon master roster"
+  },
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "AFB29B36-5D4A-4EB6-BD39-0168CA8C0ED6.jpeg",
+    "B7D6D14B-3CA1-4350-9B11-FF799809D2A3.jpeg",
+    "1F416D89-AE23-42FD-B19A-109617DB2E28.jpeg",
+    "A6F847F3-23F8-4BE6-AA33-6ADA25E2A555.jpeg",
+    "DEE57F40-31C8-442E-A5ED-83BC45C56A20.jpeg",
+    "88491722-C1AE-44CC-BB25-B777C706C3B8.jpeg",
+    "88940B52-1992-4E64-9EBA-C3D8FED633CB.jpeg",
+    "7E52036D-0490-428B-8C28-EB18EB428864.jpeg",
+    "3DFB36DF-1493-4702-90FB-C21156A74C47.jpeg",
+    "6A549A32-03CB-490C-B980-7B5164EA4717.jpeg"
+  ]
+}
