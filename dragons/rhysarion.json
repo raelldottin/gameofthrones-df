@@ -1,0 +1,190 @@
+{
+  "name": "Rhysarion",
+  "observed_date": "2026-06-26",
+  "rarity": "Epic",
+  "class": "Champion",
+  "subclass": "Champion Whelp",
+  "level": 38,
+  "stars": 3,
+  "relic_progress": {
+    "current": 26,
+    "required_for_next_star": 180
+  },
+  "command": {
+    "name": "Dawnsong",
+    "effects": [
+      "On rounds 1, 4, and 7, deals Physical Damage to 2 enemies within adjacency at a +70% Damage Rate.",
+      "On rounds 2, 5, and 8, deals Fire Damage to 3 enemies in any lane at a +20% Damage Rate. Against targets afflicted with a Control effect, the damage is multiplied by 1.5 for a +30% Damage Rate.",
+      "At 6 or more stars, on rounds 2, 5, and 8, applies Recovery to 2 other allies in any lane at a +60% Recovery Rate, enhanced by Intelligence."
+    ],
+    "displayed_values": {
+      "physical_damage_rounds": [1, 4, 7],
+      "physical_damage_target_count": 2,
+      "physical_damage_targeting": "Enemies within adjacency",
+      "physical_damage_rate_percent": 70.0,
+      "fire_damage_rounds": [2, 5, 8],
+      "fire_damage_target_count": 3,
+      "fire_damage_targeting": "Enemies in any lane",
+      "fire_damage_rate_percent": 20.0,
+      "control_target_damage_multiplier": 1.5,
+      "control_target_fire_damage_rate_percent": 30.0,
+      "six_star_recovery_rounds": [2, 5, 8],
+      "six_star_recovery_target_count": 2,
+      "six_star_recovery_targeting": "Other allies in any lane",
+      "six_star_recovery_rate_percent": 60.0,
+      "six_star_recovery_enhanced_by": "Intelligence"
+    },
+    "definitions": {
+      "control_effects": ["Stun", "Stagger", "Overwhelm", "Confusion"],
+      "physical_damage_scaling": "Physical Damage is increased by Rhysarion's Strength and mitigated by the target's Instinct.",
+      "fire_damage_scaling": "Fire Damage is increased by Rhysarion's Intelligence and mitigated by the target's Initiative.",
+      "recovery_scaling": "Recovery is enhanced by Rhysarion's Intelligence and scales with Rhysarion's level."
+    }
+  },
+  "stats": {
+    "strength": 150.4,
+    "instinct": 118.3,
+    "intelligence": 154.8,
+    "initiative": 103.7,
+    "speed": "Very Slow",
+    "energy": {
+      "current": 57,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 151804,
+    "required": 296010
+  },
+  "displayed_troop_capacity": 6661.0,
+  "displayed_power": 22140,
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Shieldbearers",
+    "Cavalry"
+  ],
+  "inventory_snapshot": {
+    "purple_epic_cores": 25,
+    "green_champion_habit_cores": 80,
+    "gold": 735
+  },
+  "habits": [
+    {
+      "name": "Ebbing Fury",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of round 1, reduce Damage Dealt by all enemies and allies for 3 rounds. At the start of round 4, apply Recovery, enhanced by Rhysarion's Strength, to 3 allies in any lane.",
+      "fixed_values": {
+        "damage_reduction_start_round": 1,
+        "damage_reduction_duration_rounds": 3,
+        "damage_reduction_targets": "All enemies and allies",
+        "recovery_start_round": 4,
+        "recovery_target_count": 3,
+        "recovery_targeting": "Allies in any lane",
+        "recovery_enhanced_by": "Strength"
+      },
+      "description_displayed_damage_dealt_percent": -27.0,
+      "levels": [
+        {"level": 1, "damage_dealt_percent": -27.5, "recovery_rate_percent": 25.0, "power": 340},
+        {"level": 2, "damage_dealt_percent": -33.0, "recovery_rate_percent": 30.0, "power": 740},
+        {"level": 3, "damage_dealt_percent": -38.5, "recovery_rate_percent": 35.0, "power": 1200},
+        {"level": 4, "damage_dealt_percent": -46.75, "recovery_rate_percent": 42.5, "power": 1800},
+        {"level": 5, "damage_dealt_percent": -55.0, "recovery_rate_percent": 50.0, "power": 2500}
+      ],
+      "next_upgrade_observed_cost": {
+        "purple_epic_cores": 100,
+        "green_champion_habit_cores": 100,
+        "gold_bypass_displayed": 40
+      },
+      "display_note": "The effect description displays -27%, while the level-1 table displays -27.5%. Both displayed values are preserved."
+    },
+    {
+      "name": "Sharp Resolve",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 1,
+      "effect": "At the start of combat, increase Rhysarion's Strength and Intelligence until the end of combat.",
+      "levels": [
+        {"level": 1, "strength_and_intelligence_percent": 16.0, "power": 340},
+        {"level": 2, "strength_and_intelligence_percent": 19.2, "power": 740},
+        {"level": 3, "strength_and_intelligence_percent": 22.4, "power": 1200},
+        {"level": 4, "strength_and_intelligence_percent": 27.2, "power": 1800},
+        {"level": 5, "strength_and_intelligence_percent": 32.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Echoing Melody",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 3,
+      "effect": "Dawnsong gains Recovery on rounds 2, 5, and 8 for 2 other allies in any lane, enhanced by Rhysarion's Intelligence.",
+      "fixed_values": {
+        "rounds": [2, 5, 8],
+        "target_count": 2,
+        "targeting": "Other allies in any lane",
+        "enhanced_by": "Intelligence"
+      },
+      "levels": [
+        {"level": 1, "recovery_rate_percent": 60.0, "power": 340},
+        {"level": 2, "recovery_rate_percent": 72.0, "power": 740},
+        {"level": 3, "recovery_rate_percent": 84.0, "power": 1200},
+        {"level": 4, "recovery_rate_percent": 102.0, "power": 1800},
+        {"level": 5, "recovery_rate_percent": 120.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Unbroken Devotion",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 5,
+      "effect": "At the start of combat, increase Recovery Received by 2 other allies in any lane until the end of combat.",
+      "fixed_values": {
+        "target_count": 2,
+        "targeting": "Other allies in any lane",
+        "duration": "Until end of combat"
+      },
+      "levels": [
+        {"level": 1, "recovery_received_percent": 20.0, "power": 340},
+        {"level": 2, "recovery_received_percent": 24.0, "power": 740},
+        {"level": 3, "recovery_received_percent": 28.0, "power": 1200},
+        {"level": 4, "recovery_received_percent": 34.0, "power": 1800},
+        {"level": 5, "recovery_received_percent": 40.0, "power": 2500}
+      ]
+    },
+    {
+      "name": "Inspiring Melody",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 7,
+      "effect": "Each round, has a chance to increase Initiative, enhanced by Rhysarion's Intelligence, and grant Resistance to 1 other adjacent ally for 3 rounds.",
+      "fixed_values": {
+        "initiative_percent": 20.0,
+        "initiative_enhanced_by": "Intelligence",
+        "resistance_damage_received_percent": -15.0,
+        "target_count": 1,
+        "targeting": "Other ally within adjacency",
+        "duration_rounds": 3
+      },
+      "levels": [
+        {"level": 1, "inspiring_melody_chance_percent": 20.0, "power": 340},
+        {"level": 2, "inspiring_melody_chance_percent": 26.0, "power": 790},
+        {"level": 3, "inspiring_melody_chance_percent": 32.0, "power": 1400},
+        {"level": 4, "inspiring_melody_chance_percent": 40.0, "power": 2100},
+        {"level": 5, "inspiring_melody_chance_percent": 50.0, "power": 3100}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source_screenshots": [
+    "F134260D-B74D-4790-8BAE-0DABAA187127.jpeg",
+    "6AA5257C-7842-4378-AC2F-FA773499B59A.jpeg",
+    "966A4289-9CB8-4578-AA88-07764CAF687D.jpeg",
+    "81D06D32-CD8D-4880-99C9-133B18940118.jpeg",
+    "53A8D870-3E05-4C6C-9016-A8D7306C9534.jpeg",
+    "B3FED4C8-7270-4926-93D2-E10DD4E1FFC1.jpeg",
+    "7D6CA8BA-4905-4644-9952-19819B4DB8F0.jpeg",
+    "67DA3231-CABF-4D59-AB68-FEB746C40DF1.jpeg",
+    "AAEA9DC7-999F-4609-91F7-332AAF675624.jpeg"
+  ]
+}
