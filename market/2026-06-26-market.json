@@ -1,0 +1,423 @@
+{
+  "observed_date": "2026-06-26",
+  "observed_at_utc": "2026-06-26T14:36:06Z",
+  "refresh_countdown_observed": "9h 24m-9h 25m",
+  "source": "User-provided in-game Market screenshots",
+  "balances": {
+    "gold": 815,
+    "campaign_favors": 275,
+    "relic_shards": 0,
+    "rare_cores": 66,
+    "epic_cores": 25,
+    "legendary_cores": 10,
+    "food": 2100000,
+    "wood": 1500000,
+    "stone": 2100000,
+    "iron": 1400000
+  },
+  "resource_market": {
+    "gold_offers": [
+      {
+        "item": "Food",
+        "quantity": 25000,
+        "cost_gold": 50,
+        "available": 5
+      },
+      {
+        "item": "Wood",
+        "quantity": 25000,
+        "cost_gold": 50,
+        "available": 5
+      },
+      {
+        "item": "Stone",
+        "quantity": 25000,
+        "cost_gold": 50,
+        "available": 5
+      },
+      {
+        "item": "Iron",
+        "quantity": 25000,
+        "cost_gold": 50,
+        "available": 5
+      }
+    ],
+    "exchange_offers": [
+      {
+        "item": "Food",
+        "quantity": 13000,
+        "cost_item": "Wood",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Food",
+        "quantity": 13000,
+        "cost_item": "Stone",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Food",
+        "quantity": 13000,
+        "cost_item": "Iron",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Wood",
+        "quantity": 13000,
+        "cost_item": "Food",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Wood",
+        "quantity": 13000,
+        "cost_item": "Stone",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Wood",
+        "quantity": 13000,
+        "cost_item": "Iron",
+        "cost_quantity": 20000,
+        "available": 85
+      },
+      {
+        "item": "Stone",
+        "quantity": 13000,
+        "cost_item": "Food",
+        "cost_quantity": 20000,
+        "available": 93
+      },
+      {
+        "item": "Stone",
+        "quantity": 13000,
+        "cost_item": "Wood",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Stone",
+        "quantity": 13000,
+        "cost_item": "Iron",
+        "cost_quantity": 20000,
+        "available": 100
+      },
+      {
+        "item": "Iron",
+        "quantity": 13000,
+        "cost_item": "Food",
+        "cost_quantity": 20000,
+        "available": 64
+      },
+      {
+        "item": "Iron",
+        "quantity": 13000,
+        "cost_item": "Wood",
+        "cost_quantity": 20000,
+        "available": 78
+      },
+      {
+        "item": "Iron",
+        "quantity": 13000,
+        "cost_item": "Stone",
+        "cost_quantity": 20000,
+        "available": 65
+      }
+    ]
+  },
+  "relic_shards_market": {
+    "relic_and_key_offers": [
+      {
+        "item": "Shimmer Relic",
+        "dragon": "Shimmer",
+        "rarity": "Rare",
+        "quantity": 2,
+        "cost_relic_shards": 500,
+        "available": 1,
+        "cost_per_relic": 250
+      },
+      {
+        "item": "Zivern Relic",
+        "dragon": "Zivern",
+        "rarity": "Epic",
+        "quantity": 2,
+        "cost_relic_shards": 1450,
+        "available": 1,
+        "cost_per_relic": 725
+      },
+      {
+        "item": "Vhagar Relic",
+        "dragon": "Vhagar",
+        "rarity": "Legendary",
+        "quantity": 2,
+        "cost_relic_shards": 4500,
+        "available": 1,
+        "cost_per_relic": 2250
+      },
+      {
+        "item": "Dragonbone Key",
+        "quantity": 6,
+        "cost_relic_shards": 4150,
+        "available": 1,
+        "cost_per_item": 691.6666666667
+      },
+      {
+        "item": "Crimson Relic",
+        "dragon": "Crimson",
+        "rarity": "Legendary",
+        "quantity": 4,
+        "cost_relic_shards": 8300,
+        "available": 1,
+        "cost_per_relic": 2075
+      },
+      {
+        "item": "Arulix Relic",
+        "dragon": "Arulix",
+        "rarity": "Rare",
+        "quantity": 85,
+        "cost_relic_shards": 16650,
+        "available": 1,
+        "cost_per_relic": 195.8823529412
+      },
+      {
+        "item": "Thunderstrike Relic",
+        "dragon": "Thunderstrike",
+        "rarity": "Rare",
+        "quantity": 225,
+        "cost_relic_shards": 37500,
+        "available": 1,
+        "cost_per_relic": 166.6666666667
+      },
+      {
+        "item": "Syrax Relic",
+        "dragon": "Syrax",
+        "rarity": "Legendary",
+        "quantity": 2,
+        "cost_relic_shards": 5400,
+        "available": 1,
+        "cost_per_relic": 2700
+      }
+    ],
+    "core_conversion_offers": [
+      {
+        "item": "Epic Core",
+        "quantity": 1,
+        "cost_rare_cores": 30,
+        "available": 99
+      },
+      {
+        "item": "Legendary Core",
+        "quantity": 1,
+        "cost_epic_cores": 25,
+        "available": 99
+      }
+    ]
+  },
+  "gold_market": {
+    "offers": [
+      {
+        "item": "Dragonglass Key",
+        "quantity": 1,
+        "cost_gold": 100,
+        "available": 1,
+        "cost_per_item": 100
+      },
+      {
+        "item": "Arrax Relic",
+        "dragon": "Arrax",
+        "rarity": "Rare",
+        "quantity": 30,
+        "cost_gold": 300,
+        "available": 1,
+        "cost_per_relic": 10
+      },
+      {
+        "item": "Bevlorin Relic",
+        "dragon": "Bevlorin",
+        "rarity": "Rare",
+        "quantity": 50,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_relic": 10
+      },
+      {
+        "item": "Epic Core",
+        "quantity": 250,
+        "cost_gold": 1000,
+        "available": 1,
+        "cost_per_core": 4
+      },
+      {
+        "item": "Meat",
+        "quantity": 200,
+        "cost_gold": 125,
+        "available": 1,
+        "cost_per_meat": 0.625
+      },
+      {
+        "item": "Meat",
+        "quantity": 500,
+        "cost_gold": 250,
+        "available": 1,
+        "cost_per_meat": 0.5
+      },
+      {
+        "item": "Meat",
+        "quantity": 1250,
+        "cost_gold": 500,
+        "available": 1,
+        "cost_per_meat": 0.4
+      },
+      {
+        "item": "Meat",
+        "quantity": 3750,
+        "cost_gold": 1250,
+        "available": 1,
+        "cost_per_meat": 0.3333333333
+      }
+    ]
+  },
+  "campaign_market": {
+    "resources": [
+      {
+        "item": "Gold",
+        "quantity": 100,
+        "cost_campaign_favors": 100,
+        "available": 10
+      },
+      {
+        "item": "Dragonbone Key",
+        "quantity": 1,
+        "cost_campaign_favors": 100,
+        "available": 20
+      },
+      {
+        "item": "Dragonglass Key",
+        "quantity": 1,
+        "cost_campaign_favors": 120,
+        "available": 20
+      },
+      {
+        "item": "Dragonfire Key",
+        "quantity": 1,
+        "cost_campaign_favors": 800,
+        "available": 10
+      },
+      {
+        "item": "Epic Core",
+        "quantity": 20,
+        "cost_campaign_favors": 100,
+        "available": 10,
+        "cost_per_core": 5
+      },
+      {
+        "item": "Legendary Core",
+        "quantity": 5,
+        "cost_campaign_favors": 100,
+        "available": 10,
+        "cost_per_core": 20
+      },
+      {
+        "item": "Amplifier Seals",
+        "quantity": 1000,
+        "cost_campaign_favors": 90,
+        "available": 10,
+        "cost_per_unit": 0.09
+      },
+      {
+        "item": "Dragonlord Scrolls",
+        "quantity": 200,
+        "cost_campaign_favors": 90,
+        "available": 10,
+        "cost_per_unit": 0.45
+      }
+    ],
+    "relics": [
+      {
+        "dragon": "Solstryker",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Bevlorin",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Jagadrix",
+        "rarity": "Rare",
+        "quantity": 5,
+        "cost_campaign_favors": 75,
+        "available": 20,
+        "cost_per_relic": 15
+      },
+      {
+        "dragon": "Rhysarion",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Shadowsong",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Vaeldra",
+        "rarity": "Epic",
+        "quantity": 5,
+        "cost_campaign_favors": 150,
+        "available": 20,
+        "cost_per_relic": 30
+      },
+      {
+        "dragon": "Venator",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_favors": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      },
+      {
+        "dragon": "Malachite",
+        "rarity": "Legendary",
+        "quantity": 5,
+        "cost_campaign_favors": 350,
+        "available": 20,
+        "cost_per_relic": 70
+      }
+    ]
+  },
+  "daily_changes_from_2026-06-25": {
+    "gold": 300,
+    "campaign_favors": 55,
+    "relic_shards": 0,
+    "rare_cores": -33,
+    "epic_cores": 15,
+    "legendary_cores": 10,
+    "gold_market_rotation": "Dragonglass Key, Arrax Relic x30, Bevlorin Relic x50, Epic Core x250, and meat packs replaced the previous keys-and-meat-only rotation.",
+    "campaign_relic_rotation": "Unchanged from the June 25 snapshot."
+  },
+  "notes": [
+    "The account has zero Relic Shards, so none of the Relic Shards relic or key offers can currently be purchased.",
+    "The account has exactly 25 Epic Cores, enough for one Legendary Core conversion, but no conversion was performed as part of this snapshot.",
+    "The Gold tab contains guaranteed Arrax and Bevlorin relic bundles during this refresh.",
+    "The Campaign relic lineup is unchanged from June 25, 2026.",
+    "No purchase recommendation is encoded in this inventory snapshot."
+  ]
+}
