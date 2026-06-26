@@ -1,0 +1,162 @@
+{
+  "name": "Shimmer",
+  "observed_date": "2026-06-25",
+  "rarity": "Rare",
+  "class": "Sentinel",
+  "subclass": "Sentinel Whelp",
+  "level": 40,
+  "stars": 2,
+  "relic_progress": {
+    "current": 34,
+    "required_for_next_star": 100
+  },
+  "command": {
+    "name": "Unbreakable Loyalty",
+    "effects": [
+      "Each round, has a 30% chance to increase the Strength by 18% and Initiative by 9% of the other ally with the highest Strength for 2 rounds. Both modifiers are enhanced by Shimmer's Instinct.",
+      "On rounds 2, 4, 7, and 9, deals Tactical Damage to 2 enemies within adjacency at a +50% Damage Rate.",
+      "At 6 or more stars, on rounds 2, 4, 7, and 9, applies Recovery to 2 other allies in any lane at a +30% Recovery Rate, enhanced by Shimmer's Instinct. Recovery doubles to +60% when the target has Resistance."
+    ],
+    "displayed_values": {
+      "ally_buff_chance_percent": 30.0,
+      "strength_modifier_percent": 18.0,
+      "initiative_modifier_percent": 9.0,
+      "ally_buff_duration_rounds": 2,
+      "ally_buff_targeting": "Other ally with the highest Strength",
+      "tactical_damage_rounds": [2, 4, 7, 9],
+      "tactical_damage_target_count": 2,
+      "tactical_damage_targeting": "Enemies within adjacency",
+      "tactical_damage_rate_percent": 50.0,
+      "six_star_recovery_rounds": [2, 4, 7, 9],
+      "six_star_recovery_target_count": 2,
+      "six_star_recovery_rate_percent": 30.0,
+      "six_star_recovery_rate_with_resistance_percent": 60.0
+    },
+    "definitions": {
+      "tactical_damage_scaling": "Tactical Damage is increased by Shimmer's Instinct and mitigated by the target's Intelligence.",
+      "recovery_scaling": "Recovery is enhanced by Shimmer's Instinct and scales with Shimmer's level."
+    }
+  },
+  "stats": {
+    "strength": 81.9,
+    "instinct": 104.6,
+    "intelligence": 78.1,
+    "initiative": 73.1,
+    "speed": "Slow",
+    "energy": {
+      "current": 25,
+      "maximum": 100
+    }
+  },
+  "xp": {
+    "current": 324340,
+    "required": 542955
+  },
+  "displayed_troop_capacity": 6293.0,
+  "displayed_power": 15450,
+  "confirmed_positive_affinities": [
+    "Cavalry"
+  ],
+  "affinity_note": "A second positive affinity icon is visible in the screenshot, but its troop type was not recorded because the icon was not unambiguous.",
+  "inventory_snapshot": {
+    "blue_rare_cores": 24,
+    "green_sentinel_habit_cores": 142,
+    "gold": 725
+  },
+  "habits": [
+    {
+      "name": "Crushing Force",
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of round 1, increase non-Basic-Attack Physical Damage Dealt for 1 ally, prioritizing the left flank, and Tactical Damage Dealt for 1 ally, prioritizing the right flank, for 3 rounds.",
+      "fixed_values": {
+        "activation_round": 1,
+        "duration_rounds": 3,
+        "physical_damage_priority": "Left Flank",
+        "tactical_damage_priority": "Right Flank",
+        "target_count_per_modifier": 1
+      },
+      "levels": [
+        {"level": 1, "physical_and_tactical_damage_dealt_percent": 9.0, "power": 250},
+        {"level": 2, "physical_and_tactical_damage_dealt_percent": 10.8, "power": 550},
+        {"level": 3, "physical_and_tactical_damage_dealt_percent": 12.6, "power": 900},
+        {"level": 4, "physical_and_tactical_damage_dealt_percent": 15.3, "power": 1300},
+        {"level": 5, "physical_and_tactical_damage_dealt_percent": 18.0, "power": 1800}
+      ],
+      "next_upgrade_observed_cost": {
+        "blue_rare_cores": 100,
+        "green_sentinel_habit_cores": 100
+      }
+    },
+    {
+      "name": "Dragon's Insight",
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 2,
+      "effect": "At the start of combat, reduce Shimmer's Damage Received and increase Shimmer's Instinct until the end of combat.",
+      "levels": [
+        {"level": 1, "damage_received_percent": -4.0, "instinct_percent": 5.0, "power": 250},
+        {"level": 2, "damage_received_percent": -4.8, "instinct_percent": 6.0, "power": 550},
+        {"level": 3, "damage_received_percent": -5.6, "instinct_percent": 7.0, "power": 900},
+        {"level": 4, "damage_received_percent": -6.8, "instinct_percent": 8.5, "power": 1300},
+        {"level": 5, "damage_received_percent": -8.0, "instinct_percent": 10.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Loyal Shield",
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 4,
+      "effect": "Unbreakable Loyalty gains Recovery on rounds 2, 4, 7, and 9 for 2 other allies in any lane. Recovery is enhanced by Shimmer's Instinct and doubles when the target has Resistance.",
+      "fixed_values": {
+        "rounds": [2, 4, 7, 9],
+        "target_count": 2,
+        "normal_recovery_rate_multiplier": 1.0,
+        "resistance_recovery_rate_multiplier": 2.0
+      },
+      "levels": [
+        {"level": 1, "recovery_rate_percent": 30.0, "recovery_rate_with_resistance_percent": 60.0, "power": 250},
+        {"level": 2, "recovery_rate_percent": 36.0, "recovery_rate_with_resistance_percent": 72.0, "power": 550},
+        {"level": 3, "recovery_rate_percent": 42.0, "recovery_rate_with_resistance_percent": 84.0, "power": 900},
+        {"level": 4, "recovery_rate_percent": 51.0, "recovery_rate_with_resistance_percent": 102.0, "power": 1300},
+        {"level": 5, "recovery_rate_percent": 60.0, "recovery_rate_with_resistance_percent": 120.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Unbroken Devotion",
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 6,
+      "effect": "At the start of combat, increase Recovery Received for 2 other allies in any lane until the end of combat.",
+      "levels": [
+        {"level": 1, "recovery_received_percent": 15.0, "power": 250},
+        {"level": 2, "recovery_received_percent": 18.0, "power": 550},
+        {"level": 3, "recovery_received_percent": 21.0, "power": 900},
+        {"level": 4, "recovery_received_percent": 25.5, "power": 1300},
+        {"level": 5, "recovery_received_percent": 30.0, "power": 1800}
+      ]
+    },
+    {
+      "name": "Sneak Attack",
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "stars_needed_from_observed_state": 8,
+      "effect": "Each round, has a chance to increase non-Basic-Attack Physical Damage Dealt by 10% and grant First-Strike to the other ally with the highest Strength for 2 rounds.",
+      "fixed_values": {
+        "physical_damage_dealt_percent": 10.0,
+        "duration_rounds": 2,
+        "targeting": "Other ally with the highest Strength",
+        "first_strike_definition": "The target attacks before all other combatants each round."
+      },
+      "levels": [
+        {"level": 1, "sneak_attack_chance_percent": 14.0, "power": 250},
+        {"level": 2, "sneak_attack_chance_percent": 18.2, "power": 580},
+        {"level": 3, "sneak_attack_chance_percent": 22.4, "power": 1000},
+        {"level": 4, "sneak_attack_chance_percent": 28.0, "power": 1600},
+        {"level": 5, "sneak_attack_chance_percent": 35.0, "power": 2300}
+      ]
+    }
+  ],
+  "source": "Dragon Pit screenshots supplied June 25, 2026"
+}
