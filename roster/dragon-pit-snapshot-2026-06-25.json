@@ -9,7 +9,7 @@
     {"name": "Jagadrix", "level": 41, "stars": 5, "class": "Hunter", "subclass": "Hunter Adult"},
     {"name": "Dawnseeker", "level": 41, "stars": 2, "class": "Sentinel", "subclass": "Sentinel Whelp"},
     {"name": "Feskar", "level": 40, "stars": 1, "class": "Champion", "subclass": "Champion Hatchling"},
-    {"name": "Arulix", "level": 40},
+    {"name": "Arulix", "level": 40, "stars": 3, "class": "Champion", "subclass": "Champion Whelp"},
     {"name": "Nyrena", "level": 39},
     {"name": "Rhysarion", "level": 38},
     {"name": "Malachite", "level": 37},
@@ -25,6 +25,7 @@
     "Jagadrix": ["dragons/jagadrix.json", "mechanics/jagadrix.md"],
     "Dawnseeker": ["dragons/dawnseeker.json", "mechanics/dawnseeker.md", "analysis/DAWNSEEKER_ARMY_FIT_2026-06-25.md"],
     "Feskar": ["dragons/feskar.json", "mechanics/feskar.md"],
+    "Arulix": ["dragons/arulix.json", "mechanics/arulix.md"],
     "Vaeldra": ["dragons/vaeldra.json", "mechanics/vaeldra.md"]
   },
   "notes": [
