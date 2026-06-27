@@ -1,6 +1,6 @@
 {
   "name": "Caraxes",
-  "observed_date": "2026-06-26",
+  "observed_date": "2026-06-27",
   "ownership_status": "owned",
   "rarity": "Legendary",
   "class": "Hunter",
@@ -27,6 +27,12 @@
       "status": "owned",
       "subclass": "Hunter Hatchling",
       "evidence": "Dragon Pit profile shows level 35, 1 star, 0/40 relic progress, and no Not Hatched label."
+    },
+    {
+      "observed_date": "2026-06-27",
+      "status": "owned",
+      "subclass": "Hunter Hatchling",
+      "evidence": "Dragon Pit profile confirms Spearmen and Cavalry positive troop affinities."
     }
   ],
   "stats": {
@@ -38,20 +44,28 @@
     "energy": {
       "current": 250,
       "maximum": 100,
-      "note": "Recorded exactly as displayed in the Dragon Pit screenshot."
+      "note": "Recorded exactly as displayed in the earlier Dragon Pit screenshot."
     }
   },
   "xp": {
     "current": 70,
     "required": 218905
   },
-  "displayed_troop_capacity": 5788.0,
+  "displayed_troop_capacity": 6294.0,
   "displayed_power": 22400,
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Cavalry"
+  ],
+  "negative_affinities": [],
   "affinity_capture": {
     "positive_affinity_count": 2,
-    "normalized_affinities": [],
-    "unresolved_positive_affinity_count": 2,
-    "note": "Two positive affinity icons are visible, but their troop labels were not inferred from icon artwork alone."
+    "normalized_affinities": [
+      "Spearmen",
+      "Cavalry"
+    ],
+    "unresolved_positive_affinity_count": 0,
+    "note": "June 27 screenshot clearly shows Spearmen and Cavalry positive affinity icons. Archers are not confirmed for Caraxes."
   },
   "active_command": {
     "name": "Infernal Burst",
@@ -172,12 +186,13 @@
     }
   ],
   "capture_status": {
-    "profile": "Updated from owned hatchling screenshot",
+    "profile": "Updated from owned hatchling screenshots",
+    "affinities": "Confirmed from June 27 Dragon Pit screenshot",
     "active_command": "Complete from the earlier command summary",
     "habits": "5 of 5 captured",
-    "ownership": "Owned and hatched; eligible for the owned-dragon master roster and future army analysis"
+    "ownership": "Owned and hatched; eligible for owned-dragon master roster and future army analysis"
   },
-  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source": "Dragon Pit screenshots supplied June 26 and June 27, 2026",
   "source_screenshots": [
     "FA997D42-2790-4213-84CC-5776A11C0B32.jpeg",
     "08143E76-6059-474B-BC23-DBD6667758B8.jpeg",
@@ -186,6 +201,7 @@
     "B47C928B-8D0E-462F-9AA3-95C1BBB5B374.jpeg",
     "AA3EBA5B-75D2-4625-A806-5FE99F38FE99.jpeg",
     "B11B7E3E-3630-46A5-B5B5-3C2CD5040E7B.jpeg",
-    "EF17F4EC-E49A-4EEF-B0A0-F893BB84B2FD.jpeg"
+    "EF17F4EC-E49A-4EEF-B0A0-F893BB84B2FD.jpeg",
+    "C5250109-D048-4EB2-8F17-6A3AD2FE832F.jpeg"
   ]
 }
