@@ -1,0 +1,45 @@
+{
+  "name": "Gold Standard Default Army",
+  "observed_date": "2026-06-27",
+  "status": "default_reference_engine",
+  "formation": {
+    "left_flank": "Rhysarion",
+    "vanguard": "Vhagar",
+    "right_flank": "Malachite",
+    "troop_type": "Shieldbearers",
+    "affinity_goal": "3/3"
+  },
+  "engine_principle": "Build the strongest skill engine first. Do not place dragons only to distribute Sentinels across armies.",
+  "why_it_is_default": [
+    "Vhagar remains the vanguard because it is the center tank and control piece.",
+    "Rhysarion supplies early-round damage suppression through Ebbing Fury and later Recovery timing.",
+    "Malachite supplies team amplification and Tactical mitigation through Forest's Instinct while adding meaningful damage through Warden's Rally.",
+    "The trio combines tanking, early damage suppression, team support, recovery timing, damage output, and full troop affinity.",
+    "Recent Dock battle testing showed this engine trading slightly ahead even while down troops."
+  ],
+  "default_slot_logic": {
+    "vanguard": {
+      "dragon": "Vhagar",
+      "reason": "Keep Vhagar center unless battle reports prove it cannot survive. It absorbs center pressure and keeps Fiery Bonds active."
+    },
+    "flanks": {
+      "default_left": "Rhysarion",
+      "default_right": "Malachite",
+      "reason": "This protects Rhysarion from specific right-lane pressure seen in the Dock test while keeping Malachite available as a durable flank support/damage piece."
+    }
+  },
+  "battle_report_basis": [
+    "analysis/BATTLE_REPORT_2026-06-27_LV2_DOCK_ROUND1.md",
+    "battle-logs/2026-06-27-defended-lv2-dock-pinkmaiden-round1.json"
+  ],
+  "rules_for_future_armies": [
+    "Do not build armies by Sentinel quota.",
+    "Do not break 3/3 troop affinity for theorycraft unless battle reports show the skill synergy wins anyway.",
+    "Every main army should be judged against this gold-standard engine: tank, stabilizer, support/debuff, finishing damage, and full troop affinity.",
+    "Flank swaps are allowed for specific enemy lane pressure, but Vhagar remains the default vanguard."
+  ],
+  "notes": [
+    "Older repo files may list Malachite left and Rhysarion right. This file records the updated default framing requested on June 27, 2026: Rhysarion / Vhagar / Malachite as the gold-standard engine.",
+    "If later battle reports show Malachite-left performs better generally, this default should be revised with evidence."
+  ]
+}
