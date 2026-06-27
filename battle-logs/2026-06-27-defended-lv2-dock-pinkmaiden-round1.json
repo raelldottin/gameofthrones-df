@@ -1,11 +1,12 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source": {
     "type": "manual_from_screenshots",
     "captured_at_utc": "2026-06-27T20:15:46Z",
     "added_at_utc": "2026-06-27",
-    "screenshots": 7,
-    "capture_scope": "round_1_and_start_of_round_2_only"
+    "screenshots_total": 12,
+    "capture_scope": "round_1_and_round_2_details_partial_battle",
+    "note": "File was originally created from Round 1 screenshots, then updated with Round 2 screenshots. The visible round troop totals align with end-of-selected-round totals rather than start-of-round totals."
   },
   "battle": {
     "report_title": "Defended Lv. 2 Dock",
@@ -13,20 +14,21 @@
     "tile_level": 2,
     "location": "Pinkmaiden (943, 1292)",
     "result": "not_captured",
-    "rounds_captured": [1],
+    "rounds_captured": [1, 2],
     "notes": [
-      "Screenshots capture Round 1 details and the troop totals at the start of Round 2.",
+      "Screenshots capture Round 1 details, Round 2 details, and selected round troop totals.",
       "No final battle outcome was visible in the supplied screenshots.",
-      "Round 1 shows the Shieldbearer core trading almost evenly into a larger Spearmen army."
+      "The Shieldbearer core traded slightly ahead in Round 2 against a larger Spearmen army."
     ]
   },
   "player_side": {
     "role": "defender/player",
     "troop_type": "Shieldbearers",
-    "round_1_start_troops": 19977,
     "troops_max": 21205,
-    "round_2_start_troops": 18833,
-    "round_1_losses": 1144,
+    "round_end_totals": {
+      "round_1": 19977,
+      "round_2": 18833
+    },
     "army_inferred": [
       {
         "lane": "left_flank",
@@ -37,7 +39,13 @@
           "Forest's Instinct affected Rhysarion and Vhagar: +8% Physical damage.",
           "Forest's Instinct affected Rhysarion and Vhagar: -8% Tactical damage received.",
           "Basic Attack hit Crimson for 194 Physical damage; Crimson had 7,291 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Under Warrior's Resilience from Vhagar: +16% Tactical damage.",
+          "Warden's Rally hit Crimson for 295 Tactical damage; Crimson had 6,996 troops remaining.",
+          "Basic Attack hit Crimson for 190 Physical damage; Crimson had 6,806 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 6392
       },
       {
         "lane": "vanguard",
@@ -47,7 +55,13 @@
           "Under Warrior's Resilience from itself: -8% damage received.",
           "Under Ebbing Fury from Rhysarion: -27.5% damage.",
           "Basic Attack hit enemy Venator for 185 Physical damage; enemy Venator had 7,300 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Under Warrior's Resilience from itself: -8% damage received.",
+          "Fiery Bonds hit Crimson for 278 Physical damage; Crimson had 6,528 troops remaining.",
+          "Basic Attack hit Venator for 175 Physical damage; Venator had 6,965 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 6208
       },
       {
         "lane": "right_flank",
@@ -57,17 +71,25 @@
           "Dawnsong hit Syrax for 131 Physical damage; Syrax had 8,294 troops remaining.",
           "Dawnsong hit enemy Venator for 160 Physical damage; enemy Venator had 7,140 troops remaining.",
           "Basic Attack hit Syrax for 138 Physical damage; Syrax had 8,156 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Dawnsong hit Crimson for 39 Fire damage; Crimson had 6,489 troops remaining.",
+          "Dawnsong hit Venator for 36 Fire damage; Venator had 6,929 troops remaining.",
+          "Dawnsong hit Syrax for 29 Fire damage; Syrax had 8,127 troops remaining.",
+          "Basic Attack hit Syrax for 133 Physical damage; Syrax had 7,994 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 6233
       }
     ]
   },
   "enemy_side": {
     "role": "attacker/resource_defender",
     "troop_type": "Spearmen",
-    "round_1_start_troops": 22587,
     "troops_max": 23395,
-    "round_2_start_troops": 21412,
-    "round_1_losses": 1175,
+    "round_end_totals": {
+      "round_1": 22587,
+      "round_2": 21412
+    },
     "army_inferred": [
       {
         "lane": "left_flank",
@@ -77,7 +99,13 @@
           "Under Warrior's Zeal from Venator: +20 Instinct and +20 Initiative.",
           "Under Ebbing Fury from Rhysarion: -27.5% damage.",
           "Basic Attack hit Malachite for 172 Physical damage; Malachite had 6,629 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Under Warrior's Zeal from Venator: +20 Instinct and +20 Initiative.",
+          "Bloodscale Terror hit Vhagar for 318 Fire damage; Vhagar had 6,208 troops remaining.",
+          "Basic Attack hit Malachite for 165 Physical damage; Malachite had 6,392 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 6489
       },
       {
         "lane": "vanguard",
@@ -89,7 +117,14 @@
           "Basic Attack hit Vhagar for 242 Physical damage; Vhagar had 6,761 troops remaining.",
           "Feral Strike hit Rhysarion for 90 Physical damage; Rhysarion had 6,677 troops remaining.",
           "Feral Strike hit Rhysarion again for 90 Physical damage; Rhysarion had 6,587 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Under Warrior's Zeal from itself: +16% Physical damage.",
+          "Basic Attack hit Vhagar for 235 Physical damage; Vhagar had 6,526 troops remaining.",
+          "Feral Strike hit Rhysarion for 88 Physical damage; Rhysarion had 6,233 troops remaining.",
+          "Feral Strike hit Malachite for 72 Physical damage; Malachite had 6,557 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 6929
       },
       {
         "lane": "right_flank",
@@ -99,45 +134,64 @@
           "Under Ebbing Fury from Rhysarion: -27.5% damage.",
           "Blazing Fury hit Rhysarion for 363 Tactical damage; Rhysarion had 7,038 troops remaining.",
           "Basic Attack hit Rhysarion for 271 Physical damage; Rhysarion had 6,767 troops remaining."
-        ]
+        ],
+        "observed_round_2_events": [
+          "Basic Attack hit Rhysarion for 266 Physical damage; Rhysarion had 6,321 troops remaining."
+        ],
+        "round_2_visible_remaining_after_last_hit_taken": 7994
       }
     ]
   },
-  "round_1_trade": {
-    "player_losses": 1144,
-    "enemy_losses": 1175,
-    "net_enemy_losses_over_player": 31,
-    "player_starting_troop_deficit": 2610,
-    "player_starting_troop_ratio_vs_enemy": 0.8844,
-    "interpretation": "The Shieldbearer core traded slightly ahead in Round 1 despite starting with 2,610 fewer troops."
+  "round_trades": {
+    "round_2": {
+      "player_losses": 1144,
+      "enemy_losses": 1175,
+      "net_enemy_losses_over_player": 31,
+      "player_troop_deficit_at_round_1_end": 2610,
+      "player_round_1_end_troop_ratio_vs_enemy": 0.8844,
+      "interpretation": "The Shieldbearer core traded slightly ahead in Round 2 despite entering the round with fewer troops."
+    }
   },
   "mechanics_observed": [
     {
       "mechanic": "Rhysarion Ebbing Fury",
-      "observation": "Applied -27.5% damage to both sides during Round 1, strongly suppressing early burst."
+      "observation": "Applied -27.5% damage to both sides in the early battle, suppressing burst during the first captured rounds."
     },
     {
       "mechanic": "Malachite Forest's Instinct",
       "observation": "Triggered in Round 1, granting +8% Physical damage and -8% Tactical damage received to Vhagar and Rhysarion."
     },
     {
-      "mechanic": "Syrax Mindful Synergy",
-      "observation": "Enemy Syrax buffed enemy Syrax, Venator, and Crimson with +7.602% Intelligence and +7.602% Instinct."
+      "mechanic": "Malachite Warden's Rally",
+      "observation": "Round 2 Warden's Rally dealt 295 Tactical damage to Crimson, the largest player-side single hit captured in Round 2."
     },
     {
-      "mechanic": "Venator Hunter's Bane",
-      "observation": "Enemy Venator reduced Vhagar's Intelligence by -34.53%."
+      "mechanic": "Vhagar Fiery Bonds",
+      "observation": "Round 2 Fiery Bonds dealt 278 Physical damage to Crimson and Vhagar remained the center-line tank into enemy Venator."
+    },
+    {
+      "mechanic": "Rhysarion Dawnsong",
+      "observation": "Round 2 Dawnsong spread small Fire hits across all three enemies: 39 to Crimson, 36 to Venator, and 29 to Syrax."
+    },
+    {
+      "mechanic": "Syrax Mindful Synergy",
+      "observation": "Enemy Syrax buffed enemy Syrax, Venator, and Crimson with +7.602% Intelligence and +7.602% Instinct in Round 1."
     },
     {
       "mechanic": "Venator Feral Strike",
-      "observation": "Enemy Venator produced two 90 Physical damage hits into Rhysarion after a Basic Attack."
+      "observation": "Enemy Venator continued to pressure multiple lanes in Round 2 with Feral Strike hits to Rhysarion and Malachite."
+    },
+    {
+      "mechanic": "Crimson Bloodscale Terror",
+      "observation": "Enemy Crimson dealt 318 Fire damage to Vhagar in Round 2."
     }
   ],
   "recommendation_tags": [
     "army_1_core_performing_well",
-    "round_1_trade_positive",
+    "round_2_trade_positive",
     "capture_final_result_for_full_analysis",
     "enemy_syrax_buff_is_priority_signal",
-    "enemy_venator_pressures_rhysarion"
+    "enemy_venator_pressures_multiple_lanes",
+    "consider_flank_swap_against_syrax_right_lane"
   ]
 }
