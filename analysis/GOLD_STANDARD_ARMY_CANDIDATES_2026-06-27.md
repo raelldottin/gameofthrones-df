@@ -57,7 +57,7 @@ This is a real engine, not a Sentinel quota army. Velar protects and enables Arr
 | Finishers | Seasmoke + Arulix, with Shimmer support |
 | Risk | More control-heavy than kill-heavy. May stall if Seasmoke and Arulix do not finish fast enough. |
 
-This is the best current Seasmoke engine because it preserves Cavalry affinity and gives Seasmoke two control-oriented flank partners.
+This is the best current Seasmoke engine until a Caraxes or Crimson variant proves stronger.
 
 ### 4. Tashix / Syrax / Antares — Archers
 
@@ -70,7 +70,7 @@ This is the best current Seasmoke engine because it preserves Cavalry affinity a
 | Finishers | Tashix + Antares |
 | Risk | Syrax is still 1★, so the full engine is developmental until Mindful Synergy unlocks. |
 
-This is the correct Syrax army under the affinity rule. Do not force Caraxes here unless Caraxes's Archer affinity is confirmed.
+This is the correct Syrax army under the affinity rule. Do not force Caraxes here because Caraxes's confirmed affinities are Spearmen and Cavalry, not Archers.
 
 ### 5. Jagadrix / Dawnseeker / Crimson — Spearmen
 
@@ -83,7 +83,7 @@ This is the correct Syrax army under the affinity rule. Do not force Caraxes her
 | Finishers | Crimson + Jagadrix/Dawnseeker |
 | Risk | Crimson is still developing and Slow. Damage may need time to ramp. |
 
-This remains a valid Spearmen engine because Jagadrix reduces stats that help Crimson's Fire damage land, while Dawnseeker holds the center.
+This remains the default Spearmen engine, but Caraxes is now a legal challenger for Crimson's slot because Caraxes also has confirmed Spearmen affinity.
 
 ## Additional Affinity-Preserving Test Engines
 
@@ -102,7 +102,33 @@ These should be tested, but they are not stronger than the five above until batt
 
 This is the cleanest Spearmen variant if the goal is to copy the gold-standard structure with Rhysarion as the stabilizer.
 
-### 7. Vhagar / Syrax / Antares — Archers
+### 7. Jagadrix / Dawnseeker / Caraxes — Spearmen
+
+| Requirement | Answer |
+|---|---|
+| 3/3 affinity | Spearmen |
+| Safe vanguard | Dawnseeker |
+| Stabilizer | Dawnseeker support timing |
+| Amplifier / debuffer | Jagadrix Instinct/Initiative pressure |
+| Finishers | Caraxes + Jagadrix/Dawnseeker |
+| Risk | Caraxes is 1★ and does not yet have Battle Dread, Dragon's Flair, or Crippling Inferno unlocked. |
+
+This is the cleanest Caraxes Spearmen test. It should be compared directly against Jagadrix / Dawnseeker / Crimson.
+
+### 8. Rhysarion / Dawnseeker / Caraxes — Spearmen
+
+| Requirement | Answer |
+|---|---|
+| 3/3 affinity | Spearmen |
+| Safe vanguard | Dawnseeker |
+| Stabilizer | Rhysarion Ebbing Fury |
+| Amplifier / debuffer | Dawnseeker support; Caraxes future Battle Dread at 2★ |
+| Finishers | Caraxes + Rhysarion/Dawnseeker |
+| Risk | Steals Rhysarion from the gold-standard Shieldbearer core. |
+
+This is a high-structure Spearmen test only when Army 1 is not needed.
+
+### 9. Vhagar / Syrax / Antares — Archers
 
 | Requirement | Answer |
 |---|---|
@@ -115,7 +141,7 @@ This is the cleanest Spearmen variant if the goal is to copy the gold-standard s
 
 This is a powerful theoretical Archer engine, but it should not displace the Shieldbearer core unless a matchup specifically demands it.
 
-### 8. Seasmoke / Syrax / Antares — Archers
+### 10. Seasmoke / Syrax / Antares — Archers
 
 | Requirement | Answer |
 |---|---|
@@ -128,7 +154,7 @@ This is a powerful theoretical Archer engine, but it should not displace the Shi
 
 This is the best Syrax + Seasmoke affinity-safe test. It is not automatically better than keeping Seasmoke in Cavalry and Syrax in Archers.
 
-### 9. Arrax / Seasmoke / Syrax — Archers
+### 11. Arrax / Seasmoke / Syrax — Archers
 
 | Requirement | Answer |
 |---|---|
@@ -141,20 +167,33 @@ This is the best Syrax + Seasmoke affinity-safe test. It is not automatically be
 
 This is a possible high-pressure Archer version, but it needs testing because Arrax may need Velar's protection more than Syrax's buff.
 
-### 10. Malachite / Seasmoke / Crimson — Cavalry
+### 12. Arulix / Seasmoke / Caraxes — Cavalry
+
+| Requirement | Answer |
+|---|---|
+| 3/3 affinity | Cavalry |
+| Safe vanguard | Seasmoke |
+| Stabilizer | Arulix Fire-damage reduction; Seasmoke control |
+| Amplifier / debuffer | Arulix Stagger pressure; Caraxes future Battle Dread at 2★ |
+| Finishers | Caraxes + Seasmoke/Arulix |
+| Risk | Caraxes is 1★ and may need star investment before beating Shimmer's current suppression. |
+
+This is now one of the highest-priority Cavalry tests because Caraxes gives the Seasmoke shell a real Fire finisher while preserving 3/3 affinity.
+
+### 13. Malachite / Seasmoke / Caraxes — Cavalry
 
 | Requirement | Answer |
 |---|---|
 | 3/3 affinity | Cavalry |
 | Safe vanguard | Seasmoke |
 | Stabilizer | Seasmoke control; Malachite Tactical mitigation |
-| Amplifier / debuffer | Malachite Forest's Instinct; Seasmoke buff removal |
-| Finishers | Crimson + Seasmoke/Malachite |
-| Risk | Crimson's current development level may make the army slower than the Arulix/Seasmoke/Shimmer control version. |
+| Amplifier / debuffer | Malachite Forest's Instinct; Seasmoke control; Caraxes future Battle Dread |
+| Finishers | Caraxes + Seasmoke/Malachite |
+| Risk | Steals Malachite from the gold-standard Shieldbearer core. |
 
-This is a real Cavalry test because it keeps affinity and gives Crimson a better support/control shell.
+This may be the strongest theoretical Caraxes Cavalry shell, but it should only be tested when Army 1 is not required.
 
-### 11. Arulix / Seasmoke / Crimson — Cavalry
+### 14. Arulix / Seasmoke / Crimson — Cavalry
 
 | Requirement | Answer |
 |---|---|
@@ -167,11 +206,24 @@ This is a real Cavalry test because it keeps affinity and gives Crimson a better
 
 This is worth testing when the enemy relies on Fire damage or when Crimson needs a Cavalry home.
 
+### 15. Malachite / Seasmoke / Crimson — Cavalry
+
+| Requirement | Answer |
+|---|---|
+| 3/3 affinity | Cavalry |
+| Safe vanguard | Seasmoke |
+| Stabilizer | Seasmoke control; Malachite Tactical mitigation |
+| Amplifier / debuffer | Malachite Forest's Instinct; Seasmoke buff removal |
+| Finishers | Crimson + Seasmoke/Malachite |
+| Risk | Crimson's current development level may make the army slower than the Arulix/Seasmoke/Shimmer control version. |
+
+This is a real Cavalry test because it keeps affinity and gives Crimson a better support/control shell.
+
 ## Not Gold-Standard Yet
 
-### Caraxes-based armies
+### Archer Caraxes armies
 
-Caraxes is owned and has strong Fire damage through Infernal Burst, but its troop affinities are unresolved in the current repo data. Do not place Caraxes into a gold-standard army until the relevant 3/3 affinity is confirmed.
+Caraxes should not be placed in a Syrax Archer engine unless a future screenshot confirms Archer affinity.
 
 ### Sheepstealer-based armies
 
@@ -193,4 +245,11 @@ Use this as the practical baseline while testing the optional variants above:
 | 4 | Tashix / Syrax / Antares | Archers | Fast Fire/Tactical damage, Syrax development |
 | 5 | Jagadrix / Dawnseeker / Crimson | Spearmen | Debuff + Fire/control development |
 
-This keeps the strongest current engines intact without forcing Sentinels into every army.
+## Current Highest-Priority Tests
+
+1. **Arulix / Seasmoke / Caraxes** vs **Arulix / Seasmoke / Shimmer**.
+2. **Jagadrix / Dawnseeker / Caraxes** vs **Jagadrix / Dawnseeker / Crimson**.
+3. **Tashix / Syrax / Crimson** vs **Tashix / Syrax / Antares**.
+4. **Malachite / Seasmoke / Caraxes** only when the gold-standard Shieldbearer army is not needed.
+
+This keeps the strongest current engines intact while allowing Caraxes and Crimson to challenge existing slots through 3/3-affinity battle reports.
