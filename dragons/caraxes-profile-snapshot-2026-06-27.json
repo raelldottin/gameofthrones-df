@@ -1,0 +1,39 @@
+{
+  "name": "Caraxes",
+  "observed_date": "2026-06-27",
+  "source": {
+    "type": "manual_from_screenshot",
+    "screenshot": "C5250109-D048-4EB2-8F17-6A3AD2FE832F.jpeg",
+    "screen": "Dragon Pit profile"
+  },
+  "ownership_status": "owned",
+  "rarity": "Legendary",
+  "class": "Hunter",
+  "subclass": "Hunter Hatchling",
+  "level": 35,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
+  },
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Cavalry"
+  ],
+  "negative_affinities": [],
+  "command": {
+    "name": "Infernal Burst"
+  },
+  "xp": {
+    "current": 70,
+    "required": 218905
+  },
+  "displayed_troop_capacity": 6294.0,
+  "displayed_power": 22400,
+  "impact_notes": [
+    "This screenshot confirms Caraxes can participate in 3/3 Spearmen and Cavalry affinity armies.",
+    "Caraxes should not be treated as unresolved for gold-standard army generation anymore.",
+    "Archers are not confirmed for Caraxes, so do not place Caraxes in Syrax Archer engines unless a future screenshot confirms Archer affinity.",
+    "Because Caraxes has Infernal Burst and high Intelligence, he should be tested as a Fire finisher in Cavalry and Spearmen engines."
+  ]
+}
