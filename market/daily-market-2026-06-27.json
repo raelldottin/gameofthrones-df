@@ -1,0 +1,60 @@
+{
+  "date": "2026-06-27",
+  "source": "Market screenshots supplied June 27, 2026",
+  "refresh_timer_remaining": "19h 57m",
+  "visible_currencies": {
+    "campaign_favors": 105,
+    "gold": 810
+  },
+  "scope_note": "Only visible items in the supplied screenshots are recorded; off-screen inventory may be incomplete.",
+  "campaign_tab": [
+    {"item": "Gold", "quantity": 100, "available": 10, "cost": 100, "currency": "Campaign Favors"},
+    {"item": "Dragonbone Key", "quantity": 1, "available": 20, "cost": 100, "currency": "Campaign Favors"},
+    {"item": "Dragonglass Key", "quantity": 1, "available": 20, "cost": 120, "currency": "Campaign Favors"},
+    {"item": "Dragonfire Key", "quantity": 1, "available": 10, "cost": 800, "currency": "Campaign Favors"},
+    {"item": "Epic Core", "quantity": 20, "available": 10, "cost": 100, "currency": "Campaign Favors"},
+    {"item": "Legendary Core", "quantity": 5, "available": 10, "cost": 100, "currency": "Campaign Favors"},
+    {"item": "Amplifier Seals", "quantity": 1000, "available": 10, "cost": 90, "currency": "Campaign Favors"},
+    {"item": "Dragonlord Scrolls", "quantity": 200, "available": 10, "cost": 90, "currency": "Campaign Favors"},
+    {"item": "Solstryker Relic", "quantity": 5, "available": 20, "cost": 75, "currency": "Campaign Favors"},
+    {"item": "Bevlorin Relic", "quantity": 5, "available": 20, "cost": 75, "currency": "Campaign Favors"},
+    {"item": "Jagadrix Relic", "quantity": 5, "available": 20, "cost": 75, "currency": "Campaign Favors"},
+    {"item": "Rhysarion Relic", "quantity": 5, "available": 20, "cost": 150, "currency": "Campaign Favors"},
+    {"item": "Shadowsong Relic", "quantity": 5, "available": 20, "cost": 150, "currency": "Campaign Favors"},
+    {"item": "Vaeldra Relic", "quantity": 5, "available": 20, "cost": 150, "currency": "Campaign Favors"},
+    {"item": "Venator Relic", "quantity": 5, "available": 20, "cost": 350, "currency": "Campaign Favors"},
+    {"item": "Malachite Relic", "quantity": 5, "available": 20, "cost": 350, "currency": "Campaign Favors"}
+  ],
+  "gold_tab": [
+    {"item": "Dragonglass Key", "quantity": 1, "available": 1, "cost": 100, "currency": "Gold"},
+    {"item": "Epic Core", "quantity": 75, "available": 1, "cost": 300, "currency": "Gold"},
+    {"item": "Thunderstrike Relic", "quantity": 50, "available": 1, "cost": 500, "currency": "Gold"},
+    {"item": "Legendary Core", "quantity": 70, "available": 1, "cost": 1000, "currency": "Gold"},
+    {"item": "Meat", "quantity": 200, "available": 1, "cost": 125, "currency": "Gold"},
+    {"item": "Meat", "quantity": 500, "available": 1, "cost": 250, "currency": "Gold"},
+    {"item": "Meat", "quantity": 1250, "available": 1, "cost": 500, "currency": "Gold"},
+    {"item": "Meat", "quantity": 3750, "available": 1, "cost": 1250, "currency": "Gold"}
+  ],
+  "affordability_notes": {
+    "campaign_favors_105_can_afford": [
+      "Gold x100",
+      "Dragonbone Key x1",
+      "Epic Core x20",
+      "Legendary Core x5",
+      "Amplifier Seals x1000",
+      "Dragonlord Scrolls x200",
+      "Solstryker Relic x5",
+      "Bevlorin Relic x5",
+      "Jagadrix Relic x5"
+    ],
+    "campaign_favors_105_cannot_afford": [
+      "Dragonglass Key x1",
+      "Dragonfire Key x1",
+      "Rhysarion Relic x5",
+      "Shadowsong Relic x5",
+      "Vaeldra Relic x5",
+      "Venator Relic x5",
+      "Malachite Relic x5"
+    ]
+  }
+}
