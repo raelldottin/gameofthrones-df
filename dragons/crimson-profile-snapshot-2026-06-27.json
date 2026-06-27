@@ -1,0 +1,39 @@
+{
+  "name": "Crimson",
+  "observed_date": "2026-06-27",
+  "source": {
+    "type": "manual_from_screenshot",
+    "screenshot": "793B33E8-2EEC-4015-8A67-2DEF0EA4000B.jpeg",
+    "screen": "Dragon Pit profile"
+  },
+  "ownership_status": "owned",
+  "rarity": "Legendary",
+  "class": "Hunter",
+  "subclass": "Hunter Hatchling",
+  "level": 39,
+  "stars": 1,
+  "relic_progress": {
+    "current": 0,
+    "required_for_next_star": 40
+  },
+  "confirmed_positive_affinities": [
+    "Spearmen",
+    "Archers",
+    "Cavalry"
+  ],
+  "negative_affinities": [],
+  "command": {
+    "name": "Bloodscale Terror"
+  },
+  "xp": {
+    "current": 91034,
+    "required": 327333
+  },
+  "displayed_troop_capacity": 6699.0,
+  "displayed_power": 25400,
+  "impact_notes": [
+    "This screenshot confirms Crimson can participate in 3/3 Spearmen, Archers, and Cavalry affinity armies.",
+    "Crimson should not be treated as only a Spearmen piece.",
+    "Because Crimson is a Hunter with Fire damage through Bloodscale Terror, it can be considered as a finisher in Syrax Archer engines and Seasmoke Cavalry engines when the rest of the army preserves 3/3 affinity."
+  ]
+}
