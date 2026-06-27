@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-27T20:15:46Z",
+    "added_at_utc": "2026-06-27",
+    "screenshots": 7,
+    "capture_scope": "round_1_and_start_of_round_2_only"
+  },
+  "battle": {
+    "report_title": "Defended Lv. 2 Dock",
+    "tile_type": "dock",
+    "tile_level": 2,
+    "location": "Pinkmaiden (943, 1292)",
+    "result": "not_captured",
+    "rounds_captured": [1],
+    "notes": [
+      "Screenshots capture Round 1 details and the troop totals at the start of Round 2.",
+      "No final battle outcome was visible in the supplied screenshots.",
+      "Round 1 shows the Shieldbearer core trading almost evenly into a larger Spearmen army."
+    ]
+  },
+  "player_side": {
+    "role": "defender/player",
+    "troop_type": "Shieldbearers",
+    "round_1_start_troops": 19977,
+    "troops_max": 21205,
+    "round_2_start_troops": 18833,
+    "round_1_losses": 1144,
+    "army_inferred": [
+      {
+        "lane": "left_flank",
+        "dragon": "Malachite",
+        "observed_round_1_events": [
+          "Under Warrior's Resilience from Vhagar: +16% Tactical damage.",
+          "Under Ebbing Fury from Rhysarion: -27.5% damage.",
+          "Forest's Instinct affected Rhysarion and Vhagar: +8% Physical damage.",
+          "Forest's Instinct affected Rhysarion and Vhagar: -8% Tactical damage received.",
+          "Basic Attack hit Crimson for 194 Physical damage; Crimson had 7,291 troops remaining."
+        ]
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Vhagar",
+        "observed_round_1_events": [
+          "Under Hunter's Bane from enemy Venator: -34.53% Intelligence.",
+          "Under Warrior's Resilience from itself: -8% damage received.",
+          "Under Ebbing Fury from Rhysarion: -27.5% damage.",
+          "Basic Attack hit enemy Venator for 185 Physical damage; enemy Venator had 7,300 troops remaining."
+        ]
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Rhysarion",
+        "observed_round_1_events": [
+          "Ebbing Fury applied to itself: -27.5% damage.",
+          "Dawnsong hit Syrax for 131 Physical damage; Syrax had 8,294 troops remaining.",
+          "Dawnsong hit enemy Venator for 160 Physical damage; enemy Venator had 7,140 troops remaining.",
+          "Basic Attack hit Syrax for 138 Physical damage; Syrax had 8,156 troops remaining."
+        ]
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "attacker/resource_defender",
+    "troop_type": "Spearmen",
+    "round_1_start_troops": 22587,
+    "troops_max": 23395,
+    "round_2_start_troops": 21412,
+    "round_1_losses": 1175,
+    "army_inferred": [
+      {
+        "lane": "left_flank",
+        "dragon": "Crimson",
+        "observed_round_1_events": [
+          "Under Mindful Synergy from Syrax: +7.602% Intelligence and +7.602% Instinct.",
+          "Under Warrior's Zeal from Venator: +20 Instinct and +20 Initiative.",
+          "Under Ebbing Fury from Rhysarion: -27.5% damage.",
+          "Basic Attack hit Malachite for 172 Physical damage; Malachite had 6,629 troops remaining."
+        ]
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Venator",
+        "observed_round_1_events": [
+          "Under Mindful Synergy from Syrax: +7.602% Intelligence and +7.602% Instinct.",
+          "Under Warrior's Zeal from itself: +16% Physical damage.",
+          "Under Ebbing Fury from Rhysarion: -27.5% damage.",
+          "Basic Attack hit Vhagar for 242 Physical damage; Vhagar had 6,761 troops remaining.",
+          "Feral Strike hit Rhysarion for 90 Physical damage; Rhysarion had 6,677 troops remaining.",
+          "Feral Strike hit Rhysarion again for 90 Physical damage; Rhysarion had 6,587 troops remaining."
+        ]
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Syrax",
+        "observed_round_1_events": [
+          "Under Mindful Synergy from itself: +7.602% Intelligence and +7.602% Instinct.",
+          "Under Ebbing Fury from Rhysarion: -27.5% damage.",
+          "Blazing Fury hit Rhysarion for 363 Tactical damage; Rhysarion had 7,038 troops remaining.",
+          "Basic Attack hit Rhysarion for 271 Physical damage; Rhysarion had 6,767 troops remaining."
+        ]
+      }
+    ]
+  },
+  "round_1_trade": {
+    "player_losses": 1144,
+    "enemy_losses": 1175,
+    "net_enemy_losses_over_player": 31,
+    "player_starting_troop_deficit": 2610,
+    "player_starting_troop_ratio_vs_enemy": 0.8844,
+    "interpretation": "The Shieldbearer core traded slightly ahead in Round 1 despite starting with 2,610 fewer troops."
+  },
+  "mechanics_observed": [
+    {
+      "mechanic": "Rhysarion Ebbing Fury",
+      "observation": "Applied -27.5% damage to both sides during Round 1, strongly suppressing early burst."
+    },
+    {
+      "mechanic": "Malachite Forest's Instinct",
+      "observation": "Triggered in Round 1, granting +8% Physical damage and -8% Tactical damage received to Vhagar and Rhysarion."
+    },
+    {
+      "mechanic": "Syrax Mindful Synergy",
+      "observation": "Enemy Syrax buffed enemy Syrax, Venator, and Crimson with +7.602% Intelligence and +7.602% Instinct."
+    },
+    {
+      "mechanic": "Venator Hunter's Bane",
+      "observation": "Enemy Venator reduced Vhagar's Intelligence by -34.53%."
+    },
+    {
+      "mechanic": "Venator Feral Strike",
+      "observation": "Enemy Venator produced two 90 Physical damage hits into Rhysarion after a Basic Attack."
+    }
+  ],
+  "recommendation_tags": [
+    "army_1_core_performing_well",
+    "round_1_trade_positive",
+    "capture_final_result_for_full_analysis",
+    "enemy_syrax_buff_is_priority_signal",
+    "enemy_venator_pressures_rhysarion"
+  ]
+}
