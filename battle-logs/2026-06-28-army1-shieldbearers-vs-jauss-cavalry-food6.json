@@ -1,0 +1,202 @@
+{
+  "date": "2026-06-28",
+  "source": "Manual extraction from 9 player-provided battle report screenshots in ChatGPT",
+  "target": {
+    "name": "Stalemate Lv. 6 Food",
+    "location": "Pinkmaiden (1010, 1332)",
+    "resource": "Food Tier 6"
+  },
+  "attacker": {
+    "player": "[WILDFIREE] Jadakiss",
+    "troop_type": "Shieldbearers",
+    "troop_matchup": "Disadvantage (-7% DMG) into Cavalry",
+    "affinity": "3/3 visible green affinity",
+    "army": [
+      {
+        "position": "left/right display order unknown from report; repo Army 1 slot is right",
+        "name": "Rhysarion",
+        "level": 41,
+        "stars": 1,
+        "command": "Dawnsong"
+      },
+      {
+        "position": "vanguard",
+        "name": "Vhagar",
+        "level": 43,
+        "stars": 1,
+        "command": "Fiery Bonds"
+      },
+      {
+        "position": "left/right display order unknown from report; repo Army 1 slot is left",
+        "name": "Malachite",
+        "level": 40,
+        "stars": 1,
+        "command": "Warden's Rally"
+      }
+    ]
+  },
+  "defender": {
+    "player": "[GodOfWar] Jauss",
+    "troop_type": "Cavalry",
+    "troop_matchup": "Advantage (+7% DMG) into Shieldbearers",
+    "army": [
+      {
+        "name": "Feskar",
+        "level": 41,
+        "stars": 1,
+        "command": "Calculated Assault"
+      },
+      {
+        "name": "Caraxes",
+        "level": 40,
+        "stars": 1,
+        "command": "Infernal Burst"
+      },
+      {
+        "name": "Shadowsong",
+        "level": 40,
+        "stars": 2,
+        "command": "Breath of Fire"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "timestamp_utc": "2026-06-28T07:16:14Z",
+      "result": "Stalemate after 10 rounds",
+      "match_rating": "Evenly matched",
+      "troops_remaining": {
+        "attacker": "11012/22173",
+        "defender": "10415/21848"
+      },
+      "dragon_remaining": {
+        "Rhysarion": "4684/7767",
+        "Vhagar": "1799/7355",
+        "Malachite": "4529/7051",
+        "Feskar": "4240/7760",
+        "Caraxes": "4130/7044",
+        "Shadowsong": "2045/7044"
+      },
+      "total_kills_by_dragon": {
+        "Rhysarion": 4009,
+        "Vhagar": 3256,
+        "Malachite": 4168,
+        "Feskar": 3881,
+        "Caraxes": 5827,
+        "Shadowsong": 3024
+      },
+      "commands": {
+        "Rhysarion_Dawnsong": { "casts": 6, "kills": 1632, "healing": 0 },
+        "Vhagar_Fiery_Bonds": { "casts": 5, "kills": 1272, "healing": 0 },
+        "Malachite_Wardens_Rally": { "casts": 6, "kills": 1282, "healing": 1403 },
+        "Feskar_Calculated_Assault": { "casts": 4, "kills": 1228, "healing": 0 },
+        "Caraxes_Infernal_Burst": { "casts": 3, "kills": 3421, "healing": 0 },
+        "Shadowsong_Breath_of_Fire": { "casts": 3, "kills": 1285, "healing": 0 }
+      },
+      "basic_attacks": {
+        "Rhysarion": { "attacks": 10, "kills": 2377 },
+        "Vhagar": { "attacks": 10, "kills": 1984 },
+        "Malachite": { "attacks": 10, "kills": 2886 },
+        "Feskar": { "attacks": 10, "kills": 2653 },
+        "Caraxes": { "attacks": 10, "kills": 2406 },
+        "Shadowsong": { "attacks": 10, "kills": 1739 }
+      }
+    },
+    {
+      "timestamp_utc": "2026-06-28T07:17:14Z",
+      "result": "Stalemate after 10 rounds",
+      "match_rating": "Evenly matched",
+      "troops_remaining": {
+        "attacker": "5858/22173",
+        "defender": "4324/21848"
+      },
+      "dragon_remaining": {
+        "Rhysarion": "2456/7767",
+        "Vhagar": "0/7355",
+        "Malachite": "3402/7051",
+        "Feskar": "2143/7760",
+        "Caraxes": "2181/7044",
+        "Shadowsong": "0/7044"
+      },
+      "total_kills_by_dragon": {
+        "Rhysarion": 2682,
+        "Vhagar": 283,
+        "Malachite": 3126,
+        "Feskar": 2477,
+        "Caraxes": 3486,
+        "Shadowsong": 461
+      },
+      "commands": {
+        "Rhysarion_Dawnsong": { "casts": 6, "kills": 1084, "healing": 0 },
+        "Vhagar_Fiery_Bonds": { "casts": 2, "kills": 86, "healing": 0 },
+        "Malachite_Wardens_Rally": { "casts": 6, "kills": 899, "healing": 1102 },
+        "Feskar_Calculated_Assault": { "casts": 5, "kills": 821, "healing": 0 },
+        "Caraxes_Infernal_Burst": { "casts": 3, "kills": 2073, "healing": 0 },
+        "Shadowsong_Breath_of_Fire": { "casts": 2, "kills": 201, "healing": 0 }
+      },
+      "basic_attacks": {
+        "Rhysarion": { "attacks": 10, "kills": 1598 },
+        "Vhagar": { "attacks": 5, "kills": 197 },
+        "Malachite": { "attacks": 10, "kills": 2227 },
+        "Feskar": { "attacks": 10, "kills": 1656 },
+        "Caraxes": { "attacks": 9, "kills": 1413 },
+        "Shadowsong": { "attacks": 6, "kills": 260 }
+      }
+    },
+    {
+      "timestamp_utc": "2026-06-28T07:18:14Z",
+      "result": "Stalemate after 10 rounds",
+      "match_rating": "Favorable",
+      "troops_remaining": {
+        "attacker": "4702/22173",
+        "defender": "417/21848"
+      },
+      "dragon_remaining": {
+        "Rhysarion": "1480/7767",
+        "Vhagar": "0/7355",
+        "Malachite": "3222/7051",
+        "Feskar": "417/7760",
+        "Caraxes": "0/7044",
+        "Shadowsong": "0/7044"
+      },
+      "total_kills_by_dragon": {
+        "Rhysarion": 1413,
+        "Vhagar": 0,
+        "Malachite": 2494,
+        "Feskar": 1324,
+        "Caraxes": 748,
+        "Shadowsong": 0
+      },
+      "commands": {
+        "Rhysarion_Dawnsong": { "casts": 6, "kills": 523, "healing": 0 },
+        "Vhagar_Fiery_Bonds": { "casts": 0, "kills": 0, "healing": 0 },
+        "Malachite_Wardens_Rally": { "casts": 6, "kills": 749, "healing": 804 },
+        "Feskar_Calculated_Assault": { "casts": 7, "kills": 432, "healing": 0 },
+        "Caraxes_Infernal_Burst": { "casts": 2, "kills": 369, "healing": 0 },
+        "Shadowsong_Breath_of_Fire": { "casts": 0, "kills": 0, "healing": 0 }
+      },
+      "basic_attacks": {
+        "Rhysarion": { "attacks": 10, "kills": 890 },
+        "Vhagar": { "attacks": 0, "kills": 0 },
+        "Malachite": { "attacks": 10, "kills": 1745 },
+        "Feskar": { "attacks": 10, "kills": 892 },
+        "Caraxes": { "attacks": 7, "kills": 379 },
+        "Shadowsong": { "attacks": 0, "kills": 0 }
+      }
+    }
+  ],
+  "derived_observations": [
+    "Army 1 performed as an attrition winner despite the Shieldbearer into Cavalry troop disadvantage. The reports moved from Evenly Matched to Favorable while the defender was reduced to 417/21848 troops.",
+    "The 10-round limit, not lack of army quality, caused the stalemates. This army needs a better troop matchup or more burst to clean Cavalry within 10 rounds.",
+    "Malachite is a locked piece. Warden's Rally cast 6 times in every visible 10-round report and supplied both damage and healing.",
+    "Rhysarion is also locked. Dawnsong cast 6 times in every report and kept contributing even after Vhagar dropped.",
+    "Vhagar is the volatility point. When alive, Fiery Bonds adds meaningful damage, but Vhagar fell to 0 in the later reports and produced little or nothing after that.",
+    "Enemy Caraxes was the largest burst threat, especially through Infernal Burst. Future counters should account for Caraxes-style Fire burst against Vhagar."
+  ],
+  "roster_decisions": {
+    "keep_army1_locked": ["Rhysarion", "Vhagar", "Malachite"],
+    "do_not_pull_for_vaeldra": ["Rhysarion", "Malachite"],
+    "vaeldra_implication": "Vaeldra should not break Army 1. These reports strengthen the case that Vaeldra belongs in a lower control/depth army instead of replacing Rhysarion or Malachite.",
+    "matchup_guidance": "Avoid using this Shieldbearer Army 1 into Cavalry when a Spearmen counter is available; use it into Archers/Siege or as a defensive attrition anchor."
+  }
+}
