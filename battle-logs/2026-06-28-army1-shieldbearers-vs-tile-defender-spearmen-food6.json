@@ -1,0 +1,172 @@
+{
+  "date": "2026-06-28",
+  "source": "Manual extraction from 6 player-provided battle report screenshots in ChatGPT",
+  "target": {
+    "name": "Tile Defender Lv. 6 Food",
+    "location": "Pinkmaiden (1010, 1332)",
+    "resource": "Food Tier 6",
+    "territory_claimed": true
+  },
+  "attacker": {
+    "player": "[WILDFIREE] Jadakiss",
+    "troop_type": "Shieldbearers",
+    "troops_starting_visible": 22173,
+    "battle_modifier": "Fewer Troops in first visible report; no troop-type disadvantage shown",
+    "affinity": "3/3 visible green affinity",
+    "army": [
+      {
+        "name": "Rhysarion",
+        "level": 41,
+        "command": "Dawnsong"
+      },
+      {
+        "name": "Vhagar",
+        "level": 43,
+        "command": "Fiery Bonds"
+      },
+      {
+        "name": "Malachite",
+        "level": 40,
+        "command": "Warden's Rally"
+      }
+    ]
+  },
+  "defender": {
+    "name": "Tile Defender Lv. 6 Food",
+    "troop_type": "Spearmen",
+    "troops_starting_visible": 6000,
+    "army": [
+      {
+        "name": "Grim Warrior",
+        "level": 23,
+        "command": "Eclipse Fervor",
+        "dragon_stat_bonus": "No Bonus"
+      },
+      {
+        "name": "Brazen Warrior",
+        "level": 23,
+        "command": "Lure",
+        "dragon_stat_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "name": "Cunning Hunter",
+        "level": 23,
+        "command": "Cunning Whispers",
+        "dragon_stat_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "timestamp_utc": "2026-06-28T07:19:13Z",
+      "result": "Stalemate after 10 rounds",
+      "match_rating": "Favorable",
+      "battle_modifier": "Fewer Troops",
+      "troops_remaining": {
+        "attacker": "4555/22173",
+        "defender": "107/6000"
+      },
+      "dragon_remaining": {
+        "Rhysarion": "1398/7767",
+        "Vhagar": "0/7355",
+        "Malachite": "3157/7051",
+        "Grim Warrior": "107/2000",
+        "Brazen Warrior": "0/2000",
+        "Cunning Hunter": "0/2000"
+      },
+      "total_kills_by_dragon": {
+        "Rhysarion": 2248,
+        "Vhagar": 0,
+        "Malachite": 3645,
+        "Grim Warrior": 251,
+        "Brazen Warrior": 138,
+        "Cunning Hunter": 86
+      },
+      "commands": {
+        "Rhysarion_Dawnsong": { "casts": 6, "kills": 869, "healing": 0 },
+        "Vhagar_Fiery_Bonds": { "casts": 0, "kills": 0, "healing": 0 },
+        "Malachite_Wardens_Rally": { "casts": 6, "kills": 1128, "healing": 286 },
+        "Grim_Warrior_Eclipse_Fervor": { "casts": 5, "kills": 87, "healing": 0 },
+        "Brazen_Warrior_Lure": { "casts": 4, "kills": 50, "healing": 0 },
+        "Cunning_Hunter_Cunning_Whispers": { "casts": 2, "kills": 23, "healing": 0 }
+      },
+      "basic_attacks": {
+        "Rhysarion": { "attacks": 10, "kills": 1379 },
+        "Vhagar": { "attacks": 0, "kills": 0 },
+        "Malachite": { "attacks": 10, "kills": 2517 },
+        "Grim Warrior": { "attacks": 10, "kills": 164 },
+        "Brazen Warrior": { "attacks": 8, "kills": 88 },
+        "Cunning Hunter": { "attacks": 7, "kills": 63 }
+      }
+    },
+    {
+      "timestamp_utc": "2026-06-28T07:20:13Z",
+      "result": "Victory",
+      "match_rating": "Easy",
+      "troops_remaining": {
+        "attacker": "4555/22173",
+        "defender": "0/6000"
+      },
+      "dragon_remaining": {
+        "Rhysarion": "1398/7767",
+        "Vhagar": "0/7355",
+        "Malachite": "3157/7051",
+        "Grim Warrior": "0/2000",
+        "Brazen Warrior": "0/2000",
+        "Cunning Hunter": "0/2000"
+      },
+      "total_kills_by_dragon": {
+        "Rhysarion": 0,
+        "Vhagar": 0,
+        "Malachite": 107,
+        "Grim Warrior": 0,
+        "Brazen Warrior": 0,
+        "Cunning Hunter": 0
+      },
+      "commands": {
+        "Rhysarion_Dawnsong": { "casts": 0, "kills": 0, "healing": 0 },
+        "Vhagar_Fiery_Bonds": { "casts": 0, "kills": 0, "healing": 0 },
+        "Malachite_Wardens_Rally": { "casts": 0, "kills": 0, "healing": 0 },
+        "Grim_Warrior_Eclipse_Fervor": { "casts": 0, "kills": 0, "healing": 0 },
+        "Brazen_Warrior_Lure": { "casts": 0, "kills": 0, "healing": 0 },
+        "Cunning_Hunter_Cunning_Whispers": { "casts": 0, "kills": 0, "healing": 0 }
+      },
+      "basic_attacks": {
+        "Rhysarion": { "attacks": 0, "kills": 0 },
+        "Vhagar": { "attacks": 0, "kills": 0 },
+        "Malachite": { "attacks": 1, "kills": 107 },
+        "Grim Warrior": { "attacks": 0, "kills": 0 },
+        "Brazen Warrior": { "attacks": 0, "kills": 0 },
+        "Cunning Hunter": { "attacks": 0, "kills": 0 }
+      },
+      "siege_damage": {
+        "Rhysarion": 3068,
+        "Vhagar": 0,
+        "Malachite": 6932,
+        "total": 10000
+      },
+      "xp_gained": {
+        "Rhysarion": 172,
+        "Vhagar": 172,
+        "Malachite": 174
+      },
+      "result_text": "You claimed a Lv. 6 Food territory."
+    }
+  ],
+  "derived_observations": [
+    "Army 1 converted the previous attrition advantage into a territory capture. The first visible tile-defender report left only 107/6000 defender troops, and the follow-up report ended in Victory with defender troops at 0/6000.",
+    "The first report showed Fewer Troops, not troop-type disadvantage. Army 1 had 4555/22173 troops remaining into 6000 starting defender troops and still reached Favorable status.",
+    "Malachite carried the finish. In the stalemate report, Malachite recorded 3645 total kills, 1128 command kills, 2517 basic-attack kills, and 286 healing. In the victory cleanup, Malachite made the only attack and killed the remaining 107 troops.",
+    "Rhysarion remained useful in the depleted state, producing 2248 total kills in the stalemate report even while Vhagar was already down.",
+    "Vhagar was dead for the visible tile-defender sequence and contributed no kills, attacks, or command casts. This reinforces that the army's late-fight stability comes from Rhysarion plus Malachite.",
+    "The final report confirms siege output after defender clearance: Rhysarion supplied 3068 siege damage and Malachite supplied 6932, totaling 10000."
+  ],
+  "roster_decisions": {
+    "army1_status": "Battle-validated capture shell",
+    "locked_dragons": ["Rhysarion", "Vhagar", "Malachite"],
+    "malachite_role": "Late-fight closer, sustain source, and siege contributor",
+    "rhysarion_role": "Reliable attrition and siege contributor even after the vanguard is down",
+    "vhagar_role": "High-ceiling frontliner but not the late-fight closer in depleted follow-up reports",
+    "vaeldra_implication": "This fight further argues against pulling Rhysarion or Malachite for Vaeldra. Vaeldra should remain a lower-army control/depth candidate."
+  }
+}
