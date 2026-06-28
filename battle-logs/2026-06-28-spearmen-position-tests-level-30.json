@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-28",
+    "added_at_utc": "2026-06-28",
+    "screenshots": [
+      "202E37DB-728A-4F53-B94D-5F1DA31C131D.jpeg",
+      "6874FC6C-7636-4AE7-A89E-631FC00B7743.jpeg",
+      "F0C29BEF-28F2-4DB2-A595-BEC9DEA31519.jpeg",
+      "61603B38-4C91-4E0B-A7A8-7D20C7F8A017.jpeg",
+      "9850C3D3-EE7F-4DF6-8BA0-159C14A2746F.jpeg",
+      "96F92D28-41F0-4987-9F91-F96700643F97.jpeg"
+    ],
+    "capture_scope": "two_level_30_spearmen_gold_standard_position_tests"
+  },
+  "tests": [
+    {
+      "id": "spearmen_advantage_aurochs_level_30",
+      "result": "victory",
+      "report_title": "Victory Aurochs, Level 30",
+      "time_utc": "2026-06-28T01:05:48Z",
+      "location": "Stone Hedge (1258, 1458)",
+      "difficulty_label": "Easy",
+      "player_troop_type": "Spearmen",
+      "enemy_troop_type": "Cavalry",
+      "matchup": "Troop Type Advantage (+7% DMG)",
+      "affinity": "3/3 +20% to Dragon Stats",
+      "player_troops_end": 21228,
+      "player_troops_capacity": 21770,
+      "player_troop_losses": 542,
+      "enemy_troops_start": 8700,
+      "enemy_troops_end": 0,
+      "enemy_troop_losses": 8700,
+      "loss_efficiency_enemy_kills_per_player_loss": 16.05,
+      "formation": [
+        {
+          "lane": "left_flank",
+          "dragon": "Crimson",
+          "level": 39,
+          "troops_end": 6418,
+          "troops_max": 6700,
+          "troop_losses": 282,
+          "kills_total": 3942,
+          "kill_share_percent": 45.31,
+          "command": "Bloodscale Terror",
+          "command_uses": 2,
+          "command_kills": 1418,
+          "command_recovery": 0,
+          "basic_attacks": 6,
+          "basic_attack_kills": 2524
+        },
+        {
+          "lane": "vanguard",
+          "dragon": "Dawnseeker",
+          "level": 43,
+          "troops_end": 6920,
+          "troops_max": 7105,
+          "troop_losses": 185,
+          "kills_total": 2235,
+          "kill_share_percent": 25.69,
+          "command": "Radiant Wings",
+          "command_uses": 5,
+          "command_kills": 660,
+          "command_recovery": 288,
+          "basic_attacks": 4,
+          "basic_attack_kills": 1575
+        },
+        {
+          "lane": "right_flank",
+          "dragon": "Jagadrix",
+          "level": 43,
+          "troops_end": 7890,
+          "troops_max": 7965,
+          "troop_losses": 75,
+          "kills_total": 2523,
+          "kill_share_percent": 29.0,
+          "command": "Cunning Whispers",
+          "command_uses": 3,
+          "command_kills": 661,
+          "command_recovery": 0,
+          "basic_attacks": 5,
+          "basic_attack_kills": 1862
+        }
+      ],
+      "enemy_breakdown": [
+        {
+          "lane": "left_flank",
+          "unit": "Aurochs Level 30",
+          "kills_total": 438,
+          "command": "Mudhorn Charge",
+          "command_uses": 2,
+          "command_kills": 148,
+          "basic_attacks": 5,
+          "basic_attack_kills": 290
+        },
+        {
+          "lane": "vanguard",
+          "unit": "Aurochs Level 30",
+          "kills_total": 239,
+          "command": "Mudhorn Charge",
+          "command_uses": 1,
+          "command_kills": 55,
+          "basic_attacks": 4,
+          "basic_attack_kills": 184
+        },
+        {
+          "lane": "right_flank",
+          "unit": "Aurochs Level 30",
+          "kills_total": 175,
+          "command": "Mudhorn Charge",
+          "command_uses": 2,
+          "command_kills": 45,
+          "basic_attacks": 3,
+          "basic_attack_kills": 130
+        }
+      ],
+      "rewards": {
+        "meat": 110
+      }
+    },
+    {
+      "id": "spearmen_disadvantage_outlaws_level_30",
+      "result": "victory",
+      "report_title": "Victory Outlaws, Level 30",
+      "time_utc": "2026-06-28T00:15:13Z",
+      "location": "Acorn Hall (1174, 1410)",
+      "difficulty_label": "Easy",
+      "player_troop_type": "Spearmen",
+      "enemy_troop_type": "Archers",
+      "matchup": "Troop Type Disadvantage (-7% DMG)",
+      "affinity": "3/3 +20% to Dragon Stats",
+      "player_troops_end": 20740,
+      "player_troops_capacity": 21668,
+      "player_troop_losses": 928,
+      "enemy_troops_start": 8700,
+      "enemy_troops_end": 0,
+      "enemy_troop_losses": 8700,
+      "loss_efficiency_enemy_kills_per_player_loss": 9.38,
+      "formation": [
+        {
+          "lane": "left_flank",
+          "dragon": "Jagadrix",
+          "level": 43,
+          "troops_end": 7774,
+          "troops_max": 7965,
+          "troop_losses": 191,
+          "kills_total": 2954,
+          "kill_share_percent": 33.95,
+          "command": "Cunning Whispers",
+          "command_uses": 5,
+          "command_kills": 947,
+          "command_recovery": 0,
+          "basic_attacks": 6,
+          "basic_attack_kills": 2007
+        },
+        {
+          "lane": "vanguard",
+          "dragon": "Dawnseeker",
+          "level": 42,
+          "troops_end": 6877,
+          "troops_max": 7003,
+          "troop_losses": 126,
+          "kills_total": 2219,
+          "kill_share_percent": 25.51,
+          "command": "Radiant Wings",
+          "command_uses": 6,
+          "command_kills": 715,
+          "command_recovery": 298,
+          "basic_attacks": 5,
+          "basic_attack_kills": 1504
+        },
+        {
+          "lane": "right_flank",
+          "dragon": "Crimson",
+          "level": 39,
+          "troops_end": 6089,
+          "troops_max": 6700,
+          "troop_losses": 611,
+          "kills_total": 3527,
+          "kill_share_percent": 40.54,
+          "command": "Bloodscale Terror",
+          "command_uses": 2,
+          "command_kills": 1167,
+          "command_recovery": 0,
+          "basic_attacks": 7,
+          "basic_attack_kills": 2360
+        }
+      ],
+      "enemy_breakdown": [
+        {
+          "lane": "left_flank",
+          "unit": "Outlaws Level 30",
+          "kills_total": 463,
+          "command": "Torchbearer's Trick",
+          "command_uses": 4,
+          "command_kills": 216,
+          "basic_attacks": 4,
+          "basic_attack_kills": 247
+        },
+        {
+          "lane": "vanguard",
+          "unit": "Outlaws Level 30",
+          "kills_total": 272,
+          "command": "Torchbearer's Trick",
+          "command_uses": 3,
+          "command_kills": 70,
+          "basic_attacks": 5,
+          "basic_attack_kills": 202
+        },
+        {
+          "lane": "right_flank",
+          "unit": "Outlaws Level 30",
+          "kills_total": 687,
+          "command": "Torchbearer's Trick",
+          "command_uses": 4,
+          "command_kills": 276,
+          "basic_attacks": 6,
+          "basic_attack_kills": 411
+        }
+      ],
+      "rewards": {
+        "grain": 2700,
+        "wood": 2700,
+        "stone": 2700,
+        "iron": 2700
+      }
+    }
+  ],
+  "swap_analysis": {
+    "safe_vanguard": "Dawnseeker stayed safe in both tests and should remain vanguard.",
+    "crimson_signal": "Crimson led kills in both tests: 3,942 from left in the advantage test and 3,527 from right in the disadvantage test.",
+    "jagadrix_signal": "Jagadrix stayed much safer on the right in the advantage test, losing 75 troops, while still contributing 2,523 kills. On the left in the disadvantage test it produced 2,954 kills but lost 191 troops.",
+    "comparison_warning": "These are not a clean A/B position test because the enemy troop type and matchup changed: one fight had Spearmen advantage into Cavalry and the other had Spearmen disadvantage into Archers.",
+    "current_preference": "For farming with favorable or neutral troop matchup, Crimson left / Dawnseeker vanguard / Jagadrix right is the preferred position to retest. For bad troop matchups, avoid the fight or expect higher Crimson losses."
+  }
+}
