@@ -2,12 +2,15 @@
 
 Source: Market screenshots supplied June 28, 2026 UTC.
 
-## Snapshot
+## Latest Snapshot
 
-- **Refresh timer:** 23h 21m
-- **Campaign Favors:** 80
-- **Gold:** 175
+- **Captured at:** 2026-06-28 12:45:48 UTC
+- **Refresh timer:** 11h 15m
+- **Campaign Favors:** 125
+- **Gold:** 300
 - **Captured tabs:** Gold, Campaign
+
+Previous same-day snapshot: 80 Campaign Favors, 175 Gold, refresh timer 23h 21m.
 
 ## Gold Tab
 
@@ -47,17 +50,22 @@ Source: Market screenshots supplied June 28, 2026 UTC.
 
 High relevance to the current gold-standard armies:
 
-- **Jagadrix Relic x5 for 75 Campaign Favors** — relevant to the Spearmen gold-standard army.
-- **Crimson Relic x6 for 300 Gold** — relevant to the Spearmen gold-standard army, but not currently affordable.
+- **Crimson Relic x6 for 300 Gold** — directly supports the Spearmen gold-standard primary finisher.
+- **Legendary Core x5 for 100 Campaign Favors** — supports legendary-dragon habit progression across gold-standard engines.
+- **Jagadrix Relic x5 for 75 Campaign Favors** — supports the Spearmen gold-standard support/finisher.
 - **Seasmoke Relic x10 for 500 Gold** — relevant to the Cavalry gold-standard army, but not currently affordable.
-- **Legendary Core x5 for 100 Campaign Favors** — useful for legendary-dragon habit progression, but not currently affordable with 80 Campaign Favors.
-- **Epic Core x20 for 100 Gold** — affordable, but should only be bought if Epic Cores are an immediate bottleneck.
+- **Epic Core x20 for 100 Gold or 100 Campaign Favors** — buy only if Epic Cores are an immediate bottleneck.
+- **Dragonlord Scrolls x200 for 90 Campaign Favors** and **Amplifier Seals x1000 for 90 Campaign Favors** — buy only if a preparation/All Breeds upgrade is immediately blocked by that material.
 
 ## Recommendation
 
-With **80 Campaign Favors**, the only gold-standard-relevant affordable buy is **Jagadrix Relic x5 for 75 Campaign Favors**. Buy it only if pushing the Spearmen gold-standard army. Otherwise, save Campaign Favors for **Legendary Core x5**, **Dragonbone Key**, or **Gold x100** at 100 Campaign Favors.
+With **300 Gold**, buy **Crimson Relic x6 for 300 Gold** if committing Gold to the current Spearmen gold-standard primary finisher. Skip Meat. Skip Epic Core unless Epic Cores are blocking an immediate upgrade.
 
-With **175 Gold**, avoid spending unless **Epic Core x20 for 100 Gold** is an immediate bottleneck. Do not buy Meat with Gold.
+With **125 Campaign Favors**, the default buy is **Legendary Core x5 for 100 Campaign Favors**, leaving 25 Campaign Favors. This is the best broad progression purchase for legendary habits.
+
+Alternative Campaign buy: buy **Dragonlord Scrolls x200** or **Amplifier Seals x1000** only if a preparation/All Breeds upgrade is blocked right now. Otherwise, prioritize Legendary Core x5.
+
+Do not buy keys unless the explicit goal is opening chests today.
 
 ## Linked Data
 
