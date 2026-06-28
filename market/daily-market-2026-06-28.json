@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-28T00:38:52Z",
+    "screenshots": [
+      "35F4DC6E-E19D-4358-AAE7-F6EFC89963CC.jpeg",
+      "4F1528F3-4115-4D38-B817-E635BC93B86E.jpeg",
+      "49C6CF15-F527-4C97-B7CB-71A38E22FF8C.jpeg"
+    ],
+    "scope": ["gold_tab", "campaign_tab"],
+    "refresh_timer": "23h 21m"
+  },
+  "balances": {
+    "campaign_favors": 80,
+    "gold": 175
+  },
+  "gold_tab": [
+    {
+      "item": "Epic Core",
+      "quantity": 20,
+      "available": 1,
+      "cost": 100,
+      "currency": "gold"
+    },
+    {
+      "item": "Crimson Relic",
+      "quantity": 6,
+      "available": 1,
+      "cost": 300,
+      "currency": "gold"
+    },
+    {
+      "item": "Seasmoke Relic",
+      "quantity": 10,
+      "available": 1,
+      "cost": 500,
+      "currency": "gold"
+    },
+    {
+      "item": "Bevlorin Relic",
+      "quantity": 100,
+      "available": 1,
+      "cost": 1000,
+      "currency": "gold"
+    },
+    {
+      "item": "Meat",
+      "quantity": 200,
+      "available": 1,
+      "cost": 125,
+      "currency": "gold"
+    },
+    {
+      "item": "Meat",
+      "quantity": 500,
+      "available": 1,
+      "cost": 250,
+      "currency": "gold"
+    },
+    {
+      "item": "Meat",
+      "quantity": 1250,
+      "available": 1,
+      "cost": 500,
+      "currency": "gold"
+    },
+    {
+      "item": "Meat",
+      "quantity": 3750,
+      "available": 1,
+      "cost": 1250,
+      "currency": "gold"
+    }
+  ],
+  "campaign_tab": [
+    {
+      "item": "Gold",
+      "quantity": 100,
+      "available": 10,
+      "cost": 100,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Dragonbone Key",
+      "quantity": 1,
+      "available": 20,
+      "cost": 100,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Dragonglass Key",
+      "quantity": 1,
+      "available": 20,
+      "cost": 120,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Dragonfire Key",
+      "quantity": 1,
+      "available": 10,
+      "cost": 800,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Epic Core",
+      "quantity": 20,
+      "available": 10,
+      "cost": 100,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Legendary Core",
+      "quantity": 5,
+      "available": 10,
+      "cost": 100,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Amplifier Seals",
+      "quantity": 1000,
+      "available": 10,
+      "cost": 90,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Dragonlord Scrolls",
+      "quantity": 200,
+      "available": 10,
+      "cost": 90,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Solstryker Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 75,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Bevlorin Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 75,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Jagadrix Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 75,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Rhysarion Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 150,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Shadowsong Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 150,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Vaeldra Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 150,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Venator Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 350,
+      "currency": "campaign_favors"
+    },
+    {
+      "item": "Malachite Relic",
+      "quantity": 5,
+      "available": 20,
+      "cost": 350,
+      "currency": "campaign_favors"
+    }
+  ],
+  "gold_standard_relevance": {
+    "high_relevance": [
+      "Jagadrix Relic x5 for 75 Campaign Favors",
+      "Crimson Relic x6 for 300 Gold",
+      "Seasmoke Relic x10 for 500 Gold",
+      "Legendary Core x5 for 100 Campaign Favors",
+      "Epic Core x20 for 100 Gold or 100 Campaign Favors"
+    ],
+    "current_affordability": {
+      "can_buy_with_campaign_favors": ["Solstryker Relic x5", "Bevlorin Relic x5", "Jagadrix Relic x5"],
+      "can_buy_with_gold": ["Epic Core x20", "Meat x200"],
+      "recommended_now": "Save Campaign Favors unless buying Jagadrix x5 for the Spearmen gold-standard army; avoid gold spend unless Epic Core is an immediate bottleneck."
+    }
+  }
+}
