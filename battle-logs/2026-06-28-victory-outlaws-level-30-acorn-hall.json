@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-28T00:47:21Z",
+    "added_at_utc": "2026-06-28",
+    "screenshots": [
+      "47CB8D96-A790-4452-ADEC-C458EA0E1E97.jpeg",
+      "03DAFEF0-A538-4A4F-8759-60E615918B41.jpeg",
+      "E6C967B6-EC58-494D-A735-F96781CAEB6A.jpeg"
+    ],
+    "capture_scope": "full_battle_summary_and_damage_breakdown"
+  },
+  "battle": {
+    "result": "victory",
+    "report_title": "Victory Outlaws, Level 30",
+    "enemy_type": "Outlaws",
+    "enemy_level": 30,
+    "location": "Acorn Hall (1168, 1429)",
+    "difficulty_label": "Easy",
+    "report_flags": ["Affinity"],
+    "notes": [
+      "Gold-standard Shieldbearer army cleared the encounter with very low losses.",
+      "This report uses the current default orientation: Rhysarion left, Vhagar vanguard, Malachite right."
+    ]
+  },
+  "player_side": {
+    "role": "attacker/player",
+    "player_name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Shieldbearers",
+    "troops_start_or_capacity": 21321,
+    "troops_end": 21112,
+    "troop_losses": 209,
+    "troop_loss_percent_of_capacity": 0.98,
+    "affinity_bonus": "+20% to Dragon Stats",
+    "army": [
+      {
+        "lane": "left_flank",
+        "dragon": "Rhysarion",
+        "level": 41,
+        "troops_end": 7365,
+        "troops_max": 7517,
+        "troop_losses": 152,
+        "kills_total": 2206,
+        "kill_share_percent": 25.36,
+        "command": "Dawnsong",
+        "command_uses": 2,
+        "command_kills": 724,
+        "command_recovery": 0,
+        "basic_attacks": 4,
+        "basic_attack_kills": 1482,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Vhagar",
+        "level": 42,
+        "troops_end": 6973,
+        "troops_max": 7003,
+        "troop_losses": 30,
+        "kills_total": 3248,
+        "kill_share_percent": 37.33,
+        "command": "Fiery Bonds",
+        "command_uses": 3,
+        "command_kills": 1459,
+        "command_recovery": 0,
+        "basic_attacks": 6,
+        "basic_attack_kills": 1789,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Malachite",
+        "level": 40,
+        "troops_end": 6774,
+        "troops_max": 6801,
+        "troop_losses": 27,
+        "kills_total": 3246,
+        "kill_share_percent": 37.31,
+        "command": "Warden's Rally",
+        "command_uses": 4,
+        "command_kills": 976,
+        "command_recovery": 354,
+        "basic_attacks": 6,
+        "basic_attack_kills": 2270,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "defender/encounter",
+    "name": "Outlaws, Level 30",
+    "troop_type": "Shieldbearers",
+    "troops_start": 8700,
+    "troops_end": 0,
+    "troop_losses": 8700,
+    "army": [
+      {
+        "lane": "left_flank",
+        "unit": "Outlaws",
+        "level": 30,
+        "troops_end": 0,
+        "troops_max": 2900,
+        "kills_total": 420,
+        "command": "Torchbearer's Trick",
+        "command_uses": 5,
+        "command_kills": 207,
+        "command_recovery": 0,
+        "basic_attacks": 6,
+        "basic_attack_kills": 213,
+        "affinity_bonus": "No Bonus"
+      },
+      {
+        "lane": "vanguard",
+        "unit": "Outlaws",
+        "level": 30,
+        "troops_end": 0,
+        "troops_max": 2900,
+        "kills_total": 67,
+        "command": "Torchbearer's Trick",
+        "command_uses": 1,
+        "command_kills": 16,
+        "command_recovery": 0,
+        "basic_attacks": 4,
+        "basic_attack_kills": 51,
+        "affinity_bonus": "No Bonus"
+      },
+      {
+        "lane": "right_flank",
+        "unit": "Outlaws",
+        "level": 30,
+        "troops_end": 0,
+        "troops_max": 2900,
+        "kills_total": 151,
+        "command": "Torchbearer's Trick",
+        "command_uses": 3,
+        "command_kills": 50,
+        "command_recovery": 0,
+        "basic_attacks": 5,
+        "basic_attack_kills": 101,
+        "affinity_bonus": "No Bonus"
+      }
+    ]
+  },
+  "derived_metrics": {
+    "enemy_troops_removed": 8700,
+    "player_troops_lost": 209,
+    "enemy_to_player_loss_ratio": 41.63,
+    "remaining_player_troop_percent_of_capacity": 99.02,
+    "highest_total_kills": "Vhagar 3,248",
+    "highest_basic_attack_kills": "Malachite 2,270",
+    "highest_command_kills": "Vhagar Fiery Bonds 1,459",
+    "only_player_recovery_captured": "Malachite Warden's Rally 354",
+    "swap_signal": "Keep Rhysarion left, Vhagar vanguard, Malachite right as default for low-risk non-player farming; no evidence to swap Vhagar or Malachite from this report."
+  },
+  "rewards": {
+    "grain": 2700,
+    "wood": 2700,
+    "stone": 2700,
+    "iron": 2700
+  },
+  "recommendation_tags": [
+    "gold_standard_confirmed",
+    "keep_vhagar_vanguard",
+    "keep_malachite_right_for_this_orientation",
+    "rhysarion_safe_left",
+    "low_loss_farming_clear"
+  ]
+}
