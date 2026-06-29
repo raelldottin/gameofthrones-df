@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-28T23:01:31Z",
+    "added_at_utc": "2026-06-29",
+    "screenshots": [
+      "2746F280-2067-4618-9DBB-E9F1780D1482.jpeg",
+      "FE642F15-EBB1-43EA-8CCC-742B806D2483.jpeg",
+      "C79339D5-6DE0-4C73-AE8F-A1235E138ACB.jpeg",
+      "FEFB1E6D-4AA0-4B9E-B96A-B95340AA15A7.jpeg",
+      "87BF9A8B-2111-46AB-9E8E-B04A1582FAF9.jpeg",
+      "D83898F1-6806-4726-A63B-81D733D463AF.jpeg"
+    ],
+    "capture_scope": "troop_formation_round_totals_and_visible_preparation_stats"
+  },
+  "battle": {
+    "report_title": "Defended Lv. 1 Field",
+    "location": "Pinkmaiden (1024, 1336)",
+    "time_utc": "2026-06-28T23:01:31Z",
+    "result": "stalemate",
+    "rounds": 10,
+    "notes": [
+      "Both armies still had troops remaining after 10 rounds; enemy regrouping message visible.",
+      "This is a player-vs-player field defense report against Leoptero [Nomercy].",
+      "The player Spearmen gold-standard army did not finish the enemy Shieldbearer defense within 10 rounds."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Spearmen",
+    "start_troops": 22764,
+    "end_troops": 7555,
+    "troop_losses": 15209,
+    "loss_percent_of_start": 66.82,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Crimson",
+        "level": 40,
+        "start_troops": 7058,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Dawnseeker",
+        "level": 43,
+        "start_troops": 7362,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Jagadrix",
+        "level": 44,
+        "start_troops": 8344,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "opposing_player",
+    "name": "Leoptero",
+    "alliance": "Nomercy",
+    "troop_type": "Shieldbearers",
+    "start_troops": 24048,
+    "end_troops": 17044,
+    "troop_losses": 7004,
+    "loss_percent_of_start": 29.13,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Velar",
+        "level": 42,
+        "start_troops": 7876,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Vhagar",
+        "level": 42,
+        "start_troops": 8926,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Feskar",
+        "level": 42,
+        "start_troops": 7246,
+        "affinity_bonus": "No Bonus"
+      }
+    ]
+  },
+  "round_totals": [
+    {
+      "round": 1,
+      "player_troops": 21677,
+      "enemy_troops": 23335,
+      "player_round_loss": 1087,
+      "enemy_round_loss": 713,
+      "net_round_trade_for_player": -374
+    },
+    {
+      "round": 2,
+      "player_troops": 19738,
+      "enemy_troops": 21662,
+      "player_round_loss": 1939,
+      "enemy_round_loss": 1673,
+      "net_round_trade_for_player": -266
+    },
+    {
+      "round": 3,
+      "player_troops": 18168,
+      "enemy_troops": 21106,
+      "player_round_loss": 1570,
+      "enemy_round_loss": 556,
+      "net_round_trade_for_player": -1014
+    },
+    {
+      "round": 4,
+      "player_troops": 16267,
+      "enemy_troops": 20673,
+      "player_round_loss": 1901,
+      "enemy_round_loss": 433,
+      "net_round_trade_for_player": -1468
+    },
+    {
+      "round": 5,
+      "player_troops": 14934,
+      "enemy_troops": 19614,
+      "player_round_loss": 1333,
+      "enemy_round_loss": 1059,
+      "net_round_trade_for_player": -274
+    },
+    {
+      "round": 6,
+      "player_troops": 13717,
+      "enemy_troops": 19060,
+      "player_round_loss": 1217,
+      "enemy_round_loss": 554,
+      "net_round_trade_for_player": -663
+    },
+    {
+      "round": 7,
+      "player_troops": 12065,
+      "enemy_troops": 18685,
+      "player_round_loss": 1652,
+      "enemy_round_loss": 375,
+      "net_round_trade_for_player": -1277
+    },
+    {
+      "round": 8,
+      "player_troops": 10689,
+      "enemy_troops": 17776,
+      "player_round_loss": 1376,
+      "enemy_round_loss": 909,
+      "net_round_trade_for_player": -467
+    },
+    {
+      "round": 9,
+      "player_troops": 9029,
+      "enemy_troops": 17378,
+      "player_round_loss": 1660,
+      "enemy_round_loss": 398,
+      "net_round_trade_for_player": -1262
+    },
+    {
+      "round": 10,
+      "player_troops": 7555,
+      "enemy_troops": 17044,
+      "player_round_loss": 1474,
+      "enemy_round_loss": 334,
+      "net_round_trade_for_player": -1140
+    }
+  ],
+  "derived_metrics": {
+    "starting_troop_deficit": 1284,
+    "ending_troop_deficit": 9489,
+    "enemy_to_player_loss_ratio": 0.46,
+    "player_to_enemy_loss_ratio": 2.17,
+    "player_removed_enemy_percent": 29.13,
+    "enemy_removed_player_percent": 66.82,
+    "rounds_player_traded_ahead": 0,
+    "rounds_enemy_traded_ahead": 10,
+    "worst_trade_rounds_for_player": [4, 7, 9, 10, 3]
+  },
+  "visible_preparation_stats_player_side": [
+    {"stat": "Sentinel Damage", "value_percent": 9.176},
+    {"stat": "Cavalry Damage", "value_percent": 9.0},
+    {"stat": "All Breeds Intelligence", "value_percent": 19.0},
+    {"stat": "Sentinel Damage vs RSS Defenders", "value_percent": 2.579},
+    {"stat": "Siege Damage", "value_percent": 45.0},
+    {"stat": "Champion Incoming Damage", "value_percent": -2.4},
+    {"stat": "Sentinel Instinct", "value_percent": 0.179},
+    {"stat": "Champion Incoming Damage vs RSS Defenders", "value_percent": -2.579},
+    {"stat": "Warrior Damage vs RSS Defenders", "value_percent": 2.579},
+    {"stat": "Warrior Incoming Damage", "value_percent": -2.4},
+    {"stat": "Champion Damage vs RSS Defenders", "value_percent": 2.579},
+    {"stat": "Shieldbearers Damage", "value_percent": 11.2},
+    {"stat": "Damage vs Non-Player Armies", "value_percent": 22.5},
+    {"stat": "Sentinel Incoming Damage vs RSS Defenders", "value_percent": -2.579},
+    {"stat": "Hunter Damage", "value_percent": 5.176},
+    {"stat": "Damage vs Seat of Power", "value_percent": 5.0}
+  ],
+  "analysis_tags": [
+    "pvp_stalemate",
+    "spearmen_engine_failed_to_finish",
+    "enemy_shieldbearer_tank_sustain_won_trade",
+    "position_alignment_problem_possible",
+    "test_jagadrix_left_dawnseeker_center_crimson_right_next"
+  ]
+}
