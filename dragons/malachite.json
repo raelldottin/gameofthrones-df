@@ -1,10 +1,10 @@
 {
   "name": "Malachite",
-  "observed_date": "2026-06-26",
+  "observed_date": "2026-06-29",
   "rarity": "Legendary",
   "class": "Sentinel",
   "subclass": "Sentinel Whelp",
-  "level": 37,
+  "level": 41,
   "stars": 2,
   "relic_progress": {
     "current": 45,
@@ -33,22 +33,22 @@
     }
   },
   "stats": {
-    "strength": 159.1,
-    "instinct": 187.7,
-    "intelligence": 146.9,
-    "initiative": 168.6,
+    "strength": 174.0,
+    "instinct": 204.6,
+    "intelligence": 159.9,
+    "initiative": 183.5,
     "speed": "Fast",
     "energy": {
-      "current": 58,
+      "current": 19,
       "maximum": 100
     }
   },
   "xp": {
-    "current": 185366,
-    "required": 267684
+    "current": 305743,
+    "required": 600409
   },
-  "displayed_troop_capacity": 5990.0,
-  "displayed_power": 25620,
+  "displayed_troop_capacity": 7159.0,
+  "displayed_power": 29120,
   "confirmed_positive_affinities": [
     "Cavalry",
     "Shieldbearers"
@@ -58,16 +58,21 @@
   ],
   "inventory_snapshot": {
     "legendary_cores": 10,
-    "green_sentinel_habit_cores": 142,
-    "gold": 735
+    "sentinel_breedmarks": 182,
+    "gold": 210
   },
   "habits": [
     {
       "name": "Forest's Instinct",
       "unlock_at_stars": 2,
       "currently_unlocked": true,
-      "current_level": 1,
+      "current_level": 2,
       "effect": "Each round, has a 35% chance to increase Physical Damage Dealt, excluding Basic Attacks, and reduce Tactical Damage Received for 2 other allies in any lane for 2 rounds.",
+      "observed_current_level_effect": {
+        "physical_damage_dealt_percent": 9.6,
+        "tactical_damage_received_percent": -9.6,
+        "display_text_note": "The June 29 screenshot description displays Tactical Damage Received as -9%, while the table level-2 value shows -9.6%. The table value is preserved as the normalized value."
+      },
       "fixed_values": {
         "trigger_chance_percent": 35.0,
         "target_count": 2,
@@ -83,8 +88,16 @@
         {"level": 5, "physical_damage_dealt_percent": 16.0, "tactical_damage_received_percent": -16.0, "power": 3100}
       ],
       "next_upgrade_observed_cost": {
-        "legendary_cores": 100,
-        "green_sentinel_habit_cores": 100
+        "from_level": 2,
+        "to_level": 3,
+        "legendary_cores_required": 200,
+        "sentinel_breedmarks_required": 200,
+        "current_legendary_cores": 10,
+        "current_sentinel_breedmarks": 182,
+        "missing_legendary_cores": 190,
+        "missing_sentinel_breedmarks": 18,
+        "gold_button_displayed": 36,
+        "gold_button_note": "Attempting upgrade showed Not Enough Resources. The 36 Gold appears to cover only the missing Sentinel Breedmarks, not the missing Legendary Cores. Do not treat 36 Gold as the complete upgrade price."
       }
     },
     {
@@ -166,7 +179,7 @@
       ]
     }
   ],
-  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source": "Dragon Pit screenshots supplied June 26 and June 29, 2026",
   "source_screenshots": [
     "CB259090-B55F-4CE6-900B-D367DE7789E0.jpeg",
     "99A80441-C3A5-4169-86AA-5B7848A1EC0B.jpeg",
@@ -175,6 +188,8 @@
     "719C8986-AAF1-4E6E-8C6C-B93689DAEEFE.jpeg",
     "0CA381EB-AAE7-45AE-B33B-DEF5FB214CFC.jpeg",
     "5DB72A80-7C59-4227-8913-5F3C54D9F2E1.jpeg",
-    "FBE9361A-85B1-42CB-9753-7BDB6C2E2B57.jpeg"
+    "FBE9361A-85B1-42CB-9753-7BDB6C2E2B57.jpeg",
+    "D40A46B1-7FFF-49BC-8B80-8521180974E2.jpeg",
+    "EF2E1AF6-C030-44B6-B7EB-EAA8BAC573D6.jpeg"
   ]
 }
