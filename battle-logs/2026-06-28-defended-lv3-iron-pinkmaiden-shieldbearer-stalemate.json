@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-28T23:05:00Z",
+    "added_at_utc": "2026-06-29",
+    "screenshots": [
+      "C8E5515B-A4EB-44F1-A6A6-770D6D149798.jpeg",
+      "41BBE683-89EC-40D6-91CD-31F44E97EBD3.jpeg",
+      "E8C2303C-7B53-4690-B804-156B9599260D.jpeg",
+      "BE10F854-FCBF-42EB-A200-9F58C7DBC761.jpeg",
+      "53D2227B-4498-4580-8A8A-0BFF81EF5F7F.jpeg"
+    ],
+    "capture_scope": "troop_formation_and_round_totals"
+  },
+  "battle": {
+    "report_title": "Defended Lv. 3 Iron",
+    "location": "Pinkmaiden (1022, 1337)",
+    "time_utc": "2026-06-28T23:05:00Z",
+    "result": "stalemate",
+    "rounds": 10,
+    "notes": [
+      "Both armies still had troops remaining after 10 rounds; enemy regrouping message visible.",
+      "This is a player-vs-player field defense report against Spite [GodOfWar].",
+      "The player's Shieldbearer sustain army started with a large troop advantage but did not finish the enemy Spearmen army."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Shieldbearers",
+    "start_troops": 21681,
+    "end_troops": 8261,
+    "troop_losses": 13420,
+    "loss_percent_of_start": 61.9,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Nyrena",
+        "level": 41,
+        "start_troops": 7159,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Velar",
+        "level": 42,
+        "start_troops": 7261,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Arrax",
+        "level": 42,
+        "start_troops": 7261,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "opposing_player",
+    "name": "Spite",
+    "alliance": "GodOfWar",
+    "troop_type": "Spearmen",
+    "start_troops": 16616,
+    "end_troops": 6775,
+    "troop_losses": 9841,
+    "loss_percent_of_start": 59.23,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Syrax",
+        "level": 36,
+        "start_troops": 5558,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Caraxes",
+        "level": 37,
+        "start_troops": 5680,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Vaeldra",
+        "level": 36,
+        "start_troops": 5378,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "round_totals": [
+    {"round": 1, "player_troops": 20135, "enemy_troops": 15663, "player_round_loss": 1546, "enemy_round_loss": 953, "net_round_trade_for_player": -593},
+    {"round": 2, "player_troops": 19310, "enemy_troops": 14648, "player_round_loss": 825, "enemy_round_loss": 1015, "net_round_trade_for_player": 190},
+    {"round": 3, "player_troops": 15904, "enemy_troops": 13369, "player_round_loss": 3406, "enemy_round_loss": 1279, "net_round_trade_for_player": -2127},
+    {"round": 4, "player_troops": 14837, "enemy_troops": 12330, "player_round_loss": 1067, "enemy_round_loss": 1039, "net_round_trade_for_player": -28},
+    {"round": 5, "player_troops": 13935, "enemy_troops": 10723, "player_round_loss": 902, "enemy_round_loss": 1607, "net_round_trade_for_player": 705},
+    {"round": 6, "player_troops": 11816, "enemy_troops": 9866, "player_round_loss": 2119, "enemy_round_loss": 857, "net_round_trade_for_player": -1262},
+    {"round": 7, "player_troops": 11083, "enemy_troops": 8723, "player_round_loss": 733, "enemy_round_loss": 1143, "net_round_trade_for_player": 410},
+    {"round": 8, "player_troops": 10590, "enemy_troops": 8084, "player_round_loss": 493, "enemy_round_loss": 639, "net_round_trade_for_player": 146},
+    {"round": 9, "player_troops": 8666, "enemy_troops": 7198, "player_round_loss": 1924, "enemy_round_loss": 886, "net_round_trade_for_player": -1038},
+    {"round": 10, "player_troops": 8261, "enemy_troops": 6775, "player_round_loss": 405, "enemy_round_loss": 423, "net_round_trade_for_player": 18}
+  ],
+  "derived_metrics": {
+    "starting_troop_advantage": 5065,
+    "ending_troop_advantage": 1486,
+    "troop_advantage_lost_over_battle": 3579,
+    "player_troops_lost": 13420,
+    "enemy_troops_lost": 9841,
+    "player_to_enemy_loss_ratio": 1.36,
+    "enemy_to_player_loss_ratio": 0.73,
+    "player_removed_enemy_percent": 59.23,
+    "enemy_removed_player_percent": 61.9,
+    "rounds_player_traded_ahead": 5,
+    "rounds_enemy_traded_ahead": 5,
+    "largest_player_loss_rounds": [3, 6, 9, 1, 4],
+    "largest_positive_trade_rounds_for_player": [5, 7, 2, 8, 10]
+  },
+  "analysis_tags": [
+    "pvp_stalemate",
+    "shieldbearer_sustain_army",
+    "nyrena_velar_arrax_orientation",
+    "started_with_troop_advantage_but_failed_to_finish",
+    "enemy_caraxes_command_timing_possible_spike",
+    "requires_position_and_matchup_testing"
+  ]
+}
