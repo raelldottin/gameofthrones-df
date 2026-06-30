@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshot",
+    "captured_at_utc": "2026-06-30T06:55:22Z",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "992A3CC7-A3B6-4972-BDBE-F40B93F34646.jpeg"
+    ],
+    "capture_scope": "report_summary_card_final_troops_affinity_and_result"
+  },
+  "battle": {
+    "report_title": "Victory Black Goat, Level 35",
+    "location": "Haystack Hall (1774, 846)",
+    "time_utc": "2026-06-30T06:55:22Z",
+    "result": "victory",
+    "encounter_type": "pve_black_goat",
+    "displayed_difficulty": "Easy",
+    "notes": [
+      "Player Archers had troop-type disadvantage: -7% damage.",
+      "Enemy Shieldbearers had troop-type advantage: +7% damage.",
+      "Only Vhagar and Syrax received +20% to Dragon Stats. Caraxes showed No Bonus.",
+      "This confirms Caraxes should not be used in Archer affinity planning unless future evidence contradicts this report.",
+      "The army cleared the encounter, but lost 5,253 troops, so it is not a low-loss army."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Archers",
+    "troop_type_modifier": "Disadvantage (-7% DMG)",
+    "start_troops": 21377,
+    "end_troops": 16124,
+    "troop_losses": 5253,
+    "loss_percent_of_start": 24.57,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Caraxes",
+        "level": 35,
+        "end_troops": 4744,
+        "start_troops": 6551,
+        "troop_losses": 1807,
+        "affinity_bonus": "No Bonus"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Vhagar",
+        "level": 44,
+        "end_troops": 5346,
+        "start_troops": 7464,
+        "troop_losses": 2118,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Syrax",
+        "level": 43,
+        "end_troops": 6034,
+        "start_troops": 7362,
+        "troop_losses": 1328,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "pve_enemy",
+    "name": "Black Goat",
+    "level": 35,
+    "troop_type": "Shieldbearers",
+    "troop_type_modifier": "Advantage (+7% DMG)",
+    "start_troops": 19500,
+    "end_troops": 0,
+    "troop_losses": 19500,
+    "loss_percent_of_start": 100.0,
+    "formation": [
+      {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+    ]
+  },
+  "derived_metrics": {
+    "enemy_troops_removed": 19500,
+    "player_troops_lost": 5253,
+    "enemy_removed_to_player_loss_ratio": 3.71,
+    "player_retention_percent": 75.43,
+    "enemy_removed_percent": 100.0,
+    "lossiest_player_dragon": "Vhagar",
+    "lossiest_player_dragon_losses": 2118,
+    "second_lossiest_player_dragon": "Caraxes",
+    "second_lossiest_player_dragon_losses": 1807,
+    "least_lossy_player_dragon": "Syrax",
+    "least_lossy_player_dragon_losses": 1328,
+    "affinity_completion": "2/3 Archer affinity only; Caraxes had No Bonus",
+    "low_loss_classification": "Not low loss"
+  },
+  "analysis_tags": [
+    "pve_victory",
+    "black_goat_level_35",
+    "archer_disadvantage_vs_shieldbearers",
+    "caraxes_no_archer_bonus",
+    "vhagar_syrx_archer_affinity_confirmed",
+    "full_clear_but_high_losses",
+    "not_low_loss_army",
+    "do_not_use_caraxes_in_archer_gold_standard"
+  ]
+}
