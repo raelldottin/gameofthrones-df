@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshot",
+    "captured_at_utc": "2026-06-30T10:58:39Z",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "559CC359-995D-4379-84F1-217B78C059F9.jpeg"
+    ],
+    "capture_scope": "report_summary_card_final_troops_affinity_and_result"
+  },
+  "battle": {
+    "report_title": "Victory Black Goat, Level 35",
+    "location": "Evenfall Hall (1930, 821)",
+    "time_utc": "2026-06-30T10:58:39Z",
+    "result": "victory",
+    "encounter_type": "pve_black_goat",
+    "displayed_difficulty": "Favorable",
+    "notes": [
+      "The report shows 3 green affinity markers and all three player dragons received +20% to Dragon Stats.",
+      "Troop-type advantage/disadvantage text is not visible on the summary card, so the matchup modifier is recorded as not visible rather than assumed.",
+      "This report validates Arrax / Velar / Vhagar as a complete-affinity Shieldbearer damage shell.",
+      "The army improved over the previous Arrax / Velar / Nyrena low-loss failure, but 3,628 total troop loss means it is not strict low-loss yet."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Shieldbearers",
+    "troop_type_modifier": "not_visible_on_summary_card",
+    "start_troops": 22517,
+    "end_troops": 18889,
+    "troop_losses": 3628,
+    "loss_percent_of_start": 16.11,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Arrax",
+        "level": 43,
+        "end_troops": 6779,
+        "start_troops": 7792,
+        "troop_losses": 1013,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Velar",
+        "level": 42,
+        "end_troops": 6610,
+        "start_troops": 7261,
+        "troop_losses": 651,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Vhagar",
+        "level": 44,
+        "end_troops": 5500,
+        "start_troops": 7464,
+        "troop_losses": 1964,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "pve_enemy",
+    "name": "Black Goat",
+    "level": 35,
+    "troop_type": "Spearmen",
+    "troop_type_modifier": "not_visible_on_summary_card",
+    "start_troops": 19500,
+    "end_troops": 0,
+    "troop_losses": 19500,
+    "loss_percent_of_start": 100.0,
+    "formation": [
+      {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+    ]
+  },
+  "derived_metrics": {
+    "enemy_troops_removed": 19500,
+    "player_troops_lost": 3628,
+    "enemy_removed_to_player_loss_ratio": 5.37,
+    "player_retention_percent": 83.89,
+    "enemy_removed_percent": 100.0,
+    "lossiest_player_dragon": "Vhagar",
+    "lossiest_player_dragon_losses": 1964,
+    "most_stable_player_dragon": "Velar",
+    "most_stable_player_dragon_losses": 651,
+    "affinity_completion": "3/3 Shieldbearer affinity",
+    "comparison_to_arrax_velar_nyrena": {
+      "prior_army": "Arrax / Velar / Nyrena",
+      "prior_report_player_losses": 4804,
+      "current_report_player_losses": 3628,
+      "loss_reduction": 1176,
+      "loss_reduction_percent": 24.48
+    },
+    "low_loss_classification": "Moderate loss; better than Arrax / Velar / Nyrena, but not strict low-loss under the 1500-loss standard"
+  },
+  "analysis_tags": [
+    "pve_victory",
+    "black_goat_level_35",
+    "arrax_velar_vhagar",
+    "shieldbearer_damage_shell_locked",
+    "full_shieldbearer_affinity_confirmed",
+    "better_than_arrax_velar_nyrena",
+    "moderate_losses",
+    "not_strict_low_loss_yet"
+  ]
+}
