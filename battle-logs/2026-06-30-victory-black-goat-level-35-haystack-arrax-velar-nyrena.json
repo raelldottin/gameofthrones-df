@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshot",
+    "captured_at_utc": "2026-06-30T06:32:48Z",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "65B53D84-4A56-4A5F-BFA3-A60A50705B32.jpeg"
+    ],
+    "capture_scope": "report_summary_card_final_troops_affinity_and_result"
+  },
+  "battle": {
+    "report_title": "Victory Black Goat, Level 35",
+    "location": "Haystack Hall (1791, 830)",
+    "time_utc": "2026-06-30T06:32:48Z",
+    "result": "victory",
+    "encounter_type": "pve_black_goat",
+    "displayed_difficulty": "Easy",
+    "notes": [
+      "Player Shieldbearers had troop-type advantage: +7% damage.",
+      "Enemy Archers had troop-type disadvantage: -7% damage.",
+      "All three player dragons received +20% to Dragon Stats, confirming 3/3 Shieldbearer affinity in this report.",
+      "Despite full affinity and troop-type advantage, the army lost 4,804 troops, so this should not be classified as a low-loss army for farming."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Shieldbearers",
+    "troop_type_modifier": "Advantage (+7% DMG)",
+    "start_troops": 22314,
+    "end_troops": 17510,
+    "troop_losses": 4804,
+    "loss_percent_of_start": 21.53,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Arrax",
+        "level": 43,
+        "end_troops": 5816,
+        "start_troops": 7792,
+        "troop_losses": 1976,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Velar",
+        "level": 42,
+        "end_troops": 6305,
+        "start_troops": 7261,
+        "troop_losses": 956,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Nyrena",
+        "level": 42,
+        "end_troops": 5389,
+        "start_troops": 7261,
+        "troop_losses": 1872,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "pve_enemy",
+    "name": "Black Goat",
+    "level": 35,
+    "troop_type": "Archers",
+    "troop_type_modifier": "Disadvantage (-7% DMG)",
+    "start_troops": 19500,
+    "end_troops": 0,
+    "troop_losses": 19500,
+    "loss_percent_of_start": 100.0,
+    "formation": [
+      {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+    ]
+  },
+  "derived_metrics": {
+    "enemy_troops_removed": 19500,
+    "player_troops_lost": 4804,
+    "enemy_removed_to_player_loss_ratio": 4.06,
+    "player_retention_percent": 78.47,
+    "enemy_removed_percent": 100.0,
+    "lossiest_player_dragon": "Arrax",
+    "lossiest_player_dragon_losses": 1976,
+    "second_lossiest_player_dragon": "Nyrena",
+    "second_lossiest_player_dragon_losses": 1872,
+    "vanguard_losses": 956,
+    "affinity_completion": "3/3 Shieldbearer affinity",
+    "low_loss_classification": "Not low loss"
+  },
+  "analysis_tags": [
+    "pve_victory",
+    "black_goat_level_35",
+    "shieldbearer_advantage_vs_archers",
+    "arrax_velar_nyrena",
+    "full_affinity_but_high_losses",
+    "not_low_loss_army",
+    "flanks_bled_heavily"
+  ]
+}
