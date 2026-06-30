@@ -1,13 +1,13 @@
 {
   "name": "Crimson",
-  "observed_date": "2026-06-26",
+  "observed_date": "2026-06-30",
   "rarity": "Legendary",
   "class": "Hunter",
   "subclass": "Hunter Hatchling",
-  "level": 35,
+  "level": 40,
   "stars": 1,
   "relic_progress": {
-    "current": 0,
+    "current": 11,
     "required_for_next_star": 40
   },
   "command": {
@@ -55,15 +55,23 @@
     }
   },
   "xp": {
-    "current": 36815,
-    "required": 218905
+    "current": 235384,
+    "required": 542955
   },
-  "displayed_troop_capacity": 5788.0,
-  "displayed_power": 22400,
+  "displayed_troop_capacity": 7058.0,
+  "displayed_power": 25400,
   "confirmed_positive_affinities": [
     "Spearmen",
     "Archers",
+    "Siege"
+  ],
+  "observed_no_bonus_troop_types": [
     "Cavalry"
+  ],
+  "affinity_correction_notes": [
+    "A June 30 Cavalry battle report shows Crimson receiving No Bonus while Seasmoke and Feskar receive +20% to Dragon Stats in the same Cavalry formation.",
+    "Cavalry has been removed from confirmed_positive_affinities. Prior entries that treated Crimson as Cavalry-positive should be considered superseded by the June 30 evidence.",
+    "The June 29/30 Dragon Pit screenshots visually support Spearmen, Archers, and Siege as Crimson's three positive affinities."
   ],
   "inventory_snapshot": {
     "legendary_cores": 10,
@@ -183,11 +191,11 @@
     }
   ],
   "capture_status": {
-    "profile": "Complete for the supplied screenshot",
+    "profile": "Updated with June 30 affinity correction",
     "command": "Complete",
     "habits": "5 of 5 captured"
   },
-  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source": "Dragon Pit screenshots supplied June 26, 2026; corrected by June 29 and June 30 screenshots/reports",
   "source_screenshots": [
     "A7DC1DBD-0E56-41DF-9A86-1EC9915EA6C2.jpeg",
     "E8F1BBF3-EEAF-4E61-BF84-E987D040B55B.jpeg",
@@ -198,6 +206,8 @@
     "6061EB0D-92BC-4897-B0FF-3C3891D55DD4.jpeg",
     "BA6AB565-A332-426A-9A36-BB8758C378FD.jpeg",
     "EAD3D578-A43A-476F-96CF-BC6F0D32D635.jpeg",
-    "026B5ADA-FE0A-4A2B-907C-7C4CE0359B65.jpeg"
+    "026B5ADA-FE0A-4A2B-907C-7C4CE0359B65.jpeg",
+    "73374676-1D21-4B6D-82E5-42070695EC81.jpeg",
+    "513308A9-01B7-42B2-B72C-0966B840DF63.jpeg"
   ]
 }
