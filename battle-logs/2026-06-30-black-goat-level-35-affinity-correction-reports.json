@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-30",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "513308A9-01B7-42B2-B72C-0966B840DF63.jpeg",
+      "AE30A1A8-EF2B-4DFC-A280-D1E5EE614465.jpeg"
+    ],
+    "capture_scope": "report_summary_cards_and_dragon_affinity_bonus_results"
+  },
+  "reports": [
+    {
+      "report_title": "Stalemate Black Goat, Level 35",
+      "location": "Evenfall Hall (1934, 786)",
+      "time_utc": "2026-06-30T06:00:05Z",
+      "result": "stalemate",
+      "encounter_type": "pve_black_goat",
+      "displayed_difficulty": "Favorable",
+      "attacker_side": {
+        "name": "jadakiss",
+        "alliance": "WILDFIREE",
+        "troop_type": "Cavalry",
+        "troop_type_modifier": "Disadvantage (-7% DMG)",
+        "start_troops": 21580,
+        "end_troops": 15310,
+        "troop_losses": 6270,
+        "loss_percent_of_start": 29.05,
+        "formation": [
+          {"lane": "left_flank", "dragon": "Crimson", "level": 40, "end_troops": 4856, "start_troops": 7058, "affinity_bonus": "No Bonus"},
+          {"lane": "vanguard", "dragon": "Seasmoke", "level": 44, "end_troops": 5877, "start_troops": 7464, "affinity_bonus": "+20% to Dragon Stats"},
+          {"lane": "right_flank", "dragon": "Feskar", "level": 40, "end_troops": 4577, "start_troops": 7058, "affinity_bonus": "+20% to Dragon Stats"}
+        ]
+      },
+      "defender_side": {
+        "name": "Black Goat",
+        "level": 35,
+        "troop_type": "Spearmen",
+        "troop_type_modifier": "Advantage (+7% DMG)",
+        "start_troops": 19500,
+        "end_troops": 4897,
+        "troop_losses": 14603,
+        "loss_percent_of_start": 74.89,
+        "formation": [
+          {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 2121, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+          {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+          {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 2776, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+        ]
+      },
+      "derived_metrics": {
+        "enemy_troops_removed": 14603,
+        "player_troops_lost": 6270,
+        "enemy_removed_to_player_loss_ratio": 2.33,
+        "player_retention_percent": 70.95,
+        "enemy_removed_percent": 74.89,
+        "enemy_troops_remaining": 4897,
+        "affinity_completion": "2/3 Cavalry affinity only; Crimson had No Bonus"
+      },
+      "analysis_tags": [
+        "pve_stalemate",
+        "cavalry_disadvantage_into_spearmen",
+        "crimson_no_cavalry_bonus",
+        "incomplete_affinity",
+        "do_not_use_as_cavalry_gold_standard"
+      ]
+    },
+    {
+      "report_title": "Victory Black Goat, Level 35",
+      "location": "Evenfall Hall (1947, 706)",
+      "time_utc": "2026-06-30T05:59:09Z",
+      "result": "victory",
+      "encounter_type": "pve_black_goat",
+      "displayed_difficulty": "Easy",
+      "attacker_side": {
+        "name": "jadakiss",
+        "alliance": "WILDFIREE",
+        "troop_type": "Spearmen",
+        "troop_type_modifier": "Advantage (+7% DMG)",
+        "start_troops": 21308,
+        "end_troops": 17282,
+        "troop_losses": 4026,
+        "loss_percent_of_start": 18.89,
+        "formation": [
+          {"lane": "left_flank", "dragon": "Tashix", "level": 45, "end_troops": 5876, "start_troops": 7565, "affinity_bonus": "No Bonus"},
+          {"lane": "vanguard", "dragon": "Vaeldra", "level": 36, "end_troops": 5948, "start_troops": 7192, "affinity_bonus": "+20% to Dragon Stats"},
+          {"lane": "right_flank", "dragon": "Zivern", "level": 35, "end_troops": 5458, "start_troops": 6551, "affinity_bonus": "No Bonus"}
+        ]
+      },
+      "defender_side": {
+        "name": "Black Goat",
+        "level": 35,
+        "troop_type": "Cavalry",
+        "troop_type_modifier": "Disadvantage (-7% DMG)",
+        "start_troops": 19500,
+        "end_troops": 0,
+        "troop_losses": 19500,
+        "loss_percent_of_start": 100.0,
+        "formation": [
+          {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+          {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+          {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+        ]
+      },
+      "derived_metrics": {
+        "enemy_troops_removed": 19500,
+        "player_troops_lost": 4026,
+        "enemy_removed_to_player_loss_ratio": 4.84,
+        "player_retention_percent": 81.11,
+        "enemy_removed_percent": 100.0,
+        "affinity_completion": "1/3 Spearmen affinity only; Vaeldra had +20%, Tashix and Zivern had No Bonus"
+      },
+      "analysis_tags": [
+        "pve_victory",
+        "spearmen_advantage_into_cavalry",
+        "vaeldra_only_spearmen_bonus",
+        "tashix_no_spearmen_bonus",
+        "zivern_no_spearmen_bonus",
+        "victory_but_incomplete_affinity"
+      ]
+    }
+  ],
+  "cross_report_findings": [
+    "Crimson should not be treated as confirmed Cavalry affinity after the Cavalry report showed No Bonus.",
+    "Zivern should not be treated as confirmed Spearmen affinity after the Spearmen report showed No Bonus.",
+    "Troop-type advantage can carry incomplete-affinity PvE armies, but those clears should not be promoted to gold-standard armies."
+  ]
+}
