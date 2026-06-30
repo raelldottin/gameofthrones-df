@@ -1,10 +1,10 @@
 {
   "name": "Zivern",
-  "observed_date": "2026-06-26",
+  "observed_date": "2026-06-30",
   "rarity": "Epic",
   "class": "Sentinel",
   "subclass": "Sentinel Hatchling",
-  "level": 30,
+  "level": 35,
   "stars": 1,
   "relic_progress": {
     "current": 8,
@@ -46,11 +46,17 @@
     "current": 7,
     "required": 132385
   },
-  "displayed_troop_capacity": 5282.0,
+  "displayed_troop_capacity": 6551.0,
   "displayed_power": 13950,
   "confirmed_positive_affinities": [
-    "Archers",
+    "Archers"
+  ],
+  "observed_no_bonus_troop_types": [
     "Spearmen"
+  ],
+  "affinity_correction_notes": [
+    "A June 30 Spearmen Black Goat report shows Zivern receiving No Bonus while Vaeldra receives +20% to Dragon Stats in the same Spearmen formation.",
+    "Spearmen has been removed from confirmed_positive_affinities. Prior entries that treated Zivern as Spearmen-positive should be considered superseded by the June 30 evidence."
   ],
   "current_inventory_snapshot": {
     "purple_rarity_cores": 25,
@@ -174,11 +180,11 @@
     }
   ],
   "capture_status": {
-    "profile": "Complete for the supplied screenshot",
+    "profile": "Updated with June 30 affinity correction",
     "command": "Complete",
     "habits": "5 of 5 captured"
   },
-  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source": "Dragon Pit screenshots supplied June 26, 2026; corrected by June 30 Spearmen battle report",
   "source_screenshots": [
     "A388AA0C-E1D6-4220-A52C-9C3BCE4595E2.jpeg",
     "961B6D42-E1A9-4612-BE60-F2EF35744030.jpeg",
@@ -187,6 +193,7 @@
     "E916DD02-06AB-4C92-849C-306C54966A8B.jpeg",
     "5CF807E3-9422-47CE-A261-03FC73AA9717.jpeg",
     "41E6B7B7-AC98-4B0F-90B6-2DEF35C7C595.jpeg",
-    "571DE979-01BE-405A-9CAE-BEBED1ED4B71.jpeg"
+    "571DE979-01BE-405A-9CAE-BEBED1ED4B71.jpeg",
+    "AE30A1A8-EF2B-4DFC-A280-D1E5EE614465.jpeg"
   ]
 }
