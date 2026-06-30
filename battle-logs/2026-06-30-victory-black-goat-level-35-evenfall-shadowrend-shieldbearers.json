@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshots",
+    "captured_at_utc": "2026-06-30T06:00:10Z",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "163579E2-086C-4BA0-A13D-86BC691A22AB.jpeg",
+      "D6028504-E278-4123-891F-CBD0744ED39D.jpeg",
+      "54BD20B0-5B9F-422D-9C2E-189345202929.jpeg",
+      "6E81AE33-AB2D-4A1E-AB5E-BA7C57196238.jpeg",
+      "AAFE7B2C-28F2-45C8-A2E5-7654F9DF8B19.jpeg"
+    ],
+    "capture_scope": "troop_formation_round_totals_and_result"
+  },
+  "battle": {
+    "report_title": "Black Goat, Level 35",
+    "location": "Evenfall Hall (1920, 776)",
+    "time_utc": "2026-06-30T06:00:10Z",
+    "result": "victory",
+    "rounds": 10,
+    "encounter_type": "pve_black_goat",
+    "notes": [
+      "Player Shieldbearers had troop-type advantage: +7% damage.",
+      "Enemy Archers had disadvantage: -7% damage.",
+      "This is a favorable PvE matchup, not a PvP validation report.",
+      "Rhysarion / Shadowrend / Malachite cleared with very low losses for a level-35 encounter."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Shieldbearers",
+    "troop_type_modifier": "Advantage (+7% DMG)",
+    "start_troops": 21804,
+    "end_troops": 20454,
+    "troop_losses": 1350,
+    "loss_percent_of_start": 6.19,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Rhysarion",
+        "level": 42,
+        "start_troops": 7891,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Shadowrend",
+        "level": 36,
+        "start_troops": 6652,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Malachite",
+        "level": 42,
+        "start_troops": 7261,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "pve_enemy",
+    "name": "Black Goat",
+    "level": 35,
+    "troop_type": "Archers",
+    "troop_type_modifier": "Disadvantage (-7% DMG)",
+    "start_troops": 19500,
+    "end_troops": 0,
+    "troop_losses": 19500,
+    "loss_percent_of_start": 100.0,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Black Goat",
+        "level": 35,
+        "start_troops": 6500,
+        "affinity_bonus": "No Bonus"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Black Goat",
+        "level": 35,
+        "start_troops": 6500,
+        "affinity_bonus": "No Bonus"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Black Goat",
+        "level": 35,
+        "start_troops": 6500,
+        "affinity_bonus": "No Bonus"
+      }
+    ]
+  },
+  "round_totals": [
+    {"round": 1, "player_troops": 21595, "enemy_troops": 17872, "player_round_loss": 209, "enemy_round_loss": 1628, "net_round_trade_for_player": 1419},
+    {"round": 2, "player_troops": 21304, "enemy_troops": 16160, "player_round_loss": 291, "enemy_round_loss": 1712, "net_round_trade_for_player": 1421},
+    {"round": 3, "player_troops": 21340, "enemy_troops": 15113, "player_round_loss": -36, "enemy_round_loss": 1047, "net_round_trade_for_player": 1083},
+    {"round": 4, "player_troops": 21188, "enemy_troops": 11427, "player_round_loss": 152, "enemy_round_loss": 3686, "net_round_trade_for_player": 3534},
+    {"round": 5, "player_troops": 20606, "enemy_troops": 9714, "player_round_loss": 582, "enemy_round_loss": 1713, "net_round_trade_for_player": 1131},
+    {"round": 6, "player_troops": 20622, "enemy_troops": 8322, "player_round_loss": -16, "enemy_round_loss": 1392, "net_round_trade_for_player": 1408},
+    {"round": 7, "player_troops": 20263, "enemy_troops": 4510, "player_round_loss": 359, "enemy_round_loss": 3812, "net_round_trade_for_player": 3453},
+    {"round": 8, "player_troops": 20124, "enemy_troops": 2704, "player_round_loss": 139, "enemy_round_loss": 1806, "net_round_trade_for_player": 1667},
+    {"round": 9, "player_troops": 20462, "enemy_troops": 841, "player_round_loss": -338, "enemy_round_loss": 1863, "net_round_trade_for_player": 2201},
+    {"round": 10, "player_troops": 20454, "enemy_troops": 0, "player_round_loss": 8, "enemy_round_loss": 841, "net_round_trade_for_player": 833}
+  ],
+  "derived_metrics": {
+    "enemy_troops_removed": 19500,
+    "player_troops_lost": 1350,
+    "enemy_removed_to_player_loss_ratio": 14.44,
+    "player_retention_percent": 93.81,
+    "enemy_removed_percent": 100.0,
+    "rounds_player_traded_ahead": 10,
+    "rounds_with_net_player_recovery": [3, 6, 9],
+    "largest_enemy_loss_rounds": [7, 4, 9, 8, 5],
+    "clear_round": 10,
+    "ending_troop_advantage": 20454
+  },
+  "analysis_tags": [
+    "pve_victory",
+    "black_goat_level_35",
+    "shieldbearer_advantage_vs_archers",
+    "rhysarion_shadowrend_malachite",
+    "shadowrend_vanguard_success_in_favorable_pve",
+    "low_loss_clear",
+    "not_pvp_validation"
+  ]
+}
