@@ -1,10 +1,10 @@
 {
   "name": "Thunderstrike",
-  "observed_date": "2026-06-26",
+  "observed_date": "2026-06-30",
   "rarity": "Rare",
   "class": "Warrior",
   "subclass": "Warrior Whelp",
-  "level": 30,
+  "level": 35,
   "stars": 2,
   "relic_progress": {
     "current": 46,
@@ -25,12 +25,15 @@
     "current": 60,
     "required": 132385
   },
-  "displayed_troop_capacity": 5282.0,
+  "displayed_troop_capacity": 6551.0,
   "displayed_power": 11250,
+  "confirmed_positive_affinities": [
+    "Cavalry"
+  ],
   "affinity_capture": {
     "positive_affinity_count": 1,
-    "normalized_troop_type": null,
-    "note": "One positive troop-affinity icon is visible, but its troop type was not normalized from this screenshot set."
+    "normalized_troop_type": "Cavalry",
+    "note": "June 30 Black Goat Level 35 battle report showed Thunderstrike receiving +20% to Dragon Stats in a Cavalry formation with Shimmer and Arulix."
   },
   "current_inventory_snapshot": {
     "blue_rarity_cores": 52,
@@ -173,13 +176,27 @@
       ]
     }
   ],
+  "battle_report_observations": [
+    {
+      "date": "2026-06-30",
+      "report": "Victory Black Goat, Level 35",
+      "location": "Evenfall Hall (1969, 763)",
+      "troop_type": "Cavalry",
+      "affinity_bonus": "+20% to Dragon Stats",
+      "formation": "Shimmer / Thunderstrike / Arulix",
+      "lane": "vanguard",
+      "start_troops": 6551,
+      "end_troops": 5577,
+      "troop_losses": 974
+    }
+  ],
   "capture_status": {
-    "profile": "Complete for the supplied screenshot",
+    "profile": "Updated with June 30 battle-report level, troop capacity, and Cavalry affinity confirmation",
     "command": "Complete",
     "habits": "5 of 5 captured",
-    "affinity": "Icon captured but troop type not normalized"
+    "affinity": "Cavalry confirmed by battle report"
   },
-  "source": "Dragon Pit screenshots supplied June 26, 2026",
+  "source": "Dragon Pit screenshots supplied June 26, 2026; updated by battle report screenshot supplied June 30, 2026",
   "source_screenshots": [
     "ABE956A5-2762-49E3-83B4-2FFF0B80F844.jpeg",
     "598487E0-09D8-41FD-8B14-2910B172E244.jpeg",
@@ -189,6 +206,7 @@
     "214ED70B-B5E6-47C7-998D-DD234471DA45.jpeg",
     "4F2E302C-2859-488B-8738-A8F971F3F48A.jpeg",
     "208BCDB4-E055-4CE0-A20C-848FF2049A07.jpeg",
-    "86B433E4-CF91-41BA-90AD-DEF944169867.jpeg"
+    "86B433E4-CF91-41BA-90AD-DEF944169867.jpeg",
+    "2BD7640D-09AC-4DB2-893D-1C7FF45D8E07.jpeg"
   ]
 }
