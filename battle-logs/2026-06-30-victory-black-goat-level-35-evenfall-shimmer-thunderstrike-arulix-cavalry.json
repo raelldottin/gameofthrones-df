@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "manual_from_screenshot",
+    "captured_at_utc": "2026-06-30T10:24:54Z",
+    "added_at_utc": "2026-06-30",
+    "screenshots": [
+      "2BD7640D-09AC-4DB2-893D-1C7FF45D8E07.jpeg"
+    ],
+    "capture_scope": "report_summary_card_final_troops_affinity_and_result"
+  },
+  "battle": {
+    "report_title": "Victory Black Goat, Level 35",
+    "location": "Evenfall Hall (1969, 763)",
+    "time_utc": "2026-06-30T10:24:54Z",
+    "result": "victory",
+    "encounter_type": "pve_black_goat",
+    "displayed_difficulty": "Favorable",
+    "notes": [
+      "Player Cavalry had troop-type advantage: +7% damage.",
+      "Enemy Shieldbearers had troop-type disadvantage: -7% damage.",
+      "All three player dragons showed +20% to Dragon Stats, confirming 3/3 Cavalry affinity in this report.",
+      "This report validates Shimmer / Thunderstrike / Arulix as a complete-affinity Cavalry damage shell.",
+      "The army won with balanced losses, but 3,070 total troop loss means it is not no-loss or strict low-loss yet."
+    ]
+  },
+  "player_side": {
+    "role": "player",
+    "name": "jadakiss",
+    "alliance": "WILDFIREE",
+    "troop_type": "Cavalry",
+    "troop_type_modifier": "Advantage (+7% DMG)",
+    "start_troops": 21705,
+    "end_troops": 18635,
+    "troop_losses": 3070,
+    "loss_percent_of_start": 14.14,
+    "formation": [
+      {
+        "lane": "left_flank",
+        "dragon": "Shimmer",
+        "level": 43,
+        "end_troops": 6376,
+        "start_troops": 7362,
+        "troop_losses": 986,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "vanguard",
+        "dragon": "Thunderstrike",
+        "level": 35,
+        "end_troops": 5577,
+        "start_troops": 6551,
+        "troop_losses": 974,
+        "affinity_bonus": "+20% to Dragon Stats"
+      },
+      {
+        "lane": "right_flank",
+        "dragon": "Arulix",
+        "level": 43,
+        "end_troops": 6682,
+        "start_troops": 7792,
+        "troop_losses": 1110,
+        "affinity_bonus": "+20% to Dragon Stats"
+      }
+    ]
+  },
+  "enemy_side": {
+    "role": "pve_enemy",
+    "name": "Black Goat",
+    "level": 35,
+    "troop_type": "Shieldbearers",
+    "troop_type_modifier": "Disadvantage (-7% DMG)",
+    "start_troops": 19500,
+    "end_troops": 0,
+    "troop_losses": 19500,
+    "loss_percent_of_start": 100.0,
+    "formation": [
+      {"lane": "left_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "vanguard", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"},
+      {"lane": "right_flank", "dragon": "Black Goat", "level": 35, "end_troops": 0, "start_troops": 6500, "affinity_bonus": "No Bonus"}
+    ]
+  },
+  "derived_metrics": {
+    "enemy_troops_removed": 19500,
+    "player_troops_lost": 3070,
+    "enemy_removed_to_player_loss_ratio": 6.35,
+    "player_retention_percent": 85.86,
+    "enemy_removed_percent": 100.0,
+    "lossiest_player_dragon": "Arulix",
+    "lossiest_player_dragon_losses": 1110,
+    "most_stable_player_dragon": "Thunderstrike",
+    "most_stable_player_dragon_losses": 974,
+    "affinity_completion": "3/3 Cavalry affinity",
+    "low_loss_classification": "Moderate loss; not no-loss, not strict low-loss under the 1500-loss standard"
+  },
+  "analysis_tags": [
+    "pve_victory",
+    "black_goat_level_35",
+    "shimmer_thunderstrike_arulix",
+    "cavalry_advantage_vs_shieldbearers",
+    "full_cavalry_affinity_confirmed",
+    "high_damage_cavalry_shell_locked",
+    "moderate_losses",
+    "not_strict_low_loss_yet"
+  ]
+}
