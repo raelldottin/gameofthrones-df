@@ -1,0 +1,153 @@
+{
+  "name": "Tessarion",
+  "title": "The Blue Queen",
+  "observed_date": "2026-07-06",
+  "source": {
+    "type": "official_news_post",
+    "url": "https://news.gotdragonfire.com/introducing-tessarion/",
+    "published_date": "2026-07-06",
+    "title": "Tessarion – The Blue Queen"
+  },
+  "data_status": "official_preview_details_only",
+  "rarity": "Epic",
+  "class": "Champion",
+  "subclass": null,
+  "ownership_status": "not_recorded",
+  "level": null,
+  "stars": null,
+  "relic_progress": null,
+  "gameplay_role": "Offensive support Champion who empowers fire-focused allies while punishing physical-oriented enemies.",
+  "official_gameplay_summary": [
+    "Empowers fire-focused allies.",
+    "Punishes physical-oriented enemies.",
+    "Applies steady pressure through both Fire and Physical attacks.",
+    "Weakens key threats by reducing their Damage Dealt.",
+    "Helps preserve allied momentum with protection against incoming Physical Damage.",
+    "Performs best in compositions built around strong Fire Damage dealers.",
+    "Support effects scale more reliably when her team maintains high troop thresholds."
+  ],
+  "recommended_play_pattern": [
+    "Maintain early stability so Tessarion can amplify the army.",
+    "Pair with strong damage dealers whose Commands and Habits deal meaningful Fire damage.",
+    "Time and coordinate pressure so her buffs and debuffs are active during important damage windows."
+  ],
+  "command": {
+    "name": "Cobalt Flame",
+    "type": "Command",
+    "effects": [
+      "On rounds 1, 4, and 7, deal Fire Damage to 1 enemy in any lane, prioritizing enemies that deal Physical Damage excluding Basic Attacks.",
+      "The rounds 1, 4, and 7 Fire Damage has a chance to reduce the target's Damage Dealt for 2 rounds. This Damage Dealt reduction is doubled if the target deals Physical Damage excluding Basic Attacks.",
+      "On rounds 3, 6, and 9, deal Physical Damage to 1 enemy in the same lane."
+    ],
+    "displayed_values": {
+      "fire_damage_rounds": [1, 4, 7],
+      "fire_damage_target_count": 1,
+      "fire_damage_targeting": "Enemy in any lane; prioritizes enemies that deal Physical Damage excluding Basic Attacks",
+      "damage_dealt_reduction_duration_rounds": 2,
+      "damage_dealt_reduction_doubled_against": "Targets that deal Physical Damage excluding Basic Attacks",
+      "physical_damage_rounds": [3, 6, 9],
+      "physical_damage_target_count": 1,
+      "physical_damage_targeting": "Enemy in the same lane"
+    },
+    "definitions": {
+      "fire_damage_scaling": "Official preview did not provide numeric scaling values.",
+      "physical_damage_scaling": "Official preview did not provide numeric scaling values.",
+      "damage_dealt_reduction": "Reduces the target's outgoing Damage Dealt. Official preview did not provide percentage values."
+    }
+  },
+  "habits": [
+    {
+      "name": "Sharpened Beauty",
+      "unlock_at_stars": null,
+      "currently_unlocked": false,
+      "effect": "Each round, increase Tessarion's Physical Damage Dealt and Fire Damage Dealt until the end of the round. Double this effect if Tessarion is above 75% Troop Capacity or has Advantage.",
+      "fixed_values": {
+        "activation": "Each round",
+        "targeting": "Self",
+        "duration": "Until end of round",
+        "doubled_if": [
+          "Tessarion is above 75% Troop Capacity",
+          "Tessarion has Advantage"
+        ]
+      },
+      "levels": null
+    },
+    {
+      "name": "Blazing Leader",
+      "unlock_at_stars": null,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase Fire Damage Dealt of 1 ally in any lane until the end of combat, prioritizing the left flank.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 1,
+        "targeting": "Ally in any lane",
+        "priority": "Left Flank",
+        "duration": "Until end of combat"
+      },
+      "levels": null
+    },
+    {
+      "name": "Molten Armor",
+      "unlock_at_stars": null,
+      "currently_unlocked": false,
+      "effect": "At the start of odd-numbered rounds, has a chance to increase Tessarion's Fire Damage Dealt and reduce the Physical Damage Received of 2 other allies. If Tessarion is afflicted with Panic, also reduce Tessarion's Physical Damage Received. Each effect lasts for 2 rounds.",
+      "fixed_values": {
+        "activation_rounds": "Odd-numbered rounds",
+        "fire_damage_targeting": "Self",
+        "physical_damage_received_target_count": 2,
+        "physical_damage_received_targeting": "Other allies",
+        "self_physical_damage_received_condition": "Tessarion is afflicted with Panic",
+        "duration_rounds": 2
+      },
+      "levels": null
+    },
+    {
+      "name": "Clever Maneuver",
+      "unlock_at_stars": null,
+      "currently_unlocked": false,
+      "effect": "At the start of combat, increase the Intelligence and Initiative, enhanced by Instinct, of the ally with the highest Intelligence.",
+      "fixed_values": {
+        "activation": "Start of combat",
+        "target_count": 1,
+        "targeting": "Ally with the highest Intelligence",
+        "modifiers": [
+          "Intelligence",
+          "Initiative"
+        ],
+        "enhanced_by": "Instinct"
+      },
+      "levels": null
+    },
+    {
+      "name": "The Blue Queen",
+      "unlock_at_stars": null,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, has a chance to reduce the Damage Received and increase the Intelligence, enhanced by Intelligence, of 1 other ally that deals Fire Damage for 2 rounds. Double the Damage Received reduction and Intelligence increase if Tessarion is above 75% Troop Capacity.",
+      "fixed_values": {
+        "activation": "Start of each round",
+        "target_count": 1,
+        "targeting": "Other ally that deals Fire Damage",
+        "duration_rounds": 2,
+        "enhanced_by": "Intelligence",
+        "doubled_if": "Tessarion is above 75% Troop Capacity"
+      },
+      "levels": null
+    }
+  ],
+  "confirmed_positive_affinities": [],
+  "confirmed_negative_affinities": [],
+  "stats": null,
+  "displayed_troop_capacity": null,
+  "displayed_power": null,
+  "synergy_notes": [
+    "Tessarion should be evaluated with Fire-focused allies first.",
+    "The left flank is important because Blazing Leader prioritizes the left flank for Fire Damage Dealt.",
+    "She wants teams that stay above 75% Troop Capacity because Sharpened Beauty and The Blue Queen double under high-troop conditions.",
+    "Her kit overlaps with Army 1-style goals by combining damage reduction, allied protection, and support scaling, but official preview does not confirm her troop affinities or numeric values."
+  ],
+  "open_questions": [
+    "Exact troop affinities are not published in the official preview.",
+    "Exact subclass, stats, troop capacity, power, and relic requirements are not published in the official preview.",
+    "Exact command damage rates, debuff percentages, habit unlock stars, and habit level tables are not published in the official preview."
+  ]
+}
