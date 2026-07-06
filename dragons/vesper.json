@@ -1,0 +1,37 @@
+{
+  "name": "Vesper",
+  "observed_date": "2026-07-06",
+  "source": {
+    "type": "official_dragon_profile",
+    "url": "https://gotdragonfire.com/dragons/vesper/",
+    "title": "Vesper"
+  },
+  "data_status": "official_profile_identity_only",
+  "rarity": "Rare",
+  "class": "Sentinel",
+  "subclass": null,
+  "ownership_status": "owned_unverified_current_state",
+  "level": null,
+  "stars": null,
+  "relic_progress": null,
+  "command": null,
+  "stats": null,
+  "displayed_troop_capacity": null,
+  "displayed_power": null,
+  "confirmed_positive_affinities": [],
+  "confirmed_negative_affinities": [],
+  "official_profile": {
+    "subtitle": "The Silent Shadow",
+    "description": "Vesper’s scales shimmer like the evening star itself, a beacon that guides her through the darkest nights."
+  },
+  "validation": {
+    "official_rarity": "Rare",
+    "official_breed": "Sentinel",
+    "validated_against": "https://gotdragonfire.com/dragons/vesper/",
+    "validated_on": "2026-07-06"
+  },
+  "open_questions": [
+    "Exact subclass, level, stars, stats, troop capacity, power, command, habits, and troop affinities require an in-game screenshot or a richer official gameplay source.",
+    "The official public profile validates Vesper as a Rare Sentinel, but does not publish combat mechanics."
+  ]
+}
