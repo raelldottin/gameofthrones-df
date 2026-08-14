@@ -10,6 +10,14 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 - **Data Export**: Export to JSON for further analysis
 - **Army Composition**: Track and validate army compositions
 
+## Current Strategy Snapshot
+
+- [Current 10 marches](player-state/army-composition.md) — user-confirmed lineup as of August 14, 2026
+- [Wyrmtable v3.0 comparison](analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md) — max-level rank comparison and investment guidance
+- [Machine-readable march data](armies/current-ten-marches-2026-08-14.json) — positions, ratings, and rank-only outlook
+
+Older dated army files remain historical battle evidence. They should not be read as the current lineup when they conflict with the snapshot above.
+
 ## Installation
 
 ```bash

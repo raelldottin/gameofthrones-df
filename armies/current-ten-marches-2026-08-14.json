@@ -1,0 +1,164 @@
+{
+  "observed_date": "2026-08-14",
+  "status": "current user-confirmed march order",
+  "source": "Referenced user conversation supplied August 14, 2026",
+  "position_order": [
+    "left",
+    "vanguard",
+    "right"
+  ],
+  "canonicalization_notes": [
+    "The user-supplied spelling Jadadrix is normalized to the canonical repository and game spelling Jagadrix."
+  ],
+  "troop_type_note": "Marches 1-5 retain troop types from the latest strategy discussion. Troop types for marches 6-10 were not supplied.",
+  "wyrmtable": {
+    "version": "3.0",
+    "rating_scope": "public max-level tier list",
+    "accessed_date": "2026-08-14",
+    "url": "https://wyrmtable.com/tier-list",
+    "methodology_note": "Each dragon is scored at max level in the strongest three-dragon army it can join. These individual ranks are not account-specific lineup grades.",
+    "comparison_note": "mean_rank is an informal arithmetic mean used only to compare the ten supplied marches."
+  },
+  "marches": [
+    {
+      "march": 1,
+      "left": "Malachite",
+      "vanguard": "Vhagar",
+      "right": "Venator",
+      "troop_type": "Shieldbearers",
+      "wyrmtable_ratings": [
+        {"dragon": "Malachite", "rank": 11, "tier": "A"},
+        {"dragon": "Vhagar", "rank": 9, "tier": "A"},
+        {"dragon": "Venator", "rank": 1, "tier": "S"}
+      ],
+      "mean_rank": 7.0,
+      "rank_only_outlook": "Primary long-term investment march; strongest all-round public-tier profile in the current set."
+    },
+    {
+      "march": 2,
+      "left": "Zivern",
+      "vanguard": "Syrax",
+      "right": "Crimson",
+      "troop_type": "Archers",
+      "wyrmtable_ratings": [
+        {"dragon": "Zivern", "rank": 16, "tier": "B"},
+        {"dragon": "Syrax", "rank": 10, "tier": "A"},
+        {"dragon": "Crimson", "rank": 7, "tier": "A"}
+      ],
+      "mean_rank": 11.0,
+      "rank_only_outlook": "Balanced core with no C-, D-, or F-tier member."
+    },
+    {
+      "march": 3,
+      "left": "Vaeldra",
+      "vanguard": "Rhysarion",
+      "right": "Caraxes",
+      "troop_type": "Spearmen",
+      "wyrmtable_ratings": [
+        {"dragon": "Vaeldra", "rank": 22, "tier": "B"},
+        {"dragon": "Rhysarion", "rank": 24, "tier": "B"},
+        {"dragon": "Caraxes", "rank": 3, "tier": "S"}
+      ],
+      "mean_rank": 16.3,
+      "rank_only_outlook": "Caraxes-led development march; lower ceiling than the former Venator and Caraxes pairing."
+    },
+    {
+      "march": 4,
+      "left": "Kalspire",
+      "vanguard": "Sunfyre",
+      "right": "Shadowsong",
+      "troop_type": "Cavalry",
+      "wyrmtable_ratings": [
+        {"dragon": "Kalspire", "rank": 2, "tier": "S"},
+        {"dragon": "Sunfyre", "rank": 5, "tier": "S"},
+        {"dragon": "Shadowsong", "rank": 25, "tier": "C"}
+      ],
+      "mean_rank": 10.7,
+      "rank_only_outlook": "Elite two-anchor ceiling; Shadowsong is the clear public-tier weak link."
+    },
+    {
+      "march": 5,
+      "left": "Daemoros",
+      "vanguard": "Seasmoke",
+      "right": "Tashix",
+      "troop_type": "Archers",
+      "wyrmtable_ratings": [
+        {"dragon": "Daemoros", "rank": 19, "tier": "B"},
+        {"dragon": "Seasmoke", "rank": 12, "tier": "A"},
+        {"dragon": "Tashix", "rank": 20, "tier": "B"}
+      ],
+      "mean_rank": 17.0,
+      "rank_only_outlook": "Stable depth with no severe public-tier liability."
+    },
+    {
+      "march": 6,
+      "left": "Dawnseeker",
+      "vanguard": "Bevlorin",
+      "right": "Jagadrix",
+      "troop_type": null,
+      "wyrmtable_ratings": [
+        {"dragon": "Dawnseeker", "rank": 35, "tier": "F"},
+        {"dragon": "Bevlorin", "rank": 32, "tier": "D"},
+        {"dragon": "Jagadrix", "rank": 31, "tier": "C"}
+      ],
+      "mean_rank": 32.7,
+      "rank_only_outlook": "Lowest public-tier ceiling of the ten supplied marches."
+    },
+    {
+      "march": 7,
+      "left": "Solstryker",
+      "vanguard": "Arrax",
+      "right": "Antares",
+      "troop_type": null,
+      "wyrmtable_ratings": [
+        {"dragon": "Solstryker", "rank": 26, "tier": "C"},
+        {"dragon": "Arrax", "rank": 29, "tier": "C"},
+        {"dragon": "Antares", "rank": 33, "tier": "D"}
+      ],
+      "mean_rank": 29.3,
+      "rank_only_outlook": "Depth march without an A- or S-tier anchor."
+    },
+    {
+      "march": 8,
+      "left": "Arulix",
+      "vanguard": "Feskar",
+      "right": "Thunderstrike",
+      "troop_type": null,
+      "wyrmtable_ratings": [
+        {"dragon": "Arulix", "rank": 28, "tier": "C"},
+        {"dragon": "Feskar", "rank": 18, "tier": "B"},
+        {"dragon": "Thunderstrike", "rank": 36, "tier": "F"}
+      ],
+      "mean_rank": 27.3,
+      "rank_only_outlook": "Feskar is the rank anchor; Thunderstrike remains a narrow habit-value exception, not a primary overall investment."
+    },
+    {
+      "march": 9,
+      "left": "Vesper",
+      "vanguard": "Velar",
+      "right": "Shadowrend",
+      "troop_type": null,
+      "wyrmtable_ratings": [
+        {"dragon": "Vesper", "rank": 30, "tier": "C"},
+        {"dragon": "Velar", "rank": 21, "tier": "B"},
+        {"dragon": "Shadowrend", "rank": 23, "tier": "B"}
+      ],
+      "mean_rank": 24.7,
+      "rank_only_outlook": "Best-balanced public-tier profile among marches 6-10."
+    },
+    {
+      "march": 10,
+      "left": "Shimmer",
+      "vanguard": "Tairax",
+      "right": "Nyrena",
+      "troop_type": null,
+      "wyrmtable_ratings": [
+        {"dragon": "Shimmer", "rank": 34, "tier": "D"},
+        {"dragon": "Tairax", "rank": 14, "tier": "A"},
+        {"dragon": "Nyrena", "rank": 27, "tier": "C"}
+      ],
+      "mean_rank": 25.0,
+      "rank_only_outlook": "Tairax is a strong anchor, but both flanks rate materially lower."
+    }
+  ]
+}
