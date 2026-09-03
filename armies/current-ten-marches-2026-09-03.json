@@ -1,0 +1,102 @@
+{
+  "observed_date": "2026-09-03",
+  "status": "current roster-optimized ten-march plan",
+  "source_roster": "player-state/dragon-roster-2026-09-03.json",
+  "position_order": ["left", "vanguard", "right"],
+  "optimization_goal": "Win fights with high combined damage and troop survival, while preserving full positive troop affinity wherever possible.",
+  "methodology": {
+    "historical_battle_records_used": false,
+    "account_data_priority": [
+      "current star rank",
+      "current unlocked habit ranks",
+      "three-dragon kit interaction",
+      "full troop affinity",
+      "current public dragon baseline"
+    ],
+    "public_reference": "Wyrmtable v3.0 current dragon database and max-level tier list, accessed 2026-09-03",
+    "warning": "This is a roster-state recommendation, not a claim that these untested formations have already produced a measured battle result."
+  },
+  "bench": ["Solstryker", "Antares", "Bevlorin", "Starshower", "Tessarion"],
+  "marches": [
+    {
+      "march": 1,
+      "left": "Malachite",
+      "vanguard": "Vermithor",
+      "right": "Venator",
+      "troop_type": "Shieldbearers",
+      "outlook": "Best balanced win-rate core: Malachite supplies team Recovery and a rank-3 Forest's Instinct; Vermithor anchors with Protect and enemy damage suppression; Venator is the primary Physical finisher."
+    },
+    {
+      "march": 2,
+      "left": "Zivern",
+      "vanguard": "Vhagar",
+      "right": "Seasmoke",
+      "troop_type": "Archers",
+      "outlook": "Control plus mixed damage: 6-star Zivern supplies the account's deepest Epic habit package, Vhagar redirects attacks with Taunt, and Seasmoke removes enemy positive effects while delivering high Fire burst."
+    },
+    {
+      "march": 3,
+      "left": "Jagadrix",
+      "vanguard": "Dawnseeker",
+      "right": "Crimson",
+      "troop_type": "Spearmen",
+      "outlook": "Current-investment fire/control engine: Dawnseeker's rank-5 Tactical Inferno supports the flanks, 6-star Jagadrix brings rank-4 Whispering Sabotage and Initiative/Instinct pressure, and Crimson adds Stun plus Fire burst."
+    },
+    {
+      "march": 4,
+      "left": "Sunfyre",
+      "vanguard": "Kalspire",
+      "right": "Sheepstealer",
+      "troop_type": "Cavalry",
+      "outlook": "Highest raw-ceiling damage trio with full Cavalry affinity. Kalspire is the Vanguard anchor, Sunfyre pressures the frontline, and Sheepstealer's Stolen Flock gives scaling Fire damage and anti-Recovery pressure."
+    },
+    {
+      "march": 5,
+      "left": "Vaeldra",
+      "vanguard": "Rhysarion",
+      "right": "Caraxes",
+      "troop_type": "Spearmen",
+      "outlook": "Durable burst march: Vaeldra's 4-star taunt/control package and Rhysarion's rank-3 Ebbing Fury create time for Caraxes to land elite multi-target Fire damage."
+    },
+    {
+      "march": 6,
+      "left": "Arulix",
+      "vanguard": "Thunderstrike",
+      "right": "Shimmer",
+      "troop_type": "Cavalry",
+      "outlook": "Development-value march: Shimmer's 6-star support package and rank-3 Loyal Shield protect the team, while rank-4 Battle Rush makes Thunderstrike a much stronger current-account damage dealer than his max-level public tier implies; Arulix adds anti-Fire mitigation."
+    },
+    {
+      "march": 7,
+      "left": "Tashix",
+      "vanguard": "Syrax",
+      "right": "Daemoros",
+      "troop_type": "Archers",
+      "outlook": "Fire pressure with control: Syrax supports Fire allies and contributes Tactical damage, Tashix stacks Fire damage, and Daemoros adds Burn/Physical pressure backed by rank-3 Instill Fear."
+    },
+    {
+      "march": 8,
+      "left": "Vesper",
+      "vanguard": "Velar",
+      "right": "Shadowrend",
+      "troop_type": "Shieldbearers",
+      "outlook": "Control/survival depth: Vesper supplies Slow, Velar grants Advantage and multi-target Tactical pressure, and Shadowrend adds Panic plus late Physical damage."
+    },
+    {
+      "march": 9,
+      "left": "Arrax",
+      "vanguard": "Nyrena",
+      "right": "Tairax",
+      "troop_type": "Shieldbearers",
+      "outlook": "Layered disruption: Arrax applies Weakened, 4-star Nyrena contributes Battle Dread and Mindful Synergy, and Tairax adds cross-lane Stagger plus Fire damage."
+    },
+    {
+      "march": 10,
+      "left": "Vermax",
+      "vanguard": "Feskar",
+      "right": "Shadowsong",
+      "troop_type": "Cavalry",
+      "outlook": "Balanced depth damage: Feskar reduces enemy Physical output and targets weakened armies, Vermax adds strong Physical pressure and ally damage scaling, and 4-star Shadowsong supplies Ensnare plus Fire pressure."
+    }
+  ]
+}
