@@ -10,13 +10,15 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 - **Data Export**: Export to JSON for further analysis
 - **Army Composition**: Track and validate army compositions
 
-## Current Strategy Snapshot
+## Current Dragon Roster and Strategy
 
-- [Current 10 marches](player-state/army-composition.md) — user-confirmed lineup as of August 14, 2026
-- [Wyrmtable v3.0 comparison](analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md) — max-level rank comparison and investment guidance
-- [Machine-readable march data](armies/current-ten-marches-2026-08-14.json) — positions, ratings, and rank-only outlook
+- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — owned dragons, star ranks, upgraded habit levels, and directly observed relic progress; 10 Dragon Pit screenshots refreshed, 25 entries explicitly carried forward from September 3 without new verification.
+- [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) — historical snapshot retained for provenance.
+- [Last published 10-march plan](player-state/army-composition.md) — composed using the September 3 roster; **not recalculated from the September 20 update**.
+- [Machine-readable September 3 marches](armies/current-ten-marches-2026-09-03.json) — previous lineup proposal; not newly validated.
+- [August 14 Wyrmtable comparison](analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md) — historical max-level comparison only.
 
-Older dated army files remain historical battle evidence. They should not be read as the current lineup when they conflict with the snapshot above.
+The current roster tracks only information retained across reigns. Dragon Reign Level, combat stats tied to that level, XP, energy, troop counts, seasonal resources and power are intentionally excluded. Older `dragons/` profiles and `dragons.json` include dated reign-specific captures and **must not override** the more recent star, habit, or relic-progress observations in `player-state/dragon-roster-2026-09-20.json`. Dated battle reports are historical evidence, not measurements of the updated roster.
 
 ## Installation
 
@@ -60,11 +62,10 @@ scripts/
 ├── dragon_analyzer/
 │   ├── __init__.py
 │   ├── analyzer.py       # Main analyzer class
-│   ├── analyzer.py       # Main analyzer class
 │   ├── cli.py            # CLI commands
 │   ├── models.py         # Pydantic data models
 │   ├── ocr.py            # OCR processing
-│   └── config.py         # Configuration
+│   └── config.py        # Configuration
 ├── test_analyzer.py      # Unit tests
 └── test_ocr.py           # OCR tests
 ```
