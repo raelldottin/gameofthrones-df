@@ -1,0 +1,80 @@
+{
+  "name": "Tairax",
+  "observed_date": "2026-09-20",
+  "source": "User-supplied Dragon Pit screenshots IMG_5097.jpeg and IMG_5104.jpeg through IMG_5113.jpeg",
+  "ownership_status": "owned",
+  "rarity": "Epic",
+  "class": "Hunter",
+  "stars": 2,
+  "relics_toward_next_star": {"current": 24, "required": 100},
+  "command": {
+    "name": "Burning Ward",
+    "type": "Active",
+    "currently_active_effects": [
+      {"activation": "Odd-numbered rounds", "chance_percent": 25, "effect": "Afflict one enemy in any lane with Stagger for two rounds", "duration_rounds": 2},
+      {"rounds": [2, 5, 8], "effect": "Deal Fire Damage to one enemy in any lane, prioritizing targets not afflicted with Burn", "damage_rate_percent": 115, "burn_chance_percent": 50, "burn_duration_rounds": 2, "burn_damage_rate_percent_per_round": 20}
+    ],
+    "unlocked_at_six_stars_only": {
+      "odd_round_stagger_chance_percent_at_habit_level_1": 37.5,
+      "each_round": "Deal Fire Damage to all enemies afflicted with a Control effect",
+      "fire_damage_rate_percent_at_habit_level_1": 20,
+      "control_effects": ["Stun", "Stagger", "Overwhelm", "Confusion"]
+    },
+    "definitions": {
+      "stagger": "Prevents the target from using Attack Modifier Commands or launching Basic Attacks on its turn",
+      "fire_damage_scaling": "Increased by the attacker's Intelligence and mitigated by the target's Initiative"
+    }
+  },
+  "habits": [
+    {
+      "name": "Whisper of Ash",
+      "slot": 1,
+      "unlock_at_stars": 2,
+      "currently_unlocked": true,
+      "current_level": 1,
+      "effect": "At the start of round 1, reduce one enemy's Strength and Initiative in the same lane for five rounds (enhanced by Tairax's Intelligence). At the start of round 6, increase Tairax's Intelligence and Initiative for five rounds.",
+      "levels": [
+        {"level": 1, "enemy_strength_and_initiative_percent": -16, "self_intelligence_and_initiative_percent": 16},
+        {"level": 2, "enemy_strength_and_initiative_percent": -19.2, "self_intelligence_and_initiative_percent": 19.2},
+        {"level": 3, "enemy_strength_and_initiative_percent": -22.4, "self_intelligence_and_initiative_percent": 22.4},
+        {"level": 4, "enemy_strength_and_initiative_percent": -27.2, "self_intelligence_and_initiative_percent": 27.2},
+        {"level": 5, "enemy_strength_and_initiative_percent": -32, "self_intelligence_and_initiative_percent": 32}
+      ]
+    },
+    {
+      "name": "Sunder",
+      "slot": 2,
+      "unlock_at_stars": 4,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, increase Damage Received of all enemies afflicted with a Control effect until the end of the round.",
+      "control_effects": ["Stun", "Stagger", "Overwhelm", "Confusion"],
+      "levels": [{"level":1,"enemy_damage_received_percent":7.5},{"level":2,"enemy_damage_received_percent":9},{"level":3,"enemy_damage_received_percent":10.5},{"level":4,"enemy_damage_received_percent":12.75},{"level":5,"enemy_damage_received_percent":15}]
+    },
+    {
+      "name": "Gleamstrike",
+      "slot": 3,
+      "unlock_at_stars": 6,
+      "currently_unlocked": false,
+      "effect": "Burning Ward gains an increased Stagger chance on odd-numbered rounds and deals Fire Damage each round to all enemies with a Control effect.",
+      "levels": [{"level":1,"stagger_chance_percent":37.5,"fire_damage_rate_percent":20},{"level":2,"stagger_chance_percent":40,"fire_damage_rate_percent":24},{"level":3,"stagger_chance_percent":42.5,"fire_damage_rate_percent":28},{"level":4,"stagger_chance_percent":46.25,"fire_damage_rate_percent":34},{"level":5,"stagger_chance_percent":50,"fire_damage_rate_percent":40}]
+    },
+    {
+      "name": "Gift of Fire",
+      "slot": 4,
+      "unlock_at_stars": 8,
+      "currently_unlocked": false,
+      "effect": "At the start of each round, for each enemy afflicted with Burn, a separate chance to grant one ally in any lane Resistance (-15% Damage Received) for two rounds, prioritizing allies without Resistance.",
+      "levels": [{"level":1,"chance_percent_per_burning_enemy":17.5},{"level":2,"chance_percent_per_burning_enemy":21},{"level":3,"chance_percent_per_burning_enemy":24.5},{"level":4,"chance_percent_per_burning_enemy":29.75},{"level":5,"chance_percent_per_burning_enemy":35}]
+    },
+    {
+      "name": "Moonlit Hunt",
+      "slot": 5,
+      "unlock_at_stars": 10,
+      "currently_unlocked": false,
+      "effect": "At the start of round 1, gain Evade for five rounds; at the start of round 6, increase own Fire Damage Dealt for five rounds.",
+      "levels": [{"level":1,"evade_rate_percent":5,"fire_damage_dealt_percent":12},{"level":2,"evade_rate_percent":6.5,"fire_damage_dealt_percent":15.6},{"level":3,"evade_rate_percent":8,"fire_damage_dealt_percent":19.2},{"level":4,"evade_rate_percent":10,"fire_damage_dealt_percent":24},{"level":5,"evade_rate_percent":12.5,"fire_damage_dealt_percent":30}]
+    }
+  ],
+  "capture_status": "Command and all five habit names/effects/level tables verified; only Whisper of Ash level 1 is currently unlocked. Six-star command enhancement remains locked.",
+  "excluded_as_reign_specific": ["reign level", "combat stats", "XP", "troop capacity", "power", "energy", "currency and upgrade resource inventory"]
+}
