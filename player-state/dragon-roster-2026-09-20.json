@@ -3,11 +3,11 @@
   "status": "latest reign-persistent dragon roster snapshot",
   "scope": "Owned dragons, star ranks, unlocked habit levels, relic progress, and stable dragon identity/class/command only; no reign-specific quantities.",
   "sources": {
-    "2026-09-20": "Dragon Pit screenshots IMG_5068.jpeg through IMG_5103.jpeg, including duplicate Daemoros IMG_5087(1).jpeg, Nyrena IMG_5096(1).jpeg, Shadowsong IMG_5095(1).jpeg, and Vesper IMG_5094(1).jpeg; all 36 owned dragons verified by detailed profile screenshots."
+    "2026-09-20": "Dragon Pit screenshots IMG_5068.jpeg through IMG_5113.jpeg, including duplicate Daemoros IMG_5087(1).jpeg, Nyrena IMG_5096(1).jpeg, Shadowsong IMG_5095(1).jpeg, and Vesper IMG_5094(1).jpeg; all 36 owned dragons verified by detailed profile screenshots. Tairax habit and command definitions verified in IMG_5104.jpeg through IMG_5113.jpeg."
   },
   "verification_notes": [
-    "A locked habit icon does not indicate an upgraded habit. Names for visible unlocked habit slots are matched to previously captured dragon habit definitions, not guessed from artwork.",
-    "Tairax has a visible level-1 first habit, but its name is not verified by the available repository habit reference. Record its slot and level without inventing a name.",
+    "A locked habit icon does not indicate an upgraded habit. Names for visible unlocked habit slots are matched to directly supplied ability screenshots or previously captured dragon habit definitions, not guessed from artwork.",
+    "Tairax's previously unnamed level-1 first habit is verified as Whisper of Ash in IMG_5104.jpeg. All five Tairax habit names and its Burning Ward command are documented in dragons/tairax.json; only Whisper of Ash is currently unlocked at 2 stars.",
     "The September 20 Moondancer profile supersedes the earlier sidebar-only observation.",
     "Duplicate screenshots for Daemoros, Nyrena, Shadowsong and Vesper add no newer progression and do not overwrite their detailed earlier September 20 observations.",
     "Reign levels, level-dependent stats, XP, troop capacity, displayed power, energy, Meat, Resolve and other seasonal values are excluded.",
@@ -44,7 +44,7 @@
     {"name":"Shadowsong","owned":true,"stars":4,"relics_toward_next_star":{"current":38,"required":300},"habits":[{"name":"Ensnare","level":2},{"name":"Blazing Onslaught","level":1}],"class":"Hunter","command":"Breath of Fire","verified_on":"2026-09-20","source_screenshot":"IMG_5095.jpeg"},
     {"name":"Nyrena","owned":true,"stars":4,"relics_toward_next_star":{"current":202,"required":300},"habits":[{"name":"Battle Dread","level":2},{"name":"Mindful Synergy","level":1}],"class":"Champion","command":"Undermine","verified_on":"2026-09-20","source_screenshot":"IMG_5096.jpeg"},
     {"name":"Moondancer","owned":true,"stars":1,"relics_toward_next_star":{"current":0,"required":40},"habits":[],"class":"Warrior","command":"Crescent Blade","verified_on":"2026-09-20","source_screenshot":"IMG_5100.jpeg"},
-    {"name":"Tairax","owned":true,"stars":2,"relics_toward_next_star":{"current":24,"required":100},"habits":[{"slot":1,"level":1,"name_status":"unverified"}],"class":"Hunter","command":"Burning Ward","verified_on":"2026-09-20","source_screenshot":"IMG_5097.jpeg"},
+    {"name":"Tairax","owned":true,"stars":2,"relics_toward_next_star":{"current":24,"required":100},"habits":[{"name":"Whisper of Ash","level":1,"slot":1,"source_screenshot":"IMG_5104.jpeg"}],"class":"Hunter","command":"Burning Ward","command_and_habit_reference":"dragons/tairax.json","verified_on":"2026-09-20","source_screenshot":"IMG_5097.jpeg"},
     {"name":"Shimmer","owned":true,"stars":6,"relics_toward_next_star":{"current":339,"required":800},"habits":[{"name":"Crushing Force","level":2},{"name":"Dragon's Insight","level":1},{"name":"Loyal Shield","level":3}],"class":"Sentinel","command":"Unbreakable Loyalty","verified_on":"2026-09-20","source_screenshot":"IMG_5098.jpeg"},
     {"name":"Bevlorin","owned":true,"stars":4,"relics_toward_next_star":{"current":211,"required":300},"habits":[{"name":"Fire Ward","level":1},{"name":"Dragon's Fury","level":1}],"class":"Champion","command":"Nature's Reckoning","verified_on":"2026-09-20","source_screenshot":"IMG_5099.jpeg"},
     {"name":"Starshower","owned":true,"stars":1,"relics_toward_next_star":{"current":38,"required":40},"habits":[],"class":"Sentinel","command":"Starfall","verified_on":"2026-09-20","source_screenshot":"IMG_5103.jpeg"},
