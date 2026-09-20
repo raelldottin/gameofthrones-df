@@ -12,7 +12,7 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 
 ## Current Dragon Roster and Strategy
 
-- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — 36 dragons recorded: 29 verified through detailed Dragon Pit screenshots across three batches, Moondancer observed in the roster sidebar only (one star, no habit/relic verification), and six entries carried forward from September 3 without new verification.
+- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — all 36 owned dragons verified from detailed Dragon Pit profile screenshots across four batches. Stars, habit ranks, relic progress, classes, and commands are captured where visible; Tairax's first habit is confirmed at level 1 but its name remains unverified.
 - [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) — historical snapshot retained for provenance.
 - [Last published 10-march plan](player-state/army-composition.md) — composed using the September 3 roster; **not recalculated from the September 20 update**.
 - [Machine-readable September 3 marches](armies/current-ten-marches-2026-09-03.json) — previous lineup proposal; not newly validated.
