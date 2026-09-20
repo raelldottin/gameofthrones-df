@@ -12,7 +12,7 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 
 ## Current Dragon Roster and Strategy
 
-- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — owned dragons, star ranks, upgraded habit levels, and directly observed relic progress; 20 Dragon Pit screenshots verified across two batches, 15 entries explicitly carried forward from September 3 without new verification.
+- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — 36 dragons recorded: 29 verified through detailed Dragon Pit screenshots across three batches, Moondancer observed in the roster sidebar only (one star, no habit/relic verification), and six entries carried forward from September 3 without new verification.
 - [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) — historical snapshot retained for provenance.
 - [Last published 10-march plan](player-state/army-composition.md) — composed using the September 3 roster; **not recalculated from the September 20 update**.
 - [Machine-readable September 3 marches](armies/current-ten-marches-2026-09-03.json) — previous lineup proposal; not newly validated.
@@ -65,7 +65,7 @@ scripts/
 │   ├── cli.py            # CLI commands
 │   ├── models.py         # Pydantic data models
 │   ├── ocr.py            # OCR processing
-│   └── config.py         # Configuration
+│   └── config.py        # Configuration
 ├── test_analyzer.py      # Unit tests
 └── test_ocr.py           # OCR tests
 ```
