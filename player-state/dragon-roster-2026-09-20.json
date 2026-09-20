@@ -1,16 +1,17 @@
 {
   "observed_date": "2026-09-20",
   "status": "latest reign-persistent dragon roster snapshot",
-  "scope": "Only information retained across reigns: owned dragons, star ranks, upgraded habits, dragon relic progress, and stable dragon identity/class/command when directly visible.",
+  "scope": "Owned dragons, star ranks, unlocked habit levels, relic progress, and stable dragon identity/class/command only; no reign-specific quantities.",
   "sources": {
-    "2026-09-20": "User-supplied Dragon Pit screenshots IMG_5068.jpeg through IMG_5087.jpeg; 20 dragons directly observed across two batches.",
-    "2026-09-03": "User-supplied roster preserved for the other 15 dragons; not reverified on September 20."
+    "2026-09-20": "Dragon Pit screenshots IMG_5068.jpeg through IMG_5096.jpeg, including duplicate Daemoros IMG_5087(1).jpeg; 29 dragons verified by their detailed profile screenshots and Moondancer visible in the roster sidebar only.",
+    "2026-09-03": "Six previously supplied dragon records carried forward without September 20 verification."
   },
   "verification_notes": [
-    "Stars, displayed relic progress, and unlocked habit levels are recorded as observed; locked habit icons do not indicate an upgrade.",
-    "Screenshots display only habit icons unlocked at each dragon's current star rank; absence of an icon does not disprove earlier observations of other dragons.",
-    "Reign level, reign-level combat stats, XP, troop capacity, power, energy, Meat, Resolve, and other seasonal quantities are deliberately excluded.",
-    "The September 3 snapshot and dated battle records remain historical; no army compositions or battle evaluations are changed by this data-only update."
+    "A locked habit icon does not indicate an upgraded habit. Names for visible unlocked habit slots are matched to previously captured dragon habit definitions, not guessed from artwork.",
+    "Moondancer is visible as a one-star, level-1 dragon in the IMG_5096.jpeg Dragon Pit roster sidebar; only its roster presence and one-star rank are included. No class, command, habits, or relic progress are inferred from the sidebar.",
+    "The duplicate Daemoros IMG_5087(1).jpeg adds no new progression and does not overwrite its detailed IMG_5087.jpeg observation.",
+    "Reign levels, level-dependent stats, XP, troop capacity, displayed power, energy, Meat, Resolve and other seasonal values are excluded.",
+    "March compositions and historical battle assessments remain unchanged and are not claimed to have been validated against this newer roster."
   ],
   "dragons": [
     {"name":"Malachite","owned":true,"stars":3,"relics_toward_next_star":{"current":0,"required":180},"habits":[{"name":"Forest's Instinct","level":3}],"class":"Sentinel","command":"Warden's Rally","verified_on":"2026-09-20","source_screenshot":"IMG_5068.jpeg"},
@@ -33,15 +34,16 @@
     {"name":"Thunderstrike","owned":true,"stars":4,"relics_toward_next_star":{"current":200,"required":300},"habits":[{"name":"Battle Rush","level":5},{"name":"Dragon's Might","level":2}],"class":"Warrior","command":"Tail Whip","verified_on":"2026-09-20","source_screenshot":"IMG_5085.jpeg"},
     {"name":"Syrax","owned":true,"stars":1,"relics_toward_next_star":{"current":30,"required":40},"habits":[],"class":"Sentinel","command":"Blazing Fury","verified_on":"2026-09-20","source_screenshot":"IMG_5086.jpeg"},
     {"name":"Daemoros","owned":true,"stars":3,"relics_toward_next_star":{"current":37,"required":180},"habits":[{"name":"Instill Fear","level":3}],"class":"Warrior","command":"Shadowflame","verified_on":"2026-09-20","source_screenshot":"IMG_5087.jpeg"},
-    {"name":"Tashix","owned":true,"stars":3,"habits":[{"name":"Enervate","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Antares","owned":true,"stars":4,"habits":[{"name":"Blazing Onslaught","level":3},{"name":"Dragon's Flair","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Solstryker","owned":true,"stars":4,"habits":[{"name":"Steady Erosion","level":1},{"name":"Energy Drain","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Arrax","owned":true,"stars":4,"habits":[{"name":"Headlong Into Danger","level":1},{"name":"Stone Bulwark","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Velar","owned":true,"stars":2,"habits":[{"name":"Strategic Leader","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Vesper","owned":true,"stars":4,"habits":[{"name":"Strategic Leader","level":1},{"name":"Dragon's Insight","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Shadowrend","owned":true,"stars":3,"habits":[{"name":"Midnight Aura","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Shadowsong","owned":true,"stars":4,"habits":[{"name":"Ensnare","level":2},{"name":"Blazing Onslaught","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
-    {"name":"Nyrena","owned":true,"stars":4,"habits":[{"name":"Battle Dread","level":2},{"name":"Mindful Synergy","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
+    {"name":"Tashix","owned":true,"stars":3,"relics_toward_next_star":{"current":57,"required":180},"habits":[{"name":"Enervate","level":1}],"class":"Hunter","command":"Shimmering Mirage","verified_on":"2026-09-20","source_screenshot":"IMG_5088.jpeg"},
+    {"name":"Solstryker","owned":true,"stars":4,"relics_toward_next_star":{"current":204,"required":300},"habits":[{"name":"Steady Erosion","level":1},{"name":"Energy Drain","level":1}],"class":"Champion","command":"Tactical Onslaught","verified_on":"2026-09-20","source_screenshot":"IMG_5089.jpeg"},
+    {"name":"Antares","owned":true,"stars":4,"relics_toward_next_star":{"current":101,"required":300},"habits":[{"name":"Blazing Onslaught","level":3},{"name":"Dragon's Flair","level":1}],"class":"Hunter","command":"Relentless Pursuit","verified_on":"2026-09-20","source_screenshot":"IMG_5090.jpeg"},
+    {"name":"Arrax","owned":true,"stars":4,"relics_toward_next_star":{"current":229,"required":300},"habits":[{"name":"Headlong Into Danger","level":1},{"name":"Stone Bulwark","level":1}],"class":"Warrior","command":"Sudden Strike","verified_on":"2026-09-20","source_screenshot":"IMG_5091.jpeg"},
+    {"name":"Velar","owned":true,"stars":3,"relics_toward_next_star":{"current":153,"required":180},"habits":[{"name":"Strategic Leader","level":1}],"class":"Sentinel","command":"Whirlwind","verified_on":"2026-09-20","source_screenshot":"IMG_5092.jpeg"},
+    {"name":"Shadowrend","owned":true,"stars":4,"relics_toward_next_star":{"current":75,"required":300},"habits":[{"name":"Midnight Aura","level":1},{"name":"Nimble Resilience","level":1}],"class":"Warrior","command":"Eclipse Fervor","verified_on":"2026-09-20","source_screenshot":"IMG_5093.jpeg"},
+    {"name":"Vesper","owned":true,"stars":4,"relics_toward_next_star":{"current":147,"required":300},"habits":[{"name":"Strategic Leader","level":1},{"name":"Dragon's Insight","level":1}],"class":"Sentinel","command":"Eventide Strike","verified_on":"2026-09-20","source_screenshot":"IMG_5094.jpeg"},
+    {"name":"Shadowsong","owned":true,"stars":4,"relics_toward_next_star":{"current":38,"required":300},"habits":[{"name":"Ensnare","level":2},{"name":"Blazing Onslaught","level":1}],"class":"Hunter","command":"Breath of Fire","verified_on":"2026-09-20","source_screenshot":"IMG_5095.jpeg"},
+    {"name":"Nyrena","owned":true,"stars":4,"relics_toward_next_star":{"current":202,"required":300},"habits":[{"name":"Battle Dread","level":2},{"name":"Mindful Synergy","level":1}],"class":"Champion","command":"Undermine","verified_on":"2026-09-20","source_screenshot":"IMG_5096.jpeg"},
+    {"name":"Moondancer","owned":true,"stars":1,"verification_status":"sidebar_only","verified_on":"2026-09-20","source_screenshot":"IMG_5096.jpeg","verification_note":"Visible in the Dragon Pit roster sidebar with one filled star and a level-1 badge; habit and relic details not shown."},
     {"name":"Tairax","owned":true,"stars":1,"habits":[],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
     {"name":"Shimmer","owned":true,"stars":6,"habits":[{"name":"Crushing Force","level":2},{"name":"Dragon's Insight","level":1},{"name":"Loyal Shield","level":3}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
     {"name":"Bevlorin","owned":true,"stars":4,"habits":[{"name":"Fire Ward","level":1},{"name":"Dragon's Fury","level":1}],"verified_on":"2026-09-03","verification_status":"carried_forward_not_reverified"},
