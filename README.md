@@ -12,13 +12,14 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 
 ## Current Dragon Roster and Strategy
 
-- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — all 36 owned dragons verified from detailed Dragon Pit profile screenshots across four batches. Stars, habit ranks, relic progress, classes, and commands are captured where visible; Tairax's first habit is confirmed at level 1 but its name remains unverified.
-- [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) — historical snapshot retained for provenance.
-- [Last published 10-march plan](player-state/army-composition.md) — composed using the September 3 roster; **not recalculated from the September 20 update**.
-- [Machine-readable September 3 marches](armies/current-ten-marches-2026-09-03.json) — previous lineup proposal; not newly validated.
+- [Current reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — all 36 owned dragons verified from detailed Dragon Pit screenshots. Star ranks, unlocked habit names and levels, relic progress, class and command names recorded. Tairax's first habit is verified as **Whisper of Ash 1**, with full command and five-habit reference in [dragons/tairax.json](dragons/tairax.json).
+- [Current 10-march plan — September 20](player-state/army-composition.md) — ten unique, all-positive-affinity trios recomputed using September 20 Stars and unlocked Habits; qualitative deployment priorities, **not measured win rates**.
+- [Current 10-march JSON — September 20](armies/current-ten-marches-2026-09-20.json) — machine-readable formations, bench, constraints and evidence status.
+- [September 20 formation analysis](analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-09-20.md) — ability and lane synergy, current September event context, explicit limits and battle-validation plan.
+- [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) and [September 3 marches](armies/current-ten-marches-2026-09-03.json) — historical snapshots, **superseded for current deployment**.
 - [August 14 Wyrmtable comparison](analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md) — historical max-level comparison only.
 
-The current roster tracks only information retained across reigns. Dragon Reign Level, combat stats tied to that level, XP, energy, troop counts, seasonal resources and power are intentionally excluded. Older `dragons/` profiles and `dragons.json` include dated reign-specific captures and **must not override** the more recent star, habit, or relic-progress observations in `player-state/dragon-roster-2026-09-20.json`. Dated battle reports are historical evidence, not measurements of the updated roster.
+The current roster tracks only information retained across reigns. Dragon Reign Level, combat stats tied to that level, XP, energy, troop counts, seasonal resources and power are intentionally excluded. Older `dragons/` profiles and `dragons.json` include dated reign-specific captures and **must not override** the more recent star, habit, or relic-progress observations in `player-state/dragon-roster-2026-09-20.json`. Dated battle reports are historical evidence, not measurements of the updated roster. The game supports up to **five simultaneous dragon-led armies**; ten marches here are preset candidates and rotation options, not ten simultaneous deployments.
 
 ## Installation
 
