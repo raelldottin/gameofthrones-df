@@ -1,0 +1,31 @@
+{
+  "observed_date": "2026-09-22",
+  "status": "reign-persistent dragon progression update",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "source_screenshot": "IMG_5179.jpeg",
+  "scope": "Only the detailed Arulix profile is used for progression changes. Reign levels, XP, combat stats, troop capacity, power, quest progress, and seasonal resources are excluded.",
+  "updates": [
+    {
+      "name": "Arulix",
+      "owned": true,
+      "stars": 4,
+      "relics_toward_next_star": {
+        "current": 289,
+        "required": 300
+      },
+      "habits": [
+        {"name": "Hypnotic Helix", "level": 3},
+        {"name": "Battle Cunning", "level": 1}
+      ],
+      "class": "Champion",
+      "command": "Gleaming Spiral",
+      "verified_on": "2026-09-22",
+      "source_screenshot": "IMG_5179.jpeg"
+    }
+  ],
+  "verification_notes": [
+    "The detailed Arulix profile visibly shows four filled stars, 289/300 relics, unlocked habit-slot levels 3 and 1, Champion Juvenile, and Gleaming Spiral. Habit names were matched in slot order to the September 20 detailed roster and dragons/arulix.json; this screenshot itself displays icons, not habit names.",
+    "The screenshot's sidebar also displays multiple other dragons, but their star icons conflict with some September 20 detailed profiles; do not downgrade or overwrite those verified records using this sidebar alone.",
+    "Apply this update over the September 20 base roster by dragon name. The September 20 ten-march formations are historical plans and have not been recalculated or battle-validated for this observation."
+  ]
+}
