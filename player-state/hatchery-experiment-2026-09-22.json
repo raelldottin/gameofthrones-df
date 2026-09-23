@@ -1,0 +1,36 @@
+{
+  "observed_date_local": "2026-09-22",
+  "event": "Standard Hatchery Chest ten-opening experiment",
+  "source_screenshots": ["IMG_5177.jpeg", "IMG_5178.jpeg"],
+  "cost": {"currency": "gold", "amount": 900},
+  "gold_observed_before": 1399,
+  "gold_observed_after": 499,
+  "openings": 10,
+  "total_relics_awarded": 78,
+  "unique_dragon_recipients": 15,
+  "rewards": [
+    {"dragon":"Thunderstrike","relics_awarded":7,"post_opening_relics":{"current":209,"required":300}},
+    {"dragon":"Antares","relics_awarded":1,"post_opening_relics":{"current":105,"required":300}},
+    {"dragon":"Malachite","relics_awarded":10,"post_opening_relics":{"current":15,"required":180}},
+    {"dragon":"Tessarion","relics_awarded":5,"post_opening_relics":{"current":9,"required":100}},
+    {"dragon":"Syrax","relics_awarded":5,"post_opening_relics":{"current":35,"required":40}},
+    {"dragon":"Feskar","relics_awarded":5,"post_opening_relics":{"current":50,"required":300}},
+    {"dragon":"Daemoros","relics_awarded":6,"post_opening_relics":{"current":43,"required":180}},
+    {"dragon":"Dawnseeker","relics_awarded":6,"post_opening_relics":{"current":111,"required":300}},
+    {"dragon":"Bevlorin","relics_awarded":3,"post_opening_relics":{"current":214,"required":300}},
+    {"dragon":"Vesper","relics_awarded":1,"post_opening_relics":{"current":158,"required":300}},
+    {"dragon":"Nyrena","relics_awarded":6,"post_opening_relics":{"current":210,"required":300}},
+    {"dragon":"Jagadrix","relics_awarded":3,"post_opening_relics":{"current":442,"required":800}},
+    {"dragon":"Arrax","relics_awarded":6,"post_opening_relics":{"current":246,"required":300}},
+    {"dragon":"Shimmer","relics_awarded":12,"post_opening_relics":{"current":356,"required":800}},
+    {"dragon":"Solstryker","relics_awarded":2,"post_opening_relics":{"current":206,"required":300}}
+  ],
+  "notes": [
+    "The two screenshots are overlapping views of the same ten-opening result; the five repeated dragons are counted once, not twice.",
+    "Relic quantities and the gold balance are visible in the screenshots. Post-opening totals for entries obscured by scrolling were reconciled with the immediately preceding screenshots and September 20 baseline, rather than presented as individually legible in the reward display.",
+    "No Arulix relics appeared in this ten-opening reward. His earlier result was 286/300, but a separately verified, newer detailed Arulix profile (IMG_5179.jpeg) records 289/300; do not overwrite that newer observation.",
+    "The previously discussed 46-to-36 guaranteed-drop countdown is only an estimate assuming ten eligible openings and no counter reset; the post-purchase counter is not visible here.",
+    "Gold balance and chest-countdown information are a dated experiment record, not reign-persistent dragon attributes; no unobserved star or habit upgrade is inferred."
+  ],
+  "reign_persistent_progression_overlay": "player-state/dragon-update-2026-09-22.json"
+}
