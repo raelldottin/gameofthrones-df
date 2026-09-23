@@ -1,22 +1,32 @@
 {
   "observed_date": "2026-09-22",
-  "status": "reign-persistent dragon progression update",
+  "status": "latest reign-persistent dragon progression overlay",
   "base_roster": "player-state/dragon-roster-2026-09-20.json",
-  "source_screenshot": "IMG_5179.jpeg",
-  "scope": "Only the detailed Arulix profile is used for progression changes. Reign levels, XP, combat stats, troop capacity, power, quest progress, and seasonal resources are excluded.",
+  "source_screenshots": ["IMG_5177.jpeg", "IMG_5178.jpeg", "IMG_5179.jpeg"],
+  "hatchery_experiment": "player-state/hatchery-experiment-2026-09-22.json",
+  "scope": "Apply only updated relic progress and the separately verified Arulix profile by dragon name over the September 20 roster. Existing star ranks, unlocked habit levels, command names and classes are otherwise unchanged. Reign levels, XP, combat stats, troop capacity, power, energy and currencies are excluded.",
   "updates": [
+    {"name":"Thunderstrike","relics_toward_next_star":{"current":209,"required":300},"relic_progress_source":"IMG_5177.jpeg; preceding progress 202/300"},
+    {"name":"Antares","relics_toward_next_star":{"current":105,"required":300},"relic_progress_source":"IMG_5177.jpeg; preceding progress 104/300"},
+    {"name":"Malachite","relics_toward_next_star":{"current":15,"required":180},"relic_progress_source":"IMG_5177.jpeg; preceding progress 5/180"},
+    {"name":"Tessarion","relics_toward_next_star":{"current":9,"required":100},"relic_progress_source":"IMG_5177.jpeg; September 20 baseline 4/100"},
+    {"name":"Syrax","relics_toward_next_star":{"current":35,"required":40},"relic_progress_source":"IMG_5177.jpeg; September 20 baseline 30/40"},
+    {"name":"Feskar","relics_toward_next_star":{"current":50,"required":300},"relic_progress_source":"IMG_5177.jpeg; September 20 baseline 45/300"},
+    {"name":"Daemoros","relics_toward_next_star":{"current":43,"required":180},"relic_progress_source":"IMG_5177.jpeg; September 20 baseline 37/180"},
+    {"name":"Dawnseeker","relics_toward_next_star":{"current":111,"required":300},"relic_progress_source":"IMG_5177.jpeg; preceding progress 105/300"},
+    {"name":"Bevlorin","relics_toward_next_star":{"current":214,"required":300},"relic_progress_source":"IMG_5177.jpeg; September 20 baseline 211/300"},
+    {"name":"Vesper","relics_toward_next_star":{"current":158,"required":300},"relic_progress_source":"IMG_5177.jpeg; preceding progress 157/300"},
+    {"name":"Nyrena","relics_toward_next_star":{"current":210,"required":300},"relic_progress_source":"IMG_5178.jpeg; preceding progress 204/300"},
+    {"name":"Jagadrix","relics_toward_next_star":{"current":442,"required":800},"relic_progress_source":"IMG_5178.jpeg; preceding progress 439/800"},
+    {"name":"Arrax","relics_toward_next_star":{"current":246,"required":300},"relic_progress_source":"IMG_5178.jpeg; preceding progress 240/300"},
+    {"name":"Shimmer","relics_toward_next_star":{"current":356,"required":800},"relic_progress_source":"IMG_5178.jpeg; preceding progress 344/800"},
+    {"name":"Solstryker","relics_toward_next_star":{"current":206,"required":300},"relic_progress_source":"IMG_5178.jpeg; September 20 baseline 204/300"},
     {
       "name": "Arulix",
       "owned": true,
       "stars": 4,
-      "relics_toward_next_star": {
-        "current": 289,
-        "required": 300
-      },
-      "habits": [
-        {"name": "Hypnotic Helix", "level": 3},
-        {"name": "Battle Cunning", "level": 1}
-      ],
+      "relics_toward_next_star": {"current": 289, "required": 300},
+      "habits": [{"name":"Hypnotic Helix","level":3},{"name":"Battle Cunning","level":1}],
       "class": "Champion",
       "command": "Gleaming Spiral",
       "verified_on": "2026-09-22",
@@ -24,8 +34,11 @@
     }
   ],
   "verification_notes": [
-    "The detailed Arulix profile visibly shows four filled stars, 289/300 relics, unlocked habit-slot levels 3 and 1, Champion Juvenile, and Gleaming Spiral. Habit names were matched in slot order to the September 20 detailed roster and dragons/arulix.json; this screenshot itself displays icons, not habit names.",
-    "The screenshot's sidebar also displays multiple other dragons, but their star icons conflict with some September 20 detailed profiles; do not downgrade or overwrite those verified records using this sidebar alone.",
-    "Apply this update over the September 20 base roster by dragon name. The September 20 ten-march formations are historical plans and have not been recalculated or battle-validated for this observation."
+    "The ten-opening result in IMG_5177.jpeg and IMG_5178.jpeg awards 78 relics across 15 unique dragons. These screenshots overlap; repeated images are not additional rewards.",
+    "Some post-opening numbers in the reward views are obscured. The 15 relic totals above are calculated by adding visibly awarded quantities to the last visible progress figures from preceding screenshots or the September 20 detailed roster. See the experiment log for reward quantities and provenance.",
+    "The ten-opening reward contains no Arulix relics. A preceding screenshot showed 286/300, but the newer detailed Arulix profile in IMG_5179.jpeg shows 289/300. Keep 289/300 as the latest directly verified value (11 relics to 5 stars); the source of the intervening three relics is not established by the ten-opening reward.",
+    "The detailed Arulix profile visibly shows four filled stars, 289/300 relics, unlocked habit-slot levels 3 and 1, Champion Juvenile, and Gleaming Spiral. Habit names are carried from the September 20 verified definitions, not read from the habit icons.",
+    "The Arulix screenshot sidebar may conflict with older detailed dragon records; do not overwrite other dragons' stars or habits based on that sidebar alone.",
+    "No star upgrades, habit upgrades, or changes to the September 20 ten-march candidates are inferred from relic gains; all of those formations remain unvalidated against the updated account state."
   ]
 }
