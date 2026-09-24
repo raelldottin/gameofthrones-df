@@ -1,0 +1,64 @@
+{
+  "observed_date": "2026-09-24",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlay": "player-state/dragon-update-2026-09-22.json",
+  "source_screenshots": ["IMG_5185.jpeg", "IMG_5184.jpeg", "IMG_5183.jpeg"],
+  "scope": "Apply these three directly observed star-rank, relic-progress, and unlocked-habit updates by dragon name after the September 22 overlay. Reign level, XP, level-dependent stats, energy, troop capacity, power, seasonal resources, and sidebar-only observations are excluded.",
+  "updates": [
+    {
+      "name": "Solstryker",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {"current": 9, "required": 500},
+      "habits": [
+        {"name": "Steady Erosion", "level": 1},
+        {"name": "Energy Drain", "level": 1}
+      ],
+      "class": "Champion",
+      "command": "Tactical Onslaught",
+      "verified_on": "2026-09-24",
+      "source_screenshot": "IMG_5185.jpeg",
+      "change_from_previous_overlay": "4 stars at 206/300 -> 5 stars at 9/500"
+    },
+    {
+      "name": "Bevlorin",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {"current": 5, "required": 500},
+      "habits": [
+        {"name": "Fire Ward", "level": 1},
+        {"name": "Dragon's Fury", "level": 1}
+      ],
+      "class": "Champion",
+      "command": "Nature's Reckoning",
+      "verified_on": "2026-09-24",
+      "source_screenshot": "IMG_5184.jpeg",
+      "change_from_previous_overlay": "4 stars at 214/300 -> 5 stars at 5/500"
+    },
+    {
+      "name": "Venator",
+      "owned": true,
+      "stars": 2,
+      "relics_toward_next_star": {"current": 10, "required": 100},
+      "habits": [
+        {
+          "name": "Hunter's Bane",
+          "level": 1,
+          "name_source": "dragons/venator.json ability reference; the September 24 profile directly shows first habit slot unlocked at level 1"
+        }
+      ],
+      "class": "Warrior",
+      "command": "Feral Strike",
+      "verified_on": "2026-09-24",
+      "source_screenshot": "IMG_5183.jpeg",
+      "change_from_previous_roster": "1 star at 25/40 -> 2 stars at 10/100"
+    }
+  ],
+  "verification_notes": [
+    "Solstryker and Bevlorin directly show five filled stars, new 500-relic thresholds, and both previously known habit slots at level 1.",
+    "Venator directly shows two filled stars, 10/100 relic progress, and its first habit slot at level 1. The habit name Hunter's Bane is matched to the repository's previously captured Venator ability reference, where Hunter's Bane unlocks at 2 stars.",
+    "No other dragon progression is updated from the sidebar. Sidebar numbers and level-dependent presentation are not used as persistent star/relic evidence.",
+    "The September 20 ten-march plan has not been recalculated for these star upgrades and should be treated as stale for optimization until a new roster-first pass is performed."
+  ]
+}
