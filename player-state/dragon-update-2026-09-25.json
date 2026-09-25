@@ -1,0 +1,70 @@
+{
+  "observed_date": "2026-09-25",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-09-25.json",
+  "source_screenshots": [
+    "IMG_5192.jpeg",
+    "IMG_5193.jpeg",
+    "IMG_5194.jpeg",
+    "IMG_5195.jpeg",
+    "IMG_5196.jpeg"
+  ],
+  "scope": "Record only reign-persistent dragon progression supported by the September 25 Hatchery reward screens. Direct numeric relic totals take precedence. Where a reward quantity is visible but the post-reward numeric total is not, preserve the award as evidence and store only a minimum current value when a prior exact baseline exists. Do not infer star or habit upgrades from reward bars alone.",
+  "latest_exact_totals": [
+    {
+      "name": "Shimmer",
+      "stars": 6,
+      "relics_toward_next_star": {"current": 373, "required": 800},
+      "derivation": "IMG_5192 directly shows 366/800 after the Syrax & Vaeldra event-chest opening; the subsequent standard reward batch in IMG_5195 awards Shimmer x7."
+    },
+    {
+      "name": "Arrax",
+      "stars": 4,
+      "relics_toward_next_star": {"current": 255, "required": 300},
+      "derivation": "IMG_5192 directly shows 252/300 after the Syrax & Vaeldra event-chest opening; the subsequent standard reward batch in IMG_5195 awards Arrax x3."
+    },
+    {
+      "name": "Jagadrix",
+      "stars": 6,
+      "relics_toward_next_star": {"current": 449, "required": 800},
+      "derivation": "IMG_5192 directly shows 449/800 and Jagadrix is not shown among the subsequent standard-batch awards."
+    }
+  ],
+  "observed_awards_with_minimum_progress": [
+    {"name":"Arulix","award":2,"prior_exact":{"current":289,"required":300},"minimum_current_after_award":291,"stars_visible":4},
+    {"name":"Tashix","award":1,"prior_exact":{"current":57,"required":180},"minimum_current_after_award":58,"stars_visible":3,"note":"The reward-screen bar suggests additional unrecorded progress; do not treat 58/180 as an exact current total."},
+    {"name":"Thunderstrike","award":13,"prior_exact":{"current":209,"required":300},"minimum_current_after_award":222,"stars_visible":4},
+    {"name":"Dawnseeker","award":14,"prior_exact":{"current":111,"required":300},"minimum_current_after_award":125,"stars_visible":4},
+    {"name":"Vermax","award":6,"prior_exact":{"current":35,"required":100},"minimum_current_after_award":41,"stars_visible":2},
+    {"name":"Shadowrend","award":6,"prior_exact":{"current":75,"required":300},"minimum_current_after_award":81,"stars_visible":4},
+    {"name":"Vesper","award":5,"prior_exact":{"current":158,"required":300},"minimum_current_after_award":163,"stars_visible":4},
+    {"name":"Bevlorin","award":5,"prior_exact":{"current":5,"required":500},"minimum_current_after_award":10,"stars_visible":5},
+    {"name":"Shadowsong","award":5,"prior_exact":{"current":38,"required":300},"minimum_current_after_award":43,"stars_visible":4},
+    {"name":"Antares","award":1,"prior_exact":{"current":105,"required":300},"minimum_current_after_award":106,"stars_visible":4},
+    {"name":"Feskar","award":1,"prior_exact":{"current":50,"required":300},"minimum_current_after_award":51,"stars_visible":4}
+  ],
+  "new_or_unresolved_relic_target": {
+    "name": "Smoketail",
+    "award": 5,
+    "rarity": "Epic",
+    "ownership_verified": false,
+    "stars_verified": false,
+    "habits_verified": false,
+    "command_verified": false,
+    "note": "Smoketail is not present in the existing owned roster and the Hatchery reward screen alone is insufficient to establish ownership or a current exact relic total."
+  },
+  "verification_notes": [
+    "IMG_5192 is a Syrax & Vaeldra event-chest result: Shimmer x1, Arrax x5, Jagadrix x1 are visible, with direct post-result totals 366/800, 252/300, and 449/800 respectively.",
+    "IMG_5193 through IMG_5195 are overlapping views of one standard Hatchery reward batch. Visible unique awards are Arulix x2, Tashix x1, Thunderstrike x13, Shimmer x7, Arrax x3, Dawnseeker x14, Vermax x6, Shadowrend x6, Vesper x5, Smoketail x5, Bevlorin x5, Shadowsong x5, Antares x1, and Feskar x1.",
+    "The visible standard-batch awards sum to 74 relics across 14 unique dragons.",
+    "No Syrax or Vaeldra relic award is visible in the supplied September 25 result screens, so their last verified persistent progress remains unchanged by this update.",
+    "No owned dragon star upgrade or habit upgrade is directly verified in these reward screens.",
+    "Smoketail is recorded as a relic target only, not added to the 36-dragon owned roster.",
+    "Hatchery pity counters, keys, gold, and free-open timers are dated operational observations and are excluded from this persistent progression overlay."
+  ]
+}
