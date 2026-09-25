@@ -1,0 +1,56 @@
+{
+  "observed_date": "2026-09-25",
+  "status": "dated Hatchery result log; non-roster operational evidence",
+  "source_screenshots": [
+    "IMG_5192.jpeg",
+    "IMG_5193.jpeg",
+    "IMG_5194.jpeg",
+    "IMG_5195.jpeg",
+    "IMG_5196.jpeg"
+  ],
+  "event_chest_result": {
+    "chest": "Syrax & Vaeldra Event Dragon Chest",
+    "visible_rewards": [
+      {"name":"Shimmer","quantity":1,"displayed_total_after_result":{"current":366,"required":800}},
+      {"name":"Arrax","quantity":5,"displayed_total_after_result":{"current":252,"required":300}},
+      {"name":"Jagadrix","quantity":1,"displayed_total_after_result":{"current":449,"required":800}}
+    ],
+    "syrax_reward_visible": false,
+    "vaeldra_reward_visible": false
+  },
+  "standard_hatchery_batch": {
+    "visible_rewards": [
+      {"name":"Arulix","quantity":2},
+      {"name":"Tashix","quantity":1},
+      {"name":"Thunderstrike","quantity":13},
+      {"name":"Shimmer","quantity":7},
+      {"name":"Arrax","quantity":3},
+      {"name":"Dawnseeker","quantity":14},
+      {"name":"Vermax","quantity":6},
+      {"name":"Shadowrend","quantity":6},
+      {"name":"Vesper","quantity":5},
+      {"name":"Smoketail","quantity":5},
+      {"name":"Bevlorin","quantity":5},
+      {"name":"Shadowsong","quantity":5},
+      {"name":"Antares","quantity":1},
+      {"name":"Feskar","quantity":1}
+    ],
+    "visible_total_relics": 74,
+    "unique_dragons": 14
+  },
+  "post_batch_operational_state": {
+    "standard_legendary_elite_counter": {"current":114,"required":250},
+    "standard_epic_elite_counter": {"current":42,"required":130},
+    "dragonbone_keys": 0,
+    "dragonglass_keys": 0,
+    "dragonfire_keys": 0,
+    "gold": 99,
+    "free_standard_open_timer": "15h 55m",
+    "note": "These values are session/market observations and are not treated as reign-persistent dragon attributes."
+  },
+  "cautions": [
+    "The supplied screenshots do not establish the exact gold cost or exact sequence of every opening between IMG_5192 and IMG_5196; do not infer purchase economics from the resource delta alone.",
+    "Reward-screen progress bars without numeric labels are insufficient for exact current relic totals when intervening progression may have occurred.",
+    "Smoketail x5 is a verified reward, but ownership and exact progression are not verified."
+  ]
+}
