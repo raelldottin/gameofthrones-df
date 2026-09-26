@@ -1,0 +1,83 @@
+{
+  "observed_date": "2026-09-26",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-09-26.json",
+  "source_screenshots": [
+    "IMG_5204.jpeg",
+    "IMG_5205.jpeg",
+    "IMG_5206.jpeg",
+    "IMG_5207.jpeg"
+  ],
+  "scope": "Record only reign-persistent progression directly supported by the September 26 Hatchery reward screens. Star-up and hatch labels plus visible star rows are authoritative. Habit names/levels, commands, class, and exact post-up relic carryover are not inferred from reward screens.",
+  "verified_progression_changes": [
+    {
+      "name": "Arulix",
+      "owned": true,
+      "stars": 5,
+      "change": "4 stars -> 5 stars",
+      "triggering_award": 6,
+      "evidence": "IMG_5204 shows 'Star Up!' above Arulix and five filled/highlighted stars.",
+      "relics_toward_next_star": null,
+      "habits_verified_after_upgrade": false
+    },
+    {
+      "name": "Syrax",
+      "owned": true,
+      "stars": 2,
+      "change": "1 star -> 2 stars",
+      "triggering_award": 5,
+      "evidence": "IMG_5206/IMG_5207 show 'Star Up!' for Syrax and two filled/highlighted stars.",
+      "relics_toward_next_star": null,
+      "habits_verified_after_upgrade": false
+    },
+    {
+      "name": "Smoketail",
+      "owned": true,
+      "stars": 2,
+      "change": "unowned relic target -> owned dragon",
+      "triggering_award": 100,
+      "evidence": "IMG_5204 shows 'Hatched!' above Smoketail and a two-star visible row after the x100 reward.",
+      "relics_toward_next_star": null,
+      "habits_verified": false,
+      "command_verified": false,
+      "class_verified": false,
+      "note": "September 25 recorded Smoketail x5 as an unowned relic target. This hatch supersedes that ownership state."
+    }
+  ],
+  "visible_awards": [
+    {"name":"Jagadrix","quantity":8},
+    {"name":"Vaeldra","quantity":1},
+    {"name":"Arulix","quantity":6,"result":"Star Up to 5 stars"},
+    {"name":"Smoketail","quantity":100,"result":"Hatched; two stars visible"},
+    {"name":"Thunderstrike","quantity":5},
+    {"name":"Malachite","quantity":5},
+    {"name":"Tairax","quantity":5},
+    {"name":"Tashix","quantity":1},
+    {"name":"Vesper","quantity":7},
+    {"name":"Antares","quantity":7},
+    {"name":"Arrax","quantity":7},
+    {"name":"Nyrena","quantity":2},
+    {"name":"Dawnseeker","quantity":2},
+    {"name":"Starshower","quantity":1},
+    {"name":"Bevlorin","quantity":2},
+    {"name":"Syrax","quantity":5,"result":"Star Up to 2 stars"},
+    {"name":"Shadowrend","quantity":1}
+  ],
+  "visible_award_total": 165,
+  "visible_unique_dragons": 17,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "Arulix 5-star status is directly verified by the Star Up label and five-star row; exact relic carryover toward the next star is not numerically shown.",
+    "Syrax 2-star status is directly verified by the Star Up label and two-star row; exact relic carryover toward the next star is not numerically shown.",
+    "Smoketail ownership is now directly verified by the Hatched label. Two stars are visible in the post-reward star row, so Smoketail is recorded at 2 stars. Exact relic carryover, class, command, and habits remain unverified.",
+    "No habit upgrade is inferred merely because a new star may unlock a habit slot.",
+    "The other reward quantities are preserved as dated progression evidence but are not converted into exact current relic totals because intervening pulls/progression since September 25 are not fully enumerated.",
+    "The September 20 ten-march plan is stale for optimization because Arulix and Syrax changed star rank and Smoketail was newly hatched."
+  ]
+}
