@@ -1,0 +1,55 @@
+{
+  "observed_date": "2026-09-26",
+  "status": "dated Standard Hatchery ten-pull result log",
+  "source_screenshots": [
+    "IMG_5204.jpeg",
+    "IMG_5205.jpeg",
+    "IMG_5206.jpeg",
+    "IMG_5207.jpeg"
+  ],
+  "purchase": {
+    "chest": "Standard Hatchery Chest",
+    "openings": 10,
+    "dragonbone_keys_spent": 5,
+    "gold_spent": 500,
+    "gold_before": 694,
+    "gold_after": 194,
+    "dragonbone_keys_before": 5,
+    "dragonbone_keys_after": 0
+  },
+  "rewards": [
+    {"name":"Jagadrix","quantity":8},
+    {"name":"Vaeldra","quantity":1},
+    {"name":"Arulix","quantity":6,"event":"Star Up"},
+    {"name":"Smoketail","quantity":100,"event":"Hatched"},
+    {"name":"Thunderstrike","quantity":5},
+    {"name":"Malachite","quantity":5},
+    {"name":"Tairax","quantity":5},
+    {"name":"Tashix","quantity":1},
+    {"name":"Vesper","quantity":7},
+    {"name":"Antares","quantity":7},
+    {"name":"Arrax","quantity":7},
+    {"name":"Nyrena","quantity":2},
+    {"name":"Dawnseeker","quantity":2},
+    {"name":"Starshower","quantity":1},
+    {"name":"Bevlorin","quantity":2},
+    {"name":"Syrax","quantity":5,"event":"Star Up"},
+    {"name":"Shadowrend","quantity":1}
+  ],
+  "summary": {
+    "visible_relics": 165,
+    "unique_dragons": 17,
+    "star_ups": ["Arulix", "Syrax"],
+    "newly_hatched": ["Smoketail"]
+  },
+  "pre_pull_operational_state": {
+    "standard_legendary_elite_counter": {"current":116,"required":250},
+    "standard_epic_elite_counter": {"current":44,"required":130},
+    "note": "These counters were visible immediately before the ten-pull. No post-pull counter screenshot was supplied, so no new counter is inferred."
+  },
+  "cautions": [
+    "Do not infer exact post-star relic carryover from the reward progress bars.",
+    "Do not infer newly unlocked habit names or levels from star rank alone.",
+    "Smoketail is directly verified as hatched and owned; its detailed Dragon Pit profile is still needed for class, command, habits, and exact relic progress."
+  ]
+}
