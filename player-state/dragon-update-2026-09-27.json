@@ -1,0 +1,73 @@
+{
+  "observed_date": "2026-09-27",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-09-27.json",
+  "source_screenshots": [
+    "IMG_5219.jpeg",
+    "IMG_5220.jpeg",
+    "IMG_5221.jpeg"
+  ],
+  "scope": "Record only reign-persistent progression directly supported by the September 27 Hatchery reward screens. Star ranks are updated only when directly supported by a Star Up label or an unambiguous post-reward star row. Habit names/levels, commands, class, exact post-up relic carryover, currencies, and pity counters are not inferred into the persistent roster.",
+  "verified_progression_changes": [
+    {
+      "name": "Nyrena",
+      "owned": true,
+      "stars": 5,
+      "change": "4 stars -> 5 stars",
+      "triggering_award": 101,
+      "evidence": "IMG_5219 shows 'Star Up!' above Nyrena; IMG_5220/IMG_5221 show the same reward batch and a five-star post-reward row.",
+      "relics_toward_next_star": null,
+      "habits_verified_after_upgrade": false,
+      "stable_identity_from_prior_profile": {
+        "class": "Champion",
+        "command": "Undermine"
+      }
+    },
+    {
+      "name": "Starshower",
+      "owned": true,
+      "stars": 2,
+      "change": "1 star -> 2 stars",
+      "triggering_award": 1,
+      "evidence": "IMG_5221 shows Starshower with two filled stars after the x1 award. The prior verified September 20 profile was 1 star at 38/40, and September 26 recorded a further x1 award.",
+      "relics_toward_next_star": null,
+      "habits_verified_after_upgrade": false,
+      "stable_identity_from_prior_profile": {
+        "class": "Sentinel",
+        "command": "Starfall"
+      }
+    }
+  ],
+  "visible_awards": [
+    {"name":"Dawnseeker","quantity":7},
+    {"name":"Shimmer","quantity":9},
+    {"name":"Jagadrix","quantity":14},
+    {"name":"Antares","quantity":2},
+    {"name":"Arrax","quantity":2},
+    {"name":"Bevlorin","quantity":21},
+    {"name":"Arulix","quantity":1},
+    {"name":"Syrax","quantity":5},
+    {"name":"Nyrena","quantity":101,"result":"Star Up to 5 stars"},
+    {"name":"Zivern","quantity":1},
+    {"name":"Starshower","quantity":1,"result":"Post-reward row verifies 2 stars"},
+    {"name":"Vaeldra","quantity":1}
+  ],
+  "visible_award_total": 165,
+  "visible_unique_dragons": 12,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "Nyrena's five-star rank is directly verified. Do not infer any newly available or upgraded habit until a detailed Dragon Pit profile is captured.",
+    "Starshower's two-star rank is directly verified by the post-reward star row. Do not infer a habit unlock or level from the star increase.",
+    "The same screenshots also show star rows consistent with the previously verified states for Dawnseeker 4 stars, Shimmer 6 stars, Jagadrix 6 stars, Antares 4 stars, Arrax 4 stars, Bevlorin 5 stars, Arulix 5 stars, Syrax 2 stars, Zivern 6 stars, and Vaeldra 4 stars.",
+    "Exact current relic totals for the other reward recipients are not reconstructed because intervening progress is not guaranteed to be fully enumerated by the dated overlays.",
+    "Gold, keys, and the next-pull price shown on the reward screen are retained only in the dated Hatchery log, not this persistent progression overlay.",
+    "The September 20 ten-march plan remains stale for optimization; it now also predates Nyrena's 5-star and Starshower's 2-star ranks."
+  ]
+}
