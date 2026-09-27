@@ -1,48 +1,230 @@
 {
   "observed_date": "2026-09-27",
-  "status": "dated Standard Hatchery reward-batch log",
+  "status": "dated Standard Hatchery reward-batch log (two observed batches)",
   "source_screenshots": [
     "IMG_5219.jpeg",
     "IMG_5220.jpeg",
-    "IMG_5221.jpeg"
+    "IMG_5221.jpeg",
+    "IMG_5222.jpeg",
+    "IMG_5223.jpeg",
+    "IMG_5224.jpeg",
+    "IMG_5225.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
-  "rewards": [
-    {"name":"Dawnseeker","quantity":7},
-    {"name":"Shimmer","quantity":9},
-    {"name":"Jagadrix","quantity":14},
-    {"name":"Antares","quantity":2},
-    {"name":"Arrax","quantity":2},
-    {"name":"Bevlorin","quantity":21},
-    {"name":"Arulix","quantity":1},
-    {"name":"Syrax","quantity":5},
-    {"name":"Nyrena","quantity":101,"event":"Star Up"},
-    {"name":"Zivern","quantity":1},
-    {"name":"Starshower","quantity":1,"event":"Star rank visibly increased to 2 stars"},
-    {"name":"Vaeldra","quantity":1}
-  ],
   "summary": {
-    "visible_relics": 165,
-    "unique_dragons": 12,
+    "observed_batches": 2,
+    "visible_relics": 235,
+    "unique_dragons_across_batches": 20,
     "directly_verified_star_rank_changes": [
-      {"name":"Nyrena","stars":5},
-      {"name":"Starshower","stars":2}
+      {
+        "name": "Nyrena",
+        "stars": 5
+      },
+      {
+        "name": "Starshower",
+        "stars": 2
+      },
+      {
+        "name": "Seasmoke",
+        "stars": 2
+      },
+      {
+        "name": "Kalspire",
+        "stars": 2
+      }
     ],
     "newly_hatched": []
   },
-  "post_result_operational_state": {
-    "dragonbone_keys": 3,
-    "dragonglass_keys": 0,
-    "dragonfire_keys": 0,
-    "gold": 709,
-    "next_open_x10_gold_cost_visible": 1200,
-    "note": "These are dated operational observations from the result screen and are not persistent dragon attributes."
-  },
   "verification_notes": [
-    "IMG_5219 through IMG_5221 are overlapping views of the same reward batch; repeated cards are not additional rewards.",
-    "Nyrena is directly marked 'Star Up!' and the post-reward star row shows five filled stars.",
-    "Starshower's post-reward star row in IMG_5221 shows two filled stars. This supersedes the September 20 one-star profile and is also consistent with the known 38/40 baseline, the September 26 x1 award, and this x1 award.",
-    "No habit names or habit levels are inferred from either star increase.",
-    "Exact post-star relic carryover is not inferred from progress-bar proportions alone."
+    "IMG_5219 through IMG_5221 are overlapping views of the first reward batch; IMG_5222 through IMG_5225 are overlapping views of a second reward batch. Repeated cards within each group are not additional rewards.",
+    "Nyrena is directly marked 'Star Up!' and the first batch shows a five-star post-reward row.",
+    "Starshower's first batch post-reward row shows two stars, superseding the September 20 one-star profile.",
+    "Seasmoke and Kalspire are directly marked 'Star Up!' in the second batch and show two-star post-reward rows.",
+    "The September 20 exact baselines were Seasmoke 35/40 and Kalspire 30/40; their second-batch x5 and x10 awards exactly reach those star-up thresholds.",
+    "No habit names or habit levels are inferred from these star increases.",
+    "Exact post-star relic carryover is not inferred from progress-bar proportions alone.",
+    "Currencies, keys, and displayed next-pull prices are retained only as dated operational observations."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-09-27-a",
+      "source_screenshots": [
+        "IMG_5219.jpeg",
+        "IMG_5220.jpeg",
+        "IMG_5221.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 7
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 9
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 14
+        },
+        {
+          "name": "Antares",
+          "quantity": 2
+        },
+        {
+          "name": "Arrax",
+          "quantity": 2
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 21
+        },
+        {
+          "name": "Arulix",
+          "quantity": 1
+        },
+        {
+          "name": "Syrax",
+          "quantity": 5
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 101,
+          "event": "Star Up"
+        },
+        {
+          "name": "Zivern",
+          "quantity": 1
+        },
+        {
+          "name": "Starshower",
+          "quantity": 1,
+          "event": "Star rank visibly increased to 2 stars"
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 165,
+      "unique_dragons": 12,
+      "directly_verified_star_rank_changes": [
+        {
+          "name": "Nyrena",
+          "stars": 5
+        },
+        {
+          "name": "Starshower",
+          "stars": 2
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 709,
+        "next_open_x10_gold_cost_visible": 1200
+      }
+    },
+    {
+      "batch_id": "2026-09-27-b",
+      "source_screenshots": [
+        "IMG_5222.jpeg",
+        "IMG_5223.jpeg",
+        "IMG_5224.jpeg",
+        "IMG_5225.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Starshower",
+          "quantity": 1
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 2
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1
+        },
+        {
+          "name": "Vermax",
+          "quantity": 5
+        },
+        {
+          "name": "Seasmoke",
+          "quantity": 5,
+          "event": "Star Up to 2 stars"
+        },
+        {
+          "name": "Kalspire",
+          "quantity": 10,
+          "event": "Star Up to 2 stars"
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 2
+        },
+        {
+          "name": "Tashix",
+          "quantity": 1
+        },
+        {
+          "name": "Arrax",
+          "quantity": 2
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 6
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 11
+        },
+        {
+          "name": "Arulix",
+          "quantity": 6
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 2
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 8
+        },
+        {
+          "name": "Antares",
+          "quantity": 6
+        },
+        {
+          "name": "Vesper",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 70,
+      "unique_dragons": 17,
+      "directly_verified_star_rank_changes": [
+        {
+          "name": "Seasmoke",
+          "stars": 2
+        },
+        {
+          "name": "Kalspire",
+          "stars": 2
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 9,
+        "next_open_x10_gold_cost_visible": 1000,
+        "note": "This is the state visible after the second batch. No spend amount is inferred from the state delta alone."
+      }
+    }
   ]
 }
