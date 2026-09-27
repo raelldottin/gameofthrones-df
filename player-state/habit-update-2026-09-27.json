@@ -1,0 +1,330 @@
+{
+  "observed_date": "2026-09-27",
+  "status": "verified Dragon Pit habit snapshot",
+  "source_screenshots": [
+    "IMG_5226.jpeg",
+    "IMG_5227.jpeg",
+    "IMG_5228.jpeg",
+    "IMG_5229.jpeg",
+    "IMG_5230.jpeg",
+    "IMG_5231.jpeg",
+    "IMG_5233.jpeg"
+  ],
+  "scope": "Record directly visible habit names, current levels, displayed level progressions, and next-upgrade costs from the supplied Dragon Pit screens. Reign level, combat stats, currencies currently owned, relic progress, and other sidebar values are not treated as persistent progression here.",
+  "updates": [
+    {
+      "name": "Arrax",
+      "habit": "Headlong Into Danger",
+      "current_level": 3,
+      "trigger": "Start of Round 4",
+      "duration_rounds": 4,
+      "fixed_effects": {
+        "strength_percent": 25,
+        "initiative_percent": 10,
+        "physical_damage_dealt_percent": 25
+      },
+      "levels": [
+        {
+          "level": 1,
+          "self_physical_damage_received_percent": 10,
+          "self_instinct_percent": -40
+        },
+        {
+          "level": 2,
+          "self_physical_damage_received_percent": 8,
+          "self_instinct_percent": -32
+        },
+        {
+          "level": 3,
+          "self_physical_damage_received_percent": 6,
+          "self_instinct_percent": -24
+        },
+        {
+          "level": 4,
+          "self_physical_damage_received_percent": 3,
+          "self_instinct_percent": -12
+        },
+        {
+          "level": 5,
+          "self_physical_damage_received_percent": 0,
+          "self_instinct_percent": 0
+        }
+      ],
+      "next_upgrade": {
+        "from_level": 3,
+        "to_level": 4,
+        "cost": {
+          "blue_rarity_cores": 350,
+          "green_warrior_habit_cores": 350,
+          "gold": 294
+        }
+      },
+      "evidence": [
+        "IMG_5226.jpeg",
+        "IMG_5228.jpeg"
+      ]
+    },
+    {
+      "name": "Zivern",
+      "habit": "Fearsome Reach",
+      "current_level": 2,
+      "trigger": "Odd-numbered rounds",
+      "effect": "Chance to reduce Instinct, enhanced by Intelligence, by 15% and afflict Panic on 3 enemies in any lane for 2 rounds. Panic deals Tactical Damage each round at +20% Damage Rate.",
+      "fixed_values": {
+        "enemy_instinct_percent": -15,
+        "panic_damage_rate_percent": 20,
+        "target_count": 3,
+        "duration_rounds": 2
+      },
+      "levels": [
+        {
+          "level": 1,
+          "fearsome_reach_chance_percent": 30,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "fearsome_reach_chance_percent": 36,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "fearsome_reach_chance_percent": 42,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "fearsome_reach_chance_percent": 51,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "fearsome_reach_chance_percent": 60,
+          "power": 2500
+        }
+      ],
+      "next_upgrade": {
+        "from_level": 2,
+        "to_level": 3,
+        "cost": {
+          "purple_rarity_cores": 200,
+          "green_sentinel_habit_cores": 200,
+          "gold": 86
+        }
+      },
+      "evidence": [
+        "IMG_5227.jpeg"
+      ]
+    },
+    {
+      "name": "Jagadrix",
+      "habit": "Whispering Sabotage",
+      "current_level": 5,
+      "trigger": "Each round",
+      "effect": "Chance to afflict 1 enemy in the same lane with Weakened (-10%) for 2 rounds. Weakened reduces the target's Damage Dealt.",
+      "fixed_values": {
+        "target_count": 1,
+        "targeting": "Enemy in the same lane",
+        "weakened_damage_dealt_percent": -10,
+        "duration_rounds": 2
+      },
+      "levels": [
+        {
+          "level": 1,
+          "weakened_chance_percent": 25,
+          "power": 250
+        },
+        {
+          "level": 2,
+          "weakened_chance_percent": 30,
+          "power": 550
+        },
+        {
+          "level": 3,
+          "weakened_chance_percent": 35,
+          "power": 900
+        },
+        {
+          "level": 4,
+          "weakened_chance_percent": 42.5,
+          "power": 1300
+        },
+        {
+          "level": 5,
+          "weakened_chance_percent": 50,
+          "power": 1800
+        }
+      ],
+      "max_level_reached": true,
+      "evidence": [
+        "IMG_5229.jpeg"
+      ]
+    },
+    {
+      "name": "Vaeldra",
+      "habit": "Dragon's Valor",
+      "current_level": 3,
+      "trigger": "Start of combat",
+      "effect": "Reduce Damage Received and increase Strength until the end of combat.",
+      "levels": [
+        {
+          "level": 1,
+          "damage_received_percent": -5,
+          "strength_percent": 8.5,
+          "power": 340
+        },
+        {
+          "level": 2,
+          "damage_received_percent": -6,
+          "strength_percent": 10.2,
+          "power": 740
+        },
+        {
+          "level": 3,
+          "damage_received_percent": -7,
+          "strength_percent": 11.9,
+          "power": 1200
+        },
+        {
+          "level": 4,
+          "damage_received_percent": -8.5,
+          "strength_percent": 14.45,
+          "power": 1800
+        },
+        {
+          "level": 5,
+          "damage_received_percent": -10,
+          "strength_percent": 17,
+          "power": 2500
+        }
+      ],
+      "next_upgrade": {
+        "from_level": 3,
+        "to_level": 4,
+        "cost": {
+          "purple_rarity_cores": 350,
+          "green_sentinel_habit_cores": 350,
+          "gold": 694
+        }
+      },
+      "evidence": [
+        "IMG_5230.jpeg"
+      ]
+    },
+    {
+      "name": "Arulix",
+      "habit": "Hypnotic Helix",
+      "current_level": 4,
+      "effect": "On rounds 1, 3, 6, and 8, chance to Overwhelm 1 enemy in any lane for 2 rounds, prioritizing Fire Damage dealers. On rounds 2, 4, 7, and 9, chance to Stagger 1 enemy in any lane for 2 rounds, prioritizing Physical Damage dealers.",
+      "fixed_values": {
+        "overwhelm_rounds": [
+          1,
+          3,
+          6,
+          8
+        ],
+        "stagger_rounds": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "target_count": 1,
+        "duration_rounds": 2,
+        "overwhelm_priority": "Fire Damage dealers",
+        "stagger_priority": "Physical Damage dealers"
+      },
+      "definitions": {
+        "overwhelm": "Prevents the target from using Active Commands and Habits on its turn.",
+        "stagger": "Prevents the target from using Attack Modifier Commands or launching Basic Attacks on its turn."
+      },
+      "description_displayed_chance_percent": 21,
+      "levels": [
+        {
+          "level": 1,
+          "stagger_and_overwhelm_chance_percent": 12.5
+        },
+        {
+          "level": 2,
+          "stagger_and_overwhelm_chance_percent": 15
+        },
+        {
+          "level": 3,
+          "stagger_and_overwhelm_chance_percent": 17.5
+        },
+        {
+          "level": 4,
+          "stagger_and_overwhelm_chance_percent": 21.3
+        },
+        {
+          "level": 5,
+          "stagger_and_overwhelm_chance_percent": 25
+        }
+      ],
+      "next_upgrade": {
+        "from_level": 4,
+        "to_level": 5,
+        "cost": {
+          "blue_rarity_cores": 500,
+          "green_champion_habit_cores": 500,
+          "gold": 560
+        }
+      },
+      "evidence": [
+        "IMG_5231.jpeg"
+      ]
+    },
+    {
+      "name": "Thunderstrike",
+      "habit": "Dragon's Might",
+      "current_level": 2,
+      "trigger": "Start of combat",
+      "effect": "Increase Physical Damage Dealt by Commands and Habits until the end of combat.",
+      "levels": [
+        {
+          "level": 1,
+          "physical_damage_dealt_percent": 8,
+          "power": 250
+        },
+        {
+          "level": 2,
+          "physical_damage_dealt_percent": 9.6,
+          "power": 550
+        },
+        {
+          "level": 3,
+          "physical_damage_dealt_percent": 11.2,
+          "power": 900
+        },
+        {
+          "level": 4,
+          "physical_damage_dealt_percent": 13.6,
+          "power": 1300
+        },
+        {
+          "level": 5,
+          "physical_damage_dealt_percent": 16,
+          "power": 1800
+        }
+      ],
+      "next_upgrade": {
+        "from_level": 2,
+        "to_level": 3,
+        "cost": {
+          "blue_rarity_cores": 200,
+          "green_warrior_habit_cores": 200,
+          "gold": 394
+        }
+      },
+      "evidence": [
+        "IMG_5233.jpeg"
+      ]
+    }
+  ],
+  "verification_notes": [
+    "These screenshots directly verify the listed current habit levels; no habit level is inferred from star rank.",
+    "The two Arrax screenshots independently show Headlong Into Danger at level 3 with the same level table and next-upgrade cost.",
+    "Jagadrix's Whispering Sabotage is explicitly shown at level 5 with MAX LEVEL REACHED.",
+    "Arulix's effect description rounds the current Hypnotic Helix chance to 21%, while the level table displays 21.3%; both displayed values are preserved."
+  ]
+}
