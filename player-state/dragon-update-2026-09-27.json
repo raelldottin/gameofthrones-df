@@ -16,9 +16,16 @@
     "IMG_5222.jpeg",
     "IMG_5223.jpeg",
     "IMG_5224.jpeg",
-    "IMG_5225.jpeg"
+    "IMG_5225.jpeg",
+    "IMG_5226.jpeg",
+    "IMG_5227.jpeg",
+    "IMG_5228.jpeg",
+    "IMG_5229.jpeg",
+    "IMG_5230.jpeg",
+    "IMG_5231.jpeg",
+    "IMG_5233.jpeg"
   ],
-  "scope": "Record only reign-persistent progression directly supported by the September 27 Hatchery reward screens. Star ranks are updated only when directly supported by a Star Up label or an unambiguous post-reward star row. Habit names/levels, commands, class, exact post-up relic carryover, currencies, and pity counters are not inferred into the persistent roster.",
+  "scope": "Record reign-persistent progression directly supported by the September 27 Hatchery reward screens and the detailed Dragon Pit habit screens. Star ranks are updated only when directly supported by a Star Up label or an unambiguous post-reward star row; habit levels are updated only when directly displayed in the Dragon Pit.",
   "verified_progression_changes": [
     {
       "name": "Nyrena",
@@ -142,7 +149,10 @@
     "Seasmoke and Kalspire are directly verified at 2 stars by 'Star Up!' labels and two-star post-reward rows. Their September 20 exact baselines were 35/40 and 30/40 respectively, matching the x5 and x10 awards needed to reach 2 stars.",
     "No habit unlocks or habit levels are inferred for Seasmoke or Kalspire from their new star ranks.",
     "Across both September 27 reward batches, 235 visible relics are recorded across 20 unique dragons.",
-    "The September 20 ten-march plan remains stale for optimization; it now also predates Nyrena 5★, Starshower 2★, Seasmoke 2★, and Kalspire 2★."
+    "The September 20 ten-march plan remains stale for optimization; it now also predates Nyrena 5★, Starshower 2★, Seasmoke 2★, and Kalspire 2★.",
+    "Detailed Dragon Pit screens supplied later on September 27 directly verify current habit levels for Arrax (Headlong Into Danger 3), Zivern (Fearsome Reach 2), Jagadrix (Whispering Sabotage 5), Vaeldra (Dragon's Valor 3), Arulix (Hypnotic Helix 4), and Thunderstrike (Dragon's Might 2).",
+    "Jagadrix's Whispering Sabotage is explicitly at max level 5.",
+    "Full displayed level tables and next-upgrade costs are stored in player-state/habit-update-2026-09-27.json."
   ],
   "visible_awards_second_batch": [
     {
@@ -219,5 +229,57 @@
   "second_batch_visible_award_total": 70,
   "second_batch_visible_unique_dragons": 17,
   "september_27_visible_award_total": 235,
-  "september_27_visible_unique_dragons": 20
+  "september_27_visible_unique_dragons": 20,
+  "habit_snapshot": "player-state/habit-update-2026-09-27.json",
+  "verified_habit_updates": [
+    {
+      "name": "Arrax",
+      "habit": "Headlong Into Danger",
+      "level": 3,
+      "source_screenshots": [
+        "IMG_5226.jpeg",
+        "IMG_5228.jpeg"
+      ]
+    },
+    {
+      "name": "Zivern",
+      "habit": "Fearsome Reach",
+      "level": 2,
+      "source_screenshots": [
+        "IMG_5227.jpeg"
+      ]
+    },
+    {
+      "name": "Jagadrix",
+      "habit": "Whispering Sabotage",
+      "level": 5,
+      "source_screenshots": [
+        "IMG_5229.jpeg"
+      ]
+    },
+    {
+      "name": "Vaeldra",
+      "habit": "Dragon's Valor",
+      "level": 3,
+      "source_screenshots": [
+        "IMG_5230.jpeg"
+      ]
+    },
+    {
+      "name": "Arulix",
+      "habit": "Hypnotic Helix",
+      "level": 4,
+      "source_screenshots": [
+        "IMG_5231.jpeg"
+      ]
+    },
+    {
+      "name": "Thunderstrike",
+      "habit": "Dragon's Might",
+      "level": 2,
+      "source_screenshots": [
+        "IMG_5233.jpeg"
+      ]
+    }
+  ]
 }
