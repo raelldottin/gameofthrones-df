@@ -25,7 +25,12 @@
     "IMG_5231.jpeg",
     "IMG_5233.jpeg",
     "IMG_5234.jpeg",
-    "IMG_5235.jpeg"
+    "IMG_5235.jpeg",
+    "IMG_5236.jpeg",
+    "IMG_5237.jpeg",
+    "IMG_5238.jpeg",
+    "IMG_5239.jpeg",
+    "IMG_5240.jpeg"
   ],
   "scope": "Record reign-persistent progression directly supported by the September 27 Hatchery reward screens and the detailed Dragon Pit habit screens. Star ranks are updated only when directly supported by a Star Up label or an unambiguous post-reward star row; habit levels are updated only when directly displayed in the Dragon Pit.",
   "verified_progression_changes": [
@@ -177,7 +182,12 @@
     "The cumulative Dawnseeker cards show 159/300 after x5, 160/300 after the following x1, and IMG_5235.jpeg then shows 161/300 after another x1.",
     "IMG_5235.jpeg directly shows Thunderstrike at 244/300 and Smoketail at 57/100; these exact counters supersede older non-exact reward-only progress for those dragons.",
     "No habit unlock or habit level is inferred for Caraxes from reaching 2 stars.",
-    "The September 20 ten-march plan is further stale because it predates Caraxes 2★ and the newer exact relic progress for Dawnseeker, Thunderstrike, and Smoketail."
+    "The September 20 ten-march plan is further stale because it predates Caraxes 2★ and the newer exact relic progress for Dawnseeker, Thunderstrike, and Smoketail.",
+    "A fifth September 27 Standard Hatchery reward group is captured by IMG_5236.jpeg through IMG_5240.jpeg. The five screenshots are overlapping views of the same reward result, not five separate pulls.",
+    "The fifth reward group contains 165 visible relics across 22 dragons, including an Elite Drop of Shadowrend x100.",
+    "No 'Star Up!' label is visible in the fifth reward group, so no additional star-rank change is recorded from these screenshots.",
+    "Relic quantities from the fifth group are retained as reign-persistent increments, but exact post-batch relic counters are not reconstructed from progress-bar proportions alone.",
+    "Across all five September 27 observed reward groups, 418 visible relics are recorded across 27 unique dragons."
   ],
   "visible_awards_second_batch": [
     {
@@ -253,8 +263,8 @@
   ],
   "second_batch_visible_award_total": 70,
   "second_batch_visible_unique_dragons": 17,
-  "september_27_visible_award_total": 253,
-  "september_27_visible_unique_dragons": 21,
+  "september_27_visible_award_total": 418,
+  "september_27_visible_unique_dragons": 27,
   "habit_snapshot": "player-state/habit-update-2026-09-27.json",
   "verified_habit_updates": [
     {
@@ -401,5 +411,98 @@
       },
       "source_screenshot": "IMG_5235.jpeg"
     }
-  ]
+  ],
+  "visible_awards_fifth_batch": [
+    {
+      "name": "Venator",
+      "quantity": 5
+    },
+    {
+      "name": "Kalspire",
+      "quantity": 5
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 2
+    },
+    {
+      "name": "Starshower",
+      "quantity": 1
+    },
+    {
+      "name": "Antares",
+      "quantity": 1
+    },
+    {
+      "name": "Vesper",
+      "quantity": 5
+    },
+    {
+      "name": "Daemoros",
+      "quantity": 5
+    },
+    {
+      "name": "Syrax",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 100,
+      "event": "Elite Drop"
+    },
+    {
+      "name": "Tashix",
+      "quantity": 5
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 2
+    },
+    {
+      "name": "Arulix",
+      "quantity": 2
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 1
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 6
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 5
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 2
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 1
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 1
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 6
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 2
+    },
+    {
+      "name": "Feskar",
+      "quantity": 1
+    },
+    {
+      "name": "Arrax",
+      "quantity": 2
+    }
+  ],
+  "fifth_batch_visible_award_total": 165,
+  "fifth_batch_visible_unique_dragons": 22
 }
