@@ -1,6 +1,6 @@
 {
   "observed_date": "2026-09-27",
-  "status": "dated Standard Hatchery reward-batch log (four observed reward groups)",
+  "status": "dated Standard Hatchery reward-batch log (five observed reward groups)",
   "source_screenshots": [
     "IMG_5219.jpeg",
     "IMG_5220.jpeg",
@@ -10,13 +10,18 @@
     "IMG_5224.jpeg",
     "IMG_5225.jpeg",
     "IMG_5234.jpeg",
-    "IMG_5235.jpeg"
+    "IMG_5235.jpeg",
+    "IMG_5236.jpeg",
+    "IMG_5237.jpeg",
+    "IMG_5238.jpeg",
+    "IMG_5239.jpeg",
+    "IMG_5240.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
   "summary": {
-    "observed_batches": 4,
-    "visible_relics": 253,
-    "unique_dragons_across_batches": 21,
+    "observed_batches": 5,
+    "visible_relics": 418,
+    "unique_dragons_across_batches": 27,
     "directly_verified_star_rank_changes": [
       {
         "name": "Nyrena",
@@ -54,7 +59,11 @@
     "IMG_5234.jpeg directly marks Caraxes 'Star Up!' and shows 0/100 toward the next star after reaching 2 stars.",
     "Dawnseeker is shown at 159/300 after x5 and 160/300 after a following x1 in IMG_5234.jpeg; IMG_5235.jpeg then shows Dawnseeker x1 at 161/300.",
     "IMG_5235.jpeg directly shows Thunderstrike x5 at 244/300 and Smoketail x1 at 57/100.",
-    "Gold changes and discounted next-open prices are retained as dated operational observations only; no spending rule is inferred from them."
+    "Gold changes and discounted next-open prices are retained as dated operational observations only; no spending rule is inferred from them.",
+    "IMG_5236.jpeg through IMG_5240.jpeg are overlapping views of one later reward group; repeated cards across those screenshots are counted once.",
+    "That reward group totals 165 visible relics across 22 dragons and includes an Elite Drop of Shadowrend x100.",
+    "No additional star-rank change is directly verified in this group because no 'Star Up!' label is visible.",
+    "Progress-bar lengths are not converted into exact relic counters."
   ],
   "batches": [
     {
@@ -329,6 +338,118 @@
         "next_open_x10_gold_cost_visible": 900,
         "crossed_out_reference_price_visible": 1000,
         "note": "Operational state as displayed on IMG_5235.jpeg; the 50-gold difference from IMG_5234.jpeg is observed but not promoted to a persistent progression fact."
+      }
+    },
+    {
+      "batch_id": "2026-09-27-e",
+      "source_screenshots": [
+        "IMG_5236.jpeg",
+        "IMG_5237.jpeg",
+        "IMG_5238.jpeg",
+        "IMG_5239.jpeg",
+        "IMG_5240.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Venator",
+          "quantity": 5
+        },
+        {
+          "name": "Kalspire",
+          "quantity": 5
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 2
+        },
+        {
+          "name": "Starshower",
+          "quantity": 1
+        },
+        {
+          "name": "Antares",
+          "quantity": 1
+        },
+        {
+          "name": "Vesper",
+          "quantity": 5
+        },
+        {
+          "name": "Daemoros",
+          "quantity": 5
+        },
+        {
+          "name": "Syrax",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 100,
+          "event": "Elite Drop"
+        },
+        {
+          "name": "Tashix",
+          "quantity": 5
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 2
+        },
+        {
+          "name": "Arulix",
+          "quantity": 2
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 6
+        },
+        {
+          "name": "Rhysarion",
+          "quantity": 5
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 2
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 1
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 6
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 2
+        },
+        {
+          "name": "Feskar",
+          "quantity": 1
+        },
+        {
+          "name": "Arrax",
+          "quantity": 2
+        }
+      ],
+      "visible_relics": 165,
+      "unique_dragons": 22,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 189,
+        "next_open_x10_gold_cost_visible": 1000,
+        "note": "Operational state visible on the reward screens. Currency and key values are dated state only and are not promoted to reign-persistent progression."
       }
     }
   ]
