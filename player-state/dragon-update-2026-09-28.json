@@ -1,0 +1,95 @@
+{
+  "observed_date": "2026-09-28",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-09-28.json",
+  "source_screenshots": [
+    "IMG_5245.jpeg",
+    "IMG_5246.jpeg",
+    "IMG_5247.jpeg",
+    "IMG_5248.jpeg"
+  ],
+  "scope": "Record only reign-persistent progression directly supported by the September 28 Hatchery reward screens. Relic awards are persistent. Star-rank changes are recorded only when directly supported by a Star Up label or an unambiguous post-reward state; no habit level is inferred from Hatchery results.",
+  "verified_progression_changes": [],
+  "visible_awards": [
+    {
+      "name": "Antares",
+      "quantity": 12
+    },
+    {
+      "name": "Arrax",
+      "quantity": 4
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 5
+    },
+    {
+      "name": "Vermax",
+      "quantity": 1
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 1
+    },
+    {
+      "name": "Zivern",
+      "quantity": 6
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 6
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 5
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 6
+    },
+    {
+      "name": "Syrax",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowsong",
+      "quantity": 5
+    },
+    {
+      "name": "Crimson",
+      "quantity": 5
+    },
+    {
+      "name": "Arulix",
+      "quantity": 6
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 2
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 1
+    }
+  ],
+  "visible_award_total": 70,
+  "visible_unique_dragons": 15,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "IMG_5245.jpeg through IMG_5248.jpeg are overlapping views of one Hatchery reward result; repeated cards across the screenshots are counted once.",
+    "The reward result contains 70 visible relics across 15 already-owned dragons.",
+    "No 'Star Up!' or 'Hatched!' label is visible, so no star-rank or ownership change is recorded from this batch.",
+    "Relic quantities are retained as reign-persistent increments, but exact post-batch relic counters are not reconstructed from progress-bar proportions alone.",
+    "No habit unlock or habit-level change is inferred from the reward screen.",
+    "The visible star rows are treated only as consistency checks against the September 27 overlay; this file does not supersede previously verified star ranks without an explicit progression event.",
+    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay."
+  ]
+}
