@@ -23,7 +23,9 @@
     "IMG_5229.jpeg",
     "IMG_5230.jpeg",
     "IMG_5231.jpeg",
-    "IMG_5233.jpeg"
+    "IMG_5233.jpeg",
+    "IMG_5234.jpeg",
+    "IMG_5235.jpeg"
   ],
   "scope": "Record reign-persistent progression directly supported by the September 27 Hatchery reward screens and the detailed Dragon Pit habit screens. Star ranks are updated only when directly supported by a Star Up label or an unambiguous post-reward star row; habit levels are updated only when directly displayed in the Dragon Pit.",
   "verified_progression_changes": [
@@ -81,6 +83,23 @@
       "stable_identity_from_prior_profile": {
         "class": "Champion",
         "command": "Tactical Strike"
+      }
+    },
+    {
+      "name": "Caraxes",
+      "owned": true,
+      "stars": 2,
+      "change": "1 star -> 2 stars",
+      "triggering_award": 5,
+      "evidence": "IMG_5234.jpeg shows 'Star Up!' above Caraxes, two filled stars, and an exact post-up relic counter of 0/100.",
+      "relics_toward_next_star": {
+        "current": 0,
+        "required": 100
+      },
+      "habits_verified_after_upgrade": false,
+      "stable_identity_from_prior_profile": {
+        "class": "Hunter",
+        "command": "Infernal Burst"
       }
     }
   ],
@@ -152,7 +171,13 @@
     "The September 20 ten-march plan remains stale for optimization; it now also predates Nyrena 5★, Starshower 2★, Seasmoke 2★, and Kalspire 2★.",
     "Detailed Dragon Pit screens supplied later on September 27 directly verify current habit levels for Arrax (Headlong Into Danger 3), Zivern (Fearsome Reach 2), Jagadrix (Whispering Sabotage 5), Vaeldra (Dragon's Valor 3), Arulix (Hypnotic Helix 4), and Thunderstrike (Dragon's Might 2).",
     "Jagadrix's Whispering Sabotage is explicitly at max level 5.",
-    "Full displayed level tables and next-upgrade costs are stored in player-state/habit-update-2026-09-27.json."
+    "Full displayed level tables and next-upgrade costs are stored in player-state/habit-update-2026-09-27.json.",
+    "Two later September 27 single-open result screens are recorded as third and fourth observed reward groups: IMG_5234.jpeg contributes 11 visible relics and IMG_5235.jpeg contributes 7.",
+    "Caraxes is directly verified at 2 stars by the 'Star Up!' label in IMG_5234.jpeg; the same screen shows an exact post-up relic counter of 0/100.",
+    "The cumulative Dawnseeker cards show 159/300 after x5, 160/300 after the following x1, and IMG_5235.jpeg then shows 161/300 after another x1.",
+    "IMG_5235.jpeg directly shows Thunderstrike at 244/300 and Smoketail at 57/100; these exact counters supersede older non-exact reward-only progress for those dragons.",
+    "No habit unlock or habit level is inferred for Caraxes from reaching 2 stars.",
+    "The September 20 ten-march plan is further stale because it predates Caraxes 2★ and the newer exact relic progress for Dawnseeker, Thunderstrike, and Smoketail."
   ],
   "visible_awards_second_batch": [
     {
@@ -228,8 +253,8 @@
   ],
   "second_batch_visible_award_total": 70,
   "second_batch_visible_unique_dragons": 17,
-  "september_27_visible_award_total": 235,
-  "september_27_visible_unique_dragons": 20,
+  "september_27_visible_award_total": 253,
+  "september_27_visible_unique_dragons": 21,
   "habit_snapshot": "player-state/habit-update-2026-09-27.json",
   "verified_habit_updates": [
     {
@@ -280,6 +305,101 @@
       "source_screenshots": [
         "IMG_5233.jpeg"
       ]
+    }
+  ],
+  "visible_awards_third_batch": [
+    {
+      "name": "Dawnseeker",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 159,
+        "required": 300
+      }
+    },
+    {
+      "name": "Caraxes",
+      "quantity": 5,
+      "result": "Star Up to 2 stars",
+      "displayed_progress_after_award": {
+        "current": 0,
+        "required": 100
+      }
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 160,
+        "required": 300
+      }
+    }
+  ],
+  "third_batch_visible_award_total": 11,
+  "third_batch_visible_unique_dragons": 2,
+  "visible_awards_fourth_batch": [
+    {
+      "name": "Dawnseeker",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 161,
+        "required": 300
+      }
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 244,
+        "required": 300
+      }
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 57,
+        "required": 100
+      }
+    }
+  ],
+  "fourth_batch_visible_award_total": 7,
+  "fourth_batch_visible_unique_dragons": 3,
+  "latest_exact_relic_totals": [
+    {
+      "name": "Caraxes",
+      "stars": 2,
+      "relics_toward_next_star": {
+        "current": 0,
+        "required": 100
+      },
+      "source_screenshot": "IMG_5234.jpeg"
+    },
+    {
+      "name": "Dawnseeker",
+      "stars": 4,
+      "relics_toward_next_star": {
+        "current": 161,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5235.jpeg"
+    },
+    {
+      "name": "Thunderstrike",
+      "stars": 4,
+      "relics_toward_next_star": {
+        "current": 244,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5235.jpeg"
+    },
+    {
+      "name": "Smoketail",
+      "stars": 2,
+      "relics_toward_next_star": {
+        "current": 57,
+        "required": 100
+      },
+      "source_screenshot": "IMG_5235.jpeg"
     }
   ]
 }
