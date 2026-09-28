@@ -1,6 +1,6 @@
 {
   "observed_date": "2026-09-27",
-  "status": "dated Standard Hatchery reward-batch log (two observed batches)",
+  "status": "dated Standard Hatchery reward-batch log (four observed reward groups)",
   "source_screenshots": [
     "IMG_5219.jpeg",
     "IMG_5220.jpeg",
@@ -8,13 +8,15 @@
     "IMG_5222.jpeg",
     "IMG_5223.jpeg",
     "IMG_5224.jpeg",
-    "IMG_5225.jpeg"
+    "IMG_5225.jpeg",
+    "IMG_5234.jpeg",
+    "IMG_5235.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
   "summary": {
-    "observed_batches": 2,
-    "visible_relics": 235,
-    "unique_dragons_across_batches": 20,
+    "observed_batches": 4,
+    "visible_relics": 253,
+    "unique_dragons_across_batches": 21,
     "directly_verified_star_rank_changes": [
       {
         "name": "Nyrena",
@@ -31,6 +33,10 @@
       {
         "name": "Kalspire",
         "stars": 2
+      },
+      {
+        "name": "Caraxes",
+        "stars": 2
       }
     ],
     "newly_hatched": []
@@ -43,7 +49,12 @@
     "The September 20 exact baselines were Seasmoke 35/40 and Kalspire 30/40; their second-batch x5 and x10 awards exactly reach those star-up thresholds.",
     "No habit names or habit levels are inferred from these star increases.",
     "Exact post-star relic carryover is not inferred from progress-bar proportions alone.",
-    "Currencies, keys, and displayed next-pull prices are retained only as dated operational observations."
+    "Currencies, keys, and displayed next-pull prices are retained only as dated operational observations.",
+    "IMG_5234.jpeg and IMG_5235.jpeg are later single-open result screens and are logged as separate observed reward groups rather than merged with the earlier x10 batches.",
+    "IMG_5234.jpeg directly marks Caraxes 'Star Up!' and shows 0/100 toward the next star after reaching 2 stars.",
+    "Dawnseeker is shown at 159/300 after x5 and 160/300 after a following x1 in IMG_5234.jpeg; IMG_5235.jpeg then shows Dawnseeker x1 at 161/300.",
+    "IMG_5235.jpeg directly shows Thunderstrike x5 at 244/300 and Smoketail x1 at 57/100.",
+    "Gold changes and discounted next-open prices are retained as dated operational observations only; no spending rule is inferred from them."
   ],
   "batches": [
     {
@@ -224,6 +235,100 @@
         "gold": 9,
         "next_open_x10_gold_cost_visible": 1000,
         "note": "This is the state visible after the second batch. No spend amount is inferred from the state delta alone."
+      }
+    },
+    {
+      "batch_id": "2026-09-27-c",
+      "source_screenshots": [
+        "IMG_5234.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 159,
+            "required": 300
+          }
+        },
+        {
+          "name": "Caraxes",
+          "quantity": 5,
+          "event": "Star Up to 2 stars",
+          "displayed_progress_after_award": {
+            "current": 0,
+            "required": 100
+          }
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 160,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 11,
+      "unique_dragons": 2,
+      "directly_verified_star_rank_changes": [
+        {
+          "name": "Caraxes",
+          "stars": 2
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 684,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100,
+        "note": "Operational state as displayed on IMG_5234.jpeg; no spend amount is inferred solely from this screen."
+      }
+    },
+    {
+      "batch_id": "2026-09-27-d",
+      "source_screenshots": [
+        "IMG_5235.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 161,
+            "required": 300
+          }
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 244,
+            "required": 300
+          }
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 57,
+            "required": 100
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 634,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000,
+        "note": "Operational state as displayed on IMG_5235.jpeg; the 50-gold difference from IMG_5234.jpeg is observed but not promoted to a persistent progression fact."
       }
     }
   ]
