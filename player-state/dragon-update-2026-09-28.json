@@ -14,7 +14,9 @@
     "IMG_5245.jpeg",
     "IMG_5246.jpeg",
     "IMG_5247.jpeg",
-    "IMG_5248.jpeg"
+    "IMG_5248.jpeg",
+    "IMG_5252.jpeg",
+    "IMG_5253.jpeg"
   ],
   "scope": "Record only reign-persistent progression directly supported by the September 28 Hatchery reward screens. Relic awards are persistent. Star-rank changes are recorded only when directly supported by a Star Up label or an unambiguous post-reward state; no habit level is inferred from Hatchery results.",
   "verified_progression_changes": [],
@@ -90,6 +92,120 @@
     "Relic quantities are retained as reign-persistent increments, but exact post-batch relic counters are not reconstructed from progress-bar proportions alone.",
     "No habit unlock or habit-level change is inferred from the reward screen.",
     "The visible star rows are treated only as consistency checks against the September 27 overlay; this file does not supersede previously verified star ranks without an explicit progression event.",
-    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay."
+    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay.",
+    "IMG_5252.jpeg and IMG_5253.jpeg are separate later single-open result screens, not overlapping views of the earlier batch.",
+    "IMG_5252.jpeg directly shows Rhysarion x1 at 57/300, Antares x5 at 140/300, and Arrax x1 at 83/500 after the award.",
+    "IMG_5253.jpeg directly shows Zivern x1 at 319/800, Vesper x5 at 194/300, and Dawnseeker x1 at 166/300 after the award.",
+    "These six exact displayed relic counters supersede older increment-only or stale exact relic observations for the same dragons.",
+    "Neither later single-open screen shows a 'Star Up!' or 'Hatched!' label, so no additional star-rank, ownership, or habit change is recorded.",
+    "Across the three September 28 observed reward groups, 84 visible relics are recorded across 17 unique dragons."
+  ],
+  "visible_awards_second_batch": [
+    {
+      "name": "Rhysarion",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 57,
+        "required": 300
+      }
+    },
+    {
+      "name": "Antares",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 140,
+        "required": 300
+      }
+    },
+    {
+      "name": "Arrax",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 83,
+        "required": 500
+      }
+    }
+  ],
+  "second_batch_visible_award_total": 7,
+  "second_batch_visible_unique_dragons": 3,
+  "visible_awards_third_batch": [
+    {
+      "name": "Zivern",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 319,
+        "required": 800
+      }
+    },
+    {
+      "name": "Vesper",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 194,
+        "required": 300
+      }
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 166,
+        "required": 300
+      }
+    }
+  ],
+  "third_batch_visible_award_total": 7,
+  "third_batch_visible_unique_dragons": 3,
+  "september_28_visible_award_total": 84,
+  "september_28_visible_unique_dragons": 17,
+  "latest_exact_relic_totals": [
+    {
+      "name": "Rhysarion",
+      "relics_toward_next_star": {
+        "current": 57,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5252.jpeg"
+    },
+    {
+      "name": "Antares",
+      "relics_toward_next_star": {
+        "current": 140,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5252.jpeg"
+    },
+    {
+      "name": "Arrax",
+      "relics_toward_next_star": {
+        "current": 83,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5252.jpeg"
+    },
+    {
+      "name": "Zivern",
+      "relics_toward_next_star": {
+        "current": 319,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5253.jpeg"
+    },
+    {
+      "name": "Vesper",
+      "relics_toward_next_star": {
+        "current": 194,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5253.jpeg"
+    },
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 166,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5253.jpeg"
+    }
   ]
 }
