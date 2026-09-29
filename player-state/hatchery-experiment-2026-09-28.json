@@ -5,13 +5,15 @@
     "IMG_5245.jpeg",
     "IMG_5246.jpeg",
     "IMG_5247.jpeg",
-    "IMG_5248.jpeg"
+    "IMG_5248.jpeg",
+    "IMG_5252.jpeg",
+    "IMG_5253.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
   "summary": {
-    "observed_batches": 1,
-    "visible_relics": 70,
-    "unique_dragons_across_batches": 15,
+    "observed_batches": 3,
+    "visible_relics": 84,
+    "unique_dragons_across_batches": 17,
     "directly_verified_star_rank_changes": [],
     "newly_hatched": []
   },
@@ -20,7 +22,12 @@
     "Repeated cards are counted once, producing 70 visible relics across 15 dragons.",
     "No 'Star Up!' or 'Hatched!' label is visible, so no progression event beyond relic acquisition is promoted to the persistent roster overlay.",
     "Progress-bar lengths are not converted into exact relic counters.",
-    "Currencies, keys, and the next-open price are recorded only as dated operational observations."
+    "Currencies, keys, and the next-open price are recorded only as dated operational observations.",
+    "IMG_5252.jpeg and IMG_5253.jpeg are two later single-open result screens and are logged as separate reward groups.",
+    "IMG_5252.jpeg shows exact post-award counters Rhysarion 57/300, Antares 140/300, and Arrax 83/500.",
+    "IMG_5253.jpeg shows exact post-award counters Zivern 319/800, Vesper 194/300, and Dawnseeker 166/300.",
+    "No 'Star Up!' or 'Hatched!' label appears on either later screen.",
+    "The 50-gold decrease from 459 to 409 is consistent with the visible discounted 50-gold x1 price on IMG_5252.jpeg, but the log records only the observed screen states rather than promoting an unshown action to persistent progression."
   ],
   "batches": [
     {
@@ -103,6 +110,94 @@
         "gold": 469,
         "next_open_x10_gold_cost_visible": 1200,
         "note": "Operational state as displayed on the reward screens; these values are dated state only and are not promoted to reign-persistent dragon progression."
+      }
+    },
+    {
+      "batch_id": "2026-09-28-b",
+      "source_screenshots": [
+        "IMG_5252.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Rhysarion",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 57,
+            "required": 300
+          }
+        },
+        {
+          "name": "Antares",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 140,
+            "required": 300
+          }
+        },
+        {
+          "name": "Arrax",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 83,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 1,
+        "dragonfire_keys": 0,
+        "gold": 459,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100,
+        "note": "Operational state as displayed on IMG_5252.jpeg; exact relic counters are persistent, while currencies, keys, and prices remain dated operational observations."
+      }
+    },
+    {
+      "batch_id": "2026-09-28-c",
+      "source_screenshots": [
+        "IMG_5253.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Zivern",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 319,
+            "required": 800
+          }
+        },
+        {
+          "name": "Vesper",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 194,
+            "required": 300
+          }
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 166,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 1,
+        "dragonfire_keys": 0,
+        "gold": 409,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000,
+        "note": "Operational state as displayed on IMG_5253.jpeg; exact relic counters are persistent, while currencies, keys, and prices remain dated operational observations."
       }
     }
   ]
