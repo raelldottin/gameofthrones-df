@@ -1,0 +1,130 @@
+{
+  "observed_date": "2026-09-29",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5256.jpeg",
+    "IMG_5257.jpeg",
+    "IMG_5258.jpeg",
+    "IMG_5259.jpeg"
+  ],
+  "chest": "Standard Hatchery Chest",
+  "summary": {
+    "observed_batches": 1,
+    "visible_relics": 78,
+    "unique_dragons_across_batches": 17,
+    "directly_verified_star_rank_changes": [
+      {
+        "name": "Crimson",
+        "stars_after": 2
+      }
+    ],
+    "newly_hatched": []
+  },
+  "verification_notes": [
+    "The four screenshots are overlapping scroll positions of one reward result, not separate pulls.",
+    "Repeated cards are counted once, producing 78 visible relics across 17 dragons.",
+    "Crimson explicitly shows 'Star Up!' and is therefore recorded at 2★ in the persistent overlay.",
+    "No 'Hatched!' label appears.",
+    "Progress-bar lengths are not converted into exact counters unless an exact prior counter plus a directly observed award allows arithmetic advancement.",
+    "Currencies, keys, and the next-open price are dated operational observations only."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-09-29-a",
+      "source_screenshots": [
+        "IMG_5256.jpeg",
+        "IMG_5257.jpeg",
+        "IMG_5258.jpeg",
+        "IMG_5259.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Thunderstrike",
+          "quantity": 3
+        },
+        {
+          "name": "Rhysarion",
+          "quantity": 5
+        },
+        {
+          "name": "Malachite",
+          "quantity": 5
+        },
+        {
+          "name": "Crimson",
+          "quantity": 5,
+          "star_up": true,
+          "stars_after": 2
+        },
+        {
+          "name": "Arrax",
+          "quantity": 6
+        },
+        {
+          "name": "Vermithor",
+          "quantity": 5
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 10
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 1
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 5
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 3
+        },
+        {
+          "name": "Antares",
+          "quantity": 2
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 18
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 1
+        },
+        {
+          "name": "Arulix",
+          "quantity": 2
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 1
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 5
+        }
+      ],
+      "visible_relics": 78,
+      "unique_dragons": 17,
+      "directly_verified_star_rank_changes": [
+        {
+          "name": "Crimson",
+          "stars_after": 2
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 1,
+        "dragonfire_keys": 0,
+        "gold": 689,
+        "next_open_x10_gold_cost_visible": 1000,
+        "note": "Operational state as displayed on the reward screens; these values are dated state only and are not promoted to reign-persistent dragon progression."
+      }
+    }
+  ]
+}
