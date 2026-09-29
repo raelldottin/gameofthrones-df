@@ -1,0 +1,150 @@
+{
+  "observed_date": "2026-09-29",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-09-29.json",
+  "source_screenshots": [
+    "IMG_5256.jpeg",
+    "IMG_5257.jpeg",
+    "IMG_5258.jpeg",
+    "IMG_5259.jpeg"
+  ],
+  "scope": "Record only reign-persistent progression directly supported by the September 29 Hatchery reward screens. Relic awards are persistent. Star-rank changes are recorded only when explicitly supported by a Star Up label. Habit levels are not inferred from Hatchery results.",
+  "verified_progression_changes": [
+    {
+      "name": "Crimson",
+      "change": "star_up",
+      "stars_after": 2,
+      "evidence": "IMG_5256.jpeg explicitly shows 'Star Up!' over Crimson after a x5 relic award.",
+      "relics_toward_next_star_after": "unverified",
+      "habits_after": "unverified"
+    }
+  ],
+  "visible_awards": [
+    {
+      "name": "Thunderstrike",
+      "quantity": 3
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 5
+    },
+    {
+      "name": "Malachite",
+      "quantity": 5
+    },
+    {
+      "name": "Crimson",
+      "quantity": 5,
+      "star_up": true
+    },
+    {
+      "name": "Arrax",
+      "quantity": 6
+    },
+    {
+      "name": "Vermithor",
+      "quantity": 5
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 10
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 1
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 5
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 3
+    },
+    {
+      "name": "Antares",
+      "quantity": 2
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 18
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 1
+    },
+    {
+      "name": "Arulix",
+      "quantity": 2
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 1
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 1
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 5
+    }
+  ],
+  "visible_award_total": 78,
+  "visible_unique_dragons": 17,
+  "owned_dragon_count_after_update": 37,
+  "updated_exact_relic_totals": [
+    {
+      "name": "Rhysarion",
+      "relics_toward_next_star": {
+        "current": 62,
+        "required": 300
+      },
+      "derivation": "September 28 exact 57/300 + directly observed September 29 x5."
+    },
+    {
+      "name": "Antares",
+      "relics_toward_next_star": {
+        "current": 142,
+        "required": 300
+      },
+      "derivation": "September 28 exact 140/300 + directly observed September 29 x2."
+    },
+    {
+      "name": "Arrax",
+      "relics_toward_next_star": {
+        "current": 89,
+        "required": 500
+      },
+      "derivation": "September 28 exact 83/500 + directly observed September 29 x6."
+    },
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 167,
+        "required": 300
+      },
+      "derivation": "September 28 exact 166/300 + directly observed September 29 x1."
+    }
+  ],
+  "verification_notes": [
+    "IMG_5256.jpeg through IMG_5259.jpeg are overlapping scroll positions of one Hatchery reward result; repeated cards are counted once.",
+    "The result contains 78 visible relics across 17 already-owned dragons.",
+    "Crimson is the only explicitly verified star-rank change in this result; the screen shows 'Star Up!' over Crimson.",
+    "Crimson was previously verified at 1★ on September 20, so the explicit Star Up event records Crimson at 2★.",
+    "No exact numeric post-star relic carryover is displayed for Crimson, so its new relic counter is not promoted as exact.",
+    "No 'Hatched!' label is visible, so ownership remains 37 verified dragons.",
+    "No habit unlock or habit-level change is inferred from star rank or Hatchery rewards.",
+    "Rhysarion, Antares, Arrax, and Dawnseeker had exact September 28 counters and receive directly observed September 29 relic awards, so their exact counters can be advanced arithmetically without using progress-bar estimation.",
+    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay."
+  ]
+}
