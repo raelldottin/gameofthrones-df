@@ -5,13 +5,19 @@
     "IMG_5256.jpeg",
     "IMG_5257.jpeg",
     "IMG_5258.jpeg",
-    "IMG_5259.jpeg"
+    "IMG_5259.jpeg",
+    "IMG_5277.jpeg",
+    "IMG_5276.jpeg",
+    "IMG_5275.jpeg",
+    "IMG_5274.jpeg",
+    "IMG_5273.jpeg",
+    "IMG_5272.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
   "summary": {
-    "observed_batches": 1,
-    "visible_relics": 78,
-    "unique_dragons_across_batches": 17,
+    "observed_batches": 4,
+    "visible_relics": 162,
+    "unique_dragons_across_batches": 25,
     "directly_verified_star_rank_changes": [
       {
         "name": "Crimson",
@@ -26,7 +32,13 @@
     "Crimson explicitly shows 'Star Up!' and is therefore recorded at 2★ in the persistent overlay.",
     "No 'Hatched!' label appears.",
     "Progress-bar lengths are not converted into exact counters unless an exact prior counter plus a directly observed award allows arithmetic advancement.",
-    "Currencies, keys, and the next-open price are dated operational observations only."
+    "Currencies, keys, and the next-open price are dated operational observations only.",
+    "IMG_5274.jpeg through IMG_5277.jpeg are overlapping views of one additional Standard Hatchery reward result with 70 visible relics across 16 dragons.",
+    "IMG_5273.jpeg and IMG_5272.jpeg are two separate later single-open result screens.",
+    "IMG_5273.jpeg directly shows Vaeldra 45/300, Jagadrix 518/800, and Thunderstrike 252/300 after their awards.",
+    "IMG_5272.jpeg directly shows Arulix 36/500, Arrax 102/500, and Bevlorin 77/500 after their awards.",
+    "No new 'Star Up!' or 'Hatched!' label appears in IMG_5272–IMG_5277.",
+    "Across all four September 29 observed reward groups, the dated log now records 162 visible relics across 25 unique dragons."
   ],
   "batches": [
     {
@@ -124,6 +136,180 @@
         "gold": 689,
         "next_open_x10_gold_cost_visible": 1000,
         "note": "Operational state as displayed on the reward screens; these values are dated state only and are not promoted to reign-persistent dragon progression."
+      }
+    },
+    {
+      "batch_id": "2026-09-29-b",
+      "source_screenshots": [
+        "IMG_5277.jpeg",
+        "IMG_5276.jpeg",
+        "IMG_5275.jpeg",
+        "IMG_5274.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Vesper",
+          "quantity": 9
+        },
+        {
+          "name": "Antares",
+          "quantity": 2
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 7
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 5
+        },
+        {
+          "name": "Tashix",
+          "quantity": 10
+        },
+        {
+          "name": "Daemoros",
+          "quantity": 5
+        },
+        {
+          "name": "Crimson",
+          "quantity": 5
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 5
+        },
+        {
+          "name": "Zivern",
+          "quantity": 5
+        },
+        {
+          "name": "Starshower",
+          "quantity": 1
+        },
+        {
+          "name": "Tairax",
+          "quantity": 1
+        },
+        {
+          "name": "Feskar",
+          "quantity": 1
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 2
+        },
+        {
+          "name": "Arrax",
+          "quantity": 8
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 3
+        },
+        {
+          "name": "Rhysarion",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 70,
+      "unique_dragons": 16,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 14,
+        "next_open_x10_gold_cost_visible": 1000,
+        "note": "Operational state as displayed on the reward screens; no spend action is inferred from the screenshot alone."
+      }
+    },
+    {
+      "batch_id": "2026-09-29-c",
+      "source_screenshots": [
+        "IMG_5273.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Vaeldra",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 45,
+            "required": 300
+          }
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 518,
+            "required": 800
+          }
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 252,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 8,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 894,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000,
+        "note": "Operational state as displayed on IMG_5273.jpeg; resource changes between screenshots are not inferred as specific actions."
+      }
+    },
+    {
+      "batch_id": "2026-09-29-d",
+      "source_screenshots": [
+        "IMG_5272.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Arulix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 36,
+            "required": 500
+          }
+        },
+        {
+          "name": "Arrax",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 102,
+            "required": 500
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 77,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 8,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 944,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100,
+        "note": "Operational state as displayed on IMG_5272.jpeg; resource changes between screenshots are not inferred as specific actions."
       }
     }
   ]
