@@ -15,7 +15,13 @@
     "IMG_5256.jpeg",
     "IMG_5257.jpeg",
     "IMG_5258.jpeg",
-    "IMG_5259.jpeg"
+    "IMG_5259.jpeg",
+    "IMG_5277.jpeg",
+    "IMG_5276.jpeg",
+    "IMG_5275.jpeg",
+    "IMG_5274.jpeg",
+    "IMG_5273.jpeg",
+    "IMG_5272.jpeg"
   ],
   "scope": "Record only reign-persistent progression directly supported by the September 29 Hatchery reward screens. Relic awards are persistent. Star-rank changes are recorded only when explicitly supported by a Star Up label. Habit levels are not inferred from Hatchery results.",
   "verified_progression_changes": [
@@ -106,34 +112,90 @@
     {
       "name": "Rhysarion",
       "relics_toward_next_star": {
-        "current": 62,
+        "current": 63,
         "required": 300
       },
-      "derivation": "September 28 exact 57/300 + directly observed September 29 x5."
+      "derivation": "September 29 earlier exact 62/300 + later observed x1 in IMG_5274–IMG_5277 batch."
     },
     {
       "name": "Antares",
       "relics_toward_next_star": {
-        "current": 142,
+        "current": 144,
         "required": 300
       },
-      "derivation": "September 28 exact 140/300 + directly observed September 29 x2."
-    },
-    {
-      "name": "Arrax",
-      "relics_toward_next_star": {
-        "current": 89,
-        "required": 500
-      },
-      "derivation": "September 28 exact 83/500 + directly observed September 29 x6."
+      "derivation": "September 29 earlier exact 142/300 + later observed x2 in IMG_5274–IMG_5277 batch."
     },
     {
       "name": "Dawnseeker",
       "relics_toward_next_star": {
-        "current": 167,
+        "current": 174,
         "required": 300
       },
-      "derivation": "September 28 exact 166/300 + directly observed September 29 x1."
+      "derivation": "September 29 earlier exact 167/300 + later observed x7 in IMG_5274–IMG_5277 batch."
+    },
+    {
+      "name": "Zivern",
+      "relics_toward_next_star": {
+        "current": 324,
+        "required": 800
+      },
+      "derivation": "September 28 exact 319/800 + observed September 29 x5 in IMG_5274–IMG_5277 batch."
+    },
+    {
+      "name": "Vesper",
+      "relics_toward_next_star": {
+        "current": 203,
+        "required": 300
+      },
+      "derivation": "September 28 exact 194/300 + observed September 29 x9 in IMG_5274–IMG_5277 batch."
+    },
+    {
+      "name": "Vaeldra",
+      "relics_toward_next_star": {
+        "current": 45,
+        "required": 300
+      },
+      "derivation": "Directly displayed after x1 award in IMG_5273.jpeg."
+    },
+    {
+      "name": "Jagadrix",
+      "relics_toward_next_star": {
+        "current": 518,
+        "required": 800
+      },
+      "derivation": "Directly displayed after x5 award in IMG_5273.jpeg."
+    },
+    {
+      "name": "Thunderstrike",
+      "relics_toward_next_star": {
+        "current": 252,
+        "required": 300
+      },
+      "derivation": "Directly displayed after x1 award in IMG_5273.jpeg."
+    },
+    {
+      "name": "Arulix",
+      "relics_toward_next_star": {
+        "current": 36,
+        "required": 500
+      },
+      "derivation": "Directly displayed after x1 award in IMG_5272.jpeg."
+    },
+    {
+      "name": "Arrax",
+      "relics_toward_next_star": {
+        "current": 102,
+        "required": 500
+      },
+      "derivation": "Directly displayed after x5 award in IMG_5272.jpeg; this supersedes the earlier arithmetic-only 89/500 state."
+    },
+    {
+      "name": "Bevlorin",
+      "relics_toward_next_star": {
+        "current": 77,
+        "required": 500
+      },
+      "derivation": "Directly displayed after x1 award in IMG_5272.jpeg."
     }
   ],
   "verification_notes": [
@@ -145,6 +207,140 @@
     "No 'Hatched!' label is visible, so ownership remains 37 verified dragons.",
     "No habit unlock or habit-level change is inferred from star rank or Hatchery rewards.",
     "Rhysarion, Antares, Arrax, and Dawnseeker had exact September 28 counters and receive directly observed September 29 relic awards, so their exact counters can be advanced arithmetically without using progress-bar estimation.",
-    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay."
-  ]
+    "Gold, keys, and the next-open price shown on the reward screen are kept only in the dated Hatchery log, not this persistent progression overlay.",
+    "IMG_5274.jpeg through IMG_5277.jpeg are overlapping scroll positions of one additional Standard Hatchery reward result; repeated cards are counted once.",
+    "That additional reward result contains 70 visible relics across 16 already-owned dragons.",
+    "IMG_5273.jpeg is a separate later single-open result showing Vaeldra x1 at 45/300, Jagadrix x5 at 518/800, and Thunderstrike x1 at 252/300.",
+    "IMG_5272.jpeg is another separate later single-open result showing Arulix x1 at 36/500, Arrax x5 at 102/500, and Bevlorin x1 at 77/500.",
+    "No 'Star Up!' or 'Hatched!' label is visible in any of IMG_5272–IMG_5277, so Crimson remains the only star-rank change directly verified on September 29 and ownership remains 37 dragons.",
+    "No habit unlock or habit-level change is inferred from these Hatchery screens.",
+    "Across all four September 29 observed reward groups, 162 visible relics are recorded across 25 unique dragons.",
+    "Gold and key counts visible on these screens are operational history only and are not promoted to reign-persistent dragon progression."
+  ],
+  "visible_awards_second_batch": [
+    {
+      "name": "Vesper",
+      "quantity": 9
+    },
+    {
+      "name": "Antares",
+      "quantity": 2
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 7
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 5
+    },
+    {
+      "name": "Tashix",
+      "quantity": 10
+    },
+    {
+      "name": "Daemoros",
+      "quantity": 5
+    },
+    {
+      "name": "Crimson",
+      "quantity": 5
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 5
+    },
+    {
+      "name": "Zivern",
+      "quantity": 5
+    },
+    {
+      "name": "Starshower",
+      "quantity": 1
+    },
+    {
+      "name": "Tairax",
+      "quantity": 1
+    },
+    {
+      "name": "Feskar",
+      "quantity": 1
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 2
+    },
+    {
+      "name": "Arrax",
+      "quantity": 8
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 3
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 1
+    }
+  ],
+  "second_batch_visible_award_total": 70,
+  "second_batch_visible_unique_dragons": 16,
+  "visible_awards_third_batch": [
+    {
+      "name": "Vaeldra",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 45,
+        "required": 300
+      }
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 518,
+        "required": 800
+      }
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 252,
+        "required": 300
+      }
+    }
+  ],
+  "third_batch_visible_award_total": 7,
+  "third_batch_visible_unique_dragons": 3,
+  "visible_awards_fourth_batch": [
+    {
+      "name": "Arulix",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 36,
+        "required": 500
+      }
+    },
+    {
+      "name": "Arrax",
+      "quantity": 5,
+      "displayed_progress_after_award": {
+        "current": 102,
+        "required": 500
+      }
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 1,
+      "displayed_progress_after_award": {
+        "current": 77,
+        "required": 500
+      }
+    }
+  ],
+  "fourth_batch_visible_award_total": 7,
+  "fourth_batch_visible_unique_dragons": 3,
+  "september_29_visible_award_total": 162,
+  "september_29_visible_unique_dragons": 25
 }
