@@ -11,12 +11,15 @@
     "IMG_5275.jpeg",
     "IMG_5274.jpeg",
     "IMG_5273.jpeg",
-    "IMG_5272.jpeg"
+    "IMG_5272.jpeg",
+    "IMG_5278.jpeg",
+    "IMG_5279.jpeg",
+    "IMG_5280.jpeg"
   ],
   "chest": "Standard Hatchery Chest",
   "summary": {
-    "observed_batches": 4,
-    "visible_relics": 162,
+    "observed_batches": 5,
+    "visible_relics": 232,
     "unique_dragons_across_batches": 25,
     "directly_verified_star_rank_changes": [
       {
@@ -38,7 +41,11 @@
     "IMG_5273.jpeg directly shows Vaeldra 45/300, Jagadrix 518/800, and Thunderstrike 252/300 after their awards.",
     "IMG_5272.jpeg directly shows Arulix 36/500, Arrax 102/500, and Bevlorin 77/500 after their awards.",
     "No new 'Star Up!' or 'Hatched!' label appears in IMG_5272–IMG_5277.",
-    "Across all four September 29 observed reward groups, the dated log now records 162 visible relics across 25 unique dragons."
+    "Across all four September 29 observed reward groups, the dated log now records 162 visible relics across 25 unique dragons.",
+    "IMG_5278.jpeg through IMG_5280.jpeg are overlapping views of one additional Standard Hatchery reward result with 70 visible relics across 12 dragons.",
+    "IMG_5276(1).jpeg and IMG_5277(1).jpeg were verified as byte-identical duplicates of the already-recorded IMG_5276.jpeg and IMG_5277.jpeg and are intentionally excluded from reward totals.",
+    "No new 'Star Up!' or 'Hatched!' label appears in IMG_5278–IMG_5280.",
+    "Across all five September 29 observed reward groups, the dated log now records 232 visible relics across 25 unique dragons."
   ],
   "batches": [
     {
@@ -310,6 +317,79 @@
         "next_open_x1_gold_cost_visible": 50,
         "crossed_out_reference_price_visible": 100,
         "note": "Operational state as displayed on IMG_5272.jpeg; resource changes between screenshots are not inferred as specific actions."
+      }
+    },
+    {
+      "batch_id": "2026-09-29-e",
+      "source_screenshots": [
+        "IMG_5278.jpeg",
+        "IMG_5279.jpeg",
+        "IMG_5280.jpeg"
+      ],
+      "duplicate_uploads_ignored": [
+        "IMG_5276(1).jpeg",
+        "IMG_5277(1).jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 12
+        },
+        {
+          "name": "Arrax",
+          "quantity": 3
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 4
+        },
+        {
+          "name": "Arulix",
+          "quantity": 7
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 7
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 6
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 7
+        },
+        {
+          "name": "Feskar",
+          "quantity": 5
+        },
+        {
+          "name": "Vesper",
+          "quantity": 5
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 11
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 2
+        }
+      ],
+      "visible_relics": 70,
+      "unique_dragons": 12,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 3,
+        "dragonfire_keys": 0,
+        "gold": 124,
+        "next_open_x10_gold_cost_visible": 1000,
+        "note": "Operational state as displayed on the reward screens; currencies and keys are dated history only."
       }
     }
   ]
