@@ -1,0 +1,289 @@
+{
+  "observed_date": "2026-10-03",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5301.jpeg",
+    "IMG_5302.jpeg",
+    "IMG_5303.jpeg",
+    "IMG_5304.jpeg",
+    "IMG_5305.jpeg",
+    "IMG_5306.jpeg",
+    "IMG_5307.jpeg",
+    "IMG_5309.jpeg",
+    "IMG_5310.jpeg"
+  ],
+  "summary": {
+    "observed_batches": 4,
+    "visible_relics": 154,
+    "unique_dragons_across_batches": 22,
+    "directly_verified_star_rank_changes": [
+      {
+        "name": "Tashix",
+        "stars_after": 4
+      }
+    ],
+    "newly_hatched": []
+  },
+  "verification_notes": [
+    "IMG_5301–IMG_5303 form one overlapping 70-relic result.",
+    "IMG_5304–IMG_5307 form a second overlapping 70-relic result.",
+    "IMG_5309 and IMG_5310 are separate single-open results, each showing three awards totaling 7 relics.",
+    "Tashix explicitly shows 'Star Up!' in IMG_5310 and 0/300 toward the next star.",
+    "No 'Hatched!' label appears in any supplied October 3 screenshot.",
+    "Exact post-award counters are recorded only where numeric values are directly visible.",
+    "Keys, gold, and next-open prices are dated operational observations only."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-03-a",
+      "source_screenshots": [
+        "IMG_5301.jpeg",
+        "IMG_5302.jpeg",
+        "IMG_5303.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Antares",
+          "quantity": 7
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 2
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 7
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 8
+        },
+        {
+          "name": "Arulix",
+          "quantity": 6
+        },
+        {
+          "name": "Vesper",
+          "quantity": 6
+        },
+        {
+          "name": "Arrax",
+          "quantity": 13
+        },
+        {
+          "name": "Moondancer",
+          "quantity": 5
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 5
+        },
+        {
+          "name": "Caraxes",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 6
+        }
+      ],
+      "visible_relics": 70,
+      "unique_dragons": 11,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 11,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 259,
+        "next_open_x10_gold_cost_visible": 1200,
+        "note": "Values are recorded literally from the reward screen; no spend action is inferred from this state alone."
+      }
+    },
+    {
+      "batch_id": "2026-10-03-b",
+      "source_screenshots": [
+        "IMG_5304.jpeg",
+        "IMG_5305.jpeg",
+        "IMG_5306.jpeg",
+        "IMG_5307.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Smoketail",
+          "quantity": 1
+        },
+        {
+          "name": "Vesper",
+          "quantity": 2
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1
+        },
+        {
+          "name": "Antares",
+          "quantity": 1
+        },
+        {
+          "name": "Starshower",
+          "quantity": 5
+        },
+        {
+          "name": "Seasmoke",
+          "quantity": 5
+        },
+        {
+          "name": "Syrax",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 1
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 10
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 12
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 13
+        },
+        {
+          "name": "Arulix",
+          "quantity": 2
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 1
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 1
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 3
+        },
+        {
+          "name": "Tairax",
+          "quantity": 6
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 70,
+      "unique_dragons": 17,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 259,
+        "next_open_x10_dragonbone_keys_visible": 1,
+        "next_open_x10_gold_cost_visible": 900,
+        "note": "Operational state as displayed; resource changes between reward groups are not promoted to persistent progression."
+      }
+    },
+    {
+      "batch_id": "2026-10-03-c",
+      "source_screenshots": [
+        "IMG_5309.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Shimmer",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 429,
+            "required": 800
+          }
+        },
+        {
+          "name": "Shadowsong",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 59,
+            "required": 300
+          }
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 53,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [],
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 354,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100,
+        "note": "The displayed counters are exact post-award values."
+      }
+    },
+    {
+      "batch_id": "2026-10-03-d",
+      "source_screenshots": [
+        "IMG_5310.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Arrax",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 143,
+            "required": 500
+          }
+        },
+        {
+          "name": "Tashix",
+          "quantity": 5,
+          "star_up": true,
+          "stars_after": 4,
+          "displayed_progress_after_award": {
+            "current": 0,
+            "required": 300
+          }
+        },
+        {
+          "name": "Tairax",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 67,
+            "required": 100
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "directly_verified_star_rank_changes": [
+        {
+          "name": "Tashix",
+          "stars_after": 4
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 304,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000,
+        "note": "IMG_5310 follows IMG_5309; the 50-gold difference is consistent with the prior screen's visible discounted x1 price, but only the displayed states are treated as evidence."
+      }
+    }
+  ]
+}
