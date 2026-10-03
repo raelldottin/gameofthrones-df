@@ -1,0 +1,202 @@
+{
+  "observed_date": "2026-10-03",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-10-03.json",
+  "source_screenshots": [
+    "IMG_5301.jpeg",
+    "IMG_5302.jpeg",
+    "IMG_5303.jpeg",
+    "IMG_5304.jpeg",
+    "IMG_5305.jpeg",
+    "IMG_5306.jpeg",
+    "IMG_5307.jpeg",
+    "IMG_5309.jpeg",
+    "IMG_5310.jpeg"
+  ],
+  "scope": "Record only reign-persistent progression directly supported by the October 3 Hatchery reward screens. Exact relic counters are promoted only when numerically displayed after the award. Bulk reward screens are recorded as observed progression increments, not treated as exact final counters when intervening unseen progression may exist. Habit levels are not inferred from Hatchery results.",
+  "verified_progression_changes": [
+    {
+      "name": "Tashix",
+      "change": "star_up",
+      "stars_after": 4,
+      "relics_toward_next_star_after": {
+        "current": 0,
+        "required": 300
+      },
+      "evidence": "IMG_5310.jpeg explicitly shows 'Star Up!' over Tashix and 0/300 after a x5 relic award. The latest verified pre-event rank was 3★, so this is recorded as Tashix 4★.",
+      "habits_after": "unverified"
+    }
+  ],
+  "directly_displayed_exact_relic_totals": [
+    {
+      "name": "Arrax",
+      "relics_toward_next_star": {
+        "current": 143,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5310.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Tashix",
+      "relics_toward_next_star": {
+        "current": 0,
+        "required": 300
+      },
+      "stars": 4,
+      "source_screenshot": "IMG_5310.jpeg",
+      "award_on_screen": 5,
+      "star_up": true
+    },
+    {
+      "name": "Tairax",
+      "relics_toward_next_star": {
+        "current": 67,
+        "required": 100
+      },
+      "source_screenshot": "IMG_5310.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Shimmer",
+      "relics_toward_next_star": {
+        "current": 429,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5309.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Shadowsong",
+      "relics_toward_next_star": {
+        "current": 59,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5309.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Nyrena",
+      "relics_toward_next_star": {
+        "current": 53,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5309.jpeg",
+      "award_on_screen": 1
+    }
+  ],
+  "aggregate_visible_awards": [
+    {
+      "name": "Arrax",
+      "quantity": 14
+    },
+    {
+      "name": "Tashix",
+      "quantity": 5
+    },
+    {
+      "name": "Tairax",
+      "quantity": 7
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 2
+    },
+    {
+      "name": "Shadowsong",
+      "quantity": 5
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 11
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 13
+    },
+    {
+      "name": "Arulix",
+      "quantity": 8
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 6
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 9
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 3
+    },
+    {
+      "name": "Seasmoke",
+      "quantity": 5
+    },
+    {
+      "name": "Syrax",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 7
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 19
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 1
+    },
+    {
+      "name": "Vesper",
+      "quantity": 8
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 3
+    },
+    {
+      "name": "Antares",
+      "quantity": 8
+    },
+    {
+      "name": "Starshower",
+      "quantity": 5
+    },
+    {
+      "name": "Moondancer",
+      "quantity": 5
+    },
+    {
+      "name": "Caraxes",
+      "quantity": 5
+    }
+  ],
+  "october_03_visible_award_total": 154,
+  "october_03_visible_unique_dragons": 22,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "IMG_5301.jpeg through IMG_5303.jpeg are overlapping scroll positions of one 70-relic Hatchery reward result; repeated cards are counted once.",
+    "IMG_5304.jpeg through IMG_5307.jpeg are overlapping scroll positions of a second 70-relic Hatchery reward result; repeated cards are counted once.",
+    "IMG_5309.jpeg and IMG_5310.jpeg are separate single-open reward results with exact numeric post-award counters.",
+    "The October 3 screenshots therefore record four reward groups totaling 154 visible relics across 22 unique already-owned dragons.",
+    "Tashix is the only explicit October 3 'Star Up!' event. No 'Hatched!' label is visible, so verified ownership remains 37 dragons.",
+    "Arrax 143/500, Tashix 0/300, Tairax 67/100, Shimmer 429/800, Shadowsong 59/300, and Nyrena 53/500 are exact because the numeric counters are directly displayed.",
+    "The bulk-pull rewards for other dragons are preserved as observed increments only. They are not arithmetically promoted to exact final counters because Arrax's directly displayed 143/500 exceeds the September 29 exact state plus the October 3 visible awards, proving that additional unseen progression occurred between snapshots.",
+    "No habit unlock or habit-level change is inferred from the Tashix star-up or any Hatchery reward.",
+    "Currencies and key counts visible on these screens are operational history only and are not promoted to persistent dragon attributes."
+  ]
+}
