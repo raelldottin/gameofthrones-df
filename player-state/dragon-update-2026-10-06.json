@@ -1,0 +1,209 @@
+{
+  "observed_date": "2026-10-06",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json",
+    "player-state/dragon-update-2026-10-03.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-10-06.json",
+  "source_screenshots": [
+    "IMG_5320.jpeg",
+    "IMG_5321.jpeg",
+    "IMG_5322.jpeg",
+    "IMG_5323.jpeg",
+    "IMG_5344.jpeg",
+    "IMG_5345.jpeg"
+  ],
+  "excluded_duplicate_uploads": [
+    {
+      "uploaded_name": "IMG_5306(1).jpeg",
+      "duplicate_of": "IMG_5306.jpeg",
+      "sha256": "dbfe0e98ae545a296a309798a0baf500e0e3ac374e113f251c6ebfa946036"
+    },
+    {
+      "uploaded_name": "IMG_5307(1).jpeg",
+      "duplicate_of": "IMG_5307.jpeg",
+      "sha256": "5145043052a2b5578a1d9511349f6bc97814a8904e2b1e87635772934b947c6c"
+    },
+    {
+      "uploaded_name": "IMG_5309(1).jpeg",
+      "duplicate_of": "IMG_5309.jpeg",
+      "sha256": "d1c7ed061ad3b300a128d4834639b19c2eb6965ce839561290b51f7ae0990eec"
+    },
+    {
+      "uploaded_name": "IMG_5310(1).jpeg",
+      "duplicate_of": "IMG_5310.jpeg",
+      "sha256": "27a43ef561e3587640f9682cb128cca065a3cdc5781ebdda08014c90cc45a582"
+    }
+  ],
+  "scope": "Record only new reign-persistent progression directly supported by the newly supplied Hatchery reward screens. Re-uploaded October 3 screenshots are byte-identical and excluded from October 6 reward totals. All six new screens display exact numeric post-award relic counters, so those counters supersede earlier estimates for the affected dragons. No habit changes are inferred.",
+  "verified_progression_changes": [],
+  "directly_displayed_exact_relic_totals": [
+    {
+      "name": "Solstryker",
+      "relics_toward_next_star": {
+        "current": 68,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5320.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Bevlorin",
+      "relics_toward_next_star": {
+        "current": 109,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5345.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Arulix",
+      "relics_toward_next_star": {
+        "current": 62,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5344.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Velar",
+      "relics_toward_next_star": {
+        "current": 158,
+        "required": 180
+      },
+      "source_screenshot": "IMG_5321.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Shadowrend",
+      "relics_toward_next_star": {
+        "current": 240,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5322.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Zivern",
+      "relics_toward_next_star": {
+        "current": 329,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5322.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Shimmer",
+      "relics_toward_next_star": {
+        "current": 436,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5345.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Antares",
+      "relics_toward_next_star": {
+        "current": 170,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5323.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Jagadrix",
+      "relics_toward_next_star": {
+        "current": 555,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5323.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 198,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5344.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Vesper",
+      "relics_toward_next_star": {
+        "current": 229,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5345.jpeg",
+      "award_on_screen": 1
+    }
+  ],
+  "aggregate_visible_awards": [
+    {
+      "name": "Solstryker",
+      "quantity": 1
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 12
+    },
+    {
+      "name": "Arulix",
+      "quantity": 2
+    },
+    {
+      "name": "Velar",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 2
+    },
+    {
+      "name": "Zivern",
+      "quantity": 5
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 7
+    },
+    {
+      "name": "Antares",
+      "quantity": 5
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 1
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 1
+    },
+    {
+      "name": "Vesper",
+      "quantity": 1
+    }
+  ],
+  "october_06_visible_award_total": 42,
+  "october_06_visible_unique_dragons": 11,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "IMG_5320, IMG_5321, IMG_5322, IMG_5323, IMG_5344, and IMG_5345 are six new single-open reward results. Each screen contains three cards totaling 7 relics (1 + 5 + 1), for 42 visible relics in total.",
+    "IMG_5306(1), IMG_5307(1), IMG_5309(1), and IMG_5310(1) are byte-identical to the already-recorded October 3 files and are excluded from October 6 totals.",
+    "No 'Star Up!' or 'Hatched!' label appears in any of the six new screens, so no star-rank or ownership change is recorded. Verified ownership remains 37 dragons.",
+    "Every new screen displays exact post-award relic counters. The latest exact counters are Solstryker 68/500, Bevlorin 109/500, Arulix 62/500, Velar 158/180, Shadowrend 240/300, Zivern 329/800, Shimmer 436/800, Antares 170/300, Jagadrix 555/800, Dawnseeker 198/300, and Vesper 229/300.",
+    "IMG_5320 displays Bevlorin twice in the same result: x5 at 102/500 followed by x1 at 103/500. This directly demonstrates that duplicate same-dragon cards can appear in one reward result and that the UI presents running post-card progression rather than repeating one final total on every card.",
+    "The Shimmer sequence is internally consistent across new screens: 430/800 after x1 in IMG_5323, 435/800 after x5 in IMG_5344, then 436/800 after x1 in IMG_5345.",
+    "The Arulix sequence is 61/500 after x1 in IMG_5321, then 62/500 after x1 in IMG_5344. Shadowrend similarly advances 239/300 in IMG_5321 to 240/300 in IMG_5322.",
+    "No habit unlock or habit-level change is inferred from Hatchery results.",
+    "Currencies and key counts are operational history only and are not promoted to persistent dragon attributes."
+  ]
+}
