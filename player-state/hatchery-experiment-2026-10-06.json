@@ -1,0 +1,287 @@
+{
+  "observed_date": "2026-10-06",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5320.jpeg",
+    "IMG_5321.jpeg",
+    "IMG_5322.jpeg",
+    "IMG_5323.jpeg",
+    "IMG_5344.jpeg",
+    "IMG_5345.jpeg"
+  ],
+  "excluded_duplicate_uploads": [
+    "IMG_5306(1).jpeg",
+    "IMG_5307(1).jpeg",
+    "IMG_5309(1).jpeg",
+    "IMG_5310(1).jpeg"
+  ],
+  "summary": {
+    "observed_new_batches": 6,
+    "visible_relics": 42,
+    "unique_dragons_across_batches": 11,
+    "directly_verified_star_rank_changes": [],
+    "newly_hatched": []
+  },
+  "verification_notes": [
+    "All six new results are single-open screens with visible 1 + 5 + 1 reward cards, totaling 7 relics per screen.",
+    "The four '(1)' re-uploads are byte-identical to October 3 screenshots and are not counted again.",
+    "No 'Star Up!' or 'Hatched!' label appears in the six new screenshots.",
+    "All displayed progression counters are exact post-card values.",
+    "IMG_5320 contains two Bevlorin cards: x5 leaves Bevlorin at 102/500 and the following x1 leaves Bevlorin at 103/500, directly evidencing sequential running counters within one result.",
+    "Keys, gold, and open prices are dated operational observations only."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-06-a",
+      "source_screenshots": [
+        "IMG_5320.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Solstryker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 68,
+            "required": 500
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 102,
+            "required": 500
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 103,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 2,
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 414,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-06-b",
+      "source_screenshots": [
+        "IMG_5321.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Arulix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 61,
+            "required": 500
+          }
+        },
+        {
+          "name": "Velar",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 158,
+            "required": 180
+          }
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 239,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 364,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    },
+    {
+      "batch_id": "2026-10-06-c",
+      "source_screenshots": [
+        "IMG_5322.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Shadowrend",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 240,
+            "required": 300
+          }
+        },
+        {
+          "name": "Zivern",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 329,
+            "required": 800
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 104,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 464,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-06-d",
+      "source_screenshots": [
+        "IMG_5323.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Shimmer",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 430,
+            "required": 800
+          }
+        },
+        {
+          "name": "Antares",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 170,
+            "required": 300
+          }
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 555,
+            "required": 800
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 1,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 414,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    },
+    {
+      "batch_id": "2026-10-06-e",
+      "source_screenshots": [
+        "IMG_5344.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 198,
+            "required": 300
+          }
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 435,
+            "required": 800
+          }
+        },
+        {
+          "name": "Arulix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 62,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 2,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 544,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-06-f",
+      "source_screenshots": [
+        "IMG_5345.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Shimmer",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 436,
+            "required": 800
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 109,
+            "required": 500
+          }
+        },
+        {
+          "name": "Vesper",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 229,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 2,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 494,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    }
+  ]
+}
