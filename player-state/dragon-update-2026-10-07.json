@@ -28,16 +28,43 @@
     "IMG_5367.jpeg",
     "IMG_5368.jpeg",
     "IMG_5369.jpeg",
-    "IMG_5370.jpeg"
+    "IMG_5370.jpeg",
+    "IMG_5371.jpeg",
+    "IMG_5372.jpeg"
   ],
   "excluded_duplicate_uploads": [
     {
       "uploaded_name": "IMG_5345(1).jpeg",
       "duplicate_of": "IMG_5345.jpeg",
       "sha256": "47acebe266628371d06cd2aa0deef56e999e61664fff9a8a58192ed86a4fa59b"
+    },
+    {
+      "uploaded_name": "IMG_5366(1).jpeg",
+      "duplicate_of": "IMG_5366.jpeg",
+      "reason": "Visually identical reward content to already recorded October 7 result; not counted again."
+    },
+    {
+      "uploaded_name": "IMG_5367(2).jpeg",
+      "duplicate_of": "IMG_5367.jpeg",
+      "reason": "Visually identical reward content to already recorded October 7 result; not counted again."
+    },
+    {
+      "uploaded_name": "IMG_5368(1).jpeg",
+      "duplicate_of": "IMG_5368.jpeg",
+      "reason": "Visually identical reward content to already recorded October 7 result; not counted again."
+    },
+    {
+      "uploaded_name": "IMG_5369(2).jpeg",
+      "duplicate_of": "IMG_5369.jpeg",
+      "reason": "Visually identical reward content to already recorded October 7 result; not counted again."
+    },
+    {
+      "uploaded_name": "IMG_5370(1).jpeg",
+      "duplicate_of": "IMG_5370.jpeg",
+      "reason": "Visually identical reward content to already recorded October 7 result; not counted again."
     }
   ],
-  "scope": "Record October 7 Hatchery rewards and only reign-persistent progression directly supported by the supplied reward screens. Overlapping scroll screenshots are one reward group each and are de-duplicated by card position/content. IMG_5345(1).jpeg is byte-identical to the already-recorded October 6 IMG_5345.jpeg and is excluded. Star rank changes are recorded only when a visible 'Star Up!' label appears. No habit change is inferred.",
+  "scope": "Record October 7 Hatchery rewards and only reign-persistent progression directly supported by reward screens. Overlapping scroll screenshots and re-uploaded screenshots with identical displayed rewards are de-duplicated; IMG_5366(1)-IMG_5370(1) do not constitute new pulls. Star rank changes are recorded only when a visible 'Star Up!' label appears. No habit change is inferred.",
   "verified_progression_changes": [
     {
       "name": "Kalspire",
@@ -66,18 +93,6 @@
     }
   ],
   "latest_directly_displayed_exact_relic_totals": [
-    {
-      "name": "Arrax",
-      "relics_toward_next_star": {
-        "current": 161,
-        "required": 500
-      },
-      "source_screenshot": "IMG_5369.jpeg",
-      "award_sequence_on_screen": [
-        1,
-        5
-      ]
-    },
     {
       "name": "Bevlorin",
       "relics_toward_next_star": {
@@ -113,6 +128,60 @@
         "required": 500
       },
       "source_screenshot": "IMG_5370.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Velar",
+      "relics_toward_next_star": {
+        "current": 159,
+        "required": 180
+      },
+      "source_screenshot": "IMG_5371.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Shadowsong",
+      "relics_toward_next_star": {
+        "current": 69,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5371.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Arrax",
+      "relics_toward_next_star": {
+        "current": 162,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5371.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 211,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5372.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Thunderstrike",
+      "relics_toward_next_star": {
+        "current": 282,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5372.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Shadowrend",
+      "relics_toward_next_star": {
+        "current": 251,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5372.jpeg",
       "award_on_screen": 1
     }
   ],
@@ -179,11 +248,15 @@
     },
     {
       "name": "Arrax",
-      "quantity": 18
+      "quantity": 19
     },
     {
       "name": "Antares",
       "quantity": 18
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 16
     },
     {
       "name": "Vesper",
@@ -191,7 +264,7 @@
     },
     {
       "name": "Dawnseeker",
-      "quantity": 12
+      "quantity": 13
     },
     {
       "name": "Feskar",
@@ -199,6 +272,10 @@
     },
     {
       "name": "Bevlorin",
+      "quantity": 11
+    },
+    {
+      "name": "Shadowrend",
       "quantity": 11
     },
     {
@@ -210,11 +287,7 @@
       "quantity": 11
     },
     {
-      "name": "Thunderstrike",
-      "quantity": 11
-    },
-    {
-      "name": "Shadowrend",
+      "name": "Shadowsong",
       "quantity": 10
     },
     {
@@ -226,27 +299,19 @@
       "quantity": 8
     },
     {
-      "name": "Vaeldra",
-      "quantity": 6
-    },
-    {
       "name": "Tashix",
       "quantity": 6
     },
     {
+      "name": "Vaeldra",
+      "quantity": 6
+    },
+    {
+      "name": "Daemoros",
+      "quantity": 5
+    },
+    {
       "name": "Smoketail",
-      "quantity": 5
-    },
-    {
-      "name": "Vermithor",
-      "quantity": 5
-    },
-    {
-      "name": "Shadowsong",
-      "quantity": 5
-    },
-    {
-      "name": "Tessarion",
       "quantity": 5
     },
     {
@@ -254,17 +319,25 @@
       "quantity": 5
     },
     {
-      "name": "Daemoros",
+      "name": "Tessarion",
+      "quantity": 5
+    },
+    {
+      "name": "Vermithor",
       "quantity": 5
     },
     {
       "name": "Rhysarion",
       "quantity": 1
+    },
+    {
+      "name": "Velar",
+      "quantity": 1
     }
   ],
-  "october_07_visible_award_total": 535,
-  "october_07_visible_unique_dragons": 25,
-  "observed_reward_groups": 7,
+  "october_07_visible_award_total": 549,
+  "october_07_visible_unique_dragons": 26,
+  "observed_reward_groups": 9,
   "owned_dragon_count_after_update": 37,
   "verification_notes": [
     "IMG_5348 and IMG_5349 are two single-open reward results worth 7 visible relics each.",
@@ -273,10 +346,13 @@
     "IMG_5366 through IMG_5368 are overlapping scroll views of one 165-relic reward group. Jagadrix is visibly labeled 'Elite Drop!' at x101; the group is counted as 165 total visible relics, not once per screenshot.",
     "IMG_5369 is a 7-relic single-open result. It displays sequential Arrax x1 -> 156/500 and Arrax x5 -> 161/500, plus Bevlorin x1 -> 120/500.",
     "IMG_5370 is a 102-relic single-open result: Antares x1 -> 188/300, Venator x100 with 'Star Up!' -> 3★ and 15/180, and Solstryker x1 -> 79/500.",
-    "Across the seven observed groups, the de-duplicated visible total is 535 relics across 25 unique dragons.",
+    "Across the nine observed reward groups, the de-duplicated visible total is 549 relics across 26 unique dragons.",
     "No 'Hatched!' label appears in the October 7 screenshots, so verified ownership remains 37 dragons.",
-    "The latest supplied operational state is 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, and 94 gold. These currencies and keys are dated operational history only.",
+    "The latest supplied operational state (IMG_5372.jpeg) is 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, and 194 gold. These currencies and keys are dated operational history only.",
     "Earlier exact counters from IMG_5348/IMG_5349 are retained as dated interim observations; later unnumbered batch awards mean they are not presented as final October 7 totals.",
-    "No habit unlock or habit-level change is inferred from Hatchery rewards."
+    "No habit unlock or habit-level change is inferred from Hatchery rewards.",
+    "IMG_5366(1), IMG_5367(2), IMG_5368(1), IMG_5369(2), and IMG_5370(1) repeat existing October 7 reward content and were excluded from the incremental total.",
+    "IMG_5371 adds Velar x1 -> 159/180, Shadowsong x5 -> 69/300, and Arrax x1 -> 162/500 (7 visible relics).",
+    "IMG_5372 adds Dawnseeker x1 -> 211/300, Thunderstrike x5 -> 282/300, and Shadowrend x1 -> 251/300 (7 visible relics). No additional star-up, hatch, or habit upgrade is demonstrated."
   ]
 }
