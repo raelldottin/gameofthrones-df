@@ -15,15 +15,22 @@
     "IMG_5367.jpeg",
     "IMG_5368.jpeg",
     "IMG_5369.jpeg",
-    "IMG_5370.jpeg"
+    "IMG_5370.jpeg",
+    "IMG_5371.jpeg",
+    "IMG_5372.jpeg"
   ],
   "excluded_duplicate_uploads": [
-    "IMG_5345(1).jpeg"
+    "IMG_5345(1).jpeg",
+    "IMG_5366(1).jpeg",
+    "IMG_5367(2).jpeg",
+    "IMG_5368(1).jpeg",
+    "IMG_5369(2).jpeg",
+    "IMG_5370(1).jpeg"
   ],
   "summary": {
-    "observed_new_batches": 7,
-    "visible_relics": 535,
-    "unique_dragons_across_batches": 25,
+    "observed_new_batches": 9,
+    "visible_relics": 549,
+    "unique_dragons_across_batches": 26,
     "directly_verified_star_rank_changes": [
       {
         "name": "Kalspire",
@@ -53,8 +60,12 @@
     "IMG_5369 shows sequential Arrax counters (156/500 after x1, then 161/500 after x5), demonstrating running post-card progression.",
     "No 'Hatched!' label appears in any October 7 result.",
     "IMG_5345(1).jpeg is byte-identical to the October 6 IMG_5345.jpeg and is excluded from October 7 totals.",
-    "The latest supplied screen shows 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, and 94 gold.",
-    "Keys, gold, and open prices are dated operational observations only."
+    "The latest supplied screen (IMG_5372.jpeg) shows 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, and 194 gold.",
+    "Keys, gold, and open prices are dated operational observations only.",
+    "IMG_5366(1), IMG_5367(2), IMG_5368(1), IMG_5369(2), and IMG_5370(1) repeat already-recorded October 7 rewards; the uploads are not new reward batches.",
+    "IMG_5371 is a new 7-relic single-open result: Velar x1 -> 159/180, Shadowsong x5 -> 69/300, and Arrax x1 -> 162/500.",
+    "IMG_5372 is a new 7-relic single-open result: Dawnseeker x1 -> 211/300, Thunderstrike x5 -> 282/300, and Shadowrend x1 -> 251/300.",
+    "The nine distinct October 7 reward groups total 549 visible relics across 26 unique already-owned dragons. No additional 'Star Up!' or 'Hatched!' label appears in IMG_5371/IMG_5372."
   ],
   "batches": [
     {
@@ -451,6 +462,90 @@
         "dragonfire_keys": 1,
         "gold": 94,
         "next_open_x1_gold_cost_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-07-h",
+      "source_screenshots": [
+        "IMG_5371.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Velar",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 159,
+            "required": 180
+          }
+        },
+        {
+          "name": "Shadowsong",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 69,
+            "required": 300
+          }
+        },
+        {
+          "name": "Arrax",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 162,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 244,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-07-i",
+      "source_screenshots": [
+        "IMG_5372.jpeg"
+      ],
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 211,
+            "required": 300
+          }
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 282,
+            "required": 300
+          }
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 251,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 194,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
       }
     }
   ]
