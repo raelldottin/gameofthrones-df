@@ -1,0 +1,180 @@
+{
+  "observed_date": "2026-10-10",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5407.jpeg",
+    "IMG_5408.jpeg",
+    "IMG_5409.jpeg"
+  ],
+  "summary": {
+    "observed_reward_groups": 3,
+    "fully_captured_groups": 2,
+    "partially_captured_groups": 1,
+    "visible_relics": 132,
+    "unique_dragons_across_visible_cards": 10,
+    "directly_verified_star_rank_changes": [
+      {
+        "name": "Vermax",
+        "from": 2,
+        "to": 3
+      }
+    ],
+    "newly_hatched": []
+  },
+  "verification_notes": [
+    "IMG_5407 and IMG_5408 are complete three-card single-open result screens.",
+    "IMG_5409 is a scrolled/partial result view: seven reward cards are visible, but earlier cards are off-screen. Only the 23 visible relics are counted; the full pull total is not inferred.",
+    "IMG_5408 visibly labels Vermax x100 with 'Star Up!' and shows 58/180 afterward, directly verifying Vermax 3★.",
+    "IMG_5407 shows sequential Shadowrend x1 -> 252/300 and later Shadowrend x1 -> 253/300, with Dawnseeker x5 -> 222/300 between them.",
+    "IMG_5408 also directly shows Vesper x1 -> 245/300 and Vaeldra x1 -> 62/300.",
+    "In IMG_5409, Nyrena and Thunderstrike names are text-visible. The five cropped top-row names are identified by their previously observed portraits as Vesper, Arrax, Antares, Shimmer, and Shadowrend.",
+    "No 'Hatched!' label appears in the supplied October 10 screenshots.",
+    "The latest supplied operational state is 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, and 264 gold.",
+    "Keys, gold, and open prices are dated operational observations only."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-10-a",
+      "source_screenshots": [
+        "IMG_5407.jpeg"
+      ],
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Shadowrend",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 252,
+            "required": 300
+          }
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 222,
+            "required": 300
+          }
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 253,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 2,
+      "post_result_operational_state": {
+        "dragonbone_keys": 6,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 714,
+        "next_open_x1_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-10-b",
+      "source_screenshots": [
+        "IMG_5408.jpeg"
+      ],
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Vesper",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 245,
+            "required": 300
+          }
+        },
+        {
+          "name": "Vermax",
+          "quantity": 100,
+          "star_up": true,
+          "new_star_rank": 3,
+          "displayed_progress_after_award": {
+            "current": 58,
+            "required": 180
+          }
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 62,
+            "required": 300
+          }
+        }
+      ],
+      "visible_relics": 102,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 6,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 664,
+        "next_open_x10_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    },
+    {
+      "batch_id": "2026-10-10-c",
+      "source_screenshots": [
+        "IMG_5409.jpeg"
+      ],
+      "capture_complete": false,
+      "visible_cards": 7,
+      "rewards": [
+        {
+          "name": "Vesper",
+          "quantity": 1,
+          "name_evidence": "portrait identification; text label cropped"
+        },
+        {
+          "name": "Arrax",
+          "quantity": 3,
+          "name_evidence": "portrait identification; text label cropped"
+        },
+        {
+          "name": "Antares",
+          "quantity": 3,
+          "name_evidence": "portrait identification; text label cropped"
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 1,
+          "name_evidence": "portrait identification; text label cropped"
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 7,
+          "name_evidence": "portrait identification; text label cropped"
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 7,
+          "name_evidence": "text-visible"
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 1,
+          "name_evidence": "text-visible"
+        }
+      ],
+      "visible_relics": 23,
+      "unique_dragons": 7,
+      "note": "Partial scroll capture. Additional cards may exist above the visible area and are intentionally not inferred.",
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 264,
+        "next_open_x10_gold_cost_visible": 1000
+      }
+    }
+  ]
+}
