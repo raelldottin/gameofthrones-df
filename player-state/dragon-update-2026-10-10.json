@@ -1,0 +1,144 @@
+{
+  "observed_date": "2026-10-10",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json",
+    "player-state/dragon-update-2026-10-03.json",
+    "player-state/dragon-update-2026-10-06.json",
+    "player-state/dragon-update-2026-10-07.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-10-10.json",
+  "source_screenshots": [
+    "IMG_5407.jpeg",
+    "IMG_5408.jpeg",
+    "IMG_5409.jpeg"
+  ],
+  "scope": "Record only persistent October 10 progression directly supported by the supplied Hatchery screens. IMG_5409 is a partial scroll capture, so only visible awards are recorded and no hidden cards or full-pull total are inferred. Star changes require a visible 'Star Up!' label. No habit changes are inferred.",
+  "verified_progression_changes": [
+    {
+      "name": "Vermax",
+      "change": "star_up",
+      "previously_verified_star_rank": 2,
+      "new_star_rank": 3,
+      "award_quantity": 100,
+      "source_screenshot": "IMG_5408.jpeg",
+      "post_star_relic_progress": {
+        "current": 58,
+        "required": 180
+      }
+    }
+  ],
+  "latest_directly_displayed_exact_relic_totals": [
+    {
+      "name": "Shadowrend",
+      "relics_toward_next_star": {
+        "current": 253,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5407.jpeg",
+      "award_sequence_on_screen": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 222,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5407.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Vesper",
+      "relics_toward_next_star": {
+        "current": 245,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5408.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Vermax",
+      "relics_toward_next_star": {
+        "current": 58,
+        "required": 180
+      },
+      "source_screenshot": "IMG_5408.jpeg",
+      "award_on_screen": 100,
+      "star_rank": 3
+    },
+    {
+      "name": "Vaeldra",
+      "relics_toward_next_star": {
+        "current": 62,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5408.jpeg",
+      "award_on_screen": 1
+    }
+  ],
+  "aggregate_visible_awards": [
+    {
+      "name": "Vermax",
+      "quantity": 100
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 9
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 7
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 5
+    },
+    {
+      "name": "Arrax",
+      "quantity": 3
+    },
+    {
+      "name": "Antares",
+      "quantity": 3
+    },
+    {
+      "name": "Vesper",
+      "quantity": 2
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 1
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 1
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 1
+    }
+  ],
+  "october_10_visible_award_total": 132,
+  "october_10_visible_unique_dragons": 10,
+  "observed_reward_groups": 3,
+  "partially_captured_reward_groups": 1,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "IMG_5407 contributes 7 visible relics and directly verifies Shadowrend 253/300 and Dawnseeker 222/300.",
+    "IMG_5408 contributes 102 visible relics and directly verifies Vesper 245/300, Vermax 3★ at 58/180, and Vaeldra 62/300.",
+    "IMG_5409 contributes 23 visible relics across seven visible cards. Because the result is scrolled, the full result total is unknown and is not reconstructed.",
+    "No 'Hatched!' label appears, so verified ownership remains 37 dragons.",
+    "No habit unlock or habit-level change is inferred from Hatchery results.",
+    "Latest dated operational state: 0 Dragonbone Keys, 0 Dragonglass Keys, 1 Dragonfire Key, 264 gold."
+  ]
+}
