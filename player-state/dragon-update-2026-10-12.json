@@ -1,0 +1,357 @@
+{
+  "observed_date": "2026-10-12",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json",
+    "player-state/dragon-update-2026-10-03.json",
+    "player-state/dragon-update-2026-10-06.json",
+    "player-state/dragon-update-2026-10-07.json",
+    "player-state/dragon-update-2026-10-10.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-10-12.json",
+  "source_screenshots": [
+    "IMG_5446.jpeg",
+    "IMG_5447.jpeg",
+    "IMG_5449.jpeg",
+    "IMG_5450.jpeg",
+    "IMG_5451.jpeg",
+    "IMG_5466.jpeg",
+    "IMG_5467.jpeg",
+    "IMG_5468.jpeg",
+    "IMG_5469.jpeg"
+  ],
+  "scope": "Only record Hatchery awards actually visible in October 12 screenshots. Four overlapping views of one ten-open batch are de-duplicated. Exactly shown numeric counters are recorded as historical post-award snapshots; later unnumbered awards are not treated as new exact totals. Star changes require visible 'Star Up!'; no habit change is inferred.",
+  "verified_progression_changes": [],
+  "latest_directly_displayed_exact_relic_totals": [
+    {
+      "name": "Dawnseeker",
+      "relics_toward_next_star": {
+        "current": 228,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5446.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Vermax",
+      "relics_toward_next_star": {
+        "current": 63,
+        "required": 180
+      },
+      "source_screenshot": "IMG_5446.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Bevlorin",
+      "relics_toward_next_star": {
+        "current": 129,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5450.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Arulix",
+      "relics_toward_next_star": {
+        "current": 106,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5449.jpeg",
+      "award_on_screen": 5
+    },
+    {
+      "name": "Antares",
+      "relics_toward_next_star": {
+        "current": 198,
+        "required": 300
+      },
+      "source_screenshot": "IMG_5449.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Solstryker",
+      "relics_toward_next_star": {
+        "current": 83,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5447.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Nyrena",
+      "relics_toward_next_star": {
+        "current": 70,
+        "required": 500
+      },
+      "source_screenshot": "IMG_5449.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Jagadrix",
+      "relics_toward_next_star": {
+        "current": 675,
+        "required": 800
+      },
+      "source_screenshot": "IMG_5450.jpeg",
+      "award_on_screen": 1
+    },
+    {
+      "name": "Tessarion",
+      "relics_toward_next_star": {
+        "current": 58,
+        "required": 100
+      },
+      "source_screenshot": "IMG_5451.jpeg",
+      "award_on_screen": 15
+    }
+  ],
+  "exact_counters_with_subsequent_unnumbered_awards": [
+    {
+      "name": "Dawnseeker",
+      "latest_exact_counter": {
+        "current": 228,
+        "required": 300
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 6
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Vermax",
+      "latest_exact_counter": {
+        "current": 63,
+        "required": 180
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 10
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Bevlorin",
+      "latest_exact_counter": {
+        "current": 129,
+        "required": 500
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 6
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Arulix",
+      "latest_exact_counter": {
+        "current": 106,
+        "required": 500
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 5
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Antares",
+      "latest_exact_counter": {
+        "current": 198,
+        "required": 300
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 1
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Nyrena",
+      "latest_exact_counter": {
+        "current": 70,
+        "required": 500
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 2
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Jagadrix",
+      "latest_exact_counter": {
+        "current": 675,
+        "required": 800
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 1
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    },
+    {
+      "name": "Tessarion",
+      "latest_exact_counter": {
+        "current": 58,
+        "required": 100
+      },
+      "subsequent_visible_awards": [
+        {
+          "source_screenshots": [
+            "IMG_5466.jpeg",
+            "IMG_5467.jpeg",
+            "IMG_5468.jpeg",
+            "IMG_5469.jpeg"
+          ],
+          "quantity": 5
+        }
+      ],
+      "note": "The last directly shown numeric counter predates these later awards; it is not a final October 12 total."
+    }
+  ],
+  "aggregate_visible_awards": [
+    {
+      "name": "Tessarion",
+      "quantity": 20
+    },
+    {
+      "name": "Vermax",
+      "quantity": 15
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 13
+    },
+    {
+      "name": "Arulix",
+      "quantity": 11
+    },
+    {
+      "name": "Antares",
+      "quantity": 7
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 7
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 7
+    },
+    {
+      "name": "Vesper",
+      "quantity": 7
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 6
+    },
+    {
+      "name": "Feskar",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowsong",
+      "quantity": 5
+    },
+    {
+      "name": "Syrax",
+      "quantity": 5
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 4
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 3
+    },
+    {
+      "name": "Arrax",
+      "quantity": 2
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 2
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 1
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 1
+    }
+  ],
+  "october_12_visible_award_total": 121,
+  "october_12_visible_unique_dragons": 18,
+  "observed_reward_groups": 6,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "IMG_5466–IMG_5469 are overlapping scroll views of ONE 17-card Standard ten-open reward result. Each shown card is counted once (78 visible relics); cropped repeats across images are not separate pulls.",
+    "IMG_5446, IMG_5447, IMG_5449, and IMG_5450 each show a separate complete Standard single-open result containing 7 relics.",
+    "IMG_5451 separately displays a Dragonfire-key Tessarion x15 reward and an exact post-award counter of 58/100; there is no visible 'Star Up!' label.",
+    "IMG_5450 confirms duplicate Bevlorin cards within one result: x5 -> 128/500 then x1 -> 129/500.",
+    "Exact counters shown on earlier single-open screens predate the later unnumbered ten-open batch and must not be described as final exact current progress.",
+    "No 'Star Up!' or 'Hatched!' label is visible in the supplied October 12 screenshots; star ranks and verified ownership are unchanged.",
+    "No habit unlock or upgrade is directly shown.",
+    "The last supplied operational snapshot (IMG_5466–IMG_5469) shows 0 Dragonbone Keys, 0 Dragonglass Keys, 0 Dragonfire Keys, and 564 gold; these are dated operational observations only."
+  ]
+}
