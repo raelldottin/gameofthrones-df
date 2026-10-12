@@ -1,0 +1,333 @@
+{
+  "observed_date": "2026-10-12",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5446.jpeg",
+    "IMG_5447.jpeg",
+    "IMG_5449.jpeg",
+    "IMG_5450.jpeg",
+    "IMG_5451.jpeg",
+    "IMG_5466.jpeg",
+    "IMG_5467.jpeg",
+    "IMG_5468.jpeg",
+    "IMG_5469.jpeg"
+  ],
+  "summary": {
+    "observed_reward_groups": 6,
+    "fully_captured_groups": 6,
+    "visible_relics": 121,
+    "unique_dragons_across_batches": 18,
+    "directly_verified_star_rank_changes": [],
+    "newly_hatched": [],
+    "hatchery_types": {
+      "standard_single_open": 4,
+      "dragonfire_key_single_open": 1,
+      "standard_ten_open": 1
+    }
+  },
+  "verification_notes": [
+    "IMG_5466–IMG_5469 are overlapping scroll views of ONE 17-card Standard ten-open reward result. Each shown card is counted once (78 visible relics); cropped repeats across images are not separate pulls.",
+    "IMG_5446, IMG_5447, IMG_5449, and IMG_5450 each show a separate complete Standard single-open result containing 7 relics.",
+    "IMG_5451 separately displays a Dragonfire-key Tessarion x15 reward and an exact post-award counter of 58/100; there is no visible 'Star Up!' label.",
+    "IMG_5450 confirms duplicate Bevlorin cards within one result: x5 -> 128/500 then x1 -> 129/500.",
+    "Exact counters shown on earlier single-open screens predate the later unnumbered ten-open batch and must not be described as final exact current progress.",
+    "No 'Star Up!' or 'Hatched!' label is visible in the supplied October 12 screenshots; star ranks and verified ownership are unchanged.",
+    "No habit unlock or upgrade is directly shown.",
+    "The last supplied operational snapshot (IMG_5466–IMG_5469) shows 0 Dragonbone Keys, 0 Dragonglass Keys, 0 Dragonfire Keys, and 564 gold; these are dated operational observations only."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-12-a",
+      "source_screenshots": [
+        "IMG_5446.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 228,
+            "required": 300
+          }
+        },
+        {
+          "name": "Vermax",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 63,
+            "required": 180
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 123,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 2,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 469,
+        "next_open_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-12-b",
+      "source_screenshots": [
+        "IMG_5447.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Arulix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 101,
+            "required": 500
+          }
+        },
+        {
+          "name": "Antares",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 197,
+            "required": 300
+          }
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 83,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 2,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 419,
+        "next_open_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    },
+    {
+      "batch_id": "2026-10-12-c",
+      "source_screenshots": [
+        "IMG_5449.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Antares",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 198,
+            "required": 300
+          }
+        },
+        {
+          "name": "Arulix",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 106,
+            "required": 500
+          }
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 70,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 3,
+      "post_result_operational_state": {
+        "dragonbone_keys": 4,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 549,
+        "next_open_gold_cost_visible": 50,
+        "crossed_out_reference_price_visible": 100
+      }
+    },
+    {
+      "batch_id": "2026-10-12-d",
+      "source_screenshots": [
+        "IMG_5450.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Jagadrix",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 675,
+            "required": 800
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 5,
+          "displayed_progress_after_award": {
+            "current": 128,
+            "required": 500
+          }
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 1,
+          "displayed_progress_after_award": {
+            "current": 129,
+            "required": 500
+          }
+        }
+      ],
+      "visible_relics": 7,
+      "unique_dragons": 2,
+      "post_result_operational_state": {
+        "dragonbone_keys": 4,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 1,
+        "gold": 499,
+        "next_open_gold_cost_visible": 900,
+        "crossed_out_reference_price_visible": 1000
+      }
+    },
+    {
+      "batch_id": "2026-10-12-e",
+      "source_screenshots": [
+        "IMG_5451.jpeg"
+      ],
+      "hatchery_type": "dragonfire_key_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Tessarion",
+          "quantity": 15,
+          "displayed_progress_after_award": {
+            "current": 58,
+            "required": 100
+          }
+        }
+      ],
+      "visible_relics": 15,
+      "unique_dragons": 1,
+      "post_result_operational_state": {
+        "dragonbone_keys": 4,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 499
+      }
+    },
+    {
+      "batch_id": "2026-10-12-f",
+      "source_screenshots": [
+        "IMG_5466.jpeg",
+        "IMG_5467.jpeg",
+        "IMG_5468.jpeg",
+        "IMG_5469.jpeg"
+      ],
+      "hatchery_type": "standard_ten_open",
+      "capture_complete": true,
+      "overlapping_scroll_views": true,
+      "rewards": [
+        {
+          "name": "Thunderstrike",
+          "quantity": 7
+        },
+        {
+          "name": "Shadowsong",
+          "quantity": 5
+        },
+        {
+          "name": "Syrax",
+          "quantity": 5
+        },
+        {
+          "name": "Vermax",
+          "quantity": 10
+        },
+        {
+          "name": "Arulix",
+          "quantity": 5
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 5
+        },
+        {
+          "name": "Feskar",
+          "quantity": 5
+        },
+        {
+          "name": "Vesper",
+          "quantity": 7
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 2
+        },
+        {
+          "name": "Antares",
+          "quantity": 1
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 4
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 6
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 1
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 6
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 6
+        },
+        {
+          "name": "Arrax",
+          "quantity": 2
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 78,
+      "unique_dragons": 17,
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 564,
+        "next_open_gold_cost_visible": 1000
+      }
+    }
+  ]
+}
