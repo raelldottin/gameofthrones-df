@@ -1,0 +1,225 @@
+{
+  "observed_date": "2026-10-17",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5567.jpeg",
+    "IMG_5568.jpeg",
+    "IMG_5569.jpeg",
+    "IMG_5570.jpeg",
+    "IMG_5571.jpeg",
+    "IMG_5572.jpeg",
+    "IMG_5573.jpeg"
+  ],
+  "summary": {
+    "observed_reward_groups": 2,
+    "fully_captured_groups": 2,
+    "visible_relics": 342,
+    "unique_dragons_across_batches": 23,
+    "directly_verified_star_rank_changes": [
+      {
+        "name": "Thunderstrike",
+        "from": 4,
+        "to": 5
+      },
+      {
+        "name": "Vesper",
+        "from": 4,
+        "to": 5
+      },
+      {
+        "name": "Vermax",
+        "from": 3,
+        "to": 4
+      }
+    ],
+    "newly_hatched": [],
+    "hatchery_types": {
+      "standard_ten_open": 2
+    }
+  },
+  "verification_notes": [
+    "IMG_5567–IMG_5569 are overlapping scroll views of ONE 14-card Hatchery result; count each card once (260 visible relics).",
+    "IMG_5570–IMG_5573 are overlapping scroll views of ONE later 17-card Hatchery result; count each card once (82 visible relics).",
+    "The first result explicitly labels Thunderstrike x3 and Vesper x101 'Star Up!', and Vermax x105 'Elite Drop!'. The later result explicitly labels Vermax x5 'Star Up!'.",
+    "The Vermax x105 elite drop in the first batch is not itself a star-up; the later x5 card verifies the star-up from 3 stars to 4 stars.",
+    "Individual progress bars and star rows are visible, but no numeric post-award relic progress counters are shown. Do not infer exact post-star carryover, intervening progression, or next-star relic totals.",
+    "The screenshots do not show 'Hatched!' or habit-level detail; ownership and habit upgrades are unchanged until separately verified.",
+    "The last supplied operational screen shows zero keys of all three types and 4 Gold. Dated currencies and key counts are operational observations, not reign-persistent dragon progression."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-17-a",
+      "source_screenshots": [
+        "IMG_5567.jpeg",
+        "IMG_5568.jpeg",
+        "IMG_5569.jpeg"
+      ],
+      "hatchery_type": "standard_ten_open",
+      "capture_complete": true,
+      "overlapping_scroll_views": true,
+      "rewards": [
+        {
+          "name": "Thunderstrike",
+          "quantity": 3,
+          "visible_label": "Star Up!"
+        },
+        {
+          "name": "Vesper",
+          "quantity": 101,
+          "visible_label": "Star Up!"
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 6
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 3
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 6
+        },
+        {
+          "name": "Vermax",
+          "quantity": 105,
+          "visible_label": "Elite Drop!"
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 2
+        },
+        {
+          "name": "Arulix",
+          "quantity": 8
+        },
+        {
+          "name": "Feskar",
+          "quantity": 5
+        },
+        {
+          "name": "Tairax",
+          "quantity": 5
+        },
+        {
+          "name": "Vermithor",
+          "quantity": 5
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 5
+        },
+        {
+          "name": "Starshower",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 260,
+      "unique_dragons": 14,
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 904,
+        "next_open_gold_cost_visible": 1200
+      }
+    },
+    {
+      "batch_id": "2026-10-17-b",
+      "source_screenshots": [
+        "IMG_5570.jpeg",
+        "IMG_5571.jpeg",
+        "IMG_5572.jpeg",
+        "IMG_5573.jpeg"
+      ],
+      "hatchery_type": "standard_ten_open",
+      "capture_complete": true,
+      "overlapping_scroll_views": true,
+      "rewards": [
+        {
+          "name": "Tashix",
+          "quantity": 5
+        },
+        {
+          "name": "Arrax",
+          "quantity": 5
+        },
+        {
+          "name": "Vermithor",
+          "quantity": 5
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 5
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 16
+        },
+        {
+          "name": "Vermax",
+          "quantity": 5,
+          "visible_label": "Star Up!"
+        },
+        {
+          "name": "Crimson",
+          "quantity": 5
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 5
+        },
+        {
+          "name": "Rhysarion",
+          "quantity": 5
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 2
+        },
+        {
+          "name": "Vesper",
+          "quantity": 2
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 2
+        },
+        {
+          "name": "Antares",
+          "quantity": 7
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 6
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 1
+        }
+      ],
+      "visible_relics": 82,
+      "unique_dragons": 17,
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 4,
+        "next_open_gold_cost_visible": null,
+        "next_free_open_countdown_visible": "6h 57m"
+      }
+    }
+  ]
+}
