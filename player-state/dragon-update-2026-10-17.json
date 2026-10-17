@@ -1,0 +1,167 @@
+{
+  "observed_date": "2026-10-17",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json",
+    "player-state/dragon-update-2026-10-03.json",
+    "player-state/dragon-update-2026-10-06.json",
+    "player-state/dragon-update-2026-10-07.json",
+    "player-state/dragon-update-2026-10-10.json",
+    "player-state/dragon-update-2026-10-12.json"
+  ],
+  "hatchery_log": "player-state/hatchery-experiment-2026-10-17.json",
+  "source_screenshots": [
+    "IMG_5567.jpeg",
+    "IMG_5568.jpeg",
+    "IMG_5569.jpeg",
+    "IMG_5570.jpeg",
+    "IMG_5571.jpeg",
+    "IMG_5572.jpeg",
+    "IMG_5573.jpeg"
+  ],
+  "scope": "Record two de-duplicated October 17 Hatchery reward groups. Star rank changes require directly visible 'Star Up!' labels. Exact relic balances are not inferred from unnumbered bars. Do not treat reward totals as post-star relic counters. No new hatches or habit-level changes were shown.",
+  "verified_progression_changes": [
+    {
+      "name": "Thunderstrike",
+      "change": "star_up",
+      "previously_verified_star_rank": 4,
+      "new_star_rank": 5,
+      "award_quantity": 3,
+      "source_screenshot": "IMG_5569.jpeg",
+      "post_star_relic_progress": "not numerically displayed"
+    },
+    {
+      "name": "Vesper",
+      "change": "star_up",
+      "previously_verified_star_rank": 4,
+      "new_star_rank": 5,
+      "award_quantity": 101,
+      "source_screenshot": "IMG_5569.jpeg",
+      "post_star_relic_progress": "not numerically displayed"
+    },
+    {
+      "name": "Vermax",
+      "change": "star_up",
+      "previously_verified_star_rank": 3,
+      "new_star_rank": 4,
+      "award_quantity": 5,
+      "prior_same_day_award_quantity": 105,
+      "source_screenshot": "IMG_5570.jpeg",
+      "post_star_relic_progress": "not numerically displayed"
+    }
+  ],
+  "latest_directly_displayed_exact_relic_totals": [],
+  "aggregate_visible_awards": [
+    {
+      "name": "Vermax",
+      "quantity": 110
+    },
+    {
+      "name": "Vesper",
+      "quantity": 103
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 18
+    },
+    {
+      "name": "Vermithor",
+      "quantity": 10
+    },
+    {
+      "name": "Bevlorin",
+      "quantity": 8
+    },
+    {
+      "name": "Arulix",
+      "quantity": 8
+    },
+    {
+      "name": "Antares",
+      "quantity": 7
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 6
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 6
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 6
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 5
+    },
+    {
+      "name": "Feskar",
+      "quantity": 5
+    },
+    {
+      "name": "Tairax",
+      "quantity": 5
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 5
+    },
+    {
+      "name": "Tashix",
+      "quantity": 5
+    },
+    {
+      "name": "Arrax",
+      "quantity": 5
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 5
+    },
+    {
+      "name": "Crimson",
+      "quantity": 5
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 5
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 5
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 5
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 4
+    },
+    {
+      "name": "Starshower",
+      "quantity": 1
+    }
+  ],
+  "october_17_visible_award_total": 342,
+  "october_17_visible_unique_dragons": 23,
+  "observed_reward_groups": 2,
+  "owned_dragon_count_after_update": 37,
+  "verification_notes": [
+    "Thunderstrike x3 and Vesper x101 are directly labelled 'Star Up!' in the first result; the previously verified September 20 baseline has both at four stars and no intervening star-up was recorded.",
+    "Vermax x105 is labelled 'Elite Drop!' in the first result. Vermax x5 is labelled 'Star Up!' in the second result, verifying a four-star rank from the previously verified three stars.",
+    "IMG_5567–IMG_5569 and IMG_5570–IMG_5573 represent two separate results; each result's scrolling screenshots overlap and must not be counted independently.",
+    "Unlike October 12 single-pull screenshots, these October 17 results show no numeric relic current/required counters; star rank upgrades do not license inference of the post-up progress or habit upgrades.",
+    "No new ownership change is shown. The verified owned roster remains 37 dragons.",
+    "Latest dated operational observation is 0 Dragonbone Keys, 0 Dragonglass Keys, 0 Dragonfire Keys, and 4 Gold."
+  ]
+}
