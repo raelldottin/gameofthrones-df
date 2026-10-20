@@ -1,0 +1,249 @@
+{
+  "observed_date": "2026-10-20",
+  "status": "dated Hatchery reward-batch log",
+  "source_screenshots": [
+    "IMG_5580.jpeg",
+    "IMG_5581.jpeg",
+    "IMG_5583.jpeg",
+    "IMG_5584.jpeg",
+    "IMG_5585.jpeg",
+    "IMG_5586.jpeg",
+    "IMG_5587.jpeg",
+    "IMG_5588.jpeg"
+  ],
+  "summary": {
+    "observed_reward_groups": 5,
+    "fully_captured_groups": 5,
+    "visible_relics": 197,
+    "unique_dragons_across_batches": 20,
+    "directly_verified_star_rank_changes": [],
+    "newly_hatched": [],
+    "hatchery_types": {
+      "standard_single_open": 4,
+      "standard_ten_open": 1
+    }
+  },
+  "verification_notes": [
+    "IMG_5580, IMG_5581, IMG_5583, and IMG_5584 each show a distinct three-card result (7, 7, 102, and 7 relics respectively).",
+    "IMG_5585–IMG_5588 are overlapping scroll positions of one 16-card ten-open result (74 relics). No card shown in multiple scroll positions is counted more than once.",
+    "IMG_5583 explicitly labels Solstryker x100 'Elite Drop!' and shows 196/500. This is an award, not a 'Star Up!'.",
+    "Some single-open results show exact per-dragon post-award counters. The later ten-open awards for six of those dragons have no numeric counters, so those earlier exact values must not be presented as final totals.",
+    "No 'Star Up!' or 'Hatched!' label appears in these eight screenshots. Do not infer new star ranks, ownership, or habit upgrades from the color or star icons.",
+    "IMG_5582 is not supplied. There are changes in keys/gold between IMG_5581 and IMG_5583, but no unseen result or resource source is inferred.",
+    "Currency/key counts and next-open offer prices are dated screen observations only, not persistent dragon attributes or proof of prior spending. Latest shown: 0 Dragonbone Keys, 0 Dragonglass Keys, 0 Dragonfire Keys, 204 Gold."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-10-20-a",
+      "source_screenshots": [
+        "IMG_5580.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Dawnseeker",
+          "quantity": 1
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 5
+        },
+        {
+          "name": "Vermax",
+          "quantity": 1
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 409,
+        "next_open_offer_displayed": "Open x1: 50 gold (100 struck through)"
+      },
+      "visible_relics": 7,
+      "unique_dragons": 3
+    },
+    {
+      "batch_id": "2026-10-20-b",
+      "source_screenshots": [
+        "IMG_5581.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Solstryker",
+          "quantity": 1
+        },
+        {
+          "name": "Crimson",
+          "quantity": 5
+        },
+        {
+          "name": "Vesper",
+          "quantity": 1
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 359,
+        "next_open_offer_displayed": "Open x10: 900 gold (1000 struck through)"
+      },
+      "visible_relics": 7,
+      "unique_dragons": 3
+    },
+    {
+      "batch_id": "2026-10-20-c",
+      "source_screenshots": [
+        "IMG_5583.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Vesper",
+          "quantity": 1
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 100,
+          "visible_label": "Elite Drop!"
+        },
+        {
+          "name": "Zivern",
+          "quantity": 1
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 719,
+        "next_open_offer_displayed": "Open x1: 50 gold (100 struck through)"
+      },
+      "visible_relics": 102,
+      "unique_dragons": 3
+    },
+    {
+      "batch_id": "2026-10-20-d",
+      "source_screenshots": [
+        "IMG_5584.jpeg"
+      ],
+      "hatchery_type": "standard_single_open",
+      "capture_complete": true,
+      "rewards": [
+        {
+          "name": "Jagadrix",
+          "quantity": 1
+        },
+        {
+          "name": "Sunfyre",
+          "quantity": 5
+        },
+        {
+          "name": "Arrax",
+          "quantity": 1
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 3,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 669,
+        "next_open_offer_displayed": "Open x10: 900 gold (1000 struck through)"
+      },
+      "visible_relics": 7,
+      "unique_dragons": 3
+    },
+    {
+      "batch_id": "2026-10-20-e",
+      "source_screenshots": [
+        "IMG_5585.jpeg",
+        "IMG_5586.jpeg",
+        "IMG_5587.jpeg",
+        "IMG_5588.jpeg"
+      ],
+      "hatchery_type": "standard_ten_open",
+      "capture_complete": true,
+      "overlapping_scroll_views": true,
+      "rewards": [
+        {
+          "name": "Vesper",
+          "quantity": 7
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 8
+        },
+        {
+          "name": "Arrax",
+          "quantity": 2
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 13
+        },
+        {
+          "name": "Nyrena",
+          "quantity": 1
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 2
+        },
+        {
+          "name": "Vhagar",
+          "quantity": 5
+        },
+        {
+          "name": "Antares",
+          "quantity": 6
+        },
+        {
+          "name": "Seasmoke",
+          "quantity": 5
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 5
+        },
+        {
+          "name": "Tairax",
+          "quantity": 5
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 5
+        },
+        {
+          "name": "Shadowsong",
+          "quantity": 1
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 2
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 1
+        },
+        {
+          "name": "Arulix",
+          "quantity": 6
+        }
+      ],
+      "post_result_operational_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 0,
+        "gold": 204,
+        "next_open_offer_displayed": "Open x10: 1000 gold"
+      },
+      "visible_relics": 74,
+      "unique_dragons": 16
+    }
+  ]
+}
