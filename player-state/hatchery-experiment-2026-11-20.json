@@ -1,0 +1,427 @@
+{
+  "observed_date": "2026-11-20",
+  "date_basis": "Date screenshots were supplied in conversation; original in-game capture timestamps not shown.",
+  "status": "dated Hatchery multi-card result log; user-supplied screenshots, image bytes not checked into Git",
+  "source_screenshots": [
+    "IMG_5821.jpeg",
+    "IMG_5822.jpeg",
+    "IMG_5823.jpeg",
+    "IMG_5824.jpeg",
+    "IMG_5825.jpeg",
+    "IMG_5826.jpeg",
+    "IMG_5827.jpeg"
+  ],
+  "screenshot_sha256": {
+    "IMG_5821.jpeg": "064d2d2fccea336c19555809c2e5ac7787c3ca3bacd5f3037251b6c9aa0b5bb0",
+    "IMG_5822.jpeg": "5a299b929fac9aa148574b49f54f8fd9d42e6fef8fef4d804f17967fe51d17db",
+    "IMG_5823.jpeg": "d57ff33b642c48a4883c4d45d81bb0ecef4e36d80a7090480e4e449458f662ca",
+    "IMG_5824.jpeg": "e7a14ad1ce9c44582d91d7f87ed5f537bd0bfd8667b160a3984e4508b5b36cca",
+    "IMG_5825.jpeg": "532f7d1cff54d657675b258a810b141f4ee1327c44edac9b94683d9161937188",
+    "IMG_5826.jpeg": "12986bbf95aefd4e300b67892e3d07e42c21a0c9b810e61dad60e2830ac14afd",
+    "IMG_5827.jpeg": "c6ec7cc8d4a917a941e12576a1d140e5fbf209c6f4995c55f8422751bd82dbde"
+  },
+  "summary": {
+    "observed_reward_groups": 2,
+    "fully_reconstructed_from_overlaps": 2,
+    "visible_card_count": 33,
+    "visible_relics": 152,
+    "unique_dragons_across_groups": 23,
+    "directly_verified_star_rank_changes": [],
+    "newly_hatched": [],
+    "exact_post_award_relic_counters_shown": 0
+  },
+  "verification_notes": [
+    "IMG_5821–5823 show one 14-card multi-card result (74 visible relics), and IMG_5824–5827 show a distinct 19-card result (78 visible relics). Rows repeated in scrolling captures were counted once, not as additional awards.",
+    "Each reward's source_screenshot points to a view where its name and x-quantity can be read together. evidence_rows gives the de-duplication anchors.",
+    "IMPORTANT: The upper cropped row in IMG_5823 is the same Tashix/Vesper/Meleys/Daemoros/Shimmer row shown fully in IMG_5822. Its x1/x8/x5/x10/x5 badges are NOT a new Malachite/Bevlorin/Smoketail/Arrax/Shimmer row.",
+    "No 'Star Up!' or 'Hatched!' label is displayed. Portrait frame colors, stars and progress bars alone do not establish rank/ownership changes or complete relic counters.",
+    "Meleys x5 appears as a reward and is not a named dragon in the previous repo's roster snapshot. This is an observed relic award only, not independently verified ownership or a newly hatched dragon.",
+    "The top-right keys and gold plus next-open offer are per-screen observations only; they are not persistent dragon attributes, verified expenditure, or evidence of which result occurred first.",
+    "The screenshots contain no exact numeric relic-toward-next-star totals, dragon reign levels or habit upgrades; none are inferred."
+  ],
+  "batches": [
+    {
+      "batch_id": "2026-11-20-result-5821-5823",
+      "source_screenshots": [
+        "IMG_5821.jpeg",
+        "IMG_5822.jpeg",
+        "IMG_5823.jpeg"
+      ],
+      "capture_complete": "visible end of reward list; 14 cards",
+      "overlapping_scroll_views": true,
+      "evidence_rows": [
+        {
+          "source_screenshot": "IMG_5821.jpeg",
+          "row": "top",
+          "dragon_names": [
+            "Nyrena",
+            "Vaeldra",
+            "Solstryker",
+            "Arulix",
+            "Antares"
+          ]
+        },
+        {
+          "source_screenshot": "IMG_5822.jpeg",
+          "row": "top",
+          "dragon_names": [
+            "Tashix",
+            "Vesper",
+            "Meleys",
+            "Daemoros",
+            "Shimmer"
+          ]
+        },
+        {
+          "source_screenshot": "IMG_5823.jpeg",
+          "row": "bottom",
+          "dragon_names": [
+            "Malachite",
+            "Bevlorin",
+            "Smoketail",
+            "Arrax"
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "name": "Nyrena",
+          "quantity": 2,
+          "source_screenshot": "IMG_5821.jpeg"
+        },
+        {
+          "name": "Vaeldra",
+          "quantity": 2,
+          "source_screenshot": "IMG_5821.jpeg"
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 17,
+          "source_screenshot": "IMG_5821.jpeg"
+        },
+        {
+          "name": "Arulix",
+          "quantity": 3,
+          "source_screenshot": "IMG_5821.jpeg"
+        },
+        {
+          "name": "Antares",
+          "quantity": 8,
+          "source_screenshot": "IMG_5821.jpeg"
+        },
+        {
+          "name": "Tashix",
+          "quantity": 1,
+          "source_screenshot": "IMG_5822.jpeg"
+        },
+        {
+          "name": "Vesper",
+          "quantity": 8,
+          "source_screenshot": "IMG_5822.jpeg"
+        },
+        {
+          "name": "Meleys",
+          "quantity": 5,
+          "source_screenshot": "IMG_5822.jpeg"
+        },
+        {
+          "name": "Daemoros",
+          "quantity": 10,
+          "source_screenshot": "IMG_5822.jpeg"
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 5,
+          "source_screenshot": "IMG_5822.jpeg"
+        },
+        {
+          "name": "Malachite",
+          "quantity": 5,
+          "source_screenshot": "IMG_5823.jpeg"
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 6,
+          "source_screenshot": "IMG_5823.jpeg"
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1,
+          "source_screenshot": "IMG_5823.jpeg"
+        },
+        {
+          "name": "Arrax",
+          "quantity": 1,
+          "source_screenshot": "IMG_5823.jpeg"
+        }
+      ],
+      "visible_card_count": 14,
+      "visible_relics": 74,
+      "unique_dragons": 14,
+      "observed_screen_state": {
+        "dragonbone_keys": 2,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 2,
+        "gold": 869,
+        "next_open_offer_displayed": "OPEN x10: 1200 gold"
+      }
+    },
+    {
+      "batch_id": "2026-11-20-result-5824-5827",
+      "source_screenshots": [
+        "IMG_5824.jpeg",
+        "IMG_5825.jpeg",
+        "IMG_5826.jpeg",
+        "IMG_5827.jpeg"
+      ],
+      "capture_complete": "visible end of reward list; 19 cards",
+      "overlapping_scroll_views": true,
+      "evidence_rows": [
+        {
+          "source_screenshot": "IMG_5824.jpeg",
+          "row": "top",
+          "dragon_names": [
+            "Nyrena",
+            "Shimmer",
+            "Tessarion",
+            "Daemoros",
+            "Velar"
+          ]
+        },
+        {
+          "source_screenshot": "IMG_5825.jpeg",
+          "row": "top",
+          "dragon_names": [
+            "Shadowrend",
+            "Seasmoke",
+            "Bevlorin",
+            "Rhysarion",
+            "Arrax"
+          ]
+        },
+        {
+          "source_screenshot": "IMG_5826.jpeg",
+          "row": "top",
+          "dragon_names": [
+            "Arulix",
+            "Solstryker",
+            "Antares",
+            "Smoketail",
+            "Thunderstrike"
+          ]
+        },
+        {
+          "source_screenshot": "IMG_5827.jpeg",
+          "row": "bottom",
+          "dragon_names": [
+            "Jagadrix",
+            "Vesper",
+            "Dawnseeker",
+            "Zivern"
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "name": "Nyrena",
+          "quantity": 1,
+          "source_screenshot": "IMG_5824.jpeg"
+        },
+        {
+          "name": "Shimmer",
+          "quantity": 1,
+          "source_screenshot": "IMG_5824.jpeg"
+        },
+        {
+          "name": "Tessarion",
+          "quantity": 1,
+          "source_screenshot": "IMG_5824.jpeg"
+        },
+        {
+          "name": "Daemoros",
+          "quantity": 5,
+          "source_screenshot": "IMG_5824.jpeg"
+        },
+        {
+          "name": "Velar",
+          "quantity": 5,
+          "source_screenshot": "IMG_5824.jpeg"
+        },
+        {
+          "name": "Shadowrend",
+          "quantity": 5,
+          "source_screenshot": "IMG_5825.jpeg"
+        },
+        {
+          "name": "Seasmoke",
+          "quantity": 5,
+          "source_screenshot": "IMG_5825.jpeg"
+        },
+        {
+          "name": "Bevlorin",
+          "quantity": 16,
+          "source_screenshot": "IMG_5825.jpeg"
+        },
+        {
+          "name": "Rhysarion",
+          "quantity": 1,
+          "source_screenshot": "IMG_5825.jpeg"
+        },
+        {
+          "name": "Arrax",
+          "quantity": 10,
+          "source_screenshot": "IMG_5825.jpeg"
+        },
+        {
+          "name": "Arulix",
+          "quantity": 2,
+          "source_screenshot": "IMG_5826.jpeg"
+        },
+        {
+          "name": "Solstryker",
+          "quantity": 1,
+          "source_screenshot": "IMG_5826.jpeg"
+        },
+        {
+          "name": "Antares",
+          "quantity": 1,
+          "source_screenshot": "IMG_5826.jpeg"
+        },
+        {
+          "name": "Smoketail",
+          "quantity": 1,
+          "source_screenshot": "IMG_5826.jpeg"
+        },
+        {
+          "name": "Thunderstrike",
+          "quantity": 8,
+          "source_screenshot": "IMG_5826.jpeg"
+        },
+        {
+          "name": "Jagadrix",
+          "quantity": 7,
+          "source_screenshot": "IMG_5827.jpeg"
+        },
+        {
+          "name": "Vesper",
+          "quantity": 1,
+          "source_screenshot": "IMG_5827.jpeg"
+        },
+        {
+          "name": "Dawnseeker",
+          "quantity": 6,
+          "source_screenshot": "IMG_5827.jpeg"
+        },
+        {
+          "name": "Zivern",
+          "quantity": 1,
+          "source_screenshot": "IMG_5827.jpeg"
+        }
+      ],
+      "visible_card_count": 19,
+      "visible_relics": 78,
+      "unique_dragons": 19,
+      "observed_screen_state": {
+        "dragonbone_keys": 0,
+        "dragonglass_keys": 0,
+        "dragonfire_keys": 2,
+        "gold": 69,
+        "next_open_offer_displayed": "OPEN x10: 1000 gold"
+      }
+    }
+  ],
+  "aggregate_visible_awards": [
+    {
+      "name": "Bevlorin",
+      "quantity": 22
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 18
+    },
+    {
+      "name": "Daemoros",
+      "quantity": 15
+    },
+    {
+      "name": "Arrax",
+      "quantity": 11
+    },
+    {
+      "name": "Antares",
+      "quantity": 9
+    },
+    {
+      "name": "Vesper",
+      "quantity": 9
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 8
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 7
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 6
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 6
+    },
+    {
+      "name": "Arulix",
+      "quantity": 5
+    },
+    {
+      "name": "Malachite",
+      "quantity": 5
+    },
+    {
+      "name": "Meleys",
+      "quantity": 5
+    },
+    {
+      "name": "Seasmoke",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 5
+    },
+    {
+      "name": "Velar",
+      "quantity": 5
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 3
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 2
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 2
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 1
+    },
+    {
+      "name": "Tashix",
+      "quantity": 1
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 1
+    },
+    {
+      "name": "Zivern",
+      "quantity": 1
+    }
+  ]
+}
