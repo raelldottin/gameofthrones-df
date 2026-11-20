@@ -1,0 +1,167 @@
+{
+  "observed_date": "2026-11-20",
+  "date_basis": "Screenshot submission date, not an in-game capture timestamp.",
+  "status": "latest observed Hatchery reward overlay; NOT an exact persistent relic balance or updated dragon-star roster",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlay": "player-state/dragon-update-2026-10-20.json",
+  "hatchery_log": "player-state/hatchery-experiment-2026-11-20.json",
+  "source_screenshots": [
+    "IMG_5821.jpeg",
+    "IMG_5822.jpeg",
+    "IMG_5823.jpeg",
+    "IMG_5824.jpeg",
+    "IMG_5825.jpeg",
+    "IMG_5826.jpeg",
+    "IMG_5827.jpeg"
+  ],
+  "scope": "Two screenshot-reconstructed Hatchery reward results; preserve previous verified star/owned state and only record x-quantity relic awards. No exact post-award per-dragon progress totals shown.",
+  "visible_reward_cards": 33,
+  "visible_awards_total": 152,
+  "visible_unique_dragons": 23,
+  "aggregate_visible_awards": [
+    {
+      "name": "Bevlorin",
+      "quantity": 22
+    },
+    {
+      "name": "Solstryker",
+      "quantity": 18
+    },
+    {
+      "name": "Daemoros",
+      "quantity": 15
+    },
+    {
+      "name": "Arrax",
+      "quantity": 11
+    },
+    {
+      "name": "Antares",
+      "quantity": 9
+    },
+    {
+      "name": "Vesper",
+      "quantity": 9
+    },
+    {
+      "name": "Thunderstrike",
+      "quantity": 8
+    },
+    {
+      "name": "Jagadrix",
+      "quantity": 7
+    },
+    {
+      "name": "Dawnseeker",
+      "quantity": 6
+    },
+    {
+      "name": "Shimmer",
+      "quantity": 6
+    },
+    {
+      "name": "Arulix",
+      "quantity": 5
+    },
+    {
+      "name": "Malachite",
+      "quantity": 5
+    },
+    {
+      "name": "Meleys",
+      "quantity": 5
+    },
+    {
+      "name": "Seasmoke",
+      "quantity": 5
+    },
+    {
+      "name": "Shadowrend",
+      "quantity": 5
+    },
+    {
+      "name": "Velar",
+      "quantity": 5
+    },
+    {
+      "name": "Nyrena",
+      "quantity": 3
+    },
+    {
+      "name": "Smoketail",
+      "quantity": 2
+    },
+    {
+      "name": "Vaeldra",
+      "quantity": 2
+    },
+    {
+      "name": "Rhysarion",
+      "quantity": 1
+    },
+    {
+      "name": "Tashix",
+      "quantity": 1
+    },
+    {
+      "name": "Tessarion",
+      "quantity": 1
+    },
+    {
+      "name": "Zivern",
+      "quantity": 1
+    }
+  ],
+  "directly_verified_star_rank_changes": [],
+  "newly_hatched": [],
+  "newly_observed_name_not_in_previous_roster": [
+    {
+      "name": "Meleys",
+      "reward_quantity": 5,
+      "ownership_confirmed": false,
+      "source_screenshot": "IMG_5822.jpeg"
+    }
+  ],
+  "last_known_verified_owned_dragon_count": {
+    "count": 37,
+    "as_of": "2026-10-20",
+    "source": "player-state/dragon-update-2026-10-20.json",
+    "current_count_reverified": false
+  },
+  "latest_directly_displayed_exact_relic_totals": [],
+  "operational_screen_observations": [
+    {
+      "source_screenshots": [
+        "IMG_5821.jpeg",
+        "IMG_5822.jpeg",
+        "IMG_5823.jpeg"
+      ],
+      "dragonbone_keys": 2,
+      "dragonglass_keys": 0,
+      "dragonfire_keys": 2,
+      "gold": 869,
+      "next_open_offer_displayed": "OPEN x10: 1200 gold"
+    },
+    {
+      "source_screenshots": [
+        "IMG_5824.jpeg",
+        "IMG_5825.jpeg",
+        "IMG_5826.jpeg",
+        "IMG_5827.jpeg"
+      ],
+      "dragonbone_keys": 0,
+      "dragonglass_keys": 0,
+      "dragonfire_keys": 2,
+      "gold": 69,
+      "next_open_offer_displayed": "OPEN x10: 1000 gold"
+    }
+  ],
+  "verification_notes": [
+    "Source screenshots 5821–5827 were supplied November 20; their original capture timestamps and the order of the two result screens are not independently established.",
+    "All 33 distinct visible reward cards are counted once despite overlapping scroll screenshots; 14 cards / 74 relics and 19 cards / 78 relics.",
+    "These are relic awards, not new current relic balances; older dated exact counters must not be silently incremented to claim current totals.",
+    "Meleys x5 is observed but does not establish a new hatch or update the verified owned dragon count. No 'Hatched!'/'Star Up!' label is visible.",
+    "No reign level, habit level, strength, army assignment, star rank or completed upgrade can be concluded from these reward screenshots.",
+    "Operational keys/currency and offer prices remain dated UI observations, not persistent state or proof of purchases."
+  ]
+}
