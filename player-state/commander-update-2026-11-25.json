@@ -3,6 +3,8 @@
   "scope": "Commander Grove screenshot snapshot; upgrade previews are not completed purchases. Dragon roster unchanged.",
   "source_screenshots": [
     "IMG_5875.jpeg",
+    "IMG_5876.jpeg",
+    "IMG_5877(1).jpeg",
     "IMG_5878.jpeg",
     "IMG_5879.jpeg",
     "IMG_5880.jpeg",
@@ -173,14 +175,88 @@
     {
       "name": "Alicent Hightower",
       "rank": 1,
-      "ownership": "visible unlocked roster slot; identity corroborated by official commander roster",
-      "talents": null
+      "ownership": "confirmed unlocked by named commander profile",
+      "talents": [
+        {
+          "slot": 1,
+          "rank": 1,
+          "icon_description": "green star above blue ripples",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        },
+        {
+          "slot": 2,
+          "rank": 0,
+          "icon_description": "scroll and shield",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        },
+        {
+          "slot": 3,
+          "rank": 0,
+          "icon_description": "tower with radiating light",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        }
+      ],
+      "rarity": "Common",
+      "power": 330,
+      "bonus_troops_percent": 1,
+      "stamina": {
+        "current": 100,
+        "max": 100
+      },
+      "preferred_traits": [
+        "Willful",
+        "Cunning"
+      ],
+      "source_screenshot": "IMG_5876.jpeg"
     },
     {
       "name": "Corlys Velaryon",
       "rank": 1,
-      "ownership": "visible unlocked roster slot; identity corroborated by official commander roster",
-      "talents": null
+      "ownership": "confirmed unlocked by named commander profile",
+      "talents": [
+        {
+          "slot": 1,
+          "rank": 1,
+          "icon_description": "ship with blue sails",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        },
+        {
+          "slot": 2,
+          "rank": 0,
+          "icon_description": "chained shield",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        },
+        {
+          "slot": 3,
+          "rank": 0,
+          "icon_description": "whirlpool",
+          "name": null,
+          "effects": null,
+          "next_cost": null
+        }
+      ],
+      "rarity": "Common",
+      "power": 330,
+      "bonus_troops_percent": 1,
+      "stamina": {
+        "current": 100,
+        "max": 100
+      },
+      "preferred_traits": [
+        "Cunning",
+        "Relentless"
+      ],
+      "source_screenshot": "IMG_5877(1).jpeg"
     },
     {
       "name": "Criston Cole",
@@ -196,7 +272,7 @@
   "notes": [
     "All three shown Rhaenyra upgrade previews increase commander rank from 3 to 4 independently, not cumulatively observed.",
     "Talent bonuses apply to three allied dragons; tile damage is post-combat in the screenshot descriptions. No exact stacking rule between talents is confirmed.",
-    "Talent upgrades persist across reigns. Commander ranks and resources are dated observations. Other commander talents and current army assignment are not visible.",
+    "Talent upgrades persist across reigns. Commander ranks and resources are dated observations. Alicent and Corlys talent slot ranks are directly visible, but their talent names, effect details and costs and current army assignments are not shown.",
     "Currency names are based on official guide; medals display is rounded."
   ],
   "official_reference": "https://news.gotdragonfire.com/a-guide-to-commanders/"
