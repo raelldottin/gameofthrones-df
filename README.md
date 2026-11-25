@@ -10,6 +10,11 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 - **Data Export**: Export to JSON for further analysis
 - **Army Composition**: Track and validate army compositions
 
+## Commander Grove and Strategy
+
+- [November 25 commander snapshot](player-state/commander-update-2026-11-25.json) — Rhaenyra rank 3, Realm's Delight 3, Swift Counsel 0, Heir's Reckoning 0; Alicent and Corlys rank 1 visible. Exact talent previews, currency costs and persistent progression recorded; no purchase inferred.
+- [Commander pairing recommendations](analysis/COMMANDER_PAIRINGS_2026-11-25.md) — trait-aware assignments to existing marches, alternate PvP candidates, upgrade priorities and battle validation plan.
+
 ## Current Dragon Roster and Strategy
 
 - [Latest progression overlay — October 20, 2026](player-state/dragon-update-2026-10-20.json) — four three-card Hatchery results plus one de-duplicated, 16-card ten-open result award **197 visible relics across 20 already-owned dragons**. **Solstryker x106** includes an **Elite Drop! x100** (directly shown at **196/500** before a later x5 award). Other major awards: **Jagadrix x14**, **Dawnseeker x9**, and **Vesper x9**. Exact dated interim counters also include **Vermax 4/300, Crimson 16/100, Zivern 345/800, Sunfyre 30/40, Jagadrix 696/800, and Arrax 174/500**; the latter two precede later unnumbered awards. No explicit new star-up or hatch is shown, and verified ownership remains **37 dragons**.
