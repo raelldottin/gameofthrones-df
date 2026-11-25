@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.1",
+  "source": {
+    "type": "manual_from_screenshots",
+    "observed_date": "2026-11-25",
+    "received_at_utc": "2026-11-25T14:08:40Z",
+    "screenshots": [
+      "IMG_5887(1).jpeg",
+      "IMG_5888(1).jpeg",
+      "IMG_5889(1).jpeg"
+    ],
+    "scope": [
+      "alliance_tab"
+    ],
+    "refresh_timer_observed": [
+      "9h 52m",
+      "9h 51m"
+    ],
+    "notes": "Overlapping scroll views deduplicated by offer and currency. No purchases shown."
+  },
+  "balances": {
+    "noble_merits": 1730,
+    "gilded_merits_display": "17.4K",
+    "gold": 199
+  },
+  "alliance_tab": [
+    {
+      "item": "Commander Alicent",
+      "quantity": 1,
+      "available": 0,
+      "cost": 300,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Commander Corlys",
+      "quantity": 1,
+      "available": 0,
+      "cost": 300,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Commander Medals",
+      "quantity": 400,
+      "available": 1,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Hunter Breedmark",
+      "quantity": 25,
+      "available": 5,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Champion Breedmark",
+      "quantity": 25,
+      "available": 5,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Sentinel Breedmark",
+      "quantity": 25,
+      "available": 5,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Warrior Breedmark",
+      "quantity": 25,
+      "available": 5,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Dragonbone Key",
+      "quantity": 1,
+      "available": 1,
+      "cost": 200,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Dragonglass Key",
+      "quantity": 1,
+      "available": 1,
+      "cost": 250,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Feskar Relic",
+      "quantity": 5,
+      "available": 1,
+      "cost": 300,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Gold",
+      "quantity": 50,
+      "available": 1,
+      "cost": 100,
+      "currency": "noble_merits"
+    },
+    {
+      "item": "Runic Fragments",
+      "quantity": 75,
+      "available": 10,
+      "cost": 600,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Valyrian Tablets",
+      "quantity": 50,
+      "available": 10,
+      "cost": 1250,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Amplifier Seals",
+      "quantity": 75,
+      "available": 10,
+      "cost": 600,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Dragonlord Scrolls",
+      "quantity": 50,
+      "available": 10,
+      "cost": 2050,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Commander Honors",
+      "quantity": 25,
+      "available": 10,
+      "cost": 2050,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Onyx Honors",
+      "quantity": 25,
+      "available": 10,
+      "cost": 10400,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Dragonbone Key",
+      "quantity": 1,
+      "available": 5,
+      "cost": 8300,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Dragonglass Key",
+      "quantity": 1,
+      "available": 5,
+      "cost": 10000,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Dragonfire Key",
+      "quantity": 1,
+      "available": 5,
+      "cost": 66650,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Rare Core",
+      "quantity": 25,
+      "available": 5,
+      "cost": 2500,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Epic Core",
+      "quantity": 25,
+      "available": 5,
+      "cost": 11050,
+      "currency": "gilded_merits"
+    },
+    {
+      "item": "Legendary Core",
+      "quantity": 25,
+      "available": 5,
+      "cost": 41650,
+      "currency": "gilded_merits"
+    }
+  ],
+  "currency_reference": {
+    "official": "https://news.gotdragonfire.com/a-guide-to-campaigns/",
+    "secondary": "https://westeroscommand.com/patch-notes/24861",
+    "note": "Currency names inferred from current Noble/Gilded Merit terminology and icon distinction; tooltips not shown."
+  },
+  "notes": [
+    "23 distinct offers; commanders show zero available; their ownership is independently confirmed by Commander Grove, but purchase history is not observed.",
+    "Gilded Merits balance is rounded; no exact balance inferred.",
+    "Other market tabs not captured."
+  ]
+}
