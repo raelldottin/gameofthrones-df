@@ -79,3 +79,41 @@ def test_no_duplicate_dragon_assignments():
     x=load_context(ROOT)
     x["formations"]["marches"][1]["left"]=x["formations"]["marches"][0]["left"]
     with pytest.raises(ValueError,match="duplicate"):plan(x)
+
+
+def test_against_independent_bitmask_oracle():
+    import random
+    rng=random.Random(15)
+    for _ in range(30):
+        opts=[option(str(i),{"gold":rng.randint(1,5),"core":rng.randint(1,5)},
+                     rng.randint(1,10),str(i//2)) for i in range(8)]
+        budget={"gold":rng.randint(2,12),"core":rng.randint(2,12)}
+        feasible=[]
+        for mask in range(1<<len(opts)):
+            selected=[o for i,o in enumerate(opts) if mask&(1<<i)]
+            if len({o["group"] for o in selected})!=len(selected):continue
+            c=sum(o["cost"]["core"] for o in selected)
+            g=sum(o["cost"]["gold"] for o in selected)
+            if c<=budget["core"] and g<=budget["gold"]:
+                feasible.append((-sum(o["utility"] for o in selected),c,g,
+                                 tuple(o["id"] for o in selected)))
+        score,core,gold,ids=min(feasible)
+        r=optimize(opts,budget)
+        assert (r["utility"],r["spent"],r["selected"])==(-score,{"core":core,"gold":gold},list(ids))
+
+
+def test_actual_star_and_cost_benchmark():
+    r=plan(load_context(ROOT))
+    near=[(x["name"],x["missing_relics"]) for x in r["stars"] if x["march"] in (1,2,3,4,5) and x["next_star"]==6]
+    assert near==[("Solstryker",155),("Bevlorin",170),("Arulix",248),("Antares",337),("Thunderstrike",351),("Dawnseeker",443)]
+    assert {x["name"]:x["cost"]["gold"] for x in r["habit_candidates"]}=={
+        "Arrax":294,"Zivern":86,"Vaeldra":694,"Arulix":560,"Thunderstrike":394}
+    assert r["commander_budget"]["freshly_verified"] is False
+    assert r["commander_budget"]["gold"]==199
+    assert r["spend_authorized"] is False
+
+
+def test_no_implicit_cost_conversion():
+    r=optimize([option("habit",{"purple_rarity_cores":200,"green_sentinel_habit_cores":200},1)],
+               {"blue_rarity_cores":1000,"green_warrior_habit_cores":1000})
+    assert r["selected"]==[] and r["unknown_budget"]==["habit"]

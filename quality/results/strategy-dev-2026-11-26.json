@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only",
+  "source_commit": "766201637287e0e274ffe3a91bd6f46e84ae1290",
+  "method": "Separate JavaScript audit of dated roster, seasonal XP, formations and September habit quote records. Committed Python CI independently executes regression fixture, not independent agent.",
+  "roster_count": 38,
+  "closest_relic_milestones": [
+    [
+      "Vhagar",
+      5
+    ],
+    [
+      "Starshower",
+      22
+    ],
+    [
+      "Moondancer",
+      30
+    ],
+    [
+      "Meleys",
+      45
+    ],
+    [
+      "Shadowsong",
+      65
+    ]
+  ],
+  "march_1_to_5_six_star_gaps": [
+    [
+      "Solstryker",
+      155
+    ],
+    [
+      "Bevlorin",
+      170
+    ],
+    [
+      "Arulix",
+      248
+    ],
+    [
+      "Antares",
+      337
+    ],
+    [
+      "Thunderstrike",
+      351
+    ],
+    [
+      "Dawnseeker",
+      443
+    ]
+  ],
+  "near_level_gaps_approx": [
+    [
+      "Solstryker",
+      3419
+    ],
+    [
+      "Rhysarion",
+      4214
+    ],
+    [
+      "Shadowsong",
+      4907
+    ],
+    [
+      "Thunderstrike",
+      4907
+    ],
+    [
+      "Malachite",
+      4954
+    ],
+    [
+      "Shimmer",
+      4954
+    ]
+  ],
+  "matching_historical_quotes": [
+    [
+      "Arrax",
+      294
+    ],
+    [
+      "Zivern",
+      86
+    ],
+    [
+      "Vaeldra",
+      694
+    ],
+    [
+      "Arulix",
+      560
+    ],
+    [
+      "Thunderstrike",
+      394
+    ]
+  ],
+  "commander_budget": {
+    "date": "2026-11-25",
+    "medals_display": "143.6K",
+    "honors": 1065,
+    "onyx_honors": 233,
+    "gold": 199,
+    "freshly_verified": false
+  },
+  "current_core_budget": null,
+  "actual_reign_id": null,
+  "spend_authorized": false,
+  "battle_improvement": null
+}
