@@ -26,3 +26,5 @@ Q14 draft: [round-level illustrative combat engine and diagnostic calibration](Q
 Q15 draft: [read-only strategy and bounded resource allocation](Q15_STRATEGY_INTELLIGENCE.md); fresh inventories and validation pending.
 
 Q16 draft: [production certification evidence matrix and performance comparator](Q16_CERTIFICATION.md). Production remains blocked; independent evidence acquisition is the next priority.
+
+Next: [Wave 3 empirical validation](WAVE3_ROADMAP.md), [Q17 stack review](Q17_STACK_REVIEW.md).

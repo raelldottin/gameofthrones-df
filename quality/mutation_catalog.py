@@ -156,6 +156,7 @@ SUITES = {
         ("pretend core budget known", "strategy.py", '"dragon_core_budget":None', '"dragon_core_budget":{}', "test_historical_costs_not_spend_authority"),
     ]),
     "certification": ("scripts/test_certification.py", [
+        ("ignore committed source mode", "certification.py", 'if report.get("source_snapshot")!="git_tree":', "if False:", "test_checkout_snapshot_mode_required"),
         ("ignore candidate tree", "certification.py", 'or candidate.get("tree")!=tree', "", "test_wrong_tree_not_admitted"),
         ("ignore catalog hash", "certification.py", 'if report.get("catalog_sha256")!=catalog_hash():', "if False:", "test_wrong_catalog_not_admitted"),
         ("ignore exact case census", "certification.py", 'if len(indexed)!=len(rows) or set(indexed)!={c[0] for c in cases}:', "if False:", "test_incomplete_suite_not_admitted_even_if_summary_passes"),

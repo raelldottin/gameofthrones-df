@@ -39,6 +39,8 @@ def inspect_mutations(root,tree,report,version):
         flag("candidate_tree_mismatch")
     if not isinstance(candidate,dict) or candidate.get("tracked_clean") is not True:
         flag("candidate_not_clean")
+    if report.get("source_snapshot")!="git_tree":
+        flag("source_snapshot_mismatch")
     if report.get("catalog_sha256")!=catalog_hash():
         flag("catalog_mismatch")
     if not isinstance(report.get("python"),str) or not re.fullmatch(re.escape(version)+r"\.\d+",report["python"]):
