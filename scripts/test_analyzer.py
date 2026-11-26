@@ -22,13 +22,15 @@ def profile(stars=7):
 
 @pytest.mark.parametrize("stars", [1, 5, 6, 7, 8, 9, 10])
 def test_valid_star_ranks(stars):
-    assert profile(stars).dragon.stars == stars
+    assert Dragon(name="Jagadrix", level=22, stars=stars,
+                  dragon_class=DragonClass.HUNTER).stars == stars
 
 
 @pytest.mark.parametrize("stars", [-1, 11, 1.5, True, "7"])
 def test_invalid_star_ranks(stars):
     with pytest.raises(ValidationError):
-        profile(stars)
+        Dragon(name="Jagadrix", level=22, stars=stars,
+               dragon_class=DragonClass.HUNTER)
 
 
 @pytest.mark.parametrize("level", [0, -1, True, "22"])
