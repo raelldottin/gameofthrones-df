@@ -13,5 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - run: python -m pip install opencv-python pytesseract pillow numpy 'pydantic>=2.5,<3' typer rich loguru pytest pytest-cov
+      - run: python -m pip install '.[test]'
       - run: python -m pytest -o addopts='' -q scripts/test_analyzer.py
+      - run: dragonfire --help
+      - run: python quality/check_contract_mutations.py

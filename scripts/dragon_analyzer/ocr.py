@@ -47,8 +47,7 @@ class OCRProcessor:
             )
             return text.strip()
         except Exception as e:
-            logger.error(f"OCR failed: {e}")
-            return ""
+            raise RuntimeError(f"OCR failed: {e}") from e
     
     def extract_text_from_pil(self, image: Image.Image, region: Optional[tuple] = None) -> str:
         """Extract text from PIL Image."""
@@ -191,7 +190,7 @@ class DragonScreenshotOCR(OCRProcessor):
         loc_match = re.search(r'([A-Za-z\s]+)\s*\((\d+),\s*(\d+)\)', text)
         if loc_match:
             result['location'] = loc_match.group(1).strip()
-            result['coords'] = (int(loc_match.group(1)), int(loc_match.group(2)))
+            result['coords'] = (int(loc_match.group(2)), int(loc_match.group(3)))
         # Timestamp
         time_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4}\s+\d{2}:\d{2}:\d{2}\s+UTC)', text)
         if time_match:
@@ -242,7 +241,7 @@ class DragonScreenshotOCR(OCRProcessor):
             result['kills'] = [int(k.replace(',', '')) for k in kills]
         # Commands/Abilities
         abilities = re.findall(r'(Shadowflame|Sudden Strike|Lure|Breath of Fire|Calculated Assault|Whirlwind|Basic Attack)', text)
-        result['abilities'] = list(set(abilities))
+        result['abilities'] = list(dict.fromkeys(abilities))
         return result
     
     def _parse_battle_bottom(self, text: str) -> list[dict]:

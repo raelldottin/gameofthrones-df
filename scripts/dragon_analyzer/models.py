@@ -37,8 +37,8 @@ class DamageType(str, Enum):
 
 class Dragon(BaseModel):
     name: str
-    level: int
-    stars: int = Field(ge=0, le=5)
+    level: int = Field(ge=1, strict=True)
+    stars: int = Field(ge=0, le=10, strict=True)
     dragon_class: DragonClass
     health: Optional[int] = None
     attack: Optional[int] = None
@@ -78,7 +78,7 @@ class DragonData(BaseModel):
     habits: list[Habit] = Field(default_factory=list)
     loyal_bond: Optional[dict] = None
     source_image: Optional[str] = None
-    confidence: float = Field(default=1.0, ge=0.0, le=1.0)
+    confidence: Optional[float] = Field(default=None, ge=0.0, le=1.0)
 
 
 class ArmyComposition(BaseModel):

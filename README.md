@@ -4,7 +4,7 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 
 ## Implementation status
 
-The screenshot analyzer and CLI are incomplete legacy prototypes. Current roster and strategy records are manually verified evidence, not successful automated OCR output. See [engineering workflow](docs/ENGINEERING_WORKFLOW.md) and [quality roadmap](docs/QUALITY_ROADMAP.md). Run `node quality/benchmark.mjs` for the dated roster gate.
+The screenshot reader remains unsupported until real-image evaluation. The Q1 boundary provides explicit errors and legacy JSON validation; see [Q1 implementation evidence](docs/Q1_IMPLEMENTATION.md). Current roster and strategy records are manually verified evidence, not successful automated OCR output. See [engineering workflow](docs/ENGINEERING_WORKFLOW.md) and [quality roadmap](docs/QUALITY_ROADMAP.md). Run `node quality/benchmark.mjs` for the dated roster gate.
 
 ## Intended features (not all implemented)
 

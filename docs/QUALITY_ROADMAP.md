@@ -12,9 +12,11 @@
 | Q7 | Dynamic agent supervisor | distinct identity each stage/retry; artifact hashes and immutable handoffs; gate manifest validator; bounded loop, blocked status, rejection of reused agents/stale benchmarks/false success |
 | Q8 | Release readiness | independent review and evaluator, source mutation testing, measured performance budgets, regression history, ≥95/100 and all hard gates |
 
-## Audit findings (open)
+## Audit findings at Q0 (Q1 draft remediation in progress)
 - Critical: model restricts stars to 5; analyzer calls missing extract_dragon_name, extract_level, extract_stats, extract_ability_info.
 - High: battle header location converts regex group 1 (name) to int instead of coordinate groups 2 and 3; analyze/batch/validate CLI placeholders; broad OCR exception handling; absolute personal Mac paths; three shallow smoke tests.
 - Legacy OCR and CLI remain incomplete. A green roster gate does not fix these. Evaluate rewrite instead of preserving fake defaults. Add red tests before repairs.
+
+See [Q1 implementation evidence](Q1_IMPLEMENTATION.md) for the draft fixes and limitations. Do not mark Q1 accepted before independent review, clean install, behavioral tests and source mutation gate pass.
 
 Proposed thresholds are targets, not measured results. Do not publish personal screenshots without approval. Use versioned benchmark hashes and regression history. No global release score until independent evidence exists.
