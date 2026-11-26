@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-26",
+  "count": 38,
+  "screens": 40,
+  "affinity": {
+    "Malachite": [
+      "Cavalry",
+      "Shieldbearers"
+    ],
+    "Sheepstealer": [
+      "Cavalry",
+      "Archers"
+    ],
+    "Shimmer": [
+      "Cavalry",
+      "Siege"
+    ],
+    "Syrax": [
+      "Spearmen",
+      "Archers"
+    ],
+    "Jagadrix": [
+      "Spearmen"
+    ],
+    "Dawnseeker": [
+      "Spearmen"
+    ],
+    "Venator": [
+      "Spearmen",
+      "Shieldbearers"
+    ],
+    "Vermithor": [
+      "Spearmen",
+      "Shieldbearers"
+    ],
+    "Zivern": [
+      "Archers",
+      "Siege"
+    ],
+    "Antares": [
+      "Archers"
+    ],
+    "Solstryker": [
+      "Archers"
+    ],
+    "Rhysarion": [
+      "Spearmen",
+      "Shieldbearers",
+      "Siege"
+    ],
+    "Vaeldra": [
+      "Spearmen"
+    ],
+    "Bevlorin": [
+      "Spearmen"
+    ],
+    "Shadowsong": [
+      "Cavalry"
+    ],
+    "Arulix": [
+      "Cavalry"
+    ],
+    "Thunderstrike": [
+      "Cavalry"
+    ],
+    "Sunfyre": [
+      "Spearmen",
+      "Cavalry"
+    ],
+    "Moondancer": [
+      "Shieldbearers",
+      "Archers"
+    ],
+    "Vhagar": [
+      "Shieldbearers",
+      "Archers",
+      "Siege"
+    ],
+    "Kalspire": [
+      "Cavalry",
+      "Shieldbearers",
+      "Siege"
+    ],
+    "Crimson": [
+      "Spearmen",
+      "Archers",
+      "Siege"
+    ],
+    "Caraxes": [
+      "Spearmen",
+      "Cavalry"
+    ],
+    "Meleys": [
+      "Cavalry",
+      "Archers"
+    ],
+    "Seasmoke": [
+      "Cavalry",
+      "Archers"
+    ],
+    "Daemoros": [
+      "Archers"
+    ],
+    "Feskar": [
+      "Cavalry"
+    ],
+    "Tashix": [
+      "Archers"
+    ],
+    "Velar": [
+      "Shieldbearers"
+    ],
+    "Vermax": [
+      "Cavalry",
+      "Shieldbearers"
+    ],
+    "Smoketail": [
+      "Spearmen"
+    ],
+    "Tairax": [
+      "Cavalry",
+      "Shieldbearers",
+      "Siege"
+    ],
+    "Tessarion": [
+      "Spearmen",
+      "Cavalry",
+      "Siege"
+    ],
+    "Starshower": [
+      "Shieldbearers"
+    ],
+    "Nyrena": [
+      "Shieldbearers",
+      "Siege"
+    ],
+    "Shadowrend": [
+      "Shieldbearers",
+      "Siege"
+    ],
+    "Vesper": [
+      "Shieldbearers"
+    ],
+    "Arrax": [
+      "Shieldbearers",
+      "Archers"
+    ]
+  },
+  "anchors": {
+    "Jagadrix": [
+      7,
+      82,
+      [
+        1,
+        1,
+        5
+      ]
+    ],
+    "Shimmer": [
+      6,
+      616,
+      [
+        2,
+        1,
+        4
+      ]
+    ],
+    "Dawnseeker": [
+      5,
+      57,
+      [
+        5,
+        5
+      ]
+    ],
+    "Arrax": [
+      5,
+      367,
+      [
+        3,
+        1
+      ]
+    ],
+    "Vhagar": [
+      1,
+      35,
+      []
+    ]
+  }
+}

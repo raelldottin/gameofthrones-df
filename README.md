@@ -2,7 +2,11 @@
 
 Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobile game.
 
-## Features
+## Implementation status
+
+The screenshot analyzer and CLI are incomplete legacy prototypes. Current roster and strategy records are manually verified evidence, not successful automated OCR output. See [engineering workflow](docs/ENGINEERING_WORKFLOW.md) and [quality roadmap](docs/QUALITY_ROADMAP.md). Run `node quality/benchmark.mjs` for the dated roster gate.
+
+## Intended features (not all implemented)
 
 - **OCR Extraction**: Extract dragon stats, abilities, and levels from screenshots
 - **Data Models**: Structured Pydantic models for dragons, abilities, habits, and armies

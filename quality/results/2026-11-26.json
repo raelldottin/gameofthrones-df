@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-26",
+  "input_commit": "1555eb587ef9167448ec0a7e7a83e905a1ca249c",
+  "first_attempt": {
+    "baseline": [
+      "roster.persistent_boundary"
+    ],
+    "reason": "legitimate provenance keys absent from allowlist",
+    "detected": 20,
+    "total": 20
+  },
+  "corrected": {
+    "baseline": [],
+    "results": [
+      {
+        "name": "duplicate dragon",
+        "expected": "roster.identity",
+        "detected": true
+      },
+      {
+        "name": "missing seasonal dragon",
+        "expected": "season.identity",
+        "detected": true
+      },
+      {
+        "name": "seasonal level leaked",
+        "expected": "roster.persistent_boundary",
+        "detected": true
+      },
+      {
+        "name": "invalid star rank",
+        "expected": "roster.star_range",
+        "detected": true
+      },
+      {
+        "name": "negative relics",
+        "expected": "roster.relic_range",
+        "detected": true
+      },
+      {
+        "name": "locked habit",
+        "expected": "roster.habit_gate",
+        "detected": true
+      },
+      {
+        "name": "habit above maximum",
+        "expected": "roster.habit_gate",
+        "detected": true
+      },
+      {
+        "name": "golden mismatch",
+        "expected": "golden.profile",
+        "detected": true
+      },
+      {
+        "name": "wrong affinity",
+        "expected": "march.affinity",
+        "detected": true
+      },
+      {
+        "name": "reused dragon",
+        "expected": "march.unique",
+        "detected": true
+      },
+      {
+        "name": "stale stars",
+        "expected": "march.stars",
+        "detected": true
+      },
+      {
+        "name": "stale reign level",
+        "expected": "march.levels",
+        "detected": true
+      },
+      {
+        "name": "wrong capacity",
+        "expected": "march.capacity",
+        "detected": true
+      },
+      {
+        "name": "wrong power",
+        "expected": "march.power",
+        "detected": true
+      },
+      {
+        "name": "wrong bench",
+        "expected": "march.bench",
+        "detected": true
+      },
+      {
+        "name": "duplicate commander",
+        "expected": "march.commander_unique",
+        "detected": true
+      },
+      {
+        "name": "six active armies",
+        "expected": "march.active_limit",
+        "detected": true
+      },
+      {
+        "name": "duplicate screenshot",
+        "expected": "source.census",
+        "detected": true
+      },
+      {
+        "name": "invalid energy",
+        "expected": "season.energy",
+        "detected": true
+      },
+      {
+        "name": "wrong date",
+        "expected": "snapshot.date",
+        "detected": true
+      },
+      {
+        "name": "unknown confirmation screenshot",
+        "expected": "source.profile",
+        "detected": true
+      }
+    ],
+    "killed": 21,
+    "total": 21,
+    "negative_control_detected": 0
+  },
+  "execution": "Pure JS validator and faults executed against repository JSON in tool environment; Node CLI and CI not yet verified.",
+  "release_score": null
+}
