@@ -124,4 +124,12 @@ SUITES = {
         ("ignore database ledger identity", "ledger.py", 'if self.db.execute("SELECT id FROM ledger_identity WHERE slot=1").fetchone()!=(self.id,):', "if False:", "test_empty_database_cannot_be_reassigned_to_different_ledger"),
         ("omit correction approval", "ledger.py", 'approved[p["new"]]=actor', "pass", "test_correction_atomic_same_source_replaces_old_approval"),
     ]),
+    "tactical": ("scripts/test_tactical.py", [
+        ("ignore habit unlock", "tactical.py", 'if d["stars"]<rule["gate"]: continue', "pass", "test_locked_habit_not_scored"),
+        ("ignore preferred position", "tactical.py", 'target=order[POSITIONS.index(rule["position"])]', "target=next(n for n in order if n!=owner)", "test_owner_in_preferred_slot_abstains"),
+        ("ignore damage type", "tactical.py", 'and a["damage"]==rule["damage"]', "", "test_wrong_damage_or_round_not_scored"),
+        ("ignore round overlap", "tactical.py", 'overlap=set(a["rounds"])&set(rule["rounds"])', 'overlap=set(a["rounds"])', "test_wrong_damage_or_round_not_scored"),
+        ("ignore deployment troop counter", "tactical.py", 'objective=(advantages,-disadvantages,capacity,tuple(-m["march"] for m in group))', 'objective=(capacity,-disadvantages,advantages,tuple(-m["march"] for m in group))', "test_deployment_counter_before_capacity"),
+        ("allow reused dragon", "tactical.py", 'if len(names)!=len(set(names)): continue', "pass", "test_overlapping_preset_cannot_deploy_twice"),
+    ]),
 }
