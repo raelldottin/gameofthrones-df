@@ -117,3 +117,22 @@ def test_reported_summary_cannot_override_failed_baseline():
     r=report()
     r["suites"][0]["baseline"]["exit_code"]=1
     assert "baseline:contract" in inspect_mutations(ROOT,TREE,r,"3.11")
+
+
+def test_certification_import_without_site_packages():
+    import subprocess
+    import sys
+    from pathlib import Path
+    repo=Path(__file__).resolve().parents[1]
+    result=subprocess.run([sys.executable,"-S","-m","scripts.dragon_analyzer.certification","--help"],
+                          cwd=repo,capture_output=True,text=True,timeout=30)
+    assert result.returncode==0, result.stderr
+    assert "--reports" in result.stdout
+
+
+def test_public_package_exports_remain_compatible():
+    from scripts.dragon_analyzer import DragonAnalyzer, DragonData, DragonScreenshotOCR
+    from scripts.dragon_analyzer.analyzer import DragonAnalyzer as Analyzer
+    from scripts.dragon_analyzer.models import DragonData as Data
+    from scripts.dragon_analyzer.ocr import DragonScreenshotOCR as OCR
+    assert (DragonAnalyzer,DragonData,DragonScreenshotOCR)==(Analyzer,Data,OCR)
