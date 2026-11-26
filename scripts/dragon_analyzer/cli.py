@@ -1,56 +1,67 @@
-"""
-Dragon Screenshot Analyzer - Main CLI
-"""
-import typer
-from rich.console import Console
-from loguru import logger
+"""CLI: explicit failure for unsupported extraction; actual schema validation."""
+from pathlib import Path
+from typing import Optional
 
-app = typer.Typer(help="Game of Thrones Dragon Fire screenshot analyzer")
-console = Console()
+import typer
+
+from .analyzer import DragonAnalyzer
+from .models import ArmyComposition, DragonData
+
+app = typer.Typer(help="Game of Thrones Dragonfire evidence analyzer")
+
+
+def _worker(output: Optional[str]) -> DragonAnalyzer:
+    return DragonAnalyzer(Path(output) if output is not None else None)
+
+
+def _fail(exc: Exception) -> None:
+    typer.echo(f"Error: {exc}", err=True)
+    raise typer.Exit(code=1)
 
 
 @app.command()
 def analyze(
-    image_path: str = typer.Argument(..., help="Path to screenshot image"),
-    output: str = typer.Option(None, "--output", "-o", help="Output file path"),
-    verbose: bool = typer.Option(False, "--verbose", "-v", help="Verbose output"),
+    image_path: str,
+    output: Optional[str] = typer.Option(None, "--output", "-o"),
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
 ):
-    """Analyze a dragon screenshot and extract data."""
-    if verbose:
-        logger.remove()
-        logger.add(lambda msg: console.print(msg, end=""), level="DEBUG")
-    
-    console.print(f"[green]Analyzing[/green] {image_path}")
-    # TODO: Implement analysis
-    console.print("[yellow]Not yet implemented[/yellow]")
+    """Read a screenshot into isolated observation storage."""
+    try:
+        result = _worker(output).analyze_screenshot(Path(image_path))
+        typer.echo(result.model_dump_json())
+    except (OSError, ValueError, RuntimeError, TypeError) as exc:
+        _fail(exc)
 
 
 @app.command()
 def batch(
-    directory: str = typer.Argument(..., help="Directory containing screenshots"),
-    pattern: str = typer.Option("IMG_*.png", "--pattern", "-p", help="File pattern"),
-    output: str = typer.Option(None, "--output", "-o", help="Output directory"),
-    verbose: bool = typer.Option(False, "--verbose", "-v", help="Verbose output"),
+    directory: str,
+    pattern: str = typer.Option("IMG_*", "--pattern", "-p"),
+    output: Optional[str] = typer.Option(None, "--output", "-o"),
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
 ):
-    """Batch analyze screenshots in a directory."""
-    if verbose:
-        logger.remove()
-        logger.add(lambda msg: console.print(msg, end=""), level="DEBUG")
-    
-    console.print(f"[green]Batch analyzing[/green] {directory}")
-    # TODO: Implement batch analysis
-    console.print("[yellow]Not yet implemented[/yellow]")
+    """Read matching screenshots; fail on a rejected observation."""
+    try:
+        results = _worker(output).batch_analyze(Path(directory), pattern)
+        typer.echo(f"Recorded {len(results)} observations")
+    except (OSError, ValueError, RuntimeError, TypeError) as exc:
+        _fail(exc)
 
 
 @app.command()
 def validate(
-    data_file: str = typer.Argument(..., help="Path to extracted data JSON"),
-    schema: str = typer.Option("dragon", "--schema", "-s", help="Validation schema"),
+    data_file: str,
+    schema: str = typer.Option("dragon", "--schema", "-s"),
 ):
-    """Validate extracted data against schema."""
-    console.print(f"[green]Validating[/green] {data_file}")
-    # TODO: Implement validation
-    console.print("[yellow]Not yet implemented[/yellow]")
+    """Validate a legacy DragonData or ArmyComposition JSON document."""
+    schemas = {"dragon": DragonData, "army": ArmyComposition}
+    if schema not in schemas:
+        _fail(ValueError(f"Unknown schema: {schema}"))
+    try:
+        schemas[schema].model_validate_json(Path(data_file).read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        _fail(exc)
+    typer.echo("Valid")
 
 
 if __name__ == "__main__":

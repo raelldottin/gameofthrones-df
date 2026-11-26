@@ -1,0 +1,23 @@
+name: Analyzer contracts
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install '.[test]'
+      - run: python -m pytest -o addopts='' -q scripts/test_analyzer.py
+      - run: dragonfire --help
+      - run: python quality/replay_legacy_red.py
+      - run: python quality/check_contract_mutations.py

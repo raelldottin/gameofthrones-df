@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 
 # Default directories
-SCREENSHOT_DIR = Path("/Users/raelldottin/Downloads")
-OUTPUT_DIR = Path("/Users/raelldottin/Documents/Personal/gameofthrones-df")
+SCREENSHOT_DIR = Path(os.environ.get("DRAGONFIRE_SCREENSHOTS", str(Path.home() / "Downloads")))
+OUTPUT_DIR = Path(os.environ.get("DRAGONFIRE_OUTPUT", str(Path.cwd() / ".dragonfire-output")))
 
 # OCR Configuration
 TESSERACT_CONFIG = '--oem 3 --psm 6'
