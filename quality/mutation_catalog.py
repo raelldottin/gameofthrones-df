@@ -130,6 +130,7 @@ SUITES = {
         ("ignore damage type", "tactical.py", 'and a["damage"]==rule["damage"]', "", "test_wrong_damage_or_round_not_scored"),
         ("ignore round overlap", "tactical.py", 'overlap=set(a["rounds"])&set(rule["rounds"])', 'overlap=set(a["rounds"])', "test_wrong_damage_or_round_not_scored"),
         ("ignore deployment troop counter", "tactical.py", 'objective=(advantages,-disadvantages,capacity,tuple(-m["march"] for m in group))', 'objective=(capacity,-disadvantages,advantages,tuple(-m["march"] for m in group))', "test_deployment_counter_before_capacity"),
+        ("ignore changed mechanics source", "tactical.py", "if blob!=expected:", "if False:", "test_source_blob_mismatch_rejected"),
         ("allow reused dragon", "tactical.py", 'if len(names)!=len(set(names)): continue', "pass", "test_overlapping_preset_cannot_deploy_twice"),
     ]),
 }

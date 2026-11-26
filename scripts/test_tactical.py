@@ -82,3 +82,34 @@ def test_real_roster_keeps_members_and_affinities():
     assert r["battle_improvement"] is None
     assert r["commander_effects"]["Rhaenyra Targaryen (Princess)"]["active_talents"]==["The Realm's Delight"]
     assert len(r["capacity_only_deployment"])==5
+
+
+def test_actual_position_and_counter_benchmark():
+    r=evaluate(load_context(Path(__file__).resolve().parents[1]))
+    assert r["baseline_points"]==18
+    assert r["candidate_points"]==28.8
+    assert [m["march"] for m in r["marches"] if m["candidate"]!=m["baseline"]]==[1]
+    assert r["marches"][0]["candidate"]==["Sheepstealer","Shimmer","Malachite"]
+    assert r["marches"][0]["candidate_links"][0]["rounds"]==[2]
+    assert r["capacity_only_deployment"]==[1,2,3,4,9]
+    assert r["capacity_only_total"]==56122
+    counter=r["illustrative_counter_deployment"]
+    assert counter["advantage_count"]==5 and counter["disadvantage_count"]==0
+    assert counter["capacity"]==51240
+    assert [a["march"] for a in counter["assignments"]]==[2,3,6,1,4]
+
+
+def test_source_blob_mismatch_rejected(tmp_path):
+    import json
+    root=Path(__file__).resolve().parents[1]
+    path="quality/fixtures/tactical-rules-v1.json"
+    catalog=json.loads((root/path).read_text())
+    # Keep one exact source path but supply an altered file.
+    source,blob=next(iter(catalog["source_blobs"].items()))
+    catalog["source_blobs"]={source:blob}
+    (tmp_path/path).parent.mkdir(parents=True)
+    (tmp_path/path).write_text(json.dumps(catalog))
+    (tmp_path/source).parent.mkdir(parents=True)
+    (tmp_path/source).write_text("{}")
+    with pytest.raises(ValueError,match="mechanics source changed"):
+        load_context(tmp_path)
