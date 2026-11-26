@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "status": "frozen_proposal_before_fresh_capture",
+  "recognizer_commit": "a4f685e4e5994d1d24ba40ee6755e5fd1816209a",
+  "recognizer_blobs": {
+    "quality/fixtures/panel-name-catalog.json": "e5acbd35f06de8ed85cf380b9bb8d1dbb85ab29a",
+    "scripts/dragon_analyzer/__init__.py": "ee7f817d04f4a9e30e167ecdb7582c04a7f1c735",
+    "scripts/dragon_analyzer/icons.py": "530f6947092a06fca1c5e12bc6087db5a2255137",
+    "scripts/dragon_analyzer/panel.py": "7d4d004cf301586037c65e16746edb7eac1cf91c",
+    "scripts/dragon_analyzer/panel_reader.py": "75c6b2c64811a4aa311bf4446f5e225865ba5844",
+    "scripts/dragon_analyzer/visual.py": "4ace193791a9dc4333cd825beb8573619d2e2f81",
+    "scripts/dragon_analyzer/visual_reader.py": "28f7bfd28b1bfc625d9e10ffcb1311d532681b74"
+  },
+  "development_session": "development-2026-11-26",
+  "development_manifest": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "development_images": [
+    {
+      "source": "IMG_5901.jpeg",
+      "sha256": "5f51861fcd2ebfb6a07a4143113ed1834122c4b749dd01cf5b5d8c54f2a0b25e",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5902.jpeg",
+      "sha256": "5b06ed0ef7b4a442b570f1e433a0ed575bb5df3aaf22064d026505eaf44f4b0a",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5903.jpeg",
+      "sha256": "4e97e0a38f6e55e500e45c8396cf83de6dfaf2b551ea095f54856bc15f70b381",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5904.jpeg",
+      "sha256": "9bb9cc3c2ca5947b8e7d2e471c9e94f45eaff135289942b070e0e5eabe8ed9ea",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5905.jpeg",
+      "sha256": "1cdd7cd553fe34ce54f1a6992cd2c3d83f565336e553075c904125393ed032ec",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5906.jpeg",
+      "sha256": "cc249a439c63ac8634cff4d4721e9cdd6dcd1576ae37652dfad0ae265c39b25a",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5907.jpeg",
+      "sha256": "10d35cb2e7cda7beaf0fece58c33074e20a9a795a1c194bf593bcf116e2f6df8",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5908.jpeg",
+      "sha256": "4f614b8dfe6bce2a45ac24f417bae9a27a5c52bad721f760f6b89f8d084cc0fa",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5909.jpeg",
+      "sha256": "4ec4f698403a6f804ed4924a576f1ef8858aa15ed359c5ca933f425ec4d7dbd6",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5910.jpeg",
+      "sha256": "981a27bd8f47b97823026a33716bd383f863313ed0f3af567ce667da17bf7aca",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5911.jpeg",
+      "sha256": "8bd3a72cbe7f18c77b00bedd61c1c05b4d3d3666e1d241fb7428173e08c6e48d",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5912.jpeg",
+      "sha256": "4094a89db5a52846ea4cac455f933d86030a9564091c8609ae817afdf5764ea1",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5913.jpeg",
+      "sha256": "0ca7334ab966d2ec0f42c4439237837a9e90b39563c4eca7eb83b4773dae1972",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5914.jpeg",
+      "sha256": "076715aacf5fef4d4f3ad6eab308726ebcdda978cacb35936a3b40d91b007b98",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5915.jpeg",
+      "sha256": "3b988cb5775a57ef7dd8e2029016705c3c1edab4c402213a6cd1d6faf8cb2fce",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5916.jpeg",
+      "sha256": "60ceea3a283cd74b99bc9ea5011af2a86852770cf662c26d58fb9447caae2060",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5917.jpeg",
+      "sha256": "dce8ce53aaaffa55506167e3a6993246df4ccb3e9e2e00519a7b3c6ca9737ba7",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5918.jpeg",
+      "sha256": "725af36d9d8d97042c47c90627b174794a8825a628ebdb7918d6dbf3748cf0ad",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5919.jpeg",
+      "sha256": "62c9239cfa1de88ccd18c5a9e5d801b3ced96c2020652dc8d7b35ffa95e6f386",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5920.jpeg",
+      "sha256": "3539040f9068a03bad843280a4f6bfc2785b42239d60a097852f3946fad64108",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5921.jpeg",
+      "sha256": "5d1f7d2f7ed5461be95ca7bed8914ce28516e9d9c16dbf3f6349cb2bd0c93279",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5922.jpeg",
+      "sha256": "4f89f56cd2987ae32b98cf7335abc9e2302579d99c7e0310d293d44646c60e5b",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5923.jpeg",
+      "sha256": "fd52d6ed7aa6a2a1bb66258d6daa20bebf4a33eb7e7f530b52aff76bd6f266a3",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5924.jpeg",
+      "sha256": "d28148b0801a6bdb047a4fe2a99cf8e701f6df7b822e27aa01bc7210cd473873",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5925.jpeg",
+      "sha256": "de4d2ee10c2f65e1bcfb621d23eda243f1d034e2816f4400585a57dc12aafebb",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5926.jpeg",
+      "sha256": "ee2d110a3b19390e58d960103756562e2a5840b318d843664f75ce8cd6fed763",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5927.jpeg",
+      "sha256": "36f902f1789b2412ff34e2d5e53f088d8baafde78986d726f0f069150eefcf5d",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5928.jpeg",
+      "sha256": "bb264657accdec1ea97f32216724b3f839e8031b9b35483f1016c525a0e46be2",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5929.jpeg",
+      "sha256": "968af32033fa9697d798b0e7cbc528f81dbb9736aa71b16fd5a4dd19aefbc77f",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5930.jpeg",
+      "sha256": "d97bf6c980a238e6c2a2437323b3843bafe30ca504bd469becd2887049f4eba7",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5931.jpeg",
+      "sha256": "440d0bd9a0cbff60da757709c034c0d258b9e5a5f11133ad3dab25cda8cfc167",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5932.jpeg",
+      "sha256": "10090b998409e0f679bf7166c248a719f9a3b532f070bea1f18b8bcec4fdc59f",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5933.jpeg",
+      "sha256": "e5dda9c8f90738bac9de527bc7b3c6f931ee28b48e3b512b8c2771817d732045",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5934.jpeg",
+      "sha256": "f7bb73969c382bd3691b6efa2ec19804f8833af9c11d3f6ddc1681f8aaac4488",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5935.jpeg",
+      "sha256": "4557592ff3c9b02f2d3cf77a63aa2d95d9d25285a8f5c8d27ae6d701ef96c593",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5936.jpeg",
+      "sha256": "00a10f87e29a00da8d5f0369df90e6bc3addba21d2f98ebdfdb452d3adb37a8c",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5937.jpeg",
+      "sha256": "c9dc0918a72af55a1512d604bbadbbe16ae55f82a45976832c15c48c4ea87bc4",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5938.jpeg",
+      "sha256": "a7ddaec38058c94dcead118e9a95e3317131220bba286cebde973e906a650ea9",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5939.jpeg",
+      "sha256": "e83233c38dfbb0223b0b833ec8878b355b5a85b3cddb47bc2be9b3e7039a87ed",
+      "geometry": [
+        1536,
+        709
+      ]
+    },
+    {
+      "source": "IMG_5940.jpeg",
+      "sha256": "81ef0385f157327cae7485ac114c3f6bdf7411fa77bae734be6fcfa1f82f1dbc",
+      "geometry": [
+        1536,
+        709
+      ]
+    }
+  ],
+  "min_legible_profiles": 100,
+  "min_capture_sessions": 3,
+  "min_negative_cases": 20,
+  "min_exact_accuracy": 0.99,
+  "min_critical_coverage": 0.99,
+  "critical_fields": [
+    "name",
+    "stars",
+    "level",
+    "relic_current",
+    "relic_required"
+  ],
+  "critical_icon_fields": [
+    "habit_slots",
+    "affinity_slots"
+  ],
+  "negative_policy": "zero emitted values on unsupported screens; record exceptions separately as execution errors unless explicit unsupported geometry rejection",
+  "release_accepted": false
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "blank_template_not_evidence",
+  "reviewer_id": null,
+  "rows": [],
+  "row_template": {
+    "source": null,
+    "sha256": null,
+    "session_id": null,
+    "captured_at": null,
+    "geometry": [
+      null,
+      null
+    ],
+    "screen_type": null,
+    "partition": "holdout",
+    "expected": {
+      "name": null,
+      "dragon_class": null,
+      "temperament": null,
+      "speed": null,
+      "stage": null,
+      "level": null,
+      "xp_current": null,
+      "xp_required_display": null,
+      "power": null,
+      "capacity": null,
+      "energy_current": null,
+      "energy_maximum": null,
+      "relic_current": null,
+      "relic_required": null,
+      "stars": null,
+      "habit_slots": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "affinity_slots": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "notes": null
+  }
+}
