@@ -85,3 +85,13 @@ def test_reader_failure_is_not_a_candidate(tmp_path):
         raise RuntimeError("engine failed")
     with pytest.raises(RuntimeError, match="engine failed"):
         read_candidate(path, NAMES, text_reader=fail)
+
+
+@pytest.mark.parametrize(("old", "new", "field"), [
+    ("17,800", "-17,800", "power"),
+    ("4407.0", "− 4407.0", "capacity"),
+    ("100/100", "-100/100", "energy_current"),
+    ("82/1,250", "-82/1,250", "relic_current"),
+])
+def test_negative_values_are_not_made_positive(old, new, field):
+    assert parse_panel(TEXT.replace(old, new), NAMES)[field] is None
