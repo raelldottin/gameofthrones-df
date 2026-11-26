@@ -2,11 +2,12 @@
 import hashlib
 import hmac
 import json
+import re
 from pathlib import Path, PurePosixPath
 import sqlite3
 
 from .reconcile import digest
-from .supervisor import STAGES, MAX_ARTIFACT, hash_bytes, hex64, nonblank, valid_issues
+from .supervisor import STAGES, MAX_ARTIFACT, hash_bytes, hex64, nonblank, valid_issues, validate_policy
 
 BOUNDROOM_PIN = "b193297829c68d2243e5e32d1517cf0b51568813"
 HERMES_SWARM_PIN = "db79381997e68a0cc679a3b3f23affdd09b33720"
@@ -40,14 +41,25 @@ def sign_receipt(receipt, key):
 
 
 def check_request(req):
-    if not isinstance(req,dict):
-        raise ReceiptError("invalid request")
+    expected={"run_id","attempt","stage","input_commit","policy","policy_hash",
+              "active_artifacts","prior_hash","prior_artifact_hex","candidate_hash",
+              "benchmark_hash","repair_feedback","request_hash"}
+    if not isinstance(req,dict) or set(req)!=expected:
+        raise ReceiptError("invalid request fields")
     key=req.get("request_hash")
     if (not hex64(key) or digest({k:v for k,v in req.items() if k!="request_hash"})!=key
             or not nonblank(req.get("run_id")) or len(req["run_id"])>128
             or type(req.get("attempt")) is not int or req["attempt"]<1
             or req.get("stage") not in STAGES):
         raise ReceiptError("invalid request binding")
+    if (not isinstance(req["input_commit"],str) or not re.fullmatch(r"[a-f0-9]{40}|[a-f0-9]{64}",req["input_commit"])):
+        raise ReceiptError("invalid input commit")
+    try:
+        validate_policy(req["policy"])
+    except ValueError as exc:
+        raise ReceiptError("invalid policy") from exc
+    if req["policy_hash"]!=digest(req["policy"]):
+        raise ReceiptError("request policy hash mismatch")
     return key
 
 

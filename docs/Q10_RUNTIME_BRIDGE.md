@@ -17,3 +17,5 @@ project_slice emits one strict-shaped Boundroom v1 queue, with empty agent comma
 5. Require actual run evidence for Q8. Synthetic signed receipts and test acceptance do not establish actual independence. No live agent runtime, trusted external verifier service, key rotation, operator recovery tooling or signed release receipts yet.
 
 Tests use real SQLite reopen/replay and synthetic operator signatures; seven targeted runtime source mutations. No independent agents or live runtime available in current session. No changes to either upstream repository, player-state or canonical formations.
+
+QA repair: independently validate exact request keys, input commit format and frozen policy hash even when a request has been rehashed. Add real database tamper/reopen test and concurrent competing receipt admission test; SQLite transactions must admit exactly one winner. Add two more targeted mutations (nine Q10, 83 total). A stored MAC is reverified on every replay. Pending state is not a dispatch claim and cannot guarantee exactly-once external worker execution. No retry without actual operator reconciliation.

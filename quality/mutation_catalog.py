@@ -98,6 +98,8 @@ SUITES = {
         ("ignore isolation attestation", "runtime_bridge.py", 'r["isolation_attested"] is not True', "False", "test_invalid_receipt_cannot_be_admitted[isolation_attested]"),
         ("allow receipt replacement silently", "runtime_bridge.py", 'if old!=(body,signature):', "if False:", "test_receipt_cannot_be_replaced"),
         ("reuse runtime worker identity", "runtime_bridge.py", 'agent TEXT NOT NULL UNIQUE, context TEXT NOT NULL UNIQUE', 'agent TEXT NOT NULL, context TEXT NOT NULL', "test_worker_identity_cannot_be_reused"),
+        ("ignore request policy binding", "runtime_bridge.py", 'if req["policy_hash"]!=digest(req["policy"]):', "if False:", "test_request_policy_hash_must_match_even_if_request_rehashed"),
+        ("trust tampered stored receipt", "runtime_bridge.py", 'if not hmac.compare_digest(sign_receipt(r,self.key),stored[1]):', "if False:", "test_stored_receipt_tampering_rejected_on_replay"),
         ("permit out of scope paths", "runtime_bridge.py", 'if PurePosixPath(p).parts[0] not in roots:', "if False:", "test_projection_rejects_unsafe_scope[player-state/]"),
     ]),
 }
