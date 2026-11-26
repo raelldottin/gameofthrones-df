@@ -72,3 +72,33 @@ def test_real_roster_benchmark():
     assert len(result["bench"])==8
     assert result["candidate"]["affinity_violations"]==0
     assert result["battle_improvement"] is None
+
+
+def test_readiness_mode_has_separate_objective():
+    dragons=[d("A",5,["Archers"],capacity=1),d("B",4,["Archers"],capacity=100000)]
+    result=optimize(dragons,{"Archers":1},objective="readiness")
+    assert result["assignments"]=={"Archers":["B"]}
+    assert result["score"]==48
+    assert result["objective_value"]==100000
+
+
+def test_readiness_exact_oracle_with_shared_affinity():
+    dragons=[d("A",7,["Archers","Cavalry"],capacity=200),d("B",5,["Archers"],capacity=150),
+             d("C",3,["Cavalry"],capacity=100)]
+    r=optimize(dragons,{"Archers":1,"Cavalry":1},objective="readiness")
+    assert r["assignments"]=={"Archers":["B"],"Cavalry":["A"]}
+    assert r["objective_value"]==350
+
+
+def test_invalid_objective_rejected():
+    with pytest.raises(ValueError,match="objective"):
+        optimize([d("A",5,["Archers"])],{"Archers":1},objective="winrate")
+
+
+def test_actual_readiness_alternative_never_worse_on_capacity():
+    root=Path(__file__).resolve().parents[1]
+    r=evaluate(load_inputs(root))
+    assert r["readiness_alternative"]["capacity"]>=r["baseline"]["capacity"]
+    assert r["readiness_alternative"]["affinity_violations"]==0
+    assert r["readiness_alternative"]["count"]==30
+    assert r["recommendation_policy"]=="alternatives_only"
