@@ -11,9 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 CASES = [
     ("ignore habit progression", "solver.py", '10*dragon["stars"]+2*sum(dragon["habits"])', '10*dragon["stars"]', "test_permanent_score_is_explicit"),
     ("ignore affinity", "solver.py", 'counts[i]>=goal[i] or t not in d["affinities"]', 'counts[i]>=goal[i]', "test_infeasible_is_explicit"),
-    ("seasonal score leakage", "solver.py", 'points+score(d)', 'points+score(d)+d["capacity"]', "test_seasonal_capacity_does_not_change_persistent_selection"),
+    ("seasonal score leakage", "solver.py", 'points+value', 'points+value+d["capacity"]', "test_seasonal_capacity_does_not_change_persistent_selection"),
     ("ignore retention", "solver.py", 'kept+int(retain.get(d["name"])==t)', 'kept', "test_retention_breaks_equal_scores"),
     ("locked commander eligible", "solver.py", 'type(c.get("rank")) is int and c["rank"]>0', 'True', "test_locked_commander_excluded_and_unique"),
+    ("ignore readiness objective", "solver.py", 'value=score(d) if objective=="permanent" else d["capacity"]', "value=score(d)", "test_readiness_mode_has_separate_objective"),
     ("ignore input fingerprints", "solver.py", 'return digest(inputs)', 'return digest(inputs["roster"])', "test_fingerprint_includes_commander_catalog_equipment_and_reign"),
 ]
 

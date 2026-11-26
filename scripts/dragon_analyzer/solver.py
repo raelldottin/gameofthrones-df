@@ -13,10 +13,12 @@ def score(dragon):
     return 10*dragon["stars"]+2*sum(dragon["habits"])
 
 
-def optimize(dragons, quotas, retain=None):
+def optimize(dragons, quotas, retain=None, *, objective="permanent"):
     """Exact dynamic program over troop quotas; additive score, retention, stable tie.
     Each dragon considered once; no position or battle effects are modeled.
     """
+    if objective not in ("permanent","readiness"):
+        raise ValueError("invalid objective")
     names=[d["name"] for d in dragons]
     if len(set(names))!=len(names):
         raise ValueError("duplicate dragon")
@@ -25,7 +27,7 @@ def optimize(dragons, quotas, retain=None):
     types=tuple(sorted(quotas))
     goal=tuple(quotas[t] for t in types)
     retain=retain or {}
-    # tuple comparison: permanent score, retained assignments, deterministic choice path.
+    # tuple comparison: chosen objective, retained assignments, deterministic choice path.
     states={tuple(0 for _ in types):(0,0,())}
     ordered=sorted(dragons,key=lambda d:d["name"])
     for d in ordered:
@@ -41,7 +43,8 @@ def optimize(dragons, quotas, retain=None):
                 if counts[i]>=goal[i] or t not in d["affinities"]:
                     continue
                 new=list(counts);new[i]+=1
-                options.append((tuple(new),(points+score(d),kept+int(retain.get(d["name"])==t),path+(i,))))
+                value=score(d) if objective=="permanent" else d["capacity"]
+                options.append((tuple(new),(points+value,kept+int(retain.get(d["name"])==t),path+(i,))))
             for key,value in options:
                 if key not in next_states or value>next_states[key]:
                     next_states[key]=value
@@ -53,7 +56,8 @@ def optimize(dragons, quotas, retain=None):
     for d,i in zip(ordered,path):
         if i>=0:
             out[types[i]].append(d["name"])
-    return {"score":points,"retained":kept,"assignments":out}
+    permanent=sum(score(d) for d,i in zip(ordered,path) if i>=0)
+    return {"score":permanent,"objective_value":points,"retained":kept,"assignments":out}
 
 
 def arrange(assignments, baseline, dragons):
@@ -149,11 +153,17 @@ def evaluate(inputs):
         m["permanent_score"]=sum(score(by[m[pos]]) for pos in POSITIONS)
         m["displayed_capacity"]=sum(by[m[pos]]["capacity"] for pos in POSITIONS)
         m["reign_levels"]=[s[m[pos]]["level"] for pos in POSITIONS]
+    readiness=optimize(dragons,quotas,retain,objective="readiness")
+    ready_marches=arrange(readiness["assignments"],old,dragons)
+    rm=metrics(ready_marches)
+    if rm["capacity"]!=readiness["objective_value"]:
+        raise RuntimeError("readiness score mismatch")
     assigned={m[pos] for m in candidate for pos in POSITIONS}
     return {"status":"unvalidated_additive_candidate","objective_version":inputs["objective_version"],
             "basis":basis(inputs),"baseline":baseline,"candidate":cm,"marches":candidate,
             "bench":sorted(set(by)-assigned),"retained_troop_assignments":optimal["retained"],
-            "battle_improvement":None,"reign":inputs["reign"],"equipment":inputs["equipment"],
+            "readiness_alternative":rm,"readiness_marches":ready_marches,
+            "recommendation_policy":"alternatives_only","battle_improvement":None,"reign":inputs["reign"],"equipment":inputs["equipment"],
             "ability_catalog":inputs["ability_catalog"]}
 
 
