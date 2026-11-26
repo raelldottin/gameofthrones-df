@@ -20,6 +20,7 @@ CASES = [
     ("ignore cutoff", "reconcile.py", "if at>cutoff:", "if False:", "test_future_observations_do_not_affect_as_of_snapshot"),
     ("ignore reign in plan fingerprint", "reconcile.py", '"reign":current,"permanent":permanent,"seasonal":seasonal', '"permanent":permanent,"seasonal":seasonal', "test_empty_reign_changes_formation_basis"),
     ("accept missing unlocked habits", "reconcile.py", 'len(p["habits"]) == p["stars"]//2', 'len(p["habits"]) <= p["stars"]//2', "test_missing_unlocked_habit_is_invalid"),
+    ("ignore legacy profile source", "reconcile.py", 'if x.get("source_screenshot")!=y.get("source_screenshot") or x.get("source_screenshot") not in sources:', "if False:", "test_legacy_mismatched_profile_source_rejected"),
     ("allow xp regression", "reconcile.py", 'if s["level"] == previous_season["level"] and s["xp_current"] < previous_season["xp_current"]:', "if False:", "test_same_reign_xp_regression"),
 ]
 

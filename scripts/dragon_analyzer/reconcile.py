@@ -4,7 +4,7 @@ import hashlib
 import json
 import re
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 PERMANENT = {"stars", "relics_current", "relics_required", "habits"}
 SEASONAL = {"level", "xp_current", "xp_required_display", "power", "capacity",
@@ -175,11 +175,22 @@ def stage_legacy(persistent,seasonal):
     pm,sm={x["name"]:x for x in p},{x["name"]:x for x in s}
     if len(pm)!=len(p) or len(sm)!=len(s) or pm.keys()!=sm.keys():
         raise ValueError("Legacy roster mismatch or duplicate name")
-    if persistent.get("observed_date")!=seasonal.get("observed_date"):
+    observed=persistent.get("observed_date")
+    if not isinstance(observed,str) or observed!=seasonal.get("observed_date"):
         raise ValueError("Legacy observation date mismatch")
+    date.fromisoformat(observed)
+    sources=persistent.get("source_screenshots")
+    other=seasonal.get("source_screenshots")
+    if (not isinstance(sources,list) or not isinstance(other,list)
+            or not all(nonblank(x) for x in sources+other)
+            or len(set(sources))!=len(sources) or len(set(other))!=len(other)
+            or set(sources)!=set(other)):
+        raise ValueError("Legacy screenshot manifest mismatch")
     profiles=[]
     for n in sorted(pm):
         x,y=copy.deepcopy(pm[n]),copy.deepcopy(sm[n])
+        if x.get("source_screenshot")!=y.get("source_screenshot") or x.get("source_screenshot") not in sources:
+            raise ValueError("Legacy profile source mismatch")
         if any(k in x for k in ("level","xp","displayed_power","displayed_troop_capacity","energy")):
             raise ValueError("Seasonal field in legacy permanent record")
         profiles.append({"name":n,"permanent":x,"seasonal":y})
