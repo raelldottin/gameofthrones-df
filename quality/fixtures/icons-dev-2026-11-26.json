@@ -1,0 +1,751 @@
+{
+  "partition": "development_only_single_reign_session",
+  "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "label_provenance": "Habit levels from manually transcribed roster. Signed affinity order transcribed from original screenshot contact sheet; positive sets cross-checked against Q0 fixture. Locked slots represented by 0, absent badges by empty. Duplicate screenshot views retained.",
+  "prototype_sources": {
+    "digits": {
+      "1": [
+        "IMG_5902.jpeg",
+        0
+      ],
+      "2": [
+        "IMG_5903.jpeg",
+        0
+      ],
+      "3": [
+        "IMG_5901.jpeg",
+        0
+      ],
+      "4": [
+        "IMG_5916.jpeg",
+        0
+      ],
+      "5": [
+        "IMG_5906.jpeg",
+        0
+      ]
+    },
+    "affinities": {
+      "Cavalry": [
+        "IMG_5901.jpeg",
+        0
+      ],
+      "Shieldbearers": [
+        "IMG_5901.jpeg",
+        1
+      ],
+      "Siege": [
+        "IMG_5901.jpeg",
+        2
+      ],
+      "Archers": [
+        "IMG_5902.jpeg",
+        1
+      ],
+      "Spearmen": [
+        "IMG_5904.jpeg",
+        0
+      ]
+    },
+    "locks": [
+      [
+        "IMG_5919.jpeg",
+        0
+      ],
+      [
+        "IMG_5919.jpeg",
+        2
+      ],
+      [
+        "IMG_5903.jpeg",
+        3
+      ],
+      [
+        "IMG_5916.jpeg",
+        4
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "source": "IMG_5901.jpeg",
+      "name": "Malachite",
+      "habit_slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Shieldbearers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5902.jpeg",
+      "name": "Sheepstealer",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Archers",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5903.jpeg",
+      "name": "Shimmer",
+      "habit_slots": [
+        2,
+        1,
+        4,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5904.jpeg",
+      "name": "Syrax",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Archers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5905.jpeg",
+      "name": "Jagadrix",
+      "habit_slots": [
+        1,
+        1,
+        5,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5906.jpeg",
+      "name": "Dawnseeker",
+      "habit_slots": [
+        5,
+        5,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "-Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5907.jpeg",
+      "name": "Venator",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Shieldbearers",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5908.jpeg",
+      "name": "Vermithor",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Shieldbearers",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5909.jpeg",
+      "name": "Zivern",
+      "habit_slots": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Archers",
+        "+Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5910.jpeg",
+      "name": "Antares",
+      "habit_slots": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Archers",
+        "-Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5911.jpeg",
+      "name": "Solstryker",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Archers",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5912.jpeg",
+      "name": "Rhysarion",
+      "habit_slots": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Shieldbearers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5913.jpeg",
+      "name": "Vaeldra",
+      "habit_slots": [
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5914.jpeg",
+      "name": "Bevlorin",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5915.jpeg",
+      "name": "Shadowsong",
+      "habit_slots": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5916.jpeg",
+      "name": "Arulix",
+      "habit_slots": [
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5917.jpeg",
+      "name": "Thunderstrike",
+      "habit_slots": [
+        5,
+        2,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5918.jpeg",
+      "name": "Sunfyre",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Cavalry",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5919.jpeg",
+      "name": "Moondancer",
+      "habit_slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Archers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5920.jpeg",
+      "name": "Vhagar",
+      "habit_slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Archers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5921.jpeg",
+      "name": "Moondancer",
+      "habit_slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Archers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5922.jpeg",
+      "name": "Vhagar",
+      "habit_slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Archers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5923.jpeg",
+      "name": "Kalspire",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Shieldbearers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5924.jpeg",
+      "name": "Crimson",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Archers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5925.jpeg",
+      "name": "Caraxes",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Cavalry",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5926.jpeg",
+      "name": "Meleys",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Archers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5927.jpeg",
+      "name": "Seasmoke",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Archers",
+        "-Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5928.jpeg",
+      "name": "Daemoros",
+      "habit_slots": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Archers",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5929.jpeg",
+      "name": "Feskar",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "-Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5930.jpeg",
+      "name": "Tashix",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Archers",
+        "-Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5931.jpeg",
+      "name": "Velar",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5932.jpeg",
+      "name": "Vermax",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Shieldbearers",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5933.jpeg",
+      "name": "Smoketail",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5934.jpeg",
+      "name": "Tairax",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Cavalry",
+        "+Shieldbearers",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5935.jpeg",
+      "name": "Tessarion",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Spearmen",
+        "+Cavalry",
+        "+Siege",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5936.jpeg",
+      "name": "Starshower",
+      "habit_slots": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5937.jpeg",
+      "name": "Nyrena",
+      "habit_slots": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5938.jpeg",
+      "name": "Shadowrend",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5939.jpeg",
+      "name": "Vesper",
+      "habit_slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "-Siege",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "source": "IMG_5940.jpeg",
+      "name": "Arrax",
+      "habit_slots": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "affinity_slots": [
+        "+Shieldbearers",
+        "+Archers",
+        "empty",
+        "empty"
+      ]
+    }
+  ]
+}

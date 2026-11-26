@@ -31,6 +31,7 @@ jobs:
       - run: python -m quality.measure_release
       - run: python -m pytest -o addopts='' -q scripts/test_mutation_runner.py
       - run: python -m pytest -o addopts='' -q scripts/test_runtime_bridge.py
+      - run: python -m pytest -o addopts='' -q scripts/test_icons.py
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
       - run: python -m quality.mutation_runner --output '${{ runner.temp }}/mutation-report.json'

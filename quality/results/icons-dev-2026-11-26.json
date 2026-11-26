@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only_single_reign_session",
+  "images": 40,
+  "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "metrics": {
+    "habit_slots": {
+      "correct": 199,
+      "wrong": 0,
+      "abstain": 1
+    },
+    "affinity_slots": {
+      "correct": 158,
+      "wrong": 0,
+      "abstain": 2
+    }
+  },
+  "total": 360,
+  "correct": 357,
+  "wrong": 0,
+  "abstain": 3,
+  "errors": [
+    {
+      "source": "IMG_5930.jpeg",
+      "field": "habit_slots",
+      "slot": 2,
+      "expected": 0,
+      "actual": null
+    },
+    {
+      "source": "IMG_5909.jpeg",
+      "field": "affinity_slots",
+      "slot": 2,
+      "expected": "empty",
+      "actual": null
+    },
+    {
+      "source": "IMG_5909.jpeg",
+      "field": "affinity_slots",
+      "slot": 3,
+      "expected": "empty",
+      "actual": null
+    }
+  ],
+  "execution": "Actual local original screenshot pixel experiment using fixed masks and thresholds, same-session prototypes selected from development images. Committed module includes an additional first-positive-badge layout guard; integrated evaluator replay pending at commit.",
+  "limitations": [
+    "No habit ability identity or icon semantic recognition; level and lock only.",
+    "No commander, equipment or battle report visual recognition.",
+    "No unseen layout or independent holdout, prototype source images included in development score.",
+    "Fixed positions and color/shape matching, not a general visual model."
+  ],
+  "release_accepted": false
+}

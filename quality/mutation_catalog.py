@@ -102,4 +102,13 @@ SUITES = {
         ("trust tampered stored receipt", "runtime_bridge.py", 'if not hmac.compare_digest(sign_receipt(r,self.key),stored[1]):', "if False:", "test_stored_receipt_tampering_rejected_on_replay"),
         ("permit out of scope paths", "runtime_bridge.py", 'if PurePosixPath(p).parts[0] not in roots:', "if False:", "test_projection_rejects_unsafe_scope"),
     ]),
+    "icons": ("scripts/test_icons.py", [
+        ("accept ambiguous match", "icons.py", "and scores[0][0]-scores[1][0]>=.10", "and True", "test_tied_match_abstains"),
+        ("accept low similarity", "icons.py", "scores[0][0]>=.72", "True", "test_low_similarity_abstains"),
+        ("infer lock from blank", "icons.py", "max(similarity(lock,t) for t in LOCKS)>=.70", "True", "test_lock_requires_visual_evidence"),
+        ("reverse direction", "icons.py", 'return "+" if g>r else "-"', 'return "-" if g>r else "+"', "test_positive_and_negative_markers"),
+        ("ignore marker ambiguity", "icons.py", "and min(g,r)<.08", "and True", "test_ambiguous_direction_abstains"),
+        ("ignore visible empty icon", "icons.py", "and icon_pixels<10", "and True", "test_empty_affinity_requires_low_color_and_low_icon"),
+        ("omit layout guard", "icons.py", 'if not isinstance(affinities[0],str) or not affinities[0].startswith("+"):', "if False:", "test_blank_is_not_locked_or_neutral"),
+    ]),
 }
