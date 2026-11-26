@@ -10,6 +10,22 @@ from scripts.dragon_analyzer.certification import certify, inspect_mutations, co
 ROOT=Path(__file__).resolve().parents[1]
 TREE="a"*40
 
+@pytest.fixture(autouse=True)
+def independent_catalog(tmp_path,monkeypatch):
+    # The oracle never derives expected source from certification.py, including
+    # when the mutation runner is testing that verifier. Use a separate tiny tree.
+    import sys
+    from scripts.dragon_analyzer import certification
+    catalog={"contract":("scripts/test_example.py",[
+        ("example bug","example.py","return 1","return 2","test_value")])}
+    source=tmp_path/"scripts/dragon_analyzer/example.py"
+    source.parent.mkdir(parents=True)
+    source.write_text("def value():\n    return 1\n")
+    monkeypatch.setattr(certification,"SUITES",catalog)
+    monkeypatch.setattr(sys.modules[__name__],"SUITES",catalog)
+    monkeypatch.setattr(sys.modules[__name__],"ROOT",tmp_path)
+
+
 def report(version="3.11"):
     suites=[]
     for name,(target,cases) in SUITES.items():
@@ -26,10 +42,11 @@ def report(version="3.11"):
     n=sum(len(cases) for _,cases in SUITES.values())
     return {"schema_version":1,"kind":"targeted_source_mutation_development",
             "candidate":{"commit":"b"*40,"tree":TREE,"tracked_clean":True},
-            "catalog_sha256":catalog_hash(),"python":version+".9","planned":n,
+            "catalog_sha256":hashlib.sha256(json.dumps(SUITES,sort_keys=True,separators=(",",":")).encode()).hexdigest(),"python":version+".9","planned":n,
             "counts":{"killed":n},"suites":suites,"passed":True,"release_authorized":False}
 
 def test_exact_catalog_and_tree():
+    assert catalog_hash()==report()["catalog_sha256"]
     assert inspect_mutations(ROOT,TREE,report(),"3.11")==[]
 
 def test_wrong_tree_not_admitted():
@@ -88,3 +105,15 @@ def test_changed_output_or_missing_budget_blocks():
     p=timing();q=timing();q["workloads"]["allocation"]["output_digest"]="d"*64
     assert compare_performance(p,q,{"allocation":{"max_median_ms":15,"max_regression_ratio":1.1}})["status"]=="blocked"
     assert compare_performance(p,p,{})["status"]=="blocked"
+
+
+def test_unrelated_test_failure_rejected():
+    r=report()
+    r["suites"][0]["cases"][0]["failed_tests"]=["other.module::test_value"]
+    assert "invalid_kill:contract" in inspect_mutations(ROOT,TREE,r,"3.11")
+
+
+def test_reported_summary_cannot_override_failed_baseline():
+    r=report()
+    r["suites"][0]["baseline"]["exit_code"]=1
+    assert "baseline:contract" in inspect_mutations(ROOT,TREE,r,"3.11")
