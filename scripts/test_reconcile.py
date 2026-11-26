@@ -21,7 +21,7 @@ def event(source="a", at=JAN, reign="r1", stars=5, level=22, name="Jagadrix"):
     return dict(source_sha256=digest(source), observed_at=at, reign_id=reign,
                 name=name, extractor_id="reader",
                 permanent=dict(stars=stars, relics_current=50, relics_required=500,
-                               habits=[2,1]),
+                               habits=[2,1]+([1] if stars>=6 else [])),
                 seasonal=dict(level=level, xp_current=10, xp_required_display="165",
                               power=100, capacity=200, energy_current=250, energy_maximum=100))
 
@@ -124,7 +124,7 @@ def test_same_reign_level_regression_even_with_more_stars():
 
 def test_habit_regression_rejected():
     a,b=event(),event("b",FEB,"r2",6,1)
-    b["permanent"]["habits"]=[1,1]
+    b["permanent"]["habits"]=[1,1,1]
     assert run([a,b])["quarantine"][0]["reason"]=="progression_regression"
 
 
@@ -204,3 +204,44 @@ def test_actual_legacy_roster_staged_without_inventing_reign_or_approval():
 def test_legacy_mismatched_roster_rejected():
     with pytest.raises(ValueError):
         stage_legacy({"updates":[{"name":"A"}]},{"dragons":[{"name":"B"}]})
+
+
+def test_same_reign_xp_regression():
+    a,b=event(),event("b","2026-01-16T00:00:00Z")
+    b["seasonal"]["xp_current"]=0
+    assert run([a,b])["quarantine"][0]["reason"]=="progression_regression"
+
+
+def test_missing_unlocked_habit_is_invalid():
+    e=event(stars=6)
+    e["permanent"]["habits"]=[2,1]
+    assert run([e])["quarantine"][0]["reason"]=="invalid_event"
+
+
+def test_offset_equivalent_timestamp_conflict():
+    a,b=event(),event("b","2026-01-14T19:00:00-05:00",stars=6)
+    assert [q["reason"] for q in run([a,b])["quarantine"]]==["timestamp_conflict"]*2
+
+
+def test_new_evidence_does_not_mutate_old_snapshot():
+    a,b=event(),event("b",FEB,"r2",6,1)
+    before=run([a],as_of="2026-01-20T00:00:00Z")
+    saved=copy.deepcopy(before)
+    run([a,b])
+    assert before==saved
+
+
+def test_reordered_reign_registry_has_same_result():
+    assert run([event()])==run([event()],reigns=(R2,R1))
+
+
+def test_current_season_mutation_cannot_change_history():
+    r=run([event("b",FEB,"r2",6,1)])
+    r["seasonal"]["Jagadrix"]["level"]=99
+    assert r["history"]["r2"]["Jagadrix"]["level"]==1
+
+
+def test_empty_reign_changes_formation_basis():
+    a=run([],as_of="2026-01-20T00:00:00Z")
+    b=run([])
+    assert formation_is_stale(a["formation_basis"],b)
