@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-26",
+  "input_commit": "0b52715b6ca112097b24d7dc22e69c170468cb18",
+  "method": "Separate JavaScript dynamic-programming replay against fetched source records; same declared additive objectives, not an independent combat model. Python candidate implementation and small exhaustive oracle assessed in CI.",
+  "objective": "10 × stars + 2 × sum of unlocked habit levels",
+  "quotas": {
+    "Cavalry": 9,
+    "Spearmen": 9,
+    "Archers": 6,
+    "Shieldbearers": 6
+  },
+  "baseline": {
+    "score": 1464,
+    "stars": 127,
+    "habit_levels": 97,
+    "capacity": 82057
+  },
+  "permanent": {
+    "score": 1484,
+    "stars": 129,
+    "habit_levels": 97,
+    "capacity": 79798,
+    "removed": [
+      "Syrax",
+      "Caraxes"
+    ],
+    "added": [
+      "Smoketail",
+      "Tessarion"
+    ],
+    "retained_troop_assignments": 28
+  },
+  "readiness": {
+    "score": 1418,
+    "stars": 123,
+    "habit_levels": 94,
+    "capacity": 82369,
+    "removed": [
+      "Crimson",
+      "Velar",
+      "Caraxes"
+    ],
+    "added": [
+      "Moondancer",
+      "Sunfyre",
+      "Vhagar"
+    ],
+    "retained_troop_assignments": 27
+  },
+  "recommendation": "retain original as current tactical baseline; test alternatives only; no measured combat improvement",
+  "limitations": [
+    "No equipment data, no calibrated ability or talent model, no exact reign ID, no combat outcomes. Capacity across ten presets is not simultaneous deployment or actual troop stock.",
+    "Weights are uncalibrated. Exact objective optimum does not imply best army composition.",
+    "Separate agent execution and independent review unavailable."
+  ]
+}

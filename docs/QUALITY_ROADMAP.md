@@ -26,3 +26,5 @@ Q2 stacked draft: [candidate extraction and measured development baseline](Q2_CA
 Q3 draft: [visual recognition and frozen holdout protocol](Q3_VISUAL_RECOGNITION.md). 599/600 development fields correct; holdout and independent acceptance blocked.
 
 Q4 stacked draft: [reconciliation contract](Q4_RECONCILIATION.md); pure replay, staged migration, approval boundary and explicit reign transitions. Durable authority and independent acceptance pending.
+
+Q5 draft: [exact additive formation allocation](Q5_FORMATION_SOLVER.md). Tactical synergy and independent acceptance remain open.
