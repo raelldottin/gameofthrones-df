@@ -81,3 +81,13 @@ def test_existing_stats_not_overwritten_by_secondary_ocr():
                     relic_current=5,relic_required=100)
     out=merge_fields(baseline,texts(power="4330",xp="12,483/84.7K",relic="8/100"),2,["Jagadrix"])
     assert [out[k] for k in ("power","xp_current","relic_current")] == [4530,12488,5]
+
+def test_visual_reader_never_promotes_or_writes(tmp_path):
+    from scripts.dragon_analyzer.visual_reader import read_visual_candidate
+    path=tmp_path/"image.png"
+    Image.new("RGB",(1536,709)).save(path)
+    result=read_visual_candidate(path,["Jagadrix"],text_reader=lambda im,config:"")
+    assert result["status"]=="unverified_candidate"
+    assert result["fields"]["stars"] is None
+    assert result["fields"]["name"] is None
+    assert list(tmp_path.iterdir())==[path]

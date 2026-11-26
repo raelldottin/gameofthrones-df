@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only_single_reign_session",
+  "screenshots": 40,
+  "fields": 15,
+  "total": 600,
+  "correct": 599,
+  "wrong": 0,
+  "abstained": 1,
+  "exact_all_fields": 0.9983333333333333,
+  "emitted_precision": 1,
+  "coverage": 0.9983333333333333,
+  "metrics": {
+    "name": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "dragon_class": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "temperament": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "speed": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "stage": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "level": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "xp_current": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "xp_required_display": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "power": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "capacity": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "energy_current": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "energy_maximum": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "relic_current": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "relic_required": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "stars": {
+      "correct": 39,
+      "wrong": 0,
+      "abstain": 1
+    }
+  },
+  "abstentions": [
+    {
+      "source": "IMG_5927.jpeg",
+      "field": "stars",
+      "reason": "two empty slots ambiguous"
+    }
+  ],
+  "engine": "Tesseract 5.5.0 / leptonica 1.84.1",
+  "visual_source_sha256": "c0f8af4d3db10aa99d3f43be3fdb23f9184f5d14cb51c42cc5e710d76c5630bf",
+  "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "execution": "Local original-image field crops read in five separate Tesseract batches, previous whole-panel OCR cached; visual module merged outputs and classified stars from original pixels. Same development session as Q2. Integrated replay runner added but not independently executed at this checkpoint.",
+  "acceptance": "Development accuracy target reached. Release blocked: independent holdout, habit icon recognition, independent review, deployment layout diversity and end-to-end replay verification outstanding."
+}

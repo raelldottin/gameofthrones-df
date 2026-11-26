@@ -22,3 +22,5 @@ See [Q1 implementation evidence](Q1_IMPLEMENTATION.md) for the draft fixes and l
 Proposed thresholds are targets, not measured results. Do not publish personal screenshots without approval. Use versioned benchmark hashes and regression history. No global release score until independent evidence exists.
 
 Q2 stacked draft: [candidate extraction and measured development baseline](Q2_CANDIDATE_EXTRACTION.md). Real-image acceptance remains blocked.
+
+Q3 draft: [visual recognition and frozen holdout protocol](Q3_VISUAL_RECOGNITION.md). 599/600 development fields correct; holdout and independent acceptance blocked.
