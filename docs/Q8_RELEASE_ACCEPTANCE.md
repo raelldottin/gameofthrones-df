@@ -15,3 +15,5 @@ Keep PRs 4–11 draft. Obtain independent review per slice; check CI against eac
 
 ## Remaining product work
 Q3 independent image holdout, habit detection and end-to-end OCR; Q4 authenticated durable authority, correction/revocation policy and actual reign metadata; Q5 verified ability/talent-aware tactical engine; Q6 prospective matched battle evidence and calibration; Q7 authenticated fresh-agent dispatcher, durable content-addressed artifacts, process limits and recovery; Q8 independent reviewer/evaluator and measured performance budgets. Historical development benchmarks are not production scores. No separate agents available in this session. No release or merge.
+
+Test-oracle review: assert precise receipt rejection reasons and isolate trust failure from QA trust, so secondary gate failures cannot mask a surviving source mutant. Q7's run-binding mutation failure is preserved and its stronger test incorporated through the Q7 parent.

@@ -177,6 +177,11 @@ def test_run_id_binds_request_and_rejects_prior_run_receipt():
     f=Fake()
     old=run(INPUT,POLICY,f,run_id="run-old")
     assert old["status"]=="accepted"
+    assert f.requests[0]["run_id"]=="run-old"
+    fresh=Fake()
+    assert run(INPUT,POLICY,fresh,run_id="run-new")["status"]=="accepted"
+    assert fresh.requests[0]["run_id"]=="run-new"
+    assert f.requests[0]["request_hash"]!=fresh.requests[0]["request_hash"]
     old_response=Fake()(f.requests[0])
     def stale(req):return old_response
     assert run(INPUT,POLICY,stale,run_id="run-new")["reason"]=="invalid_handoff"

@@ -38,7 +38,9 @@ def test_all_trusted_receipts_contract_only():
 
 def test_untrusted_receipts_block():
     r,q=package()
-    assert assess(TREE,r,q,set())["status"]=="blocked"
+    out=assess(TREE,r,q,{digest(q)})
+    assert out["status"]=="blocked"
+    assert set(out["missing_gates"])==set(GATES)
 
 @pytest.mark.parametrize("gate",GATES)
 def test_every_gate_is_mandatory(gate):
@@ -49,12 +51,12 @@ def test_every_gate_is_mandatory(gate):
 def test_stale_tree_blocks():
     r,q=package()
     r[0]["tree"]=OTHER
-    assert assess(TREE,r,q,trust(r,q))["status"]=="blocked"
+    assert "invalid or failed receipt:"+r[0]["gate"] in assess(TREE,r,q,trust(r,q))["issues"]
 
 def test_stale_policy_blocks():
     r,q=package()
     r[0]["policy"]="0"*64
-    assert assess(TREE,r,q,trust(r,q))["status"]=="blocked"
+    assert "invalid or failed receipt:"+r[0]["gate"] in assess(TREE,r,q,trust(r,q))["issues"]
 
 def test_conflicting_receipt_blocks():
     r,q=package()
@@ -64,7 +66,7 @@ def test_conflicting_receipt_blocks():
 def test_failed_gate_blocks():
     r,q=package()
     r[0]["status"]="fail"
-    assert assess(TREE,r,q,trust(r,q))["status"]=="blocked"
+    assert "invalid or failed receipt:"+r[0]["gate"] in assess(TREE,r,q,trust(r,q))["issues"]
 
 def test_low_score_blocks():
     r,q=package()
