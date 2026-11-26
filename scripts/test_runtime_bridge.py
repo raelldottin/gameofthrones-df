@@ -130,3 +130,61 @@ def test_projection_one_bounded_slice_and_no_implicit_launcher():
 def test_projection_rejects_unsafe_scope(paths):
     with pytest.raises(ValueError):
         project_slice(request(),allowed_paths=paths,validations=["git diff --check"],max_files=2,timeout=60)
+
+
+def test_request_policy_hash_must_match_even_if_request_rehashed(tmp_path):
+    req=request()
+    req["policy_hash"]="0"*64
+    req["request_hash"]=digest({k:v for k,v in req.items() if k!="request_hash"})
+    with Bridge(tmp_path/"db",KEY) as b:
+        with pytest.raises(ReceiptError,match="policy"):
+            b(req)
+        assert b.pending()==[]
+
+
+def test_request_unknown_fields_rejected_even_if_rehashed(tmp_path):
+    req=request()
+    req["agent_command"]="unexpected"
+    req["request_hash"]=digest({k:v for k,v in req.items() if k!="request_hash"})
+    with Bridge(tmp_path/"db",KEY) as b:
+        with pytest.raises(ReceiptError,match="request"):
+            b(req)
+
+
+def test_stored_receipt_tampering_rejected_on_replay(tmp_path):
+    import json
+    import sqlite3
+    path=tmp_path/"db"
+    req=request()
+    r=receipt(req)
+    with Bridge(path,KEY) as b:
+        with pytest.raises(PendingReceipt): b(req)
+        b.submit(r,sign_receipt(r,KEY))
+    r["agent_id"]="tampered-agent"
+    with sqlite3.connect(path) as conn:
+        conn.execute("UPDATE receipts SET payload=?",(json.dumps(r),))
+    with Bridge(path,KEY) as b:
+        with pytest.raises(ReceiptError,match="stored signature"):
+            b(req)
+
+
+def test_concurrent_receipt_admission_has_one_winner(tmp_path):
+    from concurrent.futures import ThreadPoolExecutor
+    path=tmp_path/"db"
+    req=request()
+    with Bridge(path,KEY) as b:
+        with pytest.raises(PendingReceipt): b(req)
+    def submit(n):
+        r=receipt(req,n)
+        with Bridge(path,KEY) as b:
+            try:
+                b.submit(r,sign_receipt(r,KEY))
+                return "accepted"
+            except ReceiptError:
+                return "rejected"
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        outcomes=list(pool.map(submit,[1,2]))
+    assert sorted(outcomes)==["accepted","rejected"]
+    with Bridge(path,KEY) as b:
+        assert b(req)["agent_id"] in ("agent-1","agent-2")
+        assert b.pending()==[]
