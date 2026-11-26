@@ -17,6 +17,8 @@ CASES = [
     ("silenced engine error", "ocr.py", 'raise RuntimeError(f"OCR failed: {e}") from e', 'return ""', "test_ocr_engine_failure_is_visible"),
     ("conflict ignored", "analyzer.py", 'raise RuntimeError("Observation conflict: existing evidence differs")', "pass", "test_conflicting_observation_is_not_overwritten"),
     ("empty batch success", "analyzer.py", 'raise ValueError("no screenshots matched")', "return []", "test_empty_batch_fails"),
+    ("unchecked adapter accepted", "analyzer.py", "observed = DragonData.model_validate_json(observed.model_dump_json())", "pass", "test_unchecked_adapter_data_is_rejected"),
+    ("changed source ignored", "analyzer.py", 'raise RuntimeError("Screenshot changed during extraction")', "pass", "test_source_change_is_rejected"),
     ("CLI false success", "cli.py", "raise typer.Exit(code=1)", "raise typer.Exit(code=0)", "test_cli_analyze_and_batch_do_not_claim_success"),
 ]
 

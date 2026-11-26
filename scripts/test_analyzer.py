@@ -178,3 +178,29 @@ def test_cli_analyze_and_batch_do_not_claim_success(tmp_path):
     assert runner.invoke(app, ["analyze", str(image), "--output", str(output)]).exit_code != 0
     assert runner.invoke(app, ["batch", str(tmp_path), "--output", str(output)]).exit_code != 0
     assert not list(output.rglob("*.json"))
+
+
+def test_unchecked_adapter_data_is_rejected(tmp_path):
+    image = tmp_path / "IMG_1.jpeg"
+    image.write_bytes(b"fixture")
+    invalid = Dragon.model_construct(name="Jagadrix", level=0, stars=7,
+                                     dragon_class=DragonClass.HUNTER)
+    worker = analyzer.DragonAnalyzer(tmp_path / "out", profile_reader=lambda _:
+                                    DragonData.model_construct(dragon=invalid))
+    with pytest.raises(ValidationError):
+        worker.analyze_screenshot(image)
+    assert not list((tmp_path / "out").rglob("*.json"))
+
+
+def test_source_change_is_rejected(tmp_path):
+    image = tmp_path / "IMG_1.jpeg"
+    image.write_bytes(b"fixture")
+
+    def read(path):
+        path.write_bytes(b"changed")
+        return profile()
+
+    worker = analyzer.DragonAnalyzer(tmp_path / "out", profile_reader=read)
+    with pytest.raises(RuntimeError, match="changed during extraction"):
+        worker.analyze_screenshot(image)
+    assert not list((tmp_path / "out").rglob("*.json"))
