@@ -1,0 +1,61 @@
+{
+  "observed_date": "2026-11-26",
+  "historical_dates": "2026-06-27 through 2026-06-30",
+  "source_commit": "394e687cc9e9cf6597eb8705f3467d5c89bfebd0",
+  "execution": "Separate JavaScript review of repository records and all complete traces; Python implementation CI pending. No independent agent.",
+  "source_files": 15,
+  "admitted_reports": 11,
+  "excluded_files": 5,
+  "outcomes": {
+    "victory": 7,
+    "stalemate": 4
+  },
+  "modes": {
+    "pve": 8,
+    "pvp": 3
+  },
+  "complete_round_traces": 3,
+  "verified_round_rows": 30,
+  "replays": [
+    {
+      "file": "2026-06-28-defended-lv1-field-pinkmaiden-player-stalemate.json",
+      "rounds": 10,
+      "player_loss": 15209,
+      "enemy_loss": 7004,
+      "player_recovery_rounds": [],
+      "enemy_recovery_rounds": []
+    },
+    {
+      "file": "2026-06-28-defended-lv3-iron-pinkmaiden-shieldbearer-stalemate.json",
+      "rounds": 10,
+      "player_loss": 13420,
+      "enemy_loss": 9841,
+      "player_recovery_rounds": [],
+      "enemy_recovery_rounds": []
+    },
+    {
+      "file": "2026-06-30-victory-black-goat-level-35-evenfall-shadowrend-shieldbearers.json",
+      "rounds": 10,
+      "player_loss": 1350,
+      "enemy_loss": 19500,
+      "player_recovery_rounds": [
+        3,
+        6,
+        9
+      ],
+      "enemy_recovery_rounds": []
+    }
+  ],
+  "calibration": {
+    "evaluated": 0,
+    "skipped": 3,
+    "reason": "Both complete PvP reports share June 28; only complete PvE report is June 30. No independent same-mode date groups.",
+    "release_accepted": false,
+    "win_probability": null
+  },
+  "limitations": [
+    "Historical selected reports, not a representative sample.",
+    "Ambiguous capacities and repeated combat carryover not normalized.",
+    "No actual damage formula, action order, equipment or verified full talent model; no battle predictions or current-reign validation."
+  ]
+}
