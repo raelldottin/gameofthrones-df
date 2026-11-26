@@ -29,13 +29,13 @@ jobs:
       - run: python -m pytest -o addopts='' -q scripts/test_release.py
       - run: python -m scripts.dragon_analyzer.release
       - run: python -m quality.measure_release
+      - run: python -m pytest -o addopts='' -q scripts/test_mutation_runner.py
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
-      - run: python quality/check_contract_mutations.py
-      - run: python quality/check_panel_mutations.py
-      - run: python quality/check_visual_mutations.py
-      - run: python quality/check_reconcile_mutations.py
-      - run: python quality/check_solver_mutations.py
-      - run: python quality/check_battle_mutations.py
-      - run: python quality/check_supervisor_mutations.py
-      - run: python quality/check_release_mutations.py
+      - run: python -m quality.mutation_runner --output '${{ runner.temp }}/mutation-report.json'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mutation-report-${{ matrix.python }}
+          path: ${{ runner.temp }}/mutation-report.json
+          if-no-files-found: warn
