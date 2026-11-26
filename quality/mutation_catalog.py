@@ -111,4 +111,17 @@ SUITES = {
         ("ignore visible empty icon", "icons.py", "and icon_pixels<10", "and True", "test_empty_affinity_requires_low_color_and_low_icon"),
         ("omit layout guard", "icons.py", 'if not isinstance(affinities[0],str) or not affinities[0].startswith("+"):', "if False:", "test_blank_is_not_locked_or_neutral"),
     ]),
+    "ledger": ("scripts/test_ledger.py", [
+        ("ignore command signature", "ledger.py", 'if not isinstance(signature,str) or not hmac.compare_digest(seal(c,actor[1]),signature):', "if False:", "test_forged_signature_rejected"),
+        ("ignore actor role", "ledger.py", 'if actor is None or ROLES.get(c["kind"])!=actor[0]:', "if actor is None:", "test_role_separation"),
+        ("allow extractor impersonation", "ledger.py", 'if p["extractor_id"]!=actor:', "if False:", "test_extractor_cannot_impersonate"),
+        ("ignore ledger identity", "ledger.py", 'or c["ledger_id"]!=self.id', "", "test_cross_ledger_replay_rejected"),
+        ("ignore stale head", "ledger.py", 'if c["previous"]!=head:', "if False:", "test_concurrent_head_compare_and_swap"),
+        ("reapprove revoked event", "ledger.py", 'if key in revoked:', "if False:", "test_revoke_preserves_transaction_history_and_is_terminal"),
+        ("allow wrong source correction", "ledger.py", 'if any(old[k]!=new[k] for k in ("name","source_sha256","reign_id","observed_at")):', "if False:", "test_correction_cannot_change_source"),
+        ("ignore external checkpoint", "ledger.py", 'if expected_head is not None and head!=expected_head:', "if False:", "test_tail_truncation_detected_by_external_checkpoint"),
+        ("ignore backup checkpoint", "ledger.py", "return restored.verify(expected_head=expected_head)", "return restored.verify()", "test_backup_refuses_unexpected_checkpoint_and_removes_destination"),
+        ("ignore database ledger identity", "ledger.py", 'if self.db.execute("SELECT id FROM ledger_identity WHERE slot=1").fetchone()!=(self.id,):', "if False:", "test_empty_database_cannot_be_reassigned_to_different_ledger"),
+        ("omit correction approval", "ledger.py", 'approved[p["new"]]=actor', "pass", "test_correction_atomic_same_source_replaces_old_approval"),
+    ]),
 }
