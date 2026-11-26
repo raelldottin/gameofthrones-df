@@ -4,8 +4,8 @@ from pathlib import Path
 import pytest
 from scripts.dragon_analyzer.solver import optimize, score, assign_commanders, basis, load_inputs, evaluate
 
-def d(name, stars, affinities, habits=(), capacity=100, trait="Nimble"):
-    return dict(name=name, stars=stars, habits=list(habits), affinities=list(affinities),
+def d(name, stars, affinities, habits=None, capacity=100, trait="Nimble"):
+    return dict(name=name, stars=stars, habits=list(habits if habits is not None else [1]*(stars//2)), affinities=list(affinities),
                 capacity=capacity, trait=trait)
 
 def test_permanent_score_is_explicit():
