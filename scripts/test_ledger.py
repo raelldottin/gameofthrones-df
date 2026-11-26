@@ -196,3 +196,36 @@ def test_unknown_historical_head_rejected(tmp_path):
     with open_ledger(tmp_path/"db") as l:
         with pytest.raises(LedgerError,match="historical"):
             l.snapshot(as_of=NOW,at_head="f"*64)
+
+
+def test_rollback_does_not_accept_unverified_tail(tmp_path):
+    path=tmp_path/"db"
+    with open_ledger(path) as l:
+        e=setup(l);old=l.head();approve(l,e)
+    with sqlite3.connect(path) as db:
+        db.execute("UPDATE entries SET signature=? WHERE seq=3",("0"*64,))
+    with open_ledger(path) as l:
+        with pytest.raises(LedgerError,match="integrity"):
+            l.snapshot(as_of=NOW,at_head=old)
+
+
+def test_backup_refuses_unexpected_checkpoint_and_removes_destination(tmp_path):
+    path=tmp_path/"db";backup=tmp_path/"backup"
+    with open_ledger(path) as l:
+        setup(l)
+        with pytest.raises(LedgerError,match="checkpoint"):
+            l.backup(backup,expected_head="f"*64)
+        assert not backup.exists()
+        assert l.backup(backup,expected_head=l.head())==l.head()
+
+
+def test_empty_database_cannot_be_reassigned_to_different_ledger(tmp_path):
+    path=tmp_path/"db"
+    with open_ledger(path): pass
+    with pytest.raises(LedgerError,match="ledger identity"):
+        with Ledger(path,"different",KEYS): pass
+
+
+def test_duplicate_actor_keys_rejected(tmp_path):
+    with pytest.raises(ValueError,match="distinct"):
+        Ledger(tmp_path/"db",ID,{**KEYS,"another":("reviewer",KEYS["reader"][1])})
