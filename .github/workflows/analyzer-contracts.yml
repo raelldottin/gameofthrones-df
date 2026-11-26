@@ -39,6 +39,7 @@ jobs:
       - run: python -m scripts.dragon_analyzer.combat
       - run: python -m pytest -o addopts='' -q scripts/test_strategy.py
       - run: python -m scripts.dragon_analyzer.strategy
+      - run: python -m pytest -o addopts='' -q scripts/test_certification.py
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
       - run: python -m quality.mutation_runner --output '${{ runner.temp }}/mutation-report.json'
@@ -47,4 +48,25 @@ jobs:
         with:
           name: mutation-report-${{ matrix.python }}
           path: ${{ runner.temp }}/mutation-report.json
+          if-no-files-found: warn
+  certification:
+    needs: contracts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: mutation-report-*
+          path: ${{ runner.temp }}/cert-evidence
+      - run: python -m scripts.dragon_analyzer.certification --reports "${{ runner.temp }}/cert-evidence/mutation-report-3.11/mutation-report.json" "${{ runner.temp }}/cert-evidence/mutation-report-3.12/mutation-report.json" --output "${{ runner.temp }}/certification.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: certification-report
+          path: ${{ runner.temp }}/certification.json
           if-no-files-found: warn

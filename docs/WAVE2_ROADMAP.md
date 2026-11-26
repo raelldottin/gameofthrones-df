@@ -24,3 +24,5 @@ Q13 draft: [evidence-constrained positional and deployment optimization](Q13_TAC
 Q14 draft: [round-level illustrative combat engine and diagnostic calibration](Q14_COMBAT_CALIBRATION.md); actual prospective evidence pending.
 
 Q15 draft: [read-only strategy and bounded resource allocation](Q15_STRATEGY_INTELLIGENCE.md); fresh inventories and validation pending.
+
+Q16 draft: [production certification evidence matrix and performance comparator](Q16_CERTIFICATION.md). Production remains blocked; independent evidence acquisition is the next priority.

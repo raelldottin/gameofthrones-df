@@ -18,7 +18,7 @@ def report(version="3.11"):
             src=(ROOT/"scripts/dragon_analyzer"/filename).read_text()
             changed=mutate_text(src,old,new)
             rows.append({"label":label,"file":filename,"test":test,"status":"killed","exit_code":1,
-                         "expected_tests":1,"observed_tests":1,"failed_tests":[target.replace("/",".").removesuffix(".py")+"::"+test.split("[")[0]],
+                         "expected_tests":1,"observed_tests":1,"failed_tests":[target.replace("/",".").removesuffix(".py")+"::"+test],
                          "source_before":hashlib.sha256(src.encode()).hexdigest(),
                          "source_after":hashlib.sha256(changed.encode()).hexdigest(),"error":None})
         suites.append({"suite":name,"target":target,"baseline":{"status":"pass","tests":1,"exit_code":0,"error":None},

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-26",
+  "source_commit": "04cc3e07a5f9fcc0426d2f6f8d92732514eb9c01",
+  "tested_merge_commit": "c7e19ce5df9f6bd0522e2929e6d084ca5256d0ec",
+  "tree": "0f1057efec0333c04e055e8bc2dbe882cbf9c29a",
+  "run": 45846977552,
+  "roster_run": 45846977313,
+  "behavioral_tests_per_version": 347,
+  "mutations_per_version": 126,
+  "catalog_sha256": "6dcea2a79a9d7e43aee6255c01a4a14acad096fd92f0780eac33d0c078047d76",
+  "jobs": {
+    "3.11": {
+      "id": 140003079349,
+      "artifact_id": 15132235196,
+      "artifact_archive_sha256": "503bd7df9dbf440173fe8c1e533c092f6b1cc9975c60cf40565712f837c5e106",
+      "median_ms": {
+        "allocation": 321.385857,
+        "historical_battle_audit": 1.072768,
+        "migration_staging": 0.814873
+      }
+    },
+    "3.12": {
+      "id": 140003078835,
+      "artifact_id": 15131203345,
+      "artifact_archive_sha256": "9e06fb501ce481ea21722e05369ac509f1e56dc7216e098cea5f48b13da93ba0",
+      "median_ms": {
+        "allocation": 414.174949,
+        "historical_battle_audit": 1.430127,
+        "migration_staging": 0.955975
+      }
+    }
+  },
+  "source": "GitHub Actions job logs and artifact metadata, archive bytes not independently downloaded in this session",
+  "trusted_receipts": 0,
+  "release_authorized": false
+}
