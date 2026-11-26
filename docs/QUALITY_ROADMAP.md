@@ -28,3 +28,5 @@ Q3 draft: [visual recognition and frozen holdout protocol](Q3_VISUAL_RECOGNITION
 Q4 stacked draft: [reconciliation contract](Q4_RECONCILIATION.md); pure replay, staged migration, approval boundary and explicit reign transitions. Durable authority and independent acceptance pending.
 
 Q5 draft: [exact additive formation allocation](Q5_FORMATION_SOLVER.md). Tactical synergy and independent acceptance remain open.
+
+Q6 draft: [battle replay and illustrative attrition model](Q6_BATTLE_EVALUATION.md). Calibration and full combat mechanics remain blocked on evidence.

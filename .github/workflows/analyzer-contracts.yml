@@ -23,6 +23,8 @@ jobs:
       - run: python -m pytest -o addopts='' -q scripts/test_reconcile.py
       - run: python -m pytest -o addopts='' -q scripts/test_solver.py
       - run: python -m scripts.dragon_analyzer.solver
+      - run: python -m pytest -o addopts='' -q scripts/test_battle.py
+      - run: python -m scripts.dragon_analyzer.battle
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
       - run: python quality/check_contract_mutations.py
@@ -30,3 +32,4 @@ jobs:
       - run: python quality/check_visual_mutations.py
       - run: python quality/check_reconcile_mutations.py
       - run: python quality/check_solver_mutations.py
+      - run: python quality/check_battle_mutations.py
