@@ -35,7 +35,7 @@ class Fake:
         return res
 
 def go(fake, policy=POLICY):
-    return run(INPUT,policy,fake)
+    return run(INPUT,policy,fake,run_id="fixture-run")
 
 def test_happy_path_and_immutable_chain():
     f=Fake()
@@ -145,3 +145,63 @@ def test_policy_cannot_be_mutated_by_adapter():
 def test_invalid_policy():
     with pytest.raises(ValueError):
         go(Fake(),{**POLICY,"min_score":0})
+
+
+def test_all_active_artifacts_available_to_benchmark():
+    f=Fake()
+    assert go(f)["status"]=="accepted"
+    request=f.requests[4]
+    assert set(request["active_artifacts"])=={"Research","Plan","Write","Review"}
+    write=request["active_artifacts"]["Write"]
+    assert hash_bytes(bytes.fromhex(write["artifact_hex"]))==request["candidate_hash"]
+
+
+@pytest.mark.parametrize("route",["Research","Plan","Write","Review","Benchmark"])
+def test_qa_routes_replay_all_downstream_stages(route):
+    once=[]
+    def alter(q,r):
+        if q["stage"]=="QA" and not once:
+            once.append(1)
+            r.update(decision="repair",issues=[{"severity":"high","route":route,"detail":"repair requested"}])
+    f=Fake(alter)
+    result=go(f)
+    assert result["status"]=="accepted"
+    assert [x["stage"] for x in f.requests]==list(STAGES)+list(STAGES[STAGES.index(route):])
+    retry=f.requests[6]
+    assert set(retry["active_artifacts"])==set(STAGES[:STAGES.index(route)])
+    assert retry["benchmark_hash"] is None
+    assert len({x["agent_id"] for x in result["history"]})==len(result["history"])
+
+
+def test_run_id_binds_request_and_rejects_prior_run_receipt():
+    f=Fake()
+    old=run(INPUT,POLICY,f,run_id="run-old")
+    assert old["status"]=="accepted"
+    old_response=Fake()(f.requests[0])
+    def stale(req):return old_response
+    assert run(INPUT,POLICY,stale,run_id="run-new")["reason"]=="invalid_handoff"
+
+
+def test_no_release_authorization_even_with_perfect_synthetic_score():
+    assert go(Fake())["release_authorized"] is False
+
+
+def test_unknown_evidence_reference_rejected():
+    def alter(q,r):
+        if q["stage"]=="QA":r["evaluation"]["dimensions"]["architecture"]["evidence"]=["f"*64]
+    assert go(Fake(alter))["reason"]=="invalid_evaluation"
+
+
+def test_forward_repair_route_rejected():
+    f=Fake(lambda q,r:r.update(decision="repair",issues=[{"severity":"high","route":"Write","detail":"future stage"}]))
+    assert go(f)["reason"]=="invalid_repair_route"
+
+
+def test_repair_without_evidence_blocked():
+    f=Fake(lambda q,r:r.update(decision="repair"))
+    assert go(f)["reason"]=="missing_repair_evidence"
+
+
+def test_missing_required_policy_gate_rejected():
+    with pytest.raises(ValueError):
+        go(Fake(),{**POLICY,"gates":["tests"]})
