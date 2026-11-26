@@ -13,7 +13,17 @@
     "IMG_5907.jpeg",
     "IMG_5908.jpeg",
     "IMG_5909.jpeg",
-    "IMG_5910.jpeg"
+    "IMG_5910.jpeg",
+    "IMG_5911.jpeg",
+    "IMG_5912.jpeg",
+    "IMG_5913.jpeg",
+    "IMG_5914.jpeg",
+    "IMG_5915.jpeg",
+    "IMG_5916.jpeg",
+    "IMG_5917.jpeg",
+    "IMG_5918.jpeg",
+    "IMG_5919.jpeg",
+    "IMG_5920.jpeg"
   ],
   "dragons": [
     {
@@ -185,11 +195,182 @@
       "speed": "Fast",
       "stage": "Juvenile",
       "source_screenshot": "IMG_5910.jpeg"
+    },
+    {
+      "name": "Solstryker",
+      "level": 19,
+      "xp": {
+        "current": 55281,
+        "required_display": "58.7K"
+      },
+      "displayed_power": 10700,
+      "displayed_troop_capacity": 3800,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5911.jpeg"
+    },
+    {
+      "name": "Rhysarion",
+      "level": 15,
+      "xp": {
+        "current": 22886,
+        "required_display": "27.1K"
+      },
+      "displayed_power": 13240,
+      "displayed_troop_capacity": 3209,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Very Slow",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5912.jpeg"
+    },
+    {
+      "name": "Vaeldra",
+      "level": 14,
+      "xp": {
+        "current": 13875,
+        "required_display": "21.7K"
+      },
+      "displayed_power": 19280,
+      "displayed_troop_capacity": 3295,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Adult",
+      "source_screenshot": "IMG_5913.jpeg"
+    },
+    {
+      "name": "Bevlorin",
+      "level": 14,
+      "xp": {
+        "current": 12129,
+        "required_display": "21.7K"
+      },
+      "displayed_power": 9000,
+      "displayed_troop_capacity": 3155,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5914.jpeg"
+    },
+    {
+      "name": "Shadowsong",
+      "level": 11,
+      "xp": {
+        "current": 8293,
+        "required_display": "13.2K"
+      },
+      "displayed_power": 11180,
+      "displayed_troop_capacity": 2713,
+      "energy": {
+        "current": 130,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5915.jpeg"
+    },
+    {
+      "name": "Arulix",
+      "level": 11,
+      "xp": {
+        "current": 7364,
+        "required_display": "13.2K"
+      },
+      "displayed_power": 9150,
+      "displayed_troop_capacity": 2768,
+      "energy": {
+        "current": 130,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5916.jpeg"
+    },
+    {
+      "name": "Thunderstrike",
+      "level": 11,
+      "xp": {
+        "current": 8293,
+        "required_display": "13.2K"
+      },
+      "displayed_power": 9950,
+      "displayed_troop_capacity": 2768,
+      "energy": {
+        "current": 130,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5917.jpeg"
+    },
+    {
+      "name": "Sunfyre",
+      "level": 2,
+      "xp": {
+        "current": 35,
+        "required_display": "225"
+      },
+      "displayed_power": 4530,
+      "displayed_troop_capacity": 1567,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5918.jpeg"
+    },
+    {
+      "name": "Moondancer",
+      "level": 2,
+      "xp": {
+        "current": 35,
+        "required_display": "225"
+      },
+      "displayed_power": 2310,
+      "displayed_troop_capacity": 1567,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Hatchling",
+      "source_screenshot": "IMG_5919.jpeg"
+    },
+    {
+      "name": "Vhagar",
+      "level": 2,
+      "xp": {
+        "current": 35,
+        "required_display": "225"
+      },
+      "displayed_power": 2310,
+      "displayed_troop_capacity": 1567,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Hatchling",
+      "source_screenshot": "IMG_5920.jpeg"
     }
   ],
   "notes": [
     "XP thresholds are preserved exactly as rounded display strings, not expanded to false precision.",
-    "Vermithor and Venator show 210/100 energy; recorded as displayed, not clamped.",
-    "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. Other dragons are not updated."
+    "Vermithor and Venator show 210/100 energy; Shadowsong, Arulix and Thunderstrike show 130/100; Sunfyre, Moondancer and Vhagar show 250/100. Recorded as displayed, not clamped.",
+    "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. Other dragons are not updated.",
+    "Second batch IMG_5911–IMG_5920 extends this dated snapshot to twenty profiles. Reign identifier and reset starting level remain unknown."
   ]
 }
