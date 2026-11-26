@@ -63,7 +63,7 @@ jobs:
         with:
           pattern: mutation-report-*
           path: ${{ runner.temp }}/cert-evidence
-      - run: python -m scripts.dragon_analyzer.certification --reports "${{ runner.temp }}/cert-evidence/mutation-report-3.11/mutation-report.json" "${{ runner.temp }}/cert-evidence/mutation-report-3.12/mutation-report.json" --output "${{ runner.temp }}/certification.json"
+      - run: python -S -m scripts.dragon_analyzer.certification --reports "${{ runner.temp }}/cert-evidence/mutation-report-3.11/mutation-report.json" "${{ runner.temp }}/cert-evidence/mutation-report-3.12/mutation-report.json" --output "${{ runner.temp }}/certification.json"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

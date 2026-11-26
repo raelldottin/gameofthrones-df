@@ -1,30 +1,30 @@
-"""
-Dragon Analyzer Package
-"""
-from .analyzer import DragonAnalyzer, create_analyzer
-from .models import (
-    DragonData,
-    Dragon,
-    ArmyComposition,
-    Ability,
-    Habit,
-    DragonClass,
-    AbilityType,
-    DamageType,
-)
-from .ocr import DragonScreenshotOCR, create_ocr_processor
+"""Public analyzer API with optional heavy imports resolved only on demand."""
+from importlib import import_module
 
-__all__ = [
-    "DragonAnalyzer",
-    "create_analyzer",
-    "DragonData",
-    "Dragon",
-    "ArmyComposition",
-    "Ability",
-    "Habit",
-    "DragonClass",
-    "AbilityType",
-    "DamageType",
-    "DragonScreenshotOCR",
-    "create_ocr_processor",
-]
+_EXPORTS = {
+    "DragonAnalyzer": "analyzer",
+    "create_analyzer": "analyzer",
+    "DragonData": "models",
+    "Dragon": "models",
+    "ArmyComposition": "models",
+    "Ability": "models",
+    "Habit": "models",
+    "DragonClass": "models",
+    "AbilityType": "models",
+    "DamageType": "models",
+    "DragonScreenshotOCR": "ocr",
+    "create_ocr_processor": "ocr",
+}
+__all__ = list(_EXPORTS)
+
+
+def __getattr__(name):
+    if name not in _EXPORTS:
+        raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+    value = getattr(import_module("." + _EXPORTS[name], __name__), name)
+    globals()[name] = value
+    return value
+
+
+def __dir__():
+    return sorted(set(globals()) | set(__all__))
