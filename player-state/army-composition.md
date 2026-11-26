@@ -1,53 +1,57 @@
 # Army Composition — Current 10 Marches
 
-**Roster date:** September 20, 2026  
-**Status:** mechanics-guided candidates, **not battle-validated**  
-**Authoritative player data:** [September 20 complete 36-dragon roster](dragon-roster-2026-09-20.json)  
-**Detailed rationale and limitations:** [September 20 analysis](../analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-09-20.md)  
-**Machine-readable formation presets:** [September 20 ten marches](../armies/current-ten-marches-2026-09-20.json)
+**Status: proposed, not battle validated.** All 38 directly observed owned dragons were considered. This is a constrained, mechanics-guided revision of the September plan, not a global optimum. Eight layouts retained, two experimental replacements. Dragon Reign Level resets at the start of each reign; permanent stars, unlocked habits and commander investments guide long-term planning. Reign levels guide current deployment only.
 
-This plan was recomputed from all currently owned dragons, their **current star ranks and unlocked habit levels**, documented Commands/Vanguard effects and positive troop affinities. **No older battle records, former lineup locks, or September 3 march rankings were used to select or order this lineup.** Neither current Reign Levels nor controlled matchup outcomes are available, so the ordering is a qualitative **deployment priority**, not a predicted win rate or proven exact optimum.
+Sources: [persistent roster](../player-state/dragon-update-2026-11-26.json), [reign snapshot](../player-state/dragon-reign-snapshot-2026-11-26.json), [commander snapshot](../player-state/commander-update-2026-11-25.json), [prior plan](../armies/current-ten-marches-2026-09-20.json).
 
-## Ten distinct formations
+| March | Left | Vanguard | Right | Troops | Stars L/V/R | Reign levels L/V/R | Commander |
+|---|---|---|---|---|---|---|---|
+| 1 | Sheepstealer | Malachite | Shimmer | Cavalry | 3/3/6 | 23/23/23 | Rhaenyra |
+| 2 | Syrax | Dawnseeker | Jagadrix | Spearmen | 2/5/7 | 22/22/22 | — |
+| 3 | Solstryker | Zivern | Antares | Archers | 5/6/5 | 19/20/20 | Corlys |
+| 4 | Vaeldra | Rhysarion | Bevlorin | Spearmen | 6/4/5 | 14/15/14 | — |
+| 5 | Shadowsong | Arulix | Thunderstrike | Cavalry | 4/5/5 | 11/11/11 | Alicent |
+| 6 | Shadowrend | Nyrena | Arrax | Shieldbearers | 5/5/5 | 1/1/1 | — |
+| 7 | Tashix | Crimson | Daemoros | Archers | 4/2/4 | 1/1/1 | — |
+| 8 | Vesper | Velar | Tairax | Shieldbearers | 5/4/3 | 1/1/1 | — |
+| 9 | Venator | Vermithor | Caraxes | Spearmen | 3/3/2 | 20/20/1 | — |
+| 10 | Kalspire | Feskar | Vermax | Cavalry | 3/4/4 | 1/1/1 | — |
 
-| Priority | Left flank | Vanguard | Right flank | Troops | Intended role |
-|---:|---|---|---|---|---|
-| **1** | **Sheepstealer** | **Malachite** | **Shimmer** | Cavalry | Prey-based Fire damage; two sources of team Recovery and 6★ Shimmer sustain |
-| **2** | **Syrax** | **Dawnseeker** | **Jagadrix** | Spearmen | Tactical Inferno 5 amplifies left Tactical and right Fire; Sabotage 4 and Recovery support |
-| **3** | **Solstryker** | **Zivern** | **Antares** | Archers | 6★ Zivern Tactical vulnerability, Solstryker Tactical hits, Antares Vulnerable/Fire |
-| **4** | **Vaeldra** | **Rhysarion** | **Bevlorin** | Spearmen | Taunt, opening damage suppression, round-four Recovery and mixed damage |
-| **5** | **Shadowsong** | **Arulix** | **Thunderstrike** | Cavalry | Fire/Physical damage, anti-Fire suppression and Battle Rush 5 |
-| **6** | **Shadowrend** | **Nyrena** | **Arrax** | Shieldbearers | Panic, enemy damage suppression and Weakened for attrition |
-| **7** | **Vhagar** | **Tashix** | **Daemoros** | Archers | Taunt helped by Burn, Fire burst and boosted right-flank Physical |
-| **8** | **Vesper** | **Velar** | **Moondancer** | Shieldbearers | Sentinel Tactical triggers for Moondancer's Rising Tide defensive stacks |
-| **9** | **Venator** | **Vermithor** | **Caraxes** | Spearmen | Protect/Physical pressure with right-flank Fire damage |
-| **10** | **Kalspire** | **Feskar** | **Vermax** | Cavalry | Spreading Blaze buffs Tactical damage; Physical suppression and Bleed |
+All 30 assigned dragons are distinct; all three have positive affinity for each march's troop type per current green icons. Bench: Sunfyre, Moondancer, Vhagar, Meleys, Seasmoke, Smoketail, Tessarion, Starshower. These are ten presets, not ten concurrent armies; field up to five. Start with 1–5 as general candidates and adjust for troop advantage. March 6 is a long-term Shieldbearer candidate but currently all level 1; march 9 has a level-1 Caraxes. Do not mistake displayed capacity for filled troops.
 
-All thirty assigned dragons are unique, owned, and positively aligned with the assigned troop type. **The game permits up to five dragon-led armies simultaneously**: begin with **1–5** as deployment candidates; treat **6–10** as rotation and matchup presets, not five additional simultaneous marches. Reign Levels, troop stock and your opponent's composition may change which five to activate.
+## Rationale
 
-## Positions and current-star caveats
+- **1:** Keep. Malachite Forest's Instinct 3 and Shimmer Loyal Shield 4 with unlocked 6-star Recovery sustain Sheepstealer. Left Fire bonus and anti-healing pressure.
+- **2:** Keep. Dawnseeker Tactical Inferno 5 and Unbroken Devotion 5 support Syrax 2-star and Jagadrix 7-star (Whispering Sabotage 5). Jagadrix Second Wind applies self Nullify Recovery after round 6; watch targeting. Syrax 6-star Recovery locked.
+- **3:** Keep. Solstryker and Antares now 5-star with second habits; Zivern 6-star Tactical vulnerability and Antares Vulnerable complement Solstryker's conditional even-round Tactical hits. No guaranteed proc.
+- **4:** Keep. Vaeldra 6-star Tempting Distraction 1 makes Taunt targets take more non-basic Physical and Fire damage; Rhysarion Ebbing Fury 3 suppresses both sides early and heals on round 4. Bevlorin 5-star 6-star heal locked.
+- **5:** Keep. Arulix Hypnotic Helix 4 provides Overwhelm/Stagger, Battle Cunning 1 reduces enemy stats; Thunderstrike Battle Rush 5 and Dragon's Might 2 retain Physical pressure. No confirmed team heal.
+- **6:** Keep. Nyrena Mindful Synergy 2 and Battle Dread 2 buff allies/suppress enemies; Shadowrend and Arrax now 5-star, Arrax Headlong Into Danger 3. All three are level 1 this reign; develop before demanding fights.
+- **7:** Trial: replace Vhagar with Crimson and put Crimson in Vanguard. Its documented odd-round Stun chance enables a qualifying Alicent control trigger if Beacon is unlocked; Crimson Cunning plus Daemoros Willful cover both traits. Tashix contributes Enervate and Dragon's Cunning. Loses Vhagar Taunt and former Tashix Vanguard right-flank bonus; compare original, not guaranteed improvement.
+- **8:** Trial: replace Moondancer with Tairax. Burning Ward's 25% odd-round Stagger chance and Fire/Burn add control; Velar 4-star Quick Reflexes 1 and Vesper 5-star Tactical support retained. Loses Crescent Blade/Rising Tide synergy; retain original as defensive alternate. Tairax Sunder locked until 4-star.
+- **9:** Keep. Vermithor Protect and Noble Sacrifice 1 support Venator 3-star and Caraxes 2-star Battle Dread 1. Caraxes level 1 is a current-reign bottleneck; train before difficult fights. No six-star Legendary enhancements active.
+- **10:** Keep. Kalspire 3-star Robust Insight 1 and Vermax 4-star Reactive Instincts 1 strengthen the existing Feskar 4-star tactical/Physical suppression trio. Kalspire 6-star enhancement locked.
 
-- **March 1:** Malachite's Vanguard gives left Sheepstealer a Fire bonus. Malachite Forest's Instinct 3 and Shimmer's **unlocked 6★ Recovery** plus Loyal Shield 3 emphasize troop preservation. Sheepstealer is now 3★, not 2★.
-- **March 2:** Vanguard Dawnseeker's Tactical Inferno **5** prioritizes left Syrax's Tactical damage and right Jagadrix's Fire damage; Unbroken Devotion **5** helps the two other allies receive Recovery. Jagadrix is 6★ with Whispering Sabotage **4**. Syrax is 1★: do not count her 6★ Recovery.
-- **March 3:** Vanguard Zivern 6★ amplifies Tactical damage against enemies, helping left Solstryker. Antares 4★ applies Vulnerable and Fire pressure. Neither Vulnerable nor Tactical-debuff application should be described as guaranteed.
-- **March 4:** Vaeldra 4★ absorbs attention; Vanguard Rhysarion 4★ has Ebbing Fury 3, which lowers **allied as well as enemy** early-round damage, then Recovery on round four. Right Bevlorin is 4★, not 6★, so no six-star healing effect.
-- **March 5:** Vanguard Arulix 4★ reduces incoming Fire and protects right Thunderstrike 4★, whose Battle Rush is **5** and Dragon's Might **2**. Shadowsong 4★ brings Ensnare 2 and Fire damage. There is no verified team-wide heal.
-- **March 6:** Nyrena 4★ sits at Vanguard to mitigate right Arrax 4★. Shadowrend 4★ adds Panic and late-round Midnight Aura 1. Track stalemates and do not confuse mitigation with actual Recovery.
-- **March 7:** Daemoros 3★ can inflict Burn, conditionally improving Vhagar's Taunt; Vanguard Tashix 3★ buffs right Daemoros Physical damage. Vhagar remains **1★**, without later defensive habits.
-- **March 8:** Moondancer **1★** grants Crescent Blade to a Sentinel; Vesper 4★ and Vanguard Velar 3★ both meet that requirement. Their Tactical activity may accumulate Moondancer Rising Tide at **most once per round**. Verify the actual chosen recipient.
-- **March 9:** Vanguard Vermithor 2★ provides Protect and Noble Sacrifice 1; its right-flank protection covers Caraxes 1★, while Venator 1★ deals Physical damage. No 6★ Legendary enhancements are currently active.
-- **March 10:** Vanguard Feskar 4★ protects right Vermax **2★**, whose Spreading Blaze may buff Kalspire's or Feskar's Tactical attacks. Kalspire remains 1★, so no six-star enhancement.
+## Commander assignment
 
-**Bench / matchup swaps (six):** Crimson, Seasmoke, Sunfyre, Starshower, Tairax and Tessarion. Seasmoke's Cleanse is an alternative versus heavy enemy buffs; 2★ Tairax's *Whisper of Ash 1* and Stagger are an alternative when control is needed. A benched dragon is not considered permanently inferior.
+Rhaenyra on 1 (two Stalwart); Corlys on 3 (Relentless and Cunning); Alicent on 5 (Cunning and real Vanguard Control from Arulix, but lacks Willful). Test Alicent on 7 instead once developed (Cunning Crimson, Willful Daemoros; Crimson can Stun from Vanguard). Hightower's Beacon is not assumed active at the last observed commander rank 1; unlock/verify talents. Do not assign one commander to two deployed armies. Prior November 25 suggestion to use Jagadrix in an Archer trio is superseded: latest profile shows Spearmen positive only; do not assume Archer affinity from older data. Rhaenyra rank 3 and Alicent/Corlys rank 1 last observed Nov 25; no completed upgrades inferred.
 
-**Counter rules:** Cavalry > Shieldbearers > Archers > Spearmen > Cavalry. Match a known opponent's troop type before blindly following deployment priority. Siege is for durability damage, not these general-purpose combat presets. [Official mechanics](https://news.gotdragonfire.com/a-guide-to-dragons/) · [Current community 36-dragon affinity/ability reference](https://wyrmtable.com/dragons).
+## Upgrade sequence
 
-**September event, not a universal PvP meta:** The official [Kingswood Hunt](https://news.gotdragonfire.com/the-kingswood-hunt-september-special-event/) runs September 17–23; White Stags can hit with Physical damage and Stagger. Consider the suppression/protection in marches 4, 6, 9 or 10 for that particular PvE matchup, adjusting to opponent troop type and current Reign Levels. No validated September-wide PvP win rates or patch-specific combat balance claims are inferred.
+- Permanent: unlock Rhaenyra's two rank-1 talents if still locked (2,000 Medals total at last observed prices, no Honors); verify current prices. Then prioritize useful active habits, especially Arulix Hypnotic Helix and Shimmer Loyal Shield, both 4/5. Arulix 6-star (248 relics remaining) unlocks a third habit and command enhancement; Arrax 6-star (133) and Shimmer 7-star (184) are useful milestones; Dawnseeker's first two habits already maxed. Relic pools and core costs differ; no exact spending optimization without inventory.
+- Current reign: train the three Shieldbearers in march 6 and Caraxes in march 9 before harder fights. Raise reserve marches only if needed. Reassess after each reset.
+- Test original 7 (Vhagar/Tashix/Daemoros) and 8 (Vesper/Velar/Moondancer) against new versions using comparable opponents. Record troop counts and losses, counters, equipment, dragon/commander levels, status activations, win/stalemate. No win rates estimated.
 
-**Validation before labeling a march proven:** for fights *after this roster date*, record game version, six dragons/Stars/Habits/Reign Levels, starting troops, troop advantage, equipment, enemy damage, own remaining troop %, enemy remaining troop %, winner versus stalemate, duration and activation of conditional effects. Historical battles remain archival, not optimization evidence for the new roster.
+## References
+- https://news.gotdragonfire.com/a-guide-to-dragons/
+- https://news.gotdragonfire.com/alicent-hightower-devoted-light/
+- https://news.gotdragonfire.com/corlys-velaryon-the-sea-snake/
+- https://news.gotdragonfire.com/rhaenyra-the-realms-delight/
+- https://news.gotdragonfire.com/a-guide-to-commanders/
 
-## Previous versions (historical only)
+## Historical plans
+- [September 20 JSON](../armies/current-ten-marches-2026-09-20.json)
+- [September 20 analysis](../analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-09-20.md)
+- [September 3 marches](../armies/current-ten-marches-2026-09-03.json)
 
-- [September 3 roster](dragon-roster-2026-09-03.json)
-- [September 3 ten marches](../armies/current-ten-marches-2026-09-03.json)
-- [August Wyrmtable comparison](../analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md)
+Current machine-readable plan: [November 26 JSON](../armies/current-ten-marches-2026-11-26.json).

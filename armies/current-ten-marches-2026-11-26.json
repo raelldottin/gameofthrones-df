@@ -1,0 +1,492 @@
+{
+  "observed_date": "2026-11-26",
+  "status": "mechanics-guided proposed revision; not battle validated or globally optimized",
+  "source_roster": "player-state/dragon-update-2026-11-26.json",
+  "source_reign_snapshot": "player-state/dragon-reign-snapshot-2026-11-26.json",
+  "source_commander_snapshot": "player-state/commander-update-2026-11-25.json",
+  "supersedes": "armies/current-ten-marches-2026-09-20.json",
+  "position_order": [
+    "left",
+    "vanguard",
+    "right"
+  ],
+  "methodology": {
+    "owned_profiles_considered": 38,
+    "positive_affinity_source": "Green troop icons in November 26 screenshots; previous ability references used for named effects, current screenshots take precedence over conflicting historical affinity records.",
+    "positive_affinities": {
+      "Malachite": [
+        "Cavalry",
+        "Shieldbearers"
+      ],
+      "Sheepstealer": [
+        "Cavalry",
+        "Archers"
+      ],
+      "Shimmer": [
+        "Cavalry",
+        "Siege"
+      ],
+      "Syrax": [
+        "Spearmen",
+        "Archers"
+      ],
+      "Jagadrix": [
+        "Spearmen"
+      ],
+      "Dawnseeker": [
+        "Spearmen"
+      ],
+      "Venator": [
+        "Spearmen",
+        "Shieldbearers"
+      ],
+      "Vermithor": [
+        "Spearmen",
+        "Shieldbearers"
+      ],
+      "Zivern": [
+        "Archers",
+        "Siege"
+      ],
+      "Antares": [
+        "Archers"
+      ],
+      "Solstryker": [
+        "Archers"
+      ],
+      "Rhysarion": [
+        "Spearmen",
+        "Shieldbearers",
+        "Siege"
+      ],
+      "Vaeldra": [
+        "Spearmen"
+      ],
+      "Bevlorin": [
+        "Spearmen"
+      ],
+      "Shadowsong": [
+        "Cavalry"
+      ],
+      "Arulix": [
+        "Cavalry"
+      ],
+      "Thunderstrike": [
+        "Cavalry"
+      ],
+      "Sunfyre": [
+        "Spearmen",
+        "Cavalry"
+      ],
+      "Moondancer": [
+        "Shieldbearers",
+        "Archers"
+      ],
+      "Vhagar": [
+        "Shieldbearers",
+        "Archers",
+        "Siege"
+      ],
+      "Kalspire": [
+        "Cavalry",
+        "Shieldbearers",
+        "Siege"
+      ],
+      "Crimson": [
+        "Spearmen",
+        "Archers",
+        "Siege"
+      ],
+      "Caraxes": [
+        "Spearmen",
+        "Cavalry"
+      ],
+      "Meleys": [
+        "Cavalry",
+        "Archers"
+      ],
+      "Seasmoke": [
+        "Cavalry",
+        "Archers"
+      ],
+      "Daemoros": [
+        "Archers"
+      ],
+      "Feskar": [
+        "Cavalry"
+      ],
+      "Tashix": [
+        "Archers"
+      ],
+      "Velar": [
+        "Shieldbearers"
+      ],
+      "Vermax": [
+        "Cavalry",
+        "Shieldbearers"
+      ],
+      "Smoketail": [
+        "Spearmen"
+      ],
+      "Tairax": [
+        "Cavalry",
+        "Shieldbearers",
+        "Siege"
+      ],
+      "Tessarion": [
+        "Spearmen",
+        "Cavalry",
+        "Siege"
+      ],
+      "Starshower": [
+        "Shieldbearers"
+      ],
+      "Nyrena": [
+        "Shieldbearers",
+        "Siege"
+      ],
+      "Shadowrend": [
+        "Shieldbearers",
+        "Siege"
+      ],
+      "Vesper": [
+        "Shieldbearers"
+      ],
+      "Arrax": [
+        "Shieldbearers",
+        "Archers"
+      ]
+    },
+    "objective": "Preserve eight functioning candidate layouts; test two reserve substitutions, match troop affinity, prioritize persistent stars/habits and distinct roles; seasonal readiness separately.",
+    "constraints": [
+      "three owned dragons per march",
+      "no repeated dragons among ten marches",
+      "all three dragons have positive affinity for assigned troop type",
+      "do not count locked star-gated effects as active"
+    ],
+    "limitations": "No controlled current-reign combat results, equipped item data, troop stock or calibrated simulator. Displayed sums are not measured combat strength or actual filled troops. No claim of mathematical optimum.",
+    "public_references": [
+      "https://news.gotdragonfire.com/a-guide-to-dragons/",
+      "https://news.gotdragonfire.com/alicent-hightower-devoted-light/",
+      "https://news.gotdragonfire.com/corlys-velaryon-the-sea-snake/",
+      "https://news.gotdragonfire.com/rhaenyra-the-realms-delight/",
+      "https://news.gotdragonfire.com/a-guide-to-commanders/"
+    ]
+  },
+  "marches": [
+    {
+      "march": 1,
+      "left": "Sheepstealer",
+      "vanguard": "Malachite",
+      "right": "Shimmer",
+      "troop_type": "Cavalry",
+      "role": "sustained damage and troop preservation",
+      "evidence": "Keep. Malachite Forest's Instinct 3 and Shimmer Loyal Shield 4 with unlocked 6-star Recovery sustain Sheepstealer. Left Fire bonus and anti-healing pressure.",
+      "status": "retained_unvalidated",
+      "stars": [
+        3,
+        3,
+        6
+      ],
+      "reign_levels_observed": [
+        23,
+        23,
+        23
+      ],
+      "displayed_troop_capacity_sum": 12948,
+      "displayed_power_sum": 52720,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": "Rhaenyra"
+    },
+    {
+      "march": 2,
+      "left": "Syrax",
+      "vanguard": "Dawnseeker",
+      "right": "Jagadrix",
+      "troop_type": "Spearmen",
+      "role": "tactical/fire burst plus Recovery and sabotage",
+      "evidence": "Keep. Dawnseeker Tactical Inferno 5 and Unbroken Devotion 5 support Syrax 2-star and Jagadrix 7-star (Whispering Sabotage 5). Jagadrix Second Wind applies self Nullify Recovery after round 6; watch targeting. Syrax 6-star Recovery locked.",
+      "status": "retained_unvalidated",
+      "stars": [
+        2,
+        5,
+        7
+      ],
+      "reign_levels_observed": [
+        22,
+        22,
+        22
+      ],
+      "displayed_troop_capacity_sum": 12341,
+      "displayed_power_sum": 48220,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 3,
+      "left": "Solstryker",
+      "vanguard": "Zivern",
+      "right": "Antares",
+      "troop_type": "Archers",
+      "role": "tactical vulnerability and mixed damage",
+      "evidence": "Keep. Solstryker and Antares now 5-star with second habits; Zivern 6-star Tactical vulnerability and Antares Vulnerable complement Solstryker's conditional even-round Tactical hits. No guaranteed proc.",
+      "status": "retained_unvalidated",
+      "stars": [
+        5,
+        6,
+        5
+      ],
+      "reign_levels_observed": [
+        19,
+        20,
+        20
+      ],
+      "displayed_troop_capacity_sum": 11858,
+      "displayed_power_sum": 44670,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": "Corlys"
+    },
+    {
+      "march": 4,
+      "left": "Vaeldra",
+      "vanguard": "Rhysarion",
+      "right": "Bevlorin",
+      "troop_type": "Spearmen",
+      "role": "taunt and opening damage suppression with mixed follow-through",
+      "evidence": "Keep. Vaeldra 6-star Tempting Distraction 1 makes Taunt targets take more non-basic Physical and Fire damage; Rhysarion Ebbing Fury 3 suppresses both sides early and heals on round 4. Bevlorin 5-star 6-star heal locked.",
+      "status": "retained_unvalidated",
+      "stars": [
+        6,
+        4,
+        5
+      ],
+      "reign_levels_observed": [
+        14,
+        15,
+        14
+      ],
+      "displayed_troop_capacity_sum": 9659,
+      "displayed_power_sum": 41520,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 5,
+      "left": "Shadowsong",
+      "vanguard": "Arulix",
+      "right": "Thunderstrike",
+      "troop_type": "Cavalry",
+      "role": "physical/fire pressure with anti-Fire mitigation",
+      "evidence": "Keep. Arulix Hypnotic Helix 4 provides Overwhelm/Stagger, Battle Cunning 1 reduces enemy stats; Thunderstrike Battle Rush 5 and Dragon's Might 2 retain Physical pressure. No confirmed team heal.",
+      "status": "retained_unvalidated",
+      "stars": [
+        4,
+        5,
+        5
+      ],
+      "reign_levels_observed": [
+        11,
+        11,
+        11
+      ],
+      "displayed_troop_capacity_sum": 8249,
+      "displayed_power_sum": 30280,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": "Alicent"
+    },
+    {
+      "march": 6,
+      "left": "Shadowrend",
+      "vanguard": "Nyrena",
+      "right": "Arrax",
+      "troop_type": "Shieldbearers",
+      "role": "physical mitigation, Weakened and late-round pressure",
+      "evidence": "Keep. Nyrena Mindful Synergy 2 and Battle Dread 2 buff allies/suppress enemies; Shadowrend and Arrax now 5-star, Arrax Headlong Into Danger 3. All three are level 1 this reign; develop before demanding fights.",
+      "status": "retained_unvalidated",
+      "stars": [
+        5,
+        5,
+        5
+      ],
+      "reign_levels_observed": [
+        1,
+        1,
+        1
+      ],
+      "displayed_troop_capacity_sum": 4434,
+      "displayed_power_sum": 17030,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 7,
+      "left": "Tashix",
+      "vanguard": "Crimson",
+      "right": "Daemoros",
+      "troop_type": "Archers",
+      "role": "control and dual-trait Alicent experiment",
+      "evidence": "Trial: replace Vhagar with Crimson and put Crimson in Vanguard. Its documented odd-round Stun chance enables a qualifying Alicent control trigger if Beacon is unlocked; Crimson Cunning plus Daemoros Willful cover both traits. Tashix contributes Enervate and Dragon's Cunning. Loses Vhagar Taunt and former Tashix Vanguard right-flank bonus; compare original, not guaranteed improvement.",
+      "status": "experimental_unvalidated",
+      "stars": [
+        4,
+        2,
+        4
+      ],
+      "reign_levels_observed": [
+        1,
+        1,
+        1
+      ],
+      "displayed_troop_capacity_sum": 4404,
+      "displayed_power_sum": 18790,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 8,
+      "left": "Vesper",
+      "vanguard": "Velar",
+      "right": "Tairax",
+      "troop_type": "Shieldbearers",
+      "role": "Tactical support and Stagger experiment",
+      "evidence": "Trial: replace Moondancer with Tairax. Burning Ward's 25% odd-round Stagger chance and Fire/Burn add control; Velar 4-star Quick Reflexes 1 and Vesper 5-star Tactical support retained. Loses Crescent Blade/Rising Tide synergy; retain original as defensive alternate. Tairax Sunder locked until 4-star.",
+      "status": "experimental_unvalidated",
+      "stars": [
+        5,
+        4,
+        3
+      ],
+      "reign_levels_observed": [
+        1,
+        1,
+        1
+      ],
+      "displayed_troop_capacity_sum": 4424,
+      "displayed_power_sum": 16680,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 9,
+      "left": "Venator",
+      "vanguard": "Vermithor",
+      "right": "Caraxes",
+      "troop_type": "Spearmen",
+      "role": "Physical finish, Protect and multi-target Fire",
+      "evidence": "Keep. Vermithor Protect and Noble Sacrifice 1 support Venator 3-star and Caraxes 2-star Battle Dread 1. Caraxes level 1 is a current-reign bottleneck; train before difficult fights. No six-star Legendary enhancements active.",
+      "status": "retained_unvalidated",
+      "stars": [
+        3,
+        3,
+        2
+      ],
+      "reign_levels_observed": [
+        20,
+        20,
+        1
+      ],
+      "displayed_troop_capacity_sum": 9316,
+      "displayed_power_sum": 36110,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    },
+    {
+      "march": 10,
+      "left": "Kalspire",
+      "vanguard": "Feskar",
+      "right": "Vermax",
+      "troop_type": "Cavalry",
+      "role": "Tactical stacking with Physical suppression",
+      "evidence": "Keep. Kalspire 3-star Robust Insight 1 and Vermax 4-star Reactive Instincts 1 strengthen the existing Feskar 4-star tactical/Physical suppression trio. Kalspire 6-star enhancement locked.",
+      "status": "retained_unvalidated",
+      "stars": [
+        3,
+        4,
+        4
+      ],
+      "reign_levels_observed": [
+        1,
+        1,
+        1
+      ],
+      "displayed_troop_capacity_sum": 4424,
+      "displayed_power_sum": 20330,
+      "positive_affinity_verified_from_profile": true,
+      "commander_candidate": null
+    }
+  ],
+  "bench": [
+    "Sunfyre",
+    "Moondancer",
+    "Vhagar",
+    "Meleys",
+    "Seasmoke",
+    "Smoketail",
+    "Tessarion",
+    "Starshower"
+  ],
+  "alternates": [
+    {
+      "march": 7,
+      "left": "Vhagar",
+      "vanguard": "Tashix",
+      "right": "Daemoros",
+      "troop_type": "Archers",
+      "note": "Original Burn/Taunt interaction; test against Crimson vanguard."
+    },
+    {
+      "march": 8,
+      "left": "Vesper",
+      "vanguard": "Velar",
+      "right": "Moondancer",
+      "troop_type": "Shieldbearers",
+      "note": "Original Sentinel/Crescent Blade defensive stacking; test against Tairax."
+    },
+    {
+      "march": 7,
+      "commander": "Alicent",
+      "note": "Transfer from march 5, not simultaneous. Both preferred traits and a Stun-capable Vanguard; Beacon rank not confirmed unlocked."
+    },
+    {
+      "march": 3,
+      "swap": "Do not swap Jagadrix in on Archers: latest profile only confirms Spearmen; older Archer recommendation superseded."
+    }
+  ],
+  "deployment": {
+    "simultaneously_active_army_limit": 5,
+    "source": "https://news.gotdragonfire.com/game-of-thrones-dragonfire-is-now-available/",
+    "initial_five_marches": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "other_five": "rotation/matchup configurations, not ten simultaneous active armies",
+    "counter_cycle": {
+      "Cavalry": "Shieldbearers",
+      "Shieldbearers": "Archers",
+      "Archers": "Spearmen",
+      "Spearmen": "Cavalry"
+    },
+    "notes": "March 6 is the preferred developed Shieldbearer candidate; currently all level 1, so train before high difficulty; march 9 is unevenly leveled. Counter advantage overrides general order."
+  },
+  "upgrade_priorities": {
+    "persistent": [
+      "Rhaenyra Swift Counsel and Heir's Reckoning rank 1 each at last observed 1000 Medals each, no Honors; verify costs and current ranks before spending.",
+      "Prioritize Arulix 6 stars (248 relics remaining) for third habit and command enhancement; Shimmer 7 stars (184 remaining) and Arrax 6 stars (133 remaining); not equal-cost or necessarily fungible relics.",
+      "Prioritize frequently used habits with verified useful next effects; Shimmer Loyal Shield 4→5 and Arulix Hypnotic Helix 4→5, budget dependent. Dawnseeker two habits already 5."
+    ],
+    "seasonal": [
+      "Raise Caraxes, and Shadowrend/Nyrena/Arrax from level 1; fill troop slots and choose opponent counters. Reign levels reset."
+    ],
+    "notes": "No spending performed; core inventory and current commander upgrades not confirmed."
+  },
+  "validation_plan": [
+    "Record combat mode, game version, roster date, equipment and reign levels",
+    "Record opponent troop type, dragons, star/habit levels and starting troop counts",
+    "Compare troop survival percentage, opposing troops removed, outcome and stalemate/round limit",
+    "Note activation of control, Recovery and star-gated effects",
+    "Do not reuse pre-September-20 battle reports as if they measured this configuration"
+  ]
+}

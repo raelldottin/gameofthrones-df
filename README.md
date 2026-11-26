@@ -13,7 +13,7 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 ## Commander Grove and Strategy
 
 - [November 25 commander snapshot](player-state/commander-update-2026-11-25.json) — Rhaenyra rank 3, Realm's Delight 3, Swift Counsel 0, Heir's Reckoning 0; Alicent and Corlys rank 1 visible. Exact talent previews, currency costs and persistent progression recorded; no purchase inferred.
-- [Commander pairing recommendations](analysis/COMMANDER_PAIRINGS_2026-11-25.md) — trait-aware assignments to existing marches, alternate PvP candidates, upgrade priorities and battle validation plan.
+- [Commander pairing recommendations](analysis/COMMANDER_PAIRINGS_2026-11-25.md) — trait-aware assignments to existing marches, alternate PvP candidates, upgrade priorities and battle validation plan. Superseded where inconsistent with the November 26 plan; Jagadrix's Archer-affinity suggestion is not supported by the latest screenshot.
 
 ## Current Dragon Roster and Strategy
 
@@ -49,9 +49,10 @@ Automated analysis of dragon screenshots from Game of Thrones: Dragon Fire mobil
 - [Latest progression overlay — September 22, 2026](player-state/dragon-update-2026-09-22.json) — apply **15 dragons' Hatchery relic updates** and the separately verified **Arulix 4★, 289/300 relics** profile over the September 20 complete roster. No unverified star or habit changes are inferred.
 - [September 22 Hatchery experiment](player-state/hatchery-experiment-2026-09-22.json) — ten standard chest openings for 900 gold, 78 relics across 15 dragons, and 499 gold shown afterward. Gold and chest counters are dated experiment observations, **not persistent dragon attributes**. The ten-pull yielded no Arulix relics; a subsequent detailed profile independently shows 289/300.
 - [Complete reign-persistent dragon roster — September 20, 2026](player-state/dragon-roster-2026-09-20.json) — all 36 owned dragons verified from detailed Dragon Pit screenshots. Star ranks, unlocked habit names and levels, relic progress, class and command names recorded. Tairax's first habit is verified as **Whisper of Ash 1**, with full command and five-habit reference in [dragons/tairax.json](dragons/tairax.json).
-- [Current 10-march plan — September 20](player-state/army-composition.md) — ten unique, all-positive-affinity trios computed using September 20 stars and unlocked habits; qualitative deployment priorities, **not measured win rates**. **Stale for optimization:** not recalculated for the September 22/25/26/27 relic updates, September 24 star upgrades, the September 26 Arulix/Syrax star-ups and Smoketail hatch, the September 27 Nyrena/Starshower/Seasmoke/Kalspire star increases, the October 3 Tashix 4★ star-up and newer relic progression, the October 6 exact relic progression, the October 7 Kalspire/Venator star-ups and newer relic progression, the October 10 Vermax 3★ star-up and newer relic progression, the October 12 Hatchery relic progression, or the October 17 relics and Thunderstrike/Vesper/Vermax star-ups, or October 20 relic progression, or November 26's 38-profile roster refresh.
-- [Current 10-march JSON — September 20](armies/current-ten-marches-2026-09-20.json) — machine-readable formations, bench, constraints and evidence status.
-- [September 20 formation analysis](analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-09-20.md) — ability and lane synergy, September event context, explicit limits and battle-validation plan.
+- [Current 10-march plan — November 26](player-state/army-composition.md) — 38 owned profiles considered; eight previous formations retained and two reserve substitutions proposed, all positive affinity, 30 distinct dragons; unvalidated.
+- [Current 10-march JSON — November 26](armies/current-ten-marches-2026-11-26.json) — persistent progression, seasonal readiness, candidate commander allocation and eight reserves.
+- [November 26 formation analysis](analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-11-26.md) — revised formations, upgrades, commander trials and limitations.
+- [Historical September 20 formation analysis](analysis/CURRENT_TEN_MARCHES_ROSTER_OPTIMIZED_2026-09-20.md) — superseded for current recommendations.
 - [Previous roster — September 3, 2026](player-state/dragon-roster-2026-09-03.json) and [September 3 marches](armies/current-ten-marches-2026-09-03.json) — historical snapshots, **superseded for current deployment**.
 - [August 14 Wyrmtable comparison](analysis/CURRENT_TEN_MARCHES_WYRMTABLE_2026-08-14.md) — historical max-level comparison only.
 
