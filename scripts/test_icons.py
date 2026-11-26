@@ -28,6 +28,10 @@ def test_tied_match_abstains():
 
 def test_low_similarity_abstains():
     assert choose(np.zeros_like(DIGITS[1]),DIGITS) is None
+    a=np.zeros((8,8),dtype=bool);a[0,0]=True
+    b=np.zeros_like(a);b[0,0]=True;b[0,1]=True;b[0,2]=True
+    c=np.zeros_like(a);c[-1,-1]=True
+    assert choose(a,{1:b,2:c}) is None
 
 def test_lock_requires_visual_evidence():
     assert habit_level(np.zeros_like(DIGITS[1]),np.zeros_like(LOCKS[0])) is None
