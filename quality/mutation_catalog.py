@@ -142,6 +142,8 @@ SUITES = {
         ("ignore nullify", "combat.py", 'if "nullify" in effects[n]: continue', "pass", "test_nullify_recovery"),
         ("allow group leakage", "combat.py", 'if {r["group"] for r in train}&{r["group"] for r in holdout}: return blocked("group_leakage")', "pass", "test_calibration_rejects_group_leakage"),
         ("allow scenario leakage", "combat.py", 'if {r["scenario_digest"] for r in train}&{r["scenario_digest"] for r in holdout}: return blocked("scenario_leakage")', "pass", "test_duplicate_scenario_rejected_even_if_group_differs"),
+        ("ignore frozen forecast checkpoint", "combat.py", "or digest(manifest)!=expected_digest", "", "test_frozen_prediction_evaluation_and_tamper_rejection"),
+        ("ignore conditional recovery multiplier", "combat.py", 'a.get("resistance_multiplier",1) if "resistance" in effects[n] else 1', "1", "test_resistance_doubles_only_conditional_recovery"),
         ("allow non-improving predictor", "combat.py", 'if error>=baseline: return blocked("no_baseline_improvement")', "pass", "test_worse_than_baseline_blocks"),
     ]),
 }

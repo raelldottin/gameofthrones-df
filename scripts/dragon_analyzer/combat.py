@@ -238,6 +238,68 @@ def prospective_gate(train,holdout,*,mode):
             "release_accepted":False,"win_probability":None}
 
 
+
+FORECAST_FIELDS={"id","group","mode","partition","scenario_digest","start","prediction","baseline","predicted_outcome"}
+OUTCOME_FIELDS={"id","scenario_digest","end","observed_outcome"}
+
+
+def hex_digest(x):
+    return isinstance(x,str) and len(x)==64 and all(c in "0123456789abcdef" for c in x)
+
+
+def freeze_predictions(train,forecasts,*,mode,model_digest):
+    """Generate a manifest BEFORE capture; caller must externally timestamp/checkpoint it."""
+    if mode not in ("pve","pvp") or not hex_digest(model_digest) or not isinstance(train,list) or not isinstance(forecasts,list) or not forecasts:
+        raise ValueError("invalid forecast manifest")
+    for f in forecasts:
+        if (not isinstance(f,dict) or set(f)!=FORECAST_FIELDS or f["mode"]!=mode
+                or f["partition"]!="holdout" or not isinstance(f["id"],str) or not f["id"]
+                or not isinstance(f["group"],str) or not f["group"] or not hex_digest(f["scenario_digest"])):
+            raise ValueError("invalid forecast fields")
+        if f["baseline"]!=f["start"]:
+            raise ValueError("baseline must be fixed no-change prediction")
+    if len({f["id"] for f in forecasts})!=len(forecasts):
+        raise ValueError("duplicate forecast")
+    # Serialize and reparse to detach mutable caller references.
+    return json.loads(json.dumps({"version":1,"mode":mode,"model_digest":model_digest,
+                                  "training_digest":digest(train),"forecasts":forecasts},
+                                 allow_nan=False))
+
+
+def evaluate_frozen(manifest,expected_digest,train,outcomes):
+    """Compare only frozen forecasts; the externally trusted checkpoint is required.
+    This checks content binding, not timestamp, independent source or actual model execution.
+    """
+    def blocked(reason):
+        return {"status":"blocked","reason":reason,"release_accepted":False,"win_probability":None}
+    if not hex_digest(expected_digest) or digest(manifest)!=expected_digest:
+        return blocked("checkpoint_mismatch")
+    if (not isinstance(manifest,dict) or set(manifest)!={"version","mode","model_digest","training_digest","forecasts"}
+            or manifest["version"]!=1 or not hex_digest(manifest["model_digest"])):
+        return blocked("invalid_manifest")
+    if digest(train)!=manifest["training_digest"]:
+        return blocked("training_changed")
+    try:
+        checked=freeze_predictions(train,manifest["forecasts"],mode=manifest["mode"],model_digest=manifest["model_digest"])
+    except ValueError:
+        return blocked("invalid_manifest")
+    if not isinstance(outcomes,list) or any(not isinstance(o,dict) or set(o)!=OUTCOME_FIELDS
+                                           or not isinstance(o["id"],str) for o in outcomes):
+        return blocked("invalid_outcomes")
+    by={o["id"]:o for o in outcomes}
+    forecasts=checked["forecasts"]
+    if len(by)!=len(outcomes) or set(by)!={f["id"] for f in forecasts}:
+        return blocked("outcome_census_mismatch")
+    rows=[]
+    for f in forecasts:
+        o=by[f["id"]]
+        if o["scenario_digest"]!=f["scenario_digest"]:
+            return blocked("outcome_scenario_mismatch")
+        rows.append({**f,**o})
+    result=prospective_gate(train,rows,mode=manifest["mode"])
+    return {**result,"manifest_digest":expected_digest,"model_digest":manifest["model_digest"]}
+
+
 if __name__=="__main__":
     root=Path(__file__).resolve().parents[2]
     print(json.dumps({"march_1_partial":compile_actions(root,["Sheepstealer","Malachite","Shimmer"]),
