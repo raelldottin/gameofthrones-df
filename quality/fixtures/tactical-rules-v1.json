@@ -1,0 +1,329 @@
+{
+  "version": "tactical-opportunity-v1",
+  "source_blobs": {
+    "dragons/shimmer.json": "875ae590ec8ffa57cd9d13183f6098261893d898",
+    "dragons/dawnseeker.json": "87ca3cabcd33930946a5385a30b804030fcabc67",
+    "dragons/velar.json": "a37cab499f77128d1c4ea61146a69836aedcb99b",
+    "dragons/malachite.json": "a93848ce96e682d20998520ebab5eb5d54c3defb",
+    "dragons/syrax.json": "bf9f0e33d0fbf5f018b65714c7d7eed990bd5126",
+    "dragons/rhysarion.json": "b47b0e2430585e899e9db697457c7274ffc5af82",
+    "dragons/zivern.json": "9b75f3347889d4eaaea052445083533ba8d17c10",
+    "dragons/antares.json": "5866944cece3f3a15023a8f419b42eb0648211f8",
+    "dragons/vaeldra.json": "6e0268cb21216e6fec993be4725e0e8034d37b1a",
+    "dragons/bevlorin.json": "c62472a249025097ef29a01ec614146c39281d5e",
+    "dragons/thunderstrike.json": "219c97f76c2842c67377d873398eb97a665d99b9",
+    "dragons/arrax.json": "37d45f74ff2a49fa2d357459fce42f35516723c6",
+    "dragons/nyrena.json": "dca87620f1bac3294af5b5a5fb919c76a7db800c",
+    "dragons/feskar.json": "e38d7a4060968c919c8ee6fe52d2669325112aba"
+  },
+  "directional_rules": [
+    {
+      "owner": "Shimmer",
+      "habit": "Crushing Force",
+      "gate": 2,
+      "position": "left",
+      "damage": "Physical",
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "levels": {
+        "1": 9,
+        "2": 10.8,
+        "3": 12.6,
+        "4": 15.3,
+        "5": 18
+      },
+      "source": "dragons/shimmer.json"
+    },
+    {
+      "owner": "Shimmer",
+      "habit": "Crushing Force",
+      "gate": 2,
+      "position": "right",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "levels": {
+        "1": 9,
+        "2": 10.8,
+        "3": 12.6,
+        "4": 15.3,
+        "5": 18
+      },
+      "source": "dragons/shimmer.json"
+    },
+    {
+      "owner": "Dawnseeker",
+      "habit": "Tactical Inferno",
+      "gate": 2,
+      "position": "left",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "levels": {
+        "1": 9,
+        "2": 10.8,
+        "3": 12.6,
+        "4": 15.3,
+        "5": 18
+      },
+      "source": "dragons/dawnseeker.json"
+    },
+    {
+      "owner": "Dawnseeker",
+      "habit": "Tactical Inferno",
+      "gate": 2,
+      "position": "right",
+      "damage": "Fire",
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "levels": {
+        "1": 9,
+        "2": 10.8,
+        "3": 12.6,
+        "4": 15.3,
+        "5": 18
+      },
+      "source": "dragons/dawnseeker.json"
+    },
+    {
+      "owner": "Velar",
+      "habit": "Strategic Leader",
+      "gate": 2,
+      "position": "vanguard",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "levels": {
+        "1": 10,
+        "2": 12,
+        "3": 14,
+        "4": 17,
+        "5": 20
+      },
+      "source": "dragons/velar.json"
+    }
+  ],
+  "attacks": [
+    {
+      "owner": "Shimmer",
+      "command": "Unbreakable Loyalty",
+      "damage": "Tactical",
+      "rounds": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "source": "dragons/shimmer.json"
+    },
+    {
+      "owner": "Dawnseeker",
+      "command": "Radiant Wings",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "source": "dragons/dawnseeker.json"
+    },
+    {
+      "owner": "Velar",
+      "command": "Whirlwind",
+      "damage": "Tactical",
+      "rounds": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "source": "dragons/velar.json"
+    },
+    {
+      "owner": "Malachite",
+      "command": "Warden's Rally",
+      "damage": "Tactical",
+      "rounds": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "source": "dragons/malachite.json"
+    },
+    {
+      "owner": "Syrax",
+      "command": "Blazing Fury",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        4,
+        6,
+        9
+      ],
+      "source": "dragons/syrax.json"
+    },
+    {
+      "owner": "Rhysarion",
+      "command": "Dawnsong",
+      "damage": "Physical",
+      "rounds": [
+        1,
+        4,
+        7
+      ],
+      "source": "dragons/rhysarion.json"
+    },
+    {
+      "owner": "Rhysarion",
+      "command": "Dawnsong",
+      "damage": "Fire",
+      "rounds": [
+        2,
+        5,
+        8
+      ],
+      "source": "dragons/rhysarion.json"
+    },
+    {
+      "owner": "Zivern",
+      "command": "Silent Shade",
+      "damage": "Tactical",
+      "rounds": [
+        1,
+        4,
+        6,
+        9
+      ],
+      "source": "dragons/zivern.json"
+    },
+    {
+      "owner": "Antares",
+      "command": "Relentless Pursuit",
+      "damage": "Fire",
+      "rounds": [
+        3,
+        6,
+        9
+      ],
+      "source": "dragons/antares.json"
+    },
+    {
+      "owner": "Vaeldra",
+      "command": "Lure",
+      "damage": "Physical",
+      "rounds": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "source": "dragons/vaeldra.json"
+    },
+    {
+      "owner": "Bevlorin",
+      "command": "Nature's Reckoning",
+      "damage": "Physical",
+      "rounds": [
+        1,
+        5,
+        9
+      ],
+      "source": "dragons/bevlorin.json"
+    },
+    {
+      "owner": "Bevlorin",
+      "command": "Nature's Reckoning",
+      "damage": "Fire",
+      "rounds": [
+        3,
+        7
+      ],
+      "source": "dragons/bevlorin.json"
+    },
+    {
+      "owner": "Thunderstrike",
+      "command": "Tail Whip",
+      "damage": "Physical",
+      "rounds": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "source": "dragons/thunderstrike.json"
+    },
+    {
+      "owner": "Arrax",
+      "command": "Sudden Strike",
+      "damage": "Physical",
+      "rounds": [
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "source": "dragons/arrax.json"
+    },
+    {
+      "owner": "Nyrena",
+      "command": "Undermine",
+      "damage": "Fire",
+      "rounds": [
+        1,
+        3
+      ],
+      "source": "dragons/nyrena.json"
+    },
+    {
+      "owner": "Nyrena",
+      "command": "Undermine",
+      "damage": "Tactical",
+      "rounds": [
+        5,
+        7,
+        9
+      ],
+      "source": "dragons/nyrena.json"
+    },
+    {
+      "owner": "Feskar",
+      "command": "Calculated Assault",
+      "damage": "Tactical",
+      "rounds": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "source": "dragons/feskar.json"
+    }
+  ],
+  "notes": "June profile transcriptions; current November command and habit names checked. Unknown fallback and conditional attacks excluded."
+}
