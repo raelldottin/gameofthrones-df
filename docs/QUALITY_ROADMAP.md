@@ -34,3 +34,5 @@ Q6 draft: [battle replay and illustrative attrition model](Q6_BATTLE_EVALUATION.
 Q7 draft: [bounded workflow supervisor contract](Q7_SUPERVISOR.md); simulated dispatch only, authenticated runtime integration and independent acceptance pending.
 
 Q8 draft: [release assessment and operational gates](Q8_RELEASE_ACCEPTANCE.md). Production blocked; no independent score or release authorization.
+
+Wave 2: [production hardening roadmap](WAVE2_ROADMAP.md). Q9 [shared mutation infrastructure](Q9_TEST_INFRASTRUCTURE.md) is draft pending CI.

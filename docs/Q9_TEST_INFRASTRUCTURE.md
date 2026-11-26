@@ -1,0 +1,11 @@
+# Q9 — Unified mutation infrastructure
+
+Replaced eight duplicated execution loops with one runner and a verbatim catalog of 74 targeted cases. Old commands remain compatibility wrappers. Run `python -m quality.mutation_runner` or add `--suite release`. Optional `--output PATH` exclusively creates a JSON manifest. CI publishes a separate manifest per Python version; manifest is local evidence, not authenticated release receipt.
+
+Before mutation, run clean suite on a temporary copy, record exact JUnit testcase identities and require all pass. For each mutation, require one unique source anchor, copy inputs, alter source only in temporary workspace, run selected test(s), compare exact identity census with clean baseline. Distinguish killed, survived, infrastructure_error. A killed case requires pytest exit 1, matching complete census, expected test-body failure, no error/skip. Collection errors, malformed XML, timeouts, missing targets, partial census and duplicate identities cannot count as kills. Successful exit with all selected tests passing is a survivor. Do not count test-body exceptions as proof of semantic relevance without review; this is targeted mutation testing, not exhaustive source mutation coverage.
+
+Test the runner using synthetic JUnit edge cases and real subprocess canaries (known bug, equivalent mutation, syntax error, absent anchor, broken clean baseline). Preserve original source files and previous benchmark artifacts. Git commit/tree, tracked cleanliness, catalog hash, Python version, planned/observed counts and per-case source hashes are reported. Local caller/CI artifact authenticity remains external; untracked files and execution environment are not cryptographically bound, so not an authenticated release receipt. No hostile-code sandbox; only run trusted repository tests.
+
+Wave 2 roadmap is now tracked in WAVE2_ROADMAP.md. This slice does not restructure the domain package or add live agents; architecture fitness tests will be incrementally expanded. No independent agents, no release score, no merge.
+
+QA iteration incorporates the Q8 surviving-mutant repair via its parent. Added narrow AST fitness checks against direct filesystem/network/process/OCR imports and dynamic evaluation in the pure reconciliation and supervisor modules. These are guardrails, not proof of transitive purity or security.
