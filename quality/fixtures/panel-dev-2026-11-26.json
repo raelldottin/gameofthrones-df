@@ -1,0 +1,808 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only_single_reign_session",
+  "label_provenance": "Manual screenshot transcriptions in existing November 26 roster and reign files; not independently adjudicated. Duplicate views retained, never split across evaluation partitions.",
+  "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "rows": [
+    {
+      "source": "IMG_5901.jpeg",
+      "expected": {
+        "name": "Malachite",
+        "dragon_class": "Sentinel",
+        "temperament": "Stalwart",
+        "speed": "Fast",
+        "stage": "Whelp",
+        "level": 23,
+        "xp_current": 90746,
+        "xp_required_display": "95.7K",
+        "power": 19100,
+        "capacity": 4316,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 40,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5902.jpeg",
+      "expected": {
+        "name": "Sheepstealer",
+        "dragon_class": "Hunter",
+        "temperament": "Ruthless",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 23,
+        "xp_current": 73863,
+        "xp_required_display": "95.7K",
+        "power": 18020,
+        "capacity": 4316,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 70,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5903.jpeg",
+      "expected": {
+        "name": "Shimmer",
+        "dragon_class": "Sentinel",
+        "temperament": "Stalwart",
+        "speed": "Slow",
+        "stage": "Adult",
+        "level": 23,
+        "xp_current": 90746,
+        "xp_required_display": "95.7K",
+        "power": 15600,
+        "capacity": 4316,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 616,
+        "relic_required": 800,
+        "stars": 6
+      }
+    },
+    {
+      "source": "IMG_5904.jpeg",
+      "expected": {
+        "name": "Syrax",
+        "dragon_class": "Sentinel",
+        "temperament": "Nimble",
+        "speed": "Very Fast",
+        "stage": "Whelp",
+        "level": 22,
+        "xp_current": 12488,
+        "xp_required_display": "84.7K",
+        "power": 15620,
+        "capacity": 3747,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 30,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5905.jpeg",
+      "expected": {
+        "name": "Jagadrix",
+        "dragon_class": "Hunter",
+        "temperament": "Willful",
+        "speed": "Average",
+        "stage": "Adult",
+        "level": 22,
+        "xp_current": 819,
+        "xp_required_display": "84.7K",
+        "power": 17800,
+        "capacity": 4407,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 82,
+        "relic_required": 1250,
+        "stars": 7
+      }
+    },
+    {
+      "source": "IMG_5906.jpeg",
+      "expected": {
+        "name": "Dawnseeker",
+        "dragon_class": "Sentinel",
+        "temperament": "Nimble",
+        "speed": "Very Fast",
+        "stage": "Juvenile",
+        "level": 22,
+        "xp_current": 12488,
+        "xp_required_display": "84.7K",
+        "power": 14800,
+        "capacity": 4187,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 57,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5907.jpeg",
+      "expected": {
+        "name": "Venator",
+        "dragon_class": "Warrior",
+        "temperament": "Ruthless",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 20,
+        "xp_current": 33252,
+        "xp_required_display": "66.3K",
+        "power": 16020,
+        "capacity": 3929,
+        "energy_current": 210,
+        "energy_maximum": 100,
+        "relic_current": 25,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5908.jpeg",
+      "expected": {
+        "name": "Vermithor",
+        "dragon_class": "Champion",
+        "temperament": "Dominant",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 20,
+        "xp_current": 32559,
+        "xp_required_display": "66.3K",
+        "power": 16020,
+        "capacity": 3929,
+        "energy_current": 210,
+        "energy_maximum": 100,
+        "relic_current": 0,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5909.jpeg",
+      "expected": {
+        "name": "Zivern",
+        "dragon_class": "Sentinel",
+        "temperament": "Cunning",
+        "speed": "Slow",
+        "stage": "Adult",
+        "level": 20,
+        "xp_current": 10054,
+        "xp_required_display": "66.3K",
+        "power": 22320,
+        "capacity": 4129,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 497,
+        "relic_required": 800,
+        "stars": 6
+      }
+    },
+    {
+      "source": "IMG_5910.jpeg",
+      "expected": {
+        "name": "Antares",
+        "dragon_class": "Hunter",
+        "temperament": "Ruthless",
+        "speed": "Fast",
+        "stage": "Juvenile",
+        "level": 20,
+        "xp_current": 2161,
+        "xp_required_display": "66.3K",
+        "power": 11650,
+        "capacity": 3929,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 163,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5911.jpeg",
+      "expected": {
+        "name": "Solstryker",
+        "dragon_class": "Champion",
+        "temperament": "Relentless",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 19,
+        "xp_current": 55281,
+        "xp_required_display": "58.7K",
+        "power": 10700,
+        "capacity": 3800,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 345,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5912.jpeg",
+      "expected": {
+        "name": "Rhysarion",
+        "dragon_class": "Champion",
+        "temperament": "Stalwart",
+        "speed": "Very Slow",
+        "stage": "Juvenile",
+        "level": 15,
+        "xp_current": 22886,
+        "xp_required_display": "27.1K",
+        "power": 13240,
+        "capacity": 3209,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 103,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5913.jpeg",
+      "expected": {
+        "name": "Vaeldra",
+        "dragon_class": "Warrior",
+        "temperament": "Stalwart",
+        "speed": "Average",
+        "stage": "Adult",
+        "level": 14,
+        "xp_current": 13875,
+        "xp_required_display": "21.7K",
+        "power": 19280,
+        "capacity": 3295,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 302,
+        "relic_required": 800,
+        "stars": 6
+      }
+    },
+    {
+      "source": "IMG_5914.jpeg",
+      "expected": {
+        "name": "Bevlorin",
+        "dragon_class": "Champion",
+        "temperament": "Stalwart",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 14,
+        "xp_current": 12129,
+        "xp_required_display": "21.7K",
+        "power": 9000,
+        "capacity": 3155,
+        "energy_current": 100,
+        "energy_maximum": 100,
+        "relic_current": 330,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5915.jpeg",
+      "expected": {
+        "name": "Shadowsong",
+        "dragon_class": "Hunter",
+        "temperament": "Dominant",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 11,
+        "xp_current": 8293,
+        "xp_required_display": "13.2K",
+        "power": 11180,
+        "capacity": 2713,
+        "energy_current": 130,
+        "energy_maximum": 100,
+        "relic_current": 235,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5916.jpeg",
+      "expected": {
+        "name": "Arulix",
+        "dragon_class": "Champion",
+        "temperament": "Cunning",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 11,
+        "xp_current": 7364,
+        "xp_required_display": "13.2K",
+        "power": 9150,
+        "capacity": 2768,
+        "energy_current": 130,
+        "energy_maximum": 100,
+        "relic_current": 252,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5917.jpeg",
+      "expected": {
+        "name": "Thunderstrike",
+        "dragon_class": "Warrior",
+        "temperament": "Ruthless",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 11,
+        "xp_current": 8293,
+        "xp_required_display": "13.2K",
+        "power": 9950,
+        "capacity": 2768,
+        "energy_current": 130,
+        "energy_maximum": 100,
+        "relic_current": 149,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5918.jpeg",
+      "expected": {
+        "name": "Sunfyre",
+        "dragon_class": "Sentinel",
+        "temperament": "Volatile",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 2,
+        "xp_current": 35,
+        "xp_required_display": "225",
+        "power": 4530,
+        "capacity": 1567,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 5,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5919.jpeg",
+      "expected": {
+        "name": "Moondancer",
+        "dragon_class": "Warrior",
+        "temperament": "Willful",
+        "speed": "Fast",
+        "stage": "Hatchling",
+        "level": 2,
+        "xp_current": 35,
+        "xp_required_display": "225",
+        "power": 2310,
+        "capacity": 1567,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 10,
+        "relic_required": 40,
+        "stars": 1
+      }
+    },
+    {
+      "source": "IMG_5920.jpeg",
+      "expected": {
+        "name": "Vhagar",
+        "dragon_class": "Warrior",
+        "temperament": "Dominant",
+        "speed": "Slow",
+        "stage": "Hatchling",
+        "level": 2,
+        "xp_current": 35,
+        "xp_required_display": "225",
+        "power": 2310,
+        "capacity": 1567,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 35,
+        "relic_required": 40,
+        "stars": 1
+      }
+    },
+    {
+      "source": "IMG_5921.jpeg",
+      "expected": {
+        "name": "Moondancer",
+        "dragon_class": "Warrior",
+        "temperament": "Willful",
+        "speed": "Fast",
+        "stage": "Hatchling",
+        "level": 2,
+        "xp_current": 35,
+        "xp_required_display": "225",
+        "power": 2310,
+        "capacity": 1567,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 10,
+        "relic_required": 40,
+        "stars": 1
+      }
+    },
+    {
+      "source": "IMG_5922.jpeg",
+      "expected": {
+        "name": "Vhagar",
+        "dragon_class": "Warrior",
+        "temperament": "Dominant",
+        "speed": "Slow",
+        "stage": "Hatchling",
+        "level": 2,
+        "xp_current": 35,
+        "xp_required_display": "225",
+        "power": 2310,
+        "capacity": 1567,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 35,
+        "relic_required": 40,
+        "stars": 1
+      }
+    },
+    {
+      "source": "IMG_5923.jpeg",
+      "expected": {
+        "name": "Kalspire",
+        "dragon_class": "Champion",
+        "temperament": "Relentless",
+        "speed": "Slow",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 6470,
+        "capacity": 1478,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 40,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5924.jpeg",
+      "expected": {
+        "name": "Crimson",
+        "dragon_class": "Hunter",
+        "temperament": "Cunning",
+        "speed": "Slow",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4070,
+        "capacity": 1458,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 21,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5925.jpeg",
+      "expected": {
+        "name": "Caraxes",
+        "dragon_class": "Hunter",
+        "temperament": "Volatile",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4070,
+        "capacity": 1458,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 25,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5926.jpeg",
+      "expected": {
+        "name": "Meleys",
+        "dragon_class": "Warrior",
+        "temperament": "Relentless",
+        "speed": "Very Fast",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4070,
+        "capacity": 1458,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 55,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5927.jpeg",
+      "expected": {
+        "name": "Seasmoke",
+        "dragon_class": "Champion",
+        "temperament": "Nimble",
+        "speed": "Fast",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4070,
+        "capacity": 1458,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 30,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5928.jpeg",
+      "expected": {
+        "name": "Daemoros",
+        "dragon_class": "Warrior",
+        "temperament": "Willful",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 7790,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 64,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5929.jpeg",
+      "expected": {
+        "name": "Feskar",
+        "dragon_class": "Champion",
+        "temperament": "Cunning",
+        "speed": "Fast",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 6930,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 191,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5930.jpeg",
+      "expected": {
+        "name": "Tashix",
+        "dragon_class": "Hunter",
+        "temperament": "Nimble",
+        "speed": "Fast",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 6930,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 52,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5931.jpeg",
+      "expected": {
+        "name": "Velar",
+        "dragon_class": "Sentinel",
+        "temperament": "Willful",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 6930,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 14,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5932.jpeg",
+      "expected": {
+        "name": "Vermax",
+        "dragon_class": "Warrior",
+        "temperament": "Dominant",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 6930,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 133,
+        "relic_required": 300,
+        "stars": 4
+      }
+    },
+    {
+      "source": "IMG_5933.jpeg",
+      "expected": {
+        "name": "Smoketail",
+        "dragon_class": "Hunter",
+        "temperament": "Ruthless",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4490,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 35,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5934.jpeg",
+      "expected": {
+        "name": "Tairax",
+        "dragon_class": "Hunter",
+        "temperament": "Volatile",
+        "speed": "Very Slow",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4490,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 105,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5935.jpeg",
+      "expected": {
+        "name": "Tessarion",
+        "dragon_class": "Champion",
+        "temperament": "Ruthless",
+        "speed": "Slow",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 4490,
+        "capacity": 1473,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 31,
+        "relic_required": 180,
+        "stars": 3
+      }
+    },
+    {
+      "source": "IMG_5936.jpeg",
+      "expected": {
+        "name": "Starshower",
+        "dragon_class": "Sentinel",
+        "temperament": "Relentless",
+        "speed": "Average",
+        "stage": "Whelp",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 2890,
+        "capacity": 1458,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 78,
+        "relic_required": 100,
+        "stars": 2
+      }
+    },
+    {
+      "source": "IMG_5937.jpeg",
+      "expected": {
+        "name": "Nyrena",
+        "dragon_class": "Champion",
+        "temperament": "Dominant",
+        "speed": "Slow",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 5860,
+        "capacity": 1478,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 182,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5938.jpeg",
+      "expected": {
+        "name": "Shadowrend",
+        "dragon_class": "Warrior",
+        "temperament": "Volatile",
+        "speed": "Slow",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 5260,
+        "capacity": 1478,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 230,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5939.jpeg",
+      "expected": {
+        "name": "Vesper",
+        "dragon_class": "Sentinel",
+        "temperament": "Nimble",
+        "speed": "Fast",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 5260,
+        "capacity": 1478,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 225,
+        "relic_required": 500,
+        "stars": 5
+      }
+    },
+    {
+      "source": "IMG_5940.jpeg",
+      "expected": {
+        "name": "Arrax",
+        "dragon_class": "Warrior",
+        "temperament": "Relentless",
+        "speed": "Average",
+        "stage": "Juvenile",
+        "level": 1,
+        "xp_current": 0,
+        "xp_required_display": "165",
+        "power": 5910,
+        "capacity": 1478,
+        "energy_current": 250,
+        "energy_maximum": 100,
+        "relic_current": 367,
+        "relic_required": 500,
+        "stars": 5
+      }
+    }
+  ]
+}
