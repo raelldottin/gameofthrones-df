@@ -120,6 +120,8 @@ SUITES = {
         ("reapprove revoked event", "ledger.py", 'if key in revoked:', "if False:", "test_revoke_preserves_transaction_history_and_is_terminal"),
         ("allow wrong source correction", "ledger.py", 'if any(old[k]!=new[k] for k in ("name","source_sha256","reign_id","observed_at")):', "if False:", "test_correction_cannot_change_source"),
         ("ignore external checkpoint", "ledger.py", 'if expected_head is not None and head!=expected_head:', "if False:", "test_tail_truncation_detected_by_external_checkpoint"),
+        ("ignore backup checkpoint", "ledger.py", "return restored.verify(expected_head=expected_head)", "return restored.verify()", "test_backup_refuses_unexpected_checkpoint_and_removes_destination"),
+        ("ignore database ledger identity", "ledger.py", 'if self.db.execute("SELECT id FROM ledger_identity WHERE slot=1").fetchone()!=(self.id,):', "if False:", "test_empty_database_cannot_be_reassigned_to_different_ledger"),
         ("omit correction approval", "ledger.py", 'approved[p["new"]]=actor', "pass", "test_correction_atomic_same_source_replaces_old_approval"),
     ]),
 }

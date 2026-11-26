@@ -1,4 +1,5 @@
 """Signed append-only local ledger; external key custody and checkpoints required."""
+from contextlib import closing
 import hashlib
 import hmac
 import json
@@ -116,6 +117,11 @@ class Ledger:
         self.db=sqlite3.connect(Path(path),isolation_level=None,timeout=10)
         self.db.execute("PRAGMA journal_mode=WAL")
         self.db.execute("PRAGMA synchronous=FULL")
+        self.db.execute("CREATE TABLE IF NOT EXISTS ledger_identity(slot INTEGER PRIMARY KEY CHECK(slot=1), id TEXT NOT NULL)")
+        self.db.execute("INSERT OR IGNORE INTO ledger_identity VALUES(1,?)",(self.id,))
+        if self.db.execute("SELECT id FROM ledger_identity WHERE slot=1").fetchone()!=(self.id,):
+            self.db.close()
+            raise LedgerError("ledger identity mismatch")
         self.db.execute("""CREATE TABLE IF NOT EXISTS entries(
             seq INTEGER PRIMARY KEY, hash TEXT NOT NULL UNIQUE,
             payload TEXT NOT NULL, signature TEXT NOT NULL)""")
@@ -202,16 +208,16 @@ class Ledger:
     def staged(self):
         return self._replay()[1]["staged"]
 
-    def backup(self,destination):
+    def backup(self,destination,*,expected_head=None):
         """Exclusive destination, consistent SQLite backup, authenticated replay check."""
         path=Path(destination)
         fd=os.open(path,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
         os.close(fd)
         try:
-            with sqlite3.connect(path) as dest:
+            with closing(sqlite3.connect(path)) as dest:
                 self.db.backup(dest)
             with Ledger(path,self.id,self.keys) as restored:
-                return restored.verify()
+                return restored.verify(expected_head=expected_head)
         except Exception:
             path.unlink(missing_ok=True)
             raise
