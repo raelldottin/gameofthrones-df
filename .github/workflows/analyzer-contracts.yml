@@ -19,7 +19,9 @@ jobs:
       - run: python -m pip install '.[test]'
       - run: python -m pytest -o addopts='' -q scripts/test_analyzer.py
       - run: python -m pytest -o addopts='' -q scripts/test_panel.py
+      - run: python -m pytest -o addopts='' -q scripts/test_visual.py
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
       - run: python quality/check_contract_mutations.py
       - run: python quality/check_panel_mutations.py
+      - run: python quality/check_visual_mutations.py
