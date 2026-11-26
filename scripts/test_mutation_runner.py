@@ -61,8 +61,8 @@ def test_invalid_xml_is_not_evidence(tmp_path):
 def test_catalog_preserves_all_original_cases():
     assert {name:len(cases) for name,(_,cases) in SUITES.items()}=={
         "contract":11,"panel":6,"visual":7,"reconcile":13,
-        "solver":7,"battle":8,"supervisor":13,"release":9}
-    assert sum(len(cases) for _,cases in SUITES.values())==74
+        "solver":7,"battle":8,"supervisor":13,"release":9,"runtime":9}
+    assert sum(len(cases) for _,cases in SUITES.values())==83
 
 def test_real_canaries_and_source_immutability(tmp_path):
     root=tmp_path/"project"

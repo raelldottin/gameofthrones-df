@@ -91,4 +91,15 @@ SUITES = {
     ("ignore unknown QA evidence", "release.py", "isinstance(x,str) and x in known", "isinstance(x,str)", "test_qa_evidence_cannot_reference_unknown_receipt"),
     ("authorize deployment", "release.py", '"issues":issues,"score":score,"release_authorized":False', '"issues":issues,"score":score,"release_authorized":True', "test_all_trusted_receipts_contract_only"),
 ]),
+    "runtime": ("scripts/test_runtime_bridge.py", [
+        ("ignore receipt signature", "runtime_bridge.py", 'if not hmac.compare_digest(sign_receipt(r,self.key),signature):', "if False:", "test_invalid_receipt_cannot_be_admitted[signature]"),
+        ("ignore artifact digest", "runtime_bridge.py", 'if not artifact or hash_bytes(artifact)!=r["artifact_hash"]:', "if not artifact:", "test_invalid_receipt_cannot_be_admitted[artifact_hash]"),
+        ("ignore runtime pin", "runtime_bridge.py", 'r["boundroom_pin"]!=BOUNDROOM_PIN or r["isolation_attested"] is not True', 'False or r["isolation_attested"] is not True', "test_invalid_receipt_cannot_be_admitted[boundroom_pin]"),
+        ("ignore isolation attestation", "runtime_bridge.py", 'r["isolation_attested"] is not True', "False", "test_invalid_receipt_cannot_be_admitted[isolation_attested]"),
+        ("allow receipt replacement silently", "runtime_bridge.py", 'if old!=(body,signature):', "if False:", "test_receipt_cannot_be_replaced"),
+        ("reuse runtime worker identity", "runtime_bridge.py", 'agent TEXT NOT NULL UNIQUE, context TEXT NOT NULL UNIQUE', 'agent TEXT NOT NULL, context TEXT NOT NULL', "test_worker_identity_cannot_be_reused"),
+        ("ignore request policy binding", "runtime_bridge.py", 'if req["policy_hash"]!=digest(req["policy"]):', "if False:", "test_request_policy_hash_must_match_even_if_request_rehashed"),
+        ("trust tampered stored receipt", "runtime_bridge.py", 'if not hmac.compare_digest(sign_receipt(r,self.key),stored[1]):', "if False:", "test_stored_receipt_tampering_rejected_on_replay"),
+        ("permit out of scope paths", "runtime_bridge.py", 'if PurePosixPath(p).parts[0] not in roots:', "if False:", "test_projection_rejects_unsafe_scope"),
+    ]),
 }
