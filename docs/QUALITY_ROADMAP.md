@@ -20,3 +20,5 @@
 See [Q1 implementation evidence](Q1_IMPLEMENTATION.md) for the draft fixes and limitations. Do not mark Q1 accepted before independent review, clean install, behavioral tests and source mutation gate pass.
 
 Proposed thresholds are targets, not measured results. Do not publish personal screenshots without approval. Use versioned benchmark hashes and regression history. No global release score until independent evidence exists.
+
+Q2 stacked draft: [candidate extraction and measured development baseline](Q2_CANDIDATE_EXTRACTION.md). Real-image acceptance remains blocked.

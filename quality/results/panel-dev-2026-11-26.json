@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only_single_reign_session",
+  "screenshots": 40,
+  "fields": 15,
+  "total": 600,
+  "correct": 524,
+  "wrong": 3,
+  "abstained": 73,
+  "exact_all_fields": 0.8733333333333333,
+  "emitted_precision": 0.9943074003795066,
+  "coverage": 0.8783333333333333,
+  "metrics": {
+    "name": {
+      "correct": 28,
+      "wrong": 0,
+      "abstain": 12
+    },
+    "dragon_class": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "temperament": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "speed": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "stage": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "level": {
+      "correct": 31,
+      "wrong": 3,
+      "abstain": 6
+    },
+    "xp_current": {
+      "correct": 34,
+      "wrong": 0,
+      "abstain": 6
+    },
+    "xp_required_display": {
+      "correct": 34,
+      "wrong": 0,
+      "abstain": 6
+    },
+    "power": {
+      "correct": 39,
+      "wrong": 0,
+      "abstain": 1
+    },
+    "capacity": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "energy_current": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "energy_maximum": {
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "relic_current": {
+      "correct": 39,
+      "wrong": 0,
+      "abstain": 1
+    },
+    "relic_required": {
+      "correct": 39,
+      "wrong": 0,
+      "abstain": 1
+    },
+    "stars": {
+      "correct": 0,
+      "wrong": 0,
+      "abstain": 40
+    }
+  },
+  "wrong_values": [
+    {
+      "source": "IMG_5918.jpeg",
+      "field": "level",
+      "expected": 2,
+      "actual": 9
+    },
+    {
+      "source": "IMG_5919.jpeg",
+      "field": "level",
+      "expected": 2,
+      "actual": 9
+    },
+    {
+      "source": "IMG_5921.jpeg",
+      "field": "level",
+      "expected": 2,
+      "actual": 9
+    }
+  ],
+  "engine": "Tesseract 5.5.0 / leptonica 1.84.1; English; PSM 6",
+  "parser_sha256": "d41020b0098176acffb016a4c2c87f8d1bc070b714ef9a8d4545819d19a5119b",
+  "raw_ocr_sha256": "852486c077186f52421e18cf9693a39f2090a1feeda77bc0e0e7b18335fdb6fe",
+  "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
+  "acceptance": "FAIL: wrong critical levels, stars not supported, no independent holdout",
+  "execution": "Actual 40 local source images cropped and read in a single Tesseract batch, then parsed against manually transcribed labels. CI does not possess these images."
+}
