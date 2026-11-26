@@ -111,3 +111,53 @@ def test_worse_than_baseline_blocks():
     train=[row(i,"t"+str(i),"train") for i in range(20)]
     hold=[{**row(i+20,"h"+str(i),"holdout"),"prediction":[0,0],"predicted_outcome":"mutual_elimination"} for i in range(20)]
     assert prospective_gate(train,hold,mode="pve")["status"]=="blocked"
+
+
+def test_resistance_doubles_only_conditional_recovery():
+    u=arena()
+    a=[action("a",rate=1000/2),action("b","resistance",target="self",rate=20),
+       {**action("b","heal",target="self",rate=51),"resistance_multiplier":2}]
+    result=simulate(u,a,seed=1)
+    assert result["end"]["b"]==70  # 40 damage, 10 recovery
+
+
+def test_frozen_prediction_evaluation_and_tamper_rejection():
+    from scripts.dragon_analyzer.combat import freeze_predictions, evaluate_frozen
+    train=[row(i,"t"+str(i),"train") for i in range(20)]
+    hold=[row(i+20,"h"+str(i),"holdout") for i in range(20)]
+    forecasts=[{k:v for k,v in r.items() if k not in ("end","observed_outcome")} for r in hold]
+    outcomes=[{k:r[k] for k in ("id","scenario_digest","end","observed_outcome")} for r in hold]
+    manifest=freeze_predictions(train,forecasts,mode="pve",model_digest="a"*64)
+    checkpoint=digest(manifest)
+    out=evaluate_frozen(manifest,checkpoint,train,outcomes)
+    assert out["status"]=="diagnostic_only" and out["mean_error"]==0
+    manifest["forecasts"][0]["prediction"]=[79,60]
+    assert evaluate_frozen(manifest,checkpoint,train,outcomes)["reason"]=="checkpoint_mismatch"
+
+
+def test_frozen_outcome_census_and_training_binding():
+    from scripts.dragon_analyzer.combat import freeze_predictions, evaluate_frozen
+    train=[row(1,"train","train")]
+    hold=row(2,"hold","holdout")
+    forecast={k:v for k,v in hold.items() if k not in ("end","observed_outcome")}
+    outcome={k:hold[k] for k in ("id","scenario_digest","end","observed_outcome")}
+    manifest=freeze_predictions(train,[forecast],mode="pve",model_digest="a"*64)
+    checkpoint=digest(manifest)
+    assert evaluate_frozen(manifest,checkpoint,train,[])["reason"]=="outcome_census_mismatch"
+    assert evaluate_frozen(manifest,checkpoint,train,[{**outcome,"scenario_digest":"b"*64}])["reason"]=="outcome_scenario_mismatch"
+    assert evaluate_frozen(manifest,checkpoint,[],[outcome])["reason"]=="training_changed"
+
+
+def test_frozen_baseline_cannot_be_replaced_with_arbitrary_forecast():
+    from scripts.dragon_analyzer.combat import freeze_predictions
+    hold=row(2,"hold","holdout")
+    forecast={k:v for k,v in hold.items() if k not in ("end","observed_outcome")}
+    forecast["baseline"]=[0,0]
+    with pytest.raises(ValueError,match="baseline"):
+        freeze_predictions([], [forecast],mode="pve",model_digest="a"*64)
+
+
+def test_capture_does_not_accept_observed_outcome_at_freeze():
+    from scripts.dragon_analyzer.combat import freeze_predictions
+    with pytest.raises(ValueError,match="forecast"):
+        freeze_predictions([], [row(2,"hold","holdout")],mode="pve",model_digest="a"*64)
