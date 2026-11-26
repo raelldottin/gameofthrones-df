@@ -19,6 +19,8 @@ CASES = [
     ("ignore score threshold", "supervisor.py", 'if score<p["min_score"]:', "if False:", "test_low_score_blocks"),
     ("unresolved architecture issue", "supervisor.py", 'if any(i["severity"] in ("high","critical") for i in issues):', "if False:", "test_unresolved_high_blocks"),
     ("allow mutable request", "supervisor.py", "if req!=expected or not isinstance(res,dict):", "if not isinstance(res,dict):", "test_policy_cannot_be_mutated_by_adapter"),
+    ("ignore run binding", "supervisor.py", 'req={"stage":stage,"run_id":run_id,', 'req={"stage":stage,', "test_run_id_binds_request_and_rejects_prior_run_receipt"),
+    ("omit active artifacts", "supervisor.py", '"active_artifacts":{k:{"artifact_hash":v["artifact_hash"],"artifact_hex":v["artifact_hex"]} for k,v in active.items()},', '"active_artifacts":{},', "test_all_active_artifacts_available_to_benchmark"),
     ("ignore repair limit", "supervisor.py", 'if repairs>=p["max_repairs"]:', 'if repairs>=p["max_repairs"]+1:', "test_exhaustion_is_bounded"),
 ]
 

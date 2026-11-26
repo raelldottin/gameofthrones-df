@@ -95,13 +95,15 @@ def valid_issues(issues):
         and i["route"] in STAGES[:-1] and nonblank(i["detail"]) for i in issues)
 
 
-def run(input_commit,policy,dispatch):
+def run(input_commit,policy,dispatch,*,run_id):
     """Run synchronous trusted dispatch callbacks. Accepted means contract only,
     never release authorization. Real agent identity, execution, timeout and
     immutable external storage must be enforced by the integration adapter.
     """
     if not isinstance(input_commit,str) or not re.fullmatch(r"[0-9a-f]{40}|[0-9a-f]{64}",input_commit):
         raise ValueError("invalid input commit")
+    if not nonblank(run_id) or len(run_id)>128:
+        raise ValueError("invalid run identity")
     p=copy.deepcopy(policy)
     validate_policy(p)
     policy_hash=digest(p)
@@ -111,13 +113,14 @@ def run(input_commit,policy,dispatch):
 
     def result(status,reason):
         return {"status":status,"reason":reason,"input_commit":input_commit,
-                "policy_hash":policy_hash,"repairs":repairs,"history":history,
+                "run_id":run_id,"policy_hash":policy_hash,"repairs":repairs,"history":history,
                 "score":score,"release_authorized":False}
 
     while stage_index<len(STAGES):
         stage=STAGES[stage_index]
         prior=active.get(STAGES[stage_index-1]) if stage_index else None
-        req={"stage":stage,"input_commit":input_commit,"policy":copy.deepcopy(p),
+        req={"stage":stage,"run_id":run_id,"input_commit":input_commit,"policy":copy.deepcopy(p),
+             "active_artifacts":{k:{"artifact_hash":v["artifact_hash"],"artifact_hex":v["artifact_hex"]} for k,v in active.items()},
              "policy_hash":policy_hash,"attempt":len(history)+1,
              "prior_hash":prior["artifact_hash"] if prior else None,
              "prior_artifact_hex":prior["artifact_hex"] if prior else None,
