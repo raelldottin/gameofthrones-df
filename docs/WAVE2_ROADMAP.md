@@ -22,3 +22,5 @@ Q12 draft: [signed player-state ledger](Q12_PLAYER_LEDGER.md); migration staging
 Q13 draft: [evidence-constrained positional and deployment optimization](Q13_TACTICAL_OPTIMIZER.md); calibrated effects and broader catalog pending.
 
 Q14 draft: [round-level illustrative combat engine and diagnostic calibration](Q14_COMBAT_CALIBRATION.md); actual prospective evidence pending.
+
+Q15 draft: [read-only strategy and bounded resource allocation](Q15_STRATEGY_INTELLIGENCE.md); fresh inventories and validation pending.

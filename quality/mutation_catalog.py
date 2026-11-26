@@ -146,4 +146,13 @@ SUITES = {
         ("ignore conditional recovery multiplier", "combat.py", 'a.get("resistance_multiplier",1) if "resistance" in effects[n] else 1', "1", "test_resistance_doubles_only_conditional_recovery"),
         ("allow non-improving predictor", "combat.py", 'if error>=baseline: return blocked("no_baseline_improvement")', "pass", "test_worse_than_baseline_blocks"),
     ]),
+    "strategy": ("scripts/test_strategy.py", [
+        ("ignore budget limits", "strategy.py", 'if any(c>budget[k] for k,c in zip(keys,costs)):continue', "pass", "test_exact_multi_resource_budget_beats_greedy"),
+        ("ignore mutually exclusive alternatives", "strategy.py", 'if len({o["group"] for o in subset})!=n:continue', "pass", "test_group_mutually_exclusive"),
+        ("treat rounded XP as exact", "strategy.py", '"exact":not bool(m[2])', '"exact":True', "test_xp_rounded_not_exact"),
+        ("accept stale habit cost", "strategy.py", 'if levels[0]!=nxt["from_level"]:continue', "pass", "test_stale_habit_cost_level_excluded"),
+        ("allow duplicate dragon assignment", "strategy.py", 'if name in marches:raise ValueError("duplicate dragon assignment")', "pass", "test_no_duplicate_dragon_assignments"),
+        ("assume unknown currency is free", "strategy.py", 'if not set(o["cost"])<=set(budget):', "if False:", "test_no_implicit_cost_conversion"),
+        ("pretend core budget known", "strategy.py", '"dragon_core_budget":None', '"dragon_core_budget":{}', "test_historical_costs_not_spend_authority"),
+    ]),
 }
