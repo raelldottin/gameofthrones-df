@@ -40,7 +40,7 @@ def report(version="3.11"):
         suites.append({"suite":name,"target":target,"baseline":{"status":"pass","tests":1,"exit_code":0,"error":None},
                        "cases":rows,"counts":{"killed":len(rows)},"passed":True})
     n=sum(len(cases) for _,cases in SUITES.values())
-    return {"schema_version":1,"kind":"targeted_source_mutation_development",
+    return {"schema_version":1,"kind":"targeted_source_mutation_development","source_snapshot":"git_tree",
             "candidate":{"commit":"b"*40,"tree":TREE,"tracked_clean":True},
             "catalog_sha256":hashlib.sha256(json.dumps(SUITES,sort_keys=True,separators=(",",":")).encode()).hexdigest(),"python":version+".9","planned":n,
             "counts":{"killed":n},"suites":suites,"passed":True,"release_authorized":False}
@@ -136,3 +136,9 @@ def test_public_package_exports_remain_compatible():
     from scripts.dragon_analyzer.models import DragonData as Data
     from scripts.dragon_analyzer.ocr import DragonScreenshotOCR as OCR
     assert (DragonAnalyzer,DragonData,DragonScreenshotOCR)==(Analyzer,Data,OCR)
+
+
+def test_checkout_snapshot_mode_required():
+    r=report()
+    r["source_snapshot"]="working_directory"
+    assert "source_snapshot_mismatch" in inspect_mutations(ROOT,TREE,r,"3.11")

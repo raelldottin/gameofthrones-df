@@ -112,3 +112,43 @@ def test_domain_core_has_no_direct_io_dependencies(module):
             assert node.module.split(".")[0] not in forbidden
         if isinstance(node,ast.Call) and isinstance(node.func,ast.Name):
             assert node.func.id not in {"open","exec","eval","__import__"}
+
+
+def test_committed_tree_snapshot_excludes_untracked_and_dirty_files(tmp_path):
+    import subprocess
+    from quality.mutation_runner import export_tree
+    root=tmp_path/"repo";root.mkdir()
+    def git(*args):
+        return subprocess.check_output(["git",*args],cwd=root,text=True).strip()
+    git("init","-q")
+    git("config","user.email","test@example.invalid")
+    git("config","user.name","Test")
+    (root/"scripts").mkdir()
+    (root/"scripts"/"source.py").write_text("original\n")
+    (root/".gitignore").write_text("ignored.py\n")
+    git("add",".");git("commit","-qm","fixture")
+    commit=git("rev-parse","HEAD")
+    (root/"scripts"/"source.py").write_text("dirty\n")
+    (root/"scripts"/"untracked.py").write_text("untracked\n")
+    (root/"scripts"/"ignored.py").write_text("ignored\n")
+    dest=tmp_path/"export";dest.mkdir()
+    export_tree(root,dest,commit)
+    assert (dest/"scripts"/"source.py").read_text()=="original\n"
+    assert not (dest/"scripts"/"untracked.py").exists()
+    assert not (dest/"scripts"/"ignored.py").exists()
+
+
+def test_committed_tree_snapshot_rejects_symlink(tmp_path):
+    import subprocess
+    from quality.mutation_runner import export_tree
+    root=tmp_path/"repo";root.mkdir()
+    def git(*args):
+        return subprocess.check_output(["git",*args],cwd=root,text=True).strip()
+    git("init","-q");git("config","user.email","test@example.invalid")
+    git("config","user.name","Test")
+    (root/"symlink").symlink_to(tmp_path/"outside")
+    git("add",".");git("commit","-qm","fixture")
+    dest=tmp_path/"export";dest.mkdir()
+    with pytest.raises(ValueError,match="unsupported tree entry"):
+        export_tree(root,dest,git("rev-parse","HEAD"))
+    assert not (dest/"symlink").exists()
