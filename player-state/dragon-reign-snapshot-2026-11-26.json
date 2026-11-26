@@ -23,7 +23,17 @@
     "IMG_5917.jpeg",
     "IMG_5918.jpeg",
     "IMG_5919.jpeg",
-    "IMG_5920.jpeg"
+    "IMG_5920.jpeg",
+    "IMG_5921.jpeg",
+    "IMG_5922.jpeg",
+    "IMG_5923.jpeg",
+    "IMG_5924.jpeg",
+    "IMG_5925.jpeg",
+    "IMG_5926.jpeg",
+    "IMG_5927.jpeg",
+    "IMG_5928.jpeg",
+    "IMG_5929.jpeg",
+    "IMG_5930.jpeg"
   ],
   "dragons": [
     {
@@ -347,7 +357,10 @@
       },
       "speed": "Fast",
       "stage": "Hatchling",
-      "source_screenshot": "IMG_5919.jpeg"
+      "source_screenshot": "IMG_5919.jpeg",
+      "confirming_screenshots": [
+        "IMG_5921.jpeg"
+      ]
     },
     {
       "name": "Vhagar",
@@ -364,13 +377,153 @@
       },
       "speed": "Slow",
       "stage": "Hatchling",
-      "source_screenshot": "IMG_5920.jpeg"
+      "source_screenshot": "IMG_5920.jpeg",
+      "confirming_screenshots": [
+        "IMG_5922.jpeg"
+      ]
+    },
+    {
+      "name": "Kalspire",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 6470,
+      "displayed_troop_capacity": 1478,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5923.jpeg"
+    },
+    {
+      "name": "Crimson",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4070,
+      "displayed_troop_capacity": 1458,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5924.jpeg"
+    },
+    {
+      "name": "Caraxes",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4070,
+      "displayed_troop_capacity": 1458,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5925.jpeg"
+    },
+    {
+      "name": "Meleys",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4070,
+      "displayed_troop_capacity": 1458,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Very Fast",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5926.jpeg"
+    },
+    {
+      "name": "Seasmoke",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4070,
+      "displayed_troop_capacity": 1458,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5927.jpeg"
+    },
+    {
+      "name": "Daemoros",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 7790,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5928.jpeg"
+    },
+    {
+      "name": "Feskar",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 6930,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5929.jpeg"
+    },
+    {
+      "name": "Tashix",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 6930,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5930.jpeg"
     }
   ],
   "notes": [
     "XP thresholds are preserved exactly as rounded display strings, not expanded to false precision.",
     "Vermithor and Venator show 210/100 energy; Shadowsong, Arulix and Thunderstrike show 130/100; Sunfyre, Moondancer and Vhagar show 250/100. Recorded as displayed, not clamped.",
     "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. Other dragons are not updated.",
-    "Second batch IMG_5911–IMG_5920 extends this dated snapshot to twenty profiles. Reign identifier and reset starting level remain unknown."
+    "Second batch IMG_5911–IMG_5920 extends this dated snapshot to twenty profiles. Reign identifier and reset starting level remain unknown.",
+    "Third batch IMG_5921–IMG_5930 adds eight level-1 profiles, each at 0/165 XP and 250/100 energy, and reconfirms Moondancer and Vhagar without duplication. Twenty-eight unique detailed profiles are now recorded. No reset event is inferred from the level-1 observations."
   ]
 }
