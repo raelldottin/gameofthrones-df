@@ -48,9 +48,19 @@
     "IMG_5927.jpeg",
     "IMG_5928.jpeg",
     "IMG_5929.jpeg",
-    "IMG_5930.jpeg"
+    "IMG_5930.jpeg",
+    "IMG_5931.jpeg",
+    "IMG_5932.jpeg",
+    "IMG_5933.jpeg",
+    "IMG_5934.jpeg",
+    "IMG_5935.jpeg",
+    "IMG_5936.jpeg",
+    "IMG_5937.jpeg",
+    "IMG_5938.jpeg",
+    "IMG_5939.jpeg",
+    "IMG_5940.jpeg"
   ],
-  "scope": "Twenty-eight unique detailed Dragon Pit profiles across thirty screenshots. Apply by dragon name after earlier overlays. Dragon level resets each reign/season; levels, XP, displayed power, troop capacity and energy are excluded from persistent progression.",
+  "scope": "Thirty-eight unique detailed owned Dragon Pit profiles across forty screenshots, covering every previously documented owned dragon plus Meleys. Apply by dragon name after earlier overlays. Dragon level resets each reign/season; levels, XP, displayed power, troop capacity and energy are excluded from persistent progression. No acquisition date or unshown dragon ownership inferred.",
   "seasonal_snapshot": "player-state/dragon-reign-snapshot-2026-11-26.json",
   "updates": [
     {
@@ -689,15 +699,244 @@
       "temperament": "Nimble",
       "verified_on": "2026-11-26",
       "source_screenshot": "IMG_5930.jpeg"
+    },
+    {
+      "name": "Velar",
+      "owned": true,
+      "stars": 4,
+      "relics_toward_next_star": {
+        "current": 14,
+        "required": 300
+      },
+      "habits": [
+        {
+          "name": "Strategic Leader",
+          "level": 1
+        },
+        {
+          "name": "Quick Reflexes",
+          "level": 1
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Whirlwind",
+      "temperament": "Willful",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5931.jpeg"
+    },
+    {
+      "name": "Vermax",
+      "owned": true,
+      "stars": 4,
+      "relics_toward_next_star": {
+        "current": 133,
+        "required": 300
+      },
+      "habits": [
+        {
+          "name": "Trial by Flame",
+          "level": 1
+        },
+        {
+          "name": "Reactive Instincts",
+          "level": 1
+        }
+      ],
+      "class": "Warrior",
+      "command": "Spreading Blaze",
+      "temperament": "Dominant",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5932.jpeg"
+    },
+    {
+      "name": "Smoketail",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 35,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": null,
+          "level": 1,
+          "slot": 1,
+          "name_verification": "Not displayed; unverified"
+        }
+      ],
+      "class": "Hunter",
+      "command": null,
+      "temperament": "Ruthless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5933.jpeg"
+    },
+    {
+      "name": "Tairax",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 105,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Whisper of Ash",
+          "level": 1
+        }
+      ],
+      "class": "Hunter",
+      "command": "Burning Ward",
+      "temperament": "Volatile",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5934.jpeg"
+    },
+    {
+      "name": "Tessarion",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 31,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Sharpened Beauty",
+          "level": 1
+        }
+      ],
+      "class": "Champion",
+      "command": "Cobalt Flame",
+      "temperament": "Ruthless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5935.jpeg"
+    },
+    {
+      "name": "Starshower",
+      "owned": true,
+      "stars": 2,
+      "relics_toward_next_star": {
+        "current": 78,
+        "required": 100
+      },
+      "habits": [
+        {
+          "name": null,
+          "level": 1,
+          "slot": 1,
+          "name_verification": "Not displayed; unverified"
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Starfall",
+      "temperament": "Relentless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5936.jpeg"
+    },
+    {
+      "name": "Nyrena",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 182,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Battle Dread",
+          "level": 2
+        },
+        {
+          "name": "Mindful Synergy",
+          "level": 2
+        }
+      ],
+      "class": "Champion",
+      "command": "Undermine",
+      "temperament": "Dominant",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5937.jpeg"
+    },
+    {
+      "name": "Shadowrend",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 230,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Midnight Aura",
+          "level": 1
+        },
+        {
+          "name": "Nimble Resilience",
+          "level": 1
+        }
+      ],
+      "class": "Warrior",
+      "command": "Eclipse Fervor",
+      "temperament": "Volatile",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5938.jpeg"
+    },
+    {
+      "name": "Vesper",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 225,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Strategic Leader",
+          "level": 1
+        },
+        {
+          "name": "Dragon's Insight",
+          "level": 1
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Eventide Strike",
+      "temperament": "Nimble",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5939.jpeg"
+    },
+    {
+      "name": "Arrax",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 367,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Headlong Into Danger",
+          "level": 3
+        },
+        {
+          "name": "Stone Bulwark",
+          "level": 1
+        }
+      ],
+      "class": "Warrior",
+      "command": "Sudden Strike",
+      "temperament": "Relentless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5940.jpeg"
     }
   ],
   "verification_notes": [
     "Direct detailed profiles are authoritative for displayed star ranks and exact relic counters, unlike Hatchery reward-only screenshots. Each red star replaces one gold glyph and counts as two ranks; one red plus four gold is six stars, two red plus three gold is seven stars.",
     "Habit levels are directly displayed; habit and command names are matched to the September 20 roster and existing Syrax/Venator ability references, not read from these icons. Locked slots are not assigned levels.",
-    "This is a partial update, not a complete roster or ownership census. Other dragons retain their latest dated evidence; no new ownership count or exact timing of star-ups is inferred.",
+    "Earlier batches were partial; the four batches together now cover all 37 previously documented owned dragons plus Meleys (38 directly observed owned profiles). No exact acquisition or star-up timing is inferred.",
     "Jagadrix 7 stars, Dawnseeker and Antares 5 stars, Vermithor 3 stars, and Shimmer Loyal Shield level 4 supersede their older directly verified profile/overlay values. The screenshots do not establish when those upgrades occurred.",
-    "Latest directly observed habit levels in this overlay take precedence over older habit snapshots for these twenty dragons; retain older upgrade cost/effect references as dated evidence. No commander or march changes were supplied.",
+    "Latest directly observed habit levels in this overlay take precedence over older habit snapshots for the thirty-eight dragons; retain older upgrade cost/effect references as dated evidence. No commander or march changes were supplied.",
     "IMG_5911–IMG_5920 extend the same dated overlay to twenty directly observed profiles. Vaeldra's third habit is Tempting Distraction (dragons/vaeldra.json). Sunfyre's first unlocked habit is level 1; its name is unverified and retained as null rather than inferred from artwork. Other habit and command names are matched to prior roster evidence. No exact upgrade timing or full ownership census inferred.",
-    "Third batch IMG_5921–IMG_5930 adds eight unique profiles and reconfirms unchanged Moondancer and Vhagar; no duplicate records. Names for commands and habits matched against existing dragons/ references where available. Meleys command and first habit names are unverified; only the habit level is directly shown. Sidebar-only profiles are not refreshed. The eight new detailed records are not evidence of newly acquired ownership."
+    "Third batch IMG_5921–IMG_5930 adds eight unique profiles and reconfirms unchanged Moondancer and Vhagar; no duplicate records. Names for commands and habits matched against existing dragons/ references where available. Meleys command and first habit names are unverified; only the habit level is directly shown. Sidebar-only profiles are not refreshed. The eight new detailed records are not evidence of newly acquired ownership.",
+    "Fourth batch IMG_5931–IMG_5940 adds ten unique detailed profiles. Velar 4★, Smoketail 3★, Tairax 3★, Tessarion 3★ and Shadowrend 5★ are directly observed at their new dated ranks. Nyrena's Mindful Synergy is level 2. Habit and command identities matched to prior roster and dragons/ ability references where supported; Smoketail command and first habit and Starshower first habit are unverified (null). Earlier names and upgrade costs are historical references, not newly displayed. Meleys was not in the prior 37-name roster; all 38 names are directly observed today. No claim about unshown dragons."
   ]
 }

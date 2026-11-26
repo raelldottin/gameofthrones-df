@@ -33,7 +33,17 @@
     "IMG_5927.jpeg",
     "IMG_5928.jpeg",
     "IMG_5929.jpeg",
-    "IMG_5930.jpeg"
+    "IMG_5930.jpeg",
+    "IMG_5931.jpeg",
+    "IMG_5932.jpeg",
+    "IMG_5933.jpeg",
+    "IMG_5934.jpeg",
+    "IMG_5935.jpeg",
+    "IMG_5936.jpeg",
+    "IMG_5937.jpeg",
+    "IMG_5938.jpeg",
+    "IMG_5939.jpeg",
+    "IMG_5940.jpeg"
   ],
   "dragons": [
     {
@@ -517,13 +527,184 @@
       "speed": "Fast",
       "stage": "Juvenile",
       "source_screenshot": "IMG_5930.jpeg"
+    },
+    {
+      "name": "Velar",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 6930,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5931.jpeg"
+    },
+    {
+      "name": "Vermax",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 6930,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5932.jpeg"
+    },
+    {
+      "name": "Smoketail",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4490,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5933.jpeg"
+    },
+    {
+      "name": "Tairax",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4490,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Very Slow",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5934.jpeg"
+    },
+    {
+      "name": "Tessarion",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 4490,
+      "displayed_troop_capacity": 1473,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5935.jpeg"
+    },
+    {
+      "name": "Starshower",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 2890,
+      "displayed_troop_capacity": 1458,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5936.jpeg"
+    },
+    {
+      "name": "Nyrena",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 5860,
+      "displayed_troop_capacity": 1478,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5937.jpeg"
+    },
+    {
+      "name": "Shadowrend",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 5260,
+      "displayed_troop_capacity": 1478,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5938.jpeg"
+    },
+    {
+      "name": "Vesper",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 5260,
+      "displayed_troop_capacity": 1478,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5939.jpeg"
+    },
+    {
+      "name": "Arrax",
+      "level": 1,
+      "xp": {
+        "current": 0,
+        "required_display": "165"
+      },
+      "displayed_power": 5910,
+      "displayed_troop_capacity": 1478,
+      "energy": {
+        "current": 250,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5940.jpeg"
     }
   ],
   "notes": [
     "XP thresholds are preserved exactly as rounded display strings, not expanded to false precision.",
     "Vermithor and Venator show 210/100 energy; Shadowsong, Arulix and Thunderstrike show 130/100; Sunfyre, Moondancer and Vhagar show 250/100. Recorded as displayed, not clamped.",
-    "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. Other dragons are not updated.",
+    "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. All 38 directly observed owned profiles are now included.",
     "Second batch IMG_5911–IMG_5920 extends this dated snapshot to twenty profiles. Reign identifier and reset starting level remain unknown.",
-    "Third batch IMG_5921–IMG_5930 adds eight level-1 profiles, each at 0/165 XP and 250/100 energy, and reconfirms Moondancer and Vhagar without duplication. Twenty-eight unique detailed profiles are now recorded. No reset event is inferred from the level-1 observations."
+    "Third batch IMG_5921–IMG_5930 adds eight level-1 profiles, each at 0/165 XP and 250/100 energy, and reconfirms Moondancer and Vhagar without duplication. Twenty-eight unique detailed profiles are now recorded. No reset event is inferred from the level-1 observations.",
+    "Fourth batch IMG_5931–IMG_5940 adds ten unique level-1 profiles with 0/165 XP and 250/100 energy. Together the four batches contain 38 unique profiles across 40 screenshots. Level 1 is observed, not proof of reset starting level. Exact reign identifier remains unknown."
   ]
 }
