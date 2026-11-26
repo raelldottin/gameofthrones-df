@@ -10,3 +10,5 @@ Read original bytes once, hash them, decode with Pillow, validate geometry, norm
 
 ## Next work
 Improve color-preserving title segmentation and level icon reading; design icon-based star/habit detector; add independent labels and a distinct capture-session holdout; enforce coverage and exact-field accuracy together; prevent candidate promotion until independently verified. Never tune against holdout. Freeze acceptance metrics before testing. No full release score, no independent agent dispatch in this session. Test-only commit precedes production code; CI verifies synthetic contracts, not real OCR accuracy.
+
+Review repair: a sign adjacent to a numeric token must not be consumed as icon decoration. Added four regression examples and six targeted source mutations for candidate extraction. Rerunning the revised parser against cached real OCR output preserved 524/3/73. CI results pending.

@@ -20,6 +20,13 @@ def choice(line, values):
     return found[0] if len(found) == 1 else None
 
 
+def unsigned_match(pattern, line):
+    match = re.fullmatch(pattern, line)
+    if match and re.search(r"[-−]\s*$", line[:match.start(1)]):
+        return None
+    return match
+
+
 def parse_panel(text, known_names):
     out = dict.fromkeys(FIELDS)
     lines = [x.strip() for x in text.splitlines() if x.strip()]
@@ -45,9 +52,9 @@ def parse_panel(text, known_names):
         xp = re.fullmatch(r'(\d{1,3})\s+(' + NUMBER + r')\s*/\s*(\d+(?:\.\d+)?[KkMm]?)', block[0])
         if xp and 1 <= int(xp[1]) <= 999:
             out['level'], out['xp_current'], out['xp_required_display'] = int(xp[1]), number(xp[2]), xp[3].upper()
-        power = re.fullmatch(r'[^\d]*(' + NUMBER + r')', block[1])
-        capacity = re.fullmatch(r'[^\d]*(' + NUMBER + r')\.0', block[2])
-        energy = re.fullmatch(r'[^\d]*(' + NUMBER + r')\s*/\s*(' + NUMBER + r')', block[3])
+        power = unsigned_match(r'[^\d]*(' + NUMBER + r')', block[1])
+        capacity = unsigned_match(r'[^\d]*(' + NUMBER + r')\.0', block[2])
+        energy = unsigned_match(r'[^\d]*(' + NUMBER + r')\s*/\s*(' + NUMBER + r')', block[3])
         if power:
             out['power'] = number(power[1])
         if capacity:
@@ -55,7 +62,7 @@ def parse_panel(text, known_names):
         if energy and number(energy[2]) > 0:
             out['energy_current'], out['energy_maximum'] = number(energy[1]), number(energy[2])
         out['speed'] = choice(block[4], SPEEDS)
-    relics = [m for line in lines[end+1:] if (m := re.fullmatch(r'[^\d]*(' + NUMBER + r')\s*/\s*(' + NUMBER + r')', line))]
+    relics = [m for line in lines[end+1:] if (m := unsigned_match(r'[^\d]*(' + NUMBER + r')\s*/\s*(' + NUMBER + r')', line))]
     if len(relics) == 1 and 0 <= number(relics[0][1]) < number(relics[0][2]):
         out['relic_current'], out['relic_required'] = number(relics[0][1]), number(relics[0][2])
     # Star icons and habits are deliberately not inferred from relic thresholds.

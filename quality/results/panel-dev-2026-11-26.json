@@ -108,9 +108,9 @@
     }
   ],
   "engine": "Tesseract 5.5.0 / leptonica 1.84.1; English; PSM 6",
-  "parser_sha256": "d41020b0098176acffb016a4c2c87f8d1bc070b714ef9a8d4545819d19a5119b",
+  "parser_sha256": "82730d9e14ad54f0e46e1cd8693bdc9d126995469bdda4933df190fa1dc86b17",
   "raw_ocr_sha256": "852486c077186f52421e18cf9693a39f2090a1feeda77bc0e0e7b18335fdb6fe",
   "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
   "acceptance": "FAIL: wrong critical levels, stars not supported, no independent holdout",
-  "execution": "Actual 40 local source images cropped and read in a single Tesseract batch, then parsed against manually transcribed labels. CI does not possess these images."
+  "execution": "Actual 40 local source images cropped and read in a single Tesseract batch, then parsed against manually transcribed labels. CI does not possess these images. Signed-number guard was added and the modified parser rerun on the identical cached OCR text; metrics unchanged."
 }
