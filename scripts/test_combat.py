@@ -109,5 +109,5 @@ def test_synthetic_calibration_can_only_be_diagnostic():
 
 def test_worse_than_baseline_blocks():
     train=[row(i,"t"+str(i),"train") for i in range(20)]
-    hold=[{**row(i+20,"h"+str(i),"holdout"),"prediction":[0,0]} for i in range(20)]
+    hold=[{**row(i+20,"h"+str(i),"holdout"),"prediction":[0,0],"predicted_outcome":"mutual_elimination"} for i in range(20)]
     assert prospective_gate(train,hold,mode="pve")["status"]=="blocked"

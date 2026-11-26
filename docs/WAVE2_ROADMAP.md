@@ -20,3 +20,5 @@ Q11 draft: [signed affinity and habit-level visual recognition](Q11_ICON_RECOGNI
 Q12 draft: [signed player-state ledger](Q12_PLAYER_LEDGER.md); migration staging and local restore tests, production authority pending.
 
 Q13 draft: [evidence-constrained positional and deployment optimization](Q13_TACTICAL_OPTIMIZER.md); calibrated effects and broader catalog pending.
+
+Q14 draft: [round-level illustrative combat engine and diagnostic calibration](Q14_COMBAT_CALIBRATION.md); actual prospective evidence pending.
