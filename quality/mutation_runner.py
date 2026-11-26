@@ -169,6 +169,31 @@ def run_suite(root,name,target,cases,*,executor=execute):
     return report
 
 
+
+def export_tree(root,destination,commit):
+    """Materialize exact regular Git blobs; do not read dirty or untracked files."""
+    root=Path(root);destination=Path(destination)
+    if not destination.is_dir() or any(destination.iterdir()):
+        raise ValueError("empty export destination required")
+    entries=subprocess.check_output(["git","ls-tree","-r","-z",commit],cwd=root)
+    validated=[]
+    for entry in entries.split(b"\0"):
+        if not entry:continue
+        header,name=entry.split(b"\t",1)
+        mode,kind,oid=header.decode("ascii").split()
+        rel=Path(os.fsdecode(name))
+        if (mode not in ("100644","100755") or kind!="blob" or rel.is_absolute()
+                or any(x in (".","..",".git") for x in rel.parts) or not rel.parts):
+            raise ValueError("unsupported tree entry")
+        validated.append((mode,oid,rel))
+    for mode,oid,rel in validated:
+        path=destination/rel
+        path.parent.mkdir(parents=True,exist_ok=True)
+        data=subprocess.check_output(["git","cat-file","blob",oid],cwd=root)
+        with path.open("xb") as f:f.write(data)
+        path.chmod(0o755 if mode=="100755" else 0o644)
+
+
 def git_info(root):
     def read(*args):
         return subprocess.check_output(["git",*args],cwd=root,text=True).strip()
@@ -187,13 +212,16 @@ def main(argv=None):
     candidate=git_info(ROOT)
     catalog_hash=hashlib.sha256(json.dumps(SUITES,sort_keys=True,separators=(",",":")).encode()).hexdigest()
     results=[]
-    for name in names:
-        target,raw=SUITES[name]
-        results.append(run_suite(ROOT,name,target,[Case(*row) for row in raw]))
+    with tempfile.TemporaryDirectory(prefix="df-git-tree-") as temp:
+        frozen=Path(temp)
+        export_tree(ROOT,frozen,candidate["commit"])
+        for name in names:
+            target,raw=SUITES[name]
+            results.append(run_suite(frozen,name,target,[Case(*row) for row in raw]))
     totals=Counter(r["status"] for s in results for r in s["cases"])
     planned=sum(len(SUITES[n][1]) for n in names)
-    passed=candidate["tracked_clean"] and all(s["passed"] for s in results) and totals["killed"]==planned
-    report={"schema_version":1,"kind":"targeted_source_mutation_development",
+    passed=candidate["tracked_clean"] and git_info(ROOT)==candidate and all(s["passed"] for s in results) and totals["killed"]==planned
+    report={"schema_version":1,"kind":"targeted_source_mutation_development","source_snapshot":"git_tree",
             "candidate":candidate,"catalog_sha256":catalog_hash,"python":sys.version.split()[0],
             "planned":planned,"counts":dict(totals),"suites":results,"passed":passed,
             "release_authorized":False}

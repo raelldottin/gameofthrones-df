@@ -61,8 +61,8 @@ def test_invalid_xml_is_not_evidence(tmp_path):
 def test_catalog_preserves_all_original_cases():
     assert {name:len(cases) for name,(_,cases) in SUITES.items()}=={
         "contract":11,"panel":6,"visual":7,"reconcile":13,
-        "solver":7,"battle":8,"supervisor":13,"release":9,"runtime":9,"icons":7,"ledger":11,"tactical":7,"combat":11,"strategy":7,"certification":10}
-    assert sum(len(cases) for _,cases in SUITES.values())==136
+        "solver":7,"battle":8,"supervisor":13,"release":9,"runtime":9,"icons":7,"ledger":11,"tactical":7,"combat":11,"strategy":7,"certification":11}
+    assert sum(len(cases) for _,cases in SUITES.values())==137
 
 def test_real_canaries_and_source_immutability(tmp_path):
     root=tmp_path/"project"
@@ -112,3 +112,43 @@ def test_domain_core_has_no_direct_io_dependencies(module):
             assert node.module.split(".")[0] not in forbidden
         if isinstance(node,ast.Call) and isinstance(node.func,ast.Name):
             assert node.func.id not in {"open","exec","eval","__import__"}
+
+
+def test_committed_tree_snapshot_excludes_untracked_and_dirty_files(tmp_path):
+    import subprocess
+    from quality.mutation_runner import export_tree
+    root=tmp_path/"repo";root.mkdir()
+    def git(*args):
+        return subprocess.check_output(["git",*args],cwd=root,text=True).strip()
+    git("init","-q")
+    git("config","user.email","test@example.invalid")
+    git("config","user.name","Test")
+    (root/"scripts").mkdir()
+    (root/"scripts"/"source.py").write_text("original\n")
+    (root/".gitignore").write_text("ignored.py\n")
+    git("add",".");git("commit","-qm","fixture")
+    commit=git("rev-parse","HEAD")
+    (root/"scripts"/"source.py").write_text("dirty\n")
+    (root/"scripts"/"untracked.py").write_text("untracked\n")
+    (root/"scripts"/"ignored.py").write_text("ignored\n")
+    dest=tmp_path/"export";dest.mkdir()
+    export_tree(root,dest,commit)
+    assert (dest/"scripts"/"source.py").read_text()=="original\n"
+    assert not (dest/"scripts"/"untracked.py").exists()
+    assert not (dest/"scripts"/"ignored.py").exists()
+
+
+def test_committed_tree_snapshot_rejects_symlink(tmp_path):
+    import subprocess
+    from quality.mutation_runner import export_tree
+    root=tmp_path/"repo";root.mkdir()
+    def git(*args):
+        return subprocess.check_output(["git",*args],cwd=root,text=True).strip()
+    git("init","-q");git("config","user.email","test@example.invalid")
+    git("config","user.name","Test")
+    (root/"symlink").symlink_to(tmp_path/"outside")
+    git("add",".");git("commit","-qm","fixture")
+    dest=tmp_path/"export";dest.mkdir()
+    with pytest.raises(ValueError,match="unsupported tree entry"):
+        export_tree(root,dest,git("rev-parse","HEAD"))
+    assert not (dest/"symlink").exists()
