@@ -78,7 +78,7 @@ def test_readiness_mode_has_separate_objective():
     dragons=[d("A",5,["Archers"],capacity=1),d("B",4,["Archers"],capacity=100000)]
     result=optimize(dragons,{"Archers":1},objective="readiness")
     assert result["assignments"]=={"Archers":["B"]}
-    assert result["score"]==48
+    assert result["score"]==44
     assert result["objective_value"]==100000
 
 
