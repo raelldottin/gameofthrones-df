@@ -16,3 +16,5 @@ Dependencies: Q9 before runtime integration. Q11/Q12 before authoritative automa
 Q10 draft: [verified upstream interface audit and receipt bridge](Q10_RUNTIME_BRIDGE.md). Live runtime canary remains blocked.
 
 Q11 draft: [signed affinity and habit-level visual recognition](Q11_ICON_RECOGNITION.md); other screen types and independent holdout pending.
+
+Q12 draft: [signed player-state ledger](Q12_PLAYER_LEDGER.md); migration staging and local restore tests, production authority pending.
