@@ -18,3 +18,5 @@ Q10 draft: [verified upstream interface audit and receipt bridge](Q10_RUNTIME_BR
 Q11 draft: [signed affinity and habit-level visual recognition](Q11_ICON_RECOGNITION.md); other screen types and independent holdout pending.
 
 Q12 draft: [signed player-state ledger](Q12_PLAYER_LEDGER.md); migration staging and local restore tests, production authority pending.
+
+Q13 draft: [evidence-constrained positional and deployment optimization](Q13_TACTICAL_OPTIMIZER.md); calibrated effects and broader catalog pending.

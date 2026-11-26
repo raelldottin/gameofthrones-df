@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-26",
+  "partition": "development_only",
+  "source_commit": "59759aef9c3b5d70b7231ca382eb4cdc87cc3a4c",
+  "method": "Separate JavaScript exhaustive replay of pinned roster, five directional rules and 17 attack schedules; all 17 current command names match historical source names. Python implementation CI pending at recording.",
+  "positions": {
+    "evaluated": 60,
+    "baseline_points": 18,
+    "candidate_points": 28.8,
+    "changed_marches": [
+      1
+    ],
+    "unchanged": 9,
+    "member_substitutions": 0,
+    "alternative": {
+      "march": 1,
+      "baseline": [
+        "Sheepstealer",
+        "Malachite",
+        "Shimmer"
+      ],
+      "candidate": [
+        "Sheepstealer",
+        "Shimmer",
+        "Malachite"
+      ],
+      "effect": "Crushing Force level 2: 10.8% Tactical modifier overlapping Malachite round 2",
+      "points": 10.8
+    }
+  },
+  "capacity_only": {
+    "marches": [
+      1,
+      2,
+      3,
+      4,
+      9
+    ],
+    "displayed_capacity": 56122
+  },
+  "illustrative_counter": {
+    "targets": [
+      "Cavalry",
+      "Spearmen",
+      "Archers",
+      "Shieldbearers",
+      "Siege"
+    ],
+    "marches": [
+      2,
+      3,
+      6,
+      1,
+      4
+    ],
+    "advantage_count": 5,
+    "disadvantage_count": 0,
+    "displayed_capacity": 51240
+  },
+  "battle_improvement": null,
+  "limitations": [
+    "Only five directional rules; unknown fallback and omitted effects may change ranking.",
+    "Historical command/habit descriptions are transcriptions, not verified current mechanics.",
+    "No calibrated attack, defense, status, healing, gear or commander talent model.",
+    "Counter-first lexicographic objective is a policy choice; it does not establish actual battle advantage or five-march readiness. March 6 is level 1.",
+    "No independent agents or real combat validation."
+  ],
+  "release_accepted": false
+}
