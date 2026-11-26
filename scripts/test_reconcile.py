@@ -245,3 +245,57 @@ def test_empty_reign_changes_formation_basis():
     a=run([],as_of="2026-01-20T00:00:00Z")
     b=run([])
     assert formation_is_stale(a["formation_basis"],b)
+
+
+def test_all_720_arrival_orders_with_conflicts_and_reset():
+    a=event()
+    b=event("b",FEB,"r2",6,1)
+    c=event("c","2026-02-03T00:00:00Z","r2",6,2)
+    d=event("d","2026-02-04T00:00:00Z","r2",7,3)
+    e=event("d","2026-02-04T00:00:00Z","r2",6,3)
+    f=event("f","2026-02-05T00:00:00Z","r2",7,4)
+    events=[a,b,c,d,e,f]
+    approved=approvals(a,b,c,d,e)
+    expected=run(events,approved)
+    assert expected["seasonal"]["Jagadrix"]["level"]==2
+    assert sorted(q["reason"] for q in expected["quarantine"])==["source_conflict","source_conflict","unapproved"]
+    for order in itertools.permutations(events):
+        assert run(list(order),approved)==expected
+
+
+def minimal_legacy():
+    p={"observed_date":"2026-11-26","source_screenshots":["IMG_1.jpeg"],
+       "updates":[{"name":"A","stars":5,"source_screenshot":"IMG_1.jpeg"}]}
+    s={"observed_date":"2026-11-26","source_screenshots":["IMG_1.jpeg"],
+       "dragons":[{"name":"A","level":22,"source_screenshot":"IMG_1.jpeg"}]}
+    return p,s
+
+
+def test_legacy_mismatched_profile_source_rejected():
+    p,s=minimal_legacy()
+    s["dragons"][0]["source_screenshot"]="IMG_2.jpeg"
+    with pytest.raises(ValueError,match="profile source"):
+        stage_legacy(p,s)
+
+
+def test_legacy_missing_date_rejected():
+    p,s=minimal_legacy()
+    p.pop("observed_date")
+    s.pop("observed_date")
+    with pytest.raises(ValueError,match="date"):
+        stage_legacy(p,s)
+
+
+def test_legacy_different_manifest_rejected():
+    p,s=minimal_legacy()
+    s["source_screenshots"].append("IMG_2.jpeg")
+    with pytest.raises(ValueError,match="manifest"):
+        stage_legacy(p,s)
+
+
+def test_legacy_staged_records_do_not_alias_sources():
+    p,s=minimal_legacy()
+    out=stage_legacy(p,s)
+    out["profiles"][0]["permanent"]["stars"]=7
+    assert p["updates"][0]["stars"]==5
+    assert out["source_document_digests"]==[digest(p),digest(s)]
