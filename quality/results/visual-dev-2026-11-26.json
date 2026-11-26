@@ -98,5 +98,24 @@
   "visual_source_sha256": "c0f8af4d3db10aa99d3f43be3fdb23f9184f5d14cb51c42cc5e710d76c5630bf",
   "manifest_sha256": "41ac792e5bc00565bfad5cf24683f7f805f646be5809896c04fc4ae6d3d0b8da",
   "execution": "Local original-image field crops read in five separate Tesseract batches, previous whole-panel OCR cached; visual module merged outputs and classified stars from original pixels. Same development session as Q2. Integrated replay runner added but not independently executed at this checkpoint.",
-  "acceptance": "Development accuracy target reached. Release blocked: independent holdout, habit icon recognition, independent review, deployment layout diversity and end-to-end replay verification outstanding."
+  "acceptance": "Development accuracy reached and fresh local replay reproduced; release blocked by independent holdout, habit recognition, independent review and layout diversity. Committed CLI wrapper not independently evaluated on originals.",
+  "replay": {
+    "method": "Fresh local rerun from 40 original screenshots, recreated all six OCR batches with same crop logic and exact committed visual.py and panel.py blobs; independent evaluator not involved.",
+    "manifest_verified": true,
+    "visual_git_blob": "4ace193791a9dc4333cd825beb8573619d2e2f81",
+    "panel_git_blob": "7d4d004cf301586037c65e16746edb7eac1cf91c",
+    "totals": {
+      "correct": 599,
+      "wrong": 0,
+      "abstain": 1
+    },
+    "raw_ocr_sha256": {
+      "panel": "852486c077186f52421e18cf9693a39f2090a1feeda77bc0e0e7b18335fdb6fe",
+      "name": "944ae292ecf26d362b09d247afc0d9ef1b126708332feddf69288d96dd499754",
+      "level": "afb9f2df3cf53e85ebba2c4837f4485568b2ba33ebe55b5a63d796a35e90e837",
+      "xp": "a3703f0c2a6fbcf99a77a7819003b81beafbbdac14d78c4a843494ce49edc393",
+      "power": "7447d65d14edcee885d7fc4df761c3754b0f239de6d3b735faf71e2263284d8c",
+      "relic": "b64ff9d657b61f79f7f76f8b0648642de41bab502184e36fba3687656d641285"
+    }
+  }
 }
