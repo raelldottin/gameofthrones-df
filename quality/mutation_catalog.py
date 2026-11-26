@@ -155,4 +155,16 @@ SUITES = {
         ("assume unknown currency is free", "strategy.py", 'if not set(o["cost"])<=set(budget):', "if False:", "test_no_implicit_cost_conversion"),
         ("pretend core budget known", "strategy.py", '"dragon_core_budget":None', '"dragon_core_budget":{}', "test_historical_costs_not_spend_authority"),
     ]),
+    "certification": ("scripts/test_certification.py", [
+        ("ignore candidate tree", "certification.py", 'or candidate.get("tree")!=tree', "", "test_wrong_tree_not_admitted"),
+        ("ignore catalog hash", "certification.py", 'if report.get("catalog_sha256")!=catalog_hash():', "if False:", "test_wrong_catalog_not_admitted"),
+        ("ignore exact case census", "certification.py", 'if len(indexed)!=len(rows) or set(indexed)!={c[0] for c in cases}:', "if False:", "test_incomplete_suite_not_admitted_even_if_summary_passes"),
+        ("allow false kill", "certification.py", 'or r.get("exit_code")!=1', "", "test_fake_kill_not_admitted"),
+        ("ignore source hashes", "certification.py", 'if (r.get("source_before")!=hashlib.sha256(src.encode()).hexdigest()\n                    or r.get("source_after")!=hashlib.sha256(changed.encode()).hexdigest()):', "if False:", "test_source_hash_mismatch_not_admitted"),
+        ("ignore missing matrix version", "certification.py", 'if version not in by:issues.append("missing_python:"+version)', "if version not in by:pass", "test_both_versions_needed_and_no_synthetic_release"),
+        ("ignore protected player data", "certification.py", 'if protected_unchanged is not True:issues.append("protected_data_changed")', "pass", "test_protected_data_changes_block"),
+        ("ignore environment identity", "certification.py", 'baseline["environment"]!=candidate["environment"] or baseline["input"]!=candidate["input"]', 'baseline["input"]!=candidate["input"]', "test_different_environment_or_inputs_cannot_certify"),
+        ("ignore performance regression", "certification.py", 'or new/old>p["max_regression_ratio"]', "", "test_comparable_performance_and_explicit_budget"),
+        ("allow unrelated test failure", "certification.py", 'or any(not isinstance(x,str) or not (x==prefix or x.startswith(prefix+"[")) for x in failed)', "", "test_unrelated_test_failure_rejected"),
+    ]),
 }
