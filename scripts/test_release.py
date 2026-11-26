@@ -77,7 +77,10 @@ def test_unresolved_independence_blocks():
     r,q=package()
     for x in r:
         if x["gate"]=="independent_review":x["issuer"]="ci"
-    assert assess(TREE,r,q,trust(r,q))["status"]=="blocked"
+    q["evidence"]={k:[digest(x) for x in r if x["gate"]!="independent_qa"] for k in DIMENSIONS}
+    out=assess(TREE,r,q,trust(r,q))
+    assert "independence not established" in out["issues"]
+    assert out["status"]=="blocked"
 
 def test_qa_missing_evidence_blocks():
     r,q=package()

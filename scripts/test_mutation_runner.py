@@ -96,3 +96,19 @@ def test_broken_baseline_blocks_all_mutants(tmp_path):
     assert report["baseline"]["status"]=="fail"
     assert report["cases"]==[]
     assert report["passed"] is False
+
+
+@pytest.mark.parametrize("module",["reconcile","supervisor"])
+def test_domain_core_has_no_direct_io_dependencies(module):
+    import ast
+    root=Path(__file__).resolve().parents[1]
+    tree=ast.parse((root/"scripts/dragon_analyzer"/(module+".py")).read_text())
+    forbidden={"os","pathlib","subprocess","socket","requests","httpx","urllib",
+               "pytesseract","cv2","sqlite3","shutil"}
+    for node in ast.walk(tree):
+        if isinstance(node,ast.Import):
+            assert all(a.name.split(".")[0] not in forbidden for a in node.names)
+        if isinstance(node,ast.ImportFrom) and node.module:
+            assert node.module.split(".")[0] not in forbidden
+        if isinstance(node,ast.Call) and isinstance(node.func,ast.Name):
+            assert node.func.id not in {"open","exec","eval","__import__"}
