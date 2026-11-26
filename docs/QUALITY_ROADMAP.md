@@ -30,3 +30,5 @@ Q4 stacked draft: [reconciliation contract](Q4_RECONCILIATION.md); pure replay, 
 Q5 draft: [exact additive formation allocation](Q5_FORMATION_SOLVER.md). Tactical synergy and independent acceptance remain open.
 
 Q6 draft: [battle replay and illustrative attrition model](Q6_BATTLE_EVALUATION.md). Calibration and full combat mechanics remain blocked on evidence.
+
+Q7 draft: [bounded workflow supervisor contract](Q7_SUPERVISOR.md); simulated dispatch only, authenticated runtime integration and independent acceptance pending.

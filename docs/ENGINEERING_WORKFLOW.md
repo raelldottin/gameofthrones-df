@@ -21,3 +21,5 @@ Run `node quality/benchmark.mjs`. The gate checks dated roster/season/formation 
 Actual multi-agent dispatch, independent QA, source mutation and full release evaluation are not yet implemented. This audit used one assistant, not separate agents. The local pure JS benchmark ran against fetched repository content; the Node wrapper and CI are separate verification targets.
 
 What you do not measure regresses. Be ambitious, but report measured results and limitations. No fake defaults, hidden failures, or unimplemented success paths. Reign level resets; never persist it as permanent progression.
+
+Q7 implements the in-memory contract validator and bounded repair routing; see [supervisor design](Q7_SUPERVISOR.md). Actual fresh-agent runtime, trusted receipts, independent evaluation and durable handoffs remain external dependencies.
