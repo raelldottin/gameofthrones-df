@@ -90,3 +90,20 @@ def test_real_repository_audit():
     assert len(r["records"])==11
     assert r["round_replays"]==3
     assert r["calibration"]["release_accepted"] is False
+
+
+def test_real_calibration_abstains_without_independent_dates():
+    r=audit(Path(__file__).resolve().parents[1])
+    assert r["outcomes"]=={"victory":7,"stalemate":4}
+    assert len(r["excluded"])==5
+    assert r["calibration"]["evaluated"]==0
+    assert len(r["calibration"]["skips"])==3
+    assert r["calibration"]["win_probability"] is None
+
+
+def test_real_black_goat_recovery_replay():
+    r=audit(Path(__file__).resolve().parents[1])
+    goat=next(x for x in r["records"] if "shadowrend-shieldbearers" in x["id"])
+    assert replay(goat)=={"player_net_loss":1350,"enemy_net_loss":19500,
+                          "player_net_recovery_rounds":[3,6,9],
+                          "enemy_net_recovery_rounds":[]}
