@@ -1,0 +1,195 @@
+{
+  "observed_date": "2026-11-26",
+  "status": "dated current-reign Dragon Pit snapshot; not persistent",
+  "reign_id": null,
+  "reset_rule": "Dragon level resets each reign/season (player-confirmed). Do not carry forward levels or level-dependent stats across reigns; refresh these values after each reset. Exact reset level and season identifier not supplied.",
+  "source_screenshots": [
+    "IMG_5901.jpeg",
+    "IMG_5902.jpeg",
+    "IMG_5903.jpeg",
+    "IMG_5904.jpeg",
+    "IMG_5905.jpeg",
+    "IMG_5906.jpeg",
+    "IMG_5907.jpeg",
+    "IMG_5908.jpeg",
+    "IMG_5909.jpeg",
+    "IMG_5910.jpeg"
+  ],
+  "dragons": [
+    {
+      "name": "Malachite",
+      "level": 23,
+      "xp": {
+        "current": 90746,
+        "required_display": "95.7K"
+      },
+      "displayed_power": 19100,
+      "displayed_troop_capacity": 4316,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5901.jpeg"
+    },
+    {
+      "name": "Sheepstealer",
+      "level": 23,
+      "xp": {
+        "current": 73863,
+        "required_display": "95.7K"
+      },
+      "displayed_power": 18020,
+      "displayed_troop_capacity": 4316,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5902.jpeg"
+    },
+    {
+      "name": "Shimmer",
+      "level": 23,
+      "xp": {
+        "current": 90746,
+        "required_display": "95.7K"
+      },
+      "displayed_power": 15600,
+      "displayed_troop_capacity": 4316,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Adult",
+      "source_screenshot": "IMG_5903.jpeg"
+    },
+    {
+      "name": "Syrax",
+      "level": 22,
+      "xp": {
+        "current": 12488,
+        "required_display": "84.7K"
+      },
+      "displayed_power": 15620,
+      "displayed_troop_capacity": 3747,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Very Fast",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5904.jpeg"
+    },
+    {
+      "name": "Jagadrix",
+      "level": 22,
+      "xp": {
+        "current": 819,
+        "required_display": "84.7K"
+      },
+      "displayed_power": 17800,
+      "displayed_troop_capacity": 4407,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Adult",
+      "source_screenshot": "IMG_5905.jpeg"
+    },
+    {
+      "name": "Dawnseeker",
+      "level": 22,
+      "xp": {
+        "current": 12488,
+        "required_display": "84.7K"
+      },
+      "displayed_power": 14800,
+      "displayed_troop_capacity": 4187,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Very Fast",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5906.jpeg"
+    },
+    {
+      "name": "Venator",
+      "level": 20,
+      "xp": {
+        "current": 33252,
+        "required_display": "66.3K"
+      },
+      "displayed_power": 16020,
+      "displayed_troop_capacity": 3929,
+      "energy": {
+        "current": 210,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5907.jpeg"
+    },
+    {
+      "name": "Vermithor",
+      "level": 20,
+      "xp": {
+        "current": 32559,
+        "required_display": "66.3K"
+      },
+      "displayed_power": 16020,
+      "displayed_troop_capacity": 3929,
+      "energy": {
+        "current": 210,
+        "maximum": 100
+      },
+      "speed": "Average",
+      "stage": "Whelp",
+      "source_screenshot": "IMG_5908.jpeg"
+    },
+    {
+      "name": "Zivern",
+      "level": 20,
+      "xp": {
+        "current": 10054,
+        "required_display": "66.3K"
+      },
+      "displayed_power": 22320,
+      "displayed_troop_capacity": 4129,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Slow",
+      "stage": "Adult",
+      "source_screenshot": "IMG_5909.jpeg"
+    },
+    {
+      "name": "Antares",
+      "level": 20,
+      "xp": {
+        "current": 2161,
+        "required_display": "66.3K"
+      },
+      "displayed_power": 11650,
+      "displayed_troop_capacity": 3929,
+      "energy": {
+        "current": 100,
+        "maximum": 100
+      },
+      "speed": "Fast",
+      "stage": "Juvenile",
+      "source_screenshot": "IMG_5910.jpeg"
+    }
+  ],
+  "notes": [
+    "XP thresholds are preserved exactly as rounded display strings, not expanded to false precision.",
+    "Vermithor and Venator show 210/100 energy; recorded as displayed, not clamped.",
+    "Speed and growth stage are recorded as observed profile context; no claim is made that they reset. Other dragons are not updated."
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "observed_date": "2026-11-26",
+  "status": "latest reign-persistent dragon progression overlay",
+  "base_roster": "player-state/dragon-roster-2026-09-20.json",
+  "previous_overlays": [
+    "player-state/dragon-update-2026-09-22.json",
+    "player-state/dragon-update-2026-09-24.json",
+    "player-state/dragon-update-2026-09-25.json",
+    "player-state/dragon-update-2026-09-26.json",
+    "player-state/dragon-update-2026-09-27.json",
+    "player-state/dragon-update-2026-09-28.json",
+    "player-state/dragon-update-2026-09-29.json",
+    "player-state/dragon-update-2026-10-03.json",
+    "player-state/dragon-update-2026-10-06.json",
+    "player-state/dragon-update-2026-10-07.json",
+    "player-state/dragon-update-2026-10-10.json",
+    "player-state/dragon-update-2026-10-12.json",
+    "player-state/dragon-update-2026-10-17.json",
+    "player-state/dragon-update-2026-10-20.json"
+  ],
+  "source_screenshots": [
+    "IMG_5901.jpeg",
+    "IMG_5902.jpeg",
+    "IMG_5903.jpeg",
+    "IMG_5904.jpeg",
+    "IMG_5905.jpeg",
+    "IMG_5906.jpeg",
+    "IMG_5907.jpeg",
+    "IMG_5908.jpeg",
+    "IMG_5909.jpeg",
+    "IMG_5910.jpeg"
+  ],
+  "scope": "Ten detailed Dragon Pit profiles. Apply by dragon name after earlier overlays. Dragon level resets each reign/season; levels, XP, displayed power, troop capacity and energy are excluded from persistent progression.",
+  "seasonal_snapshot": "player-state/dragon-reign-snapshot-2026-11-26.json",
+  "updates": [
+    {
+      "name": "Malachite",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 40,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Forest's Instinct",
+          "level": 3
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Warden's Rally",
+      "temperament": "Stalwart",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5901.jpeg"
+    },
+    {
+      "name": "Sheepstealer",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 70,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Stolen Flock",
+          "level": 1
+        }
+      ],
+      "class": "Hunter",
+      "command": "Wild Hunt",
+      "temperament": "Ruthless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5902.jpeg"
+    },
+    {
+      "name": "Shimmer",
+      "owned": true,
+      "stars": 6,
+      "relics_toward_next_star": {
+        "current": 616,
+        "required": 800
+      },
+      "habits": [
+        {
+          "name": "Crushing Force",
+          "level": 2
+        },
+        {
+          "name": "Dragon's Insight",
+          "level": 1
+        },
+        {
+          "name": "Loyal Shield",
+          "level": 4
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Unbreakable Loyalty",
+      "temperament": "Stalwart",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5903.jpeg"
+    },
+    {
+      "name": "Syrax",
+      "owned": true,
+      "stars": 2,
+      "relics_toward_next_star": {
+        "current": 30,
+        "required": 100
+      },
+      "habits": [
+        {
+          "name": "Mindful Synergy",
+          "level": 1
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Blazing Fury",
+      "temperament": "Nimble",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5904.jpeg"
+    },
+    {
+      "name": "Jagadrix",
+      "owned": true,
+      "stars": 7,
+      "relics_toward_next_star": {
+        "current": 82,
+        "required": 1250
+      },
+      "habits": [
+        {
+          "name": "Enervate",
+          "level": 1
+        },
+        {
+          "name": "Second Wind",
+          "level": 1
+        },
+        {
+          "name": "Whispering Sabotage",
+          "level": 5
+        }
+      ],
+      "class": "Hunter",
+      "command": "Cunning Whispers",
+      "temperament": "Willful",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5905.jpeg"
+    },
+    {
+      "name": "Dawnseeker",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 57,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Tactical Inferno",
+          "level": 5
+        },
+        {
+          "name": "Unbroken Devotion",
+          "level": 5
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Radiant Wings",
+      "temperament": "Nimble",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5906.jpeg"
+    },
+    {
+      "name": "Venator",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 25,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Hunter's Bane",
+          "level": 1
+        }
+      ],
+      "class": "Warrior",
+      "command": "Feral Strike",
+      "temperament": "Ruthless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5907.jpeg"
+    },
+    {
+      "name": "Vermithor",
+      "owned": true,
+      "stars": 3,
+      "relics_toward_next_star": {
+        "current": 0,
+        "required": 180
+      },
+      "habits": [
+        {
+          "name": "Noble Sacrifice",
+          "level": 1
+        }
+      ],
+      "class": "Champion",
+      "command": "Bronze Fury",
+      "temperament": "Dominant",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5908.jpeg"
+    },
+    {
+      "name": "Zivern",
+      "owned": true,
+      "stars": 6,
+      "relics_toward_next_star": {
+        "current": 497,
+        "required": 800
+      },
+      "habits": [
+        {
+          "name": "Battle Mastery",
+          "level": 2
+        },
+        {
+          "name": "Keen Instinct",
+          "level": 2
+        },
+        {
+          "name": "Fearsome Reach",
+          "level": 2
+        }
+      ],
+      "class": "Sentinel",
+      "command": "Silent Shade",
+      "temperament": "Cunning",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5909.jpeg"
+    },
+    {
+      "name": "Antares",
+      "owned": true,
+      "stars": 5,
+      "relics_toward_next_star": {
+        "current": 163,
+        "required": 500
+      },
+      "habits": [
+        {
+          "name": "Blazing Onslaught",
+          "level": 3
+        },
+        {
+          "name": "Dragon's Flair",
+          "level": 1
+        }
+      ],
+      "class": "Hunter",
+      "command": "Relentless Pursuit",
+      "temperament": "Ruthless",
+      "verified_on": "2026-11-26",
+      "source_screenshot": "IMG_5910.jpeg"
+    }
+  ],
+  "verification_notes": [
+    "Direct detailed profiles are authoritative for displayed star ranks and exact relic counters, unlike Hatchery reward-only screenshots. Each red star replaces one gold glyph and counts as two ranks; one red plus four gold is six stars, two red plus three gold is seven stars.",
+    "Habit levels are directly displayed; habit and command names are matched to the September 20 roster and existing Syrax/Venator ability references, not read from these icons. Locked slots are not assigned levels.",
+    "This is a partial update, not a complete roster or ownership census. Other dragons retain their latest dated evidence; no new ownership count or exact timing of star-ups is inferred.",
+    "Jagadrix 7 stars, Dawnseeker and Antares 5 stars, Vermithor 3 stars, and Shimmer Loyal Shield level 4 supersede their older directly verified profile/overlay values. The screenshots do not establish when those upgrades occurred.",
+    "Latest directly observed habit levels in this overlay take precedence over older habit snapshots for these ten dragons; retain older upgrade cost/effect references as dated evidence. No commander or march changes were supplied."
+  ]
+}
