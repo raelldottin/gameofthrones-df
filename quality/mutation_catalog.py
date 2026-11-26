@@ -133,4 +133,17 @@ SUITES = {
         ("ignore changed mechanics source", "tactical.py", "if blob!=expected:", "if False:", "test_source_blob_mismatch_rejected"),
         ("allow reused dragon", "tactical.py", 'if len(names)!=len(set(names)): continue', "pass", "test_overlapping_preset_cannot_deploy_twice"),
     ]),
+    "combat": ("scripts/test_combat.py", [
+        ("ignore star gate", "combat.py", 'and by[a["actor"]]["stars"]>=a["gate"]', "", "test_star_gate"),
+        ("ignore round schedule", "combat.py", 'and r in a["rounds"]', "", "test_round_schedule"),
+        ("allow distant adjacent targets", "combat.py", 'if mode in ("adjacent","adjacent_allies") and abs(t["lane"]-owner["lane"])>1: continue', "pass", "test_adjacent_never_reaches_far_lane"),
+        ("ignore recovery cap", "combat.py", 'restored=min(by[n]["troops"]-troops[n],round(by[a["actor"]]["recovery_unit"]*rate/100))', 'restored=round(by[a["actor"]]["recovery_unit"]*rate/100)', "test_recovery_cap_and_no_resurrection"),
+        ("ignore status duration", "combat.py", 'if v[1]>=r', "", "test_weakened_duration_and_no_stacking"),
+        ("ignore nullify", "combat.py", 'if "nullify" in effects[n]: continue', "pass", "test_nullify_recovery"),
+        ("allow group leakage", "combat.py", 'if {r["group"] for r in train}&{r["group"] for r in holdout}: return blocked("group_leakage")', "pass", "test_calibration_rejects_group_leakage"),
+        ("allow scenario leakage", "combat.py", 'if {r["scenario_digest"] for r in train}&{r["scenario_digest"] for r in holdout}: return blocked("scenario_leakage")', "pass", "test_duplicate_scenario_rejected_even_if_group_differs"),
+        ("ignore frozen forecast checkpoint", "combat.py", "or digest(manifest)!=expected_digest", "", "test_frozen_prediction_evaluation_and_tamper_rejection"),
+        ("ignore conditional recovery multiplier", "combat.py", 'a.get("resistance_multiplier",1) if "resistance" in effects[n] else 1', "1", "test_resistance_doubles_only_conditional_recovery"),
+        ("allow non-improving predictor", "combat.py", 'if error>=baseline: return blocked("no_baseline_improvement")', "pass", "test_worse_than_baseline_blocks"),
+    ]),
 }

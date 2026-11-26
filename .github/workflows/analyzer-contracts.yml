@@ -35,6 +35,8 @@ jobs:
       - run: python -m pytest -o addopts='' -q scripts/test_ledger.py
       - run: python -m pytest -o addopts='' -q scripts/test_tactical.py
       - run: python -m scripts.dragon_analyzer.tactical
+      - run: python -m pytest -o addopts='' -q scripts/test_combat.py
+      - run: python -m scripts.dragon_analyzer.combat
       - run: dragonfire --help
       - run: python quality/replay_legacy_red.py
       - run: python -m quality.mutation_runner --output '${{ runner.temp }}/mutation-report.json'
